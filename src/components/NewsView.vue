@@ -23,16 +23,14 @@
         style="transition-delay: 0.1s"
       >
         <div class="card-visual">
-          <div class="tech-pattern">
-            <div class="tp-ring r1"></div>
-            <div class="tp-ring r2"></div>
-            <div class="tp-ring r3"></div>
-            <div class="tp-grid"></div>
-            <div class="tp-dot d1"></div>
-            <div class="tp-dot d2"></div>
-            <div class="tp-dot d3"></div>
-            <div class="tp-dot d4"></div>
-            <div class="tp-core"></div>
+          <div class="ecg-monitor">
+            <div class="ecg-grid"></div>
+            <svg class="ecg-trace" viewBox="0 0 600 200" preserveAspectRatio="none">
+              <path class="ecg-line" d="M0,100 L120,100 L140,100 L155,20 L170,180 L185,100 L205,100 L220,100 L235,60 L250,140 L265,100 L600,100" />
+              <path class="ecg-line ecg-ghost" d="M0,100 L120,100 L140,100 L155,20 L170,180 L185,100 L205,100 L220,100 L235,60 L250,140 L265,100 L600,100" />
+            </svg>
+            <div class="ecg-dot"></div>
+            <span class="ecg-label">SIGNAL ACTIVE</span>
           </div>
           <span class="visual-badge">FEATURED</span>
         </div>
@@ -161,77 +159,91 @@ const catClass = (c) => ({
   border-radius: var(--radius-lg) 0 0 var(--radius-lg);
 }
 
-/* Tech abstract pattern */
-.tech-pattern {
+/* ECG monitor */
+.ecg-monitor {
   position: absolute;
   inset: 0;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background:
-    radial-gradient(ellipse at 50% 45%, rgba(126,184,218,0.08) 0%, transparent 55%),
-    radial-gradient(ellipse at 30% 60%, rgba(126,184,133,0.05) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(100,200,160,0.06) 0%, transparent 60%),
     var(--bg-elevated);
 }
 
-.tp-grid {
+.ecg-grid {
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(126,184,218,0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(126,184,218,0.04) 1px, transparent 1px);
-  background-size: 32px 32px;
+    linear-gradient(rgba(100,200,160,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(100,200,160,0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
 }
 
-.tp-ring {
+.ecg-trace {
   position: absolute;
-  top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  border: 1px solid rgba(126,184,218,0.10);
+  width: 100%;
+  height: 70%;
+  overflow: visible;
 }
 
-.tp-ring.r1 { width: 180px; height: 180px; animation: tpPulse 4s ease-in-out infinite; }
-.tp-ring.r2 { width: 280px; height: 280px; animation: tpPulse 4s ease-in-out 1s infinite; }
-.tp-ring.r3 { width: 380px; height: 380px; animation: tpPulse 4s ease-in-out 2s infinite; }
-
-@keyframes tpPulse {
-  0%, 100% { opacity: 0.3; border-color: rgba(126,184,218,0.08); }
-  50% { opacity: 0.7; border-color: rgba(126,184,218,0.18); }
+.ecg-line {
+  fill: none;
+  stroke: #4ecb9a;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  animation: ecgDraw 2.5s linear infinite;
+  filter: drop-shadow(0 0 6px rgba(78,203,154,0.5)) drop-shadow(0 0 12px rgba(78,203,154,0.2));
 }
 
-.tp-core {
+@keyframes ecgDraw {
+  0% { stroke-dashoffset: 800; }
+  60% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: -800; }
+}
+
+.ecg-ghost {
+  stroke: rgba(78,203,154,0.12);
+  stroke-width: 4;
+  filter: none;
+  animation: ecgGhost 2s ease-in-out infinite;
+}
+
+@keyframes ecgGhost {
+  0%, 100% { opacity: 0.15; }
+  50% { opacity: 0.35; }
+}
+
+.ecg-dot {
   position: absolute;
-  top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
-  width: 12px; height: 12px;
+  right: 18%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px; height: 8px;
   border-radius: 50%;
-  background: rgba(126,184,218,0.5);
-  box-shadow: 0 0 20px rgba(126,184,218,0.3), 0 0 40px rgba(126,184,218,0.1);
-  animation: tpCore 3s ease-in-out infinite;
+  background: #4ecb9a;
+  box-shadow: 0 0 10px #4ecb9a, 0 0 20px rgba(78,203,154,0.4);
+  animation: ecgBlip 1.5s ease-in-out infinite;
 }
 
-@keyframes tpCore {
-  0%, 100% { transform: translate(-50%, -50%) scale(1); }
-  50% { transform: translate(-50%, -50%) scale(1.6); }
+@keyframes ecgBlip {
+  0%, 100% { opacity: 1; transform: translateY(-50%) scale(1); }
+  50% { opacity: 0.4; transform: translateY(-50%) scale(1.8); }
 }
 
-.tp-dot {
+.ecg-label {
   position: absolute;
-  width: 4px; height: 4px;
-  border-radius: 50%;
-  background: rgba(126,184,218,0.5);
-  animation: tpFloat 6s ease-in-out infinite;
-}
-
-.tp-dot.d1 { top: 25%; left: 30%; animation-delay: 0s; }
-.tp-dot.d2 { top: 55%; left: 70%; animation-delay: 1.5s; }
-.tp-dot.d3 { top: 70%; left: 25%; animation-delay: 3s; }
-.tp-dot.d4 { top: 30%; left: 60%; animation-delay: 4.5s; }
-
-@keyframes tpFloat {
-  0%, 100% { transform: translate(0, 0); opacity: 0.3; }
-  25% { transform: translate(6px, -8px); opacity: 0.7; }
-  50% { transform: translate(-4px, 6px); opacity: 0.4; }
-  75% { transform: translate(-8px, -4px); opacity: 0.6; }
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  color: rgba(78,203,154,0.5);
+  text-transform: uppercase;
 }
 
 .visual-badge {
