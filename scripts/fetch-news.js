@@ -15,6 +15,45 @@ const CATEGORY_MAP = {
   'technique': '工具',
 }
 
+/* 从文章页面抓取第三幅图片（跳过前两幅通常是 icon/logo） */
+async function fetchThirdImage(url) {
+  try {
+    const controller = new AbortController()
+    const timeout = setTimeout(() => controller.abort(), 5000)
+
+    const res = await fetch(url, {
+      signal: controller.signal,
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; techpulse-bot/1.0)' },
+    })
+    clearTimeout(timeout)
+
+    if (!res.ok) return null
+
+    const html = await res.text()
+    // 匹配所有 <img> 标签的 src
+    const imgRe = /<img[^>]+src=["']([^"']+)["'][^>]*>/gi
+    const imgs = []
+    let m
+    while ((m = imgRe.exec(html)) !== null) {
+      imgs.push(m[1])
+    }
+
+    // 跳过前两幅（icon/logo），取第三幅
+    const third = imgs[2]
+    if (!third) return imgs[imgs.length - 1] || null
+
+    // 处理相对路径
+    if (third.startsWith('//')) return 'https:' + third
+    if (third.startsWith('/')) {
+      const u = new URL(url)
+      return u.origin + third
+    }
+    return third
+  } catch {
+    return null
+  }
+}
+
 // 从标题提取标签的关键词表
 const TAG_PATTERNS = [
   { pattern: /OpenAI|GPT|ChatGPT/i, tag: 'OpenAI' },
@@ -75,14 +114,28 @@ export async function fetchNews() {
   console.log(`[AI-HOT] Got ${items.length} items`)
 
   // 精选模式已按时间排序，取前 10 条映射为前端格式
-  return items.slice(0, 10).map((item, i) => ({
+  const news = items.slice(0, 10).map((item, i) => ({
     title: item.title,
     summary: item.summary || item.title,
     category: CATEGORY_MAP[item.category] || 'AI',
     tags: extractTags(item.title, item.category),
     url: item.url,
     source: item.source,
-    image: null, // API 不提供图片
+    image: null,
     time: item.publishedAt || new Date().toISOString(),
   }))
+
+  // 并行抓取每篇文章的第三幅图片
+  console.log('[AI-HOT] Fetching article images...')
+  const images = await Promise.all(
+    news.map(item => fetchThirdImage(item.url).catch(() => null))
+  )
+  news.forEach((item, i) => {
+    if (images[i]) {
+      item.image = images[i]
+      console.log(`  [${i + 1}] ${images[i].slice(0, 80)}`)
+    }
+  })
+
+  return news
 }
