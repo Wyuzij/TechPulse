@@ -1,0 +1,38 @@
+name: Daily Update
+
+# Run daily at 08:00 Beijing time
+on:
+  schedule:
+    - cron: '0 0 * * *'   # UTC 00:00 = 北京时间 08:00
+  workflow_dispatch:       # 手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch & Generate
+        env:
+          GLM_API_KEY: ${{ secrets.GLM_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/update.js
+
+      - name: Commit feed.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/feed.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update daily feed [skip ci]"
+            git push
+          fi
