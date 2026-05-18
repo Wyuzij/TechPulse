@@ -19,7 +19,7 @@
         rel="noopener"
         class="news-card featured card-surface reveal-el"
         v-reveal="{ threshold: 0.06 }"
-        v-tilt="{ max: 10, speed: 600, glare: true, maxGlare: 0.2, scale: 1.02 }"
+        v-tilt="{ max: 4, speed: 600, glare: true, maxGlare: 0.1, scale: 1.01 }"
         style="transition-delay: 0.1s"
       >
         <div class="card-visual">
@@ -54,7 +54,7 @@
           rel="noopener"
           class="news-card card-surface reveal-el"
           v-reveal="{ threshold: 0.06 }"
-          v-tilt="{ max: 14, speed: 600, glare: true, maxGlare: 0.15, scale: 1.03 }"
+          v-tilt="{ max: 4, speed: 600, glare: true, maxGlare: 0.1, scale: 1.01 }"
           :style="{ transitionDelay: (0.12 + idx * 0.06) + 's' }"
         >
           <div class="card-body">

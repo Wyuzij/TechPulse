@@ -19,7 +19,7 @@
           :key="item.key"
           class="nav-btn card-surface"
           :style="{ '--btn-delay': (0.6 + idx * 0.08) + 's' }"
-          v-tilt="{ max: 15, speed: 500, glare: true, maxGlare: 0.25, scale: 1.03 }"
+          v-tilt="{ max: 4, speed: 500, glare: true, maxGlare: 0.1, scale: 1.01 }"
           @click="$emit('navigate', item.key)"
         >
           <span class="nav-num">{{ item.num }}</span>

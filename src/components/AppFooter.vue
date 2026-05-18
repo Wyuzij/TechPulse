@@ -6,13 +6,26 @@
         <span class="footer-desc">每日清晨八点 · 技术风向速递 · by Wyuzij</span>
       </div>
       <div class="footer-meta">
-        <span>2026/05/17 08:00 CST</span>
+        <span>最后更新 {{ formattedTime }}</span>
         <span class="meta-sep">·</span>
         <span class="live-indicator"><span class="status-dot"></span> live</span>
       </div>
     </div>
   </footer>
 </template>
+
+<script setup>
+import { inject, computed } from 'vue'
+const summary = inject('summary', { updatedAt: '' })
+
+const formattedTime = computed(() => {
+  const iso = summary.updatedAt
+  if (!iso) return '—'
+  const d = new Date(iso)
+  const pad = (n) => String(n).padStart(2, '0')
+  return `${d.getFullYear()}/${pad(d.getMonth() + 1)}/${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`
+})
+</script>
 
 <style scoped>
 .app-footer {

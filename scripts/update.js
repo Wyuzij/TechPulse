@@ -52,6 +52,7 @@ async function main() {
     githubTrending: repos.slice(0, 10),
     dailySummary: {
       date: new Date().toISOString().slice(0, 10),
+      updatedAt: new Date().toISOString(),
       highlights: summary.highlights,
       keywords: summary.keywords,
       trendingSummary: summary.trendingSummary,

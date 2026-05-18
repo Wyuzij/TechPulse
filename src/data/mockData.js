@@ -216,6 +216,7 @@ export const githubTrending = [
 
 export const dailySummary = {
   date: '2026-05-17',
+  updatedAt: '2026-05-17T08:00:00.000Z',
   highlights: [
     'AI 模型战场升温：GPT-5、Claude Opus 4.7、Llama 4-V 同日发布重大更新，多模态与推理能力成为竞争焦点',
     'Rust 生态持续膨胀：语言层面 async traits 稳定，跨领域渗透到前端工具链（Biome）、Python 包管理（uv）、桌面应用（Tauri）',
