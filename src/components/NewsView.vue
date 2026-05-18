@@ -23,9 +23,16 @@
         style="transition-delay: 0.1s"
       >
         <div class="card-visual">
-          <img v-if="news[0].image" :src="news[0].image" class="card-img" alt="" />
-          <div v-else class="code-pattern">
-            <span class="code-line" v-for="n in 6" :key="n">{{ codeSnippets[n-1] }}</span>
+          <div class="tech-pattern">
+            <div class="tp-ring r1"></div>
+            <div class="tp-ring r2"></div>
+            <div class="tp-ring r3"></div>
+            <div class="tp-grid"></div>
+            <div class="tp-dot d1"></div>
+            <div class="tp-dot d2"></div>
+            <div class="tp-dot d3"></div>
+            <div class="tp-dot d4"></div>
+            <div class="tp-core"></div>
           </div>
           <span class="visual-badge">FEATURED</span>
         </div>
@@ -82,15 +89,6 @@
 import { inject } from 'vue'
 
 const news = inject('news', [])
-
-const codeSnippets = [
-  'fn main() {',
-  '  let model = load("gpt-5");',
-  '  let result = model.infer(data);',
-  '  // 推理完成 · 耗时 42ms',
-  '  println!("{:?}", result);',
-  '}'
-]
 
 const catClass = (c) => ({
   'AI': 'c-ai', '编程语言': 'c-lang', 'JavaScript': 'c-js',
@@ -158,30 +156,83 @@ const catClass = (c) => ({
 .card-visual {
   position: relative;
   min-height: 260px;
-  background:
-    radial-gradient(ellipse at 30% 40%, var(--accent-dim), transparent 60%),
-    radial-gradient(ellipse at 70% 60%, rgba(126,184,218,0.04), transparent 60%),
-    var(--bg-elevated);
   display: flex; align-items: center; justify-content: center;
   overflow: hidden;
   border-radius: var(--radius-lg) 0 0 var(--radius-lg);
 }
 
-.card-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: var(--radius-lg) 0 0 var(--radius-lg);
+/* Tech abstract pattern */
+.tech-pattern {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse at 50% 45%, rgba(126,184,218,0.08) 0%, transparent 55%),
+    radial-gradient(ellipse at 30% 60%, rgba(126,184,133,0.05) 0%, transparent 50%),
+    var(--bg-elevated);
 }
 
-.code-pattern {
-  font-family: var(--font-mono);
-  font-size: 11px; line-height: 1.8;
-  color: rgba(126, 184, 218, 0.28);
-  text-align: left; padding: 24px;
+.tp-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(126,184,218,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(126,184,218,0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
 }
 
-.code-line { display: block; }
+.tp-ring {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 1px solid rgba(126,184,218,0.10);
+}
+
+.tp-ring.r1 { width: 180px; height: 180px; animation: tpPulse 4s ease-in-out infinite; }
+.tp-ring.r2 { width: 280px; height: 280px; animation: tpPulse 4s ease-in-out 1s infinite; }
+.tp-ring.r3 { width: 380px; height: 380px; animation: tpPulse 4s ease-in-out 2s infinite; }
+
+@keyframes tpPulse {
+  0%, 100% { opacity: 0.3; border-color: rgba(126,184,218,0.08); }
+  50% { opacity: 0.7; border-color: rgba(126,184,218,0.18); }
+}
+
+.tp-core {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  background: rgba(126,184,218,0.5);
+  box-shadow: 0 0 20px rgba(126,184,218,0.3), 0 0 40px rgba(126,184,218,0.1);
+  animation: tpCore 3s ease-in-out infinite;
+}
+
+@keyframes tpCore {
+  0%, 100% { transform: translate(-50%, -50%) scale(1); }
+  50% { transform: translate(-50%, -50%) scale(1.6); }
+}
+
+.tp-dot {
+  position: absolute;
+  width: 4px; height: 4px;
+  border-radius: 50%;
+  background: rgba(126,184,218,0.5);
+  animation: tpFloat 6s ease-in-out infinite;
+}
+
+.tp-dot.d1 { top: 25%; left: 30%; animation-delay: 0s; }
+.tp-dot.d2 { top: 55%; left: 70%; animation-delay: 1.5s; }
+.tp-dot.d3 { top: 70%; left: 25%; animation-delay: 3s; }
+.tp-dot.d4 { top: 30%; left: 60%; animation-delay: 4.5s; }
+
+@keyframes tpFloat {
+  0%, 100% { transform: translate(0, 0); opacity: 0.3; }
+  25% { transform: translate(6px, -8px); opacity: 0.7; }
+  50% { transform: translate(-4px, 6px); opacity: 0.4; }
+  75% { transform: translate(-8px, -4px); opacity: 0.6; }
+}
 
 .visual-badge {
   position: absolute; bottom: 20px; right: 24px;
