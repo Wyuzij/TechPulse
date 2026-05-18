@@ -1,6 +1,7 @@
 /**
  * 从 GitHub Search API 拉取热门仓库
  * 对比上一日 feed.json 计算 24h star 涨幅
+ * 读取 README 提取项目描述（替代 API 短描述）
  * 最终按涨幅降序排列
  */
 
@@ -24,9 +25,7 @@ function authHeaders() {
   return headers
 }
 
-// 多维度搜索：覆盖主流语言 + 近期创建 + 近期活跃
 const SEARCH_QUERIES = [
-  // 按 stars 排序的主流语言热门仓库
   'stars:>3000 language:python',
   'stars:>3000 language:rust',
   'stars:>3000 language:typescript',
@@ -35,9 +34,7 @@ const SEARCH_QUERIES = [
   'stars:>3000 language:java',
   'stars:>3000 language:c',
   'stars:>3000 language:cpp',
-  // 近 7 天创建且已有一定关注的新兴项目
   'stars:>200 created:>=' + daysAgo(7),
-  // 近 3 天有 push 且星数可观的高活跃项目
   'stars:>1000 pushed:>=' + daysAgo(3),
 ]
 
@@ -79,17 +76,76 @@ function loadPrevStars() {
   }
 }
 
+/* 从 GitHub API 获取 README，提取前几段有效文字 */
+async function fetchReadme(fullName) {
+  try {
+    const url = `${GITHUB_API}/repos/${fullName}/readme`
+    const res = await fetch(url, { headers: authHeaders() })
+    if (!res.ok) return null
+
+    const data = await res.json()
+    // README 内容为 base64 编码
+    const raw = Buffer.from(data.content, 'base64').toString('utf-8')
+    return extractDescription(raw)
+  } catch (e) {
+    console.warn(`[GitHub] README fetch failed for ${fullName}: ${e.message}`)
+    return null
+  }
+}
+
+/* 从 README markdown 中提取有意义的描述段落 */
+function extractDescription(md) {
+  // 移除 HTML 标签
+  let text = md.replace(/<[^>]+>/g, '')
+  // 移除 markdown 图片、链接，保留文字
+  text = text.replace(/!\[.*?\]\(.*?\)/g, '')
+  text = text.replace(/\[([^\]]*)\]\(.*?\)/g, '$1')
+  // 移除代码块
+  text = text.replace(/```[\s\S]*?```/g, '')
+  text = text.replace(/`[^`]*`/g, '')
+  // 移除粗体/斜体标记
+  text = text.replace(/[*_~]{1,3}/g, '')
+  // 移除 markdown 标题符号但保留标题文字
+  text = text.replace(/^#{1,6}\s+/gm, '')
+  // 移除 badges（[![...]...] 模式）
+  text = text.replace(/\[!\[.*?\]\(.*?\)\]\(.*?\)/g, '')
+  // 合并连续空格
+  text = text.replace(/[ \t]+/g, ' ')
+  // 合并连续换行
+  text = text.replace(/\n{3,}/g, '\n\n')
+
+  // 按段落分割（空行分隔）
+  const paragraphs = text.split(/\n\s*\n/)
+  const meaningful = []
+
+  for (const p of paragraphs) {
+    const cleaned = p.replace(/\n/g, ' ').trim()
+    // 跳过太短、纯链接、纯 badge 的段落
+    if (cleaned.length < 30) continue
+    if (/^(https?:\/\/|#|>|\||-)/.test(cleaned)) continue
+    if (cleaned.startsWith('![')) continue
+    // 跳过目录项、许可证等
+    if (/^(Table of Contents|License|MIT|Apache|Installation|Getting Started)/i.test(cleaned)) continue
+
+    meaningful.push(cleaned)
+    if (meaningful.length >= 2) break
+  }
+
+  // 拼接，最多 300 字符，截断在完整句子处
+  const desc = meaningful.join('。').slice(0, 350)
+  const lastPeriod = Math.max(desc.lastIndexOf('.'), desc.lastIndexOf('。'), desc.lastIndexOf('！'))
+  return lastPeriod > 200 ? desc.slice(0, lastPeriod + 1) : desc.slice(0, 280)
+}
+
 export async function fetchGitHub() {
   console.log('[GitHub] Searching trending repos...')
 
   const prevStarMap = loadPrevStars()
 
-  // 并行搜索所有查询
   const results = await Promise.all(
     SEARCH_QUERIES.map(q => searchRepos(q).catch(() => []))
   )
 
-  // 去重：同名仓库取 star 数更高的那条记录
   const dedup = new Map()
   results.flat().forEach(r => {
     const existing = dedup.get(r.full_name)
@@ -98,11 +154,9 @@ export async function fetchGitHub() {
     }
   })
 
-  // 计算 24h 涨幅
   const repos = Array.from(dedup.values())
     .map(r => {
       const prevStars = prevStarMap[r.full_name]
-      // 有历史数据：精确差值；无历史数据：按创建天数估算日均涨幅
       let starsToday
       if (prevStars !== undefined) {
         starsToday = Math.max(0, r.stargazers_count - prevStars)
@@ -123,10 +177,21 @@ export async function fetchGitHub() {
       }
     })
 
-  // 按 24h 涨幅降序，取前 10，重新 rank
   repos.sort((a, b) => b.starsToday - a.starsToday)
   const top10 = repos.slice(0, 10)
   top10.forEach((r, i) => { r.rank = i + 1 })
+
+  // 并行拉取 README，替换描述
+  console.log('[GitHub] Fetching README for top 10 repos...')
+  const readmes = await Promise.all(
+    top10.map(r => fetchReadme(r.name).catch(() => null))
+  )
+  top10.forEach((r, i) => {
+    if (readmes[i]) {
+      r.description = readmes[i]
+      console.log(`  #${r.rank} ${r.name} README: ${readmes[i].slice(0, 80)}...`)
+    }
+  })
 
   console.log(`[GitHub] Top 10 by 24h star growth:`)
   top10.forEach(r => console.log(`  #${r.rank} ${r.name} +${r.starsToday} stars (total: ${r.stars})`))
