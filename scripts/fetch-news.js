@@ -7,7 +7,6 @@ const HN_TOP_STORIES = 'https://hacker-news.firebaseio.com/v0/topstories.json'
 const HN_ITEM = (id) => `https://hacker-news.firebaseio.com/v0/item/${id}.json`
 const DEVTO_ARTICLES = 'https://dev.to/api/articles?per_page=10&tag=programming'
 
-// 技术相关关键词，用于过滤 HN 新闻
 const TECH_KEYWORDS = [
   'ai', 'llm', 'gpt', 'claude', 'model', 'openai', 'anthropic',
   'rust', 'python', 'javascript', 'typescript', 'go', 'golang',
@@ -30,13 +29,39 @@ function isTechRelated(title) {
   return TECH_KEYWORDS.some(kw => lower.includes(kw))
 }
 
+/* 尝试从文章 URL 抓取 og:image，3 秒超时 */
+async function fetchOgImage(url) {
+  try {
+    const controller = new AbortController()
+    const timeout = setTimeout(() => controller.abort(), 3000)
+
+    const res = await fetch(url, {
+      signal: controller.signal,
+      headers: { 'User-Agent': 'techpulse-bot/1.0' },
+    })
+    clearTimeout(timeout)
+
+    if (!res.ok) return null
+
+    const html = await res.text()
+    // 匹配 og:image 或 twitter:image
+    const ogMatch = html.match(/<meta[^>]+property="og:image"[^>]+content="([^"]+)"/i)
+      || html.match(/<meta[^>]+content="([^"]+)"[^>]+property="og:image"/i)
+    const twMatch = html.match(/<meta[^>]+name="twitter:image"[^>]+content="([^"]+)"/i)
+      || html.match(/<meta[^>]+content="([^"]+)"[^>]+name="twitter:image"/i)
+
+    return ogMatch?.[1] || twMatch?.[1] || null
+  } catch {
+    return null
+  }
+}
+
 async function fetchHN() {
   console.log('[HN] Fetching top stories...')
   const res = await fetch(HN_TOP_STORIES)
   const ids = await res.json()
   const topIds = ids.slice(0, 50)
 
-  // 批量获取详情（每次 10 个并发）
   const items = []
   for (let i = 0; i < topIds.length; i += 10) {
     const batch = topIds.slice(i, i + 10)
@@ -50,7 +75,6 @@ async function fetchHN() {
         items.push(r.value)
       }
     }
-    // 礼貌延迟，避免被限流
     if (i + 10 < topIds.length) await new Promise(r => setTimeout(r, 200))
   }
 
@@ -70,6 +94,7 @@ async function fetchHN() {
     url: item.url || `https://news.ycombinator.com/item?id=${item.id}`,
     source: 'Hacker News',
     score: item.score,
+    image: null, // 在 summarize.js 阶段统一抓取 og:image
   }))
 }
 
@@ -84,6 +109,7 @@ async function fetchDevTo() {
       url: a.url,
       source: 'Dev.to',
       score: a.positive_reactions_count || 0,
+      image: a.cover_image || a.social_image || null,
     }))
   } catch (e) {
     console.warn('[Dev.to] Failed:', e.message)
@@ -94,7 +120,6 @@ async function fetchDevTo() {
 export async function fetchNews() {
   const [hn, devto] = await Promise.all([fetchHN(), fetchDevTo()])
 
-  // 合并去重（按 URL 去重，HN 优先）
   const seen = new Set()
   const merged = []
 
@@ -105,7 +130,18 @@ export async function fetchNews() {
     }
   }
 
-  // 按得分排序，取前 15
   merged.sort((a, b) => b.score - a.score)
-  return merged.slice(0, 15)
+  const top = merged.slice(0, 15)
+
+  // 为没有图片的文章抓取 og:image（并行，单条 3s 超时）
+  console.log('[News] Fetching og:images for articles without images...')
+  const withImages = await Promise.all(
+    top.map(async (item) => {
+      if (item.image) return item
+      const ogImage = await fetchOgImage(item.url)
+      return { ...item, image: ogImage }
+    })
+  )
+
+  return withImages
 }

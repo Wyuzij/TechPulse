@@ -23,7 +23,8 @@
         style="transition-delay: 0.1s"
       >
         <div class="card-visual">
-          <div class="code-pattern">
+          <img v-if="news[0].image" :src="news[0].image" class="card-img" alt="" />
+          <div v-else class="code-pattern">
             <span class="code-line" v-for="n in 6" :key="n">{{ codeSnippets[n-1] }}</span>
           </div>
           <span class="visual-badge">FEATURED</span>
@@ -163,6 +164,13 @@ const catClass = (c) => ({
     var(--bg-elevated);
   display: flex; align-items: center; justify-content: center;
   overflow: hidden;
+  border-radius: var(--radius-lg) 0 0 var(--radius-lg);
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: var(--radius-lg) 0 0 var(--radius-lg);
 }
 

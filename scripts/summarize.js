@@ -50,7 +50,7 @@ export async function translateNews(articles) {
 分类候选：AI, 编程语言, JavaScript, Web, Cloud, 系统, 工具
 
 输入（JSON 数组）：
-${JSON.stringify(articles.map(a => ({ title: a.title, url: a.url, source: a.source })), null, 2)}
+${JSON.stringify(articles.map(a => ({ title: a.title, url: a.url, source: a.source, image: a.image })), null, 2)}
 
 返回纯 JSON 数组（不要 markdown 代码块），每条格式：
 {
@@ -60,6 +60,7 @@ ${JSON.stringify(articles.map(a => ({ title: a.title, url: a.url, source: a.sour
   "tags": ["标签1", "标签2"],
   "url": "原url",
   "source": "原source",
+  "image": "原image（透传，不要修改）",
   "time": "生成时间ISO格式"
 }`
 
@@ -83,6 +84,7 @@ ${JSON.stringify(articles.map(a => ({ title: a.title, url: a.url, source: a.sour
       tags: [],
       url: a.url,
       source: a.source,
+      image: a.image || null,
       time: new Date().toISOString(),
     }))
   }
