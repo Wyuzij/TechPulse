@@ -1,5 +1,6 @@
 name: Daily Update
 
+# Run daily at 08:00 Beijing time
 on:
   schedule:
     - cron: '0 0 * * *'   # UTC 00:00 = 北京时间 08:00
