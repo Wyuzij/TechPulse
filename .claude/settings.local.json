@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"C:/Users/86156/Desktop/info/scripts\")",
+      "Bash(mkdir -p \"C:/Users/86156/Desktop/info/.github/workflows\")",
+      "Bash(node *)",
+      "Bash(npx vite *)",
+      "Bash(netstat -ano)"
+    ]
+  }
+}
