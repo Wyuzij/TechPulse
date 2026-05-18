@@ -94,7 +94,7 @@ const codeSnippets = [
 
 const catClass = (c) => ({
   'AI': 'c-ai', '编程语言': 'c-lang', 'JavaScript': 'c-js',
-  'Web': 'c-web', 'Cloud': 'c-cloud', '系统': 'c-sys', '工具': 'c-tools'
+  'Web': 'c-web', 'Cloud': 'c-cloud', '系统': 'c-sys', '工具': 'c-tools', '行业': 'c-industry'
 }[c] || '')
 </script>
 
@@ -215,6 +215,7 @@ const catClass = (c) => ({
 .c-cloud { background: rgba(180,140,140,0.12); color: #ccb0b0; }
 .c-sys   { background: rgba(201,160,107,0.12); color: #d4b98e; }
 .c-tools { background: rgba(150,158,168,0.12); color: #b8bec4; }
+.c-industry { background: rgba(180,160,200,0.12); color: #c0b8d0; }
 
 .card-time {
   font-family: var(--font-mono); font-size: 11px; color: var(--text-muted);

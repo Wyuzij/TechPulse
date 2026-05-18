@@ -1,147 +1,88 @@
 /**
- * 从 Hacker News API 和 Dev.to API 拉取技术新闻
- * 返回 15-20 条原始英文新闻（后续由 GLM 翻译和筛选）
+ * 从 AI HOT API (https://aihot.virxact.com) 获取每日 AI 资讯
+ * 数据已是中文，直接映射为前端格式，无需 GLM 翻译
  */
 
-const HN_TOP_STORIES = 'https://hacker-news.firebaseio.com/v0/topstories.json'
-const HN_ITEM = (id) => `https://hacker-news.firebaseio.com/v0/item/${id}.json`
-const DEVTO_ARTICLES = 'https://dev.to/api/articles?per_page=10&tag=programming'
+const API_ITEMS = 'https://aihot.virxact.com/api/public/items?mode=selected'
 
-const TECH_KEYWORDS = [
-  'ai', 'llm', 'gpt', 'claude', 'model', 'openai', 'anthropic',
-  'rust', 'python', 'javascript', 'typescript', 'go', 'golang',
-  'compiler', 'language', 'framework', 'library', 'tool',
-  'browser', 'chrome', 'firefox', 'safari', 'webkit', 'webgpu',
-  'database', 'sql', 'postgres', 'backend', 'frontend', 'css',
-  'linux', 'kernel', 'server', 'cloud', 'kubernetes', 'docker',
-  'github', 'git', 'open source', 'api', 'http', 'protocol',
-  'security', 'encryption', 'crypto', 'privacy',
-  'code', 'programming', 'software', 'developer', 'engineer',
-  'vscode', 'editor', 'ide', 'terminal', 'cli',
-  'performance', 'benchmark', 'optimization', 'scaling',
-  'neural', 'deep learning', 'machine learning', 'training',
-  'bun', 'deno', 'node', 'npm', 'package', 'module',
-  'release', 'launch', 'announce', 'update', 'beta', 'alpha',
+// API 分类 → 前端分类
+const CATEGORY_MAP = {
+  'ai-products': 'AI',
+  'ai-models': 'AI',
+  'paper': 'AI',
+  'tip': '工具',
+  'industry': '行业',
+  'technique': '工具',
+}
+
+// 从标题提取标签的关键词表
+const TAG_PATTERNS = [
+  { pattern: /OpenAI|GPT|ChatGPT/i, tag: 'OpenAI' },
+  { pattern: /Claude|Anthropic/i, tag: 'Claude' },
+  { pattern: /Gemini|谷歌|Google/i, tag: 'Gemini' },
+  { pattern: /Llama|Meta|开源模型/i, tag: 'Llama' },
+  { pattern: /阿里|通义|Qwen/i, tag: '阿里' },
+  { pattern: /腾讯|混元/i, tag: '腾讯' },
+  { pattern: /百度|文心/i, tag: '百度' },
+  { pattern: /字节|豆包/i, tag: '字节' },
+  { pattern: /DeepSeek|深度求索/i, tag: 'DeepSeek' },
+  { pattern: /视频生成|视频模型|Vidu|Sora|PixVerse/i, tag: '视频生成' },
+  { pattern: /图像生成|绘画|绘图|Midjourney|DALL/i, tag: '图像生成' },
+  { pattern: /编程|代码|Copilot|Codex|编程助手/i, tag: '编程' },
+  { pattern: /开源|GitHub|开源项目/i, tag: '开源' },
+  { pattern: /API|接口|中转/i, tag: 'API' },
+  { pattern: /机器人|Figure|具身智能/i, tag: '机器人' },
+  { pattern: /Agent|智能体|agent/i, tag: 'Agent' },
+  { pattern: /RAG|检索增强/i, tag: 'RAG' },
+  { pattern: /MCP|模型上下文协议/i, tag: 'MCP' },
+  { pattern: /推理|o3|o4|思维链/i, tag: '推理' },
+  { pattern: /多模态|视觉|语音|multimodal/i, tag: '多模态' },
+  { pattern: /芯片|GPU|NVIDIA|算力/i, tag: '算力' },
+  { pattern: /安全|风险|漏洞/i, tag: '安全' },
+  { pattern: /设计|UI|UX|Figma/i, tag: '设计' },
+  { pattern: /浏览器|Chrome|Safari|Firefox/i, tag: '浏览器' },
 ]
 
-function isTechRelated(title) {
-  const lower = title.toLowerCase()
-  return TECH_KEYWORDS.some(kw => lower.includes(kw))
-}
-
-/* 尝试从文章 URL 抓取 og:image，3 秒超时 */
-async function fetchOgImage(url) {
-  try {
-    const controller = new AbortController()
-    const timeout = setTimeout(() => controller.abort(), 3000)
-
-    const res = await fetch(url, {
-      signal: controller.signal,
-      headers: { 'User-Agent': 'techpulse-bot/1.0' },
-    })
-    clearTimeout(timeout)
-
-    if (!res.ok) return null
-
-    const html = await res.text()
-    // 匹配 og:image 或 twitter:image
-    const ogMatch = html.match(/<meta[^>]+property="og:image"[^>]+content="([^"]+)"/i)
-      || html.match(/<meta[^>]+content="([^"]+)"[^>]+property="og:image"/i)
-    const twMatch = html.match(/<meta[^>]+name="twitter:image"[^>]+content="([^"]+)"/i)
-      || html.match(/<meta[^>]+content="([^"]+)"[^>]+name="twitter:image"/i)
-
-    return ogMatch?.[1] || twMatch?.[1] || null
-  } catch {
-    return null
-  }
-}
-
-async function fetchHN() {
-  console.log('[HN] Fetching top stories...')
-  const res = await fetch(HN_TOP_STORIES)
-  const ids = await res.json()
-  const topIds = ids.slice(0, 50)
-
-  const items = []
-  for (let i = 0; i < topIds.length; i += 10) {
-    const batch = topIds.slice(i, i + 10)
-    const results = await Promise.allSettled(
-      batch.map(id =>
-        fetch(HN_ITEM(id)).then(r => r.json())
-      )
-    )
-    for (const r of results) {
-      if (r.status === 'fulfilled' && r.value && r.value.type === 'story') {
-        items.push(r.value)
-      }
+function extractTags(title, category) {
+  const tags = []
+  for (const { pattern, tag } of TAG_PATTERNS) {
+    if (pattern.test(title)) {
+      tags.push(tag)
+      if (tags.length >= 3) break
     }
-    if (i + 10 < topIds.length) await new Promise(r => setTimeout(r, 200))
   }
-
-  const filtered = items
-    .filter(item =>
-      item.title &&
-      item.title.length > 15 &&
-      item.score >= 50 &&
-      isTechRelated(item.title)
-    )
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 12)
-
-  console.log(`[HN] Got ${filtered.length} tech stories (from ${items.length} stories)`)
-  return filtered.map(item => ({
-    title: item.title,
-    url: item.url || `https://news.ycombinator.com/item?id=${item.id}`,
-    source: 'Hacker News',
-    score: item.score,
-    image: null, // 在 summarize.js 阶段统一抓取 og:image
-  }))
-}
-
-async function fetchDevTo() {
-  console.log('[Dev.to] Fetching articles...')
-  try {
-    const res = await fetch(DEVTO_ARTICLES)
-    const articles = await res.json()
-    console.log(`[Dev.to] Got ${articles.length} articles`)
-    return articles.slice(0, 8).map(a => ({
-      title: a.title,
-      url: a.url,
-      source: 'Dev.to',
-      score: a.positive_reactions_count || 0,
-      image: a.cover_image || a.social_image || null,
-    }))
-  } catch (e) {
-    console.warn('[Dev.to] Failed:', e.message)
-    return []
+  // 保底：用分类名
+  if (!tags.length) {
+    tags.push(category)
   }
+  return tags
 }
 
 export async function fetchNews() {
-  const [hn, devto] = await Promise.all([fetchHN(), fetchDevTo()])
+  console.log('[AI-HOT] Fetching today AI news...')
 
-  const seen = new Set()
-  const merged = []
+  // 过去 24 小时
+  const res = await fetch(API_ITEMS, {
+    headers: { 'User-Agent': 'techpulse-bot/1.0' },
+  })
 
-  for (const item of [...hn, ...devto]) {
-    if (!seen.has(item.url)) {
-      seen.add(item.url)
-      merged.push(item)
-    }
+  if (!res.ok) {
+    throw new Error(`AI-HOT API error ${res.status}: ${await res.text()}`)
   }
 
-  merged.sort((a, b) => b.score - a.score)
-  const top = merged.slice(0, 15)
+  const data = await res.json()
+  const items = data.items || []
+  console.log(`[AI-HOT] Got ${items.length} items`)
 
-  // 为没有图片的文章抓取 og:image（并行，单条 3s 超时）
-  console.log('[News] Fetching og:images for articles without images...')
-  const withImages = await Promise.all(
-    top.map(async (item) => {
-      if (item.image) return item
-      const ogImage = await fetchOgImage(item.url)
-      return { ...item, image: ogImage }
-    })
-  )
-
-  return withImages
+  // 精选模式已按时间排序，取前 10 条映射为前端格式
+  return items.slice(0, 10).map((item, i) => ({
+    title: item.title,
+    summary: item.summary || item.title,
+    category: CATEGORY_MAP[item.category] || 'AI',
+    tags: extractTags(item.title, item.category),
+    url: item.url,
+    source: item.source,
+    image: null, // API 不提供图片
+    time: item.publishedAt || new Date().toISOString(),
+  }))
 }
