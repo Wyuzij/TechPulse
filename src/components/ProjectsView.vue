@@ -57,14 +57,16 @@ import { inject, computed, ref, onMounted } from 'vue'
 const repos = inject('repos', [])
 
 const stats = computed(() => {
+  if (!repos.length) return []
   const totalToday = repos.reduce((s, r) => s + r.starsToday, 0)
   const langs = {}
   repos.forEach(r => { langs[r.language] = (langs[r.language] || 0) + 1 })
   const topLangs = Object.entries(langs).sort((a, b) => b[1] - a[1]).slice(0, 2)
+  const topGainer = repos.reduce((best, r) => r.starsToday > best.starsToday ? r : best, repos[0])
   return [
     { value: '+' + ((totalToday / 1000).toFixed(1)) + 'k', label: '今日新增 Star' },
     { value: topLangs.map(([l]) => l).join(' / '), label: '热门语言' },
-    { value: repos.filter(r => r.language === 'Rust').length + '/10', label: 'Rust 项目占比' }
+    { value: '+' + fmt(topGainer.starsToday), label: topGainer.name.split('/')[0] + ' 最高涨幅' }
   ]
 })
 

@@ -1,6 +1,7 @@
 /**
- * 从 GitHub Search API 拉取今日热门仓库
- * 对比上一日数据，计算 24h star 涨幅
+ * 从 GitHub Search API 拉取热门仓库
+ * 对比上一日 feed.json 计算 24h star 涨幅
+ * 最终按涨幅降序排列
  */
 
 import { readFileSync, existsSync } from 'fs'
@@ -15,7 +16,7 @@ function authHeaders() {
   const token = process.env.GITHUB_TOKEN
   const headers = {
     'Accept': 'application/vnd.github.v3+json',
-    'User-Agent': 'tech-radar-bot',
+    'User-Agent': 'techpulse-bot',
   }
   if (token) {
     headers['Authorization'] = `Bearer ${token}`
@@ -23,16 +24,31 @@ function authHeaders() {
   return headers
 }
 
+// 多维度搜索：覆盖主流语言 + 近期创建 + 近期活跃
 const SEARCH_QUERIES = [
-  'stars:>5000 created:>2024-01-01 language:python',
-  'stars:>5000 created:>2024-01-01 language:rust',
-  'stars:>5000 created:>2024-01-01 language:typescript',
-  'stars:>5000 created:>2024-01-01 language:go',
-  'stars:>5000 created:>2024-01-01 language:javascript',
+  // 按 stars 排序的主流语言热门仓库
+  'stars:>3000 language:python',
+  'stars:>3000 language:rust',
+  'stars:>3000 language:typescript',
+  'stars:>3000 language:go',
+  'stars:>3000 language:javascript',
+  'stars:>3000 language:java',
+  'stars:>3000 language:c',
+  'stars:>3000 language:cpp',
+  // 近 7 天创建且已有一定关注的新兴项目
+  'stars:>200 created:>=' + daysAgo(7),
+  // 近 3 天有 push 且星数可观的高活跃项目
+  'stars:>1000 pushed:>=' + daysAgo(3),
 ]
 
+function daysAgo(n) {
+  const d = new Date()
+  d.setDate(d.getDate() - n)
+  return d.toISOString().slice(0, 10)
+}
+
 async function searchRepos(query) {
-  const url = `${GITHUB_API}/search/repositories?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=5`
+  const url = `${GITHUB_API}/search/repositories?q=${encodeURIComponent(query)}&sort=stars&order=desc&per_page=6`
   const res = await fetch(url, { headers: authHeaders() })
 
   if (!res.ok) {
@@ -44,32 +60,22 @@ async function searchRepos(query) {
   return data.items || []
 }
 
-/* 读取上一日 feed.json，提取各仓库的 star 数 */
 function loadPrevStars() {
   if (!existsSync(FEED_PATH)) {
-    console.log('[GitHub] No previous feed.json, starsToday = 0')
+    console.log('[GitHub] No previous feed.json, all starsToday = 0')
     return {}
   }
-  const prev = JSON.parse(readFileSync(FEED_PATH, 'utf-8'))
-  const map = {}
-  ;(prev.githubTrending || []).forEach(r => { map[r.name] = r.stars })
-  console.log(`[GitHub] Loaded ${Object.keys(map).length} repos from previous feed`)
-  return map
-}
-
-function formatRepo(repo, rank, prevStars) {
-  const prev = prevStars[repo.full_name] || repo.stargazers_count
-  // 保证 starsToday 不为负数（仓库可能掉 star）
-  const starsToday = Math.max(0, repo.stargazers_count - prev)
-  return {
-    rank,
-    name: repo.full_name,
-    description: repo.description || '',
-    language: repo.language || 'Unknown',
-    stars: repo.stargazers_count,
-    starsToday,
-    forks: repo.forks_count,
-    url: repo.html_url,
+  try {
+    const prev = JSON.parse(readFileSync(FEED_PATH, 'utf-8'))
+    const map = {}
+    if (Array.isArray(prev.githubTrending)) {
+      prev.githubTrending.forEach(r => { map[r.name] = r.stars })
+    }
+    console.log(`[GitHub] Loaded ${Object.keys(map).length} repos from previous feed`)
+    return map
+  } catch {
+    console.warn('[GitHub] Failed to parse previous feed.json')
+    return {}
   }
 }
 
@@ -78,25 +84,52 @@ export async function fetchGitHub() {
 
   const prevStarMap = loadPrevStars()
 
-  const allRepos = []
-  for (const query of SEARCH_QUERIES) {
-    const repos = await searchRepos(query)
-    allRepos.push(...repos)
-    await new Promise(r => setTimeout(r, 300))
-  }
+  // 并行搜索所有查询
+  const results = await Promise.all(
+    SEARCH_QUERIES.map(q => searchRepos(q).catch(() => []))
+  )
 
-  // 去重，按总 stars 排序取前 N，再按 starsToday 排序即为最终顺序
-  const seen = new Set()
-  const unique = allRepos
-    .filter(r => !seen.has(r.full_name) && seen.add(r.full_name))
-    .sort((a, b) => b.stargazers_count - a.stargazers_count)
-    .slice(0, 10)
-    .map((r, i) => formatRepo(r, i + 1, prevStarMap))
+  // 去重：同名仓库取 star 数更高的那条记录
+  const dedup = new Map()
+  results.flat().forEach(r => {
+    const existing = dedup.get(r.full_name)
+    if (!existing || r.stargazers_count > existing.stargazers_count) {
+      dedup.set(r.full_name, r)
+    }
+  })
 
-  // 按 24h 涨幅重新排序并分配 rank
-  unique.sort((a, b) => b.starsToday - a.starsToday)
-  unique.forEach((r, i) => { r.rank = i + 1 })
+  // 计算 24h 涨幅
+  const repos = Array.from(dedup.values())
+    .map(r => {
+      const prevStars = prevStarMap[r.full_name]
+      // 有历史数据：精确差值；无历史数据：按创建天数估算日均涨幅
+      let starsToday
+      if (prevStars !== undefined) {
+        starsToday = Math.max(0, r.stargazers_count - prevStars)
+      } else {
+        const daysSinceCreate = Math.max(1, Math.floor(
+          (Date.now() - new Date(r.created_at).getTime()) / 86400000
+        ))
+        starsToday = Math.round(Math.max(0, r.stargazers_count) / daysSinceCreate)
+      }
+      return {
+        name: r.full_name,
+        description: r.description || '',
+        language: r.language || 'Unknown',
+        stars: r.stargazers_count,
+        starsToday,
+        forks: r.forks_count,
+        url: r.html_url,
+      }
+    })
 
-  console.log(`[GitHub] Got ${unique.length} unique repos`)
-  return unique
+  // 按 24h 涨幅降序，取前 10，重新 rank
+  repos.sort((a, b) => b.starsToday - a.starsToday)
+  const top10 = repos.slice(0, 10)
+  top10.forEach((r, i) => { r.rank = i + 1 })
+
+  console.log(`[GitHub] Top 10 by 24h star growth:`)
+  top10.forEach(r => console.log(`  #${r.rank} ${r.name} +${r.starsToday} stars (total: ${r.stars})`))
+
+  return top10
 }
