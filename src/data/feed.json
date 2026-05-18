@@ -1,270 +1,296 @@
 {
   "date": "2026-05-18",
-  "updatedAt": "2026-05-18T17:16:37.811Z",
+  "updatedAt": "2026-05-18T17:28:45.751Z",
   "techNews": [
     {
-      "title": "我认为AI不会让你的流程更快",
-      "summary": "探讨AI对流程速度的影响。",
-      "category": "AI",
+      "title": "将80美元的RK3562安卓平板变成Debian Linux工作站",
+      "summary": "用80美元的平板改造为Linux工作站，展示硬件与软件的巧妙结合。",
+      "category": "系统",
       "tags": [
-        "AI",
-        "流程",
-        "效率"
+        "Linux",
+        "硬件",
+        "系统改造"
       ],
-      "url": "https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/",
+      "url": "https://github.com/tech4bot/rk3562deb",
       "source": "Hacker News",
+      "image": "https://opengraph.githubassets.com/3d171478229e9cb127adfa9e666731d2f1dd06064d8726cf88c273b3d342eab3/tech4bot/rk3562deb",
       "time": "2023-04-19T12:34:56Z",
       "id": 1
     },
     {
-      "title": "我用80美元的RK3562安卓平板变成了Debian Linux工作站",
-      "summary": "分享将安卓平板转换为Linux工作站的教程。",
-      "category": "系统",
-      "tags": [
-        "Linux",
-        "平板",
-        "工作站"
-      ],
-      "url": "https://github.com/tech4bot/rk3562deb",
-      "source": "Hacker News",
-      "time": "2023-04-19T12:34:56Z",
-      "id": 2
-    },
-    {
-      "title": "展示HN：Semble – 使用比grep少98%的令牌的代理代码搜索",
-      "summary": "介绍一个高效的代码搜索工具。",
+      "title": "Semble - 使用比grep少98%令牌的代理代码搜索",
+      "summary": "介绍一个比grep更高效的代码搜索工具，提高开发效率。",
       "category": "工具",
       "tags": [
         "代码搜索",
         "工具",
-        "效率"
+        "开发效率"
       ],
       "url": "https://github.com/MinishLab/semble",
       "source": "Hacker News",
+      "image": "https://opengraph.githubassets.com/9b61fd38f36e354cde08ba0d9f3edd0727e02e9647452bb1be8d0076b00a0253/MinishLab/semble",
+      "time": "2023-04-19T12:34:56Z",
+      "id": 2
+    },
+    {
+      "title": "自动数据经纪人退出运行器 - macOS的Auto-identity-remove",
+      "summary": "介绍一款用于macOS的自动数据经纪人退出工具。",
+      "category": "工具",
+      "tags": [
+        "macOS",
+        "数据管理",
+        "隐私保护"
+      ],
+      "url": "https://github.com/stephenlthorn/auto-identity-remove",
+      "source": "Hacker News",
+      "image": "https://opengraph.githubassets.com/deb883ab24350e1054331fe89c77a735a9739109ed3b12d1779678fe303b3a09/stephenlthorn/auto-identity-remove",
       "time": "2023-04-19T12:34:56Z",
       "id": 3
     },
     {
-      "title": "展示HN：Auto-identity-remove – macOS的自动数据经纪人退出运行器",
-      "summary": "介绍一款自动管理数据隐私的工具。",
-      "category": "工具",
+      "title": "两架EA-18战斗机在Mountain Home航展相撞，飞行员安全弹出",
+      "summary": "报道Mountain Home航展中两架战斗机相撞事件，飞行员成功弹出。",
+      "category": "系统",
       "tags": [
-        "数据隐私",
-        "工具",
-        "macOS"
+        "战斗机",
+        "航展",
+        "安全事件"
       ],
-      "url": "https://github.com/stephenlthorn/auto-identity-remove",
+      "url": "https://idahonews.com/news/local/two-f-18-fighter-jets-have-crashed-during-an-airshow-at-mountain-home-air-force-base",
       "source": "Hacker News",
+      "image": "https://idahonews.com/resources/media2/16x9/924/1320/80x0/90/63e1f39e-a3a1-4589-b433-cb0b3b38ad9e-Crash2.jpg",
       "time": "2023-04-19T12:34:56Z",
       "id": 4
     },
     {
-      "title": "两架EA-18战斗机在Mountain Home航展相撞，飞行员安全弹射",
-      "summary": "报道Mountain Home航展上的飞机相撞事件。",
-      "category": "系统",
+      "title": "我们使用Git的–author标志在GitHub存储库中停止了AI机器人垃圾邮件",
+      "summary": "分享使用Git工具防止GitHub存储库中AI机器人垃圾邮件的经验。",
+      "category": "工具",
       "tags": [
-        "飞机",
-        "航展",
-        "安全"
+        "Git",
+        "垃圾邮件",
+        "安全防护"
       ],
-      "url": "https://idahonews.com/news/local/two-f-18-fighter-jets-have-crashed-during-an-airshow-at-mountain-home-air-force-base",
+      "url": "https://archestra.ai/blog/only-responsible-ai",
       "source": "Hacker News",
+      "image": "https://archestra.ai/blog/2026-04-07-only-responsible-ai.webp",
       "time": "2023-04-19T12:34:56Z",
       "id": 5
     },
     {
-      "title": "WriteUp：16字节x86代码将矩阵雨转换为声音",
-      "summary": "展示如何用少量代码实现创意效果。",
+      "title": "16字节x86代码将Matrix雨转换为声音",
+      "summary": "探索使用16字节x86代码将视觉效果转换为声音的技术。",
       "category": "编程语言",
       "tags": [
         "编程",
-        "创意",
-        "x86"
+        "声音生成",
+        "技术探索"
       ],
       "url": "https://hellmood.111mb.de//wake_up_16b_writeup.html",
       "source": "Hacker News",
+      "image": null,
       "time": "2023-04-19T12:34:56Z",
       "id": 6
     },
     {
-      "title": "我们使用Git的–author标志在GitHub仓库中停止了AI机器人垃圾邮件",
-      "summary": "分享防止AI机器人垃圾邮件的策略。",
-      "category": "工具",
-      "tags": [
-        "GitHub",
-        "AI",
-        "垃圾邮件"
-      ],
-      "url": "https://archestra.ai/blog/only-responsible-ai",
-      "source": "Hacker News",
-      "time": "2023-04-19T12:34:56Z",
-      "id": 7
-    },
-    {
-      "title": "Linux安全邮件列表“几乎无法管理”",
-      "summary": "讨论Linux安全邮件列表的挑战。",
+      "title": "Linux安全邮件列表‘几乎无法管理’",
+      "summary": "Linux安全邮件列表因AI驱动的漏洞猎人而变得难以管理。",
       "category": "系统",
       "tags": [
         "Linux",
         "安全",
-        "邮件列表"
+        "AI应用"
       ],
       "url": "https://www.theregister.com/security/2026/05/18/linus-torvalds-says-ai-powered-bug-hunters-have-made-linux-security-mailing-list-almost-entirely-unmanageable/5241633",
       "source": "Hacker News",
+      "image": "https://image.theregister.com/234872.jpg?imageId=234872&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "time": "2023-04-19T12:34:56Z",
+      "id": 7
+    },
+    {
+      "title": "AI正在吞噬世界（春季26）[pdf]",
+      "summary": "探讨AI对世界的影响及其发展趋势。",
+      "category": "AI",
+      "tags": [
+        "AI影响",
+        "发展趋势",
+        "科技趋势"
+      ],
+      "url": "https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf",
+      "source": "Hacker News",
+      "image": null,
       "time": "2023-04-19T12:34:56Z",
       "id": 8
     },
     {
-      "title": "AI吞噬世界（春季26）[pdf]",
-      "summary": "分析AI对世界的影响。",
-      "category": "AI",
+      "title": "在第一颗原子弹测试残骸中发现晶体",
+      "summary": "科学研究发现第一颗原子弹测试残骸中的奇异晶体。",
+      "category": "系统",
       "tags": [
-        "AI",
-        "影响",
-        "分析"
+        "科学发现",
+        "原子弹",
+        "历史科技"
       ],
-      "url": "https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf",
+      "url": "https://www.scientificamerican.com/article/strange-crystals-found-inside-wreckage-from-the-first-nuclear-bomb-test/",
       "source": "Hacker News",
+      "image": "https://static.scientificamerican.com/dam/asset/12cb3e17-9ed8-4e16-92fe-384efe63b377/GettyImages-2217357656-cropped.jpeg?m=1778530102.63&w=1200",
       "time": "2023-04-19T12:34:56Z",
       "id": 9
     },
     {
-      "title": "在第一颗原子弹试验的残骸中发现了晶体",
-      "summary": "报道在原子弹试验中发现的奇特晶体。",
+      "title": "我们塑造树木以生长成椅子的形状",
+      "summary": "报道一种创新的树木造型技术，将树木塑造成椅子的形状。",
       "category": "系统",
       "tags": [
-        "原子弹",
-        "晶体",
-        "科学"
+        "创新技术",
+        "树木造型",
+        "环保科技"
       ],
-      "url": "https://www.scientificamerican.com/article/strange-crystals-found-inside-wreckage-from-the-first-nuclear-bomb-test/",
+      "url": "https://www.bbc.co.uk/news/articles/cvg0yy3gp71o",
       "source": "Hacker News",
+      "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/69ee/live/22052400-52b0-11f1-8b8c-6d33e1d5abb6.jpg",
       "time": "2023-04-19T12:34:56Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "FULU-Foundation/OrcaSlicer-bambulab",
-      "description": "C++开源项目，OrcaSlicer切片工具",
-      "language": "C++",
-      "stars": 5872,
-      "starsToday": 979,
-      "forks": 4395,
-      "url": "https://github.com/FULU-Foundation/OrcaSlicer-bambulab",
+      "name": "ultraworkers/claw-code",
+      "description": "Rust构建，历史最快破10万星仓库",
+      "language": "Rust",
+      "stars": 191890,
+      "starsToday": 3998,
+      "forks": 109927,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 1
     },
     {
-      "name": "vercel-labs/zero",
-      "description": "面向代理的编程语言",
-      "language": "C",
-      "stars": 2174,
-      "starsToday": 725,
-      "forks": 138,
-      "url": "https://github.com/vercel-labs/zero",
+      "name": "openclaw/openclaw",
+      "description": "跨平台AI助手，龙虾之道",
+      "language": "TypeScript",
+      "stars": 372922,
+      "starsToday": 2131,
+      "forks": 77345,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 2
     },
     {
-      "name": "Nightmare-Eclipse/YellowKey",
-      "description": "YellowKey Bitlocker漏洞",
-      "language": "Unknown",
-      "stars": 3338,
-      "starsToday": 556,
-      "forks": 708,
-      "url": "https://github.com/Nightmare-Eclipse/YellowKey",
+      "name": "affaan-m/everything-claude-code",
+      "description": "Claude Code性能优化系统",
+      "language": "JavaScript",
+      "stars": 186410,
+      "starsToday": 1553,
+      "forks": 28852,
+      "url": "https://github.com/affaan-m/everything-claude-code",
       "rank": 3
     },
     {
-      "name": "nexu-io/html-anything",
-      "description": "智能HTML编辑器，一键生成多格式内容",
-      "language": "HTML",
-      "stars": 3164,
-      "starsToday": 452,
-      "forks": 360,
-      "url": "https://github.com/nexu-io/html-anything",
+      "name": "nilbuild/developer-roadmap",
+      "description": "开发者成长指南",
+      "language": "TypeScript",
+      "stars": 355016,
+      "starsToday": 106,
+      "forks": 44078,
+      "url": "https://github.com/nilbuild/developer-roadmap",
       "rank": 4
     },
     {
-      "name": "yetone/native-feel-skill",
-      "description": "跨平台桌面应用设计技能",
-      "language": "Unknown",
-      "stars": 1305,
-      "starsToday": 435,
-      "forks": 61,
-      "url": "https://github.com/yetone/native-feel-skill",
+      "name": "donnemartin/system-design-primer",
+      "description": "系统设计面试准备",
+      "language": "Python",
+      "stars": 349143,
+      "starsToday": 104,
+      "forks": 56273,
+      "url": "https://github.com/donnemartin/system-design-primer",
       "rank": 5
     },
     {
-      "name": "simonlin1212/a-stock-data",
-      "description": "A股全栈数据工具包",
-      "language": "Unknown",
-      "stars": 1195,
-      "starsToday": 171,
-      "forks": 271,
-      "url": "https://github.com/simonlin1212/a-stock-data",
+      "name": "krahets/hello-algo",
+      "description": "多语言数据结构与算法教程",
+      "language": "Java",
+      "stars": 126240,
+      "starsToday": 98,
+      "forks": 15128,
+      "url": "https://github.com/krahets/hello-algo",
       "rank": 6
     },
     {
-      "name": "ollama/ollama",
-      "description": "多模型训练与运行平台",
-      "language": "Go",
-      "stars": 171694,
-      "starsToday": 163,
-      "forks": 16180,
-      "url": "https://github.com/ollama/ollama",
+      "name": "ggml-org/llama.cpp",
+      "description": "C/C++ LLM推理",
+      "language": "C++",
+      "stars": 110894,
+      "starsToday": 95,
+      "forks": 18358,
+      "url": "https://github.com/ggml-org/llama.cpp",
       "rank": 7
     },
     {
-      "name": "Significant-Gravitas/AutoGPT",
-      "description": "AutoGPT：人人可用的AI工具",
+      "name": "EbookFoundation/free-programming-books",
+      "description": "免费编程书籍",
       "language": "Python",
-      "stars": 184398,
-      "starsToday": 159,
-      "forks": 46229,
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "stars": 388499,
+      "starsToday": 84,
+      "forks": 66310,
+      "url": "https://github.com/EbookFoundation/free-programming-books",
       "rank": 8
     },
     {
-      "name": "public-apis/public-apis",
-      "description": "免费API集合",
-      "language": "Python",
-      "stars": 435675,
-      "starsToday": 117,
-      "forks": 47754,
-      "url": "https://github.com/public-apis/public-apis",
+      "name": "n8n-io/n8n",
+      "description": "AI能力工作流自动化平台",
+      "language": "TypeScript",
+      "stars": 188547,
+      "starsToday": 75,
+      "forks": 57780,
+      "url": "https://github.com/n8n-io/n8n",
       "rank": 9
     },
     {
-      "name": "freeCodeCamp/freeCodeCamp",
-      "description": "免费编程学习平台",
-      "language": "TypeScript",
-      "stars": 445078,
-      "starsToday": 107,
-      "forks": 44626,
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "name": "awesome-selfhosted/awesome-selfhosted",
+      "description": "自托管网络服务与应用列表",
+      "language": "Unknown",
+      "stars": 293475,
+      "starsToday": 73,
+      "forks": 13603,
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
       "rank": 10
     }
   ],
   "dailySummary": {
     "date": "2026-05-18",
-    "updatedAt": "2026-05-18T17:16:37.811Z",
+    "updatedAt": "2026-05-18T17:28:45.751Z",
     "highlights": [
-      "AI技术讨论持续升温，但对其应用效果存在争议。",
-      "开源硬件和软件项目活跃，RK3562平板变工作站、代理代码搜索工具等备受关注。",
-      "安全领域问题突出，Git工具防止垃圾邮件、Linux安全邮件列表管理困难。",
-      "编程语言和框架更新，UI引擎和业务解决方案的讨论兴起。",
-      "GitHub热门项目涵盖多个领域，从数据工具到AI应用，展示技术发展趋势。"
+      "Debian Linux工作站搭建",
+      "代码搜索工具优化",
+      "Auto-identity-remove工具发布",
+      "飞行员安全弹出事件",
+      "GitHub AI机器人垃圾邮件治理",
+      "16字节x86编程创新",
+      "Linux安全邮件列表挑战",
+      "AI发展趋势讨论",
+      "原子弹测试残骸发现",
+      "AI恐慌减缓",
+      "谷歌地图图像问题",
+      "健康系统与弹性系统差异",
+      "编程创作工具",
+      "UI框架与业务引擎区分"
     ],
     "keywords": [
-      "AI",
-      "开源",
-      "安全",
-      "编程语言",
+      "Debian",
+      "代码搜索",
+      "Auto-identity-remove",
+      "飞行员安全弹出",
       "GitHub",
-      "Linux",
-      "工具",
-      "系统"
+      "编程",
+      "Linux安全",
+      "AI趋势",
+      "原子弹",
+      "AI恐慌",
+      "谷歌地图",
+      "系统差异",
+      "编程工具",
+      "UI框架",
+      "业务引擎"
     ],
-    "trendingSummary": "AI技术引发讨论，开源项目和工具活跃，安全问题和编程语言更新成为关注焦点，GitHub热门项目展示技术多样性。"
+    "trendingSummary": "今日技术趋势集中在系统构建与优化，AI领域的恐慌情绪有所减缓，同时编程工具和系统设计准备受到关注。"
   }
 }
