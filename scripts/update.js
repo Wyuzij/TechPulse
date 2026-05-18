@@ -14,7 +14,7 @@ import { fetchGitHub } from './fetch-github.js'
 import { translateNews, translateGitHub, generateSummary } from './summarize.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const OUTPUT = resolve(__dirname, '../public/feed.json')
+const OUTPUT = resolve(__dirname, '../src/data/feed.json')
 
 async function main() {
   console.log('=== 每日数据更新 ===')

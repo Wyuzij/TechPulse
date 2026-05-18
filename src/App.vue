@@ -39,31 +39,16 @@ import NewsView from './components/NewsView.vue'
 import ProjectsView from './components/ProjectsView.vue'
 import SummaryView from './components/SummaryView.vue'
 import AppFooter from './components/AppFooter.vue'
-import { techNews as mockNews, githubTrending as mockRepos, dailySummary as mockSummary } from './data/mockData.js'
+import feed from './data/feed.json'
 
-// 用 reactive 提供数据，前端可以直接注入使用，也支持运行时替换
-const news = reactive([...mockNews])
-const repos = reactive([...mockRepos])
-const summary = reactive({ ...mockSummary })
+// 直接使用工作流生成的实时数据
+const news = reactive([...feed.techNews])
+const repos = reactive([...feed.githubTrending])
+const summary = reactive({ ...feed.dailySummary })
 
 provide('news', news)
 provide('repos', repos)
 provide('summary', summary)
-
-// 运行时尝试加载真实数据 JSON（GitHub Actions 每日生成）
-onMounted(async () => {
-  try {
-    const res = await fetch('/feed.json')
-    if (res.ok) {
-      const feed = await res.json()
-      news.splice(0, news.length, ...feed.techNews)
-      repos.splice(0, repos.length, ...feed.githubTrending)
-      Object.assign(summary, feed.dailySummary)
-    }
-  } catch {
-    // feed.json 不存在时使用 mock 数据，无需处理
-  }
-})
 
 const sumSec = ref(null)
 const newsSec = ref(null)

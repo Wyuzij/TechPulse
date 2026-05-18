@@ -5,9 +5,9 @@
         <span class="section-num">03</span>
       </div>
       <div class="section-title-block">
-        <p class="section-eyebrow">{{ repos.length }} repositories trending today</p>
+        <p class="section-eyebrow">{{ repos.length }} repositories · 24h star growth</p>
         <h2 class="section-title">GitHub 热门项目</h2>
-        <p class="section-sub">全球开发者正在关注的开源项目，今日趋势一览</p>
+        <p class="section-sub">按 24 小时内 Star 上涨量排序，发现今日最受关注的开源项目</p>
       </div>
     </div>
 
