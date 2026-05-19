@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1a14"/>
+      <stop offset="100%" stop-color="#0a1210"/>
+    </linearGradient>
+  </defs>
+  <!-- 圆角矩形背景 -->
+  <rect width="32" height="32" rx="6" fill="url(#bg)"/>
+  <!-- 边框 -->
+  <rect width="32" height="32" rx="6" fill="none" stroke="#1a3a2a" stroke-width="0.8"/>
+  <!-- ECG 波形 -->
+  <path d="M2,20 L8,20 L10,20 L12,5 L14,28 L16,20 L19,20 L21,20 L23,12 L25,24 L27,20 L30,20"
+        fill="none" stroke="#4ecb9a" stroke-width="1.5"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- 光点 -->
+  <circle cx="30" cy="20" r="2" fill="#4ecb9a" opacity="0.8">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
