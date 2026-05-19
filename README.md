@@ -1,77 +1,77 @@
-# TechPulse
+# ⚡ TechPulse
 
-AI 驱动的科技情报看板
+> AI 驱动的每日科技情报看板 — 清晨 8:00 自动更新，国内可访问
 
-## 核心功能
+[![Daily Update](https://github.com/Wyuzij/TechPulse/actions/workflows/daily.yml/badge.svg)](https://github.com/Wyuzij/TechPulse/actions/workflows/daily.yml)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-在线访问-brightgreen)](https://wyuzij.github.io/TechPulse/)
+[![Vercel](https://img.shields.io/badge/Vercel-备用部署-black)](https://tech-pulse.vercel.app/)
 
-- **GitHub 热门项目追踪**：自动抓取 GitHub  trending 项目，展示前沿开源动态
-- **科技新闻聚合**：实时采集并分类最新科技资讯
-- **AI 智能摘要**：自动生成新闻内容摘要，快速掌握核心信息
-- **数据可视化看板**：以卡片化、响应式界面直观呈现情报数据
-- **动态背景效果**：支持视频/图片背景，打造沉浸式浏览体验
+---
 
-## 技术栈
+## 🔧 工作流机制
 
-| 分类 | 技术 |
-|------|------|
-| **前端框架** | Vue 3 |
-| **构建工具** | Vite |
-| **UI 组件库** | Naive UI |
-| **组合式工具** | VueUse |
-| **动画效果** | Vanilla Tilt |
-| **字体** | vfonts |
-| **自动化脚本** | Node.js |
-| **CI/CD** | GitHub Actions |
+每日 **北京时间 08:00**（UTC 00:00），GitHub Actions 自动执行：
 
-## 本地运行
+```
+1. AI HOT API (aihot.virxact.com) 拉取中文 AI 资讯
+2. GitHub Search API 多维度搜索热门仓库
+3. 对比上一日 star 数，计算 24h 真实涨幅
+4. 读取仓库 README 提取项目描述
+5. GLM-4-Flash 翻译 GitHub 描述 + 生成趋势解读
+6. 构建静态页面，推送至 gh-pages 分支
+```
+
+- 📥 **资讯源**：[AI HOT](https://aihot.virxact.com/) 精选 AI 圈动态，中文直达，无需翻译
+- ⭐ **GitHub 趋势**：10 条搜索维度，24h star 涨幅排序
+- 🤖 **AI 总结**：智谱 GLM-4-Flash 生成每日趋势研判
+- 📦 **双线部署**：GitHub Pages（国内可访）+ Vercel（备用）
+
+---
+
+## 🧩 页面布局
+
+| 模块 | 内容 |
+|---|---|
+| **01 · AI 趋势解读** | 要点速览 · 趋势研判 · 核心关键词 |
+| **02 · 技术资讯** | 10 条当日 AI 资讯，心电图风格头条卡片 |
+| **03 · GitHub 热门项目** | 按 24h star 涨幅排列，README 提取描述 |
+
+---
+
+## 🚀 本地运行
 
 ```bash
-# 安装依赖
-npm install
-
-# 启动开发服务器
-npm run dev
-
-# 构建生产版本
-npm run build
-
-# 预览生产构建
-npm run preview
+npm install        # 安装依赖
+npm run dev        # 启动开发服务器 → localhost:5173
+npm run build      # 构建生产版本
+npm run preview    # 预览构建结果
 ```
 
-## 项目结构
+## 📁 项目结构
 
 ```
-.
-├── public/                  # 静态资源
-│   ├── bg-video.mp4         # 背景视频
-│   └── bg.jpg               # 背景图片
-├── scripts/                 # 数据处理脚本
-│   ├── fetch-github.js      # GitHub 项目抓取
-│   ├── fetch-news.js        # 新闻数据采集
-│   ├── summarize.js         # AI 摘要生成
+├── scripts/                 # 自动化脚本
+│   ├── fetch-news.js        # → AI HOT API 拉取中文资讯
+│   ├── fetch-github.js      # → GitHub Search + README 抓取
+│   ├── summarize.js         # → GLM 翻译 + 趋势解读
 │   └── update.js            # 数据更新入口
 ├── src/
-│   ├── components/          # Vue 组件
-│   │   ├── AppHeader.vue    # 顶部导航
-│   │   ├── AppFooter.vue    # 底部信息
-│   │   ├── HeroSection.vue  # 首屏展示区
-│   │   ├── NewsView.vue     # 新闻视图
-│   │   ├── ProjectsView.vue # 项目视图
-│   │   ├── SummaryView.vue  # 摘要视图
-│   │   └── OxideBackground.vue  # 背景组件
-│   ├── composables/         # 组合式函数
-│   │   └── useReveal.js     # 滚动揭示动画
-│   ├── data/                # 数据源
-│   │   ├── feed.json        # 数据文件
-│   │   └── mockData.js      # 模拟数据
-│   ├── styles/              # 全局样式
-│   │   └── global.css
+│   ├── components/          # Vue 3 SFC 组件
+│   ├── data/feed.json       # 每日自动更新的数据文件
+│   ├── styles/global.css    # 全局样式
 │   ├── App.vue              # 根组件
-│   └── main.js              # 入口文件
-├── .github/workflows/       # GitHub Actions 工作流
-│   └── daily.yml            # 每日自动更新任务
-├── index.html               # HTML 入口
-├── vite.config.js           # Vite 配置
-└── package.json             # 项目依赖
+│   └── main.js              # 入口
+├── public/                  # 静态资源
+├── .github/workflows/       # CI/CD 工作流
+└── vite.config.js
 ```
+
+## 🛠 技术栈
+
+**前端**: Vue 3 + Vite · 纯 CSS 动画 · SVG 心电图特效
+**后端**: Node.js 脚本 · GitHub Actions · 智谱 GLM API
+**部署**: GitHub Pages + Vercel 双线
+
+---
+
+*Powered by [AI HOT](https://aihot.virxact.com/) · [GitHub API](https://docs.github.com/en/rest) · [智谱 GLM](https://open.bigmodel.cn/)*
