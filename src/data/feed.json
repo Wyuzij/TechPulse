@@ -1,269 +1,264 @@
 {
   "date": "2026-05-19",
-  "updatedAt": "2026-05-19T03:31:51.979Z",
+  "updatedAt": "2026-05-19T07:44:29.506Z",
   "techNews": [
     {
-      "title": "腾讯 AI 设计智能体 Ardot 公测：一句话生成可编辑设计稿，一键转代码",
-      "summary": "腾讯云正式公测自研AI设计智能体平台Ardot。该平台核心功能包括：用户通过一句话指令即可生成App页面、官网、海报等可编辑设计稿；支持调用团队自有组件库生成规范稿，并能直接导入Figma文件保留原有设计。同时，Ardot具备设计稿一键转换为代码的能力，可对接CodeBuddy等开发工具实现代码还原。平台还提供多人在线实时评论、标注反馈和版本对比等协作功能，其微信小程序即将上线。",
-      "category": "AI",
-      "tags": [
-        "腾讯",
-        "编程",
-        "Agent"
-      ],
-      "url": "https://www.ithome.com/0/951/677.htm",
-      "source": "IT之家（RSS）",
-      "image": null,
-      "time": "2026-05-18T02:43:58.000Z",
-      "id": 1
-    },
-    {
-      "title": "一键生成韩国棒球AI视频模板爆火",
-      "summary": "那个热狗需要自己的座位\n\n【引用 @MrDasOnX】：这可能是最简单的病毒式AI编辑。\n\nPixVerse → 上传自拍 → 即时生成韩国棒球镜头视频\n\n无需指令。无需编辑。\n只需一键点击。\n\n@PixVerse_ 上的K-Baseball Sprint模板太疯狂了。",
+      "title": "QoderWork推出Design Desk无限画布AI工作区",
+      "summary": "🎨 介绍QoderWork的Design Desk。一个将语言转化为可运行代码的无限画布AI工作区。\n💡 用自然语言描述你的需求--即可在无限画布上获得可运行的React + Vite项目。设计师迭代，开发者交付相同文件。无缝交接。\n⏬立即下载QoderWork\nhttps：//www.qoderwork.ai\n#AI #Qoder #QoderWork #DesignDesk",
       "category": "AI",
       "tags": [
         "ai-products"
       ],
-      "url": "https://x.com/PixVerse_/status/2056198882321904098",
-      "source": "X：PixVerse (@PixVerse_)",
+      "url": "https://x.com/alibaba_cloud/status/2056581373301788747",
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
       "image": null,
-      "time": "2026-05-18T02:23:10.000Z",
-      "id": 2
+      "time": "2026-05-19T03:43:03.000Z",
+      "id": 1
     },
     {
-      "title": "阿里云推出HappyHorse视频生成模型",
-      "summary": "电影级AI现已到来。🐎💨\n\nHappyHorse现已登陆Model Studio。从原始提示词到1080p多镜头现实感画面--在统一工作流中体验视频生成的未来。没有阻碍。只有纯粹性能。\n\n🔥 限时优惠：8折。观看演示并立即开始创作。\n\n立即访问：https：//int.alibabacloud.com/m/1000412936/",
+      "title": "Qwen3.7预览版登陆竞技场，阿里视觉排名升至第五",
+      "summary": "🚀🚀Qwen3.7预览版登陆竞技场！\n\n⚡️⚡️Qwen3.7-Plus-Preview来了。阿里巴巴现在在视觉领域排名第五。🎨\n\n迫不及待要发布Qwen3.7系列模型了！敬请期待！@arena",
       "category": "AI",
       "tags": [
         "阿里",
-        "视频生成"
+        "多模态"
       ],
-      "url": "https://x.com/alibaba_cloud/status/2056182152681644176",
+      "url": "https://x.com/alibaba_cloud/status/2056570869548478592",
       "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
       "image": null,
-      "time": "2026-05-18T01:16:41.000Z",
+      "time": "2026-05-19T03:01:19.000Z",
+      "id": 2
+    },
+    {
+      "title": "开源古代汉字视觉感知评估基准Chronicles-OCR",
+      "summary": "开源了评估视觉大语言模型（VLLM）对古代汉字视觉感知能力的基准测试Chronicles-OCR。该数据集覆盖了从甲骨文到草书的3000年演变历程，包含7种历史书体与2800张均衡图像。评估涵盖字形定位、细粒度识别、古代文本解析和字体分类四项核心任务，旨在探究视觉分布随时间的变化如何影响模型感知。相关论文与代码已开源。",
+      "category": "AI",
+      "tags": [
+        "开源",
+        "多模态"
+      ],
+      "url": "https://x.com/TencentHunyuan/status/2056567125205270882",
+      "source": "X：腾讯混元 (@TencentHunyuan)",
+      "image": null,
+      "time": "2026-05-19T02:46:26.000Z",
       "id": 3
     },
     {
-      "title": "开源工具揭露AI API中转站安全风险与检测差异",
-      "summary": "针对AI API中转站可能存在的\"掺水\"、\"造假\"等安全风险，开源项目api-relay-audit通过双论文锚定路线，对AC-1工具调用改写、AC-2错误响应泄漏、上下文截断等常见攻击进行可验证的三态判定，并提供透明日志。对比hvoy.ai和cctest.ai等工具，其透明度和可审计性更为可靠。项目作者已将完整方法论、对比结果和功能速查表公开，并开源了该检测工具。",
-      "category": "工具",
+      "title": "Anthropic联合创始人将与教皇利奥十四世共同发布人工智能通谕",
+      "summary": "Anthropic联合创始人将于2026年5月与教皇利奥十四世共同发布首个人工智能通谕\"magnifica humanitas\"。这是教皇利奥十四世的首次通谕，聚焦人工智能技术与伦理，标志着科技企业与宗教领袖在AI议题上的合作。通谕由梵蒂冈新闻发布，具体探讨人工智能对人类社会的影响，在Hacker News平台获得104点关注，反映了话题的广泛热度。",
+      "category": "行业",
       "tags": [
-        "开源",
-        "API",
-        "安全"
+        "Claude"
       ],
-      "url": "https://x.com/berryxia/status/2056173473588994392",
-      "source": "X：Berry Xia (@berryxia)",
+      "url": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "image": null,
-      "time": "2026-05-18T00:42:12.000Z",
+      "time": "2026-05-19T02:13:08.248Z",
       "id": 4
     },
     {
-      "title": "人机快递分拣对决直播",
-      "summary": "Figure 直播机器人 VS 人类\n\n挑战\n\n快递分拣任务\n\n目前人类稍稍领先…😌",
+      "title": "谷歌联手黑石组建 AI 云公司：50 亿美元起步，2027 年冲刺 500 兆瓦",
+      "summary": "谷歌与黑石集团宣布合作成立一家新的AI云服务公司，黑石率先投入50亿美元股权资本，结合后续杠杆，总投资规模预计约250亿美元。该公司计划依托谷歌自研的TPU芯片和云基础设施，与CoreWeave等算力服务商展开竞争，并争取在2027年上线容量达500兆瓦的数据中心，相当于一座中等城市的用电规模。此举标志着谷歌迄今最大规模的对外芯片商业化尝试，将加剧与英伟达等公司在AI算力市场的角逐。",
       "category": "行业",
       "tags": [
-        "industry"
+        "Gemini"
       ],
-      "url": "https://x.com/xiaohu/status/2056172740873511139",
-      "source": "X：小互 (@xiaohu)",
+      "url": "https://www.ithome.com/0/952/097.htm",
+      "source": "IT之家（RSS）",
       "image": null,
-      "time": "2026-05-18T00:39:17.000Z",
+      "time": "2026-05-19T01:52:20.000Z",
       "id": 5
     },
     {
-      "title": "Hermes 可配置的国内外 AI 模型及使用方法",
-      "summary": "Hermes 支持配置多种国内外主流 AI 模型，包括 OpenAI GPT-5.5、xAI Grok-4.3、谷歌 Gemini 系列、DeepSeek V4 系列、智谱 GLM-5 系列、Kimi K2.6 以及小米 Mimo V2.5-pro。用户需通过相应服务的订阅或 API 进行配置，完成后可使用 /model 指令指定模型及提供者来切换对话模型，例如输入\"/model gpt-5.5 --provider openai-codex\"即可切换至对应模型。该功能方便用户根据需求灵活调用不同模型的优势。",
-      "category": "工具",
+      "title": "Cursor发布Composer 2.5模型，号称目前最强",
+      "summary": "Cursor正式推出Composer 2.5模型，宣称其为当前最强大的AI模型。该模型在智能性、长任务持续执行及复杂指令遵循等方面均有显著提升，并声称在同等能力下效率提升10倍。此次升级主要基于扩大训练规模、构建更复杂的强化学习环境以及引入文本反馈机制。值得注意的是，Composer 2.5的底层架构与Moonshot的Kimi K2.5同源。同时，Cursor正与SpaceXAI合作，计划用十倍算力训练下一代更大模型。未来一周内，该模型的包含用量将翻倍。",
+      "category": "AI",
       "tags": [
-        "tip"
+        "ai-products"
       ],
-      "url": "https://x.com/vista8/status/2056170241147977741",
-      "source": "X：Vista (@vista8)",
+      "url": "https://x.com/berryxia/status/2056549740393947627",
+      "source": "X：Berry Xia (@berryxia)",
       "image": null,
-      "time": "2026-05-18T00:29:21.000Z",
+      "time": "2026-05-19T01:37:21.000Z",
       "id": 6
     },
     {
-      "title": "开源微信读书数据可视化工具yao-weread-skill发布",
-      "summary": "开发者姚老师开源了微信读书Skill--yao-weread-skill。该工具能将用户的微信读书数据生成本地可视化报告，核心功能包括分析近两年的阅读时长与节律、书架书籍构成、阅读分类与作者偏好，并对笔记和想法进行语义分析。报告最终通过词云、热力图、雷达图等26种图表形式呈现，所有代码已在GitHub公开。",
-      "category": "工具",
+      "title": "首个实时多agent世界模型发布，人类可与AI同屏互动",
+      "summary": "奥德赛实验室推出Agora-1，这是全球首个实时多agent世界模型，允许多人与AI同时在同一个模拟世界中实时互动并相互影响。该模型以经典游戏GoldenEye死亡竞赛为演示场景，提供可玩研究预览，用户现在即可体验与AI共同参与动态生成的模拟世界。这标志着从单人生成视频向多人共享\"活世界\"的转变，长期来看可能重塑游戏、模拟、教育、机器人及AI协作等领域，使人类从旁观者变为与AI共同生活的参与者。",
+      "category": "AI",
       "tags": [
-        "开源"
+        "Agent"
       ],
-      "url": "https://x.com/vista8/status/2056050473392902430",
-      "source": "X：Vista (@vista8)",
+      "url": "https://x.com/berryxia/status/2056548546544124240",
+      "source": "X：Berry Xia (@berryxia)",
       "image": null,
-      "time": "2026-05-17T16:33:27.000Z",
+      "time": "2026-05-19T01:32:36.000Z",
       "id": 7
     },
     {
-      "title": "Anthropic Claude 5天攻破Apple M5 macOS内核漏洞：5年数十亿防线，被AI一举击穿",
-      "summary": "Anthropic的Claude Mythos Preview在5天内，协助安全团队Calif成功构建并演示了首个公开的、针对Apple M5芯片macOS内核的内存破坏提权利用链。该攻击绕过了苹果耗时5年、投入数十亿美元打造的MIE硬件级内存完整性防护，从普通用户权限通过纯数据操作即可获得root权限。苹果已在后续更新中修复漏洞并致谢。此事件标志着AI驱动的安全研究能力已能极速突破顶尖硬件防护，显著改变了攻防的速度与平衡。",
+      "title": "Claude AI助手v2.1.144版本更新",
+      "summary": "Claude AI助手发布了v2.1.144版本。此次更新主要新增了对后台会话的`/resume`支持，并将\"extra usage\"更名为\"usage credits\"。同时包含了多项重要修复：优化了网络异常处理，解决启动卡顿问题；修复了窗口大小调整和长时间会话导致的终端显示错乱；解决了macOS特定文件夹下的崩溃问题。此外，还改进了模型选择持久化、文件读取、工具调用以及MCP服务器分页工具列表的处理，并减少了在VS Code中的渲染故障。本次更新显著提升了工具的稳定性和用户体验。",
       "category": "AI",
       "tags": [
-        "Claude",
-        "安全"
+        "Claude"
       ],
-      "url": "https://x.com/berryxia/status/2056043674446995887",
-      "source": "X：Berry Xia (@berryxia)",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
+      "source": "Claude Code：GitHub Releases（RSS）",
       "image": null,
-      "time": "2026-05-17T16:06:26.000Z",
+      "time": "2026-05-19T00:48:51.000Z",
       "id": 8
     },
     {
-      "title": "让 Codex 自己做了一条视频介绍了一下这个视频生成方案",
-      "summary": "该方案整合了藏师傅的PPT Skill（视觉与动效）、HyperFrames（时间线与渲染）、Listenhub Skill（配音）以及即梦CLI（补充片段）。核心在于，用户可通过Codex直接基于文本提示生成带动效的解释视频，并能在聊天界面内预览，极大提升了制作效率，特别适合产品介绍等视频内容。",
-      "category": "工具",
-      "tags": [
-        "视频生成",
-        "编程"
-      ],
-      "url": "https://x.com/op7418/status/2056021133477163298",
-      "source": "X：歸藏 (@op7418)",
-      "image": null,
-      "time": "2026-05-17T14:36:51.000Z",
-      "id": 9
-    },
-    {
-      "title": "Garry Tan发布的GBrain直接捅破个人AI天花板",
-      "summary": "Garry Tan开源的GBrain是一个知识系统，而非简单的RAG工具。它通过8层结构解决AI Agent的记忆缺陷：前4层升级基础检索，后4层实现终身记忆和自我进化，使如OpenClaw、Hermes等Agent能持续追踪用户的人际关系、决策轨迹和认知演化。该系统已在生产环境中处理大量数据，用户可通过安装链接或命令行快速集成，并以Markdown为最高优先级数据源，推动个人AI成为可能。",
+      "title": "「开发日志」提示词：让AI编码决策可审计",
+      "summary": "针对AI协作编码中\"规格永难完整\"与\"决策无法追踪\"的核心矛盾，此提示词提出了第三条路径。它要求AI在实现需求时同步维护一份结构化文档，明确记录设计决策、对规格的偏离、考虑过的权衡以及待确认的开放性问题。这种方法的关键在于将AI执行过程中的隐性判断显式化、文档化，从而让Code Review可直接对照决策笔记，而非逆向工程代码。它不仅降低了模型的过度澄清倾向，更通过提供结构化产物，建立了一种可审计、可协作的人机开发新范式。",
       "category": "工具",
       "tags": [
         "tip"
       ],
-      "url": "https://x.com/AYi_AInotes/status/2055954675526934642",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "url": "https://x.com/shao__meng/status/2056535561540948056",
+      "source": "X：邵猛 (@shao__meng)",
       "image": null,
-      "time": "2026-05-17T10:12:47.000Z",
+      "time": "2026-05-19T00:41:01.000Z",
+      "id": 9
+    },
+    {
+      "title": "Claude Design大升级：Token限制翻倍",
+      "summary": "Anthropic宣布Claude Design所有计划的Token限制翻倍。这解决了以往在处理完整UI设计、多页设计稿或复杂Agent工作流时频繁出现的token不足问题。翻倍后的空间显著提升了连续创作的体验，让该工具在vibe coding、原型制作等任务中实用性大增，从\"能用\"跃升至\"真香\"。这体现了Anthropic为提升竞争力而对创作工具的持续优化。",
+      "category": "AI",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://x.com/berryxia/status/2056525311635026398",
+      "source": "X：Berry Xia (@berryxia)",
+      "image": null,
+      "time": "2026-05-19T00:00:17.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "ultraworkers/claw-code",
-      "description": "Rust CLI代理工具库",
-      "language": "Rust",
-      "stars": 191926,
-      "starsToday": 3998,
-      "forks": 109938,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "Nightmare-Eclipse/YellowKey",
+      "description": "绕过Bitlocker漏洞工具",
+      "language": "Unknown",
+      "stars": 3477,
+      "starsToday": 580,
+      "forks": 738,
+      "url": "https://github.com/Nightmare-Eclipse/YellowKey",
       "rank": 1
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "个人AI助手，跨平台语音交互",
-      "language": "TypeScript",
-      "stars": 373014,
-      "starsToday": 2132,
-      "forks": 77377,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "yetone/native-feel-skill",
+      "description": "跨平台桌面应用设计技能",
+      "language": "Unknown",
+      "stars": 1327,
+      "starsToday": 332,
+      "forks": 61,
+      "url": "https://github.com/yetone/native-feel-skill",
       "rank": 2
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言编程语言学习资源",
-      "language": "JavaScript",
-      "stars": 186655,
-      "starsToday": 1543,
-      "forks": 28903,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "ollama/ollama",
+      "description": "构建开源模型",
+      "language": "Go",
+      "stars": 171725,
+      "starsToday": 162,
+      "forks": 16185,
+      "url": "https://github.com/ollama/ollama",
       "rank": 3
     },
     {
-      "name": "DenisSergeevitch/agents-best-practices",
-      "description": "通用代理技能开发框架",
-      "language": "Unknown",
-      "stars": 818,
-      "starsToday": 273,
-      "forks": 71,
-      "url": "https://github.com/DenisSergeevitch/agents-best-practices",
+      "name": "Significant-Gravitas/AutoGPT",
+      "description": "构建、部署AI代理",
+      "language": "Python",
+      "stars": 184413,
+      "starsToday": 159,
+      "forks": 46228,
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "rank": 4
     },
     {
-      "name": "facebookresearch/vggt-omega",
-      "description": "Python数据科学项目",
-      "language": "Python",
-      "stars": 1011,
-      "starsToday": 253,
-      "forks": 24,
-      "url": "https://github.com/facebookresearch/vggt-omega",
+      "name": "affaan-m/ECC",
+      "description": "多语言编程资源",
+      "language": "JavaScript",
+      "stars": 186805,
+      "starsToday": 150,
+      "forks": 28923,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 5
     },
     {
-      "name": "ywnd1144/Gopay_plus_automatic",
-      "description": "ChatGPT Plus订阅自动化工具",
+      "name": "public-apis/public-apis",
+      "description": "免费公共API资源库",
       "language": "Python",
-      "stars": 935,
-      "starsToday": 156,
-      "forks": 546,
-      "url": "https://github.com/ywnd1144/Gopay_plus_automatic",
+      "stars": 435794,
+      "starsToday": 117,
+      "forks": 47777,
+      "url": "https://github.com/public-apis/public-apis",
       "rank": 6
     },
     {
-      "name": "vercel-labs/zero",
-      "description": "面向代理的编程语言实验",
-      "language": "C",
-      "stars": 2334,
-      "starsToday": 134,
-      "forks": 148,
-      "url": "https://github.com/vercel-labs/zero",
+      "name": "freeCodeCamp/freeCodeCamp",
+      "description": "免费编程学习平台",
+      "language": "TypeScript",
+      "stars": 445114,
+      "starsToday": 107,
+      "forks": 44626,
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "rank": 7
     },
     {
-      "name": "nilbuild/developer-roadmap",
-      "description": "开发者社区路线图资源",
-      "language": "TypeScript",
-      "stars": 355037,
-      "starsToday": 106,
-      "forks": 44080,
-      "url": "https://github.com/nilbuild/developer-roadmap",
+      "name": "ggml-org/llama.cpp",
+      "description": "LLM推理工具",
+      "language": "C++",
+      "stars": 111234,
+      "starsToday": 95,
+      "forks": 18404,
+      "url": "https://github.com/ggml-org/llama.cpp",
       "rank": 8
     },
     {
-      "name": "donnemartin/system-design-primer",
-      "description": "系统设计入门教程",
+      "name": "EbookFoundation/free-programming-books",
+      "description": "多语言编程书籍资源",
       "language": "Python",
-      "stars": 349190,
-      "starsToday": 104,
-      "forks": 56278,
-      "url": "https://github.com/donnemartin/system-design-primer",
+      "stars": 388526,
+      "starsToday": 84,
+      "forks": 66309,
+      "url": "https://github.com/EbookFoundation/free-programming-books",
       "rank": 9
     },
     {
-      "name": "krahets/hello-algo",
-      "description": "数据结构与算法入门教程",
-      "language": "Java",
-      "stars": 126249,
-      "starsToday": 98,
-      "forks": 15128,
-      "url": "https://github.com/krahets/hello-algo",
+      "name": "n8n-io/n8n",
+      "description": "技术团队工作流自动化平台",
+      "language": "TypeScript",
+      "stars": 188630,
+      "starsToday": 75,
+      "forks": 57800,
+      "url": "https://github.com/n8n-io/n8n",
       "rank": 10
     }
   ],
   "dailySummary": {
     "date": "2026-05-19",
-    "updatedAt": "2026-05-19T03:31:51.979Z",
+    "updatedAt": "2026-05-19T07:44:29.506Z",
     "highlights": [
-      "腾讯AI设计智能体ArDot公测",
-      "阿里云HappyHorse视频生成模型发布",
-      "开源工具揭露AI API安全风险",
-      "Anthropic Claude攻破Apple M5内核漏洞",
-      "GBrain工具突破个人AI天花板"
+      "QoderWork推出Design Desk无限画布AI工作区",
+      "Cursor发布Composer 2.5模型",
+      "首个实时多agent世界模型发布",
+      "谷歌联手黑石组建AI云公司",
+      "Claude Design大升级：Token限制翻倍"
     ],
     "keywords": [
-      "AI设计",
-      "视频生成",
-      "安全风险",
-      "内核漏洞",
-      "个人AI",
-      "开源工具",
-      "微信读书",
-      "数据可视化",
-      "系统设计",
-      "数据结构与算法"
+      "AI工作区",
+      "模型发布",
+      "多agent世界模型",
+      "AI云公司",
+      "Claude Design升级",
+      "Bitlocker漏洞工具",
+      "跨平台桌面应用设计",
+      "开源模型",
+      "AI代理",
+      "多语言编程资源"
     ],
-    "trendingSummary": "今日AI领域动态活跃，腾讯和阿里的新模型展示AI在设计和视频领域的应用潜力。同时，AI安全风险及系统设计入门教程等资源受到关注，开源工具和框架的活跃度持续上升。"
+    "trendingSummary": "今日AI领域进展迅速，从无限画布AI工作区到最强模型发布，再到AI云公司的成立，AI技术正加速融入各行各业。同时，开源项目活跃，多语言编程资源丰富，技术团队工作流自动化平台受到关注。"
   }
 }
