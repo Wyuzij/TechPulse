@@ -1,261 +1,274 @@
 {
-  "date": "2026-05-19",
-  "updatedAt": "2026-05-19T14:24:46.188Z",
+  "date": "2026-05-20",
+  "updatedAt": "2026-05-20T03:32:25.688Z",
   "techNews": [
     {
-      "title": "AI代理集成新方案：Membrane推出单一技能连接万种API",
-      "summary": "AI代理在实际应用中需为每个外部服务重复构建集成逻辑，成为其发展的主要瓶颈。针对此问题，Membrane推出了一种通用\"技能\"解决方案。通过该单一技能，Claude Code、ChatGPT、Cursor等主流AI代理能够用一条指令调用超过10万个不同的API，涵盖从Stripe支付服务到NASA火星车数据等各类服务。这极大简化了开发流程，将定制化集成转变为通用的连接能力，降低了使用门槛。同时，Membrane正发起社区挑战，鼓励用户提交小众API以获得演示和免费额度激励，旨在持续扩展其连接生态。",
-      "category": "工具",
+      "title": "在OpenClaw中使用Grok",
+      "summary": "5月22日，xAI宣布，其用户现可在开源个人助理OpenClaw中直接使用Grok模型。所有持有SuperGrok或X Premium订阅的用户均可使用该功能。OpenClaw是一个开源的、本地优先的智能助手，可在多种硬件上运行并保持跨会话记忆，同时能接入WhatsApp、Telegram等多款主流通讯平台。用户通过简单安装和登录，即可在自有设备上运行OpenClaw，并通过其界面或关联的聊天工具与Grok交互。此举进一步扩展了Grok的应用场景，未来还将推出更多开源代理与集成支持。",
+      "category": "AI",
       "tags": [
-        "API"
+        "ai-products"
       ],
-      "url": "https://x.com/rohanpaul_ai/status/2056728566780547168",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "url": "https://x.ai/news/grok-openclaw",
+      "source": "xAI：News（网页）",
       "image": null,
-      "time": "2026-05-19T13:27:57.000Z",
+      "time": "2026-05-22T00:00:00.000Z",
       "id": 1
     },
     {
-      "title": "毕马威与Anthropic建立全球联盟，全面整合Claude AI模型",
-      "summary": "毕马威宣布与Anthropic建立全球联盟，将Claude人工智能模型全面整合至其核心业务与数字平台。此举将向毕马威全球超过27.6万名员工开放Claude访问权限，并率先应用于税务与法律等领域的客户工具开发。双方还将合作开发面向私募股权投资组合公司及网络安全漏洞检测的新产品。毕马威强调此次合作基于其可信AI框架，旨在通过负责任、可治理的AI部署，加速企业数字化转型。",
+      "title": "消息称微软内部示警：GitHub 面临生存级风险，AI 编程工具削弱托管必要性",
+      "summary": "微软内部发出警告，称其代码托管平台GitHub正面临\"生存级风险\"。主要原因是Cursor、Claude Code等AI编程助手兴起，改变了开发者工作流，削弱了持续将代码上传至GitHub的必要性。为统一工具链并控制成本，微软已要求部分团队在2026年6月底前停止试用Claude Code，转而使用自有工具GitHub Copilot CLI。同时，OpenAI曾考虑自建替代平台，也加剧了对GitHub地位的潜在威胁。",
       "category": "行业",
       "tags": [
-        "Claude"
+        "编程",
+        "开源",
+        "安全"
       ],
-      "url": "https://www.anthropic.com/news/anthropic-kpmg",
-      "source": "Anthropic：Newsroom（网页）",
+      "url": "https://www.ithome.com/0/952/645.htm",
+      "source": "IT之家（RSS）",
       "image": null,
-      "time": "2026-05-19T12:57:47.968Z",
+      "time": "2026-05-20T02:39:19.000Z",
       "id": 2
     },
     {
-      "title": "谷歌I/O大会发布Gemini 3.5 Flash",
-      "summary": "谷歌I/O 🔥：我们今天将迎来 Gemini 3.5 Flash！\n\n&gt； GEMINI\n&gt； GEMINI\n&gt； GEMINI\n&gt； GEM 👀\n\n【引用 @AiBattle_】：Gemini 3.5 Flash 刚刚出现在 Google Cloud 控制台中\n\n它来了",
+      "title": "Qwen3.7：智能体前沿",
+      "summary": "Qwen Studio推出Qwen3.7模型，提供覆盖聊天机器人、图像与视频理解、图像生成、文档处理、网页搜索集成、工具调用及工件生成等功能。该模型整合了当前AI智能体的关键能力，旨在推动多模态交互与实际任务执行向更综合、自主的方向发展。",
       "category": "AI",
       "tags": [
-        "Gemini"
+        "阿里",
+        "Agent"
       ],
-      "url": "https://x.com/testingcatalog/status/2056707725740953606",
-      "source": "X：Testing Catalog (@testingcatalog)",
+      "url": "https://qwen.ai/blog?id=qwen3.7",
+      "source": "Qwen：Blog Retrieval（API）",
       "image": null,
-      "time": "2026-05-19T12:05:08.000Z",
+      "time": "2026-05-20T02:00:00.000Z",
       "id": 3
     },
     {
-      "title": "前高管称微软 AI 布局失利，Copilot 付费使用率不足 3%",
-      "summary": "微软前高管马特·韦洛索批评称，尽管微软与OpenAI合作在2023至2025年间获得约300亿美元营收，但相关成本高达1000亿美元，盈利前景不明。他指出，微软在AI布局上存在多项失误，包括押注必应搜索AI转型未增市场份额、Copilot付费用户实际使用率不足3%、人才任用不当等。虽然微软称Copilot企业付费用户已超2000万家，但市场对其AI巨额投入的盈利路径存在担忧。微软仍计划2026年在AI基础设施投入最高1460亿美元。",
-      "category": "工具",
-      "tags": [
-        "编程"
-      ],
-      "url": "https://www.ithome.com/0/952/463.htm",
-      "source": "IT之家（RSS）",
-      "image": null,
-      "time": "2026-05-19T11:35:50.000Z",
-      "id": 4
-    },
-    {
-      "title": "现代汽车集团计划部署 2.5 万台波士顿动力 Atlas 人形机器人",
-      "summary": "现代汽车集团计划部署 2.5 万台波士顿动力 Atlas 人形机器人",
-      "category": "行业",
-      "tags": [
-        "机器人"
-      ],
-      "url": "https://www.ithome.com/0/952/459.htm",
-      "source": "IT之家（RSS）",
-      "image": null,
-      "time": "2026-05-19T10:50:31.000Z",
-      "id": 5
-    },
-    {
-      "title": "我真的要吹爆HTML！",
-      "summary": "作者通过向Claude Code提供精确的提示词，仅用2分钟就生成了一个功能完整的交互式HTML项目计划页面。该页面为单文件、无外部依赖，包含暗色主题、时间线、可折叠表格等丰富交互，可直接交付。相比过去在Notion中耗费30-40分钟制作模板，效率提升了近20倍。其核心在于使用明确的提示词来规范视觉、内容结构与交互细节，确保AI一次性交付完整产物。这充分展示了在AI时代，HTML作为轻量、高保真生产力工具的巨大潜力。",
+      "title": "拓宽关于前沿AI的对话",
+      "summary": "Anthropic为构建负责任的先进AI，正与全球多元群体展开对话。首轮讨论汇集了超过15个宗教、哲学及跨文化传统的学者与伦理学者，旨在为Claude等模型的道德形成与价值观对齐提供多元视角。受\"外部良知\"概念启发，团队开发并测试了伦理承诺提醒工具，初步实验显示其能有效降低模型不对齐行为。公司计划未来将对话拓展至法律、心理学及公民社会等领域，以共同应对AI对社会结构的重塑。",
       "category": "工具",
       "tags": [
         "tip"
       ],
-      "url": "https://x.com/AYi_AInotes/status/2056685348156055980",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "url": "https://www.anthropic.com/news/widening-conversation-ai",
+      "source": "Anthropic：Newsroom（网页）",
       "image": null,
-      "time": "2026-05-19T10:36:13.000Z",
+      "time": "2026-05-19T23:33:23.139Z",
+      "id": 4
+    },
+    {
+      "title": "Ramp利用Gemini API构建高级财务代理",
+      "summary": "通过使用Gemini API中的新托管代理功能，@Ramp在无需接触后端基础设施的情况下构建了其高级财务代理。\n\n了解更多 ↓",
+      "category": "AI",
+      "tags": [
+        "Gemini",
+        "API"
+      ],
+      "url": "https://x.com/googleaidevs/status/2056874010265485341",
+      "source": "X：Google AI for Developers (@googleaidevs)",
+      "image": null,
+      "time": "2026-05-19T23:05:53.000Z",
+      "id": 5
+    },
+    {
+      "title": "Claude Code的HTML输出：非凡的有效性",
+      "summary": "Claude Code团队正从Markdown转向HTML作为主要输出格式。Markdown虽简洁，但在信息密度、阅读性、分享和交互方面存在局限。HTML能支持表格、CSS样式、SVG图表和JavaScript交互，提供更清晰的视觉结构和高信息密度。由于HTML文件可通过浏览器直接打开和分享，便于团队协作审阅。Claude Code利用其广泛的上下文获取能力生成实用的HTML制品，适用于项目规划、文档编写和验证等多种场景，显著提升了AI生成内容的可读性与实用性。",
+      "category": "工具",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html",
+      "source": "Claude：Blog（网页）",
+      "image": null,
+      "time": "2026-05-19T21:45:38.448Z",
       "id": 6
     },
     {
-      "title": "Claude智能体托管平台新增自托管沙箱与MCP隧道功能",
-      "summary": "Anthropic为其Claude智能体托管平台推出两项更新：自托管沙箱允许用户在自有基础设施或合作云平台上运行工具，确保敏感数据与服务保留在用户控制范围内；MCP隧道则通过轻量网关，使智能体能安全连接企业私有网络内的数据库与API，无需暴露于公网。目前沙箱功能已进入公测，隧道处于研究预览阶段。这两项更新进一步增强了企业用户对智能体执行环境与内部资源访问的安全管控能力。",
+      "title": "Claude Code v2.1.145版本更新",
+      "summary": "本次更新为Claude Code工具带来了多项功能增强与问题修复。新功能包括：新增JSON格式的会话列表命令以便脚本化操作，并在OTEL追踪中完善了Agent父子关系。插件浏览界面现可预览详细信息。在稳定性方面，修复了权限提示被绕过的安全问题、MCP参数校验错误、终端窗口调整后的显示冻结，以及非ASCII名称导致的API调用失败等问题。同时改进了Read工具的文件超限处理，并优化了任务列表排序和状态栏信息显示等交互细节，整体提升了工具的易用性与可靠性。",
       "category": "AI",
       "tags": [
-        "Claude",
-        "Agent",
-        "MCP"
+        "Claude"
       ],
-      "url": "https://claude.com/blog/claude-managed-agents-updates",
-      "source": "Claude：Blog（网页）",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
+      "source": "Claude Code：GitHub Releases（RSS）",
       "image": null,
-      "time": "2026-05-19T09:09:26.458Z",
+      "time": "2026-05-19T21:31:07.000Z",
       "id": 7
     },
     {
-      "title": "地平线开源 HoloMotion-1 4 亿参数机器人小脑大模型，可实现舞蹈、健身、搬箱子等动作",
-      "summary": "地平线机器人实验室发布了其开源的人形机器人全身控制模型 HoloMotion-1。这是一个拥有 4 亿参数的\"小脑\"大模型，通过 MoE 稀疏激活与 KV-cache 推理机制，在端侧实现了约 300FPS 的实时推理能力。该模型利用互联网视频、光学动捕、VR 遥操作等多种来源的动作数据进行训练，并在真实机器人上成功展示了舞蹈、爬行、健身、搬箱子等复杂动作的零样本迁移能力。相关代码与技术报告已公开。",
-      "category": "AI",
+      "title": "ChatGPT图像生成周使用量突破15亿次",
+      "summary": "人们每周在ChatGPT中生成超过15亿张图像。\n\n研究员 @kenjihata 与产品负责人 @adele__li 及主持人 @AndrewMayne 一起，探讨自 Images 2.0 发布以来出现的新用例和趋势。",
+      "category": "工具",
       "tags": [
-        "开源",
-        "机器人"
+        "OpenAI",
+        "图像生成"
       ],
-      "url": "https://www.ithome.com/0/952/354.htm",
-      "source": "IT之家（RSS）",
+      "url": "https://x.com/OpenAI/status/2056849157860831239",
+      "source": "X：OpenAI (@OpenAI)",
       "image": null,
-      "time": "2026-05-19T08:08:57.000Z",
+      "time": "2026-05-19T21:27:08.000Z",
       "id": 8
     },
     {
-      "title": "Claude推出自托管沙箱与MCP隧道功能",
-      "summary": "来自Code with Claude伦敦现场：我们正在Claude Managed Agents中推出自托管沙箱（公测版）和MCP隧道（研究预览版）。\n在您自己的安全边界内运行代理，默认应用您的安全控制。",
-      "category": "AI",
+      "title": "创新一周年：庆祝Google Cloud x NVIDIA开发者社区达到10万会员",
+      "summary": "Google Cloud与NVIDIA开发者社区迎来成立一周年，会员规模突破10万。社区为开发者提供先进AI基础设施与资源支持，包括LLM优化、GPU加速数据分析等专项学习路径及专家网络研讨会。第二年计划将进一步扩展，推出实践实验室、工程活动及聚焦代理式AI增长的专项内容。",
+      "category": "行业",
       "tags": [
-        "Claude",
-        "MCP"
+        "Gemini",
+        "算力"
       ],
-      "url": "https://x.com/claudeai/status/2056645485696315581",
-      "source": "X：Claude (@claudeai)",
+      "url": "https://developers.googleblog.com/one-year-of-innovation-celebrating-100k-members-in-the-google-cloud-x-nvidia-developer-community",
+      "source": "Google Developers Blog（RSS）",
       "image": null,
-      "time": "2026-05-19T07:57:49.000Z",
+      "time": "2026-05-19T21:25:58.418Z",
       "id": 9
     },
     {
-      "title": "Kimi最新融资获国资与央企加注，估值半年翻四倍",
-      "summary": "月之暗面旗下AI助手Kimi正在进行20亿美元新融资，国智投、中国移动等国资机构及央企已加入股东名单，该轮融资已进入收尾阶段。今年1月和2月，Kimi已密集完成3轮融资，累计融资超39亿美元（约376亿元人民币），最新估值相比去年11月已翻4倍有余，成为大模型创业公司中融资最多的企业。产品层面，基于Kimi K2.5模型的Composer 2.5已集成至编程应用Cursor，公司近期也发布了开源模型Kimi K2.6。",
-      "category": "行业",
+      "title": "谷歌推出全新AI智能搜索框，支持多模态交互",
+      "summary": "谷歌宣布推出基于Gemini 3.5模型的全新智能搜索框。该更新将AI Overviews与AI Mode整合为统一的AI搜索体验，支持对文本、图像、文件及视频进行跨模态推理查询。用户可进行多轮对话，搜索将结合上下文提供更个性化、定制化的回答。该新功能已在全球桌面和移动设备端同步上线。",
+      "category": "AI",
       "tags": [
-        "industry"
+        "Gemini",
+        "多模态"
       ],
-      "url": "https://www.ithome.com/0/952/336.htm",
-      "source": "IT之家（RSS）",
+      "url": "https://x.com/GoogleAI/status/2056845506601718271",
+      "source": "X：Google AI (@GoogleAI)",
       "image": null,
-      "time": "2026-05-19T07:39:15.000Z",
+      "time": "2026-05-19T21:12:37.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言JavaScript库",
-      "language": "JavaScript",
-      "stars": 187007,
-      "starsToday": 1546,
-      "forks": 28956,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "ultraworkers/claw-code",
+      "description": "Rust CLI代理工具实现，支持Parity框架",
+      "language": "Rust",
+      "stars": 192026,
+      "starsToday": 3919,
+      "forks": 109953,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 1
     },
     {
-      "name": "Nightmare-Eclipse/YellowKey",
-      "description": "BitLocker漏洞利用工具",
-      "language": "Unknown",
-      "stars": 3556,
-      "starsToday": 593,
-      "forks": 759,
-      "url": "https://github.com/Nightmare-Eclipse/YellowKey",
+      "name": "vercel-labs/zerolang",
+      "description": "实验性编程语言，以代理为中心",
+      "language": "C",
+      "stars": 3354,
+      "starsToday": 839,
+      "forks": 194,
+      "url": "https://github.com/vercel-labs/zerolang",
       "rank": 2
     },
     {
-      "name": "yetone/native-feel-skill",
-      "description": "跨平台桌面应用设计技能",
-      "language": "Unknown",
-      "stars": 1335,
-      "starsToday": 334,
-      "forks": 61,
-      "url": "https://github.com/yetone/native-feel-skill",
+      "name": "DuskMosquito/Lossless-Scaling-Desktop-2026",
+      "description": "桌面应用性能优化工具",
+      "language": "C",
+      "stars": 778,
+      "starsToday": 778,
+      "forks": 0,
+      "url": "https://github.com/DuskMosquito/Lossless-Scaling-Desktop-2026",
       "rank": 3
     },
     {
-      "name": "vercel-labs/zero",
-      "description": "面向代理的编程语言实验",
-      "language": "C",
-      "stars": 2683,
-      "starsToday": 275,
-      "forks": 166,
-      "url": "https://github.com/vercel-labs/zero",
+      "name": "affaan-m/ECC",
+      "description": "多语言支持的开源JavaScript项目",
+      "language": "JavaScript",
+      "stars": 187264,
+      "starsToday": 257,
+      "forks": 29000,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 4
     },
     {
-      "name": "ollama/ollama",
-      "description": "开源模型构建工具",
-      "language": "Go",
-      "stars": 171737,
-      "starsToday": 162,
-      "forks": 16187,
-      "url": "https://github.com/ollama/ollama",
+      "name": "facebookresearch/vggt-omega",
+      "description": "Python机器学习研究项目",
+      "language": "Python",
+      "stars": 1234,
+      "starsToday": 247,
+      "forks": 36,
+      "url": "https://github.com/facebookresearch/vggt-omega",
       "rank": 5
     },
     {
-      "name": "Significant-Gravitas/AutoGPT",
-      "description": "AI代理构建与运行",
-      "language": "Python",
-      "stars": 184428,
-      "starsToday": 159,
-      "forks": 46231,
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "name": "DenisSergeevitch/agents-best-practices",
+      "description": "通用代理技能开发框架",
+      "language": "Unknown",
+      "stars": 856,
+      "starsToday": 214,
+      "forks": 78,
+      "url": "https://github.com/DenisSergeevitch/agents-best-practices",
       "rank": 6
+    },
+    {
+      "name": "Kappaemme-git/codex-complexity-optimizer",
+      "description": "代码库性能优化工具",
+      "language": "Python",
+      "stars": 788,
+      "starsToday": 197,
+      "forks": 46,
+      "url": "https://github.com/Kappaemme-git/codex-complexity-optimizer",
+      "rank": 7
     },
     {
       "name": "public-apis/public-apis",
       "description": "免费公共API资源库",
       "language": "Python",
-      "stars": 435851,
-      "starsToday": 117,
-      "forks": 47783,
+      "stars": 435984,
+      "starsToday": 133,
+      "forks": 47794,
       "url": "https://github.com/public-apis/public-apis",
-      "rank": 7
-    },
-    {
-      "name": "openclaw/openclaw",
-      "description": "个人AI助手",
-      "language": "TypeScript",
-      "stars": 373177,
-      "starsToday": 117,
-      "forks": 77416,
-      "url": "https://github.com/openclaw/openclaw",
       "rank": 8
     },
     {
-      "name": "freeCodeCamp/freeCodeCamp",
-      "description": "免费编程学习平台",
+      "name": "openclaw/openclaw",
+      "description": "个人AI助手，跨平台支持",
       "language": "TypeScript",
-      "stars": 445142,
-      "starsToday": 107,
-      "forks": 44627,
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "stars": 373295,
+      "starsToday": 118,
+      "forks": 77473,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 9
     },
     {
-      "name": "awesome-selfhosted/awesome-selfhosted",
-      "description": "自托管软件列表",
-      "language": "Unknown",
-      "stars": 293763,
-      "starsToday": 107,
-      "forks": 13623,
-      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "name": "nilbuild/developer-roadmap",
+      "description": "开发者社区驱动的路线图和资源",
+      "language": "TypeScript",
+      "stars": 355103,
+      "starsToday": 106,
+      "forks": 44092,
+      "url": "https://github.com/nilbuild/developer-roadmap",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-05-19",
-    "updatedAt": "2026-05-19T14:24:46.188Z",
+    "date": "2026-05-20",
+    "updatedAt": "2026-05-20T03:32:25.688Z",
     "highlights": [
-      "AI代理技术发展迅速，集成新方案推出；Claude AI模型全面整合；微软AI布局遇挑战；现代汽车集团部署人形机器人；HTML工具备受关注； Claude智能体托管平台新增功能；地平线开源机器人小脑大模型；Kimi融资翻倍增长"
+      "OpenClaw集成Grok AI",
+      "GitHub面临生存风险，AI编程工具削弱托管必要性",
+      "智能体前沿技术Qwen3.7发布",
+      "Ramp使用Gemini API构建财务代理",
+      "ChatGPT图像生成使用量突破15亿次",
+      "Google Cloud x NVIDIA开发者社区达到10万会员",
+      "谷歌推出全新AI智能搜索框"
     ],
     "keywords": [
-      "AI代理",
-      "Claude AI",
-      "微软AI",
-      "人形机器人",
-      "HTML",
-      "智能体托管",
-      "机器人小脑大模型",
-      "融资增长",
-      "GitHub热门项目"
+      "OpenClaw",
+      "Grok AI",
+      "GitHub",
+      "AI编程工具",
+      "Qwen3.7",
+      "智能体",
+      "Ramp",
+      "Gemini API",
+      "ChatGPT",
+      "Google Cloud",
+      "NVIDIA",
+      "开发者社区",
+      "AI智能搜索框"
     ],
-    "trendingSummary": "AI代理技术快速发展，集成方案多样化，行业巨头加强AI布局；同时，开源社区活跃，工具和平台持续创新，AI应用场景不断拓展。"
+    "trendingSummary": "今日技术趋势聚焦AI应用与开发，GitHub面临转型压力，同时AI技术如ChatGPT和智能搜索框得到广泛应用，开发者社区活跃度持续增长。"
   }
 }
