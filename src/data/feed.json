@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-20",
-  "updatedAt": "2026-05-20T03:32:25.688Z",
+  "date": "2026-05-21",
+  "updatedAt": "2026-05-21T03:38:47.506Z",
   "techNews": [
     {
       "title": "在OpenClaw中使用Grok",
@@ -16,259 +16,249 @@
       "id": 1
     },
     {
-      "title": "消息称微软内部示警：GitHub 面临生存级风险，AI 编程工具削弱托管必要性",
-      "summary": "微软内部发出警告，称其代码托管平台GitHub正面临\"生存级风险\"。主要原因是Cursor、Claude Code等AI编程助手兴起，改变了开发者工作流，削弱了持续将代码上传至GitHub的必要性。为统一工具链并控制成本，微软已要求部分团队在2026年6月底前停止试用Claude Code，转而使用自有工具GitHub Copilot CLI。同时，OpenAI曾考虑自建替代平台，也加剧了对GitHub地位的潜在威胁。",
+      "title": "首部100%AI生成电影亮相戛纳，剑指2026院线",
+      "summary": "AI电影项目RAPHAEL在戛纳亮相。该片由Mateo AI Studio与韩国MBC C&I的AI内容实验室联合开发，全程使用Kling AI视频模型进行制作，旨在实现独特的视觉效果与差异化的观影体验。项目计划于2026年登陆院线，其大规模制作旨在证明纯AI电影制作的工业可行性，标志着AI原生院线电影新趋势的开端。",
       "category": "行业",
       "tags": [
-        "编程",
-        "开源",
-        "安全"
+        "industry"
       ],
-      "url": "https://www.ithome.com/0/952/645.htm",
-      "source": "IT之家（RSS）",
+      "url": "https://x.com/Kling_ai/status/2057295321831539054",
+      "source": "X：可灵 Kling AI (@Kling_ai)",
       "image": null,
-      "time": "2026-05-20T02:39:19.000Z",
+      "time": "2026-05-21T03:00:02.000Z",
       "id": 2
     },
     {
-      "title": "Qwen3.7：智能体前沿",
-      "summary": "Qwen Studio推出Qwen3.7模型，提供覆盖聊天机器人、图像与视频理解、图像生成、文档处理、网页搜索集成、工具调用及工件生成等功能。该模型整合了当前AI智能体的关键能力，旨在推动多模态交互与实际任务执行向更综合、自主的方向发展。",
-      "category": "AI",
+      "title": "商汤连续十年领跑中国计算机视觉市场",
+      "summary": "商汤科技被IDC连续十年评为中国计算机视觉市场第一。其关键驱动因素包括：主导推进CV 2.0架构演进，原生嵌入生成式AI能力；海外市场扩展至12个国际区域，服务超500家企业客户并保持高留存率；以年度经常性收入增长为锚点实现盈利性增长；并从项目制交付转型为高度可扩展的AI平台。这一十年市场领导地位为其引领计算机视觉与生成式AI的融合浪潮奠定了基础。",
+      "category": "行业",
       "tags": [
-        "阿里",
-        "Agent"
+        "多模态"
       ],
-      "url": "https://qwen.ai/blog?id=qwen3.7",
-      "source": "Qwen：Blog Retrieval（API）",
+      "url": "https://x.com/SenseTime_AI/status/2057289342654300586",
+      "source": "X：商汤 SenseTime (@SenseTime_AI)",
       "image": null,
-      "time": "2026-05-20T02:00:00.000Z",
+      "time": "2026-05-21T02:36:16.000Z",
       "id": 3
     },
     {
-      "title": "拓宽关于前沿AI的对话",
-      "summary": "Anthropic为构建负责任的先进AI，正与全球多元群体展开对话。首轮讨论汇集了超过15个宗教、哲学及跨文化传统的学者与伦理学者，旨在为Claude等模型的道德形成与价值观对齐提供多元视角。受\"外部良知\"概念启发，团队开发并测试了伦理承诺提醒工具，初步实验显示其能有效降低模型不对齐行为。公司计划未来将对话拓展至法律、心理学及公民社会等领域，以共同应对AI对社会结构的重塑。",
+      "title": "开源Suno技能：一键生成任意风格AI音乐",
+      "summary": "这是基于Suno AI音乐生成工具的技能实现，可通过简单指令按用户需求生成不同风格的歌曲（例如德语空灵风格）。该技能订阅费用为每月10美元，支持高度自定义的风格生成。技术层面已优化，新增近6000个音乐风格检索以提升准确性，并可通过谷歌CDP免登录直接调用。项目已开源，提供GitHub仓库地址与安装指令，降低了创作门槛。目前AI生成音乐在艺术性上仍与人工制作存在差距，但实现了快速、灵活的创作可能。",
       "category": "工具",
       "tags": [
-        "tip"
+        "开源"
       ],
-      "url": "https://www.anthropic.com/news/widening-conversation-ai",
-      "source": "Anthropic：Newsroom（网页）",
+      "url": "https://x.com/vista8/status/2057287459759698400",
+      "source": "X：Vista (@vista8)",
       "image": null,
-      "time": "2026-05-19T23:33:23.139Z",
+      "time": "2026-05-21T02:28:47.000Z",
       "id": 4
     },
     {
-      "title": "Ramp利用Gemini API构建高级财务代理",
-      "summary": "通过使用Gemini API中的新托管代理功能，@Ramp在无需接触后端基础设施的情况下构建了其高级财务代理。\n\n了解更多 ↓",
-      "category": "AI",
+      "title": "FSD正式登陆中国大陆市场",
+      "summary": "FSD来了…\n\n官宣进入大陆…",
+      "category": "行业",
       "tags": [
-        "Gemini",
-        "API"
+        "industry"
       ],
-      "url": "https://x.com/googleaidevs/status/2056874010265485341",
-      "source": "X：Google AI for Developers (@googleaidevs)",
+      "url": "https://x.com/xiaohu/status/2057279976467218765",
+      "source": "X：小互 (@xiaohu)",
       "image": null,
-      "time": "2026-05-19T23:05:53.000Z",
+      "time": "2026-05-21T01:59:03.000Z",
       "id": 5
     },
     {
-      "title": "Claude Code的HTML输出：非凡的有效性",
-      "summary": "Claude Code团队正从Markdown转向HTML作为主要输出格式。Markdown虽简洁，但在信息密度、阅读性、分享和交互方面存在局限。HTML能支持表格、CSS样式、SVG图表和JavaScript交互，提供更清晰的视觉结构和高信息密度。由于HTML文件可通过浏览器直接打开和分享，便于团队协作审阅。Claude Code利用其广泛的上下文获取能力生成实用的HTML制品，适用于项目规划、文档编写和验证等多种场景，显著提升了AI生成内容的可读性与实用性。",
-      "category": "工具",
+      "title": "Grok Build现已登陆OpenCode平台",
+      "summary": "Grok Build现已在OpenCode中可用",
+      "category": "AI",
       "tags": [
-        "Claude"
+        "设计"
       ],
-      "url": "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html",
-      "source": "Claude：Blog（网页）",
+      "url": "https://x.com/opencode/status/2057248292904296772",
+      "source": "X：opencode (@opencode)",
       "image": null,
-      "time": "2026-05-19T21:45:38.448Z",
+      "time": "2026-05-20T23:53:09.000Z",
       "id": 6
     },
     {
-      "title": "Claude Code v2.1.145版本更新",
-      "summary": "本次更新为Claude Code工具带来了多项功能增强与问题修复。新功能包括：新增JSON格式的会话列表命令以便脚本化操作，并在OTEL追踪中完善了Agent父子关系。插件浏览界面现可预览详细信息。在稳定性方面，修复了权限提示被绕过的安全问题、MCP参数校验错误、终端窗口调整后的显示冻结，以及非ASCII名称导致的API调用失败等问题。同时改进了Read工具的文件超限处理，并优化了任务列表排序和状态栏信息显示等交互细节，整体提升了工具的易用性与可靠性。",
+      "title": "腾讯张军官宣操作系统层级 AI 助手\"马维斯\"正式上工，Windows、Mac、安卓端同步上线",
+      "summary": "腾讯于5月21日发布了操作系统层级AI助手\"马维斯\"，支持Windows、Mac和安卓平台同步上线。该助手具备文档归类解析、图片智能识别处理、系统维护等功能，并强调与操作系统深度集成，可调度不同模型处理任务，部分功能可在离线状态下使用。腾讯表示\"马维斯\"能完成市面主流Agent的大部分工作，并具备桌面操控手机应用等能力。这是继3月WorkBuddy和\"龙虾\"产品矩阵后，腾讯推出的又一AI助手产品。",
       "category": "AI",
       "tags": [
-        "Claude"
+        "腾讯"
       ],
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
-      "source": "Claude Code：GitHub Releases（RSS）",
+      "url": "https://www.ithome.com/0/953/096.htm",
+      "source": "IT之家（RSS）",
       "image": null,
-      "time": "2026-05-19T21:31:07.000Z",
+      "time": "2026-05-20T23:28:17.000Z",
       "id": 7
     },
     {
-      "title": "ChatGPT图像生成周使用量突破15亿次",
-      "summary": "人们每周在ChatGPT中生成超过15亿张图像。\n\n研究员 @kenjihata 与产品负责人 @adele__li 及主持人 @AndrewMayne 一起，探讨自 Images 2.0 发布以来出现的新用例和趋势。",
-      "category": "工具",
+      "title": "冲刺 9 月上市，OpenAI 最快本周五提交 IPO 招股书草案",
+      "summary": "据CNBC报道，OpenAI预计最快本周五递交首次公开募股（IPO）招股书草案，这标志着公司向资本市场迈出关键一步。首席执行官萨姆·奥尔特曼设定最早于2026年9月上市的目标。公司正与高盛和摩根士丹利合作，借助这两家投行的资源推动上市申报和承销安排。此前，埃隆·马斯克针对OpenAI的诉讼失利后，上市障碍消除，进程明显加速。OpenAI目前私募估值超过8500亿美元，若顺利推进，可能成为公开市场历史上规模最大的首发之一。此外，公司最早考虑在今年第四季度上市，内部治理和运作已开始向上市公司转型，准备工作持续进行。",
+      "category": "行业",
       "tags": [
-        "OpenAI",
-        "图像生成"
+        "OpenAI"
       ],
-      "url": "https://x.com/OpenAI/status/2056849157860831239",
-      "source": "X：OpenAI (@OpenAI)",
+      "url": "https://www.ithome.com/0/953/090.htm",
+      "source": "IT之家（RSS）",
       "image": null,
-      "time": "2026-05-19T21:27:08.000Z",
+      "time": "2026-05-20T22:45:37.000Z",
       "id": 8
     },
     {
-      "title": "创新一周年：庆祝Google Cloud x NVIDIA开发者社区达到10万会员",
-      "summary": "Google Cloud与NVIDIA开发者社区迎来成立一周年，会员规模突破10万。社区为开发者提供先进AI基础设施与资源支持，包括LLM优化、GPU加速数据分析等专项学习路径及专家网络研讨会。第二年计划将进一步扩展，推出实践实验室、工程活动及聚焦代理式AI增长的专项内容。",
+      "title": "SpaceX与Anthropic合作提供大规模AI算力服务",
+      "summary": "正如最近与@AnthropicAI扩大合作所展示的，@SpaceX正在大规模提供AI算力服务。\n\n我们正在与其他公司进行类似合作的讨论。\n\n随着时间的推移，特别是通过轨道数据中心，我们预计将以极高的规模提供AI服务。",
       "category": "行业",
       "tags": [
-        "Gemini",
+        "Claude",
         "算力"
       ],
-      "url": "https://developers.googleblog.com/one-year-of-innovation-celebrating-100k-members-in-the-google-cloud-x-nvidia-developer-community",
-      "source": "Google Developers Blog（RSS）",
+      "url": "https://x.com/elonmusk/status/2057228707606196434",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
       "image": null,
-      "time": "2026-05-19T21:25:58.418Z",
+      "time": "2026-05-20T22:35:20.000Z",
       "id": 9
     },
     {
-      "title": "谷歌推出全新AI智能搜索框，支持多模态交互",
-      "summary": "谷歌宣布推出基于Gemini 3.5模型的全新智能搜索框。该更新将AI Overviews与AI Mode整合为统一的AI搜索体验，支持对文本、图像、文件及视频进行跨模态推理查询。用户可进行多轮对话，搜索将结合上下文提供更个性化、定制化的回答。该新功能已在全球桌面和移动设备端同步上线。",
-      "category": "AI",
+      "title": "xAI去年亏损64亿美元--SpaceX的IPO文件揭示其支出远未停止的原因",
+      "summary": "SpaceX的IPO文件首次披露了xAI在2025年的财务状况，显示该AI公司去年亏损高达64亿美元。文件同时揭示了xAI计划对Grok进行大规模扩张的战略，解释了马斯克旗下AI业务持续高额支出的原因。这份公开文件为外界提供了观察马斯克AI产业投资规模与财务表现的罕见窗口。",
+      "category": "行业",
       "tags": [
-        "Gemini",
-        "多模态"
+        "industry"
       ],
-      "url": "https://x.com/GoogleAI/status/2056845506601718271",
-      "source": "X：Google AI (@GoogleAI)",
+      "url": "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over",
+      "source": "TechCrunch：AI（RSS）",
       "image": null,
-      "time": "2026-05-19T21:12:37.000Z",
+      "time": "2026-05-20T22:26:08.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "ultraworkers/claw-code",
-      "description": "Rust CLI代理工具实现，支持Parity框架",
-      "language": "Rust",
-      "stars": 192026,
-      "starsToday": 3919,
-      "forks": 109953,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "FoundZiGu/GuJumpgate",
+      "description": "全自动GPT Plus注册扩展，解放双手",
+      "language": "JavaScript",
+      "stars": 1025,
+      "starsToday": 1025,
+      "forks": 364,
+      "url": "https://github.com/FoundZiGu/GuJumpgate",
       "rank": 1
     },
     {
-      "name": "vercel-labs/zerolang",
-      "description": "实验性编程语言，以代理为中心",
-      "language": "C",
-      "stars": 3354,
-      "starsToday": 839,
-      "forks": 194,
-      "url": "https://github.com/vercel-labs/zerolang",
+      "name": "thananon/9arm-skills",
+      "description": "Claude Code加载的技能管理器",
+      "language": "Shell",
+      "stars": 950,
+      "starsToday": 950,
+      "forks": 136,
+      "url": "https://github.com/thananon/9arm-skills",
       "rank": 2
     },
     {
-      "name": "DuskMosquito/Lossless-Scaling-Desktop-2026",
-      "description": "桌面应用性能优化工具",
+      "name": "vercel-labs/zerolang",
+      "description": "探索以代理为中心的编程语言实验",
       "language": "C",
-      "stars": 778,
-      "starsToday": 778,
-      "forks": 0,
-      "url": "https://github.com/DuskMosquito/Lossless-Scaling-Desktop-2026",
+      "stars": 4005,
+      "starsToday": 651,
+      "forks": 239,
+      "url": "https://github.com/vercel-labs/zerolang",
       "rank": 3
     },
     {
       "name": "affaan-m/ECC",
-      "description": "多语言支持的开源JavaScript项目",
+      "description": "多语言支持的JavaScript库",
       "language": "JavaScript",
-      "stars": 187264,
-      "starsToday": 257,
-      "forks": 29000,
+      "stars": 187786,
+      "starsToday": 522,
+      "forks": 29069,
       "url": "https://github.com/affaan-m/ECC",
       "rank": 4
     },
     {
-      "name": "facebookresearch/vggt-omega",
-      "description": "Python机器学习研究项目",
-      "language": "Python",
-      "stars": 1234,
-      "starsToday": 247,
-      "forks": 36,
-      "url": "https://github.com/facebookresearch/vggt-omega",
+      "name": "openclaw/openclaw",
+      "description": "个人AI助手，跨平台交互",
+      "language": "TypeScript",
+      "stars": 373596,
+      "starsToday": 301,
+      "forks": 77575,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 5
     },
     {
-      "name": "DenisSergeevitch/agents-best-practices",
-      "description": "通用代理技能开发框架",
+      "name": "yetone/native-feel-skill",
+      "description": "设计原生感桌面应用技能",
       "language": "Unknown",
-      "stars": 856,
-      "starsToday": 214,
-      "forks": 78,
-      "url": "https://github.com/DenisSergeevitch/agents-best-practices",
+      "stars": 1354,
+      "starsToday": 226,
+      "forks": 61,
+      "url": "https://github.com/yetone/native-feel-skill",
       "rank": 6
-    },
-    {
-      "name": "Kappaemme-git/codex-complexity-optimizer",
-      "description": "代码库性能优化工具",
-      "language": "Python",
-      "stars": 788,
-      "starsToday": 197,
-      "forks": 46,
-      "url": "https://github.com/Kappaemme-git/codex-complexity-optimizer",
-      "rank": 7
     },
     {
       "name": "public-apis/public-apis",
       "description": "免费公共API资源库",
       "language": "Python",
-      "stars": 435984,
-      "starsToday": 133,
-      "forks": 47794,
+      "stars": 436175,
+      "starsToday": 191,
+      "forks": 47807,
       "url": "https://github.com/public-apis/public-apis",
+      "rank": 7
+    },
+    {
+      "name": "ollama/ollama",
+      "description": "基于开源模型的构建工具",
+      "language": "Go",
+      "stars": 171842,
+      "starsToday": 162,
+      "forks": 16200,
+      "url": "https://github.com/ollama/ollama",
       "rank": 8
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "个人AI助手，跨平台支持",
-      "language": "TypeScript",
-      "stars": 373295,
-      "starsToday": 118,
-      "forks": 77473,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "Significant-Gravitas/AutoGPT",
+      "description": "构建、部署AI代理工具",
+      "language": "Python",
+      "stars": 184434,
+      "starsToday": 159,
+      "forks": 46227,
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "rank": 9
     },
     {
-      "name": "nilbuild/developer-roadmap",
-      "description": "开发者社区驱动的路线图和资源",
-      "language": "TypeScript",
-      "stars": 355103,
-      "starsToday": 106,
-      "forks": 44092,
-      "url": "https://github.com/nilbuild/developer-roadmap",
+      "name": "facebookresearch/vggt-omega",
+      "description": "视觉生成模型研究",
+      "language": "Python",
+      "stars": 1368,
+      "starsToday": 134,
+      "forks": 43,
+      "url": "https://github.com/facebookresearch/vggt-omega",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-05-20",
-    "updatedAt": "2026-05-20T03:32:25.688Z",
+    "date": "2026-05-21",
+    "updatedAt": "2026-05-21T03:38:47.506Z",
     "highlights": [
-      "OpenClaw集成Grok AI",
-      "GitHub面临生存风险，AI编程工具削弱托管必要性",
-      "智能体前沿技术Qwen3.7发布",
-      "Ramp使用Gemini API构建财务代理",
-      "ChatGPT图像生成使用量突破15亿次",
-      "Google Cloud x NVIDIA开发者社区达到10万会员",
-      "谷歌推出全新AI智能搜索框"
+      "AI在电影制作中的应用加速发展",
+      "计算机视觉市场持续增长",
+      "AI音乐生成工具开源",
+      "FSD在中国市场落地",
+      "操作系统级AI助手上线",
+      "OpenAI冲刺IPO",
+      "SpaceX与Anthropic合作",
+      "xAI亏损揭示行业支出"
     ],
     "keywords": [
-      "OpenClaw",
-      "Grok AI",
-      "GitHub",
-      "AI编程工具",
-      "Qwen3.7",
-      "智能体",
-      "Ramp",
-      "Gemini API",
-      "ChatGPT",
-      "Google Cloud",
-      "NVIDIA",
-      "开发者社区",
-      "AI智能搜索框"
+      "AI电影",
+      "计算机视觉",
+      "AI音乐",
+      "FSD",
+      "操作系统AI",
+      "OpenAI IPO",
+      "SpaceX合作",
+      "xAI亏损"
     ],
-    "trendingSummary": "今日技术趋势聚焦AI应用与开发，GitHub面临转型压力，同时AI技术如ChatGPT和智能搜索框得到广泛应用，开发者社区活跃度持续增长。"
+    "trendingSummary": "AI技术在电影、计算机视觉、音乐生成等领域持续发展，操作系统级AI助手和IPO动态表明行业投资活跃，同时大型科技公司如SpaceX和xAI的财务状况也反映出行业支出巨大。"
   }
 }
