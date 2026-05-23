@@ -1,260 +1,267 @@
 {
-  "date": "2026-05-22",
-  "updatedAt": "2026-05-22T03:37:24.981Z",
+  "date": "2026-05-23",
+  "updatedAt": "2026-05-23T02:54:34.965Z",
   "techNews": [
     {
-      "title": "智谱GLM-5.1高速版发布：刷新全球大模型API速度纪录",
-      "summary": "5月22日，智谱向部分企业客户推出了旗舰大模型GLM-5.1的高速版API\"GLM-5.1-highspeed\"。该版本输出速度达400 tokens/s，刷新了全球大模型API速度上限。关键突破在于，它首次在国产大模型中实现了旗舰级能力与低延迟的结合，打破了\"高速模型即轻量模型\"的传统。该版本由智谱GLM团队与TileRT团队合作，通过系统级优化确保了速度的生产级稳定性，适用于AI编程、实时语音交互等场景。",
-      "category": "AI",
-      "tags": [
-        "API"
-      ],
-      "url": "https://www.ithome.com/0/953/717.htm",
-      "source": "IT之家（RSS）",
-      "image": null,
-      "time": "2026-05-22T02:02:46.000Z",
-      "id": 1
-    },
-    {
-      "title": "美国 AI 监管令突然告吹内幕：白宫内讧，马斯克、扎克伯格游说特朗普",
-      "summary": "5月22日，美国总统特朗普突然取消了原定签署的AI行政令，该行政令旨在加强监管，赋予政府在AI模型公开发布前进行评估的权力。取消源于特朗普本人对监管的反感，以及高级顾问大卫·萨克斯和科技界领袖如扎克伯格、马斯克的反对与游说，凸显白宫内讧。特朗普认为监管会成为绊脚石，阻碍美国AI领先优势。草案中还存在如财政部在安全协调中角色过重等争议，白宫表示正制定其他AI安全举措。",
+      "title": "Kling AI亮相戛纳，推动AI赋能电影制作",
+      "summary": "Kling AI在戛纳电影市场（Marché du Film）举办官方会议，首次登上这一世界顶级电影舞台。会议汇集全球电影专业人士，共同探讨AI如何融入实际电影制作流程。Kling AI已证明其能力可服务于动画长片、好莱坞剧集、实验短片及影院电影等多种创作形式。未来，Kling AI将继续推进电影级AI影像技术，与全球创作者合作，将更多\"不可能\"的故事呈现在银幕上。",
       "category": "行业",
       "tags": [
         "industry"
       ],
-      "url": "https://www.ithome.com/0/953/708.htm",
-      "source": "IT之家（RSS）",
+      "url": "https://x.com/Kling_ai/status/2058013861404684739",
+      "source": "X：可灵 Kling AI (@Kling_ai)",
       "image": null,
-      "time": "2026-05-22T01:37:31.000Z",
+      "time": "2026-05-23T02:35:15.000Z",
+      "id": 1
+    },
+    {
+      "title": "Models.dev：一个关于人工智能模型规格、定价和功能的开源数据库",
+      "summary": "近期发布了开源数据库Models.dev，专门收录人工智能模型的各项规格、定价及功能信息。该项目在GitHub公开，便于开发者查询和比较不同AI模型。其在Hacker News社区获得101点关注度，显示出技术社区对这类集中化、透明化的模型信息资源的较大兴趣。",
+      "category": "AI",
+      "tags": [
+        "开源"
+      ],
+      "url": "https://github.com/anomalyco/models.dev",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "image": null,
+      "time": "2026-05-23T01:39:14.985Z",
       "id": 2
     },
     {
-      "title": "图灵测试 76 年后首现 AI 通过实证：GPT-4.5 以 73% 判定率超越真人",
-      "summary": "加州大学圣地亚哥分校研究首次实证现代AI可通过图灵测试。研究表明，在获得特定提示后，GPT-4.5在5至15分钟的对话中被误认为人类的概率高达73%，显著超过真人。LLaMa-3.1-405B的判定率（56%）与真人相当，而GPT-4o和ELIZA仅约20%。研究指出提示词至关重要，它使AI能模仿人类语气、幽默感甚至易错性等社会行为特征。这一发现迫使人们重新思考图灵测试的意义，并凸显了大语言模型在网络信任与安全方面构成的潜在挑战。",
-      "category": "AI",
+      "title": "扩大与新加坡合作，推动AI安全规模化部署",
+      "summary": "我们正在扩大与新加坡的合作，以帮助安全地大规模部署AI。🇸🇬\n\n与各国专家合作，我们的新项目将重点加速科学发现、加强大流行病防范并改善医疗保健。\n\n了解更多 → https：//goo.gle/49jGwjv",
+      "category": "行业",
       "tags": [
-        "OpenAI"
+        "安全"
       ],
-      "url": "https://www.ithome.com/0/953/705.htm",
-      "source": "IT之家（RSS）",
+      "url": "https://x.com/GoogleDeepMind/status/2057985225100235022",
+      "source": "X：Google DeepMind (@GoogleDeepMind)",
       "image": null,
-      "time": "2026-05-22T01:22:11.000Z",
+      "time": "2026-05-23T00:41:27.000Z",
       "id": 3
     },
     {
-      "title": "用户好评即最佳文案，视觉呈现由AI完成",
-      "summary": "你的客户写出了你永远无法超越的文案。现在，为它匹配视觉呈现吧。\n只需粘贴评价，设定风格，Luma Agents 将处理所有推荐语图形。\n让它被听见 → http：//lumalabs.ai/app",
-      "category": "AI",
+      "title": "AI 替代入门级工作：科技行业受裁员冲击最重，74% CEO 冻结或缩减招聘",
+      "summary": "奥纬咨询研究发现，AI工具正被广泛用于入门级任务，导致企业招聘重心转向高级岗位，年轻人求职难度加大。科技行业受冲击最严重，74%的CEO已冻结或缩减招聘。计划削减初级岗位的比例从17%跃升至43%，而招聘转向中层岗位的比例则升至30%。尽管超90%的企业在部署AI，但多数仍处试点阶段。报告警告，过快裁员或忽视初级人才储备，可能对人才梯队造成长远风险。",
+      "category": "行业",
       "tags": [
-        "多模态"
+        "industry"
       ],
-      "url": "https://x.com/LumaLabsAI/status/2057628006353670163",
-      "source": "X：Luma AI (@LumaLabsAI)",
+      "url": "https://www.ithome.com/0/954/235.htm",
+      "source": "IT之家（RSS）",
       "image": null,
-      "time": "2026-05-22T01:02:00.000Z",
+      "time": "2026-05-23T00:05:55.000Z",
       "id": 4
     },
     {
-      "title": "Gemini Omni发布，创意作品涌现",
-      "summary": "Gemini Omni来了，我们本周看到了许多令人惊叹的创作。以下是一些杰出作品 👇",
+      "title": "Nemotron-Labs 扩散语言模型实现光速级文本生成",
+      "summary": "NVIDIA 在 Hugging Face 发布了关于 Nemotron-Labs 扩散语言模型的技术博客。该研究聚焦于通过扩散语言模型架构大幅提升文本生成速度，目标是逼近\"光速级\"生成效率。文章可能介绍了该模型在生成速度上的突破，以及相较于传统自回归模型在延迟和吞吐量方面的性能优势。具体技术细节或对比数据需参考原文。",
       "category": "AI",
       "tags": [
-        "Gemini"
+        "paper"
       ],
-      "url": "https://x.com/GeminiApp/status/2057616371748651054",
-      "source": "X：Gemini (@GeminiApp)",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
+      "source": "Hugging Face：Blog（RSS）",
       "image": null,
-      "time": "2026-05-22T00:15:46.000Z",
+      "time": "2026-05-23T00:02:03.000Z",
       "id": 5
     },
     {
-      "title": "v2.1.147版本更新",
-      "summary": "本次更新引入了`Workflow`工具，支持确定性多智能体编排（默认关闭）。将`/simplify`命令重命名为`/code-review`，现可报告代码正确性问题并支持生成GitHub PR内联评论。改进了自动更新器（增加重试与错误报告）、大文件diff渲染性能，并优化了提示历史记录以避免重复条目。修复了多个关键问题，包括企业登录限制未生效、Windows下的PowerShell工具与终端闪烁问题、插件系统及shell快照的bug，并增强了沙箱安全性与终端兼容性。",
+      "title": "AlphaProof Nexus：用形式化验证驱动AI数学证明搜索",
+      "summary": "Google DeepMind提出了AlphaProof Nexus系统，它将大型语言模型与Lean形式化验证工具相结合。该系统允许LLM在生成证明的过程中，不断读取Lean的编译错误并进行修正，还可调用更强的工具辅助解决子问题。这一机制迫使模型将每一步逻辑都转化为可编译、可验证的代码，从而将其角色从\"令人信服的叙述者\"转变为\"候选方案生成器\"。在针对353个Erdős问题和492个开放猜想的测试中，系统成功解决了9个Erdős问题并证明了44个序列猜想。该研究展示了形式化验证在暴露AI逻辑错误、建立\"人类提问-模型探索-验证器把关\"新分工中的关键作用。",
+      "category": "AI",
+      "tags": [
+        "paper"
+      ],
+      "url": "https://x.com/rohanpaul_ai/status/2057954067146781151",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "image": null,
+      "time": "2026-05-22T22:37:39.000Z",
+      "id": 6
+    },
+    {
+      "title": "黄仁勋：AI 基建年度开支要冲到 4 万亿美元！",
+      "summary": "英伟达发布2027财年Q1财报，营收816亿美元，同比增长85%，净利润583亿美元，翻两倍多，市值达5.7万亿美元，已超德国2026年GDP预测。黄仁勋预测，超大规模云厂商的AI基建年度开支将从当前的1万亿美元，增长至3-4万亿美元，远超华尔街预期。财报同时显示，数据中心业务营收752亿美元，占比超九成。值得注意的是，AI基建的高能耗正推高居民电费，数据中心用电成本转嫁效应已初步显现。",
+      "category": "行业",
+      "tags": [
+        "industry"
+      ],
+      "url": "https://www.ithome.com/0/954/223.htm",
+      "source": "IT之家（RSS）",
+      "image": null,
+      "time": "2026-05-22T22:30:03.000Z",
+      "id": 7
+    },
+    {
+      "title": "动作捕捉与角色动画制作更轻松",
+      "summary": "动作捕捉和角色动画制作从未如此简单。\n\n持续构建，更多功能即将推出！",
       "category": "AI",
       "tags": [
         "ai-products"
       ],
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
-      "source": "Claude Code：GitHub Releases（RSS）",
+      "url": "https://x.com/ViggleAI/status/2057947352195858568",
+      "source": "X：Viggle AI (@ViggleAI)",
       "image": null,
-      "time": "2026-05-21T20:39:22.000Z",
-      "id": 6
-    },
-    {
-      "title": "ChatGPT现已支持在PowerPoint中直接创建编辑演示文稿",
-      "summary": "你是否曾这样想过：我真的不想做这个PPT。\n\n好消息：ChatGPT现在可以直接在PowerPoint中创建和编辑演示文稿。\n\n在PowerPoint中直接构建、更新、理解和优化演示文稿，同时保持幻灯片可编辑。\n\n目前处于测试阶段，我们期待您的反馈 👀",
-      "category": "AI",
-      "tags": [
-        "OpenAI"
-      ],
-      "url": "https://x.com/ChatGPTapp/status/2057560276384563560",
-      "source": "X：ChatGPT (@ChatGPTapp)",
-      "image": null,
-      "time": "2026-05-21T20:32:52.000Z",
-      "id": 7
-    },
-    {
-      "title": "加州州长纽森签署首创性行政令，为应对AI可能带来的劳动力市场冲击做准备",
-      "summary": "加州州长纽森签署行政令，首次将AI引发的失业问题正式列为公共政策议题，要求各部门研究遣散费、就业保险及员工持股等保障措施。该命令认识到AI可能渐进式替代岗位任务，而非一次性取代整个职位，因此计划建立新的劳动力数据看板，以更早捕捉行业受到的冲击。政策核心在于探讨如何将AI带来的生产力红利，通过股权、薪酬支持等方式在企业与员工间进行更公平的分配。同时指出，单纯的职业培训可能无法解决被AI彻底取代的岗位所带来的根本性就业错配问题。",
-      "category": "行业",
-      "tags": [
-        "industry"
-      ],
-      "url": "https://x.com/rohanpaul_ai/status/2057555054387949848",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "image": null,
-      "time": "2026-05-21T20:12:07.000Z",
+      "time": "2026-05-22T22:10:58.000Z",
       "id": 8
     },
     {
-      "title": "Gemini扩展应用连接，支持更多服务",
-      "summary": "Gemini现在可以连接更多应用，包括@OpenTable、@Canva和@Instacart。\n\n无论您是预订餐厅、制作传单还是订购杂货，Gemini不仅能查找信息，还能通过连接的应用帮助您无缝采取行动。",
+      "title": "v2.1.149 更新摘要",
+      "summary": "本次 v2.1.149 更新包含功能增强、企业设置和多项修复。新增 `/usage` 命令的使用量分类显示功能，可区分技能、子代理、插件及每个 MCP 服务器的消耗；`/diff` 详情视图支持键盘滚动；Markdown 输出兼容 GFM 任务列表。企业版新增 `allowAllClaudeAiMcps` 设置以加载云 MCP 连接器。修复了 PowerShell 权限绕过、Git 工作树沙盒写入白名单越界、脚本路径含空格时 `otelHeadersHelper` 静默失败等安全问题。改进了 `/feedback` 报告，包含上下文压缩前的对话内容，便于排查长会话中的早期问题。",
       "category": "AI",
       "tags": [
-        "Gemini"
+        "ai-products"
       ],
-      "url": "https://x.com/GeminiApp/status/2057550225863246236",
-      "source": "X：Gemini (@GeminiApp)",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
+      "source": "Claude Code：GitHub Releases（RSS）",
       "image": null,
-      "time": "2026-05-21T19:52:55.000Z",
+      "time": "2026-05-22T22:09:29.000Z",
       "id": 9
     },
     {
-      "title": "Datasette Agent",
-      "summary": "Datasette Agent是Datasette推出的首个可扩展AI助手，为用户提供对话式界面以查询数据，并支持通过插件生成图表。该工具基于其LLM Python库构建，是LLM与Datasette整合的重要成果。目前提供图表生成、AI图像创建和沙箱代码执行等官方插件。它既可运行于Gemini 3.1 Flash-Lite等云端模型，也支持通过LM Studio连接本地开源模型，具备可靠的工具调用与查询能力。",
+      "title": "Claude自动模式新增Pro计划与模型支持",
+      "summary": "自动模式的两项更新：\n\n· 现已在Pro计划中提供\n· 现已支持Sonnet 4.6，以及Opus 4.7\n\n按下Shift+tab，让Claude运行。",
       "category": "AI",
       "tags": [
-        "Agent"
+        "Claude"
       ],
-      "url": "https://simonwillison.net/2026/May/21/datasette-agent",
-      "source": "Simon Willison 博客",
+      "url": "https://x.com/ClaudeDevs/status/2057946803685974482",
+      "source": "X：Claude Devs (@ClaudeDevs)",
       "image": null,
-      "time": "2026-05-21T19:52:19.000Z",
+      "time": "2026-05-22T22:08:47.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "ultraworkers/claw-code",
-      "description": "Rust CLI代理工具库",
-      "language": "Rust",
-      "stars": 192186,
-      "starsToday": 3768,
-      "forks": 109959,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "thananon/9arm-skills",
+      "description": "Claude Code技能加载器，技能分组",
+      "language": "Shell",
+      "stars": 1549,
+      "starsToday": 376,
+      "forks": 205,
+      "url": "https://github.com/thananon/9arm-skills",
       "rank": 1
     },
     {
-      "name": "FoundZiGu/GuJumpgate",
-      "description": "全自动GPT Plus注册扩展",
+      "name": "affaan-m/ECC",
+      "description": "多语言支持，JavaScript开发",
       "language": "JavaScript",
-      "stars": 1488,
-      "starsToday": 463,
-      "forks": 454,
-      "url": "https://github.com/FoundZiGu/GuJumpgate",
+      "stars": 188561,
+      "starsToday": 339,
+      "forks": 29180,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 2
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言支持代码库",
+      "name": "FoundZiGu/GuJumpgate",
+      "description": "全自动GPT Plus注册扩展，解放双手",
       "language": "JavaScript",
-      "stars": 188222,
-      "starsToday": 436,
-      "forks": 29131,
-      "url": "https://github.com/affaan-m/ECC",
+      "stars": 1788,
+      "starsToday": 300,
+      "forks": 523,
+      "url": "https://github.com/FoundZiGu/GuJumpgate",
       "rank": 3
     },
     {
-      "name": "Doorman11991/smallcode",
-      "description": "AI编码助手，优化小模型",
-      "language": "JavaScript",
-      "stars": 1093,
-      "starsToday": 364,
-      "forks": 77,
-      "url": "https://github.com/Doorman11991/smallcode",
+      "name": "kageroumado/phosphene",
+      "description": "macOS视频壁纸引擎，菜单栏应用+壁纸扩展",
+      "language": "Swift",
+      "stars": 598,
+      "starsToday": 299,
+      "forks": 17,
+      "url": "https://github.com/kageroumado/phosphene",
       "rank": 4
     },
     {
-      "name": "public-apis/public-apis",
-      "description": "免费公共API资源库",
-      "language": "Python",
-      "stars": 436438,
-      "starsToday": 263,
-      "forks": 47843,
-      "url": "https://github.com/public-apis/public-apis",
+      "name": "openclaw/openclaw",
+      "description": "个人AI助手，跨平台语音交互",
+      "language": "TypeScript",
+      "stars": 374013,
+      "starsToday": 224,
+      "forks": 77732,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 5
     },
     {
-      "name": "thananon/9arm-skills",
-      "description": "Claude Code技能加载器",
-      "language": "Shell",
-      "stars": 1173,
-      "starsToday": 223,
-      "forks": 182,
-      "url": "https://github.com/thananon/9arm-skills",
+      "name": "datawhalechina/Agent-Learning-Hub",
+      "description": "AI Agent学习路线图，整理学习资源",
+      "language": "HTML",
+      "stars": 1100,
+      "starsToday": 220,
+      "forks": 116,
+      "url": "https://github.com/datawhalechina/Agent-Learning-Hub",
       "rank": 6
     },
     {
-      "name": "vercel-labs/zerolang",
-      "description": "以代理为中心的编程语言实验",
-      "language": "C",
-      "stars": 4210,
-      "starsToday": 205,
-      "forks": 252,
-      "url": "https://github.com/vercel-labs/zerolang",
+      "name": "public-apis/public-apis",
+      "description": "免费公共API仓库，社区管理",
+      "language": "Python",
+      "stars": 436650,
+      "starsToday": 212,
+      "forks": 47868,
+      "url": "https://github.com/public-apis/public-apis",
       "rank": 7
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "个人AI助手，多平台支持",
-      "language": "TypeScript",
-      "stars": 373789,
-      "starsToday": 193,
-      "forks": 77659,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "sapientinc/HRM-Text",
+      "description": "高效预训练模型，从零开始",
+      "language": "Python",
+      "stars": 651,
+      "starsToday": 163,
+      "forks": 59,
+      "url": "https://github.com/sapientinc/HRM-Text",
       "rank": 8
     },
     {
-      "name": "DenisSergeevitch/agents-best-practices",
-      "description": "通用代理技能库",
-      "language": "Unknown",
-      "stars": 945,
-      "starsToday": 158,
-      "forks": 84,
-      "url": "https://github.com/DenisSergeevitch/agents-best-practices",
+      "name": "ollama/ollama",
+      "description": "开源模型构建，Docker支持",
+      "language": "Go",
+      "stars": 172056,
+      "starsToday": 162,
+      "forks": 16248,
+      "url": "https://github.com/ollama/ollama",
       "rank": 9
     },
     {
-      "name": "Kappaemme-git/codex-complexity-optimizer",
-      "description": "代码库复杂度分析工具",
+      "name": "Significant-Gravitas/AutoGPT",
+      "description": "AI代理构建、部署、运行，多语言支持",
       "language": "Python",
-      "stars": 823,
-      "starsToday": 137,
-      "forks": 50,
-      "url": "https://github.com/Kappaemme-git/codex-complexity-optimizer",
+      "stars": 184463,
+      "starsToday": 159,
+      "forks": 46228,
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-05-22",
-    "updatedAt": "2026-05-22T03:37:24.981Z",
+    "date": "2026-05-23",
+    "updatedAt": "2026-05-23T02:54:34.965Z",
     "highlights": [
-      "智谱GLM-5.1高速版发布，刷新全球大模型API速度纪录",
-      "GPT-4.5通过图灵测试，AI技术取得突破",
-      "ChatGPT支持PowerPoint演示文稿创建，AI应用场景拓展",
-      "加州州长签署行政令，应对AI对劳动力市场的影响",
-      "Gemini Omni发布，AI创意作品涌现"
+      "Kling AI亮相戛纳推动AI电影制作发展",
+      "Models.dev开源数据库提供AI模型信息",
+      "AI安全规模化部署合作扩大",
+      "科技行业裁员冲击，AI替代入门级工作",
+      "Nemotron-Labs实现光速级文本生成",
+      "AlphaProof Nexus推动AI数学证明搜索",
+      "黄仁勋预测AI基建开支将达4万亿美元",
+      "动作捕捉与角色动画制作技术提升",
+      "Claude自动模式新增Pro计划",
+      "GitHub热门项目涵盖AI技能加载、多语言开发、AI助手、学习资源等"
     ],
     "keywords": [
-      "AI",
-      "大模型",
-      "图灵测试",
-      "ChatGPT",
-      "演示文稿",
-      "劳动力市场",
-      "Gemini Omni",
-      "AI创意"
+      "Kling AI",
+      "Models.dev",
+      "AI安全",
+      "科技裁员",
+      "Nemotron-Labs",
+      "AlphaProof Nexus",
+      "AI基建",
+      "动作捕捉",
+      "Claude",
+      "GitHub热门项目"
     ],
-    "trendingSummary": "今日AI技术取得显著进展，大模型速度刷新纪录，GPT-4.5通过图灵测试，ChatGPT功能扩展，加州州长签署应对AI影响的行政令，Gemini Omni发布推动AI创意作品涌现。"
+    "trendingSummary": "AI技术在电影制作、安全、数学证明等领域取得显著进展，同时面临行业裁员挑战。GitHub热门项目聚焦AI技能加载、多语言开发等，展现AI应用多样化趋势。"
   }
 }
