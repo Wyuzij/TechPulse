@@ -1,7 +1,88 @@
 {
-  "date": "2026-05-23",
-  "updatedAt": "2026-05-23T02:54:34.965Z",
+  "date": "2026-05-24",
+  "updatedAt": "2026-05-24T03:34:03.306Z",
   "techNews": [
+    {
+      "title": "StepAudio 2.5实时语音发布：副语言感知与人格化交互",
+      "summary": "StepAudio 2.5 Realtime是一款实时语音模型，能够深度理解用户语音中的语气、语速、停顿乃至微表情等副语言特征。它支持通过API接入自定义人格，允许设定个性、背景故事和语言风格，并提供了上万种原生人格选项，可组合出数百万种特征。产品还内置了5个可直接体验的预设人格，并经过RLHF调优，确保在复杂的角色扮演压力测试中也能保持角色一致性。该模型支持中文和英文。",
+      "category": "AI",
+      "tags": [
+        "多模态"
+      ],
+      "url": "https://x.com/StepFun_ai/status/2058303294544425197",
+      "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+      "image": null,
+      "time": "2026-05-23T21:45:21.000Z",
+      "id": 1
+    },
+    {
+      "title": "Replit Agent与Squidler集成，实现全自动化AI质量保障",
+      "summary": "Replit Agent与Squidler已完成集成，形成一套完整的AI驱动质量保障闭环。用户可通过自然语言描述应用功能，由Replit Agent负责构建。构建完成后，Squidler会像真实用户一样对线上应用进行自动化测试，无需编写任何测试脚本。测试中发现的问题会自动反馈给Replit Agent进行修复。该流程已通过Squidler加入Replit的MCP库正式上线，实现了从构建、测试到修复的全自动化，显著降低了应用测试与维护的门槛。",
+      "category": "AI",
+      "tags": [
+        "Agent",
+        "设计"
+      ],
+      "url": "https://x.com/Replit/status/2058261705998602548",
+      "source": "X：Replit (@Replit)",
+      "image": null,
+      "time": "2026-05-23T19:00:06.000Z",
+      "id": 2
+    },
+    {
+      "title": "消息称 Anthropic 最快下周完成逾 300 亿美元融资，有望推动估值反超 OpenAI",
+      "summary": "据彭博社报道，Anthropic即将完成一轮超300亿美元的融资，最快可能于下周敲定。此轮融资将使其估值突破9000亿美元，正式超越OpenAI，成为全球估值最高的AI初创企业。融资的迅速推进反映了市场的强烈追捧。同时，公司营收高速增长，预计第二季度营收将达109亿美元，环比增长超一倍，有望迎来首个盈利季度。",
+      "category": "行业",
+      "tags": [
+        "OpenAI",
+        "Claude"
+      ],
+      "url": "https://www.ithome.com/0/954/452.htm",
+      "source": "IT之家（RSS）",
+      "image": null,
+      "time": "2026-05-23T15:12:40.000Z",
+      "id": 3
+    },
+    {
+      "title": "加倍投入科学以赢得工业AI",
+      "summary": "Mistral AI宣布与物理AI先驱Emmi AI达成最终收购协议，旨在加强其在工业AI领域的领导地位。通过整合Emmi AI在物理仿真与数字孪生方面的专长，Mistral AI将提升其工程解决方案能力，并加速科学研发路线。Emmi AI的30余名研究员与工程师将加入Mistral AI团队，共同构建由物理AI驱动的综合技术栈。此次合作将为航空航天、汽车等高风险行业提供实时仿真与复杂问题解决平台，推动工业研发的突破性进展。",
+      "category": "行业",
+      "tags": [
+        "industry"
+      ],
+      "url": "https://mistral.ai/news/science-to-win-industrial-ai",
+      "source": "Mistral AI：News（网页）",
+      "image": null,
+      "time": "2026-05-23T09:46:00.745Z",
+      "id": 4
+    },
+    {
+      "title": "飞书-Claude Code桥接开源项目",
+      "summary": "feishu-claude-code-bridge是一个开源项目，可实现飞书与本机Claude Code CLI的双向连接。用户能从飞书消息中直接指挥Claude Code执行任务，Claude也能读取飞书中的工作上下文并创建、编辑飞书文档。其工作原理是将飞书消息转为Prompt通过命令行调用Claude CLI，并将流式输出实时同步回飞书。该模式可扩展连接Codex等其他本地工具。需注意，2026年6月15日起，Claude订阅计划对`claude -p`模式将独立计费。",
+      "category": "工具",
+      "tags": [
+        "Claude",
+        "开源"
+      ],
+      "url": "https://x.com/dotey/status/2058084478459826432",
+      "source": "X：宝玉 (@dotey)",
+      "image": null,
+      "time": "2026-05-23T07:15:51.000Z",
+      "id": 5
+    },
+    {
+      "title": "微软称，使用人工智能的成本高于支付人工工资",
+      "summary": "微软发布报告指出，在特定工作场景中，部署和使用人工智能（AI）的成本目前已高于支付相应的人工工资。报告分析了基于\"tokens\"（令牌）和\"agents\"（智能体）的AI使用模式，发现其综合开销超过了雇佣人类员工完成同类任务的费用。这一发现揭示了当前企业应用AI技术面临的现实经济挑战。",
+      "category": "行业",
+      "tags": [
+        "industry"
+      ],
+      "url": "https://fortune.com/2026/05/22/microsoft-ai-cost-problem-tokens-agents",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "image": null,
+      "time": "2026-05-23T05:23:21.531Z",
+      "id": 6
+    },
     {
       "title": "Kling AI亮相戛纳，推动AI赋能电影制作",
       "summary": "Kling AI在戛纳电影市场（Marché du Film）举办官方会议，首次登上这一世界顶级电影舞台。会议汇集全球电影专业人士，共同探讨AI如何融入实际电影制作流程。Kling AI已证明其能力可服务于动画长片、好莱坞剧集、实验短片及影院电影等多种创作形式。未来，Kling AI将继续推进电影级AI影像技术，与全球创作者合作，将更多\"不可能\"的故事呈现在银幕上。",
@@ -13,7 +94,7 @@
       "source": "X：可灵 Kling AI (@Kling_ai)",
       "image": null,
       "time": "2026-05-23T02:35:15.000Z",
-      "id": 1
+      "id": 7
     },
     {
       "title": "Models.dev：一个关于人工智能模型规格、定价和功能的开源数据库",
@@ -26,7 +107,7 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "image": null,
       "time": "2026-05-23T01:39:14.985Z",
-      "id": 2
+      "id": 8
     },
     {
       "title": "扩大与新加坡合作，推动AI安全规模化部署",
@@ -39,7 +120,7 @@
       "source": "X：Google DeepMind (@GoogleDeepMind)",
       "image": null,
       "time": "2026-05-23T00:41:27.000Z",
-      "id": 3
+      "id": 9
     },
     {
       "title": "AI 替代入门级工作：科技行业受裁员冲击最重，74% CEO 冻结或缩减招聘",
@@ -52,216 +133,135 @@
       "source": "IT之家（RSS）",
       "image": null,
       "time": "2026-05-23T00:05:55.000Z",
-      "id": 4
-    },
-    {
-      "title": "Nemotron-Labs 扩散语言模型实现光速级文本生成",
-      "summary": "NVIDIA 在 Hugging Face 发布了关于 Nemotron-Labs 扩散语言模型的技术博客。该研究聚焦于通过扩散语言模型架构大幅提升文本生成速度，目标是逼近\"光速级\"生成效率。文章可能介绍了该模型在生成速度上的突破，以及相较于传统自回归模型在延迟和吞吐量方面的性能优势。具体技术细节或对比数据需参考原文。",
-      "category": "AI",
-      "tags": [
-        "paper"
-      ],
-      "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
-      "source": "Hugging Face：Blog（RSS）",
-      "image": null,
-      "time": "2026-05-23T00:02:03.000Z",
-      "id": 5
-    },
-    {
-      "title": "AlphaProof Nexus：用形式化验证驱动AI数学证明搜索",
-      "summary": "Google DeepMind提出了AlphaProof Nexus系统，它将大型语言模型与Lean形式化验证工具相结合。该系统允许LLM在生成证明的过程中，不断读取Lean的编译错误并进行修正，还可调用更强的工具辅助解决子问题。这一机制迫使模型将每一步逻辑都转化为可编译、可验证的代码，从而将其角色从\"令人信服的叙述者\"转变为\"候选方案生成器\"。在针对353个Erdős问题和492个开放猜想的测试中，系统成功解决了9个Erdős问题并证明了44个序列猜想。该研究展示了形式化验证在暴露AI逻辑错误、建立\"人类提问-模型探索-验证器把关\"新分工中的关键作用。",
-      "category": "AI",
-      "tags": [
-        "paper"
-      ],
-      "url": "https://x.com/rohanpaul_ai/status/2057954067146781151",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "image": null,
-      "time": "2026-05-22T22:37:39.000Z",
-      "id": 6
-    },
-    {
-      "title": "黄仁勋：AI 基建年度开支要冲到 4 万亿美元！",
-      "summary": "英伟达发布2027财年Q1财报，营收816亿美元，同比增长85%，净利润583亿美元，翻两倍多，市值达5.7万亿美元，已超德国2026年GDP预测。黄仁勋预测，超大规模云厂商的AI基建年度开支将从当前的1万亿美元，增长至3-4万亿美元，远超华尔街预期。财报同时显示，数据中心业务营收752亿美元，占比超九成。值得注意的是，AI基建的高能耗正推高居民电费，数据中心用电成本转嫁效应已初步显现。",
-      "category": "行业",
-      "tags": [
-        "industry"
-      ],
-      "url": "https://www.ithome.com/0/954/223.htm",
-      "source": "IT之家（RSS）",
-      "image": null,
-      "time": "2026-05-22T22:30:03.000Z",
-      "id": 7
-    },
-    {
-      "title": "动作捕捉与角色动画制作更轻松",
-      "summary": "动作捕捉和角色动画制作从未如此简单。\n\n持续构建，更多功能即将推出！",
-      "category": "AI",
-      "tags": [
-        "ai-products"
-      ],
-      "url": "https://x.com/ViggleAI/status/2057947352195858568",
-      "source": "X：Viggle AI (@ViggleAI)",
-      "image": null,
-      "time": "2026-05-22T22:10:58.000Z",
-      "id": 8
-    },
-    {
-      "title": "v2.1.149 更新摘要",
-      "summary": "本次 v2.1.149 更新包含功能增强、企业设置和多项修复。新增 `/usage` 命令的使用量分类显示功能，可区分技能、子代理、插件及每个 MCP 服务器的消耗；`/diff` 详情视图支持键盘滚动；Markdown 输出兼容 GFM 任务列表。企业版新增 `allowAllClaudeAiMcps` 设置以加载云 MCP 连接器。修复了 PowerShell 权限绕过、Git 工作树沙盒写入白名单越界、脚本路径含空格时 `otelHeadersHelper` 静默失败等安全问题。改进了 `/feedback` 报告，包含上下文压缩前的对话内容，便于排查长会话中的早期问题。",
-      "category": "AI",
-      "tags": [
-        "ai-products"
-      ],
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
-      "source": "Claude Code：GitHub Releases（RSS）",
-      "image": null,
-      "time": "2026-05-22T22:09:29.000Z",
-      "id": 9
-    },
-    {
-      "title": "Claude自动模式新增Pro计划与模型支持",
-      "summary": "自动模式的两项更新：\n\n· 现已在Pro计划中提供\n· 现已支持Sonnet 4.6，以及Opus 4.7\n\n按下Shift+tab，让Claude运行。",
-      "category": "AI",
-      "tags": [
-        "Claude"
-      ],
-      "url": "https://x.com/ClaudeDevs/status/2057946803685974482",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "image": null,
-      "time": "2026-05-22T22:08:47.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "thananon/9arm-skills",
-      "description": "Claude Code技能加载器，技能分组",
-      "language": "Shell",
-      "stars": 1549,
-      "starsToday": 376,
-      "forks": 205,
-      "url": "https://github.com/thananon/9arm-skills",
+      "name": "ultraworkers/claw-code",
+      "description": "Rust CLI代理工具实现",
+      "language": "Rust",
+      "stars": 192316,
+      "starsToday": 3629,
+      "forks": 109967,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 1
     },
     {
       "name": "affaan-m/ECC",
-      "description": "多语言支持，JavaScript开发",
+      "description": "多语言JavaScript库",
       "language": "JavaScript",
-      "stars": 188561,
-      "starsToday": 339,
-      "forks": 29180,
+      "stars": 189274,
+      "starsToday": 713,
+      "forks": 29275,
       "url": "https://github.com/affaan-m/ECC",
       "rank": 2
     },
     {
-      "name": "FoundZiGu/GuJumpgate",
-      "description": "全自动GPT Plus注册扩展，解放双手",
-      "language": "JavaScript",
-      "stars": 1788,
-      "starsToday": 300,
-      "forks": 523,
-      "url": "https://github.com/FoundZiGu/GuJumpgate",
+      "name": "perplexityai/bumblebee",
+      "description": "macOS/Linux软件元数据收集器",
+      "language": "Go",
+      "stars": 1368,
+      "starsToday": 456,
+      "forks": 107,
+      "url": "https://github.com/perplexityai/bumblebee",
       "rank": 3
     },
     {
-      "name": "kageroumado/phosphene",
-      "description": "macOS视频壁纸引擎，菜单栏应用+壁纸扩展",
-      "language": "Swift",
-      "stars": 598,
-      "starsToday": 299,
-      "forks": 17,
-      "url": "https://github.com/kageroumado/phosphene",
+      "name": "thananon/9arm-skills",
+      "description": "Claude Code技能加载器",
+      "language": "Shell",
+      "stars": 1869,
+      "starsToday": 320,
+      "forks": 245,
+      "url": "https://github.com/thananon/9arm-skills",
       "rank": 4
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "个人AI助手，跨平台语音交互",
-      "language": "TypeScript",
-      "stars": 374013,
-      "starsToday": 224,
-      "forks": 77732,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "FoundZiGu/GuJumpgate",
+      "description": "GPT Plus注册浏览器扩展",
+      "language": "JavaScript",
+      "stars": 2091,
+      "starsToday": 303,
+      "forks": 598,
+      "url": "https://github.com/FoundZiGu/GuJumpgate",
       "rank": 5
     },
     {
-      "name": "datawhalechina/Agent-Learning-Hub",
-      "description": "AI Agent学习路线图，整理学习资源",
-      "language": "HTML",
-      "stars": 1100,
-      "starsToday": 220,
-      "forks": 116,
-      "url": "https://github.com/datawhalechina/Agent-Learning-Hub",
+      "name": "Doorman11991/smallcode",
+      "description": "小模型AI编码助手",
+      "language": "JavaScript",
+      "stars": 1326,
+      "starsToday": 265,
+      "forks": 96,
+      "url": "https://github.com/Doorman11991/smallcode",
       "rank": 6
     },
     {
-      "name": "public-apis/public-apis",
-      "description": "免费公共API仓库，社区管理",
-      "language": "Python",
-      "stars": 436650,
-      "starsToday": 212,
-      "forks": 47868,
-      "url": "https://github.com/public-apis/public-apis",
+      "name": "openclaw/openclaw",
+      "description": "个人AI助手",
+      "language": "TypeScript",
+      "stars": 374211,
+      "starsToday": 198,
+      "forks": 77814,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 7
     },
     {
-      "name": "sapientinc/HRM-Text",
-      "description": "高效预训练模型，从零开始",
+      "name": "public-apis/public-apis",
+      "description": "免费公共API资源库",
       "language": "Python",
-      "stars": 651,
-      "starsToday": 163,
-      "forks": 59,
-      "url": "https://github.com/sapientinc/HRM-Text",
+      "stars": 436840,
+      "starsToday": 190,
+      "forks": 47879,
+      "url": "https://github.com/public-apis/public-apis",
       "rank": 8
     },
     {
-      "name": "ollama/ollama",
-      "description": "开源模型构建，Docker支持",
-      "language": "Go",
-      "stars": 172056,
-      "starsToday": 162,
-      "forks": 16248,
-      "url": "https://github.com/ollama/ollama",
+      "name": "datawhalechina/Agent-Learning-Hub",
+      "description": "AI代理学习路线图",
+      "language": "HTML",
+      "stars": 1232,
+      "starsToday": 132,
+      "forks": 130,
+      "url": "https://github.com/datawhalechina/Agent-Learning-Hub",
       "rank": 9
     },
     {
-      "name": "Significant-Gravitas/AutoGPT",
-      "description": "AI代理构建、部署、运行，多语言支持",
-      "language": "Python",
-      "stars": 184463,
-      "starsToday": 159,
-      "forks": 46228,
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "name": "freeCodeCamp/freeCodeCamp",
+      "description": "免费编程学习平台",
+      "language": "TypeScript",
+      "stars": 445350,
+      "starsToday": 107,
+      "forks": 44685,
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-05-23",
-    "updatedAt": "2026-05-23T02:54:34.965Z",
+    "date": "2026-05-24",
+    "updatedAt": "2026-05-24T03:34:03.306Z",
     "highlights": [
-      "Kling AI亮相戛纳推动AI电影制作发展",
-      "Models.dev开源数据库提供AI模型信息",
-      "AI安全规模化部署合作扩大",
-      "科技行业裁员冲击，AI替代入门级工作",
-      "Nemotron-Labs实现光速级文本生成",
-      "AlphaProof Nexus推动AI数学证明搜索",
-      "黄仁勋预测AI基建开支将达4万亿美元",
-      "动作捕捉与角色动画制作技术提升",
-      "Claude自动模式新增Pro计划",
-      "GitHub热门项目涵盖AI技能加载、多语言开发、AI助手、学习资源等"
+      "StepAudio 2.5发布，副语言感知与人格化交互技术取得进展",
+      "Replit Agent与Squidler集成，AI质量保障自动化",
+      "Anthropic 融资超300亿美元，行业估值竞争加剧",
+      "工业AI投入增加，科学领域受重视",
+      "飞书与Claude Code桥接开源项目，推动工具发展"
     ],
     "keywords": [
-      "Kling AI",
-      "Models.dev",
-      "AI安全",
-      "科技裁员",
-      "Nemotron-Labs",
-      "AlphaProof Nexus",
-      "AI基建",
-      "动作捕捉",
-      "Claude",
-      "GitHub热门项目"
+      "StepAudio 2.5",
+      "Replit Agent",
+      "Anthropic",
+      "工业AI",
+      "飞书",
+      "Claude Code",
+      "开源项目",
+      "AI质量保障",
+      "融资",
+      "估值",
+      "科学",
+      "工具"
     ],
-    "trendingSummary": "AI技术在电影制作、安全、数学证明等领域取得显著进展，同时面临行业裁员挑战。GitHub热门项目聚焦AI技能加载、多语言开发等，展现AI应用多样化趋势。"
+    "trendingSummary": "今日技术资讯显示，AI领域持续发展，副语言感知、自动化质量保障、行业融资等成为热点。同时，开源项目与工业AI投入增加，预示着技术生态的进一步繁荣。"
   }
 }
