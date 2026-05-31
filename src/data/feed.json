@@ -1,286 +1,263 @@
 {
-  "date": "2026-05-30",
-  "updatedAt": "2026-05-30T02:59:46.946Z",
+  "date": "2026-05-31",
+  "updatedAt": "2026-05-31T03:47:27.939Z",
   "techNews": [
     {
-      "title": "阿里云与Qwen成为UEFA多年全球AI合作伙伴",
-      "summary": "阿里云和Qwen成为UEFA官方独家AI、云计算与电子商务合作伙伴，合作期覆盖2027/2028赛季至2032/2033赛季的UEFA男子俱乐部赛事，以及UEFA EURO 2028。阿里巴巴集团主席蔡崇信表示，将投入云计算、全栈AI及全球电商平台能力，支持赛事运营。合作将利用Qwen大语言模型部署先进AI技术，增强球迷互动与媒体内容体验，并依托阿里云基础设施打造全球沉浸式观赛体验。",
+      "title": "6000 多公里全程零干预：特斯拉 FSD 完成全球首次横穿加拿大自动驾驶",
+      "summary": "一辆特斯拉汽车搭载 FSD V14.3.3 版本软件，完成了全球首次全程零人工干预、横穿加拿大的自动驾驶行程。车辆从温哥华出发，历时 4 天 21 小时，行驶 3760 英里（6051 公里）抵达哈利法克斯，全程所有驾驶操作（包括高速并线、应对复杂路况与自动泊车）均由系统自主完成，无任何系统退出或人工修正。该版本随 2026.14.6.6 更新推送，整合了春季软件功能。",
       "category": "行业",
       "tags": [
-        "阿里"
+        "industry"
       ],
-      "url": "https://x.com/alibaba_cloud/status/2060520586489770167",
-      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "url": "https://www.ithome.com/0/957/718.htm",
+      "source": "IT之家（RSS）",
       "image": null,
-      "time": "2026-05-30T00:36:05.000Z",
+      "time": "2026-05-31T01:30:46.000Z",
       "id": 1
     },
     {
-      "title": "ComfyUI现已支持OpenRouter模型直接调用",
-      "summary": "现在你可以直接在ComfyUI工作流中使用你的OpenRouter模型了！\n\n【引用 @ComfyUI】：ComfyUI刚刚添加了@OpenRouter支持。\n\n你不再局限于单一的大语言模型，现在可以直接在Comfy中访问20多个模型。\n\n更多灵活性，更少摩擦，同样的工作流。\n\n工作流链接在下方👇",
-      "category": "AI",
+      "title": "在浏览器中通过 Pyodide 和 Service Worker 运行 Python ASGI 应用",
+      "summary": "作者展示了如何在浏览器中通过 Pyodide 和 Service Worker 运行 Python ASGI 应用。此前的 Datasette Lite 使用 Web Workers，但无法执行 `<script>` 标签中的 JavaScript。新方案由 Claude Opus 4.8 协助完成开发，解决了这一问题。作者已展示了基础的 ASGI FastCGI 演示和运行 Datasette 1.0a31 的演示，并计划后续将此方法应用于升级 Datasette Lite。",
+      "category": "工具",
       "tags": [
-        "设计"
+        "浏览器"
       ],
-      "url": "https://x.com/OpenRouter/status/2060511136932315259",
-      "source": "X：OpenRouter (@OpenRouter)",
+      "url": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser",
+      "source": "Simon Willison 博客",
       "image": null,
-      "time": "2026-05-29T23:58:32.000Z",
+      "time": "2026-05-30T21:02:16.000Z",
       "id": 2
     },
     {
-      "title": "这个 skill 看着不错，可将文字、URL 或文章直接生成公众号首图、小红书图文卡、教程步骤卡等视觉物料，支持 28 种布局和 10 种主题。",
-      "summary": "claude-design-card 是一款专为中文内容创作者设计的 Skill。它能将文字、URL 或文章直接转化为可发布的视觉卡片，如公众号首图、小红书图文卡、教程步骤卡等，支持 28 种布局与 10 种主题。其核心价值在于自动化了\"写完文章\"后最繁琐的流程：自动提炼重点、选择版式、生成 HTML 并截图成 PNG，替代了以往手动使用 Figma 或 Canva 等工具的步骤。该工具开源，适合经常撰写相关内容的创作者尝试。",
-      "category": "工具",
+      "title": "据报道：软银将在法国投资750亿欧元用于AI",
+      "summary": "软银集团计划投资高达750亿欧元（约合870亿美元），用于在法国建设人工智能数据中心。该投资计划由《论坛报》与《金融时报》报道。",
+      "category": "行业",
       "tags": [
-        "多模态"
+        "industry"
       ],
-      "url": "https://x.com/hongming731/status/2060487110906527820",
-      "source": "X：洪明 (@hongming731)",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-30/softbank-to-invest-some-75-billion-in-ai-in-france-reports-say",
+      "source": "Bloomberg：Technology（RSS）",
       "image": null,
-      "time": "2026-05-29T22:23:03.000Z",
+      "time": "2026-05-30T18:55:33.000Z",
       "id": 3
     },
     {
-      "title": "Codex可自主管理对话线程与并行任务",
-      "summary": "Codex用于管理Codex界面：\n\n【引用 @guinnesschen】：如果你厌倦了管理Codex对话线程，就让Codex自己管理自己吧！Codex现在可以创建对话线程、搜索它们、整理它们、固定重要的线程，并为并行任务启动工作树。",
-      "category": "AI",
+      "title": "NVIDIA 或将于六月发布整合 Blackwell GPU 与 AI 单元的 ARM 笔记本芯片 N1X",
+      "summary": "NVIDIA、微软与 Arm 同步发布指向台北音乐中心的坐标，暗示 6 月 1 日发布会将有重大动作。此举被认为是 NVIDIA 与联发科合作的 ARM 笔记本芯片 N1X 的预告。该芯片整合了 CPU、基于 Blackwell 架构的 GPU 及 AI 单元，目标是使轻薄本具备接近 RTX 4070 的图形性能。这标志着 NVIDIA 的战略转变：从显卡供应商，转型为定义整机核心方案的提供商，将直接冲击 Intel、AMD 和高通在 PC 市场的地位。",
+      "category": "工具",
       "tags": [
-        "编程"
+        "算力"
       ],
-      "url": "https://x.com/gdb/status/2060486309886443787",
-      "source": "X：Greg Brockman (@gdb)",
+      "url": "https://x.com/AYi_AInotes/status/2060779431648547016",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
       "image": null,
-      "time": "2026-05-29T22:19:52.000Z",
+      "time": "2026-05-30T17:44:38.000Z",
       "id": 4
     },
     {
-      "title": "ChatGPT对话目录功能现已上线",
-      "summary": "对于每个始于\"就问一件事\"却演变成完整长篇的ChatGPT对话：目录功能现已推出。\n适用于包含5条以上回复的对话。",
-      "category": "AI",
+      "title": "\"开玩笑吧\"：GitHub Copilot 新的基于 token 的计费模式引发开发者不满",
+      "summary": "微软旗下 GitHub Copilot 的黄金时代似乎正在终结。其新推出的计费模式改为按 token 计量，这一变化引发了开发者的广泛担忧与不满。",
+      "category": "行业",
       "tags": [
-        "OpenAI"
+        "编程",
+        "开源"
       ],
-      "url": "https://x.com/ChatGPTapp/status/2060467129066070182",
-      "source": "X：ChatGPT (@ChatGPTapp)",
+      "url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs",
+      "source": "TechCrunch：AI（RSS）",
       "image": null,
-      "time": "2026-05-29T21:03:39.000Z",
+      "time": "2026-05-30T16:30:00.000Z",
       "id": 5
     },
     {
-      "title": "Luma Agents 自动生成宣传图，输入内容即可",
-      "summary": "博客文章完成了思考。现在让宣传来发挥作用。\n\n输入内容。定义钩子。Luma Agents 从那里构建每一张宣传图。\n\n投入使用 → http：//lumalabs.ai/app",
-      "category": "AI",
+      "title": "随着成本飙升，美国企业开始对人工智能实施配给",
+      "summary": "由于运行和使用AI工具的成本持续飙升，美国企业正开始对人工智能的使用实施配给制。企业通过限制使用量、设置分层级审批流程等方式控制开支，以应对AI费用增长过快的问题。这种从广泛采用转向精细化管理的策略，标志着企业在AI应用上从追求速度转向注重成本效益。",
+      "category": "工具",
       "tags": [
-        "Agent"
+        "tip"
       ],
-      "url": "https://x.com/LumaLabsAI/status/2060461313713909783",
-      "source": "X：Luma AI (@LumaLabsAI)",
+      "url": "https://www.wsj.com/tech/ai/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-1eb99d7a",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "image": null,
-      "time": "2026-05-29T20:40:33.000Z",
+      "time": "2026-05-30T15:40:48.502Z",
       "id": 6
     },
     {
-      "title": "Runway API持续扩展模型与端点支持",
-      "summary": "我们持续为 Runway API 添加新模型和端点，以便您能将最佳生成能力直接集成到应用、产品和平台中。通过 Runway API，您可以在一个地方获得所需的所有模型，包括 Seedance 2.0、GPT Image 2、HappyHorse 1.0、Nano Banana Pro、Magnific Precision Upscaler V2 等更多内容。请通过下方链接开始使用。",
-      "category": "AI",
-      "tags": [
-        "API"
-      ],
-      "url": "https://x.com/runwayml/status/2060453805519765548",
-      "source": "X：Runway (@runwayml)",
-      "image": null,
-      "time": "2026-05-29T20:10:43.000Z",
-      "id": 7
-    },
-    {
-      "title": "OpenAI推出实时翻译模型，支持70+语言输入",
-      "summary": "OpenAI 实时翻译功能--使用70多种输入语言说话，翻译成13种输出语言：\n\ngpt-realtime-translate 接收任意语言的语音输入，并输出目标语言的语音。\n\n大语言模型很棒，但特定用例需要专用模型。\n\n我们正在智能眼镜上运行此功能。",
-      "category": "AI",
+      "title": "免费领取6个月ChatGPT Pro及AI工具思考",
+      "summary": "OpenAI为开源项目维护者提供福利，可免费领取6个月ChatGPT Pro（价值$1200），申请无硬性Star数要求，有项目链接即可。同时，文章引用讨论了AI工具的分类：一类是\"agent型\"（如Claude Code、Codex），可自主运行；另一类是\"实习生型\"（如Cursor），需人工决策，有助于使用者以术入道、培养判断力，但受限于需人在场。作者推荐了网易的UU远程工具，称其免费两年，支持4K 144帧无延迟连接Mac并可使用原生终端，解决了\"实习生型\"工具的地点限制问题。",
+      "category": "工具",
       "tags": [
         "OpenAI"
       ],
-      "url": "https://x.com/gdb/status/2060452095279415725",
-      "source": "X：Greg Brockman (@gdb)",
+      "url": "https://x.com/AYi_AInotes/status/2060740414273941874",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
       "image": null,
-      "time": "2026-05-29T20:03:55.000Z",
+      "time": "2026-05-30T15:09:36.000Z",
+      "id": 7
+    },
+    {
+      "title": "AI 骗子正在创建虚假的黑人形象来销售 Shein 劣质商品",
+      "summary": "有卖家利用 AI 生成虚假的黑人形象，在 TikTok、Facebook 和 Instagram 上扮演手工制品创作者进行销售。例如一个名为 Aliyah 的 AI 生成形象，以带泪诉说的方式售卖所谓手工皮带扣，但该形象及其产品均为虚构。此类 AI 虚拟网红被用于推广通过代发货模式销售的批量生产品。",
+      "category": "行业",
+      "tags": [
+        "industry"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping",
+      "source": "The Verge：AI（RSS）",
+      "image": null,
+      "time": "2026-05-30T13:00:00.000Z",
       "id": 8
     },
     {
-      "title": "LlamaIndex 团队基于 Google Agents API 构建 LlamaParse/LiteParse 智能体模板",
-      "summary": "LlamaIndex 团队基于 Google 新发布的 Agents API 构建了一个模板，使智能体能够访问 LlamaParse 和 LiteParse，从而自动处理非结构化文档。其工作流程为：配置数据与输出的 Git 仓库，将仓库克隆至智能体沙箱，安装 LiteParse CLI 与 LlamaParse SDK 及相关技能，最后通过提示词驱动智能体自主执行任务。该模板最终形成一个可直接使用 LlamaParse 和 LiteParse 处理真实世界文档的智能体。",
-      "category": "工具",
+      "title": "新加坡防务论坛：AI 风险超过核武器",
+      "summary": "在新加坡举行的防务论坛上，专家警告AI风险已超越核武器。面板讨论指出，AI可能大幅压缩反应时间，导致决策者做出草率决定，对战略稳定构成威胁。",
+      "category": "行业",
       "tags": [
-        "Gemini",
-        "Llama",
-        "API"
+        "安全"
       ],
-      "url": "https://x.com/googleaidevs/status/2060439904929382700",
-      "source": "X：Google AI for Developers (@googleaidevs)",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-30/ai-dangers-eclipse-nuclear-weapons-at-singapore-defense-forum",
+      "source": "Bloomberg：Technology（RSS）",
       "image": null,
-      "time": "2026-05-29T19:15:29.000Z",
+      "time": "2026-05-30T11:59:32.000Z",
       "id": 9
     },
     {
-      "title": "参与我们的 I/O 2026 测验：该测验由 Google AI Studio 氛围编程生成",
-      "summary": "Google 使用其开发工具 Google AI Studio，通过氛围编程（vibe coding）方式，创建了一个关于 Google I/O 2026 主要公告的在线测验。",
-      "category": "工具",
+      "title": "Nano Banana Pro与Nano Banana 2正式发布",
+      "summary": "ICYMI：Nano Banana Pro 【gemini-3-pro-image】 和 Nano Banana 2 【gemini-3.1-flash-image】 现已正式发布，可通过 Gemini API 投入生产使用。\n\n查看这些优秀的社区示例，了解两个模型的实际能力 🧵",
+      "category": "AI",
       "tags": [
-        "Gemini",
-        "编程"
+        "ai-models"
       ],
-      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz",
-      "source": "Google Blog：AI（RSS）",
+      "url": "https://x.com/googleaidevs/status/2060685345738375640",
+      "source": "X：Google AI for Developers (@googleaidevs)",
       "image": null,
-      "time": "2026-05-29T19:00:00.000Z",
+      "time": "2026-05-30T11:30:46.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "ultraworkers/claw-code",
-      "description": "Rust CLI代理工具库，支持多平台",
-      "language": "Rust",
-      "stars": 192859,
-      "starsToday": 3269,
-      "forks": 109974,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "affaan-m/ECC",
+      "description": "多语言支持，JavaScript 编程",
+      "language": "JavaScript",
+      "stars": 199417,
+      "starsToday": 787,
+      "forks": 30617,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 1
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言支持的JavaScript库",
-      "language": "JavaScript",
-      "stars": 198630,
-      "starsToday": 1179,
-      "forks": 30522,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "op7418/guizang-social-card-skill",
+      "description": "图文卡片技能，适配 Claude Code",
+      "language": "HTML",
+      "stars": 1679,
+      "starsToday": 501,
+      "forks": 176,
+      "url": "https://github.com/op7418/guizang-social-card-skill",
       "rank": 2
     },
     {
       "name": "helloianneo/ian-xiaohei-illustrations",
-      "description": "AI生成中文文章配图工具",
+      "description": "AI 生成中文文章配图",
       "language": "Unknown",
-      "stars": 853,
-      "starsToday": 427,
-      "forks": 77,
+      "stars": 1170,
+      "starsToday": 317,
+      "forks": 101,
       "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
       "rank": 3
     },
     {
-      "name": "op7418/guizang-social-card-skill",
-      "description": "AI生成小红书图文卡片工具",
-      "language": "HTML",
-      "stars": 1178,
-      "starsToday": 312,
-      "forks": 135,
-      "url": "https://github.com/op7418/guizang-social-card-skill",
+      "name": "MatinSenPai/SenPaiScanner",
+      "description": "终端 UI 云flare IP 查找器",
+      "language": "Go",
+      "stars": 604,
+      "starsToday": 302,
+      "forks": 41,
+      "url": "https://github.com/MatinSenPai/SenPaiScanner",
       "rank": 4
     },
     {
-      "name": "withkynam/vibecode-pro-max-kit",
-      "description": "AI开发者工具包",
-      "language": "JavaScript",
-      "stars": 509,
-      "starsToday": 255,
-      "forks": 127,
-      "url": "https://github.com/withkynam/vibecode-pro-max-kit",
+      "name": "Michaelliv/pi-dynamic-workflows",
+      "description": "Pi 扩展，多子代理工作流",
+      "language": "TypeScript",
+      "stars": 583,
+      "starsToday": 292,
+      "forks": 32,
+      "url": "https://github.com/Michaelliv/pi-dynamic-workflows",
       "rank": 5
     },
     {
       "name": "openclaw/openclaw",
-      "description": "个人AI助手，多平台支持",
+      "description": "个人 AI 助手，多平台支持",
       "language": "TypeScript",
-      "stars": 375527,
-      "starsToday": 194,
-      "forks": 78371,
+      "stars": 375703,
+      "starsToday": 176,
+      "forks": 78427,
       "url": "https://github.com/openclaw/openclaw",
       "rank": 6
     },
     {
-      "name": "public-apis/public-apis",
-      "description": "免费公共API资源库",
-      "language": "Python",
-      "stars": 437823,
-      "starsToday": 141,
-      "forks": 47994,
-      "url": "https://github.com/public-apis/public-apis",
+      "name": "ollama/ollama",
+      "description": "基于开源模型的构建",
+      "language": "Go",
+      "stars": 172689,
+      "starsToday": 162,
+      "forks": 16348,
+      "url": "https://github.com/ollama/ollama",
       "rank": 7
     },
     {
-      "name": "UditAkhourii/adhd",
-      "description": "AI思维链工具",
-      "language": "TypeScript",
-      "stars": 516,
-      "starsToday": 129,
-      "forks": 25,
-      "url": "https://github.com/UditAkhourii/adhd",
+      "name": "Significant-Gravitas/AutoGPT",
+      "description": "构建、部署和运行 AI 代理",
+      "language": "Python",
+      "stars": 184660,
+      "starsToday": 158,
+      "forks": 46206,
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "rank": 8
     },
     {
-      "name": "harrietteehisqu7759383/kms-pico-latest-april-2026",
-      "description": "教育用KMS Pico工具包",
-      "language": "C#",
-      "stars": 449,
-      "starsToday": 112,
-      "forks": 0,
-      "url": "https://github.com/harrietteehisqu7759383/kms-pico-latest-april-2026",
+      "name": "public-apis/public-apis",
+      "description": "免费公共 API 资源库",
+      "language": "Python",
+      "stars": 437969,
+      "starsToday": 146,
+      "forks": 48011,
+      "url": "https://github.com/public-apis/public-apis",
       "rank": 9
     },
     {
-      "name": "freeCodeCamp/freeCodeCamp",
-      "description": "免费编程学习平台",
+      "name": "nilbuild/developer-roadmap",
+      "description": "开发者路线图和资源",
       "language": "TypeScript",
-      "stars": 445608,
-      "starsToday": 107,
-      "forks": 44736,
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "stars": 355756,
+      "starsToday": 106,
+      "forks": 44135,
+      "url": "https://github.com/nilbuild/developer-roadmap",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-05-30",
-    "updatedAt": "2026-05-30T02:59:46.946Z",
+    "date": "2026-05-31",
+    "updatedAt": "2026-05-31T03:47:27.939Z",
     "highlights": [
-      "阿里云与Qwen合作成为UEFA AI合作伙伴",
-      "ComfyUI支持OpenRouter模型直接调用",
-      "技能生成视觉物料工具支持多种布局和主题",
-      "Codex管理对话线程与并行任务",
-      "ChatGPT对话目录功能上线",
-      "Luma Agents自动生成宣传图",
-      "Runway API扩展模型与端点支持",
-      "OpenAI推出多语言实时翻译模型",
-      "LlamaIndex构建智能体模板",
-      "Google AI Studio氛围编程生成I/O 2026测验"
+      "特斯拉FSD自动驾驶完成横穿加拿大",
+      "软银法国投资AI",
+      "NVIDIA发布ARM笔记本芯片N1X",
+      "GitHub Copilot新计费模式引发不满",
+      "美国企业实施人工智能配给"
     ],
     "keywords": [
-      "阿里云",
-      "Qwen",
-      "UEFA",
-      "AI合作伙伴",
-      "ComfyUI",
-      "OpenRouter",
-      "视觉物料",
-      "Codex",
-      "ChatGPT",
-      "Luma Agents",
-      "Runway API",
-      "OpenAI",
-      "实时翻译",
-      "LlamaIndex",
-      "Google AI Studio",
-      "I/O 2026",
-      "Rust CLI",
-      "JavaScript库",
-      "AI生成配图",
-      "小红书图文卡片",
-      "AI开发者工具包",
-      "个人AI助手",
-      "免费公共API",
-      "AI思维链",
-      "教育工具",
-      "免费编程学习平台"
+      "自动驾驶",
+      "AI投资",
+      "ARM芯片",
+      "GitHub Copilot",
+      "人工智能配给",
+      "Pyodide",
+      "Service Worker",
+      "Blackwell GPU",
+      "N1X",
+      "AI代理人"
     ],
-    "trendingSummary": "今日技术资讯显示，AI和云服务领域合作增多，AI生成工具功能日益丰富，跨平台工具和编程学习平台也备受关注。"
+    "trendingSummary": "自动驾驶技术取得重大进展，AI投资持续增加，芯片技术革新备受关注。GitHub Copilot新计费模式引发行业讨论，人工智能配给成为企业应对成本上涨的新策略。"
   }
 }
