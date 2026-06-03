@@ -1,266 +1,262 @@
 {
-  "date": "2026-06-02",
-  "updatedAt": "2026-06-02T03:56:40.889Z",
+  "date": "2026-06-03",
+  "updatedAt": "2026-06-03T04:04:04.431Z",
   "techNews": [
     {
-      "title": "NVIDIA Jetson 将智能体 AI 引入物理世界",
-      "summary": "在 COMPUTEX 上，NVIDIA 发布了 NVIDIA JetPack 7.2 软件包，并宣布在 NVIDIA Jetson 平台上支持其智能体 AI 框架 NVIDIA NemoClaw。JetPack 7.2 带来了 Yocto 项目支持、在 Jetson Orin 上支持 CUDA 13，以及 Jetson AGX Orin 32GB 模块的 AI 算力提升至 241 TOPS。NemoClaw 将智能体 AI 能力引入面向机器人、检测和工业自动化的生产级 Jetson 平台。企业如 Solomon 已利用该方案在人形机器人上协调 AI 智能体。",
-      "category": "AI",
+      "title": "宏利香港与阿里云达成AI战略合作",
+      "summary": "宏利香港宣布与阿里云建立战略合作伙伴关系，旨在构建一个专注于推进负责任的AI创新，并加速AI技术在业务中部署的合作框架。",
+      "category": "行业",
       "tags": [
-        "Agent",
-        "算力"
+        "阿里"
       ],
-      "url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world",
-      "source": "NVIDIA Blog：Agentic AI（网页）",
+      "url": "https://x.com/alibaba_cloud/status/2062006591377829922",
+      "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
       "image": null,
-      "time": "2026-06-02T02:00:40.000Z",
+      "time": "2026-06-03T03:00:56.000Z",
       "id": 1
     },
     {
-      "title": "NVIDIA Jetson 将 Agentic AI 带入物理世界",
-      "summary": "NVIDIA 发布了 JetPack 7.2 并支持 NemoClaw 框架，使 Jetson 平台具备了 Agentic AI 能力。此次更新包括 Yocto 项目支持、在 Jetson Orin 上支持 CUDA 13、为 Jetson AGX Orin 32GB 模块带来 241 TOPS 的算力提升，并在 Jetson Thor 上支持 Multi-Instance GPU。NemoClaw 作为 NVIDIA 的 Agentic AI 框架，现已可部署在生产级 Jetson 栈上，为机器人、检测和工业自动化等领域提供智能体技能，加速开发部署。",
+      "title": "斯坦福大学法学院研究：人工智能的表现优于法学教授",
+      "summary": "斯坦福大学法学院的一项研究表明，人工智能的表现优于法学教授。该发现引发了广泛关注，在Hacker News平台获得了104个Points。",
       "category": "AI",
       "tags": [
-        "Agent",
-        "算力"
+        "paper"
       ],
-      "url": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world",
-      "source": "NVIDIA Blog：Generative AI（网页）",
+      "url": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "image": null,
-      "time": "2026-06-02T02:00:40.000Z",
+      "time": "2026-06-03T02:33:56.784Z",
       "id": 2
     },
     {
-      "title": "NVIDIA JetPack 7.2支持内存优化的边缘智能体部署",
-      "summary": "NVIDIA JetPack 7.2发布，支持一键部署开源NVIDIA NemoClaw堆栈，该堆栈为OpenClaw添加了隐私与安全控制。同时引入NVIDIA agent skills for Jetson，为Jetson设备提供智能体技能。该版本优化了内存效率，旨在加速AI代理从数字世界向物理环境的边缘部署。",
-      "category": "AI",
-      "tags": [
-        "Agent",
-        "算力"
-      ],
-      "url": "https://developer.nvidia.com/blog/deploy-agentic-ready-ai-at-the-edge-with-memory-efficiency-in-nvidia-jetpack-7-2",
-      "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-      "image": null,
-      "time": "2026-06-02T02:00:00.000Z",
-      "id": 3
-    },
-    {
-      "title": "Anthropic 开发者分享 Claude Code「理解验证」工作流",
-      "summary": "Anthropic 核心开发者分享了一套用于 Claude Code 的「理解验证」工作流。该工作流将 AI 定位为\"高效且睿智的教师\"，成功标准不仅是完成任务，更是确保人类对问题、方案及影响有可复述、可辩护的掌握。它通过增量教学、用户复述、清单+测验等方式，围绕问题域、方案域和语境域三条轴线展开，具体包含8个可执行步骤，强调在进入下一阶段前需确认用户已真正理解。此工作流旨在对抗长会话中人类易沦为\"审批按钮\"的\"智能体黑箱\"问题，强制沉淀决策上下文，实现可审计的深度理解。",
-      "category": "工具",
-      "tags": [
-        "Claude"
-      ],
-      "url": "https://x.com/shao__meng/status/2061612512580346245",
-      "source": "X：邵猛 (@shao__meng)",
-      "image": null,
-      "time": "2026-06-02T00:55:00.000Z",
-      "id": 4
-    },
-    {
-      "title": "Karpathy 分享学习方法论",
-      "summary": "🎯 Andrej Karpathy 谈如何学习。",
-      "category": "工具",
-      "tags": [
-        "tip"
-      ],
-      "url": "https://x.com/rohanpaul_ai/status/2061601689841648120",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "image": null,
-      "time": "2026-06-02T00:12:00.000Z",
-      "id": 5
-    },
-    {
-      "title": "Sam Altman强调AI发展应以人为本",
-      "summary": "Sam Altman在采访中表示，AI不应被设计为追求脱离人类需求的目标，人类必须始终处于AI发展的中心。他批判了行业内\"AI将摧毁大量工作\"等言论，认为人们担忧的并非AI带来的好处，而是自身在未来的角色、经济前景与自主权。他指出，AI行业的失败在于未能清晰解释人类如何在每一步保持对未来的控制权，以及如何在AI时代继续拥有充实、有意义的生活。",
-      "category": "工具",
-      "tags": [
-        "tip"
-      ],
-      "url": "https://x.com/rohanpaul_ai/status/2061586179292831774",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "image": null,
-      "time": "2026-06-01T23:10:22.000Z",
-      "id": 6
-    },
-    {
-      "title": "ChatGPT 新增长文编辑与保存功能",
-      "summary": "长文写作需要更多空间。\n\n现在你可以在全屏模式下编辑更长的文章，并将其保存到你的资料库中，以便稍后继续。",
-      "category": "AI",
+      "title": "Sensor Tower：OpenAI 旗下 ChatGPT 月活已破 10 亿，史上最快",
+      "summary": "据市场情报机构 Sensor Tower 估计，OpenAI 旗下 ChatGPT 全球月活跃用户在 2025 年 5 月突破 10 亿，成为达成此里程碑最快的应用，增速超过 Google Maps、TikTok 等。同期，其竞争对手 Anthropic 的 Claude 月活达 5600 万，同比增幅约 640%，增长势头迅猛。数据显示，部分用户已开始在 Claude 与 ChatGPT 间切换使用。在达成用户里程碑之际，Anthropic 已秘密递交 IPO 申请，OpenAI 也计划筹备上市。",
+      "category": "行业",
       "tags": [
         "OpenAI"
       ],
-      "url": "https://x.com/ChatGPTapp/status/2061571468992126982",
-      "source": "X：ChatGPT (@ChatGPTapp)",
+      "url": "https://www.ithome.com/0/959/083.htm",
+      "source": "IT之家（RSS）",
       "image": null,
-      "time": "2026-06-01T22:11:55.000Z",
+      "time": "2026-06-03T01:31:15.000Z",
+      "id": 3
+    },
+    {
+      "title": "智能体工程实战窍门全录",
+      "summary": "该内容源自@mvanhorn的分享，介绍了\"智能体工程\"如何重塑软件开发。其核心是从\"人主导编码\"转向\"人主导方向、智能体执行\"，中心从IDE变为终端与计划文件。方法论遵循Research → Plan → Work循环，核心是让plan.md约束智能体行为。分享者总结了22条实战技巧，涵盖规划、并行执行、输入方式、远程控制等方面，并列出了完整的工具栈。",
+      "category": "工具",
+      "tags": [
+        "Agent"
+      ],
+      "url": "https://x.com/shao__meng/status/2061974983094755575",
+      "source": "X：邵猛 (@shao__meng)",
+      "image": null,
+      "time": "2026-06-03T00:55:20.000Z",
+      "id": 4
+    },
+    {
+      "title": "NVIDIA 推出 NemoClaw 平台，助力工业软件厂商构建自主 AI 工程师",
+      "summary": "在 COMPUTEX 上，NVIDIA 发布了 NemoClaw 平台，这是一个用于构建专业、长时间运行 AI 智能体的开放蓝图。该平台提供安全运行时、前沿模型支持以及多种编排框架集成选项，可通过 DGX Spark、数据中心或云端部署。其核心开源运行时 OpenShell 实施基于策略的安全管控，规范智能体对文件、网络和工具的访问。Cadence、达索系统、西门子、Synopsys 等十多家工业软件厂商正基于 NemoClaw 构建用于 CAE 和 EDA 工作流的自主 AI 工程师，旨在将原本需数周的仿真与设计任务压缩至数小时。",
+      "category": "AI",
+      "tags": [
+        "算力"
+      ],
+      "url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw",
+      "source": "NVIDIA Blog：Agentic AI（网页）",
+      "image": null,
+      "time": "2026-06-02T22:00:58.000Z",
+      "id": 5
+    },
+    {
+      "title": "微软研究：Aurora天气预报速度超传统超算数千倍",
+      "summary": "天气预报速度比传统超级计算机快数千倍。听听Kenji Takeda在#MSBuild微软研究实验室关于Aurora的分享。了解更多：https：//msft.it/6018vjGUA",
+      "category": "AI",
+      "tags": [
+        "paper"
+      ],
+      "url": "https://x.com/MSFTResearch/status/2061927189977727450",
+      "source": "X：Microsoft Research (@MSFTResearch)",
+      "image": null,
+      "time": "2026-06-02T21:45:25.000Z",
+      "id": 6
+    },
+    {
+      "title": "Anthropic支持美国AI行政令实施",
+      "summary": "这项行政令是加强美国AI领导地位的重要一步。\n\n我们期待与白宫合作，支持其实施。\n\nhttps：//www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+      "category": "行业",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://x.com/AnthropicAI/status/2061924580222968183",
+      "source": "X：Anthropic (@AnthropicAI)",
+      "image": null,
+      "time": "2026-06-02T21:35:03.000Z",
       "id": 7
     },
     {
-      "title": "Krea AI 开放 Krea 2 LoRAs 全员使用",
-      "summary": "Krea 2 LoRAs 现已向所有人开放。\n试试下面这个 👇",
+      "title": "Google DeepMind 开源科学智能体工具包",
+      "summary": "构建用于科学发现的自主智能体？🧬🤖\n\n@GoogleDeepMind Science Skills 现已在 GitHub 上发布。我们已开源这个专用工具包，以科学基础和更高的 token 效率加速您的智能体工作流。\n\n立即下载 ↓\nhttps：//github.com/google-deepmind/science-skills",
       "category": "AI",
       "tags": [
-        "ai-products"
+        "Gemini",
+        "开源",
+        "Agent"
       ],
-      "url": "https://x.com/krea_ai/status/2061554472925696128",
-      "source": "X：Krea AI (@krea_ai)",
+      "url": "https://x.com/googleaidevs/status/2061924472245153863",
+      "source": "X：Google AI for Developers (@googleaidevs)",
       "image": null,
-      "time": "2026-06-01T21:04:22.000Z",
+      "time": "2026-06-02T21:34:37.000Z",
       "id": 8
     },
     {
-      "title": "Alphabet将通过发行股票筹集800亿美元用于AI支出计划",
-      "summary": "Alphabet正在通过发行股票等方式筹集800亿美元资金，其中包括与Berkshire Hathaway的投资协议，以资助其雄心勃勃的AI支出计划。",
-      "category": "行业",
+      "title": "Claude Code 新增动态工作流功能",
+      "summary": "Claude Code 新增动态工作流功能，允许模型在运行时即兴创建和协调多智能体框架来处理复杂任务。该功能通过执行特定的 JavaScript 文件来生成和协调拥有独立上下文窗口的子代理，可解决单一上下文窗口中长时间执行任务可能出现的智能惰性等问题。工作流适用于研究、安全分析、代码审查等场景，通常消耗更多 token，更适合高价值复杂任务，其最佳实践仍在发展中。",
+      "category": "AI",
       "tags": [
-        "industry"
+        "Claude"
       ],
-      "url": "https://www.bloomberg.com/news/articles/2026-06-01/alphabet-to-raise-80-billion-in-equity-capital-for-ai-spending",
-      "source": "Bloomberg：Technology（RSS）",
+      "url": "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code",
+      "source": "Claude：Blog（网页）",
       "image": null,
-      "time": "2026-06-01T20:50:33.000Z",
+      "time": "2026-06-02T21:16:49.491Z",
       "id": 9
     },
     {
-      "title": "Replit 用单个提示词构建完整业务",
-      "summary": "你能用单个提示词免费构建一个真实的业务吗？\n\n从今天起，在 Replit 上，答案是肯定的。\n\n从一个提示词开始，获得一个网站、移动应用、幻灯片和发布视频。\n此外，还能解锁使用 @stripe @atlas， @QuickBooks， @mercury & @doolaHQ 运营业务的福利。",
+      "title": "NVIDIA DGX Station 开始交付开发者和研究人员",
+      "summary": "NVIDIA DGX Station 系统正开始送达开发者和研究人员的办公桌。📦\n\n企业团队可以本地部署数据中心级性能，搭载 GB300 的系统正从华硕、戴尔、技嘉、惠普、微星和超微等合作伙伴处发货。\n\n👉 阅读博客：https：//nvda.ws/4x3VdBr",
       "category": "AI",
       "tags": [
-        "ai-products"
+        "算力"
       ],
-      "url": "https://x.com/Replit/status/2061534759520760112",
-      "source": "X：Replit (@Replit)",
+      "url": "https://x.com/nvidia/status/2061904438478970985",
+      "source": "X：NVIDIA (@nvidia)",
       "image": null,
-      "time": "2026-06-01T19:46:02.000Z",
+      "time": "2026-06-02T20:15:01.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "pewdiepie-archdaemon/odysseus",
-      "description": "自托管AI工作空间，类似ChatGPT和Claude体验，更丰富有趣。",
+      "description": "自托管AI工作空间，本地优先，隐私优先，支持Chat功能。",
       "language": "JavaScript",
-      "stars": 21931,
-      "starsToday": 12869,
-      "forks": 2690,
+      "stars": 34344,
+      "starsToday": 12413,
+      "forks": 4103,
       "url": "https://github.com/pewdiepie-archdaemon/odysseus",
       "rank": 1
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言支持的JavaScript库。",
-      "language": "JavaScript",
-      "stars": 202402,
-      "starsToday": 1572,
-      "forks": 31050,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "ultraworkers/claw-code",
+      "description": "Rust实现CLI代理工具，官方版。",
+      "language": "Rust",
+      "stars": 193178,
+      "starsToday": 3066,
+      "forks": 109988,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 2
     },
     {
-      "name": "GordenSun/GordenPPTSkill",
-      "description": "生成高端PPT，适合国企和互联网公司。",
-      "language": "Python",
-      "stars": 1458,
-      "starsToday": 425,
-      "forks": 131,
-      "url": "https://github.com/GordenSun/GordenPPTSkill",
+      "name": "affaan-m/ECC",
+      "description": "多语言支持，语言学习资源。",
+      "language": "JavaScript",
+      "stars": 204254,
+      "starsToday": 1852,
+      "forks": 31330,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 3
     },
     {
-      "name": "op7418/guizang-social-card-skill",
-      "description": "适配Claude Code的图文卡片技能，生成小红书图文和公众号封面对。",
-      "language": "HTML",
-      "stars": 2453,
-      "starsToday": 313,
-      "forks": 245,
-      "url": "https://github.com/op7418/guizang-social-card-skill",
+      "name": "Gloridust/WechatOnCloud",
+      "description": "NAS/服务器上运行微信，多端共享会话。",
+      "language": "TypeScript",
+      "stars": 1568,
+      "starsToday": 392,
+      "forks": 448,
+      "url": "https://github.com/Gloridust/WechatOnCloud",
       "rank": 4
     },
     {
       "name": "public-apis/public-apis",
-      "description": "免费公共API库，社区维护。",
+      "description": "免费公共API资源库，社区管理。",
       "language": "Python",
-      "stars": 438531,
-      "starsToday": 264,
-      "forks": 48058,
+      "stars": 438919,
+      "starsToday": 388,
+      "forks": 48102,
       "url": "https://github.com/public-apis/public-apis",
       "rank": 5
     },
     {
       "name": "openclaw/openclaw",
-      "description": "个人AI助手，跨平台语音交互。",
+      "description": "个人AI助手，多平台语音交互。",
       "language": "TypeScript",
-      "stars": 376100,
-      "starsToday": 189,
-      "forks": 78551,
+      "stars": 376332,
+      "starsToday": 232,
+      "forks": 78624,
       "url": "https://github.com/openclaw/openclaw",
       "rank": 6
     },
     {
       "name": "Sophomoresty/gemini-web2api",
-      "description": "将Google Gemini转换为OpenAI兼容API。",
+      "description": "将Google Gemini转换为OpenAI API。",
       "language": "Python",
-      "stars": 1105,
-      "starsToday": 172,
-      "forks": 289,
+      "stars": 1273,
+      "starsToday": 168,
+      "forks": 332,
       "url": "https://github.com/Sophomoresty/gemini-web2api",
       "rank": 7
     },
     {
-      "name": "helloianneo/ian-xiaohei-illustrations",
-      "description": "生成中文文章配图，理解认知锚点。",
-      "language": "Unknown",
-      "stars": 1650,
-      "starsToday": 171,
-      "forks": 148,
-      "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
+      "name": "op7418/guizang-social-card-skill",
+      "description": "图文卡片技能，适配Claude Code等。",
+      "language": "HTML",
+      "stars": 2618,
+      "starsToday": 165,
+      "forks": 254,
+      "url": "https://github.com/op7418/guizang-social-card-skill",
       "rank": 8
     },
     {
-      "name": "ollama/ollama",
-      "description": "基于开源模型的构建平台。",
-      "language": "Go",
-      "stars": 172876,
-      "starsToday": 161,
-      "forks": 16396,
-      "url": "https://github.com/ollama/ollama",
+      "name": "GordenSun/GordenPPTSkill",
+      "description": "生成信息密度高、排版复杂的PPT。",
+      "language": "Python",
+      "stars": 1572,
+      "starsToday": 114,
+      "forks": 143,
+      "url": "https://github.com/GordenSun/GordenPPTSkill",
       "rank": 9
     },
     {
-      "name": "Significant-Gravitas/AutoGPT",
-      "description": "构建、部署和运行AI代理。",
-      "language": "Python",
-      "stars": 184707,
-      "starsToday": 157,
-      "forks": 46198,
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "name": "helloianneo/ian-xiaohei-illustrations",
+      "description": "AI生成中文文章配图，理解认知锚点。",
+      "language": "Unknown",
+      "stars": 1762,
+      "starsToday": 112,
+      "forks": 162,
+      "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-06-02",
-    "updatedAt": "2026-06-02T03:56:40.889Z",
+    "date": "2026-06-03",
+    "updatedAt": "2026-06-03T04:04:04.431Z",
     "highlights": [
-      "NVIDIA Jetson 引入 Agentic AI，JetPack 7.2 支持边缘智能体部署",
-      "Anthropic 分享 Claude Code 工作流，ChatGPT 新增长文编辑功能",
-      "Alphabet 投资 800 亿美元用于 AI，Replit 用 AI 构建业务",
-      "GitHub 上热门项目涵盖 AI 工作空间、多语言库、个人 AI 助手等"
+      "宏利香港与阿里云AI战略合作，斯坦福研究AI超越法学教授，ChatGPT月活破10亿，NVIDIA推出NemoClaw平台，微软Aurora天气预报速度超传统超算。",
+      "Google DeepMind开源科学智能体工具包，Claude Code新增动态工作流功能，NVIDIA DGX Station开始交付。",
+      "GitHub热门项目涵盖自托管AI工作空间、CLI代理工具、语言学习资源、微信多端共享、免费公共API资源库等。",
+      "个人AI助手、Google Gemini转换OpenAI API、图文卡片技能、AI生成文章配图等多个领域技术趋势明显。",
+      "行业巨头和学术机构共同推动AI技术快速发展，开源社区活跃，技术创新和应用落地加速。"
     ],
     "keywords": [
-      "NVIDIA Jetson",
-      "Agentic AI",
-      "JetPack 7.2",
-      "Anthropic",
-      "Claude Code",
+      "AI战略合作",
+      "AI超越法学教授",
       "ChatGPT",
-      "Alphabet",
-      "Replit",
-      "GitHub",
-      "AI 工作空间",
-      "多语言库",
-      "个人 AI 助手"
+      "NemoClaw平台",
+      "Aurora天气预报",
+      "Google DeepMind",
+      "Claude Code",
+      "NVIDIA DGX Station"
     ],
-    "trendingSummary": "今日技术资讯聚焦于 AI 技术在边缘计算和智能体领域的应用，同时工具类 AI 产品和平台发展迅速，Alphabet 的巨额 AI 投资预示着行业发展趋势。GitHub 热门项目展示了 AI 技术的多样性和创新性。"
+    "trendingSummary": "今日AI领域热点不断，行业巨头合作、AI应用突破、开源社区活跃，预示着AI技术快速发展，应用落地加速。"
   }
 }
