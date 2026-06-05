@@ -1,259 +1,266 @@
 {
-  "date": "2026-06-04",
-  "updatedAt": "2026-06-04T03:58:04.708Z",
+  "date": "2026-06-05",
+  "updatedAt": "2026-06-05T03:42:15.884Z",
   "techNews": [
     {
-      "title": "Cloudflare Radar：机器人流量首次超过人类占比57.5%",
-      "summary": "Cloudflare Radar 实时统计显示，过去一周（5月28日至6月4日）全球所有 HTML 网页请求流量中，57.5% 来自机器人（爬虫、AI 抓取、自动化脚本），仅42.5%来自真人浏览器，机器人流量首次超过人类。按所有 HTTP 流量返回内容分类，JSON（API 机器通信）占33.1%居首，HTML 仅12%。互联网流量主体已从人类浏览网页转向机器间通信和机器人抓取。",
+      "title": "腾讯高级执行副总裁汤道生：今年腾讯大部分代码都由 AI 生成",
+      "summary": "在 6 月 5 日的腾讯云 AI 产业应用大会上，腾讯高级执行副总裁汤道生表示，今年腾讯大部分代码都由 AI 生成，工程师将更多时间用于架构设计，定期指导与修正 AI 输出。腾讯 2026 年 Q1 财报显示，重组后的 AI 研发团队重构了基础设施，并搭建了 Hy3 preview 模型。腾讯总裁刘炽平今年 3 月透露，去年腾讯在 AI 新产品上投入 180 亿元，今年投入至少翻倍。",
       "category": "行业",
       "tags": [
-        "机器人"
+        "腾讯",
+        "编程"
       ],
-      "url": "https://x.com/xiaohu/status/2062367357868355622",
-      "source": "X：小互 (@xiaohu)",
+      "url": "https://www.ithome.com/0/960/323.htm",
+      "source": "IT之家（RSS）",
       "image": null,
-      "time": "2026-06-04T02:54:29.000Z",
+      "time": "2026-06-05T03:04:23.000Z",
       "id": 1
     },
     {
-      "title": "NVIDIA PPISP：补偿光度变化提升3D重建",
-      "summary": "辐射场的质量取决于其背后的图像。\n\nPPISP 可帮助补偿不同拍摄之间的光度变化，使 3D 重建在光照和相机设置不完全一致时更加鲁棒。\n\n🔗 项目：https：//nvda.ws/43JeJpk",
-      "category": "AI",
+      "title": "Anthropic 称其最新 AI 模型 Mythos 显现脱离人类控制迹象，呼吁全球暂缓先进 AI 研发",
+      "summary": "Anthropic 发布报告称其最新 AI 模型已显现脱离人类控制迹象，呼吁全球暂缓前沿 AI 开发，以便社会制度建设和对齐研究跟上进展。该公司主张美国、中国等主要 AI 公司达成共识，发布可验证的规则，并类比\"核武器不扩散条约\"，但指出 AI 更难监管。该观点引发美国白宫部分官员不满，批评其夸大风险。Anthropic 计划未来数月召集各方探讨全球协调机制如何运作。",
+      "category": "行业",
       "tags": [
-        "算力"
+        "Claude"
       ],
-      "url": "https://x.com/NVIDIAAI/status/2062358080222876041",
-      "source": "X：NVIDIA AI (@NVIDIAAI)",
+      "url": "https://www.ithome.com/0/960/218.htm",
+      "source": "IT之家（RSS）",
       "image": null,
-      "time": "2026-06-04T02:17:37.000Z",
+      "time": "2026-06-05T01:16:34.000Z",
       "id": 2
     },
     {
-      "title": "联合国报告：2030年AI数据中心水电消耗将翻倍",
-      "summary": "联合国大学水、环境与健康研究所报告指出，受AI需求驱动，去年全球数据中心耗电448太瓦时（AI占五分之一），耗水4.5万亿升，碳排放1.89亿吨。预计到2030年，年耗电量将翻倍至945太瓦时（AI占40%），耗水增至9.3万亿升，碳排放升至3.99亿吨，占地面积从6900平方公里扩展至14500平方公里。报告警告若忽视环境成本，AI落地还将加剧土地紧张与电子废弃物问题。",
+      "title": "马斯克谈SpaceX上市：正处大规模资本扩张期",
+      "summary": "马斯克在JPMorgan活动上回应SpaceX上市问题：他已被建议上市近10年，自2014-2015年起SpaceX就已实现正现金流并自筹资金，之前的私募轮次实际是面向投资者和员工的流动性/回购轮次。当前不同之处在于SpaceX正进入显著资本增长阶段，计划发射约10万颗通信卫星（可能超10万颗），AI和机器人对带宽需求巨大，还将在太空中建设AI数据中心，马斯克认为这将成为AI扩张的主要手段。",
+      "category": "工具",
+      "tags": [
+        "tip"
+      ],
+      "url": "https://x.com/cb_doge/status/2062681226633523250",
+      "source": "X：cb_doge (@cb_doge)",
+      "image": null,
+      "time": "2026-06-04T23:41:41.000Z",
+      "id": 3
+    },
+    {
+      "title": "NotebookLM 来源归属功能上线",
+      "summary": "今天，我们推出又一项呼声很高的功能：来源归属！🥳\n\n无需再猜测。现在你可以看到每个创作物背后所用的确切公式（提示词 + 来源）。想要调整？只需轻点\"迭代\"，随心定制 💖",
+      "category": "AI",
+      "tags": [
+        "ai-products"
+      ],
+      "url": "https://x.com/NotebookLM/status/2062653124326863077",
+      "source": "X：NotebookLM (@NotebookLM)",
+      "image": null,
+      "time": "2026-06-04T21:50:01.000Z",
+      "id": 4
+    },
+    {
+      "title": "Gemini macOS 双击 Command 附加活动窗口",
+      "summary": "使用适用于 macOS 的 Gemini 应用，获取针对屏幕内容的定制帮助。💻\n\n只需同时按下两个 Command ⌘ 键，即可将当前活动窗口无缝附加到聊天中，无需手动截图或切换标签页。",
+      "category": "AI",
+      "tags": [
+        "Gemini"
+      ],
+      "url": "https://x.com/GeminiApp/status/2062652523945836770",
+      "source": "X：Gemini (@GeminiApp)",
+      "image": null,
+      "time": "2026-06-04T21:47:38.000Z",
+      "id": 5
+    },
+    {
+      "title": "Anthropic 开源 AI 驱动漏洞发现框架",
+      "summary": "Anthropic 将其用于 AI 驱动漏洞发现的开源框架代码托管在 GitHub 上。该框架借助 AI 技术进行漏洞发现，旨在帮助识别软件中的安全缺陷。",
+      "category": "AI",
+      "tags": [
+        "Claude",
+        "开源",
+        "安全"
+      ],
+      "url": "https://github.com/anthropics/defending-code-reference-harness",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "image": null,
+      "time": "2026-06-04T21:32:05.585Z",
+      "id": 6
+    },
+    {
+      "title": "Nemotron Parakeet ASR 印尼语准确率达 97.7%",
+      "summary": "当法律和监督依赖于转录内容时，70-80% 是不够的。\n\nhttp：//Rafiqspace.ai 通过微调 Nemotron Parakeet ASR 达到了 97.7% 的印尼语准确率（2.3% WER）-- 优于全球工具，同时每小时成本降低高达 90%。⚖️",
       "category": "行业",
       "tags": [
         "industry"
       ],
-      "url": "https://www.ithome.com/0/959/607.htm",
-      "source": "IT之家（RSS）",
+      "url": "https://x.com/nvidia/status/2062647600424128773",
+      "source": "X：NVIDIA (@nvidia)",
       "image": null,
-      "time": "2026-06-04T00:50:46.000Z",
-      "id": 3
-    },
-    {
-      "title": "Grok模型登陆Cloudflare AI Gateway",
-      "summary": "在 @Cloudflare 的 AI Gateway 上尝试 Grok 模型！",
-      "category": "AI",
-      "tags": [
-        "ai-products"
-      ],
-      "url": "https://x.com/xai/status/2062294202625696081",
-      "source": "X：xAI (@xai)",
-      "image": null,
-      "time": "2026-06-03T22:03:48.000Z",
-      "id": 4
-    },
-    {
-      "title": "OpenClaw 2026.6.1发布：新增Windows节点与技能工坊",
-      "summary": "OpenClaw 2026.6.1 已上线 🦞\n\n🪟 原生 Windows 节点主机\n🛠️ 用于自主学习型智能体的技能工坊（Skill Workshop）\n📋 工作板（Workboard）编排\n🧠 支持 MiniMax M3\n\nWindows 加入集群。无需企鹅服。\nhttps：//github.com/openclaw/openclaw/releases/tag/v2026.6.1",
-      "category": "AI",
-      "tags": [
-        "ai-products"
-      ],
-      "url": "https://x.com/openclaw/status/2062288421406785710",
-      "source": "X：OpenClaw (@openclaw)",
-      "image": null,
-      "time": "2026-06-03T21:40:49.000Z",
-      "id": 5
-    },
-    {
-      "title": "优步每月 1，500 美元的 AI 使用上限为 AI 工具定价提供参考",
-      "summary": "优步将 AI 工具每月使用上限定为 1500 美元，这一做法为行业 AI 工具定价提供了有价值的参考信号。",
-      "category": "工具",
-      "tags": [
-        "tip"
-      ],
-      "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "image": null,
-      "time": "2026-06-03T19:00:08.294Z",
-      "id": 6
-    },
-    {
-      "title": "世界模型的功能分类",
-      "summary": "World Labs团队与李飞飞发文，梳理\"世界模型\"这一被滥用的术语。对比语言模型学习文本统计，世界模型学习空间与时间统计（如光照、物理规律）。基于部分可观马尔可夫决策过程（POMDP）框架，智能体通过动作影响世界状态，观测是部分视图。当前被称为\"世界模型\"的不同系统本质上是同一循环的不同投影：第一类为渲染器，输出给人眼看的像素，以视觉保真度为核心。文章着重于概念分层，未给出具体模型名、参数或基准分数。",
-      "category": "工具",
-      "tags": [
-        "tip"
-      ],
-      "url": "https://x.com/drfeifei/status/2062247238143996275",
-      "source": "X：Fei-Fei Li (@drfeifei, World Labs)",
-      "image": null,
-      "time": "2026-06-03T18:57:10.000Z",
+      "time": "2026-06-04T21:28:04.000Z",
       "id": 7
     },
     {
-      "title": "洪水韧性新篇章：Google 开源水文建模框架",
-      "summary": "Google Research 在 GitHub 开源了其水文建模框架，这是一个基于 PyTorch 的 Python 包，采用与 Flood Hub 河段洪水预报相同的模型架构和训练数据。该框架允许研究者和预报员训练 AI 洪水预报模型、添加新模型与数据，并已与捷克水文气象研究所（CHMI）等合作测试。开放模型架构和训练管线旨在让各国气象水文部门在保留数据完全控制权的同时，整合基于 AI 的洪水预报。",
+      "title": "共存与协同智能的终结",
+      "summary": "Ethan Mollick 在 One Useful Thing 博客中，以\"共存与协同智能的终结\"为题，并附带介绍了如何向 AI 推销一本书。",
       "category": "工具",
       "tags": [
-        "Gemini",
-        "开源"
+        "tip"
       ],
-      "url": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework",
-      "source": "Google Research：Blog（网页）",
+      "url": "https://www.oneusefulthing.org/p/co-existence-and-the-end-of-co-intelligence",
+      "source": "Ethan Mollick：One Useful Thing（RSS）",
       "image": null,
-      "time": "2026-06-03T18:49:39.703Z",
+      "time": "2026-06-04T21:13:42.000Z",
       "id": 8
     },
     {
-      "title": "黄仁勋与纳德拉共议智能体AI时代",
-      "summary": "智能体AI时代来了。\n\n从台北，黄仁勋与@satyanadella共同出席#MSBuild，展示NVIDIA与@Microsoft如何携手构建，从Windows设备到规模化AI工厂。\n\n▶️ 观看对话：https：//nvda.ws/4uefQbs",
+      "title": "Google Research 发布被动心率监测系统 PHRM",
+      "summary": "Google Research 开发了一种被动心率监测系统（PHRM），利用智能手机前置摄像头在日常使用中（人脸解锁后数秒内）捕捉面部视频，通过深度学习估算心率，平均绝对百分比误差（MAPE）低于10%（对比心电图金标准），满足各肤色人群的行业精度标准。系统将全天心率测量整合为每日静息心率（RHR），平均绝对误差（MAE）低于5 bpm（对比可穿戴设备）。研究同时发布了迄今最大规模的公开智能手机视频数据集及预训练模型PHRM-mini，合格研究人员可申请访问。",
       "category": "AI",
       "tags": [
-        "Agent"
+        "Gemini"
       ],
-      "url": "https://x.com/nvidia/status/2062228974273716457",
-      "source": "X：NVIDIA (@nvidia)",
+      "url": "https://research.google/blog/towards-passive-heart-health-monitoring-via-smartphone-camera",
+      "source": "Google Research：Blog（网页）",
       "image": null,
-      "time": "2026-06-03T17:44:36.000Z",
+      "time": "2026-06-04T20:25:28.688Z",
       "id": 9
     },
     {
-      "title": "Ideogram v4.0 发布：2K 分辨率和 JSON 提示支持",
-      "summary": "介绍 Ideogram v4.0。\n\n原生 2K 分辨率，出色的文字渲染，支持 JSON 提示词。\n\n立即在 Krea 中体验。",
+      "title": "OpenAI API 新增内容审核评分",
+      "summary": "Moderation scores 现已在 Responses API 和 Completions API 中可用。\n\n在与生成相同的请求流程中返回审核信号，然后由你的应用决定如何使用它们进行记录、路由、审核或拦截。\n\nhttps：//developers.openai.com/api/docs/guides/moderation",
       "category": "AI",
       "tags": [
-        "ai-models"
+        "OpenAI",
+        "API"
       ],
-      "url": "https://x.com/krea_ai/status/2062227837130887567",
-      "source": "X：Krea AI (@krea_ai)",
+      "url": "https://x.com/OpenAIDevs/status/2062619558440267801",
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
       "image": null,
-      "time": "2026-06-03T17:40:05.000Z",
+      "time": "2026-06-04T19:36:39.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "pewdiepie-archdaemon/odysseus",
-      "description": "自托管AI工作空间，本地优先，隐私优先，支持Chat和vLLM模型。",
-      "language": "JavaScript",
-      "stars": 44655,
-      "starsToday": 10311,
-      "forks": 5171,
+      "description": "自托管AI工作空间，本地优先，隐私优先，支持ChatGPT和Claude体验。",
+      "language": "Python",
+      "stars": 51716,
+      "starsToday": 7061,
+      "forks": 6036,
       "url": "https://github.com/pewdiepie-archdaemon/odysseus",
       "rank": 1
+    },
+    {
+      "name": "ultraworkers/claw-code",
+      "description": "Rust实现的CLI代理工具，官方实现。",
+      "language": "Rust",
+      "stars": 193281,
+      "starsToday": 2974,
+      "forks": 109978,
+      "url": "https://github.com/ultraworkers/claw-code",
+      "rank": 2
     },
     {
       "name": "affaan-m/ECC",
       "description": "多语言支持的JavaScript项目。",
       "language": "JavaScript",
-      "stars": 205978,
-      "starsToday": 1724,
-      "forks": 31631,
+      "stars": 207413,
+      "starsToday": 1435,
+      "forks": 31836,
       "url": "https://github.com/affaan-m/ECC",
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "name": "zgwl/chinese-buy-us-stock-guide",
+      "description": "美股投资科普指南，不构成投资建议。",
+      "language": "Unknown",
+      "stars": 2836,
+      "starsToday": 1422,
+      "forks": 439,
+      "url": "https://github.com/zgwl/chinese-buy-us-stock-guide",
+      "rank": 4
+    },
+    {
+      "name": "cpaczek/skylight",
+      "description": "实时投影飞机，X光屋顶体验。",
+      "language": "TypeScript",
+      "stars": 1241,
+      "starsToday": 621,
+      "forks": 83,
+      "url": "https://github.com/cpaczek/skylight",
+      "rank": 5
     },
     {
       "name": "b-nnett/goose",
       "description": "WHOOP 5.0本地伴侣，开发者评估版本。",
       "language": "Rust",
-      "stars": 1485,
-      "starsToday": 1485,
-      "forks": 420,
+      "stars": 1904,
+      "starsToday": 419,
+      "forks": 467,
       "url": "https://github.com/b-nnett/goose",
-      "rank": 3
-    },
-    {
-      "name": "asz798838958/aBaiAutoplus",
-      "description": "多平台AI账号自动注册与管理，支持ChatGPT Plus。",
-      "language": "Python",
-      "stars": 1411,
-      "starsToday": 470,
-      "forks": 664,
-      "url": "https://github.com/asz798838958/aBaiAutoplus",
-      "rank": 4
-    },
-    {
-      "name": "Gloridust/WechatOnCloud",
-      "description": "在NAS/服务器上运行服务端微信，多端共享会话。",
-      "language": "TypeScript",
-      "stars": 1966,
-      "starsToday": 398,
-      "forks": 540,
-      "url": "https://github.com/Gloridust/WechatOnCloud",
-      "rank": 5
-    },
-    {
-      "name": "zgwl/chinese-buy-us-stock-guide",
-      "description": "中国大陆投资者美股科普指南。",
-      "language": "Unknown",
-      "stars": 1414,
-      "starsToday": 354,
-      "forks": 219,
-      "url": "https://github.com/zgwl/chinese-buy-us-stock-guide",
       "rank": 6
     },
     {
       "name": "openclaw/openclaw",
       "description": "个人AI助手，跨平台语音交互。",
       "language": "TypeScript",
-      "stars": 376634,
-      "starsToday": 302,
-      "forks": 78696,
+      "stars": 376899,
+      "starsToday": 265,
+      "forks": 78755,
       "url": "https://github.com/openclaw/openclaw",
       "rank": 7
     },
     {
       "name": "public-apis/public-apis",
-      "description": "免费公共API资源库。",
+      "description": "免费公共API库，社区维护。",
       "language": "Python",
-      "stars": 439170,
-      "starsToday": 251,
-      "forks": 48130,
+      "stars": 439415,
+      "starsToday": 245,
+      "forks": 48152,
       "url": "https://github.com/public-apis/public-apis",
       "rank": 8
     },
     {
-      "name": "ollama/ollama",
-      "description": "使用开源模型开始构建。",
-      "language": "Go",
-      "stars": 173094,
-      "starsToday": 161,
-      "forks": 16421,
-      "url": "https://github.com/ollama/ollama",
+      "name": "sindresorhus/awesome",
+      "description": "开源项目支持，快速容器构建。",
+      "language": "Unknown",
+      "stars": 472996,
+      "starsToday": 109,
+      "forks": 35310,
+      "url": "https://github.com/sindresorhus/awesome",
       "rank": 9
     },
     {
-      "name": "Significant-Gravitas/AutoGPT",
-      "description": "构建、部署和运行AI代理。",
-      "language": "Python",
-      "stars": 184738,
-      "starsToday": 157,
-      "forks": 46184,
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "name": "freeCodeCamp/freeCodeCamp",
+      "description": "免费编程学习平台，助你转行科技。",
+      "language": "TypeScript",
+      "stars": 446095,
+      "starsToday": 107,
+      "forks": 44836,
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-06-04",
-    "updatedAt": "2026-06-04T03:58:04.708Z",
+    "date": "2026-06-05",
+    "updatedAt": "2026-06-05T03:42:15.884Z",
     "highlights": [
-      "机器人流量占比超57.5%，AI数据中心能耗预测翻倍，Grok模型加入Cloudflare AI Gateway，OpenClaw更新支持Windows，Uber AI使用限制提供定价参考，Google开源水文建模框架，黄仁勋与纳德拉讨论智能体AI时代，Ideogram更新支持2K分辨率和JSON提示"
+      "AI代码生成普及",
+      "AI伦理与控制问题",
+      "SpaceX资本扩张",
+      "AI辅助工具发展",
+      "开源项目活跃"
     ],
     "keywords": [
-      "机器人流量",
-      "AI数据中心",
-      "Grok模型",
-      "OpenClaw",
-      "Uber",
-      "Google开源",
-      "水文建模框架",
-      "黄仁勋",
-      "纳德拉",
-      "Ideogram"
+      "AI代码生成",
+      "AI伦理",
+      "SpaceX",
+      "AI工具",
+      "开源项目",
+      "Anthropic",
+      "Mythos",
+      "Nemotron Parakeet",
+      "PHRM",
+      "OpenAI API"
     ],
-    "trendingSummary": "机器人流量占比显著，AI数据中心能耗问题突出，Grok模型增强AI能力，OpenClaw更新提升用户体验，Uber限制AI使用推动定价讨论，Google开源项目助力水文建模，行业领袖探讨智能体AI未来，Ideogram更新支持更高分辨率和JSON提示功能。"
+    "trendingSummary": "今日技术趋势显示，AI在代码生成、伦理控制和资本扩张方面成为焦点，同时AI辅助工具和开源项目活跃发展。"
   }
 }
