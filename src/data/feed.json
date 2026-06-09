@@ -1,281 +1,282 @@
 {
-  "date": "2026-06-08",
-  "updatedAt": "2026-06-08T03:58:45.180Z",
+  "date": "2026-06-09",
+  "updatedAt": "2026-06-09T03:28:31.557Z",
   "techNews": [
     {
-      "title": "Nvidia 与 SK Hynix 签署多年协议，共同开发下一代 AI 存储芯片",
-      "summary": "Nvidia 与 SK Hynix 达成合作，将共同设计面向 AI 应用的未来几代存储芯片。此举巩固了 SK Hynix 在高端半导体领域的领先地位。",
+      "title": "OpenAI 秘密提交 IPO 申请，奥特曼旗下 Tools for Humanity 裁员",
+      "summary": "OpenAI 近日秘密提交 IPO 申请。其 CEO 山姆·奥特曼旗下的 Tools for Humanity 公司正裁员，该公司因虹膜扫描项目 World 及加密货币 Worldcoin 知名，投后估值 25 亿美元，获 Andreessen Horowitz 等投资。因营收困境，公司缩减规模。海外监管方面，肯尼亚以隐私和金融风险为由叫停运营，韩国因违反隐私法规罚款 83 万美元。",
       "category": "行业",
       "tags": [
-        "算力"
+        "OpenAI"
       ],
-      "url": "https://www.bloomberg.com/news/articles/2026-06-07/nvidia-sk-hynix-sign-multi-year-pact-to-develop-next-gen-chips",
-      "source": "Bloomberg：Technology（RSS）",
+      "url": "https://www.ithome.com/0/961/792.htm",
+      "source": "IT之家（RSS）",
       "image": null,
-      "time": "2026-06-07T23:26:02.000Z",
+      "time": "2026-06-09T02:19:48.000Z",
       "id": 1
     },
     {
-      "title": "英伟达与斗山集团合作推进物理AI及AI工厂基础设施",
-      "summary": "英伟达与斗山集团扩大合作，覆盖斗山机器人、斗山山猫、斗山能源及斗山电子材料四大板块。斗山机器人将集成英伟达Isaac Sim、Isaac Lab、Cosmos世界基础模型、Newton物理引擎及Jetson Thor，推进Agentic Robot OS，探索卸垛、打磨等参考用例及双臂/人形机器人。斗山山猫计划将物理AI技术用于建筑、园林、农业设备，加速开发专用世界模型。斗山能源评估通过燃气轮机、汽轮机、小型模块化反应堆及氢燃料电池为AI工厂供电。斗山电子材料为英伟达MGX生态系统供应高性能铜箔基板（CCL），用于AI服务器PCB。",
+      "title": "Elon Musk 详解 SpaceX AI1 轨道 AI 数据中心卫星方案",
+      "summary": "Elon Musk 首次详细解释 SpaceX 的 AI1 轨道 AI 数据中心卫星：峰值功率 150 kW，持续计算功率约 120 kW，相当于一个 NVIDIA GB300 机架；太阳能板效率 250 W/m2；双面散热器排热 1，400 W/m2。通过激光链路实现约 1 Tbps 互联，低轨 600-800 km 高度往返延迟 6-8 ms。由 Starship 发射，计划部署多达百万颗卫星，2027 年底前实现量产。近地目标为吉瓦级轨道 AI 算力，长期向太瓦级推进。",
       "category": "行业",
       "tags": [
         "industry"
       ],
-      "url": "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai",
-      "source": "NVIDIA AI Blog",
+      "url": "https://x.com/rohanpaul_ai/status/2064165951936094364",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
       "image": null,
-      "time": "2026-06-07T23:00:36.000Z",
+      "time": "2026-06-09T02:01:27.000Z",
       "id": 2
     },
     {
-      "title": "ChatGPT 要变 AgentGPT 了",
-      "summary": "OpenAI 正筹备 ChatGPT 自 2022 年上线以来最大规模改版，从聊天机器人转向超级应用/Agent 平台，整合编程工具 Codex、图像生成及第三方应用（Canva、Booking）。高管称\"聊天已死\"，目标成为跨平台个人 AI 助手，未来甚至省去用户输入提示词。改版预计未来几周在网页和手机端上线。商业压力：ChatGPT 有 9 亿周活用户、5000 万付费用户、月收入 20 亿美元但未盈利；企业客户贡献约 40% 收入，目标年底达 50%；Codex 桌面版周活超 500 万。竞争对手 Anthropic 估值已达 9650 亿美元。OpenAI 刚完成 1220 亿美元融资，估值 8520 亿美元，IPO 目标估值可能超 1 万亿美元。",
-      "category": "行业",
+      "title": "开源工具 Tokei：在菜单栏实时监控 AI coding agent 的 token 用量与成本",
+      "summary": "Berry Xia 推荐开源工具 Tokei，这是一个 macOS 菜单栏小工具，只读本地日志、零网络调用，30 秒自动刷新，实时监控 Claude Code、Grok CLI、Aider、OpenCode 等 8 个主流 AI coding agent 的 token 用量、实时成本与性能数据，并附每日图表、周热力图和年度 Wrapped。支持私人 Git 多设备同步、价格表本地覆盖，闲置过久会提醒休息。引用推文指出，token 消耗情况可作为深度使用 AI 的面试亮点，数据全程私有，零侵入，无需任何认证。",
+      "category": "工具",
       "tags": [
-        "OpenAI",
+        "开源",
         "Agent"
       ],
-      "url": "https://x.com/dotey/status/2063686036895478162",
-      "source": "X：宝玉 (@dotey)",
+      "url": "https://x.com/berryxia/status/2064155452934639718",
+      "source": "X：Berry Xia (@berryxia)",
       "image": null,
-      "time": "2026-06-07T18:14:27.000Z",
+      "time": "2026-06-09T01:19:44.000Z",
       "id": 3
     },
     {
-      "title": "特朗普政府与OpenAI讨论通过公共财富基金入股AI初创公司",
-      "summary": "据FT报道，特朗普政府正与OpenAI探讨通过公共财富基金机制让政府入股AI初创公司。方案是AI企业捐赠小部分股权至该基金，基金通过账户或分红将收益返还美国公民，而非政府直接运营公司。这不同于特朗普去年对Intel的90亿美元直接持股。OpenAI此前已提出公共财富基金概念，持有长期资产，让公民分享AI增长红利。政治背景方面，选民担忧失业、数据中心成本与企业控制，而AI公司需要华盛顿在基建、采购和监管上的支持。",
+      "title": "两部门：到2026年底人形机器人等重点产品完成应用验证并常态部署",
+      "summary": "工信部、国资委6月8日联合发布通知，目标到2026年底，人形机器人等重点产品在代表性场景完成应用验证并开启常态部署，形成百个以上高价值场景，万台级规模落地。要求各省级地区选取不少于20个场景单元（覆盖两类领域），央企不少于10个。围绕打造实景实训空间、组建创新应用联合体、攻关作业技能、加强验证部署、强化要素保障、凝练经验等六大任务展开，鼓励\"人形机器人即服务\"等商业创新。",
       "category": "行业",
       "tags": [
-        "OpenAI"
+        "机器人"
       ],
-      "url": "https://x.com/rohanpaul_ai/status/2063662672835703126",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "url": "https://www.ithome.com/0/961/749.htm",
+      "source": "IT之家（RSS）",
       "image": null,
-      "time": "2026-06-07T16:41:36.000Z",
+      "time": "2026-06-09T01:15:30.000Z",
       "id": 4
     },
     {
-      "title": "OpenAI 仍推进超级应用计划",
-      "summary": "OpenAI 一位高级员工表示\"聊天已死\"，同时公司仍在继续推进超级应用计划。",
-      "category": "行业",
+      "title": "FrontierCode 基准测试：AI 编程评估新标准--维护者审核通过率最高仅 13.4%",
+      "summary": "Cognition 发布 FrontierCode 基准测试，重新定义 AI 编程评估：由 20 多位顶级开源维护者手工制作 150 个任务（每个耗时 40+ 小时），依据 3000 多条规则判断维护者是否愿意合并代码。该基准指出 SWE-Bench 等超半数通过测试的代码实为不可维护的垃圾。结果中 Claude Opus 4.8 在最高难度档获 13.4%，GPT-5.5 为 6.3%，其余模型 1%-5%。这意味着即便最强模型，近九成代码仍无法通过有经验维护者审核。",
+      "category": "工具",
       "tags": [
-        "OpenAI"
+        "编程"
       ],
-      "url": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app",
-      "source": "TechCrunch：AI（RSS）",
+      "url": "https://x.com/AYi_AInotes/status/2064146694774595646",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
       "image": null,
-      "time": "2026-06-07T16:23:22.000Z",
+      "time": "2026-06-09T00:44:56.000Z",
       "id": 5
     },
     {
-      "title": "Slop、生产力，以及为何AI驱动的世界进展甚微",
-      "summary": "Gary Marcus在金融时报上看到John Burn-Murdoch的一张图表，认为它精准提炼了自己一直试图表达的观点。",
+      "title": "GitHub 122K⭐的Skills推出新技能「Teach」：把工作目录变有状态学习空间",
+      "summary": "GitHub 122K⭐的Skills仓库推出新技能Teach，可将当前工作目录变为有状态学习空间。设计理念从Knowledge（概念事实）→Skills（动手操作）→Wisdom（真实判断）。工作区以文件即学习状态：MISSION.md定目标、lessons/提供课程、learning-records/记录已会内容、reference/生成速查手册。五个关键机制：Mission定方向、ZPD根据记录调整难度、Lesson一课一事+即时反馈、Learning Record记\"会了什么\"而非\"讲了什么\"、Reference形成长期可回看手册。可通过npx skills add mattpocock/skills --skill teach安装，适用于从魔方到软件基础等学习场景。",
       "category": "工具",
       "tags": [
-        "tip"
+        "开源"
       ],
-      "url": "https://garymarcus.substack.com/p/slop-productivity-and-why-the-ai",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "url": "https://x.com/shao__meng/status/2064144978792878348",
+      "source": "X：邵猛 (@shao__meng)",
       "image": null,
-      "time": "2026-06-07T15:31:43.000Z",
+      "time": "2026-06-09T00:38:07.000Z",
       "id": 6
     },
     {
-      "title": "苹果秘密会议内幕：它终于认真对待AI",
-      "summary": "苹果在一次内部秘密会议后，终于决定将AI作为核心战略。这场会议促使公司全面转向AI领域，相关进展预计将在WWDC 2026上公布。",
-      "category": "工具",
+      "title": "Claude 东京站活动开放注册",
+      "summary": "最终站：东京。\n快来注册，直接聆听 Claude 团队分享：http：//claude.com/code-with-claude/tokyo",
+      "category": "行业",
       "tags": [
-        "tip"
+        "Claude"
       ],
-      "url": "https://www.bloomberg.com/news/newsletters/2026-06-07/wwdc-2026-apple-s-secret-meeting-that-led-it-to-take-ai-seriously-ios-27",
-      "source": "Bloomberg：Technology（RSS）",
+      "url": "https://x.com/claudeai/status/2064139073590104402",
+      "source": "X：Claude (@claudeai)",
       "image": null,
-      "time": "2026-06-07T14:00:01.000Z",
+      "time": "2026-06-09T00:14:39.000Z",
       "id": 7
     },
     {
-      "title": "Symbolica 2.0：适用于 Python 和 Rust 的可编程符号系统",
-      "summary": "Symbolica 2.0 发布，这是一款可编程符号系统，支持 Python 和 Rust 语言。该版本在 Hacker News 上获得 100 点热度。",
-      "category": "工具",
+      "title": "Apple Core AI 框架",
+      "summary": "一篇关于 Apple Core AI 框架的 Hacker News 帖子获得 109 个点赞。帖子内容包含一张苹果开发者 OG 图片和一个指向 Apple Core AI Framework 官方文档的链接（developer.apple.com）。该帖子由 buzzing.cc 中文翻译，发布于 2026 年 6 月 8 日 02：47（UTC）。",
+      "category": "AI",
       "tags": [
-        "编程"
+        "ai-products"
       ],
-      "url": "https://symbolica.io/posts/symbolica_2_0_release",
+      "url": "https://developer.apple.com/documentation/coreai",
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "image": null,
-      "time": "2026-06-07T12:59:12.136Z",
+      "time": "2026-06-08T23:05:07.159Z",
       "id": 8
     },
     {
-      "title": "\"我在田里雇了一名工程师，它叫 Codex\" -- 北海道一个西兰花农的 8 个真实 AI 用法",
-      "summary": "日本北海道农民富安弘毅用 ChatGPT 和 Codex 解决农场实际问题，涵盖 8 个用法：拍照识别西兰花病害、卫星监测获取 NDVI 数据、用 ESP32 和 LINE 机器人远程控制温室卷帘、为农场群聊开发机器人管理温度与排期、从聊天记录追踪播种数量、学习 RTK-GPS 自动转向原理并评估自建成本、设计基于 Airtable 的农场管理数据库。他说 AI 让传统昂贵的自动化变得低成本可及，\"如同身边有一位超级工程师\"。",
-      "category": "工具",
+      "title": "奥尔特曼宣布 OpenAI 进入第三发展阶段：让 AI 普及、易用且安全",
+      "summary": "本周一，OpenAI CEO 奥尔特曼与首席科学家帕霍茨基联合发文，宣布公司进入第三发展阶段，目标让 AI 普及、易用且安全。此前第一阶段聚焦通用人工智能技术研发，第二阶段面向全球推出产品。第三阶段三大核心目标是打造自动化人工智能研究员、推动经济提速、为每人配备专属通用人工智能。二人强调智能系统须坚守安全底线，呼吁成立国际机构应对 AI 风险，必要时可暂缓前沿模型研发。同日，OpenAI 秘密提交 IPO 申请，但上市仍需较长时间。上周 Anthropic 研究人员也建议适当放缓前沿 AI 研发。",
+      "category": "行业",
       "tags": [
-        "编程"
+        "OpenAI",
+        "安全"
       ],
-      "url": "https://x.com/AYi_AInotes/status/2063573709672104286",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "url": "https://www.ithome.com/0/961/721.htm",
+      "source": "IT之家（RSS）",
       "image": null,
-      "time": "2026-06-07T10:48:06.000Z",
+      "time": "2026-06-08T22:50:42.000Z",
       "id": 9
     },
     {
-      "title": "Her · हेर - Claude Code 会话分析工具",
-      "summary": "Her（हेर）是专为 Claude Code 设计的会话分析工具。用户上传 `.jsonl` 文件后，Her 用自然语言重建每轮交互，标记部署、配置变更、秘密等高风险操作并定位到具体轮次。它展示 token 消耗、所用工具、子智能体、技能和 MCP 服务器，并结合 Anthropic 与社区最佳实践给出改进建议（仅在有明确可修复模式时）。内置\"Ask Her\"问答功能，支持单会话与跨会话项目分析。工具不调用第三方 AI API，使用 Nemotron-Mini-4B-Instruct 模型在 Hugging Face ZeroGPU 上运行，评估引擎完全确定，模型仅负责文本生成与建议。Her 内置 Homebrew、npm、PyPI 主流 CLI 工具数据库，自动识别会话中使用的工具，并对部署工具、数据库客户端等执行活动进行标记提醒。",
+      "title": "Claude 支持 Apple Foundation Models 框架，推出新 Swift 包",
+      "summary": "Anthropic 通过一个新 Swift 包，让 Apple 开发者能在 Foundation Models 框架中直接调用 Claude。开发者用 Apple 框架以原生 Swift 方式，仅需三行代码即可通过引导生成返回类型化 Swift 值。当请求涉及多步推理、代码生成、联网搜索或数据分析时，Claude 可接手处理，并将流式响应传回同一视图。该支持可在 iOS 27、iPadOS 27、macOS 27、visionOS 27 和 watchOS 27 上使用，开发者需添加包并配置 Anthropic API 密钥。",
       "category": "AI",
       "tags": [
         "Claude"
       ],
-      "url": "https://huggingface.co/blog/build-small-hackathon/her-blog",
-      "source": "Hugging Face：Blog（RSS）",
+      "url": "https://claude.com/blog/claude-for-foundation-models",
+      "source": "Claude：Blog（网页）",
       "image": null,
-      "time": "2026-06-07T10:13:41.000Z",
+      "time": "2026-06-08T22:24:02.356Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自学习AI代理，内置学习循环，跨会话构建用户模型",
-      "language": "Python",
-      "stars": 186192,
-      "starsToday": 1320,
-      "forks": 32027,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "ultraworkers/claw-code",
+      "description": "基于真实蟹力装备的Rust项目",
+      "language": "Rust",
+      "stars": 193498,
+      "starsToday": 2804,
+      "forks": 109956,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 1
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "description": "自改进AI代理，内置学习循环",
+      "language": "Python",
+      "stars": 187611,
+      "starsToday": 1419,
+      "forks": 32329,
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "rank": 2
+    },
+    {
+      "name": "affaan-m/ECC",
+      "description": "多语言支持的JavaScript库",
+      "language": "JavaScript",
+      "stars": 210991,
+      "starsToday": 1022,
+      "forks": 32363,
+      "url": "https://github.com/affaan-m/ECC",
+      "rank": 3
     },
     {
       "name": "farion1231/cc-switch",
       "description": "Claude系列工具全平台管理器",
       "language": "Rust",
-      "stars": 94407,
-      "starsToday": 884,
-      "forks": 6173,
+      "stars": 95359,
+      "starsToday": 952,
+      "forks": 6261,
       "url": "https://github.com/farion1231/cc-switch",
-      "rank": 2
-    },
-    {
-      "name": "affaan-m/ECC",
-      "description": "多语言支持，API资源库",
-      "language": "JavaScript",
-      "stars": 209969,
-      "starsToday": 738,
-      "forks": 32186,
-      "url": "https://github.com/affaan-m/ECC",
-      "rank": 3
-    },
-    {
-      "name": "b-nnett/goose",
-      "description": "WHOOP 5.0本地伴侣，开发者预览版",
-      "language": "Rust",
-      "stars": 2261,
-      "starsToday": 452,
-      "forks": 532,
-      "url": "https://github.com/b-nnett/goose",
       "rank": 4
+    },
+    {
+      "name": "NoopApp/noop",
+      "description": "本地优先，无云数据管理器",
+      "language": "Swift",
+      "stars": 539,
+      "starsToday": 539,
+      "forks": 495,
+      "url": "https://github.com/NoopApp/noop",
+      "rank": 5
+    },
+    {
+      "name": "JimLiu/baoyu-design",
+      "description": "本地运行Claude设计引擎",
+      "language": "JavaScript",
+      "stars": 538,
+      "starsToday": 269,
+      "forks": 39,
+      "url": "https://github.com/JimLiu/baoyu-design",
+      "rank": 6
+    },
+    {
+      "name": "jd-opensource/JoyAI-Echo",
+      "description": "长视频生成前沿技术",
+      "language": "Python",
+      "stars": 1119,
+      "starsToday": 245,
+      "forks": 89,
+      "url": "https://github.com/jd-opensource/JoyAI-Echo",
+      "rank": 7
     },
     {
       "name": "public-apis/public-apis",
       "description": "免费公共API资源库",
       "language": "Python",
-      "stars": 440068,
-      "starsToday": 229,
-      "forks": 48231,
+      "stars": 440293,
+      "starsToday": 225,
+      "forks": 48253,
       "url": "https://github.com/public-apis/public-apis",
-      "rank": 5
-    },
-    {
-      "name": "cpaczek/skylight",
-      "description": "实时投影飞机模型，众筹平台即将推出",
-      "language": "TypeScript",
-      "stars": 2282,
-      "starsToday": 185,
-      "forks": 227,
-      "url": "https://github.com/cpaczek/skylight",
-      "rank": 6
-    },
-    {
-      "name": "openclaw/openclaw",
-      "description": "个人AI助手，跨平台语音交互",
-      "language": "TypeScript",
-      "stars": 377466,
-      "starsToday": 157,
-      "forks": 78919,
-      "url": "https://github.com/openclaw/openclaw",
-      "rank": 7
-    },
-    {
-      "name": "jd-opensource/JoyAI-Echo",
-      "description": "长视频生成，多模态记忆与一致性",
-      "language": "Python",
-      "stars": 874,
-      "starsToday": 134,
-      "forks": 56,
-      "url": "https://github.com/jd-opensource/JoyAI-Echo",
       "rank": 8
     },
     {
-      "name": "tastyeffectco/sandboxd",
-      "description": "AI应用构建引擎，独立云开发环境",
-      "language": "Go",
-      "stars": 498,
-      "starsToday": 125,
-      "forks": 12,
-      "url": "https://github.com/tastyeffectco/sandboxd",
+      "name": "openclaw/openclaw",
+      "description": "个人AI助手，多平台支持",
+      "language": "TypeScript",
+      "stars": 377690,
+      "starsToday": 224,
+      "forks": 78973,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 9
     },
     {
-      "name": "ollama/ollama",
-      "description": "基于开源模型构建",
-      "language": "Go",
-      "stars": 173510,
-      "starsToday": 110,
-      "forks": 16498,
-      "url": "https://github.com/ollama/ollama",
+      "name": "diffusionstudio/lottie",
+      "description": "基于LLM的Lottie动画生成器",
+      "language": "TypeScript",
+      "stars": 596,
+      "starsToday": 149,
+      "forks": 36,
+      "url": "https://github.com/diffusionstudio/lottie",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-06-08",
-    "updatedAt": "2026-06-08T03:58:45.180Z",
+    "date": "2026-06-09",
+    "updatedAt": "2026-06-09T03:28:31.557Z",
     "highlights": [
-      "Nvidia与SK Hynix合作开发AI存储芯片",
-      "英伟达与斗山集团合作推进物理AI",
-      "ChatGPT将升级为AgentGPT",
-      "特朗普政府与OpenAI讨论AI初创公司投资",
-      "OpenAI推进超级应用计划",
-      "AI进展缓慢分析",
-      "苹果重视AI发展",
-      "Symbolica 2.0符号系统发布",
-      "AI在农业领域的应用",
-      "Her · हेर会话分析工具发布"
+      "OpenAI 秘密提交 IPO 申请，行业动态再起波澜。",
+      "SpaceX AI1 轨道数据中心卫星方案详解，AI 技术应用拓展。",
+      "开源工具 Tokei 助力 AI coding 成本监控。",
+      "人形机器人应用验证，机器人行业迎来新机遇。",
+      "FrontierCode 基准测试揭示 AI 编程评估新标准。",
+      "Skills 推出新技能「Teach」，学习空间升级。",
+      "Claude 东京站活动注册开启，AI 技术普及加速。",
+      "Apple Core AI 框架发布，AI 技术应用场景拓展。",
+      "OpenAI 第三发展阶段启动，AI 安全与易用性提升。",
+      "Claude 支持 Apple Foundation Models 框架，技术生态完善。"
     ],
     "keywords": [
-      "Nvidia",
-      "SK Hynix",
-      "AI存储芯片",
-      "物理AI",
-      "ChatGPT",
-      "AgentGPT",
       "OpenAI",
-      "超级应用",
-      "AI进展",
-      "苹果",
-      "Symbolica",
-      "AI农业",
-      "Her · हेर",
-      "AI代理",
-      " Claude系列",
-      "多语言API",
-      "WHOOP",
-      "公共API",
-      "实时投影",
-      "个人AI助手",
-      "长视频生成",
-      "AI应用构建",
-      "开源模型"
+      "IPO",
+      "SpaceX",
+      "AI 数据中心",
+      "Tokei",
+      "人形机器人",
+      "FrontierCode",
+      "Skills",
+      "Claude",
+      "Apple Core AI",
+      "OpenAI 第三发展阶段",
+      "Apple Foundation Models",
+      "GitHub 热门项目",
+      "ultraworkers/claw-code",
+      "NousResearch/hermes-agent",
+      "affaan-m/ECC",
+      "farion1231/cc-switch",
+      "NoopApp/noop",
+      "JimLiu/baoyu-design",
+      "jd-opensource/JoyAI-Echo",
+      "public-apis/public-apis",
+      "openclaw/openclaw",
+      "diffusionstudio/lottie"
     ],
-    "trendingSummary": "当前技术趋势集中在AI领域，特别是AI芯片、物理AI应用、AI代理的升级，以及超级应用的开发。同时，AI在农业和会话分析等领域的应用也逐渐增多。"
+    "trendingSummary": "今日技术趋势集中在 AI 领域，从 OpenAI 的 IPO 申请到 SpaceX 的 AI 数据中心卫星方案，再到 Apple Core AI 框架的发布，AI 技术应用场景不断拓展。同时，开源工具和 GitHub 热门项目也展现出技术社区的活跃态势。"
   }
 }
