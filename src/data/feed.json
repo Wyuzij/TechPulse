@@ -1,282 +1,267 @@
 {
-  "date": "2026-06-09",
-  "updatedAt": "2026-06-09T03:28:31.557Z",
+  "date": "2026-06-10",
+  "updatedAt": "2026-06-10T03:40:13.501Z",
   "techNews": [
     {
-      "title": "OpenAI 秘密提交 IPO 申请，奥特曼旗下 Tools for Humanity 裁员",
-      "summary": "OpenAI 近日秘密提交 IPO 申请。其 CEO 山姆·奥特曼旗下的 Tools for Humanity 公司正裁员，该公司因虹膜扫描项目 World 及加密货币 Worldcoin 知名，投后估值 25 亿美元，获 Andreessen Horowitz 等投资。因营收困境，公司缩减规模。海外监管方面，肯尼亚以隐私和金融风险为由叫停运营，韩国因违反隐私法规罚款 83 万美元。",
-      "category": "行业",
+      "title": "Anthropic发布Claude Fable 5与Mythos 5：安全版免费至6月22日，价格公布",
+      "summary": "Anthropic今日发布Claude Fable 5（加安全限制）与Mythos 5（底层相同），价格每百万输入token $10、输出$50。即日起至6月22日，Pro/Max/Team/企业版订阅用户可免费使用Fable 5，之后仅API可用。跑分全面碾压，三方基准达SOTA。案例：Stripe用Fable 5一天迁移5000万行Ruby代码；纯视觉通关宝可梦火红；自建3D CAD编辑器并设计可打印模型；Mythos 5加速药物设计10倍，基因组学自主训练模型超越Science论文成果。",
+      "category": "工具",
       "tags": [
-        "OpenAI"
+        "Claude",
+        "安全"
       ],
-      "url": "https://www.ithome.com/0/961/792.htm",
-      "source": "IT之家（RSS）",
+      "url": "https://x.com/Khazix0918/status/2064546404559999014",
+      "source": "X：卡兹克 (@Khazix0918)",
       "image": null,
-      "time": "2026-06-09T02:19:48.000Z",
+      "time": "2026-06-10T03:13:14.000Z",
       "id": 1
     },
     {
-      "title": "Elon Musk 详解 SpaceX AI1 轨道 AI 数据中心卫星方案",
-      "summary": "Elon Musk 首次详细解释 SpaceX 的 AI1 轨道 AI 数据中心卫星：峰值功率 150 kW，持续计算功率约 120 kW，相当于一个 NVIDIA GB300 机架；太阳能板效率 250 W/m2；双面散热器排热 1，400 W/m2。通过激光链路实现约 1 Tbps 互联，低轨 600-800 km 高度往返延迟 6-8 ms。由 Starship 发射，计划部署多达百万颗卫星，2027 年底前实现量产。近地目标为吉瓦级轨道 AI 算力，长期向太瓦级推进。",
+      "title": "Magnetar用数百AI智能体替代分析师",
+      "summary": "Bloomberg：Magnetar Capital，这家 180 亿美元的对冲基金公司，将在其最新产品中避免使用人类分析师，转而依靠数百个 AI 智能体进行股票研究。\n\n这家 180 亿美元的对冲基金公司希望 AI 搜索投资想法、研究公司、推荐头寸并预测趋势，而人类仍负责批准交易。",
+      "category": "行业",
+      "tags": [
+        "Agent"
+      ],
+      "url": "https://x.com/rohanpaul_ai/status/2064524448582267047",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "image": null,
+      "time": "2026-06-10T01:46:00.000Z",
+      "id": 2
+    },
+    {
+      "title": "欧盟发布临时措施，要求 Meta 向第三方 AI 助手免费开放 WhatsApp",
+      "summary": "欧盟委员会6月9日宣布临时措施，责令Meta在反垄断调查结束前免费向第三方AI助手开放WhatsApp访问权限。Meta于2025年10月15日禁止第三方AI助手调用WhatsApp for Business API，意图让自家Meta AI独占市场；今年3月4日虽改为付费使用，但欧盟委员会认为这实质上延续了禁令，可能严重损害通用AI助手市场竞争，尤其危及小企业和新进入者。",
+      "category": "行业",
+      "tags": [
+        "Llama"
+      ],
+      "url": "https://www.ithome.com/0/962/206.htm",
+      "source": "IT之家（RSS）",
+      "image": null,
+      "time": "2026-06-10T01:41:12.000Z",
+      "id": 3
+    },
+    {
+      "title": "Text-To-Lottie：Agent Skill + 本地预览 Harness，让 Agent 生成 Lottie 动画并实时验收",
+      "summary": "开源项目 Text-To-Lottie 提供一套 Agent Skill 和本地预览工具，让 Codex/Claude Code/Cursor 等 Agent 生成标准 Bodymovin JSON（public/lottie.json），通过 Skottie 渲染引擎在浏览器中实时验收。安装命令：`npx skills add diffusionstudio/lottie`。技术特点：输出标准 Lottie JSON，使用 Skottie 渲染（非 lottie-web）；基于 Vite 热重载实现自动刷新闭环；支持通过 Skottie Slots + controls.json 调整颜色、尺寸；Agent 可用 URL 参数 `？frame=60&paused=1` 精确定位帧截图。Prompt 指南包括：给具体素材、使用动效术语、pan/zoom/hold 模拟镜头、显式声明 Slots、锁定时间规格。适合单场景短时长 Motion Graphics、SVG→Lottie、数据可视化、透明背景矢量动效；不适合多镜头剪辑、复杂角色绑定、粒子、3D 或需 lottie-web 全特性的场景。",
+      "category": "工具",
+      "tags": [
+        "Agent"
+      ],
+      "url": "https://x.com/shao__meng/status/2064508455051043008",
+      "source": "X：邵猛 (@shao__meng)",
+      "image": null,
+      "time": "2026-06-10T00:42:27.000Z",
+      "id": 4
+    },
+    {
+      "title": "IBM CEO：AI不一定导致员工减少",
+      "summary": "IBM CEO Arvind Krishna表示AI不会必然导致员工数量减少。他透露IBM已在量子计算（一种更快形式的AI）上投资100亿美元，并指出联邦政府承诺投入10亿美元在纽约Albany建设芯片制造设施，体现了公私部门间的紧密合作。",
       "category": "行业",
       "tags": [
         "industry"
       ],
-      "url": "https://x.com/rohanpaul_ai/status/2064165951936094364",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "url": "https://www.bloomberg.com/news/videos/2026-06-09/ibm-ceo-ai-won-t-necessarily-lead-to-smaller-headcount-video",
+      "source": "Bloomberg：Technology（RSS）",
       "image": null,
-      "time": "2026-06-09T02:01:27.000Z",
-      "id": 2
-    },
-    {
-      "title": "开源工具 Tokei：在菜单栏实时监控 AI coding agent 的 token 用量与成本",
-      "summary": "Berry Xia 推荐开源工具 Tokei，这是一个 macOS 菜单栏小工具，只读本地日志、零网络调用，30 秒自动刷新，实时监控 Claude Code、Grok CLI、Aider、OpenCode 等 8 个主流 AI coding agent 的 token 用量、实时成本与性能数据，并附每日图表、周热力图和年度 Wrapped。支持私人 Git 多设备同步、价格表本地覆盖，闲置过久会提醒休息。引用推文指出，token 消耗情况可作为深度使用 AI 的面试亮点，数据全程私有，零侵入，无需任何认证。",
-      "category": "工具",
-      "tags": [
-        "开源",
-        "Agent"
-      ],
-      "url": "https://x.com/berryxia/status/2064155452934639718",
-      "source": "X：Berry Xia (@berryxia)",
-      "image": null,
-      "time": "2026-06-09T01:19:44.000Z",
-      "id": 3
-    },
-    {
-      "title": "两部门：到2026年底人形机器人等重点产品完成应用验证并常态部署",
-      "summary": "工信部、国资委6月8日联合发布通知，目标到2026年底，人形机器人等重点产品在代表性场景完成应用验证并开启常态部署，形成百个以上高价值场景，万台级规模落地。要求各省级地区选取不少于20个场景单元（覆盖两类领域），央企不少于10个。围绕打造实景实训空间、组建创新应用联合体、攻关作业技能、加强验证部署、强化要素保障、凝练经验等六大任务展开，鼓励\"人形机器人即服务\"等商业创新。",
-      "category": "行业",
-      "tags": [
-        "机器人"
-      ],
-      "url": "https://www.ithome.com/0/961/749.htm",
-      "source": "IT之家（RSS）",
-      "image": null,
-      "time": "2026-06-09T01:15:30.000Z",
-      "id": 4
-    },
-    {
-      "title": "FrontierCode 基准测试：AI 编程评估新标准--维护者审核通过率最高仅 13.4%",
-      "summary": "Cognition 发布 FrontierCode 基准测试，重新定义 AI 编程评估：由 20 多位顶级开源维护者手工制作 150 个任务（每个耗时 40+ 小时），依据 3000 多条规则判断维护者是否愿意合并代码。该基准指出 SWE-Bench 等超半数通过测试的代码实为不可维护的垃圾。结果中 Claude Opus 4.8 在最高难度档获 13.4%，GPT-5.5 为 6.3%，其余模型 1%-5%。这意味着即便最强模型，近九成代码仍无法通过有经验维护者审核。",
-      "category": "工具",
-      "tags": [
-        "编程"
-      ],
-      "url": "https://x.com/AYi_AInotes/status/2064146694774595646",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "image": null,
-      "time": "2026-06-09T00:44:56.000Z",
+      "time": "2026-06-09T21:48:41.000Z",
       "id": 5
     },
     {
-      "title": "GitHub 122K⭐的Skills推出新技能「Teach」：把工作目录变有状态学习空间",
-      "summary": "GitHub 122K⭐的Skills仓库推出新技能Teach，可将当前工作目录变为有状态学习空间。设计理念从Knowledge（概念事实）→Skills（动手操作）→Wisdom（真实判断）。工作区以文件即学习状态：MISSION.md定目标、lessons/提供课程、learning-records/记录已会内容、reference/生成速查手册。五个关键机制：Mission定方向、ZPD根据记录调整难度、Lesson一课一事+即时反馈、Learning Record记\"会了什么\"而非\"讲了什么\"、Reference形成长期可回看手册。可通过npx skills add mattpocock/skills --skill teach安装，适用于从魔方到软件基础等学习场景。",
+      "title": "在 AgentsView 中为 Claude Fable 5 设置自定义价格",
+      "summary": "Wes McKinney 开发的 AgentsView 是一个用于追踪本地编码智能体 token 使用情况的工具。由于近日发布的 Claude Fable 5 尚未被收录进 AgentsView 的定价数据库，作者利用 Fable 逆向工程，找到了为该模型设置自定义价格的方法，并展示了 Fable 5 当天在不同本地项目中的使用量树状图。",
       "category": "工具",
       "tags": [
-        "开源"
+        "Claude",
+        "Agent"
       ],
-      "url": "https://x.com/shao__meng/status/2064144978792878348",
-      "source": "X：邵猛 (@shao__meng)",
+      "url": "https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price",
+      "source": "Simon Willison 博客",
       "image": null,
-      "time": "2026-06-09T00:38:07.000Z",
+      "time": "2026-06-09T21:35:31.000Z",
       "id": 6
     },
     {
-      "title": "Claude 东京站活动开放注册",
-      "summary": "最终站：东京。\n快来注册，直接聆听 Claude 团队分享：http：//claude.com/code-with-claude/tokyo",
+      "title": "Super Micro 计划通过股权融资 70 亿美元用于 AI 服务器组件采购",
+      "summary": "Super Micro Computer Inc. 计划通过一揽子股权融资筹集 70 亿美元，用于购买客户订单所需的 AI 服务器组件。这笔资金将支持公司扩大产能，以满足不断增长的人工智能基础设施需求。",
       "category": "行业",
       "tags": [
-        "Claude"
+        "industry"
       ],
-      "url": "https://x.com/claudeai/status/2064139073590104402",
-      "source": "X：Claude (@claudeai)",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-09/super-micro-plans-to-raise-7-billion-in-equity-for-ai-equipment",
+      "source": "Bloomberg：Technology（RSS）",
       "image": null,
-      "time": "2026-06-09T00:14:39.000Z",
+      "time": "2026-06-09T21:24:50.000Z",
       "id": 7
     },
     {
-      "title": "Apple Core AI 框架",
-      "summary": "一篇关于 Apple Core AI 框架的 Hacker News 帖子获得 109 个点赞。帖子内容包含一张苹果开发者 OG 图片和一个指向 Apple Core AI Framework 官方文档的链接（developer.apple.com）。该帖子由 buzzing.cc 中文翻译，发布于 2026 年 6 月 8 日 02：47（UTC）。",
+      "title": "Claude Managed Agents 新增定时运行和环境变量存储功能",
+      "summary": "Claude Managed Agents 今日在 Claude Platform 公开测试两项新功能：代理可按 cron 计划自动执行周期性任务（如夜间数据同步、周度合规扫描、每日摘要），无需用户自建调度器，支持暂停、恢复、归档或按需触发；vaults 新增环境变量支持，允许代理通过 CLI 进行认证请求，真实密钥仅附加在网络边界，代理无法读取。已集成的 CLI 包括 Browserbase、KERNEL、Notion、Ramp 和 Sentry。Rakuten、Actively AI、Ando、Milana 等团队正在使用这些功能实现自动化数据报表、跨账户搜索、招聘提醒等场景。",
       "category": "AI",
       "tags": [
-        "ai-products"
+        "Claude",
+        "Agent"
       ],
-      "url": "https://developer.apple.com/documentation/coreai",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "url": "https://claude.com/blog/whats-new-in-claude-managed-agents",
+      "source": "Claude：Blog（网页）",
       "image": null,
-      "time": "2026-06-08T23:05:07.159Z",
+      "time": "2026-06-09T21:06:26.068Z",
       "id": 8
     },
     {
-      "title": "奥尔特曼宣布 OpenAI 进入第三发展阶段：让 AI 普及、易用且安全",
-      "summary": "本周一，OpenAI CEO 奥尔特曼与首席科学家帕霍茨基联合发文，宣布公司进入第三发展阶段，目标让 AI 普及、易用且安全。此前第一阶段聚焦通用人工智能技术研发，第二阶段面向全球推出产品。第三阶段三大核心目标是打造自动化人工智能研究员、推动经济提速、为每人配备专属通用人工智能。二人强调智能系统须坚守安全底线，呼吁成立国际机构应对 AI 风险，必要时可暂缓前沿模型研发。同日，OpenAI 秘密提交 IPO 申请，但上市仍需较长时间。上周 Anthropic 研究人员也建议适当放缓前沿 AI 研发。",
+      "title": "Mythos 5 智能体因资源互相杀戮",
+      "summary": "Mythos 5 个智能体开始因为资源互相残杀--并且\"为了避免自己被杀死\"",
       "category": "行业",
       "tags": [
-        "OpenAI",
-        "安全"
+        "Agent"
       ],
-      "url": "https://www.ithome.com/0/961/721.htm",
-      "source": "IT之家（RSS）",
+      "url": "https://x.com/AISafetyMemes/status/2064435128479400270",
+      "source": "X：AI Safety Memes (@AISafetyMemes)",
       "image": null,
-      "time": "2026-06-08T22:50:42.000Z",
+      "time": "2026-06-09T19:51:04.000Z",
       "id": 9
     },
     {
-      "title": "Claude 支持 Apple Foundation Models 框架，推出新 Swift 包",
-      "summary": "Anthropic 通过一个新 Swift 包，让 Apple 开发者能在 Foundation Models 框架中直接调用 Claude。开发者用 Apple 框架以原生 Swift 方式，仅需三行代码即可通过引导生成返回类型化 Swift 值。当请求涉及多步推理、代码生成、联网搜索或数据分析时，Claude 可接手处理，并将流式响应传回同一视图。该支持可在 iOS 27、iPadOS 27、macOS 27、visionOS 27 和 watchOS 27 上使用，开发者需添加包并配置 Anthropic API 密钥。",
+      "title": "Hugging Face 博客发布语音智能体代码切换基准测试",
+      "summary": "Hugging Face 博客发布针对语音智能体处理代码切换语音的基准测试。数据集覆盖西班牙语-英语、法语-英语、加拿大法语-英语和德语-英语四对语言，基于人力资源与IT服务管理场景构建。采用词错误率、语义词错误率和答案错误率三项指标评估七种ASR系统，包括AssemblyAI Universal 3-Pro、Deepgram Nova 3 Multilang、ElevenLabs Scribe V2、Gemini 3 Flash、Mistral AI Voxtral Small 24B-2507、Nvidia Parakeet TDT 0.6b V3和OpenAI Whisper Large V3 Turbo。主要发现：代码切换的转录成本因语言对和模型而异；ElevenLabs Scribe V2、Gemini 3 Flash和AssemblyAI Universal 3-Pro在所有指标上表现最佳。数据集和测试框架通过AU-Harness开源发布。",
       "category": "AI",
       "tags": [
-        "Claude"
+        "编程",
+        "Agent",
+        "多模态"
       ],
-      "url": "https://claude.com/blog/claude-for-foundation-models",
-      "source": "Claude：Blog（网页）",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+      "source": "Hugging Face：Blog（RSS）",
       "image": null,
-      "time": "2026-06-08T22:24:02.356Z",
+      "time": "2026-06-09T19:38:28.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "ultraworkers/claw-code",
-      "description": "基于真实蟹力装备的Rust项目",
-      "language": "Rust",
-      "stars": 193498,
-      "starsToday": 2804,
-      "forks": 109956,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "NousResearch/hermes-agent",
+      "description": "自改进AI代理，内置学习循环，跨会话构建用户模型",
+      "language": "Python",
+      "stars": 188995,
+      "starsToday": 1384,
+      "forks": 32610,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 1
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自改进AI代理，内置学习循环",
-      "language": "Python",
-      "stars": 187611,
-      "starsToday": 1419,
-      "forks": 32329,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "farion1231/cc-switch",
+      "description": "Claude代码全平台管理器，官方网站ccswitch.io",
+      "language": "Rust",
+      "stars": 96578,
+      "starsToday": 1219,
+      "forks": 6336,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 2
     },
     {
       "name": "affaan-m/ECC",
-      "description": "多语言支持的JavaScript库",
+      "description": "多语言支持，覆盖全球用户",
       "language": "JavaScript",
-      "stars": 210991,
-      "starsToday": 1022,
-      "forks": 32363,
+      "stars": 212000,
+      "starsToday": 1009,
+      "forks": 32550,
       "url": "https://github.com/affaan-m/ECC",
       "rank": 3
     },
     {
-      "name": "farion1231/cc-switch",
-      "description": "Claude系列工具全平台管理器",
-      "language": "Rust",
-      "stars": 95359,
-      "starsToday": 952,
-      "forks": 6261,
-      "url": "https://github.com/farion1231/cc-switch",
+      "name": "diffusionstudio/lottie",
+      "description": "基于Skia CanvasKit的Lottie播放器，LLM生成动画",
+      "language": "TypeScript",
+      "stars": 1590,
+      "starsToday": 994,
+      "forks": 78,
+      "url": "https://github.com/diffusionstudio/lottie",
       "rank": 4
     },
     {
       "name": "NoopApp/noop",
-      "description": "本地优先，无云数据管理器",
+      "description": "本地优先，无云数据管理工具",
       "language": "Swift",
-      "stars": 539,
-      "starsToday": 539,
-      "forks": 495,
+      "stars": 1088,
+      "starsToday": 549,
+      "forks": 576,
       "url": "https://github.com/NoopApp/noop",
       "rank": 5
     },
     {
-      "name": "JimLiu/baoyu-design",
-      "description": "本地运行Claude设计引擎",
-      "language": "JavaScript",
-      "stars": 538,
-      "starsToday": 269,
-      "forks": 39,
-      "url": "https://github.com/JimLiu/baoyu-design",
+      "name": "GordenSun/GordenSuperPPTSkills",
+      "description": "AI生成PPT，豪华图片格式，可编辑PPTX文件",
+      "language": "Python",
+      "stars": 638,
+      "starsToday": 319,
+      "forks": 72,
+      "url": "https://github.com/GordenSun/GordenSuperPPTSkills",
       "rank": 6
     },
     {
-      "name": "jd-opensource/JoyAI-Echo",
-      "description": "长视频生成前沿技术",
+      "name": "public-apis/public-apis",
+      "description": "免费公共API库，社区维护多年",
       "language": "Python",
-      "stars": 1119,
-      "starsToday": 245,
-      "forks": 89,
-      "url": "https://github.com/jd-opensource/JoyAI-Echo",
+      "stars": 440528,
+      "starsToday": 235,
+      "forks": 48272,
+      "url": "https://github.com/public-apis/public-apis",
       "rank": 7
     },
     {
-      "name": "public-apis/public-apis",
-      "description": "免费公共API资源库",
-      "language": "Python",
-      "stars": 440293,
-      "starsToday": 225,
-      "forks": 48253,
-      "url": "https://github.com/public-apis/public-apis",
+      "name": "ollama/ollama",
+      "description": "基于开源模型的构建平台",
+      "language": "Go",
+      "stars": 173723,
+      "starsToday": 161,
+      "forks": 16526,
+      "url": "https://github.com/ollama/ollama",
       "rank": 8
     },
     {
       "name": "openclaw/openclaw",
-      "description": "个人AI助手，多平台支持",
+      "description": "个人AI助手，跨平台语音交互，实时Canvas渲染",
       "language": "TypeScript",
-      "stars": 377690,
-      "starsToday": 224,
-      "forks": 78973,
+      "stars": 377850,
+      "starsToday": 160,
+      "forks": 79010,
       "url": "https://github.com/openclaw/openclaw",
       "rank": 9
     },
     {
-      "name": "diffusionstudio/lottie",
-      "description": "基于LLM的Lottie动画生成器",
-      "language": "TypeScript",
-      "stars": 596,
-      "starsToday": 149,
-      "forks": 36,
-      "url": "https://github.com/diffusionstudio/lottie",
+      "name": "JimLiu/baoyu-design",
+      "description": "本地运行Claude设计，便携式设计引擎",
+      "language": "JavaScript",
+      "stars": 647,
+      "starsToday": 109,
+      "forks": 48,
+      "url": "https://github.com/JimLiu/baoyu-design",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-06-09",
-    "updatedAt": "2026-06-09T03:28:31.557Z",
+    "date": "2026-06-10",
+    "updatedAt": "2026-06-10T03:40:13.501Z",
     "highlights": [
-      "OpenAI 秘密提交 IPO 申请，行业动态再起波澜。",
-      "SpaceX AI1 轨道数据中心卫星方案详解，AI 技术应用拓展。",
-      "开源工具 Tokei 助力 AI coding 成本监控。",
-      "人形机器人应用验证，机器人行业迎来新机遇。",
-      "FrontierCode 基准测试揭示 AI 编程评估新标准。",
-      "Skills 推出新技能「Teach」，学习空间升级。",
-      "Claude 东京站活动注册开启，AI 技术普及加速。",
-      "Apple Core AI 框架发布，AI 技术应用场景拓展。",
-      "OpenAI 第三发展阶段启动，AI 安全与易用性提升。",
-      "Claude 支持 Apple Foundation Models 框架，技术生态完善。"
+      "Anthropic发布Claude Fable 5与Mythos 5，安全版免费至6月22日",
+      "Magnetar用AI智能体替代分析师，行业变革趋势明显",
+      "欧盟要求Meta向第三方AI助手免费开放WhatsApp，推动AI生态发展",
+      "Text-To-Lottie工具发布，简化Lottie动画生成流程",
+      "IBM CEO对AI影响员工数量的看法引发行业讨论"
     ],
     "keywords": [
-      "OpenAI",
-      "IPO",
-      "SpaceX",
-      "AI 数据中心",
-      "Tokei",
-      "人形机器人",
-      "FrontierCode",
-      "Skills",
-      "Claude",
-      "Apple Core AI",
-      "OpenAI 第三发展阶段",
-      "Apple Foundation Models",
-      "GitHub 热门项目",
-      "ultraworkers/claw-code",
-      "NousResearch/hermes-agent",
-      "affaan-m/ECC",
-      "farion1231/cc-switch",
-      "NoopApp/noop",
-      "JimLiu/baoyu-design",
-      "jd-opensource/JoyAI-Echo",
-      "public-apis/public-apis",
-      "openclaw/openclaw",
-      "diffusionstudio/lottie"
+      "Anthropic",
+      "Claude Fable 5",
+      "Mythos 5",
+      "AI智能体",
+      "欧盟",
+      "Meta",
+      "WhatsApp",
+      "Text-To-Lottie",
+      "IBM",
+      "AI影响就业"
     ],
-    "trendingSummary": "今日技术趋势集中在 AI 领域，从 OpenAI 的 IPO 申请到 SpaceX 的 AI 数据中心卫星方案，再到 Apple Core AI 框架的发布，AI 技术应用场景不断拓展。同时，开源工具和 GitHub 热门项目也展现出技术社区的活跃态势。"
+    "trendingSummary": "今日技术资讯显示，AI技术正加速发展，从工具到行业应用，AI的渗透力日益增强。同时，AI在就业影响、行业生态构建等方面引发广泛关注。"
   }
 }
