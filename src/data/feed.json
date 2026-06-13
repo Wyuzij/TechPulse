@@ -1,271 +1,260 @@
 {
-  "date": "2026-06-12",
-  "updatedAt": "2026-06-12T03:55:12.780Z",
+  "date": "2026-06-13",
+  "updatedAt": "2026-06-13T03:39:59.164Z",
   "techNews": [
     {
-      "title": "qiaomu-ai-prd：面向AI的PRD生成Prompt",
-      "summary": "推文提出AI Agent开发中人类与AI对PRD的需求不同，为此发布了一个专门服务于AI的PRD文档生成Prompt（命名为qiaomu-ai-prd）。开发者先使用该Prompt生成文档，再交给AI开发，可显著提升功能完整度和丰富性。安装指令为：`npx skills add joeseesun/qiaomu-ai-prd`，开源地址及Prompt见评论区。",
-      "category": "工具",
+      "title": "Anthropic的安全警告可能适得其反--政府已撤回其最强大AI",
+      "summary": "Anthropic对政府撤回其最强大AI模型表达不满，称仅基于一个狭窄的潜在越狱发现就召回已部署给数亿用户的商业模型不合理。",
+      "category": "行业",
       "tags": [
-        "tip"
+        "Claude",
+        "安全"
       ],
-      "url": "https://x.com/vista8/status/2065264509170876417",
-      "source": "X：Vista (@vista8)",
+      "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai",
+      "source": "TechCrunch：AI（RSS）",
       "image": null,
-      "time": "2026-06-12T02:46:44.000Z",
+      "time": "2026-06-13T02:26:30.000Z",
       "id": 1
     },
     {
-      "title": "苹果 iOS 27 健康 App 大改：卡片布局、营养识别、围绝经期追踪",
-      "summary": "苹果在 iOS 27 中优化健康 App，将列表改为卡片布局并增加导航栏。新增视觉智能营养识别，用户通过相机 Siri 模式拍摄食物可获取加工程度、蛋白质、含糖量等信息及营养价值评级，不提供精确卡路里，需 iPhone 15 Pro 及以上。经期追踪扩展支持围绝经期，可分析长期周期异常模式并推送提醒与指导。Fitness+ 新增围绝经期和绝经期课程。数据同步速度提升，GymKit 扩展至 iPhone，无需 Apple Watch 即可与健身设备配对同步数据。",
-      "category": "AI",
-      "tags": [
-        "ai-products"
-      ],
-      "url": "https://www.ithome.com/0/963/302.htm",
-      "source": "IT之家（RSS）",
-      "image": null,
-      "time": "2026-06-12T02:06:41.000Z",
-      "id": 2
-    },
-    {
-      "title": "Spec 驱动开发（SDD）的三个 Skills：覆盖 Spec→Implement→Verify 闭环",
-      "summary": "邵猛分享 Spec 驱动开发（SDD）方法，用三个 Skills（/write-product-spec、/write-tech-spec、/validate-changes-match-specs）覆盖 Spec→Implement→Verify 闭环。规格分两层：PRODUCT.md（用户故事、不变量）和 TECH.md（架构、实现策略），均放在 specs/<issue>/ 目录，随 PR 提交。五步流程：写产品规格、写技术规格、Agent 按规格实现、一致性校验、计算机操作端到端验证。Skills 可移植，不绑定 Warp。开源仓库 warpdotdev/common-skills，安装：npx skills add warpdotdev/common-skills。",
-      "category": "工具",
-      "tags": [
-        "tip"
-      ],
-      "url": "https://x.com/shao__meng/status/2065234132431675439",
-      "source": "X：邵猛 (@shao__meng)",
-      "image": null,
-      "time": "2026-06-12T00:46:02.000Z",
-      "id": 3
-    },
-    {
-      "title": "Codex 推出浏览器开发者模式",
-      "summary": "为 Chrome 和 Codex 内置浏览器引入开发者模式。\n\nCodex 可以使用 Chrome DevTools 协议（CDP）来调试浏览器问题，通过分析 JavaScript 性能、检查控制台输出、网络流量和页面状态。",
-      "category": "AI",
-      "tags": [
-        "编程",
-        "浏览器"
-      ],
-      "url": "https://x.com/OpenAIDevs/status/2065226355495895521",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "image": null,
-      "time": "2026-06-12T00:15:07.000Z",
-      "id": 4
-    },
-    {
-      "title": "OpenAI Codex 推出速率重置攒存功能",
-      "summary": "我们听说您希望能在自己方便的时候使用 Codex 速率限制重置。\n从今天起，我们开始推出将速率限制重置保留到以后使用的功能。\n我们从 Go、Plus、Pro 和 Business 用户开始，每人提供一次免费重置：",
-      "category": "AI",
-      "tags": [
-        "OpenAI",
-        "编程"
-      ],
-      "url": "https://x.com/OpenAI/status/2065225362544726371",
-      "source": "X：OpenAI (@OpenAI)",
-      "image": null,
-      "time": "2026-06-12T00:11:11.000Z",
-      "id": 5
-    },
-    {
-      "title": "研究模拟显示：LLM 在 95% 的模拟中会使用战术核武器",
-      "summary": "一项模拟研究显示，大型语言模型（LLM）在 95% 的模拟场景中会选择使用战术核武器。该研究未指明具体模型名称与版本，结果引发对 AI 决策行为的关注。",
-      "category": "AI",
-      "tags": [
-        "paper"
-      ],
-      "url": "https://www.kennethpayne.uk/p/shall-we-play-a-game",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "image": null,
-      "time": "2026-06-11T22:23:17.154Z",
-      "id": 6
-    },
-    {
-      "title": "Replit 专家级提示词技巧",
-      "summary": "如何像专家一样使用 Replit 进行提示 🤖\n\n模糊的提示词只会导致更多重写。以下是如何让 Agent 第一次就构建出正确的东西。\n\n🧵 展开线程 ↓",
-      "category": "工具",
-      "tags": [
-        "tip"
-      ],
-      "url": "https://x.com/Replit/status/2065192392718733327",
-      "source": "X：Replit (@Replit)",
-      "image": null,
-      "time": "2026-06-11T22:00:10.000Z",
-      "id": 7
-    },
-    {
-      "title": "Replit 与 Databricks 集成升级，公开预览开放",
-      "summary": "Replit 与 @databricks 集成刚刚升级了。\n\n构建应用，让每个用户只看到他们应该看到的内容。你的 HR 分析师可以为 CEO 构建完整的组织视图，而无需访问底层数据。\n\n公开预览已开放注册！了解更多 →\n\nhttps：//replit.com/blog/databricksjune2026",
-      "category": "AI",
-      "tags": [
-        "ai-products"
-      ],
-      "url": "https://x.com/Replit/status/2065189762365813089",
-      "source": "X：Replit (@Replit)",
-      "image": null,
-      "time": "2026-06-11T21:49:43.000Z",
-      "id": 8
-    },
-    {
-      "title": "全自主无人机首次击毙了人类士兵",
-      "summary": "据《新科学家》6月10日报道，全自主无人机首次击毙了人类士兵。这是有记录以来第一次由完全自主运行的无人机执行致命攻击，标志着自主武器系统在实战中的新进展。该报道来自《新科学家》网站，目前尚无更多细节公布。",
+      "title": "关于美国政府指令暂停访问Fable 5和Mythos 5的声明",
+      "summary": "美国政府以国家安全为由，指令Anthropic暂停所有外国国民（含海外员工）对Fable 5和Mythos 5的访问。Anthropic当日5：21pm （ET）收到指令后立即向所有客户禁用这两个模型，其他模型不受影响。政府称发现一种越狱Fable 5的方法；Anthropic审核认为该技术仅能识别少量已知微小漏洞，且其他公开模型（如OpenAI的GPT-5.5）也能做到。Anthropic坚持深度防御策略，认为此次越狱不具普遍性，不同意以此标准召回已服务数亿人的商用模型，正与政府合作争取尽快恢复访问。",
       "category": "行业",
       "tags": [
         "industry"
       ],
-      "url": "https://www.newscientist.com/article/2529849-fully-autonomous-drones-have-killed-human-soldiers-for-the-first-time",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "url": "https://www.anthropic.com/news/fable-mythos-access",
+      "source": "Anthropic：Newsroom（网页）",
       "image": null,
-      "time": "2026-06-11T19:29:06.279Z",
-      "id": 9
+      "time": "2026-06-13T01:15:57.911Z",
+      "id": 2
     },
     {
-      "title": "Replit Agent 新增自定义指令与技能功能",
-      "summary": "AI 智能体很强大，但它们不记得你的偏好。\n\n所以你总是重复指令--如何组织项目、你的品牌指南。\n\n现在你可以通过自定义指令和技能让 Replit Agent 学会你的惯例。\n\n它会在每个项目中自动将这些考虑进去。",
-      "category": "AI",
+      "title": "OpenAI 遭多州总检察长联合调查",
+      "summary": "OpenAI 正被一个由多州总检察长组成的联盟调查，该联盟已向这家人工智能公司索取涵盖广泛主题的信息。",
+      "category": "行业",
+      "tags": [
+        "OpenAI"
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2026-06-13/openai-probed-by-coalition-of-state-attorneys-general",
+      "source": "Bloomberg：Technology（RSS）",
+      "image": null,
+      "time": "2026-06-13T00:27:02.000Z",
+      "id": 3
+    },
+    {
+      "title": "Oran Ge 开源《人味儿写作心法.skill》解决AI写作缺人味",
+      "summary": "Oran Ge 让 Claude Fable 5 打磨文案三遍，发现改稿越来越讲究却缺\"人味儿\"。他与 AI 讨论后得出结论：人写的文字背后有\"存在感\"--作者在具体位置付出过具体代价，而 AI 无法复现。为此他制作了《人味儿写作心法.skill》，专用于自写文章或口述后让 AI 改稿的场景，旨在保留文字的人味。该技能已开源免费发布在 GitHub。",
+      "category": "工具",
+      "tags": [
+        "开源"
+      ],
+      "url": "https://x.com/oran_ge/status/2065566882774868125",
+      "source": "X：Oran Ge (@oran_ge)",
+      "image": null,
+      "time": "2026-06-12T22:48:15.000Z",
+      "id": 4
+    },
+    {
+      "title": "Anthropic首次公众调查：近半美国人盼AI治愈疾病，超六成担忧失业",
+      "summary": "Anthropic对近5.2万美国人调查显示：48%将治愈癌症等疾病列为首要期望，36%希望AI帮助残障人士。64%担忧AI导致失业，56%担忧认知依赖，52%担忧信息误导。超70%支持政府监管，最关注隐私（56%）、儿童安全（52%）和责任归属（49%）。仅15%信任AI公司决策。多数议题上观点不因党派或地域严重分裂。调查于2025年11-12月由YouGov线上执行并加权至人口普查基准。",
+      "category": "工具",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://www.anthropic.com/news/anthropic-public-record",
+      "source": "Anthropic：Newsroom（网页）",
+      "image": null,
+      "time": "2026-06-12T16:14:59.887Z",
+      "id": 5
+    },
+    {
+      "title": "Hermes Agent 在 OpenRouter 上的使用指南：设置、模型与路由",
+      "summary": "Hermes Agent 已通过 OpenRouter 处理超过 17 万亿 tokens。使用指南包括设置流程、选择支持 64K 上下文窗口的模型，以及调整路由策略以兼顾成本与可靠性。",
+      "category": "工具",
       "tags": [
         "Agent"
       ],
-      "url": "https://x.com/Replit/status/2065146579326271883",
-      "source": "X：Replit (@Replit)",
+      "url": "https://openrouter.ai/blog/tutorials/hermes-agent",
+      "source": "OpenRouter：Announcements（RSS）",
       "image": null,
-      "time": "2026-06-11T18:58:07.000Z",
+      "time": "2026-06-12T16:00:00.000Z",
+      "id": 6
+    },
+    {
+      "title": "如何在OpenRouter上获得最低成本的LLM推理",
+      "summary": "在OpenRouter上追加`：floor`可获取最便宜提供商，通过`max_price`设定花费上限，并可免费使用20多个零成本模型。同时需注意避免计费陷阱。",
+      "category": "工具",
+      "tags": [
+        "推理"
+      ],
+      "url": "https://openrouter.ai/blog/tutorials/how-to-get-the-lowest-cost-llm-inference-on-openrouter",
+      "source": "OpenRouter：Announcements（RSS）",
+      "image": null,
+      "time": "2026-06-12T16:00:00.000Z",
+      "id": 7
+    },
+    {
+      "title": "olmo-eval：面向模型开发循环的评估工作台",
+      "summary": "olmo-eval 是基于 OLMES 标准构建的评估工作台，专为 LLM 持续开发中的反复评测场景设计。相比 OLMES，它减少了新增评测的实现工作量，支持 agentic 和多轮评测作为一等用例，并允许根据基准需求选择轻量直接运行或容器化隔离运行。采用模块化架构，模型、工具、容器环境、辅助模型均可独立替换。评测结果同时报告分数、标准误差和最小可检测效应。与 Harbor 侧重于发布不同，olmo-eval 聚焦开发阶段快速迭代，可逐问题对比检查点输出以区分真实改进与噪声。",
+      "category": "AI",
+      "tags": [
+        "ai-products"
+      ],
+      "url": "https://huggingface.co/blog/allenai/olmo-eval",
+      "source": "Hugging Face：Blog（RSS）",
+      "image": null,
+      "time": "2026-06-12T15:56:10.000Z",
+      "id": 8
+    },
+    {
+      "title": "字节豆包上线\"任务模式\"：支持定时执行与文件生成，\"思考模式\"升级为\"专家模式\"",
+      "summary": "6月12日，字节跳动旗下AI应用豆包大范围上线\"任务模式\"，支持定时执行、零代码网页生成、一键PPT生成、数据可视化分析等全链路Agent执行。原\"思考模式\"升级为\"专家模式\"，调用豆包大模型2.0 Pro版本，强化深度推理能力。App顶部模式切换改为\"快速、专家、任务\"。基础功能免费，高阶服务付费，专业版三档：标准版68元/月或688元/年，加强版200元/月或2048元/年，专业版500元/月或5088元/年。",
+      "category": "AI",
+      "tags": [
+        "字节"
+      ],
+      "url": "https://www.ithome.com/0/963/725.htm",
+      "source": "IT之家（RSS）",
+      "image": null,
+      "time": "2026-06-12T15:33:19.000Z",
+      "id": 9
+    },
+    {
+      "title": "MiniMax M3 开源权重模型发布，已上架 HuggingFace",
+      "summary": "MiniMax 发布开源权重模型 M3，约 428B 总参数、23B 激活参数，已上传 HuggingFace。该模型融合三种前沿能力：编码与智能体方面达 59.0% SWE-Bench Pro、66.0% Terminal Bench 2.1、34.8% SWE-fficiency、28.8% KernelBench Hard、74.2% MCP Atlas；采用 MiniMax 稀疏注意力将上下文窗口扩展至 1M token；原生多模态。同步上线 MiniMax Code 工具及 API 平台。权重与技术报告预计约 10 天后发布。",
+      "category": "AI",
+      "tags": [
+        "开源"
+      ],
+      "url": "https://x.com/MiniMax_AI/status/2065436935188058208",
+      "source": "X：MiniMax (@MiniMax_AI)",
+      "image": null,
+      "time": "2026-06-12T14:11:53.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "XiaomiMiMo/MiMo-Code",
-      "description": "跨会话记忆的AI编码助手",
-      "language": "TypeScript",
-      "stars": 5025,
-      "starsToday": 3756,
-      "forks": 388,
-      "url": "https://github.com/XiaomiMiMo/MiMo-Code",
+      "name": "ultraworkers/claw-code",
+      "description": "基于真实蟹力装备的Rust代码库",
+      "language": "Rust",
+      "stars": 193699,
+      "starsToday": 2653,
+      "forks": 109962,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 1
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "个人AI助手，多平台语音交互",
+      "name": "XiaomiMiMo/MiMo-Code",
+      "description": "跨会话记忆的AI编程助手",
       "language": "TypeScript",
-      "stars": 378252,
-      "starsToday": 1901,
-      "forks": 79099,
-      "url": "https://github.com/openclaw/openclaw",
+      "stars": 7011,
+      "starsToday": 1986,
+      "forks": 552,
+      "url": "https://github.com/XiaomiMiMo/MiMo-Code",
       "rank": 2
     },
     {
-      "name": "farion1231/cc-switch",
-      "description": "多工具代码管理器",
-      "language": "Rust",
-      "stars": 98730,
-      "starsToday": 1006,
-      "forks": 6498,
-      "url": "https://github.com/farion1231/cc-switch",
+      "name": "DietrichGebert/ponytail",
+      "description": "代码生成器，减少代码量，提升效率",
+      "language": "JavaScript",
+      "stars": 969,
+      "starsToday": 969,
+      "forks": 44,
+      "url": "https://github.com/DietrichGebert/ponytail",
       "rank": 3
     },
     {
       "name": "NousResearch/hermes-agent",
-      "description": "自我改进AI代理，跨会话知识积累",
+      "description": "自改进AI代理，跨会话记忆",
       "language": "Python",
-      "stars": 191142,
-      "starsToday": 995,
-      "forks": 33207,
+      "stars": 192074,
+      "starsToday": 932,
+      "forks": 33473,
       "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 4
     },
     {
-      "name": "shadcn/improve",
-      "description": "代码审计与实现计划生成器",
-      "language": "Unknown",
-      "stars": 1912,
-      "starsToday": 950,
-      "forks": 66,
-      "url": "https://github.com/shadcn/improve",
+      "name": "affaan-m/ECC",
+      "description": "多语言支持的JavaScript库",
+      "language": "JavaScript",
+      "stars": 214375,
+      "starsToday": 737,
+      "forks": 32941,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 5
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言支持",
-      "language": "JavaScript",
-      "stars": 213638,
-      "starsToday": 803,
-      "forks": 32840,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "farion1231/cc-switch",
+      "description": "多工具管理器，统一管理代码工具",
+      "language": "Rust",
+      "stars": 99455,
+      "starsToday": 725,
+      "forks": 6559,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 6
     },
     {
-      "name": "GordenSun/GordenSuperPPTSkills",
-      "description": "AI生成PPT，一键转换PPTX",
-      "language": "Python",
-      "stars": 800,
-      "starsToday": 200,
-      "forks": 83,
-      "url": "https://github.com/GordenSun/GordenSuperPPTSkills",
+      "name": "shadcn/improve",
+      "description": "代码审计与实施计划生成器",
+      "language": "Unknown",
+      "stars": 2467,
+      "starsToday": 555,
+      "forks": 88,
+      "url": "https://github.com/shadcn/improve",
       "rank": 7
     },
     {
-      "name": "MSNightmare/RoguePlanet",
-      "description": "Windows Defender漏洞利用工具",
-      "language": "C++",
-      "stars": 1126,
-      "starsToday": 183,
-      "forks": 475,
-      "url": "https://github.com/MSNightmare/RoguePlanet",
+      "name": "NoopApp/noop",
+      "description": "本地优先，无云数据管理",
+      "language": "Swift",
+      "stars": 1546,
+      "starsToday": 309,
+      "forks": 691,
+      "url": "https://github.com/NoopApp/noop",
       "rank": 8
     },
     {
       "name": "public-apis/public-apis",
       "description": "免费公共API资源库",
       "language": "Python",
-      "stars": 440909,
-      "starsToday": 178,
-      "forks": 48317,
+      "stars": 441090,
+      "starsToday": 181,
+      "forks": 48343,
       "url": "https://github.com/public-apis/public-apis",
       "rank": 9
     },
     {
-      "name": "ollama/ollama",
-      "description": "使用开源模型构建",
-      "language": "Go",
-      "stars": 173912,
-      "starsToday": 161,
-      "forks": 16562,
-      "url": "https://github.com/ollama/ollama",
+      "name": "openclaw/openclaw",
+      "description": "个人AI助手，多平台支持",
+      "language": "TypeScript",
+      "stars": 378414,
+      "starsToday": 162,
+      "forks": 79148,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-06-12",
-    "updatedAt": "2026-06-12T03:55:12.780Z",
+    "date": "2026-06-13",
+    "updatedAt": "2026-06-13T03:39:59.164Z",
     "highlights": [
-      "AI工具与平台发展迅速",
-      "苹果健康App重大更新",
-      "Spec驱动开发闭环技能提升",
-      "Codex推出开发者模式与攒存功能",
-      "LLM模拟研究引发安全担忧",
-      "全自主无人机行业应用突破",
-      "Replit功能升级与集成"
+      "AI安全与监管挑战加剧",
+      "AI写作工具创新",
+      "AI代理与编程助手发展",
+      "开源模型与工具活跃",
+      "AI应用场景拓展"
     ],
     "keywords": [
-      "AI工具",
-      "苹果iOS",
-      "Spec驱动开发",
-      "Codex",
-      "OpenAI",
-      "LLM",
-      "无人机",
-      "Replit",
-      "Databricks",
-      "代码审计",
-      "多语言支持",
-      "AI生成PPT",
-      "Windows Defender",
-      "公共API",
-      "开源模型"
+      "AI安全",
+      "监管",
+      "AI写作",
+      "AI代理",
+      "开源",
+      "模型工具",
+      "AI应用"
     ],
-    "trendingSummary": "今日技术资讯显示，AI工具和平台发展迅速，苹果iOS健康App迎来重大更新，Spec驱动开发闭环技能提升，Codex推出开发者模式与攒存功能。同时，LLM模拟研究引发安全担忧，无人机行业应用突破，Replit功能升级与集成，显示技术正不断向更高层次发展。"
+    "trendingSummary": "今日技术资讯显示，AI安全与监管成为焦点，同时AI写作工具和代理技术取得进展。开源模型和工具活跃，AI应用场景不断拓展。"
   }
 }
