@@ -1,7 +1,47 @@
 {
-  "date": "2026-06-21",
-  "updatedAt": "2026-06-21T04:10:34.383Z",
+  "date": "2026-06-22",
+  "updatedAt": "2026-06-22T04:11:16.686Z",
   "techNews": [
+    {
+      "title": "NSA局长：Mythos数小时内攻破其几乎所有机密系统",
+      "summary": "美国NSA局长称，Mythos在数小时内攻破了其几乎所有机密系统。此前Mythos已在5天内破解MacOS。而顶级漏洞团队Google Project Zero完成同等攻击需6个月，单个MacOS零日漏洞价值约200万美元。苹果原假设全球仅10-20个团队具备此能力，Mythos将使该数字增至数千。全球约20亿活跃苹果设备中，Mac用户多为记者、高管、政府官员等高价值目标，苹果曾是\"最安全\"的选择。",
+      "category": "行业",
+      "tags": [
+        "industry"
+      ],
+      "url": "https://x.com/AISafetyMemes/status/2068718552174252477",
+      "source": "X：AI Safety Memes (@AISafetyMemes)",
+      "image": null,
+      "time": "2026-06-21T15:31:52.000Z",
+      "id": 1
+    },
+    {
+      "title": "美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型",
+      "summary": "美团近期上线tabbit国际版应用，免费集成多家顶级AI模型的最新旗舰版，包括GPT-5.5、Claude Opus 4.8、Gemini 3.5 Flash，以及国内Kimi-2.6、GLM-5.1、MiniMax-M3。用户无需单独订阅即可使用这些模型。需注意：只有国际版包含海外模型，国内版仅提供国内模型。该应用旨在抢占AI入口，目前处于免费推广阶段。",
+      "category": "AI",
+      "tags": [
+        "OpenAI",
+        "Claude"
+      ],
+      "url": "https://x.com/AYi_AInotes/status/2068637890247016607",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "image": null,
+      "time": "2026-06-21T10:11:21.000Z",
+      "id": 2
+    },
+    {
+      "title": "腾讯元宝父亲节活动：上传照片生成与年轻爸爸的合影",
+      "summary": "腾讯元宝推出父亲节主题活动，用户可选择爸爸年轻时照片与自己的照片，输入提示词（如\"帮我生成一张和爸爸的合影，将图2的我融合到图1爸爸的照片中，我想穿越回__年前，和他一起_____；保留爸爸照片的背景、动作及五官；人物姿态自然协调，整体光线与色调保持一致\"），元宝即可生成合影。活动旨在让用户\"回到过去\"看到爸爸的青春模样。",
+      "category": "工具",
+      "tags": [
+        "腾讯"
+      ],
+      "url": "https://mp.weixin.qq.com/s/xrTg2Bdy3FF3gn3C_gVBJQ",
+      "source": "公众号：腾讯元宝",
+      "image": null,
+      "time": "2026-06-21T04:51:10.000Z",
+      "id": 3
+    },
     {
       "title": "开源教程《Deep Agents 实战》发布",
       "summary": "LangChain 官方认证大使 @zhanghaili0610 推出开源教程《Deep Agents 实战》，基于 LangChain / LangGraph 生态，讲解如何用 Deep Agents Harness 框架构建真实 Agent 应用。核心是\"三层架构\"：Runtime（LangGraph）、Framework（LangChain）、Harness（Deep Agents）。技术内核为上下文工程，通过虚拟文件系统实现按需读取、中间结果落盘、大文件局部读取。教程共 8 章 + 2 准备篇，覆盖虚拟文件系统（六大工具）、任务规划、子 Agent 委派（异步并行）及 Skills 复用（可在 Claude Code、Cursor 等 30+ 工具中通用）。",
@@ -14,7 +54,7 @@
       "source": "X：邵猛 (@shao__meng)",
       "image": null,
       "time": "2026-06-20T12:16:16.000Z",
-      "id": 1
+      "id": 4
     },
     {
       "title": "微软双向转售GPT与DeepSeek成全球最大AI中间商",
@@ -28,7 +68,7 @@
       "source": "X：阿易 AI Notes (@AYi_AInotes)",
       "image": null,
       "time": "2026-06-20T06:25:29.000Z",
-      "id": 2
+      "id": 5
     },
     {
       "title": "NVIDIA Research 发布 SpatialClaw：免训练空间推理框架",
@@ -42,7 +82,7 @@
       "source": "MarkTechPost（RSS）",
       "image": null,
       "time": "2026-06-19T22:51:59.000Z",
-      "id": 3
+      "id": 6
     },
     {
       "title": "Figure机器人数首超人类员工",
@@ -55,7 +95,7 @@
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "image": null,
       "time": "2026-06-19T21:50:24.000Z",
-      "id": 4
+      "id": 7
     },
     {
       "title": "JAWBONE Act：一项打击政府为压制合法网络言论而施压的新法案",
@@ -68,7 +108,7 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "image": null,
       "time": "2026-06-19T19:41:30.069Z",
-      "id": 5
+      "id": 8
     },
     {
       "title": "OpenRouter vs Portkey：你的团队该选哪个LLM网关？",
@@ -81,7 +121,7 @@
       "source": "OpenRouter：Announcements（RSS）",
       "image": null,
       "time": "2026-06-19T19:00:00.000Z",
-      "id": 6
+      "id": 9
     },
     {
       "title": "baoyu-design Skill迭代：修复导出样式与渐变丢失问题，支持AI配图导出PPTX",
@@ -94,186 +134,138 @@
       "source": "X：宝玉 (@dotey)",
       "image": null,
       "time": "2026-06-19T18:43:30.000Z",
-      "id": 7
-    },
-    {
-      "title": "AI中心的数据黑洞",
-      "summary": "智能的一种定义是样本效率，但近年AI进步主要靠扩充数据分布和增加算力。强化学习本质是合成数据生成--投入大量算力通过验证器筛选\"好\"数据，再训练模型预测正确输出。这一过程需要每个领域和技能的海量人类专家示例，数据行业年收入已达数十亿美元。近日Epoch报告，开源模型仅落后前沿闭源模型4个月，原因在于数据可从公开API蒸馏，而超参数等不易复制。人类一生接触约2亿token，前沿模型训练在数十到数百T token之间，相差近百万倍--机器人、自动驾驶等领域同样存在巨大效率差距。",
-      "category": "工具",
-      "tags": [
-        "tip"
-      ],
-      "url": "https://www.dwarkesh.com/p/the-sample-efficiency-black-hole-2",
-      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
-      "image": null,
-      "time": "2026-06-19T16:45:03.000Z",
-      "id": 8
-    },
-    {
-      "title": "AlphaFold 负责人 John Jumper 离职 Google DeepMind，加入 Anthropic",
-      "summary": "AlphaFold 团队负责人 John Jumper 宣布，在 Google DeepMind 工作近 9 年后决定离职，将加入 Anthropic（先休整一段时间）。DeepMind CEO Demis Hassabis 表示，过去 9 年与 Jumper 的非凡合作改变了世界，AlphaFold 展示了 AI 在科学与医学领域的巨大潜力，并为 AI 造福人类指明了方向。Jumper 回忆，Hassabis 在他博士毕业仅 6 个月后就大胆让他领导 AlphaFold 团队，感谢团队教会他如何做伟大的科学。",
-      "category": "行业",
-      "tags": [
-        "Claude",
-        "Gemini"
-      ],
-      "url": "https://x.com/demishassabis/status/2068002732250640603",
-      "source": "X：Demis Hassabis (@demishassabis)",
-      "image": null,
-      "time": "2026-06-19T16:07:27.000Z",
-      "id": 9
-    },
-    {
-      "title": "OpenRouter vs LiteLLM：如何选择 LLM 网关",
-      "summary": "OpenRouter 是托管在 Cloudflare 边缘的 LLM 网关，无需管理基础设施，收取 5.5% 平台费（前 100 万次请求免费），支持 70+ 提供商和自动故障转移。LiteLLM 是自部署代理（Docker/PostgreSQL/Redis），数据不离开内网，免费开源，但需承担基础设施成本（生产部署约数百美元/月）。当模型月支出超过约 $3，600（基础设施 $200/月）或 $9，100（基础设施 $500/月）时自托管更划算。LiteLLM 提供六种路由策略和自定义 Python 路由；OpenRouter 具备 SOC 2、GDPR 认证和零数据保留选项。两者可串联使用。",
-      "category": "工具",
-      "tags": [
-        "tip"
-      ],
-      "url": "https://openrouter.ai/blog/insights/openrouter-vs-litellm",
-      "source": "OpenRouter：Announcements（RSS）",
-      "image": null,
-      "time": "2026-06-19T15:00:00.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "ultraworkers/claw-code",
-      "description": "基于真实蟹力装备的Rust项目",
-      "language": "Rust",
-      "stars": 194100,
-      "starsToday": 2396,
-      "forks": 109936,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "NousResearch/hermes-agent",
+      "description": "自学习AI代理，内置学习循环，跨会话构建用户模型",
+      "language": "Python",
+      "stars": 199150,
+      "starsToday": 740,
+      "forks": 35376,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 1
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自改进AI代理，内置学习循环",
-      "language": "Python",
-      "stars": 198410,
-      "starsToday": 700,
-      "forks": 35194,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "farion1231/cc-switch",
+      "description": "Claude系列工具全平台管理器，官方网站ccswitch.io",
+      "language": "Rust",
+      "stars": 105845,
+      "starsToday": 575,
+      "forks": 7005,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 2
     },
     {
       "name": "affaan-m/ECC",
-      "description": "多语言跨平台代理工作流",
+      "description": "多语言支持，跨平台代理工作流",
       "language": "JavaScript",
-      "stars": 218918,
-      "starsToday": 581,
-      "forks": 33563,
+      "stars": 219411,
+      "starsToday": 493,
+      "forks": 33632,
       "url": "https://github.com/affaan-m/ECC",
       "rank": 3
     },
     {
-      "name": "Forsy-AI/agent-apprenticeship",
-      "description": "AI代理学习生态系统",
-      "language": "Unknown",
-      "stars": 536,
-      "starsToday": 536,
-      "forks": 0,
-      "url": "https://github.com/Forsy-AI/agent-apprenticeship",
+      "name": "zhongerxin/Cowart",
+      "description": "Codex本地画布插件，可视化构思与迭代图片",
+      "language": "JavaScript",
+      "stars": 1410,
+      "starsToday": 470,
+      "forks": 116,
+      "url": "https://github.com/zhongerxin/Cowart",
       "rank": 4
     },
     {
-      "name": "farion1231/cc-switch",
-      "description": "Claude代码全功能管理器",
-      "language": "Rust",
-      "stars": 105270,
-      "starsToday": 491,
-      "forks": 6963,
-      "url": "https://github.com/farion1231/cc-switch",
+      "name": "vercel/eve",
+      "description": "文件系统优先的AI代理框架，易于扩展和操作",
+      "language": "TypeScript",
+      "stars": 2109,
+      "starsToday": 226,
+      "forks": 150,
+      "url": "https://github.com/vercel/eve",
       "rank": 5
     },
     {
-      "name": "tamnd/kage",
-      "description": "离线浏览网站克隆工具",
-      "language": "Go",
-      "stars": 2172,
-      "starsToday": 362,
-      "forks": 70,
-      "url": "https://github.com/tamnd/kage",
+      "name": "public-apis/public-apis",
+      "description": "免费公共API库，社区维护多年",
+      "language": "Python",
+      "stars": 443383,
+      "starsToday": 221,
+      "forks": 48599,
+      "url": "https://github.com/public-apis/public-apis",
       "rank": 6
     },
     {
-      "name": "public-apis/public-apis",
-      "description": "免费公共API资源库",
-      "language": "Python",
-      "stars": 443162,
-      "starsToday": 225,
-      "forks": 48574,
-      "url": "https://github.com/public-apis/public-apis",
+      "name": "ollama/ollama",
+      "description": "基于开源模型的构建平台",
+      "language": "Go",
+      "stars": 174691,
+      "starsToday": 160,
+      "forks": 16703,
+      "url": "https://github.com/ollama/ollama",
       "rank": 7
     },
     {
-      "name": "vercel/eve",
-      "description": "持久AI代理文件系统框架",
+      "name": "openclaw/openclaw",
+      "description": "个人AI助手，跨平台语音交互",
       "language": "TypeScript",
-      "stars": 1883,
-      "starsToday": 222,
-      "forks": 122,
-      "url": "https://github.com/vercel/eve",
+      "stars": 379846,
+      "starsToday": 151,
+      "forks": 79517,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 8
     },
     {
-      "name": "Waishnav/devspace",
-      "description": "ChatGPT Codex式编码工作流",
+      "name": "Plaer1/junction",
+      "description": "VS Code聊天侧边栏，连接本地AI编码代理",
       "language": "TypeScript",
-      "stars": 1660,
-      "starsToday": 220,
-      "forks": 148,
-      "url": "https://github.com/Waishnav/devspace",
+      "stars": 518,
+      "starsToday": 130,
+      "forks": 7,
+      "url": "https://github.com/Plaer1/junction",
       "rank": 9
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "个人AI助手，多平台支持",
-      "language": "TypeScript",
-      "stars": 379695,
-      "starsToday": 156,
-      "forks": 79481,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "rebel0789/codexpro",
+      "description": "ChatGPT与Codex风格仓库交互插件",
+      "language": "JavaScript",
+      "stars": 636,
+      "starsToday": 127,
+      "forks": 58,
+      "url": "https://github.com/rebel0789/codexpro",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-06-21",
-    "updatedAt": "2026-06-21T04:10:34.383Z",
+    "date": "2026-06-22",
+    "updatedAt": "2026-06-22T04:11:16.686Z",
     "highlights": [
-      "《Deep Agents 实战》教程发布",
-      "微软成为全球最大AI中间商",
-      "NVIDIA发布免训练空间推理框架",
-      "Figure机器人数首超人类员工",
-      "新法案打击政府压制网络言论"
+      "NSA系统被Mythos攻破",
+      "美团tabbit接入GPT-5.5",
+      "腾讯元宝父亲节活动",
+      "《Deep Agents 实战》发布",
+      "微软成为AI中间商",
+      "NVIDIA发布SpatialClaw",
+      "Figure机器人数超人类",
+      "JAWBONE Act打击网络言论压制",
+      "OpenRouter与PortkeyLLM网关选择",
+      "baoyu-design Skill更新"
     ],
     "keywords": [
+      "Mythos",
+      "GPT-5.5",
+      "AI代理",
       "Deep Agents",
-      "微软",
       "AI中间商",
-      "NVIDIA",
       "SpatialClaw",
-      "Figure",
+      "机器人数",
       "JAWBONE Act",
-      "OpenRouter",
-      "baoyu-design",
-      "AlphaFold",
-      "John Jumper",
-      "Anthropic",
-      "GitHub",
-      "ultraworkers/claw-code",
-      "NousResearch/hermes-agent",
-      "affaan-m/ECC",
-      "Forsy-AI/agent-apprenticeship",
-      "farion1231/cc-switch",
-      "tamnd/kage",
-      "public-apis/public-apis",
-      "vercel/eve",
-      "Waishnav/devspace",
-      "openclaw/openclaw"
+      "LLM网关",
+      "baoyu-design Skill"
     ],
-    "trendingSummary": "今日技术趋势聚焦于AI领域的进展，包括微软在AI市场的扩张、NVIDIA的新框架发布以及AI代理技术的发展。同时，开源教程和工具的更新也受到关注。"
+    "trendingSummary": "今日技术资讯显示，AI安全与效率成为焦点，同时开源工具和平台更新活跃。NSA系统遭遇安全挑战，美团和腾讯推出AI应用，微软在AI市场扮演重要角色，NVIDIA和Figure等公司展示AI技术进步。"
   }
 }
