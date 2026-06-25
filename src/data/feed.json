@@ -1,267 +1,275 @@
 {
-  "date": "2026-06-24",
-  "updatedAt": "2026-06-24T03:32:51.145Z",
+  "date": "2026-06-25",
+  "updatedAt": "2026-06-25T03:31:18.259Z",
   "techNews": [
     {
-      "title": "今天，豆包正式推出专业版",
-      "summary": "豆包专业版基于豆包2.1系列大模型上线，面向复杂办公与生产力场景。办公任务模式接入可执行Agent任务的豆包2.1模型，支持操作本地电脑、浏览器、调用Skills技能、定时任务，内置Office办公套件，并可生成带后端数据库的在线应用。免费用户可体验豆包2.1 Turbo版办公任务模式，专业版接入豆包2.1 Pro模型。定价：标准套餐68元/月（连续包月），加强套餐200元/月，高级套餐500元/月。大学生认证后标准套餐38元/月，持续6个月。",
+      "title": "盈透证券（Interactive Brokers）与 Grok 集成：组合分析、情景建模与实时交易指令生成",
+      "summary": "盈透证券（Interactive Brokers）近日与 Grok 集成，用户可在几分钟内免费关联现有账户，无需注册新账户。通过自然语言与 Grok 对话，可完成组合收益分析（如股息与利息预测）、行业/地区/经济事件的风险敞口情景建模、市场趋势研究，并直接生成对冲订单等实时交易指令，实现从数据洞察到执行决策的一体化。",
       "category": "AI",
       "tags": [
-        "字节"
+        "ai-products"
       ],
-      "url": "https://mp.weixin.qq.com/s/Sb-NMXTrWFQES1EDO_Gr2g",
-      "source": "公众号：豆包（字节）",
+      "url": "https://x.ai/news/grok-interactive-brokers",
+      "source": "xAI：News（网页）",
       "image": null,
-      "time": "2026-06-24T01:00:00.000Z",
+      "time": "2026-06-25T00:00:00.000Z",
       "id": 1
     },
     {
-      "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15%",
-      "summary": "一项覆盖340万人、400万份申请、150家雇主和1700个职位的大规模实地研究发现，AI招聘筛选工具存在显著的种族歧视：26%的黑人申请者和15%的亚裔申请者遭遇算法对其族群的系统性排斥；若AI按推荐率最高群体（通常为白人）标准执行，将有4万份额外申请进入下一轮。多数雇主依赖同一第三方供应商算法，形成\"算法单一文化\"，导致10%提交4份申请者被所有职位拒绝。对比同期未用AI的招聘数据（8.3万份申请、108家财富500强企业），未发现此类模式。研究呼吁对算法招聘进行独立监管。",
-      "category": "AI",
+      "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
+      "summary": "风投机构SignalFire追踪8000万家公司数百万员工数据发现，工程是2025年最具韧性的岗位。大型科技公司总招聘较2019年下降25%，工程岗仅降11%；工程岗占Alphabet、Meta等12家\"Tech Majors\"新招员工的55%（2019年为46%）。早期初创公司2025年工程师招聘比2019年增长7%。Anthropic CEO警告AI可能消灭一半入门级白领，但该公司经济主管称尚未看到显著影响。NVIDIA CEO黄仁勋表示AI让工程师更忙碌，是杰文斯悖论的典型例证。",
+      "category": "工具",
       "tags": [
-        "paper"
+        "tip"
       ],
-      "url": "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient",
+      "source": "TechCrunch：AI（RSS）",
       "image": null,
-      "time": "2026-06-23T21:48:25.964Z",
+      "time": "2026-06-24T21:56:41.000Z",
       "id": 2
     },
     {
-      "title": "Runway推出Seedance 4K等三款新模型",
-      "summary": "Seedance 4K。Seedance Mini。Kling 3.0 Turbo。现已推出。\n全球最佳模型，汇聚一处。\n\n使用优惠码 30RUNWAY，前三个月可享七折优惠。\n\n通过下方链接开始使用。",
+      "title": "Gemini 3.5 Flash 中的计算机使用",
+      "summary": "Google 将计算机使用（Computer use）作为内置工具集成至 Gemini 3.5 Flash，使开发者能构建跨浏览器、移动端和桌面环境的智能体。此前该功能仅作为独立模型在 Gemini 2.5 中提供，现已原生整合至主 Flash 模型。开发者可通过 Gemini API 及 Gemini Enterprise Agent Platform 调用。安全方面，模型采用针对性对抗训练降低提示注入风险，并新增两项可选企业级保护：要求用户确认敏感操作、检测到间接提示注入时自动停止。该能力在持续软件测试、跨应用知识工作等长周期企业自动化场景中表现更优。（198字）",
       "category": "AI",
       "tags": [
-        "ai-products"
+        "Gemini"
       ],
-      "url": "https://x.com/runwayml/status/2069535148450705517",
-      "source": "X：Runway (@runwayml)",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "image": null,
-      "time": "2026-06-23T21:36:44.000Z",
+      "time": "2026-06-24T21:16:01.786Z",
       "id": 3
     },
     {
-      "title": "Oracle因AI应用裁员21000人，债务驱动云基础设施投资",
-      "summary": "Oracle在截至5月31日的财年裁员21000人，员工总数降至141，000人，降幅12.9%。公司称AI技术的采用导致劳动力缩减，同时重组成本达18亿美元，同比增长481%。Oracle计划2026年通过债务和股权筹集450至500亿美元，扩建Oracle Cloud Infrastructure，服务OpenAI、xAI、AMD、Nvidia、Meta等客户。公司债务超1200亿美元。分析人士指出裁员有助于改善现金流，但Oracle也承认大规模裁员可能带来生产力下降、人才短缺和员工士气受损等风险。",
-      "category": "行业",
+      "title": "Notion 使用 Cursor SDK 嵌入编码智能体",
+      "summary": "Notion 通过 Cursor SDK 在数周内将编码智能体嵌入产品。用户可在文档中@Cursor、在讨论串中提及或向数据库指派任务，Cursor 即可端到端完成规划、构建、测试、验证并自动创建 PR。集成基于一套 Provider 无关的智能体框架，Notion 的讨论串对应一个 Cursor 智能体，每条消息对应一次智能体运行；结果通过 SSE 流式传输，支持断连恢复。Cursor SDK 提供与生产环境相同的模型、运行时和远程 MCP 支持，让 Notion 无需自建智能体基础设施即可获得完整栈编码能力。用户还可自定义模板、MCP 服务器、技能和子智能体，并设置自动触发规则。",
+      "category": "AI",
       "tags": [
-        "industry"
+        "Agent"
       ],
-      "url": "https://arstechnica.com/ai/2026/06/oracles-21000-layoffs-help-drive-its-debt-fueled-ai-investments",
-      "source": "Ars Technica：AI（RSS）",
+      "url": "https://cursor.com/blog/notion",
+      "source": "Cursor Blog",
       "image": null,
-      "time": "2026-06-23T20:17:38.000Z",
+      "time": "2026-06-24T20:55:19.799Z",
       "id": 4
     },
     {
-      "title": "FastWan-QAD：单卡5090上1.8秒生成5秒视频",
-      "summary": "Sky Computing Lab 发布 FastWan-QAD 视频生成模型系列，基于 FastVideo 的量化感知蒸馏（QAD）方案训练。在单张 NVIDIA GeForce RTX 5090 上，端到端生成一段 5 秒 480P 视频仅需 1.8 秒。模型、代码及博客已开源。",
-      "category": "AI",
-      "tags": [
-        "ai-models"
-      ],
-      "url": "https://x.com/haoailab/status/2069493820732170695",
-      "source": "X：Sky Computing Lab (@haoailab)",
-      "image": null,
-      "time": "2026-06-23T18:52:30.000Z",
-      "id": 5
-    },
-    {
-      "title": "Krea 2 技术报告正式发布",
-      "summary": "我们的技术报告已发布。\n\n深入解析创建 Krea 2 所用的数据、架构及训练技巧。\n\nhttps：//www.krea.ai/blog/krea-2-technical-report",
-      "category": "AI",
-      "tags": [
-        "ai-models"
-      ],
-      "url": "https://x.com/krea_ai/status/2069473417804591191",
-      "source": "X：Krea AI (@krea_ai)",
-      "image": null,
-      "time": "2026-06-23T17:31:26.000Z",
-      "id": 6
-    },
-    {
-      "title": "Anthropic 推出 Claude Tag：在 Slack 中通过 @Claude 协作",
-      "summary": "Anthropic 推出 Claude Tag，一种在 Slack 频道中通过 @Claude 委托任务的新协作方式。Claude 可记住频道上下文，支持多用户交互，经授权后可自动学习其他频道和数据源。开启\"环境\"行为后，能主动更新未解决的线程或任务。支持异步工作，可自主推进项目数小时或数天。即日起面向 Claude Enterprise 和 Team 客户提供 beta 版。管理员可精细控制工具和渠道访问权限、设置 token 消耗限额，并查看所有操作日志。",
-      "category": "AI",
-      "tags": [
-        "Claude"
-      ],
-      "url": "https://www.anthropic.com/news/introducing-claude-tag",
-      "source": "Anthropic：Newsroom（网页）",
-      "image": null,
-      "time": "2026-06-23T17:09:41.902Z",
-      "id": 7
-    },
-    {
-      "title": "GitHub联合开源联盟呼吁修改加州AI透明度法案以保护开源",
-      "summary": "GitHub 联合 Black Forest Labs、Hugging Face 与 Mozilla Corporation 组成开源联盟，呼吁对加州 AI 透明度法案（SB 942，拟由 SB 1000 修正）进行针对性修改。当前草案要求开发者在下游用户未履行义务时撤销开源许可证，这与开源许可证永久不可撤销的性质冲突。联盟认为该要求非必要，已有直接监管和执法机制，并建议参考欧盟 AI 法案的透明度实践规范，以向下游用户通知最佳实践文档的方式替代撤销条款。GitHub 支持这些修正，以在保持透明度目标的同时兼容开源开发模式。",
-      "category": "行业",
-      "tags": [
-        "开源"
-      ],
-      "url": "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source",
-      "source": "GitHub Blog",
-      "image": null,
-      "time": "2026-06-23T15:48:00.000Z",
-      "id": 8
-    },
-    {
-      "title": "Mistral OCR 4",
-      "summary": "Mistral AI 发布 OCR 4，新增边界框、块分类（标题、表格、方程式、签名等）及逐页逐词置信度分数。支持 170 种语言、10 个语系，可单容器全自托管部署。在 OlmOCRBench 上得分 85.20，独立标注者偏好率平均 72%。定价每 1000 页 $4，Batch API 享 50% 折扣。可通过 API 或 Mistral Studio 的 Document AI 调用。",
-      "category": "AI",
-      "tags": [
-        "ai-models"
-      ],
-      "url": "https://mistral.ai/news/ocr-4",
-      "source": "Mistral AI：News（网页）",
-      "image": null,
-      "time": "2026-06-23T14:24:55.949Z",
-      "id": 9
-    },
-    {
-      "title": "无限制OCR：单次长时域解析",
-      "summary": "Unlimited OCR 是一个托管在 GitHub 的项目，实现单次长时域解析（One-Shot Long-Horizon Parsing），旨在一次性处理长时间跨度的 OCR 任务。",
+      "title": "Perplexity推出Computer for Counsel",
+      "summary": "推出 Computer for Counsel。\n\nComputer 现在连接了律师日常使用的研究数据库、文档工具和案件管理系统。可从中提取可引用来源：@midpageAI、@LegalZoom、@Docusign、@netdocuments 等。\n\n所有 Pro 和 Max 订阅用户均可使用。",
       "category": "AI",
       "tags": [
         "ai-products"
       ],
-      "url": "https://github.com/baidu/Unlimited-OCR",
+      "url": "https://x.com/perplexity_ai/status/2069866668671766804",
+      "source": "X：Perplexity (@perplexity_ai)",
+      "image": null,
+      "time": "2026-06-24T19:34:04.000Z",
+      "id": 5
+    },
+    {
+      "title": "在与Anthropic的纠纷中，NSA失去了对Mythos的访问权限",
+      "summary": "美国国家安全局（NSA）因与人工智能公司Anthropic的纠纷，失去了对Mythos系统的访问权限。",
+      "category": "行业",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html",
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "image": null,
-      "time": "2026-06-23T13:32:22.612Z",
+      "time": "2026-06-24T19:08:32.032Z",
+      "id": 6
+    },
+    {
+      "title": "GPT-5.5 Instant 新版本，对话更有趣",
+      "summary": "我们为你带来了新版 GPT-5.5 Instant，它现在聊起天来有趣多了。\n\n我们最常用的模型现在能更好地理解问题背后的意图，并相应地调整回应。\n\n它也能更可靠地处理复杂约束，让购物和本地推荐更加实用和连贯。\n\n今天向付费用户推送，明天向免费用户推送。",
+      "category": "AI",
+      "tags": [
+        "OpenAI"
+      ],
+      "url": "https://x.com/OpenAI/status/2069843083701915755",
+      "source": "X：OpenAI (@OpenAI)",
+      "image": null,
+      "time": "2026-06-24T18:00:21.000Z",
+      "id": 7
+    },
+    {
+      "title": "思考即回忆：推理如何解锁LLM中的参数化知识",
+      "summary": "Google Research研究发现，推理（chain-of-thought）能帮助大语言模型（LLM）回忆简单事实，即使这些事实无需复杂推导。在Gemini-2.5 Flash和Pro以及Qwen3-32B上，启用推理后模型能够回答原本无法直接回答的简单问题，pass@k显示正确事实存在于输出分布中。该现象由两个机制驱动：一是生成的推理token充当计算缓冲，允许模型进行隐藏计算以提取参数化知识；二是推理过程中产生的相关事实起到启动效应（factual priming），帮助模型激活正确答案。",
+      "category": "AI",
+      "tags": [
+        "推理"
+      ],
+      "url": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms",
+      "source": "Google Research：Blog（网页）",
+      "image": null,
+      "time": "2026-06-24T17:05:40.380Z",
+      "id": 8
+    },
+    {
+      "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
+      "summary": "Figma在Config 2026将设计画布扩展至代码、动画、3D深度和着色器效果，并集成去年收购的Weave工作流系统。新功能包括Code Layers（代码与设计并存）、Motion动画、深度层、Shader及Generative Plugins。协作方面，团队可搜索复用AI提示词、保存工作流为技能、共享插件。Figma的AI功能依赖Anthropic、OpenAI和Google等外部模型，推理成本挤压利润率。同时，Anthropic等公司的竞争产品可直接生成界面，构成威胁。",
+      "category": "AI",
+      "tags": [
+        "设计"
+      ],
+      "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else",
+      "source": "The Decoder：AI News（RSS）",
+      "image": null,
+      "time": "2026-06-24T16:49:01.000Z",
+      "id": 9
+    },
+    {
+      "title": "NVIDIA NeMo AutoModel：一行代码加速Transformer MoE模型微调",
+      "summary": "NVIDIA NeMo AutoModel 是基于 Transformers v5 的开源库，添加 Expert Parallelism、DeepEP 融合 all-to-all 调度和 TransformerEngine 内核。在 MoE 模型微调中，相比原生 v5，训练吞吐量提升 3.4-3.7 倍，GPU 内存减少 29-32%，仅需改动一行 import。在 16 节点 128 张 H100 上全微调 Nemotron 3 Ultra 550B A55B 时，v5 因内存不足无法运行，而 AutoModel 凭借 EP=64 专家并行使训练可行。单节点 30B MoE 模型（如 Qwen3-30B-A3B）同样获得可量化的性能优势。",
+      "category": "工具",
+      "tags": [
+        "编程",
+        "算力"
+      ],
+      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "source": "Hugging Face：Blog（RSS）",
+      "image": null,
+      "time": "2026-06-24T16:00:13.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "openclaw/openclaw",
-      "description": "个人AI助手，多平台语音交互，实时画布控制",
-      "language": "TypeScript",
-      "stars": 380169,
-      "starsToday": 1802,
-      "forks": 79615,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "baidu/Unlimited-OCR",
+      "description": "单次长距离解析时代来临",
+      "language": "Python",
+      "stars": 6602,
+      "starsToday": 2569,
+      "forks": 528,
+      "url": "https://github.com/baidu/Unlimited-OCR",
       "rank": 1
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自学习AI代理，跨会话知识积累，个性化技能提升",
-      "language": "Python",
-      "stars": 201091,
-      "starsToday": 1013,
-      "forks": 35869,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "ultraworkers/claw-code",
+      "description": "真实蟹力驱动工具集",
+      "language": "Rust",
+      "stars": 194265,
+      "starsToday": 2285,
+      "forks": 109894,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 2
     },
     {
-      "name": "baidu/Unlimited-OCR",
-      "description": "单次长距离解析，OCR技术新突破",
+      "name": "NousResearch/hermes-agent",
+      "description": "自我提升AI智能代理",
       "language": "Python",
-      "stars": 4033,
-      "starsToday": 807,
-      "forks": 279,
-      "url": "https://github.com/baidu/Unlimited-OCR",
+      "stars": 202189,
+      "starsToday": 1098,
+      "forks": 36132,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 3
     },
     {
-      "name": "farion1231/cc-switch",
-      "description": "多平台代码管理工具，统一管理多个AI代码库",
-      "language": "Rust",
-      "stars": 107187,
-      "starsToday": 670,
-      "forks": 7090,
-      "url": "https://github.com/farion1231/cc-switch",
+      "name": "bozhouDev/codex-orange-book",
+      "description": "Codex：不止是AI写代码",
+      "language": "HTML",
+      "stars": 1527,
+      "starsToday": 764,
+      "forks": 159,
+      "url": "https://github.com/bozhouDev/codex-orange-book",
       "rank": 4
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "跨语言、跨平台的智能代理工作流",
-      "language": "JavaScript",
-      "stars": 220633,
-      "starsToday": 646,
-      "forks": 33792,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "farion1231/cc-switch",
+      "description": "多工具统一管理器",
+      "language": "Rust",
+      "stars": 107900,
+      "starsToday": 713,
+      "forks": 7133,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 5
     },
     {
-      "name": "kanavtwtgg/birds.cafe",
-      "description": "模拟鸟类飞翔体验",
+      "name": "affaan-m/ECC",
+      "description": "多语言跨平台工作流",
       "language": "JavaScript",
-      "stars": 726,
-      "starsToday": 363,
-      "forks": 1,
-      "url": "https://github.com/kanavtwtgg/birds.cafe",
+      "stars": 221252,
+      "starsToday": 619,
+      "forks": 33880,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 6
     },
     {
       "name": "zhongerxin/Cowart",
-      "description": "Codex本地画布插件，可视化构思与标注",
+      "description": "Codex本地无限画布插件",
       "language": "JavaScript",
-      "stars": 2410,
-      "starsToday": 351,
-      "forks": 187,
+      "stars": 2705,
+      "starsToday": 295,
+      "forks": 213,
       "url": "https://github.com/zhongerxin/Cowart",
       "rank": 7
-    },
-    {
-      "name": "lyra81604/zhengxi-views",
-      "description": "AI辅助基金观点分析工具",
-      "language": "Python",
-      "stars": 926,
-      "starsToday": 226,
-      "forks": 114,
-      "url": "https://github.com/lyra81604/zhengxi-views",
-      "rank": 8
     },
     {
       "name": "public-apis/public-apis",
       "description": "免费公共API资源库",
       "language": "Python",
-      "stars": 443801,
-      "starsToday": 219,
-      "forks": 48652,
+      "stars": 444069,
+      "starsToday": 268,
+      "forks": 48685,
       "url": "https://github.com/public-apis/public-apis",
+      "rank": 8
+    },
+    {
+      "name": "aidenybai/cnfast",
+      "description": "高速TypeScript替代方案",
+      "language": "TypeScript",
+      "stars": 886,
+      "starsToday": 177,
+      "forks": 8,
+      "url": "https://github.com/aidenybai/cnfast",
       "rank": 9
     },
     {
-      "name": "Forsy-AI/agent-apprenticeship",
-      "description": "AI代理学习生态系统，迭代工作流程",
-      "language": "Unknown",
-      "stars": 867,
-      "starsToday": 175,
-      "forks": 46,
-      "url": "https://github.com/Forsy-AI/agent-apprenticeship",
+      "name": "ollama/ollama",
+      "description": "开源模型构建平台",
+      "language": "Go",
+      "stars": 174868,
+      "starsToday": 160,
+      "forks": 16717,
+      "url": "https://github.com/ollama/ollama",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-06-24",
-    "updatedAt": "2026-06-24T03:32:51.145Z",
+    "date": "2026-06-25",
+    "updatedAt": "2026-06-25T03:31:18.259Z",
     "highlights": [
-      "豆包推出专业版AI",
-      "AI招聘工具存在偏见问题",
-      "Runway发布新模型",
-      "Oracle裁员21000人投资云基础设施",
-      "FastWan-QAD视频生成速度突破",
-      "Krea 2技术报告发布",
-      "Anthropic推出Claude Tag",
-      "GitHub呼吁修改加州AI透明度法案",
-      "Mistral OCR 4发布",
-      "无限制OCR技术突破"
+      "Grok与盈透证券集成AI技术",
+      "工程岗位韧性增强",
+      "Gemini 3.5 Flash AI应用",
+      "Notion嵌入编码智能体",
+      "Perplexity推出法律AI",
+      "NSA失去Mythos访问权限",
+      "GPT-5.5 Instant新版本",
+      "LLM参数化知识推理",
+      "Figma与第三方AI合作",
+      "NVIDIA NeMo AutoModel加速模型微调"
     ],
     "keywords": [
       "AI",
-      "招聘工具",
-      "模型发布",
-      "裁员",
-      "视频生成",
-      "技术报告",
-      "协作工具",
-      "开源",
+      "工程岗位",
+      "Gemini",
+      "Notion",
+      "Perplexity",
+      "NSA",
+      "GPT-5.5",
+      "LLM",
+      "Figma",
+      "NVIDIA",
+      "NeMo AutoModel",
       "OCR",
-      "技术突破"
+      "AI代理",
+      "Codex",
+      "公共API",
+      "TypeScript",
+      "模型构建平台"
     ],
-    "trendingSummary": "今日AI领域动态丰富，从AI助手到OCR技术突破，AI应用在招聘、云基础设施等领域引发关注，同时行业对AI透明度和偏见问题的关注持续升温。"
+    "trendingSummary": "今日技术趋势显示AI在金融、法律和工程领域的应用持续增长，同时，工具和平台的发展也在加速。工程岗位的韧性成为关注焦点，而开源项目在OCR和AI代理等领域展现创新。"
   }
 }
