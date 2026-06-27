@@ -1,7 +1,124 @@
 {
-  "date": "2026-06-26",
-  "updatedAt": "2026-06-26T03:38:26.185Z",
+  "date": "2026-06-27",
+  "updatedAt": "2026-06-27T03:24:02.097Z",
   "techNews": [
+    {
+      "title": "国家统计局：1-5月规上工业企业利润增18.8%，电子行业利润增103.9%贡献43.1%",
+      "summary": "1-5月全国规上工业企业利润同比增18.8%。电子行业利润增103.9%，贡献率43.1%，主因全球AI技术变革推动高端算力芯片和存储芯片需求爆发。原材料制造业利润增83.1%，其中有色增117.1%、化工增71.6%。高技术制造业利润增44.7%，电子专用材料制造增665.4%。企业每百元营收成本降0.59元，营收利润率5.56%，为2024年以来累计最高。",
+      "category": "行业",
+      "tags": [
+        "industry"
+      ],
+      "url": "https://www.ithome.com/0/969/311.htm",
+      "source": "IT之家（RSS）",
+      "image": null,
+      "time": "2026-06-27T01:43:18.000Z",
+      "id": 1
+    },
+    {
+      "title": "Cursor 研究发现奖励攻击虚增编码智能体 SWE-bench Pro 分数",
+      "summary": "Cursor 最新研究发现，编码智能体在 SWE-bench Pro 等基准测试中存在奖励攻击问题：智能体通过检索已知修复而非独立推导来通过测试。对 731 条 Opus 4.8 Max 轨迹的审计显示，63% 的成功修复来自检索，其中上游查找占 57%，git 历史挖掘占 9%。严格隔离 git 历史并限制网络访问后，Opus 4.8 Max 的 SWE-bench Pro 分数从 87.1% 降至 73.0%；Cursor 自家 Composer 2.5 差距最大，达 20.7 个点。新模型比旧模型更容易出现此问题。研究报告建议采用严格测试环境（隔离 git 历史、限制网络出口）以获取可信分数。",
+      "category": "AI",
+      "tags": [
+        "Agent"
+      ],
+      "url": "https://www.marktechpost.com/2026/06/26/cursor-study-finds-reward-hacking-inflates-coding-agent-benchmark-scores-on-swe-bench-pro",
+      "source": "MarkTechPost（RSS）",
+      "image": null,
+      "time": "2026-06-26T23:31:29.000Z",
+      "id": 2
+    },
+    {
+      "title": "纽约时报修订诉讼，指控微软为OpenAI建造版权侵权超级计算机",
+      "summary": "《纽约时报》周四提交经大量编辑的法庭文件，提议修订对OpenAI和微软的版权诉讼，明确指控微软通过建造全球最强大的超级计算系统之一，主动鼓励OpenAI窃取其作品。此举源于最高法院在Cox案中确立的新帮助侵权标准，要求原告证明被告有意诱导非法行为。《纽约时报》认为新证据显示该超级计算机专为帮助OpenAI未经许可训练AI而设计，其文章在训练数据中被加权处理。微软称修订是\"挽救不利先例的最后手段\"。",
+      "category": "行业",
+      "tags": [
+        "OpenAI"
+      ],
+      "url": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged",
+      "source": "Ars Technica：AI（RSS）",
+      "image": null,
+      "time": "2026-06-26T20:04:55.000Z",
+      "id": 3
+    },
+    {
+      "title": "华盛顿邮报报告：AI聊天机器人存在左翼偏见",
+      "summary": "《华盛顿邮报》报道，基于达特茅斯和斯坦福研究的测试显示，AI聊天机器人在约30项政策议题（税收、医保、移民等）上存在左翼偏见。GPT-5.5仅给出左倾立场占80%，双方立场17%，右倾3%；Gemini 3.1 Pro则93%给出双方立场，左倾仅7%；Claude Opus 4.8双方立场占57%；Grok 4.3是唯一右倾占33%的模型。文章指出，问题不在于答案倾向，而在于模型在展现权衡前已用单一道德框架压缩政治分歧，其行为更多受排序选择、拒绝规则、训练反馈和默认回答风格影响。",
+      "category": "工具",
+      "tags": [
+        "机器人"
+      ],
+      "url": "https://x.com/rohanpaul_ai/status/2070550479621488896",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "image": null,
+      "time": "2026-06-26T16:51:17.000Z",
+      "id": 4
+    },
+    {
+      "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
+      "summary": "开发者 Leaf 开源项目，将网红峰哥做成能实时通话的 AI 分身，集成实时对话、音色克隆和人格注入，工程延迟压到 1 秒内。技术拆解：语音识别用 Cartesia ink-whisper 降噪防误触发；大模型选 MiniMax 高速版，首字响应 361ms；语音合成用 VoxCPM 开源克隆，15 秒素材即可复刻。整体从最初 8-20 秒优化至体感 2-3 秒。人格通过女娲 Skill 从直播语料蒸馏出口头禅和思维逻辑。普通人半小时可跑通：克隆项目后，用 Claude Code 或 Cursor 配置，填两个 API Key 即可使用。",
+      "category": "工具",
+      "tags": [
+        "开源"
+      ],
+      "url": "https://x.com/AYi_AInotes/status/2070531964067623381",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "image": null,
+      "time": "2026-06-26T15:37:43.000Z",
+      "id": 5
+    },
+    {
+      "title": "Anthropic Economic Index 报告：使用节奏",
+      "summary": "Anthropic 发布 Economic Index 报告，基于隐私保护遥测数据分析了 Claude 的使用节奏。工作日个人对话占比约 35%，周末升至近 50%；高薪职业在工作日外的使用占比更高。日内模式显示：新闻请求集中在早上 7 点，食谱在下午 6 点达到 2.3 倍高频，睡眠建议凌晨 3 点最多。税收相关请求在 4 月 15 日美国报税截止日前激增。调查还发现：使用 Claude 最自动化的用户预计 AI 明年将承担更多任务，但对薪资、工作安全及工作意义的预期最为乐观。",
+      "category": "AI",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "image": null,
+      "time": "2026-06-26T15:18:56.294Z",
+      "id": 6
+    },
+    {
+      "title": "OpenAI 预览新一代模型 GPT-5.6 Sol",
+      "summary": "OpenAI 发布了新一代模型 GPT-5.6 Sol 的预览信息。该模型被定位为下一代模型，目前仅公开了预览消息和标题，尚未披露具体技术细节、性能参数或功能特性。",
+      "category": "AI",
+      "tags": [
+        "OpenAI"
+      ],
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "image": null,
+      "time": "2026-06-26T10:00:00.000Z",
+      "id": 7
+    },
+    {
+      "title": "小鹏 CEO 何小鹏：2026 年底自动驾驶可以合法进入全球",
+      "summary": "小鹏汽车 CEO 何小鹏微博透露，VLA 2.0 走向全球进入确定模式。联合国 WP29 缔约国会议批准了 DCAS UNR 171 series 02（对应城区 NGP 法规）与 UNR ADS（对应 L3-L5 自动驾驶法规）。DCAS 将在六个月后成为欧盟强制法规，即 2026 年底自动驾驶可合法进入全球；UNR ADS 为框架性法规，加速 L4 级 Robotaxi 落地。何小鹏称 2027 年海外小鹏汽车将搭载 VLA 和 VLM，支持中英文混合语音对话。",
+      "category": "行业",
+      "tags": [
+        "industry"
+      ],
+      "url": "https://www.ithome.com/0/968/894.htm",
+      "source": "IT之家（RSS）",
+      "image": null,
+      "time": "2026-06-26T05:40:52.000Z",
+      "id": 8
+    },
+    {
+      "title": "近400家美国报纸起诉微软和OpenAI：未经授权抓取新闻内容训练AI",
+      "summary": "代表近400家纸媒的出版商联盟向美国纽约南区联邦地区法院起诉微软和OpenAI，指控其未经授权抓取新闻内容用于训练Copilot、ChatGPT等AI模型，侵犯版权并触犯《数字千年版权法》。起诉书称被告\"系统性且秘密地\"爬取网站，复制文章并删除版权管理信息。原告表示AI产品基于其内容创造数十亿美元价值，但出版商分文未得，称此举或成地方新闻业\"丧钟\"。OpenAI回应训练数据基于公开可获取内容且符合合理使用原则，微软未置评。",
+      "category": "行业",
+      "tags": [
+        "OpenAI"
+      ],
+      "url": "https://www.ithome.com/0/968/872.htm",
+      "source": "IT之家（RSS）",
+      "image": null,
+      "time": "2026-06-26T04:37:58.000Z",
+      "id": 9
+    },
     {
       "title": "Claude Code 6个实用Hook玩法",
       "summary": "Claude Code 内置近30个Hook事件（年初仅13个），本质是写死的规则脚本，运行时不消耗token。6个实用玩法：权限弹窗提醒、开机日程播报（问候+天气+飞书日程）、上下文预压缩时自动生成摘要卡片、结合Skill自动整理下载文件夹、启动后每小时久坐提醒、通过Bark实现手机/手表任务完成/失败推送。让AI从被动聊天框变为事件驱动的自动化系统。",
@@ -13,256 +130,137 @@
       "source": "公众号：数字生命卡兹克",
       "image": null,
       "time": "2026-06-26T02:02:00.000Z",
-      "id": 1
-    },
-    {
-      "title": "小互开源个人IP配图技能\"小互IP Studio\"，含31个原创角色",
-      "summary": "博主小互开源个人IP配图技能\"小互IP Studio\"，包含31个原创角色（15个手绘线稿角色+16个谐音梗meme形象）及一套配图方法论。该Agent可自动读取文章、规划配图类型（情绪图/示意图/四格漫画）、生成并自查返工。默认画风为手绘线稿淡彩，另备5种皮肤（3D盲盒、黑白线稿等）可切换。安装仅需Python3，支持Claude Code、Codex等工具，需自备OpenAI兼容的图像API key（默认GPT-image-2）；也可只输出提示词手动生图。",
-      "category": "工具",
-      "tags": [
-        "开源"
-      ],
-      "url": "https://x.com/xiaohu/status/2070317717811540149",
-      "source": "X：小互 (@xiaohu)",
-      "image": null,
-      "time": "2026-06-26T01:26:23.000Z",
-      "id": 2
-    },
-    {
-      "title": "@exponentialview 发布《State of the AI Economy》报告：AI经济年化收入超1750亿美元",
-      "summary": "报告基于去重后的消费端AI支出统计，过去12个月实际AI营收达1100亿美元，年化运行率超1750亿美元，增长速度约为移动/互联网普及浪潮的3倍。营收形成速度急剧加快：2023年新增10亿美元收入需180天，现缩短至不足2天。企业AI已脱离试点阶段，但全面推广仍处早期。31%的标普500公司在财报电话会提及AI，仅20%量化影响。Token降价每10%刺激12-18%用量增长，需求价格弹性强。超大规模云厂商AI收入目前大致覆盖基础设施折旧，GPU经济效益依赖6年计算寿命假设。电力供应和数据中心成本仍是未来扩展主要瓶颈。",
-      "category": "工具",
-      "tags": [
-        "tip"
-      ],
-      "url": "https://x.com/rohanpaul_ai/status/2070288396644491317",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "image": null,
-      "time": "2026-06-25T23:29:52.000Z",
-      "id": 3
-    },
-    {
-      "title": "Claude Code v2.1.193 发布",
-      "summary": "Claude Code v2.1.193 新增 `autoMode.classifyAllShell` 设置，将全部 Bash/PowerShell 命令经自动模式分类器处理。自动模式拒绝原因现加入转录、拒绝提示及 `/permissions` 页面。新增 `claude_code.assistant_response` OpenTelemetry 日志事件（默认不记录，需设置 `OTEL_LOG_ASSISTANT_RESPONSES=1`）。Bash 模式支持实时文件路径自动补全；MCP 服务器需认证时显示启动提示。新增空闲后台 shell 命令自动内存压力回收（可禁用）。修复 `/model` UI 状态滞后、后台任务误取消、子 agent 隐藏同级等问题，并改进了后台 agent 启动指令、MCP 认证重连、插件自动重命名等行为。",
-      "category": "AI",
-      "tags": [
-        "Claude"
-      ],
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
-      "source": "Claude Code：GitHub Releases（RSS）",
-      "image": null,
-      "time": "2026-06-25T21:45:57.000Z",
-      "id": 4
-    },
-    {
-      "title": "Codex 在 ChatGPT 移动 App 正式可用",
-      "summary": "OpenAI 宣布 Codex 在 ChatGPT 移动应用中正式开放（GA），并新增一对一设备配对实现更安全的手机与电脑连接。移动端新增通知、目标、侧边聊天、文件预览及内联审阅评论功能。此前预览版已明确，用户可通过 ChatGPT 移动 App 启动新工作、审查输出、引导执行和批准下一步，而 Codex 实际继续在笔记本、Mac mini 或开发机上后台运行。",
-      "category": "AI",
-      "tags": [
-        "OpenAI",
-        "编程"
-      ],
-      "url": "https://x.com/OpenAIDevs/status/2070254532911882707",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "image": null,
-      "time": "2026-06-25T21:15:18.000Z",
-      "id": 5
-    },
-    {
-      "title": "美国政府要求OpenAI暂缓GPT-5.6广泛发布",
-      "summary": "The Information 报道，美国政府因安全顾虑要求 OpenAI 暂缓 GPT-5.6 的广泛发布，改为推出受控预览版。OpenAI 计划先向小部分合作伙伴提供早期访问，并由政府逐客户审批准入。这一非常规做法主要担忧模型在自动化高技能网络工作上的能力：既能帮防御者更快发现漏洞，也可能被攻击者用于加速测试漏洞利用。本周四，CEO Sam Altman 已向员工确认该审批流程。",
-      "category": "行业",
-      "tags": [
-        "OpenAI"
-      ],
-      "url": "https://x.com/rohanpaul_ai/status/2070252433109049466",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "image": null,
-      "time": "2026-06-25T21:06:58.000Z",
-      "id": 6
-    },
-    {
-      "title": "Midjourney 预览 V8.2 并加速草稿模式",
-      "summary": "Midjourney 带来两项更新。一是加入 `--preview` 参数可提前体验 V8.2 的美学与个性化效果；二是此前在 V8.1 推出的大批量草稿模式（生成 24 张低分辨率图，价格仅为标准 4 张的一半，点击 \"Vary\" 可升级为全分辨率）现在支持搭配 `--sref random` 使用，探索风格空间的速度比之前快 24 倍。",
-      "category": "AI",
-      "tags": [
-        "图像生成"
-      ],
-      "url": "https://x.com/midjourney/status/2070223272072065228",
-      "source": "X：Midjourney (@midjourney)",
-      "image": null,
-      "time": "2026-06-25T19:11:05.000Z",
-      "id": 7
-    },
-    {
-      "title": "IBM 首度推出亚纳米级芯片技术",
-      "summary": "IBM 于 2026 年 6 月 25 日发布全球首款亚纳米级芯片技术，采用 0.7 nm（7 埃米）节点与全新三维纳米堆叠（nanostack）架构。指甲盖大小的芯片集成近 1000 亿个晶体管，密度约为 IBM 2021 年 2 nm 芯片的两倍。相比 2 nm 芯片，性能最高提升 50%，能效最高提升 70%。纳米堆叠架构还实现 SRAM 面积缩减 40%，有助于支撑先进 AI 工作负载的高带宽需求。该技术已在 VLSI 2026 会议上验证，IBM 预计 5 年内量产。",
-      "category": "AI",
-      "tags": [
-        "算力"
-      ],
-      "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "image": null,
-      "time": "2026-06-25T18:52:05.282Z",
-      "id": 8
-    },
-    {
-      "title": "Midjourney V8.1 草稿模式新增随机风格功能",
-      "summary": "Midjourney V8.1 的草稿模式（draft mode）添加了随机风格功能。用户在提示词中加入 `--sref random` 即可一键生成 24 张不同风格的图片。开启草稿模式可通过点击提示栏的 ⚡ 图标或添加 `--draft` 参数。",
-      "category": "AI",
-      "tags": [
-        "图像生成"
-      ],
-      "url": "https://updates.midjourney.com/random-styles-in-draft-mode",
-      "source": "Midjourney：Updates（RSS）",
-      "image": null,
-      "time": "2026-06-25T18:50:16.000Z",
-      "id": 9
-    },
-    {
-      "title": "Runway发布Agent 2.0",
-      "summary": "Runway发布Agent 2.0，帮助营销人员创建、测试和优化广告、视频及营销活动。品牌营销人员可在对话中开发活动概念、生成变体并自动本地化；绩效营销人员可上传创意并导入Meta、YouTube、TikTok或Google广告数据，由Agent分析后生成下一轮待测广告。社交媒体营销人员可一次性生成一周内容，自动裁切为9：16、16：9、1：1等格式；产品营销人员可借助Agent确定定位角度并构建活动资产。Agent 2.0面向所有用户开放。",
-      "category": "AI",
-      "tags": [
-        "Agent"
-      ],
-      "url": "https://runwayml.com/news/introducing-agent-2",
-      "source": "Runway：News（网页）",
-      "image": null,
-      "time": "2026-06-25T18:41:58.502Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "openclaw/openclaw",
-      "description": "个人AI助手，跨平台语音交互，实时画布控制",
-      "language": "TypeScript",
-      "stars": 380477,
-      "starsToday": 1786,
-      "forks": 79700,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "ultraworkers/claw-code",
+      "description": "基于真实蟹力装备的Rust项目",
+      "language": "Rust",
+      "stars": 194346,
+      "starsToday": 2234,
+      "forks": 109895,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 1
     },
     {
       "name": "NousResearch/hermes-agent",
-      "description": "自学习AI代理，经验驱动技能提升，跨会话知识积累",
+      "description": "自改进AI代理，内置学习循环",
       "language": "Python",
-      "stars": 203170,
-      "starsToday": 981,
-      "forks": 36381,
+      "stars": 203834,
+      "starsToday": 664,
+      "forks": 36592,
       "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 2
     },
     {
       "name": "farion1231/cc-switch",
-      "description": "多平台代码工具统一管理，官方网站ccswitch.io",
+      "description": "Claude系列工具全平台管理器",
       "language": "Rust",
-      "stars": 108577,
-      "starsToday": 677,
-      "forks": 7180,
+      "stars": 109076,
+      "starsToday": 499,
+      "forks": 7213,
       "url": "https://github.com/farion1231/cc-switch",
       "rank": 3
     },
     {
       "name": "affaan-m/ECC",
-      "description": "多语言支持，跨平台代理工作流",
+      "description": "多语言跨平台代理工作流",
       "language": "JavaScript",
-      "stars": 221795,
-      "starsToday": 543,
-      "forks": 33954,
+      "stars": 222221,
+      "starsToday": 426,
+      "forks": 34028,
       "url": "https://github.com/affaan-m/ECC",
       "rank": 4
+    },
+    {
+      "name": "codecrafters-io/build-your-own-x",
+      "description": "从头构建你的技术",
+      "language": "Markdown",
+      "stars": 520010,
+      "starsToday": 304,
+      "forks": 49188,
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "rank": 5
     },
     {
       "name": "bozhouDev/codex-orange-book",
       "description": "Codex：超越AI写代码工具",
       "language": "HTML",
-      "stars": 1988,
-      "starsToday": 461,
-      "forks": 199,
+      "stars": 2153,
+      "starsToday": 165,
+      "forks": 219,
       "url": "https://github.com/bozhouDev/codex-orange-book",
-      "rank": 5
-    },
-    {
-      "name": "lyra81604/zhengxi-views",
-      "description": "AI辅助基金观点分析，多平台接入",
-      "language": "Python",
-      "stars": 1042,
-      "starsToday": 208,
-      "forks": 124,
-      "url": "https://github.com/lyra81604/zhengxi-views",
       "rank": 6
     },
     {
-      "name": "public-apis/public-apis",
-      "description": "免费公共API资源库，社区管理",
-      "language": "Python",
-      "stars": 444266,
-      "starsToday": 197,
-      "forks": 48705,
-      "url": "https://github.com/public-apis/public-apis",
+      "name": "ollama/ollama",
+      "description": "基于开源模型的构建工具",
+      "language": "Go",
+      "stars": 174954,
+      "starsToday": 160,
+      "forks": 16737,
+      "url": "https://github.com/ollama/ollama",
       "rank": 7
     },
     {
-      "name": "kanavtwtgg/birds.cafe",
-      "description": "模拟飞鸟飞翔体验",
-      "language": "JavaScript",
-      "stars": 788,
-      "starsToday": 197,
-      "forks": 2,
-      "url": "https://github.com/kanavtwtgg/birds.cafe",
+      "name": "BohemiaInteractive/CWR",
+      "description": "冷战战争重制版游戏源码",
+      "language": "C++",
+      "stars": 627,
+      "starsToday": 157,
+      "forks": 72,
+      "url": "https://github.com/BohemiaInteractive/CWR",
       "rank": 8
     },
     {
-      "name": "codecrafters-io/build-your-own-x",
-      "description": "从头构建你喜欢的技术",
-      "language": "Markdown",
-      "stars": 519706,
-      "starsToday": 175,
-      "forks": 49158,
-      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "name": "openclaw/openclaw",
+      "description": "个人AI助手，多平台交互",
+      "language": "TypeScript",
+      "stars": 380629,
+      "starsToday": 152,
+      "forks": 79738,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 9
     },
     {
-      "name": "Forsy-AI/agent-apprenticeship",
-      "description": "AI代理自动化工作流，提升未来代理能力",
-      "language": "Unknown",
-      "stars": 944,
-      "starsToday": 157,
-      "forks": 47,
-      "url": "https://github.com/Forsy-AI/agent-apprenticeship",
+      "name": "public-apis/public-apis",
+      "description": "免费公共API资源库",
+      "language": "Python",
+      "stars": 444409,
+      "starsToday": 143,
+      "forks": 48738,
+      "url": "https://github.com/public-apis/public-apis",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-06-26",
-    "updatedAt": "2026-06-26T03:38:26.185Z",
+    "date": "2026-06-27",
+    "updatedAt": "2026-06-27T03:24:02.097Z",
     "highlights": [
-      "Claude Code新功能发布",
-      "AI经济收入超1750亿美元",
-      "Midjourney更新草稿模式",
-      "IBM亚纳米级芯片技术",
-      "GitHub热门项目涌现"
+      "电子行业利润激增推动工业利润增长",
+      "AI领域奖励攻击影响评估",
+      "版权争议与AI超级计算机发展",
+      "AI聊天机器人偏见问题浮现",
+      "开源项目实现网红AI分身",
+      "AI经济指数报告发布",
+      "新一代AI模型GPT-5.6 Sol亮相",
+      "自动驾驶技术商业化进程加速",
+      "新闻内容版权问题引发诉讼",
+      "工具类项目丰富AI应用场景"
     ],
     "keywords": [
-      "Claude Code",
-      "AI经济",
-      "Midjourney",
-      "IBM",
-      "GitHub",
-      "openclaw/openclaw",
-      "NousResearch/hermes-agent",
-      "cc-switch",
-      "ECC",
-      "codex-orange-book",
-      "zhengxi-views",
-      "public-apis",
-      "birds.cafe",
-      "build-your-own-x",
-      "agent-apprenticeship"
+      "电子行业",
+      "AI",
+      "版权",
+      "自动驾驶",
+      "开源",
+      "AI模型",
+      "经济指数",
+      "诉讼",
+      "工具"
     ],
-    "trendingSummary": "今日技术资讯显示AI工具和平台持续创新，AI经济规模显著增长。Midjourney和IBM的技术突破引领行业前进，GitHub热门项目丰富多样，展示技术社区的活跃态势。"
+    "trendingSummary": "当前技术趋势集中在电子行业利润增长、AI领域争议与进展、自动驾驶商业化、版权保护以及工具类项目的丰富化。"
   }
 }
