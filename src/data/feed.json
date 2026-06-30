@@ -1,269 +1,273 @@
 {
-  "date": "2026-06-29",
-  "updatedAt": "2026-06-29T03:52:27.240Z",
+  "date": "2026-06-30",
+  "updatedAt": "2026-06-30T03:36:31.144Z",
   "techNews": [
     {
-      "title": "分享两个Vibe Coding必备的实用Prompt：第一性原理与对抗式审查",
-      "summary": "作者分享Vibe Coding中两个关键Prompt：一是\"从第一性原理出发\"，强制AI跳出类比推理，从基本事实重新推导本质，曾帮作者发现AIHOT抓取海外信源的底层流量路由隐患并彻底重构；二是\"对抗式审查\"，让AI站在恶意用户角度攻防式审查代码，检出OOM死循环、未来时间污染等手工难发现的BUG。两个Prompt形成生成与验证闭环，使纯Vibe Coding项目AIHOT最近一周请求量超千万次。",
+      "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
+      "summary": "具身智能数据采集员以日薪200-250元招兼职，无需学历经验。面试先测量身高体重以适配采集手套，并询问是否晕VR。工作分两种：遥操作采集--穿戴设备控制双臂机器人完成分拣积木、叠纸杯等动作；无机器人示教采集--徒手重复动作（如叠衣服），设备记录轨迹。全球高质量物理交互数据截至2026年初仅约50万小时，不足大语言模型训练数据的两万分之一，需大量人力从零采集。",
       "category": "工具",
       "tags": [
-        "tip"
+        "机器人"
       ],
-      "url": "https://mp.weixin.qq.com/s/umPqTD_-IubbhXIgiS47eQ",
+      "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
       "source": "公众号：数字生命卡兹克",
       "image": null,
-      "time": "2026-06-29T02:08:00.000Z",
+      "time": "2026-06-30T01:58:00.000Z",
       "id": 1
     },
     {
-      "title": "Artifacts 22：Zyphra、Cohere 和 Poolside 正在扩展生态系统广度",
-      "summary": "开源模型生态正变得更多元，参与者从少数中国公司扩展到全球各类组织。纯模型制造商包括 DeepSeek、智谱、MiniMax、Poolside、Arcee、Zyphra 及主权 AI 玩家 Cohere、Sovereign、Mistral、Trillion Labs；科技巨头如阿里 Qwen、Google Gemma 和 NVIDIA 各有不同动机；产品公司如 JetBrains、Zed、Krea、Photoroom 则训练高度专业的小模型。NVIDIA 发布 Nemotron-3-Ultra-550B-A55B-BF16，采用 LatentMoE 架构并改用 OpenMDW 许可证。Cohere 以 Apache 2.0 开源其旗舰模型 Command A+（05-2026-bf16），这是一款 218B-A25B MoE 模型，具备多模态、多语言和智能体能力。",
-      "category": "工具",
-      "tags": [
-        "tip"
-      ],
-      "url": "https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside",
-      "source": "Nathan Lambert：Interconnects（RSS）",
-      "image": null,
-      "time": "2026-06-28T17:03:07.000Z",
-      "id": 2
-    },
-    {
-      "title": "Wayfinder Router：在本地和托管的大语言模型之间进行确定性查询路由",
-      "summary": "Wayfinder Router 通过分析提示词的结构（长度、标题、列表、代码）和措辞（证明、数学、硬约束），在微秒级完成路由决策，完全离线且无需调用其他模型。默认仅使用结构特征，词汇线索因盲测未泛化而默认为关闭。对比依赖模型调用的路由器（如 RouteLLM、NotDiamond），它避免了延迟、成本和随机性。用户可在自有数据上校准评分阈值。支持任何 OpenAI 兼容 API（含 Ollama、Anthropic、Groq、vLLM 等），可自托管。提供终端和网页演示（--dry-run 无需密钥），以及基准测试和 FAQ。",
+      "title": "AI News Radar 大更新：新增自媒体板块，支持订阅多平台账号",
+      "summary": "AI News Radar 迎来大更新，新增自媒体板块，支持订阅某书、某音、某站、某X等平台账号，每日按热度推荐 Top10 信息（无热门则不硬凑），同时保留时间轴视图，可在热度优先和时间优先间切换。官方来源包括 OpenAI、Anthropic、Google 等一手消息及 GitHub AI&ML 更新日志。信息流按来源、类型、信号等级分类，标注高优先级与多源认证。项目完全开源，可零 API 部署独立 AI 日报页面，支持手机移动端及暗色界面。",
       "category": "AI",
       "tags": [
         "ai-products"
       ],
-      "url": "https://github.com/itsthelore/wayfinder-router",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "url": "https://mp.weixin.qq.com/s/iW5FVqbHtYi31mJ22Q_cog",
+      "source": "公众号：卡尔的AI沃茨",
       "image": null,
-      "time": "2026-06-28T16:58:56.073Z",
+      "time": "2026-06-30T01:47:00.000Z",
+      "id": 2
+    },
+    {
+      "title": "为 Amazon Bedrock 和 Google Cloud 推出的 Claude apps gateway",
+      "summary": "Anthropic 今日推出 Claude apps gateway，一个自托管控制平面，让企业能在 Amazon Bedrock 和 Google Cloud 上运行 Claude Code。它作为单个无状态容器部署于 Linux，后端使用 PostgreSQL，提供企业级 SSO 登录（通过 OIDC 对接 Google Workspace、Microsoft Entra ID、Okta 等）、集中策略管理、角色权限、路由（支持故障转移）以及按日/周/月、按组织/群组/用户的消费上限。遥测数据通过 OTLP 发送至用户配置的收集器。gateway 不会向 Anthropic 发送推理流量或使用数据（除非配置使用 Claude API）。即日起可用。",
+      "category": "AI",
+      "tags": [
+        "Claude",
+        "Gemini"
+      ],
+      "url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
+      "source": "Claude：Blog（网页）",
+      "image": null,
+      "time": "2026-06-29T21:22:33.048Z",
       "id": 3
     },
     {
-      "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
-      "summary": "Grok 4.5，基于我们的1.5T V9基础模型，并在补充训练中加入Cursor数据，现已在SpaceX和Tesla进入私测。初步评估显示其性能接近，或许超越Opus。\n\n强化学习仍在持续显著改进模型，Grok Build工具链也在日益完善。\n\n所有参与者的出色工作！\n\n今年，@SpaceX 将每月发布完全从头训练的新模型。",
+      "title": "美团LongCat Owl Alpha：OpenRouter最流行模型，1.6万亿MoE，国产ASIC训练",
+      "summary": "美团LongCat的1.6万亿参数MoE模型Owl Alpha成为OpenRouter上最流行模型，累计消耗10万亿tokens，性能达Gemini/Opus 4.6级别。该模型使用35万亿tokens训练，完全在5万块国产ASIC上完成。据官方推文，Owl Alpha上线后每日调用量全球Top3，在Hermes Agent排名#1，Claude Code排名#2，OpenClaw排名#3。该模型即将退役，后续版本待公布。",
       "category": "AI",
       "tags": [
         "ai-models"
       ],
-      "url": "https://x.com/elonmusk/status/2071184354756477041",
-      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "url": "https://x.com/EMostaque/status/2071701921241448574",
+      "source": "X：Emad Mostaque (@EMostaque)",
       "image": null,
-      "time": "2026-06-28T10:50:05.000Z",
+      "time": "2026-06-29T21:06:43.000Z",
       "id": 4
     },
     {
-      "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
-      "summary": "普林斯顿大学推出CEO-Bench基准测试，让AI智能体在模拟环境中运营订阅软件公司NovaMind 500天，起始资金100万美元。14个测试模型中，仅Claude Fable 5（最佳轮次盈利4715万美元）、Claude Opus 4.8（2780万美元）和GPT-5.5（2130万美元）在最佳运行中超过起始资本。一个不调用语言模型的简单规则启发式方法通过固定定价、配额和针对性开发达到1576万美元，超越除上述三款外的所有模型。多数模型无法保持连贯策略，在模拟结束前破产。该测试旨在衡量AI的长期战略决策能力。",
-      "category": "AI",
-      "tags": [
-        "paper"
-      ],
-      "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
-      "source": "The Decoder：AI News（RSS）",
-      "image": null,
-      "time": "2026-06-28T10:16:13.000Z",
-      "id": 5
-    },
-    {
-      "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
-      "summary": "新浪发布仅3B参数的VibeThinker-3B，在AIME26等数学编程基准上持平DeepSeek V3.2等大200-333倍的模型，LiveCodeBench超越所有20B以下模型，LeetCode竞赛解决123/128题超过GPT-5.2、Kimi K2.5等。但知识密集型GPQA-Diamond大幅落后。模型基于阿里Qwen2.5-Coder-3B，经SFT、强化学习、自蒸馏等多阶段后训练。研究提出\"参数压缩-覆盖假说\"：逻辑推理依赖少数可压缩模式，而广泛世界知识仍需大参数。模型已开源。",
-      "category": "AI",
-      "tags": [
-        "开源",
-        "推理"
-      ],
-      "url": "https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
-      "source": "The Decoder：AI News（RSS）",
-      "image": null,
-      "time": "2026-06-28T07:44:41.000Z",
-      "id": 6
-    },
-    {
-      "title": "阿德拉菲尼尔：仅在AI agent工作时阻止Mac睡眠的菜单栏工具",
-      "summary": "Adrafinil 是一款 macOS 菜单栏应用，仅在 Claude Code、Codex、Cursor、Gemini CLI、Aider、Hermes、OpenCode、Cline、Pi 等 9 种 AI coding agent 持有活跃会话时阻止系统睡眠（包括合盖睡眠）。无 agent 工作时，合盖后 Mac 正常睡眠。它通过各 agent 的钩子系统调用 CLI，往返延迟低于 50ms，支持引用计数断言、热切出（温度阈值强制释放）、空闲释放及进程嗅探。需要 macOS Tahoe 26.4，Xcode 26+ 构建，以签名公证的磁盘映像提供。",
-      "category": "AI",
-      "tags": [
-        "Agent"
-      ],
-      "url": "https://github.com/kageroumado/adrafinil",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "image": null,
-      "time": "2026-06-28T03:55:17.096Z",
-      "id": 7
-    },
-    {
-      "title": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
-      "summary": "英国前首相府数据科学家Liam Wilkinson搭建76个MCP工具，将Claude Opus 4.6、GPT-5.4、Gemini 3.1 Pro等四个模型放入《文明VI》进行23场对局。Claude扮演葡萄牙时，因法国文化胜利逼近，花50回合研发核弹核平图卢兹，但法国最终以外交胜利获胜。Wilkinson发现：AI主动检查全局状态仅占1-2%（感知盲区），计划后10回合内执行率仅48-66%（知行差距）。结论是智商非瓶颈，感知与执行才是关键。",
-      "category": "工具",
-      "tags": [
-        "Claude"
-      ],
-      "url": "https://www.ithome.com/0/969/570.htm",
-      "source": "IT之家（RSS）",
-      "image": null,
-      "time": "2026-06-28T02:45:16.000Z",
-      "id": 8
-    },
-    {
-      "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
-      "summary": "消息：SpaceX 刚刚注册了\"SpaceXAI\"商标。\n\n埃隆·马斯克表示 xAI 将解散，不再作为独立公司，因此它将只是 SpaceXAI，SpaceX 的 AI 产品。",
+      "title": "Rubin Ultra取消，新版尺寸性能减半",
+      "summary": "有意思：在GTC 2026宣布Rubin Ultra仅3个月后，原4-die Rubin Ultra因制造执行问题被取消。新的\"Rubin Ultra\"尺寸减半，实际性能约为原版的一半。1/4🧵",
       "category": "行业",
       "tags": [
         "industry"
       ],
-      "url": "https://x.com/cb_doge/status/2070973276562530507",
-      "source": "X：cb_doge (@cb_doge)",
+      "url": "https://x.com/SemiAnalysis_/status/2071700428249596290",
+      "source": "X：SemiAnalysis (@SemiAnalysis_)",
       "image": null,
-      "time": "2026-06-27T20:51:20.000Z",
+      "time": "2026-06-29T21:00:47.000Z",
+      "id": 5
+    },
+    {
+      "title": "OpenClaw 发布原生 iOS 与 Android 应用",
+      "summary": "OpenClaw 现已登陆 iOS 和 Android 🦞\n\n📱 原生移动应用，终于来了\n💬 智能体装进口袋\n🔔 频道、任务、回复，随时处理\n\n用你的大拇指，在任何地方运行智能体。\n\niOS： https：//apps.apple.com/us/app/openclaw-ai-that-does-things/id6780396132\nAndroid： https：//play.google.com/store/apps/details？id=ai.openclaw.app",
+      "category": "AI",
+      "tags": [
+        "ai-products"
+      ],
+      "url": "https://x.com/openclaw/status/2071688039114342592",
+      "source": "X：OpenClaw (@openclaw)",
+      "image": null,
+      "time": "2026-06-29T20:11:33.000Z",
+      "id": 6
+    },
+    {
+      "title": "Claude 在 Microsoft Foundry 正式可用",
+      "summary": "从今天起，Claude 模型在 Microsoft Foundry 上正式可用，托管于 Azure 环境，运行在 NVIDIA GB300 GPU 上。首批提供 Claude Opus 4.8 和 Claude Haiku 4.5，通过 Messages API 调用，支持提示缓存和扩展思考。用户可选择推理处理位置，包括美国数据区域，由 Anthropic 负责推理运营。Azure 用户可使用现有身份验证、计费与治理控制，并获得统一账单；符合条件的 Enterprise Agreement 客户可将 Claude 用量计入 Azure 承诺消费。",
+      "category": "AI",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://claude.com/blog/claude-in-microsoft-foundry",
+      "source": "Claude：Blog（网页）",
+      "image": null,
+      "time": "2026-06-29T18:22:20.720Z",
+      "id": 7
+    },
+    {
+      "title": "Qwen 3.6 27B 是本地开发的理想选择",
+      "summary": "Qwen 3.6 27B 是一款密集参数本地大语言模型，原生支持 256k 上下文。在 Macbook Max M5 上运行 llama.cpp Q8_0 量化版（含多 token 预测）可达 30 tokens/s；用户反馈在 RTX 5090 上 Q6_K 量化可达 50 tokens/s。它可通过单个提示完成创意诗歌、用 pnpm 生成六边形扫雷游戏等任务，作者称其为首个真正具备通用智能的本地模型。另有一个 MoE 变体 35B A3B，但作者推荐 27B 版本。",
+      "category": "工具",
+      "tags": [
+        "阿里"
+      ],
+      "url": "https://quesma.com/blog/qwen-36-is-awesome",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "image": null,
+      "time": "2026-06-29T18:03:02.582Z",
+      "id": 8
+    },
+    {
+      "title": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
+      "summary": "An anthropic应用AI工程师Margot Van Laar在Code with Claude分享提示词工程实战，核心观点：大部分时间在调试和维护已有生产提示词而非从零编写。两个场景：客服机器人维护中，用XML标签结构化清理，移除旧模型遗留的\"禁止列表\"指令（新模型会过度拟合），精确计算应调用工具，转人工决策需明确代价与收益；零售排班Agent从零构建时，拆成生成-评估-修复三个简单提示词更稳定，选用更强推理模型（Opus）。她反复强调：评估（Eval）是唯一严谨方式，没有评估就是碰运气。",
+      "category": "工具",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://x.com/berryxia/status/2071610700213191075",
+      "source": "X：Berry Xia (@berryxia)",
+      "image": null,
+      "time": "2026-06-29T15:04:14.000Z",
       "id": 9
     },
     {
-      "title": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
-      "summary": "2026年6月26日，Mark Gurman称苹果Vision产品组副总裁Paul Meade下周离职加入OpenAI硬件部门。他负责Vision Pro、无屏幕AI智能眼镜及AR眼镜研发。苹果计划首款触控OLED MacBook使用M5 Pro/Max芯片，2026年底到2027年初发布；M7 Pro/Max版本2027年底跟进。苹果此前因涨价市值蒸发2300多亿美元。核心高管流失至OpenAI凸显AI硬件竞争加速。",
-      "category": "行业",
+      "title": "Herdr：驻留在终端中的AI智能体多路复用器",
+      "summary": "Herdr是一个驻留在终端中的AI智能体多路复用器，允许用户在单一终端界面内管理和切换多个AI智能体会话。",
+      "category": "AI",
       "tags": [
-        "OpenAI",
-        "算力"
+        "Agent"
       ],
-      "url": "https://x.com/berryxia/status/2070916520822321292",
-      "source": "X：Berry Xia (@berryxia)",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "image": null,
-      "time": "2026-06-27T17:05:48.000Z",
+      "time": "2026-06-29T14:03:06.351Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "ultraworkers/claw-code",
-      "description": "Rust语言，基于真实蟹形装置的代码库",
-      "language": "Rust",
-      "stars": 194413,
-      "starsToday": 2184,
-      "forks": 109877,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "openclaw/openclaw",
+      "description": "个人AI助手，多平台语音交互，实时画布控制",
+      "language": "TypeScript",
+      "stars": 381037,
+      "starsToday": 1756,
+      "forks": 79815,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 1
     },
     {
-      "name": "bikini/exploitarium",
-      "description": "Python语言，自动化AI模糊测试工具",
+      "name": "deepseek-ai/DeepSpec",
+      "description": "全栈代码库，训练和评估推测解码模型",
       "language": "Python",
-      "stars": 2280,
-      "starsToday": 1001,
-      "forks": 541,
-      "url": "https://github.com/bikini/exploitarium",
+      "stars": 4040,
+      "starsToday": 1617,
+      "forks": 338,
+      "url": "https://github.com/deepseek-ai/DeepSpec",
       "rank": 2
     },
     {
-      "name": "deepseek-ai/DeepSpec",
-      "description": "Python语言，训练和评估推测解码模型的代码库",
-      "language": "Python",
-      "stars": 2423,
-      "starsToday": 991,
-      "forks": 223,
-      "url": "https://github.com/deepseek-ai/DeepSpec",
+      "name": "Krishnagangwal/CS-Fundamentals",
+      "description": "计算机科学基础资料库，涵盖主要CS科目",
+      "language": "Unknown",
+      "stars": 976,
+      "starsToday": 976,
+      "forks": 71,
+      "url": "https://github.com/Krishnagangwal/CS-Fundamentals",
       "rank": 3
     },
     {
       "name": "NousResearch/hermes-agent",
-      "description": "Python语言，自改进AI智能体，具备学习循环",
+      "description": "自改进AI代理，内置学习循环，跨会话知识持久化",
       "language": "Python",
-      "stars": 205087,
-      "starsToday": 669,
-      "forks": 36976,
+      "stars": 205824,
+      "starsToday": 737,
+      "forks": 37186,
       "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 4
     },
     {
       "name": "farion1231/cc-switch",
-      "description": "Rust语言，多平台代码管理工具",
+      "description": "多平台代码管理工具，统一管理Claude系列产品",
       "language": "Rust",
-      "stars": 110102,
-      "starsToday": 535,
-      "forks": 7291,
+      "stars": 110775,
+      "starsToday": 673,
+      "forks": 7326,
       "url": "https://github.com/farion1231/cc-switch",
       "rank": 5
     },
     {
-      "name": "Yu9191/wloc",
-      "description": "JavaScript语言，iOS网络定位虚拟化工具",
+      "name": "affaan-m/ECC",
+      "description": "跨语言工作流，支持多种编程语言",
       "language": "JavaScript",
-      "stars": 1162,
-      "starsToday": 496,
-      "forks": 154,
-      "url": "https://github.com/Yu9191/wloc",
+      "stars": 223546,
+      "starsToday": 424,
+      "forks": 34223,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 6
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "JavaScript语言，多语言支持的跨平台工作流",
+      "name": "Yu9191/wloc",
+      "description": "iOS网络定位虚拟定位工具，在线选点即生效",
       "language": "JavaScript",
-      "stars": 223122,
-      "starsToday": 429,
-      "forks": 34168,
-      "url": "https://github.com/affaan-m/ECC",
+      "stars": 1543,
+      "starsToday": 381,
+      "forks": 200,
+      "url": "https://github.com/Yu9191/wloc",
       "rank": 7
     },
     {
-      "name": "bozhouDev/codex-orange-book",
-      "description": "HTML语言，Codex代码生成工具",
-      "language": "HTML",
-      "stars": 2294,
-      "starsToday": 382,
-      "forks": 229,
-      "url": "https://github.com/bozhouDev/codex-orange-book",
+      "name": "public-apis/public-apis",
+      "description": "免费公共API资源库，社区管理",
+      "language": "Python",
+      "stars": 445045,
+      "starsToday": 233,
+      "forks": 48839,
+      "url": "https://github.com/public-apis/public-apis",
       "rank": 8
     },
     {
-      "name": "winsznx/theeleven",
-      "description": "TypeScript语言，足球比赛实时数据分析平台",
+      "name": "baairon/torlink",
+      "description": "终端内快速查找种子文件的工具",
       "language": "TypeScript",
-      "stars": 700,
-      "starsToday": 233,
-      "forks": 2,
-      "url": "https://github.com/winsznx/theeleven",
+      "stars": 718,
+      "starsToday": 180,
+      "forks": 42,
+      "url": "https://github.com/baairon/torlink",
       "rank": 9
     },
     {
-      "name": "public-apis/public-apis",
-      "description": "Python语言，免费公共API资源库",
-      "language": "Python",
-      "stars": 444812,
-      "starsToday": 219,
-      "forks": 48794,
-      "url": "https://github.com/public-apis/public-apis",
+      "name": "ollama/ollama",
+      "description": "使用开源模型开始构建",
+      "language": "Go",
+      "stars": 175157,
+      "starsToday": 159,
+      "forks": 16765,
+      "url": "https://github.com/ollama/ollama",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-06-29",
-    "updatedAt": "2026-06-29T03:52:27.240Z",
+    "date": "2026-06-30",
+    "updatedAt": "2026-06-30T03:36:31.144Z",
     "highlights": [
-      "Vibe Coding实用Prompt分享",
-      "Artifacts 22生态系统扩展",
-      "Wayfinder Router语言模型路由",
-      "GrokJIT性能提升",
-      "AI模型盈利测试",
-      "新浪开源VibeThinker-3B",
-      "阿德拉菲尼尔睡眠阻止工具",
-      "AI在《文明VI》对决",
-      "SpaceX商标注册合并xAI",
-      "苹果行业人事变动"
+      "具身智能数据采集员",
+      "AI News Radar更新",
+      "Claude apps gateway",
+      "美团LongCat Owl Alpha",
+      "Rubin Ultra取消"
     ],
     "keywords": [
-      "Vibe Coding",
-      "Artifacts 22",
-      "Wayfinder Router",
-      "GrokJIT",
-      "AI盈利",
-      "VibeThinker-3B",
-      "阿德拉菲尼尔",
-      "AI对决",
-      "SpaceXAI",
-      "苹果Vision"
+      "具身智能",
+      "AI新闻雷达",
+      "Claude",
+      "美团",
+      "Rubin Ultra",
+      "OpenClaw",
+      "Microsoft Foundry",
+      "Qwen",
+      "提示词工程",
+      "Herdr",
+      "openclaw",
+      "DeepSpec",
+      "CS-Fundamentals",
+      "hermes-agent",
+      "cc-switch",
+      "ECC",
+      "wloc",
+      "public-apis",
+      "torlink",
+      "ollama"
     ],
-    "trendingSummary": "今日技术资讯聚焦AI工具和应用，包括Vibe Coding Prompt、Artifacts 22生态系统扩展、GrokJIT性能提升等。同时，GitHub热门项目显示Rust和Python语言在AI和软件开发领域的活跃度。行业方面，SpaceX和苹果的重大变动值得关注。"
+    "trendingSummary": "今日技术趋势集中在人工智能和工具领域，具身智能数据采集员和AI News Radar更新显示了AI在教育领域的应用，而Claude apps gateway和美团的新模型LongCat Owl Alpha则展示了AI技术的商业化进展。同时，Rubin Ultra的取消也反映出行业对技术创新的持续追求。"
   }
 }
