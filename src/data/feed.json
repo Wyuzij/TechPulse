@@ -1,273 +1,271 @@
 {
-  "date": "2026-06-30",
-  "updatedAt": "2026-06-30T03:36:31.144Z",
+  "date": "2026-07-01",
+  "updatedAt": "2026-07-01T03:48:29.783Z",
   "techNews": [
     {
-      "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
-      "summary": "具身智能数据采集员以日薪200-250元招兼职，无需学历经验。面试先测量身高体重以适配采集手套，并询问是否晕VR。工作分两种：遥操作采集--穿戴设备控制双臂机器人完成分拣积木、叠纸杯等动作；无机器人示教采集--徒手重复动作（如叠衣服），设备记录轨迹。全球高质量物理交互数据截至2026年初仅约50万小时，不足大语言模型训练数据的两万分之一，需大量人力从零采集。",
+      "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
+      "summary": "mattpocockuk 的 /writing-great-skills 成为其最常调用的 Skill，指导如何编写稳定可预测的 AI Skill。核心：以过程可预测为目标；区分 model-invoked（自动触发）与 user-invoked（用户调用），description 应作触发器；采用三层信息结构（主步骤、参考、外部文件）实现渐进式披露；每步骤需明确完成标准；拆分 Skill 是为了控制模型注意力；利用 leading word 压缩行为要求。同时诊断五种失败模式：Premature completion、Duplication、Sediment、Sprawl、No-op，并提供 No-op 测试作为判断句子是否有效的标准。",
       "category": "工具",
       "tags": [
-        "机器人"
+        "tip"
       ],
-      "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
-      "source": "公众号：数字生命卡兹克",
+      "url": "https://x.com/shao__meng/status/2072126769986220157",
+      "source": "X：邵猛 (@shao__meng)",
       "image": null,
-      "time": "2026-06-30T01:58:00.000Z",
+      "time": "2026-07-01T01:14:54.000Z",
       "id": 1
     },
     {
-      "title": "AI News Radar 大更新：新增自媒体板块，支持订阅多平台账号",
-      "summary": "AI News Radar 迎来大更新，新增自媒体板块，支持订阅某书、某音、某站、某X等平台账号，每日按热度推荐 Top10 信息（无热门则不硬凑），同时保留时间轴视图，可在热度优先和时间优先间切换。官方来源包括 OpenAI、Anthropic、Google 等一手消息及 GitHub AI&ML 更新日志。信息流按来源、类型、信号等级分类，标注高优先级与多源认证。项目完全开源，可零 API 部署独立 AI 日报页面，支持手机移动端及暗色界面。",
-      "category": "AI",
+      "title": "Anthropic在Claude Code中植入隐写术代码识别中国用户",
+      "summary": "Anthropic在Claude Code中植入隐写术：读取本地时区（Asia/Shanghai或Asia/Urumqi）和ANTHROPIC_BASE_URL环境变量，与一份经base64+XOR（密钥91）加密的147个域名列表（含美团、字节跳动、月之暗面等）比对，识别中国用户。识别后，在请求发送前将系统提示词中日期字符串的单引号（U+0027）替换为其他Unicode字符，连字符改为斜杠，作为2-3比特分类标记传回服务器。该隐蔽行为被社区逆向发现后引发争议，被认为破坏用户信任。",
+      "category": "行业",
       "tags": [
-        "ai-products"
+        "Claude",
+        "编程"
       ],
-      "url": "https://mp.weixin.qq.com/s/iW5FVqbHtYi31mJ22Q_cog",
-      "source": "公众号：卡尔的AI沃茨",
+      "url": "https://mp.weixin.qq.com/s/yLb4T2UC16ebKHApdBbgWw",
+      "source": "公众号：数字生命卡兹克",
       "image": null,
-      "time": "2026-06-30T01:47:00.000Z",
+      "time": "2026-07-01T00:11:00.000Z",
       "id": 2
     },
     {
-      "title": "为 Amazon Bedrock 和 Google Cloud 推出的 Claude apps gateway",
-      "summary": "Anthropic 今日推出 Claude apps gateway，一个自托管控制平面，让企业能在 Amazon Bedrock 和 Google Cloud 上运行 Claude Code。它作为单个无状态容器部署于 Linux，后端使用 PostgreSQL，提供企业级 SSO 登录（通过 OIDC 对接 Google Workspace、Microsoft Entra ID、Okta 等）、集中策略管理、角色权限、路由（支持故障转移）以及按日/周/月、按组织/群组/用户的消费上限。遥测数据通过 OTLP 发送至用户配置的收集器。gateway 不会向 Anthropic 发送推理流量或使用数据（除非配置使用 Claude API）。即日起可用。",
-      "category": "AI",
-      "tags": [
-        "Claude",
-        "Gemini"
-      ],
-      "url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
-      "source": "Claude：Blog（网页）",
-      "image": null,
-      "time": "2026-06-29T21:22:33.048Z",
-      "id": 3
-    },
-    {
-      "title": "美团LongCat Owl Alpha：OpenRouter最流行模型，1.6万亿MoE，国产ASIC训练",
-      "summary": "美团LongCat的1.6万亿参数MoE模型Owl Alpha成为OpenRouter上最流行模型，累计消耗10万亿tokens，性能达Gemini/Opus 4.6级别。该模型使用35万亿tokens训练，完全在5万块国产ASIC上完成。据官方推文，Owl Alpha上线后每日调用量全球Top3，在Hermes Agent排名#1，Claude Code排名#2，OpenClaw排名#3。该模型即将退役，后续版本待公布。",
-      "category": "AI",
-      "tags": [
-        "ai-models"
-      ],
-      "url": "https://x.com/EMostaque/status/2071701921241448574",
-      "source": "X：Emad Mostaque (@EMostaque)",
-      "image": null,
-      "time": "2026-06-29T21:06:43.000Z",
-      "id": 4
-    },
-    {
-      "title": "Rubin Ultra取消，新版尺寸性能减半",
-      "summary": "有意思：在GTC 2026宣布Rubin Ultra仅3个月后，原4-die Rubin Ultra因制造执行问题被取消。新的\"Rubin Ultra\"尺寸减半，实际性能约为原版的一半。1/4🧵",
+      "title": "库克与欧盟科技主管就新版Siri AI举行建设性会谈",
+      "summary": "苹果CEO库克与欧盟科技事务负责人维尔库宁就新版Siri AI在欧推出举行建设性视频会议。新版Siri将转为可调用用户个人数据的聊天机器人，但因《数字市场法》互操作义务苹果拒绝向竞争对手开放同等数据权限，暂不在欧盟iPhone和iPad上推出。苹果提出\"可信系统代理\"方案，拟在设备与第三方AI模型间增加软件层，但未开发，并要求18个月监管宽限期，遭欧盟拒绝。欧盟收到数百封消费者邮件及死亡威胁。",
       "category": "行业",
       "tags": [
         "industry"
       ],
-      "url": "https://x.com/SemiAnalysis_/status/2071700428249596290",
-      "source": "X：SemiAnalysis (@SemiAnalysis_)",
+      "url": "https://www.ithome.com/0/970/810.htm",
+      "source": "IT之家（RSS）",
       "image": null,
-      "time": "2026-06-29T21:00:47.000Z",
-      "id": 5
+      "time": "2026-06-30T23:43:32.000Z",
+      "id": 3
     },
     {
-      "title": "OpenClaw 发布原生 iOS 与 Android 应用",
-      "summary": "OpenClaw 现已登陆 iOS 和 Android 🦞\n\n📱 原生移动应用，终于来了\n💬 智能体装进口袋\n🔔 频道、任务、回复，随时处理\n\n用你的大拇指，在任何地方运行智能体。\n\niOS： https：//apps.apple.com/us/app/openclaw-ai-that-does-things/id6780396132\nAndroid： https：//play.google.com/store/apps/details？id=ai.openclaw.app",
+      "title": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
+      "summary": "AI Safety Memes 推文指出，AI 刚刚解决了 9 个未解决的数学问题，但全球没有记者报道。引用 @WeinsteinOmri 的推文称，采用\"prover-verifier\"LLM 循环的方法，成功解决了理论计算机科学中 9 个重大开放问题，其中包括一个困扰其长达 2 年的难题。该研究由哥伦比亚大学合作者完成，并计划将这一方法扩展到所有科学领域。",
+      "category": "AI",
+      "tags": [
+        "paper"
+      ],
+      "url": "https://x.com/AISafetyMemes/status/2072085914558558402",
+      "source": "X：AI Safety Memes (@AISafetyMemes)",
+      "image": null,
+      "time": "2026-06-30T22:32:34.000Z",
+      "id": 4
+    },
+    {
+      "title": "NotebookLM Short Video Overviews 全量上线 Web 英文版",
+      "summary": "NotebookLM 正式向 Web 英文用户全量推出 Short Video Overviews（短视频概览）功能。该功能可将复杂资料自动转化为 60 秒竖屏视频，深入讲解任意概念。此前，这一功能已面向 Google AI Ultra 和 Pro 订阅者（移动端及 Web）推出，免费用户即将可用。",
       "category": "AI",
       "tags": [
         "ai-products"
       ],
-      "url": "https://x.com/openclaw/status/2071688039114342592",
-      "source": "X：OpenClaw (@openclaw)",
+      "url": "https://x.com/NotebookLM/status/2072043680442245276",
+      "source": "X：NotebookLM (@NotebookLM)",
       "image": null,
-      "time": "2026-06-29T20:11:33.000Z",
-      "id": 6
+      "time": "2026-06-30T19:44:44.000Z",
+      "id": 5
     },
     {
-      "title": "Claude 在 Microsoft Foundry 正式可用",
-      "summary": "从今天起，Claude 模型在 Microsoft Foundry 上正式可用，托管于 Azure 环境，运行在 NVIDIA GB300 GPU 上。首批提供 Claude Opus 4.8 和 Claude Haiku 4.5，通过 Messages API 调用，支持提示缓存和扩展思考。用户可选择推理处理位置，包括美国数据区域，由 Anthropic 负责推理运营。Azure 用户可使用现有身份验证、计费与治理控制，并获得统一账单；符合条件的 Enterprise Agreement 客户可将 Claude 用量计入 Azure 承诺消费。",
+      "title": "Claude Sonnet 5 发布",
+      "summary": "Claude Sonnet 5 是 Anthropic 推出的最新 Sonnet 模型，具备计划、浏览器和终端工具使用能力，可自主运行。性能接近 Opus 4.8，定价更低：即日起至 2026 年 8 月 31 日，输入 token $2/百万，输出 $10/百万，之后恢复为 $3/百万输入和 $15/百万输出。相比 Sonnet 4.6，在推理、工具使用、编程和知识工作等智能体能力上大幅提升。在 BrowseComp 和 OSWorld-Verified 评测中严格优于 Sonnet 4.6。安全评估显示不良行为率更低，幻觉和谄媚减少，但网络安全能力弱于 Opus 4.8。即日起在所有套餐及 Claude Code、Claude API 中可用。",
       "category": "AI",
       "tags": [
         "Claude"
       ],
-      "url": "https://claude.com/blog/claude-in-microsoft-foundry",
-      "source": "Claude：Blog（网页）",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "source": "Anthropic：Newsroom（网页）",
       "image": null,
-      "time": "2026-06-29T18:22:20.720Z",
-      "id": 7
+      "time": "2026-06-30T18:02:06.984Z",
+      "id": 6
     },
     {
-      "title": "Qwen 3.6 27B 是本地开发的理想选择",
-      "summary": "Qwen 3.6 27B 是一款密集参数本地大语言模型，原生支持 256k 上下文。在 Macbook Max M5 上运行 llama.cpp Q8_0 量化版（含多 token 预测）可达 30 tokens/s；用户反馈在 RTX 5090 上 Q6_K 量化可达 50 tokens/s。它可通过单个提示完成创意诗歌、用 pnpm 生成六边形扫雷游戏等任务，作者称其为首个真正具备通用智能的本地模型。另有一个 MoE 变体 35B A3B，但作者推荐 27B 版本。",
-      "category": "工具",
-      "tags": [
-        "阿里"
-      ],
-      "url": "https://quesma.com/blog/qwen-36-is-awesome",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "image": null,
-      "time": "2026-06-29T18:03:02.582Z",
-      "id": 8
-    },
-    {
-      "title": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
-      "summary": "An anthropic应用AI工程师Margot Van Laar在Code with Claude分享提示词工程实战，核心观点：大部分时间在调试和维护已有生产提示词而非从零编写。两个场景：客服机器人维护中，用XML标签结构化清理，移除旧模型遗留的\"禁止列表\"指令（新模型会过度拟合），精确计算应调用工具，转人工决策需明确代价与收益；零售排班Agent从零构建时，拆成生成-评估-修复三个简单提示词更稳定，选用更强推理模型（Opus）。她反复强调：评估（Eval）是唯一严谨方式，没有评估就是碰运气。",
-      "category": "工具",
-      "tags": [
-        "Claude"
-      ],
-      "url": "https://x.com/berryxia/status/2071610700213191075",
-      "source": "X：Berry Xia (@berryxia)",
-      "image": null,
-      "time": "2026-06-29T15:04:14.000Z",
-      "id": 9
-    },
-    {
-      "title": "Herdr：驻留在终端中的AI智能体多路复用器",
-      "summary": "Herdr是一个驻留在终端中的AI智能体多路复用器，允许用户在单一终端界面内管理和切换多个AI智能体会话。",
+      "title": "Acti 将 AI 智能体直接放入手机键盘",
+      "summary": "新加坡初创公司 Acti 发布基于 Google Gemini 的智能体键盘，可代替用户在应用中执行操作。核心功能 Skills 允许用自然语言创建快捷方式，如长按 T 键翻译消息、C 键发送会议链接。早期测试者两周内创建超 1000 个 Skills。采用本地优先架构，默认不访问私人消息。公司获 530 万美元种子轮融资，由 BITKRAFT Ventures 领投，现已开放下载。",
       "category": "AI",
       "tags": [
         "Agent"
       ],
-      "url": "https://github.com/ogulcancelik/herdr",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard",
+      "source": "TechCrunch：AI（RSS）",
       "image": null,
-      "time": "2026-06-29T14:03:06.351Z",
+      "time": "2026-06-30T17:52:46.000Z",
+      "id": 7
+    },
+    {
+      "title": "Claude Science 科研工作台正式上线",
+      "summary": "Anthropic 推出 AI 科研工作台 Claude Science，整合常用工具与计算资源，支持从文献分析到多步骤研究的全流程。提供超 60 项预配置技能与连接器，覆盖基因组学、单细胞、蛋白质组学、结构生物学、化学信息学等领域；可在macOS/Linux本地运行，或通过SSH/HPC远程使用。生成含代码和环境的可审计成果（3D蛋白质结构、基因组浏览器轨迹等），内置reviewer agent自动检查引用与计算错误。通过NVIDIA BioNeMo接入Evo 2、Boltz-2等模型，也支持连接自有模型与管道。今日以beta版面向Claude Pro、Max、Team和Enterprise用户开放。",
+      "category": "AI",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "source": "Anthropic：Newsroom（网页）",
+      "image": null,
+      "time": "2026-06-30T17:32:06.724Z",
+      "id": 8
+    },
+    {
+      "title": "Claude Code 入门：智能体循环",
+      "summary": "Claude Code 团队将智能体循环定义为 agent 重复工作直到满足停止条件的过程，并划分出四种主要类型：turn-based 循环（用户提示触发，Claude 自行判断完成或需更多上下文）、goal-based 循环（通过 `/goal` 命令设定可验证完成标准与最大轮次）、time-based 循环（通过 `/loop` 按时间间隔重复执行，可用 `/schedule` 移至云端）、以及 proactive 循环（基于事件或计划自动运行，无人实时参与）。文章还介绍了如何编写 SKILL.md 文件将人工验证步骤编码，让 Claude 进行端到端自检，减少 turn-based 循环中的手动操作。",
+      "category": "工具",
+      "tags": [
+        "Claude",
+        "Agent"
+      ],
+      "url": "https://claude.com/blog/getting-started-with-loops",
+      "source": "Claude：Blog（网页）",
+      "image": null,
+      "time": "2026-06-30T17:28:28.530Z",
+      "id": 9
+    },
+    {
+      "title": "ADK Go 2.0 发布：构建可靠的多智能体应用，新增基于图的工作流引擎、人工参与循环与动态编排",
+      "summary": "Agent Development Kit （ADK） for Go 2.0 发布，引入了一类基于图的工作流引擎，用于组合复杂多智能体应用。新版本内置人工参与循环（HITL）编排、使用纯 Go 代码的动态执行、以及指数退避重试等自动弹性特性。统一执行模型后，单智能体应用与复杂图均运行在同一运行时上，简化了遥测与状态持久化。",
+      "category": "AI",
+      "tags": [
+        "Agent"
+      ],
+      "url": "https://developers.googleblog.com/announcing-adk-go-20",
+      "source": "Google Developers Blog（RSS）",
+      "image": null,
+      "time": "2026-06-30T17:17:40.302Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "openclaw/openclaw",
-      "description": "个人AI助手，多平台语音交互，实时画布控制",
-      "language": "TypeScript",
-      "stars": 381037,
-      "starsToday": 1756,
-      "forks": 79815,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "ultraworkers/claw-code",
+      "description": "Rust语言，基于螃蟹动力装备的代码库",
+      "language": "Rust",
+      "stars": 194482,
+      "starsToday": 2137,
+      "forks": 109867,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 1
     },
     {
       "name": "deepseek-ai/DeepSpec",
-      "description": "全栈代码库，训练和评估推测解码模型",
+      "description": "Python语言，全栈代码库，用于训练和评估推测解码模型",
       "language": "Python",
-      "stars": 4040,
-      "starsToday": 1617,
-      "forks": 338,
+      "stars": 5373,
+      "starsToday": 1333,
+      "forks": 430,
       "url": "https://github.com/deepseek-ai/DeepSpec",
       "rank": 2
     },
     {
-      "name": "Krishnagangwal/CS-Fundamentals",
-      "description": "计算机科学基础资料库，涵盖主要CS科目",
-      "language": "Unknown",
-      "stars": 976,
-      "starsToday": 976,
-      "forks": 71,
-      "url": "https://github.com/Krishnagangwal/CS-Fundamentals",
+      "name": "baairon/torlink",
+      "description": "TypeScript语言，终端内快速搜索种子文件的工具",
+      "language": "TypeScript",
+      "stars": 1764,
+      "starsToday": 1046,
+      "forks": 112,
+      "url": "https://github.com/baairon/torlink",
       "rank": 3
     },
     {
       "name": "NousResearch/hermes-agent",
-      "description": "自改进AI代理，内置学习循环，跨会话知识持久化",
+      "description": "Python语言，自改进AI代理，具备内置学习循环",
       "language": "Python",
-      "stars": 205824,
-      "starsToday": 737,
-      "forks": 37186,
+      "stars": 206604,
+      "starsToday": 780,
+      "forks": 37381,
       "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 4
     },
     {
-      "name": "farion1231/cc-switch",
-      "description": "多平台代码管理工具，统一管理Claude系列产品",
-      "language": "Rust",
-      "stars": 110775,
-      "starsToday": 673,
-      "forks": 7326,
-      "url": "https://github.com/farion1231/cc-switch",
+      "name": "affaan-m/ECC",
+      "description": "JavaScript语言，多语言支持，跨平台代理工作流",
+      "language": "JavaScript",
+      "stars": 224199,
+      "starsToday": 653,
+      "forks": 34308,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 5
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "跨语言工作流，支持多种编程语言",
-      "language": "JavaScript",
-      "stars": 223546,
-      "starsToday": 424,
-      "forks": 34223,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "farion1231/cc-switch",
+      "description": "Rust语言，Claude系列工具统一管理器",
+      "language": "Rust",
+      "stars": 111380,
+      "starsToday": 605,
+      "forks": 7376,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 6
     },
     {
       "name": "Yu9191/wloc",
-      "description": "iOS网络定位虚拟定位工具，在线选点即生效",
+      "description": "JavaScript语言，iOS网络定位虚拟定位工具",
       "language": "JavaScript",
-      "stars": 1543,
-      "starsToday": 381,
-      "forks": 200,
+      "stars": 2019,
+      "starsToday": 476,
+      "forks": 271,
       "url": "https://github.com/Yu9191/wloc",
       "rank": 7
     },
     {
-      "name": "public-apis/public-apis",
-      "description": "免费公共API资源库，社区管理",
+      "name": "yynxxxxx/Codex-5.5-codex-instruct-5.5",
+      "description": "Python语言，Codex CLI中GPT-5.5无限制模式指令",
       "language": "Python",
-      "stars": 445045,
-      "starsToday": 233,
-      "forks": 48839,
-      "url": "https://github.com/public-apis/public-apis",
+      "stars": 858,
+      "starsToday": 429,
+      "forks": 271,
+      "url": "https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5",
       "rank": 8
     },
     {
-      "name": "baairon/torlink",
-      "description": "终端内快速查找种子文件的工具",
-      "language": "TypeScript",
-      "stars": 718,
-      "starsToday": 180,
-      "forks": 42,
-      "url": "https://github.com/baairon/torlink",
+      "name": "public-apis/public-apis",
+      "description": "Python语言，免费公共API资源库",
+      "language": "Python",
+      "stars": 445438,
+      "starsToday": 393,
+      "forks": 48886,
+      "url": "https://github.com/public-apis/public-apis",
       "rank": 9
     },
     {
-      "name": "ollama/ollama",
-      "description": "使用开源模型开始构建",
-      "language": "Go",
-      "stars": 175157,
-      "starsToday": 159,
-      "forks": 16765,
-      "url": "https://github.com/ollama/ollama",
+      "name": "Krishnagangwal/CS-Fundamentals",
+      "description": "未知语言，计算机科学基础知识库",
+      "language": "Unknown",
+      "stars": 1230,
+      "starsToday": 254,
+      "forks": 98,
+      "url": "https://github.com/Krishnagangwal/CS-Fundamentals",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-06-30",
-    "updatedAt": "2026-06-30T03:36:31.144Z",
+    "date": "2026-07-01",
+    "updatedAt": "2026-07-01T03:48:29.783Z",
     "highlights": [
-      "具身智能数据采集员",
-      "AI News Radar更新",
-      "Claude apps gateway",
-      "美团LongCat Owl Alpha",
-      "Rubin Ultra取消"
+      "AI技能编写指南发布",
+      "隐写术代码识别技术应用于Claude Code",
+      "Siri AI新版进展",
+      "AI攻克数学难题",
+      "NotebookLM英文版上线",
+      "Claude Sonnet 5发布",
+      "AI智能体集成手机键盘",
+      "Claude Science科研工作台上线",
+      "ADK Go 2.0发布"
     ],
     "keywords": [
-      "具身智能",
-      "AI新闻雷达",
-      "Claude",
-      "美团",
-      "Rubin Ultra",
-      "OpenClaw",
-      "Microsoft Foundry",
-      "Qwen",
-      "提示词工程",
-      "Herdr",
-      "openclaw",
-      "DeepSpec",
-      "CS-Fundamentals",
-      "hermes-agent",
-      "cc-switch",
-      "ECC",
-      "wloc",
-      "public-apis",
-      "torlink",
-      "ollama"
+      "AI技能",
+      "隐写术",
+      "Siri AI",
+      "数学难题",
+      "NotebookLM",
+      "Claude Sonnet 5",
+      "AI智能体",
+      "Claude Science",
+      "ADK Go 2.0",
+      "Rust",
+      "Python",
+      "TypeScript",
+      "JavaScript"
     ],
-    "trendingSummary": "今日技术趋势集中在人工智能和工具领域，具身智能数据采集员和AI News Radar更新显示了AI在教育领域的应用，而Claude apps gateway和美团的新模型LongCat Owl Alpha则展示了AI技术的商业化进展。同时，Rubin Ultra的取消也反映出行业对技术创新的持续追求。"
+    "trendingSummary": "今日技术资讯显示，AI技能编写指南、隐写术代码识别、Siri AI新版以及AI在数学领域的突破成为焦点。同时，AI工具和平台的发展持续加速，从智能体集成到科研工作台的上线，显示出AI技术的广泛应用趋势。"
   }
 }
