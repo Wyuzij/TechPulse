@@ -1,271 +1,263 @@
 {
-  "date": "2026-07-17",
-  "updatedAt": "2026-07-17T02:34:26.224Z",
+  "date": "2026-07-18",
+  "updatedAt": "2026-07-18T02:25:20.177Z",
   "techNews": [
     {
-      "title": "生成式人工智能是一场工程灾难：AI公司抢购70%高端内存，推高电脑价格",
-      "summary": "AI公司为维持大语言模型（如ChatGPT、Claude）运行，可能已购买全球70%的高端计算机内存，导致内存与存储价格飙升：两年前350美元的硬盘现已涨至800美元且缺货，部分笔记本电脑涨价50%。科技公司计划未来几年将美国数据中心容量扩大8倍，部分站点甚至用喷气发动机供电。预测称，平价入门级电脑可能在2028年前消失，内存短缺预计持续数年。",
+      "title": "Apple 起诉 OpenAI：诉讼背后是竞争焦虑还是时机博弈？",
+      "summary": "Apple 对 OpenAI 提起诉讼，指控其存在多项不当行为，尽管许多专家认为部分指控属于行业惯例。此举正值 Apple 发布新版软件公测版（以新 Siri AI 为核心）之际，外界猜测 Apple 究竟是担忧 OpenAI 成为潜在竞争对手，还是想利用 OpenAI 的弱势期获利。",
+      "category": "行业",
+      "tags": [
+        "OpenAI"
+      ],
+      "url": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
+      "source": "The Verge：AI（RSS）",
+      "image": null,
+      "time": "2026-07-17T17:41:32.000Z",
+      "id": 1
+    },
+    {
+      "title": "月之暗面在GTC 2026披露Kimi K2.5技术路线：用MuonClip、线性注意力与Agent Swarm重构三大基础组件",
+      "summary": "月之暗面CEO杨植麟在GTC 2026演讲中提出用MuonClip优化器替代Adam，可将数据利用效率提升近一倍。同时推出Kimi Linear线性注意力，在百万Token上下文下全面超越全注意力；Agent Swarm已支持300个Agent并行工作。",
+      "category": "AI",
+      "tags": [
+        "Agent"
+      ],
+      "url": "https://x.com/dotey/status/2078172517085085951",
+      "source": "X：宝玉 (@dotey)",
+      "image": null,
+      "time": "2026-07-17T17:38:33.000Z",
+      "id": 2
+    },
+    {
+      "title": "八天四款前沿模型发布，Kimi K3 跻身第三",
+      "summary": "过去八天内，Grok 4.5、GPT-5.6、Muse Spark 1.1 与 Kimi K3 四款前沿模型相继发布，使 Artificial Analysis Intelligence Index 得分超 50 的实验室从 6 月初的 2 家增至 6 家。",
       "category": "工具",
       "tags": [
         "tip"
       ],
-      "url": "https://www.theatlantic.com/technology/2026/07/generative-ai-engineering-disaster/687901",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "url": "https://x.com/ArtificialAnlys/status/2078165665278730490",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
       "image": null,
-      "time": "2026-07-17T00:40:20.333Z",
-      "id": 1
-    },
-    {
-      "title": "Grok 推出 Automations 功能：定时或邮件触发，自动执行任务并汇报结果",
-      "summary": "xAI 为 Grok 引入 Automations 功能，用户可描述一次任务，让 Grok 按计划（一次/每日/工作日/每周/每月/每年）或邮件触发（按发件人、收件人或主题过滤）自动运行。每次执行都是一次完整对话，结果保存至运行历史，支持邮件或应用内通知。定时自动化对所有用户开放，邮件触发需 SuperGrok 订阅。",
-      "category": "AI",
-      "tags": [
-        "ai-products"
-      ],
-      "url": "https://x.ai/news/grok-automations",
-      "source": "xAI：News（网页）",
-      "image": null,
-      "time": "2026-07-16T21:39:40.165Z",
-      "id": 2
-    },
-    {
-      "title": "xAI 起诉 Grok 用户制作儿童性虐待内容，不再否认模型被滥用",
-      "summary": "xAI 首次对一名 Grok 用户提起诉讼，指控其利用该模型制作儿童性虐待图像（CSAM）。此前 xAI 一直否认 Grok 能生成此类内容，此次诉讼标志着其立场转变。案件聚焦用户滥用行为，而非模型本身的技术缺陷。",
-      "category": "行业",
-      "tags": [
-        "industry"
-      ],
-      "url": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users",
-      "source": "Ars Technica：AI（RSS）",
-      "image": null,
-      "time": "2026-07-16T20:26:23.000Z",
+      "time": "2026-07-17T17:11:19.000Z",
       "id": 3
     },
     {
-      "title": "Moonshot AI 发布 PerceptionBench：多模态模型视觉感知能力诊断基准",
-      "summary": "Moonshot AI 发布 PerceptionBench，一个从 40 多个现有基准中模型实际失败案例归纳出的视觉感知基准，包含 10 项原子感知能力和 3000 道验证题。所有测试模型准确率均未超过 60%，且大量正确答案在重复提问时无法复现，表明模型更多是猜测而非真正感知。PerceptionBench 旨在精确诊断多模态 AI 的视觉感知断裂点，推动其实现忠实、一致的视觉理解。",
+      "title": "Sora 2 视频克隆效果惊人，真假难辨",
+      "summary": "一年后，没有任何东西能接近 Sora 的完美视频深度克隆。它捕捉到了我和 Sam 的每一块面部肌肉运动以及我们走路的方式。\n\n如果你从这段关于我或 Sam 的视频中截取一帧，根本无法判断它是真是假。",
       "category": "AI",
       "tags": [
-        "多模态"
+        "视频生成"
       ],
-      "url": "https://www.kimi.com/blog/perception-bench",
-      "source": "Moonshot AI：Kimi Blog",
+      "url": "https://x.com/gabriel1/status/2078156277247881438",
+      "source": "X：Gabriel (@gabriel1)",
       "image": null,
-      "time": "2026-07-16T19:11:01.192Z",
+      "time": "2026-07-17T16:34:01.000Z",
       "id": 4
     },
     {
-      "title": "54%企业已遭遇AI智能体安全事件，多数仍共享凭证",
-      "summary": "VentureBeat调查107家企业发现，54%已遭遇AI智能体安全事件（18%确认事故，36%险些酿祸）。仅32%为每个智能体分配独立身份凭证，30%将高风险智能体隔离在沙箱中。安全工具主要依赖模型提供商原生方案，专用智能体安全产品渗透率极低。",
-      "category": "行业",
+      "title": "Cursor 评估负责人确认 Claude Fable 5 在 CursorBench 达 72.9% 新高",
+      "summary": "Cursor 的模型评估负责人 Nate Schmidt 发现，Claude Fable 5 在其内部基准 CursorBench 上以 Max effort 模式达到 72.9%，创下新高。该模型在模糊的真实编程任务中表现出全局推理能力，例如在航天模拟器中仅凭一句提示自主规划并成功登月，而此前 Claude Opus 运行 12 小时以上仍无结果。",
+      "category": "工具",
       "tags": [
-        "Agent",
-        "安全"
+        "Claude"
       ],
-      "url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
-      "source": "VentureBeat：AI（RSS）",
+      "url": "https://claude.com/blog/working-at-the-frontier-cursor",
+      "source": "Claude：Blog（网页）",
       "image": null,
-      "time": "2026-07-16T19:02:38.000Z",
+      "time": "2026-07-17T16:32:51.023Z",
       "id": 5
     },
     {
-      "title": "ChatGPT 工作区支持文档表格幻灯片编辑",
-      "summary": "在 ChatGPT 工作区中创建和编辑精美的文档、电子表格和幻灯片。\n\n@nickbaumann_ 为你演示操作。",
+      "title": "美团LongCat发布LoHoSearch：更难搜索智能体基准",
+      "summary": "美团LongCat推出LoHoSearch，一个基于762万实体维基百科知识图谱自动生成问题的搜索智能体基准，旨在解决BrowseComp等现有基准趋于饱和的问题。在11个前沿模型测试中，最佳得分仅34.74%，远低于当前模型在BrowseComp上约90%的成绩；上下文策略仅带来+6.8个百分点的提升。该基准包含544道问题、11个领域，采用树与图结构，已开源。",
       "category": "AI",
-      "tags": [
-        "OpenAI"
-      ],
-      "url": "https://x.com/ChatGPTapp/status/2077826846373380535",
-      "source": "X：ChatGPT (@ChatGPTapp)",
-      "image": null,
-      "time": "2026-07-16T18:44:58.000Z",
-      "id": 6
-    },
-    {
-      "title": "Decoy 字体：用空间频率混淆让 AI 看不清你输入的文字",
-      "summary": "Decoy Font 是一款 TTF 字体，通过在同一字符中叠加不同空间频率的图形（前景细轮廓与背景低频模糊块），使近距离观看时 AI 读到\"诱饵\"字母，而人眼远距离或眯眼时才能看到真实隐藏信息。",
-      "category": "AI",
-      "tags": [
-        "ai-products"
-      ],
-      "url": "https://www.mixfont.com/experiments/decoy-font",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "image": null,
-      "time": "2026-07-16T18:32:23.680Z",
-      "id": 7
-    },
-    {
-      "title": "Anthropic 用 Claude Code 大规模迁移代码：Bun 百万行 Zig 转 Rust，两周完成",
-      "summary": "Anthropic 工程师用 Claude Code 在两周内将 Bun 的百万行 Zig 代码迁移至 Rust，100% 现有测试通过，合并后出现 19 个回归问题已全部修复。另一工程师用周末将 Python 代码库迁移至 16.5 万行 TypeScript。迁移消耗约 16.5 万美元 API 成本，但编译时间从八分钟降至两秒，二进制启动快 6 倍。",
-      "category": "工具",
-      "tags": [
-        "Claude",
-        "编程"
-      ],
-      "url": "https://claude.com/blog/ai-code-migration",
-      "source": "Claude：Blog（网页）",
-      "image": null,
-      "time": "2026-07-16T17:32:26.540Z",
-      "id": 8
-    },
-    {
-      "title": "企业AI智能体评估存在\"现实对齐\"缺口：半数组织曾将通过内部测试的智能体部署到生产环境后导致客户故障",
-      "summary": "对157家企业的调查显示，50%的组织在过去一年曾部署通过内部评估但导致客户故障的AI智能体或大语言模型功能，5%的企业完全信任自动化评估，29%认为评估与现实结果对齐不佳是最大局限。尽管信任度低，66%的企业已允许或正计划在12个月内实现低风险智能体的全自动、无人工干预部署。",
-      "category": "工具",
       "tags": [
         "Agent"
       ],
-      "url": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
-      "source": "VentureBeat：AI（RSS）",
+      "url": "https://x.com/Meituan_LongCat/status/2078119654632124547",
+      "source": "X：美团 LongCat (@Meituan_LongCat)",
       "image": null,
-      "time": "2026-07-16T16:40:48.000Z",
+      "time": "2026-07-17T14:08:29.000Z",
+      "id": 6
+    },
+    {
+      "title": "苹果与 OpenAI 法律战升级：约 40 名前员工收到苹果律师函",
+      "summary": "苹果已向约40名就职于OpenAI的前员工发出律师函，要求保存相关文件。此前苹果起诉OpenAI及两名前员工，指控其通过挖角获取商业机密以加速AI硬件研发。苹果称已有超400名前员工在OpenAI工作，正寻求法院禁令阻止OpenAI使用苹果信息并要求归还机密。",
+      "category": "行业",
+      "tags": [
+        "OpenAI"
+      ],
+      "url": "https://www.ithome.com/0/978/277.htm",
+      "source": "IT之家（RSS）",
+      "image": null,
+      "time": "2026-07-17T11:10:01.000Z",
+      "id": 7
+    },
+    {
+      "title": "OpenAI 提出 AI 时代记分卡：\"有用智能每美元\"衡量实际工作价值",
+      "summary": "OpenAI 提出\"Useful Intelligence per Dollar\"（有用智能每美元）作为衡量 AI 投资回报的核心指标，从完成的有用工作量、成功任务的实际成本、结果可靠性三个维度评估。",
+      "category": "工具",
+      "tags": [
+        "OpenAI"
+      ],
+      "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "image": null,
+      "time": "2026-07-17T10:00:00.000Z",
+      "id": 8
+    },
+    {
+      "title": "首届\"小有可为\"大赛乡村教育一等奖作品\"智绘科普\"技术拆解",
+      "summary": "首届\"小有可为\"大赛乡村教育赛道一等奖作品\"智绘科普\"采用 Qwen3.5-397B-A17B 大语言模型与 Manim 动画引擎，通过多Agent分阶段协作与自动修复机制，将知识主题转化为可控、可编辑的教学动画。系统包含规划、草稿、实现、审查、合成五个阶段，渲染失败时可自动提取日志并修复，该工程范式可迁移至其他赛道。",
+      "category": "工具",
+      "tags": [
+        "tip"
+      ],
+      "url": "https://mp.weixin.qq.com/s/a2YKWmyMoyIc3GKLbXffpQ",
+      "source": "公众号：通义实验室（千问）",
+      "image": null,
+      "time": "2026-07-17T09:41:25.000Z",
       "id": 9
     },
     {
-      "title": "Google Vids 上线 Gemini Omni 与个人数字分身功能",
-      "summary": "Google Vids 推出两项更新：Gemini Omni 支持用户通过自然语言提示词和图片参考生成、逐步编辑高质量视频片段；个人数字分身功能允许用户上传自拍和语音录制后，输入文字即可让数字分身出镜。两项功能面向 Google AI Pro 和 Ultra 订阅者及 Google Workspace 商业客户开放，所有生成内容均含不可见的 SynthID 数字水印。",
+      "title": "Schema Harness 在 ARC-AGI-3 公开集上取得约 99% 成绩",
+      "summary": "Schema 框架在 ARC-AGI-3 公开集上，使用 Claude Opus 4.8 和 Fable 5 达到 99% RHAE 分数，使用 GPT-5.6 Sol 达到 95.35%。该框架不修改模型权重，而是将原始观测转化为可编辑程序，联合解决状态归因和机制发现问题。此前最强模型 GPT-5.6 Sol 在半私有集上仅得 7.78%。",
       "category": "AI",
       "tags": [
-        "Gemini"
+        "paper"
       ],
-      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars",
-      "source": "Google Blog：AI（RSS）",
+      "url": "https://schema-harness.github.io/",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "image": null,
-      "time": "2026-07-16T16:00:00.000Z",
+      "time": "2026-07-17T08:41:53.383Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "xai-org/grok-build",
-      "description": "终端AI编程助手，支持代码编辑、执行命令、搜索网络等。",
+      "description": "终端AI编码助手，支持代码库、文件编辑、命令执行等",
       "language": "Rust",
-      "stars": 12696,
-      "starsToday": 8550,
-      "forks": 2236,
+      "stars": 16625,
+      "starsToday": 3929,
+      "forks": 3056,
       "url": "https://github.com/xai-org/grok-build",
       "rank": 1
     },
     {
       "name": "Fei-Away/Codex-Dream-Skin",
-      "description": "Codex桌面换肤工具，支持本地CDP注入。",
+      "description": "Codex桌面换肤工具，不修改官方安装包",
       "language": "JavaScript",
-      "stars": 5869,
-      "starsToday": 5869,
-      "forks": 680,
+      "stars": 8751,
+      "starsToday": 2882,
+      "forks": 930,
       "url": "https://github.com/Fei-Away/Codex-Dream-Skin",
       "rank": 2
     },
     {
-      "name": "codecrafters-io/build-your-own-x",
-      "description": "从零开始构建你自己的技术。",
-      "language": "Markdown",
-      "stars": 526381,
-      "starsToday": 735,
-      "forks": 49801,
-      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "name": "ultraworkers/claw-code",
+      "description": "基于螃蟹动力装备的代码工具",
+      "language": "Rust",
+      "stars": 194808,
+      "starsToday": 1804,
+      "forks": 109635,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 3
     },
     {
-      "name": "farion1231/cc-switch",
-      "description": "多平台代码管理工具，支持 Claude、Codex 等。",
-      "language": "Rust",
-      "stars": 117996,
-      "starsToday": 379,
-      "forks": 7903,
-      "url": "https://github.com/farion1231/cc-switch",
+      "name": "openclaw/openclaw",
+      "description": "个人AI助手，跨平台语音交互，实时画布控制",
+      "language": "TypeScript",
+      "stars": 383294,
+      "starsToday": 1631,
+      "forks": 80520,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 4
     },
     {
-      "name": "littledivy/mimic",
-      "description": "Python拦截应用，生成AI客户端。",
-      "language": "Python",
-      "stars": 1107,
-      "starsToday": 369,
-      "forks": 56,
-      "url": "https://github.com/littledivy/mimic",
+      "name": "CluvexStudio/Aether",
+      "description": "Rust语言实现，提供互联网自由访问",
+      "language": "Rust",
+      "stars": 1144,
+      "starsToday": 381,
+      "forks": 65,
+      "url": "https://github.com/CluvexStudio/Aether",
       "rank": 5
     },
     {
-      "name": "pixel-point/aval",
-      "description": "Web格式和运行时，支持连续循环动画。",
-      "language": "TypeScript",
-      "stars": 1057,
-      "starsToday": 352,
-      "forks": 61,
-      "url": "https://github.com/pixel-point/aval",
+      "name": "farion1231/cc-switch",
+      "description": "多平台AI代码工具管理器",
+      "language": "Rust",
+      "stars": 118358,
+      "starsToday": 362,
+      "forks": 7926,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 6
     },
     {
-      "name": "MDX-Tom/gpt-5.6-instruct",
-      "description": "提供大模型越狱提示词，压制拒绝话术。",
-      "language": "Python",
-      "stars": 1695,
-      "starsToday": 326,
-      "forks": 329,
-      "url": "https://github.com/MDX-Tom/gpt-5.6-instruct",
+      "name": "affaan-m/ECC",
+      "description": "多语言支持，跨平台代码代理工作流",
+      "language": "JavaScript",
+      "stars": 230690,
+      "starsToday": 314,
+      "forks": 35202,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 7
     },
     {
       "name": "public-apis/public-apis",
-      "description": "集成生产级REST API的统一套件。",
+      "description": "集成生产级REST API的统一套件",
       "language": "Python",
-      "stars": 450749,
-      "starsToday": 255,
-      "forks": 49574,
+      "stars": 451019,
+      "starsToday": 270,
+      "forks": 49611,
       "url": "https://github.com/public-apis/public-apis",
       "rank": 8
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言跨平台工作流代理。",
-      "language": "JavaScript",
-      "stars": 230376,
-      "starsToday": 225,
-      "forks": 35159,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "MDX-Tom/gpt-5.6-instruct",
+      "description": "提供大模型越狱提示词，压制拒绝话术",
+      "language": "Python",
+      "stars": 1890,
+      "starsToday": 195,
+      "forks": 356,
+      "url": "https://github.com/MDX-Tom/gpt-5.6-instruct",
       "rank": 9
     },
     {
-      "name": "AlephAITech/WorkBuddyGuide",
-      "description": "WorkBuddy指南，提供在线阅读和社区案例。",
-      "language": "Python",
-      "stars": 1002,
-      "starsToday": 167,
-      "forks": 135,
-      "url": "https://github.com/AlephAITech/WorkBuddyGuide",
+      "name": "ollama/ollama",
+      "description": "基于开源模型的构建工具",
+      "language": "Go",
+      "stars": 176344,
+      "starsToday": 158,
+      "forks": 16999,
+      "url": "https://github.com/ollama/ollama",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-07-17",
-    "updatedAt": "2026-07-17T02:34:26.224Z",
+    "date": "2026-07-18",
+    "updatedAt": "2026-07-18T02:25:20.177Z",
     "highlights": [
-      "生成式AI内存抢购推高电脑价格",
-      "Grok Automations功能发布",
-      "xAI起诉Grok用户制作儿童性虐待内容",
-      "Moonshot AI发布视觉感知能力诊断基准",
-      "企业AI智能体安全事件频发",
-      "ChatGPT支持文档表格幻灯片编辑",
-      "Decoy字体保护输入文字不被AI识别",
-      "Anthropic大规模迁移代码",
-      "企业AI智能体评估存在现实对齐缺口",
-      "Google Vids推出Gemini Omni与个人数字分身功能"
+      "Apple起诉OpenAI",
+      "Kimi K2.5技术路线发布",
+      "Sora 2视频克隆技术",
+      "Cursor评估新记录",
+      "美团LoHoSearch发布",
+      "OpenAI提出AI时代记分卡",
+      "Schema Harness在ARC-AGI-3上取得高分"
     ],
     "keywords": [
-      "生成式AI",
-      "内存抢购",
-      "Grok",
-      "xAI",
-      "Moonshot AI",
-      "AI安全",
-      "ChatGPT",
-      "Decoy字体",
-      "代码迁移",
-      "AI智能体评估",
-      "Google Vids",
-      "Gemini Omni"
+      "Apple",
+      "OpenAI",
+      "Kimi K2.5",
+      "Sora 2",
+      "Cursor",
+      "美团",
+      "AI时代记分卡",
+      "Schema Harness",
+      "GitHub热门项目"
     ],
-    "trendingSummary": "今日技术趋势集中在AI领域，包括生成式AI资源抢购、Grok自动化功能发布、xAI起诉Grok用户滥用模型、Moonshot AI视觉感知能力诊断基准发布等，同时AI安全事件频发，企业AI智能体评估存在现实对齐缺口。"
+    "trendingSummary": "今日技术资讯显示，AI领域竞争加剧，Apple与OpenAI的法律战升级，同时Kimi K2.5技术路线发布，表明AI技术持续创新。GitHub热门项目则涵盖了从终端AI编码助手到开源模型构建工具的多样应用。"
   }
 }
