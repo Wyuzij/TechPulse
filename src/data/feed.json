@@ -1,7 +1,20 @@
 {
-  "date": "2026-07-18",
-  "updatedAt": "2026-07-18T02:25:20.177Z",
+  "date": "2026-07-19",
+  "updatedAt": "2026-07-19T02:38:53.685Z",
   "techNews": [
+    {
+      "title": "Index Ventures 联合创始人 Neil Rimer 认为 AI 财富将面临\"再分配\"",
+      "summary": "Index Ventures 联合创始人 Neil Rimer 表示，围绕 AI 积累的巨额财富将面临\"某种形式的再分配\"，无论是自愿还是强制。他呼吁科技领袖在推动自愿再分配中发挥主导作用。与此同时，美国慈善捐赠总额虽创新高，但捐赠人数持续下降，而加州正考虑对亿万富翁征收 5% 的一次性财富税。",
+      "category": "工具",
+      "tags": [
+        "tip"
+      ],
+      "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out",
+      "source": "TechCrunch：AI（RSS）",
+      "image": null,
+      "time": "2026-07-18T04:47:25.000Z",
+      "id": 1
+    },
     {
       "title": "Apple 起诉 OpenAI：诉讼背后是竞争焦虑还是时机博弈？",
       "summary": "Apple 对 OpenAI 提起诉讼，指控其存在多项不当行为，尽管许多专家认为部分指控属于行业惯例。此举正值 Apple 发布新版软件公测版（以新 Siri AI 为核心）之际，外界猜测 Apple 究竟是担忧 OpenAI 成为潜在竞争对手，还是想利用 OpenAI 的弱势期获利。",
@@ -13,7 +26,7 @@
       "source": "The Verge：AI（RSS）",
       "image": null,
       "time": "2026-07-17T17:41:32.000Z",
-      "id": 1
+      "id": 2
     },
     {
       "title": "月之暗面在GTC 2026披露Kimi K2.5技术路线：用MuonClip、线性注意力与Agent Swarm重构三大基础组件",
@@ -26,7 +39,7 @@
       "source": "X：宝玉 (@dotey)",
       "image": null,
       "time": "2026-07-17T17:38:33.000Z",
-      "id": 2
+      "id": 3
     },
     {
       "title": "八天四款前沿模型发布，Kimi K3 跻身第三",
@@ -39,33 +52,7 @@
       "source": "X：Artificial Analysis (@ArtificialAnlys)",
       "image": null,
       "time": "2026-07-17T17:11:19.000Z",
-      "id": 3
-    },
-    {
-      "title": "Sora 2 视频克隆效果惊人，真假难辨",
-      "summary": "一年后，没有任何东西能接近 Sora 的完美视频深度克隆。它捕捉到了我和 Sam 的每一块面部肌肉运动以及我们走路的方式。\n\n如果你从这段关于我或 Sam 的视频中截取一帧，根本无法判断它是真是假。",
-      "category": "AI",
-      "tags": [
-        "视频生成"
-      ],
-      "url": "https://x.com/gabriel1/status/2078156277247881438",
-      "source": "X：Gabriel (@gabriel1)",
-      "image": null,
-      "time": "2026-07-17T16:34:01.000Z",
       "id": 4
-    },
-    {
-      "title": "Cursor 评估负责人确认 Claude Fable 5 在 CursorBench 达 72.9% 新高",
-      "summary": "Cursor 的模型评估负责人 Nate Schmidt 发现，Claude Fable 5 在其内部基准 CursorBench 上以 Max effort 模式达到 72.9%，创下新高。该模型在模糊的真实编程任务中表现出全局推理能力，例如在航天模拟器中仅凭一句提示自主规划并成功登月，而此前 Claude Opus 运行 12 小时以上仍无结果。",
-      "category": "工具",
-      "tags": [
-        "Claude"
-      ],
-      "url": "https://claude.com/blog/working-at-the-frontier-cursor",
-      "source": "Claude：Blog（网页）",
-      "image": null,
-      "time": "2026-07-17T16:32:51.023Z",
-      "id": 5
     },
     {
       "title": "美团LongCat发布LoHoSearch：更难搜索智能体基准",
@@ -78,6 +65,19 @@
       "source": "X：美团 LongCat (@Meituan_LongCat)",
       "image": null,
       "time": "2026-07-17T14:08:29.000Z",
+      "id": 5
+    },
+    {
+      "title": "LLM cliché highlighter：一款识别AI写作套话的检测工具",
+      "summary": "Simon Willison 用 Fable 5 开发了一款 LLM cliché highlighter 应用，用于高亮 LLM 生成文本中常见的十种套话模式，例如\"no fluff， no filler， no jargon\"这类陈词滥调。该工具旨在帮助读者快速识别并过滤掉充斥在文章中的 AI 写作风格化表达。",
+      "category": "工具",
+      "tags": [
+        "tip"
+      ],
+      "url": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter",
+      "source": "Simon Willison 博客",
+      "image": null,
+      "time": "2026-07-17T12:11:11.000Z",
       "id": 6
     },
     {
@@ -136,11 +136,11 @@
   "githubTrending": [
     {
       "name": "xai-org/grok-build",
-      "description": "终端AI编码助手，支持代码库、文件编辑、命令执行等",
+      "description": "终端AI编码助手，支持代码编辑、命令执行、任务管理",
       "language": "Rust",
-      "stars": 16625,
-      "starsToday": 3929,
-      "forks": 3056,
+      "stars": 18963,
+      "starsToday": 2338,
+      "forks": 3422,
       "url": "https://github.com/xai-org/grok-build",
       "rank": 1
     },
@@ -148,116 +148,130 @@
       "name": "Fei-Away/Codex-Dream-Skin",
       "description": "Codex桌面换肤工具，不修改官方安装包",
       "language": "JavaScript",
-      "stars": 8751,
-      "starsToday": 2882,
-      "forks": 930,
+      "stars": 9782,
+      "starsToday": 1031,
+      "forks": 1022,
       "url": "https://github.com/Fei-Away/Codex-Dream-Skin",
       "rank": 2
     },
     {
-      "name": "ultraworkers/claw-code",
-      "description": "基于螃蟹动力装备的代码工具",
-      "language": "Rust",
-      "stars": 194808,
-      "starsToday": 1804,
-      "forks": 109635,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "obra/superpowers",
+      "description": "基于技能集的AI开发方法论，支持社区和代码工作",
+      "language": "Shell",
+      "stars": 257142,
+      "starsToday": 912,
+      "forks": 22913,
+      "url": "https://github.com/obra/superpowers",
       "rank": 3
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "个人AI助手，跨平台语音交互，实时画布控制",
-      "language": "TypeScript",
-      "stars": 383294,
-      "starsToday": 1631,
-      "forks": 80520,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "tandpfun/wardrobe",
+      "description": "用gpt-image提取和组织衣物信息",
+      "language": "JavaScript",
+      "stars": 1058,
+      "starsToday": 529,
+      "forks": 158,
+      "url": "https://github.com/tandpfun/wardrobe",
       "rank": 4
     },
     {
-      "name": "CluvexStudio/Aether",
-      "description": "Rust语言实现，提供互联网自由访问",
+      "name": "farion1231/cc-switch",
+      "description": "Claude系列工具全平台管理器",
       "language": "Rust",
-      "stars": 1144,
-      "starsToday": 381,
-      "forks": 65,
-      "url": "https://github.com/CluvexStudio/Aether",
+      "stars": 118668,
+      "starsToday": 310,
+      "forks": 7954,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 5
     },
     {
-      "name": "farion1231/cc-switch",
-      "description": "多平台AI代码工具管理器",
-      "language": "Rust",
-      "stars": 118358,
-      "starsToday": 362,
-      "forks": 7926,
-      "url": "https://github.com/farion1231/cc-switch",
+      "name": "affaan-m/ECC",
+      "description": "多语言跨平台AI工作流工具",
+      "language": "JavaScript",
+      "stars": 230959,
+      "starsToday": 269,
+      "forks": 35237,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 6
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言支持，跨平台代码代理工作流",
-      "language": "JavaScript",
-      "stars": 230690,
-      "starsToday": 314,
-      "forks": 35202,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "pixel-point/aval",
+      "description": "Web格式和运行时，用于连续循环的动画",
+      "language": "TypeScript",
+      "stars": 1214,
+      "starsToday": 243,
+      "forks": 65,
+      "url": "https://github.com/pixel-point/aval",
       "rank": 7
     },
     {
-      "name": "public-apis/public-apis",
-      "description": "集成生产级REST API的统一套件",
+      "name": "littledivy/mimic",
+      "description": "Python库式拦截应用调用",
       "language": "Python",
-      "stars": 451019,
-      "starsToday": 270,
-      "forks": 49611,
-      "url": "https://github.com/public-apis/public-apis",
+      "stars": 1176,
+      "starsToday": 235,
+      "forks": 73,
+      "url": "https://github.com/littledivy/mimic",
       "rank": 8
     },
     {
-      "name": "MDX-Tom/gpt-5.6-instruct",
-      "description": "提供大模型越狱提示词，压制拒绝话术",
+      "name": "public-apis/public-apis",
+      "description": "APILayer统一套件，集成REST API",
       "language": "Python",
-      "stars": 1890,
-      "starsToday": 195,
-      "forks": 356,
-      "url": "https://github.com/MDX-Tom/gpt-5.6-instruct",
+      "stars": 451226,
+      "starsToday": 207,
+      "forks": 49642,
+      "url": "https://github.com/public-apis/public-apis",
       "rank": 9
     },
     {
-      "name": "ollama/ollama",
-      "description": "基于开源模型的构建工具",
-      "language": "Go",
-      "stars": 176344,
-      "starsToday": 158,
-      "forks": 16999,
-      "url": "https://github.com/ollama/ollama",
+      "name": "openclaw/openclaw",
+      "description": "个人AI助手，跨平台语音交互",
+      "language": "TypeScript",
+      "stars": 383411,
+      "starsToday": 117,
+      "forks": 80533,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-07-18",
-    "updatedAt": "2026-07-18T02:25:20.177Z",
+    "date": "2026-07-19",
+    "updatedAt": "2026-07-19T02:38:53.685Z",
     "highlights": [
-      "Apple起诉OpenAI",
+      "AI财富再分配",
+      "Apple与OpenAI行业竞争",
       "Kimi K2.5技术路线发布",
-      "Sora 2视频克隆技术",
-      "Cursor评估新记录",
-      "美团LoHoSearch发布",
+      "Kimi K3模型发布",
+      "美团LoHoSearch搜索智能体基准",
+      "LLM cliché highlighter工具",
+      "苹果与OpenAI法律战",
       "OpenAI提出AI时代记分卡",
-      "Schema Harness在ARC-AGI-3上取得高分"
+      "智绘科普技术拆解",
+      "Schema Harness在ARC-AGI-3取得高分"
     ],
     "keywords": [
-      "Apple",
-      "OpenAI",
-      "Kimi K2.5",
-      "Sora 2",
-      "Cursor",
-      "美团",
-      "AI时代记分卡",
-      "Schema Harness",
-      "GitHub热门项目"
+      "AI",
+      "财富分配",
+      "行业竞争",
+      "技术路线",
+      "模型发布",
+      "搜索智能体",
+      "工具",
+      "法律战",
+      "记分卡",
+      "技术拆解",
+      "AI开发方法论",
+      "衣物信息提取",
+      "AI助手",
+      "语音交互",
+      "终端AI编码助手",
+      "桌面换肤工具",
+      "AI开发方法论",
+      "衣物信息提取",
+      "AI助手",
+      "语音交互"
     ],
-    "trendingSummary": "今日技术资讯显示，AI领域竞争加剧，Apple与OpenAI的法律战升级，同时Kimi K2.5技术路线发布，表明AI技术持续创新。GitHub热门项目则涵盖了从终端AI编码助手到开源模型构建工具的多样应用。"
+    "trendingSummary": "今日技术趋势聚焦于AI领域，包括财富再分配、行业竞争、技术路线发布、模型创新、搜索智能体基准、AI写作工具、法律战、AI时代记分卡以及乡村教育技术应用等方面。"
   }
 }
