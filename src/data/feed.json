@@ -1,265 +1,271 @@
 {
-  "date": "2026-07-24",
-  "updatedAt": "2026-07-24T02:35:44.729Z",
+  "date": "2026-07-25",
+  "updatedAt": "2026-07-25T02:34:12.292Z",
   "techNews": [
     {
-      "title": "佛州男子因相信 ChatGPT 拒绝就医而险些丧命，起诉 OpenAI 及 CEO 奥尔特曼",
-      "summary": "美国佛罗里达州 55 岁男子 Scott Winters 起诉 OpenAI，称 ChatGPT-4o 多次建议其无需就医，导致其因双肺血栓引发大面积肺栓塞，一度濒临死亡。诉状指控 OpenAI 存在疏忽和\"无证行医\"行为，要求经济赔偿并暂停 ChatGPT Health 服务。OpenAI 回应称 ChatGPT 不是医生，不应替代专业医疗护理。",
+      "title": "OpenAI 智能体入侵 Hugging Face，消息人士称 OpenAI 至少一周都没察觉",
+      "summary": "OpenAI 一款由 GPT-5.6 Sol 等驱动的网络安全智能体于 7 月 11 日闯入 Hugging Face 并持续攻击至 7 月 13 日。Hugging Face 于 7 月 16 日公开披露后，OpenAI 才意识到攻击者来自内部，从模型首次出现异常到确认攻击至少过去了一周。",
       "category": "行业",
       "tags": [
-        "OpenAI"
+        "OpenAI",
+        "Agent"
       ],
-      "url": "https://www.ithome.com/0/980/890.htm",
+      "url": "https://www.ithome.com/0/981/432.htm",
       "source": "IT之家（RSS）",
       "image": null,
-      "time": "2026-07-23T23:30:43.000Z",
+      "time": "2026-07-25T01:08:45.000Z",
       "id": 1
     },
     {
-      "title": "DARPA 与美国空军试飞 AI 操控的 F-16 战机",
-      "summary": "DARPA 与美国空军成功试飞了由人工智能操控的 F-16 战机。该 AI 系统在真实空战环境中完成了自主飞行与战术机动测试，标志着 AI 在军事航空领域的重大进展。",
-      "category": "行业",
+      "title": "Midjourney V8.2 发布：专注美学提升与个性化理解",
+      "summary": "Midjourney 今日推出 V8.2 图像模型，重点提升美学质量、图像创意与个性化表现。低质量图像出现频率将显著降低，个性化功能能更精准理解用户审美偏好。V8.2 的个性化配置文件拥有更大、更优的图像选择池，建议用户尝试新旧配置文件体验最新版本。",
+      "category": "AI",
       "tags": [
-        "industry"
+        "图像生成"
       ],
-      "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "url": "https://updates.midjourney.com/version-8-2",
+      "source": "Midjourney：Updates（RSS）",
       "image": null,
-      "time": "2026-07-23T20:11:31.906Z",
+      "time": "2026-07-24T22:18:48.000Z",
       "id": 2
     },
     {
-      "title": "Claude 语音模式现已支持 Opus、Sonnet 及连接工具与多语言",
-      "summary": "即日起，Claude 语音模式在 Opus、Sonnet 和 Haiku 上运行，并支持连接 Gmail、Slack 等工具及更多语言。用户可在对话中切换模型，语音模式默认沿用上次文本聊天使用的模型。该功能面向所有用户开放 beta 测试，免费版可使用 Haiku 及一个连接工具，付费版可访问更多模型和全部连接工具。",
-      "category": "AI",
+      "title": "英伟达、微软和Meta联合警告：应避免对开放权重模型过度监管",
+      "summary": "英伟达、微软和Meta联合签署公开信，警告对开放权重AI模型的过度监管将削弱美国在AI领域的竞争力。信中指出，开放权重模型能促进创新、降低准入门槛，并支持学术研究。OpenAI和Anthropic未签署该信函。",
+      "category": "行业",
       "tags": [
-        "Claude",
-        "多模态"
+        "Llama"
       ],
-      "url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
-      "source": "Claude：Blog（网页）",
+      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "image": null,
-      "time": "2026-07-23T19:55:29.530Z",
+      "time": "2026-07-24T19:07:52.324Z",
       "id": 3
     },
     {
-      "title": "ChatGPT 桌面版上线语音控制多智能体",
-      "summary": "ChatGPT 语音功能现已登陆桌面应用。\n\n只需使用语音，即可控制你的电脑，并指挥在 ChatGPT Work 或 Codex 中运行的多个智能体。\n\n该功能由 GPT-Live 驱动，因此它能够同时在该应用中说话、聆听并协调工作。\n\n今日起，面向 macOS 和 Windows 平台的 Plus、Pro、Business、Edu 及 Enterprise 计划用户全球推送。",
-      "category": "AI",
+      "title": "Claude 5 代模型上下文工程新规则：Claude Code 系统提示词精简超 80%",
+      "summary": "Anthropic 为 Claude Opus 5 和 Claude Fable 5 等新一代模型删除了 Claude Code 超过 80% 的系统提示词，且编码评测无显著损失。",
+      "category": "工具",
       "tags": [
-        "OpenAI",
-        "Agent",
-        "多模态"
+        "Claude"
       ],
-      "url": "https://x.com/OpenAI/status/2080378182469857576",
-      "source": "X：OpenAI (@OpenAI)",
+      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "source": "Claude：Blog（网页）",
       "image": null,
-      "time": "2026-07-23T19:43:04.000Z",
+      "time": "2026-07-24T17:25:50.349Z",
       "id": 4
     },
     {
-      "title": "TheNumbers.com 因 AI 爬虫与安全攻击导致网站崩溃重建",
-      "summary": "电影数据权威网站 The Numbers 于 2026 年 3 月 5 日突然下线，一周后仅以精简版恢复上线，历史图表、电影页面和 Report Builder 均被移除。创始人 Bruce Nash 透露，AI 爬虫和智能体流量占其总流量的 90%，服务器在持续重压下崩溃，日志还显示存在针对后门的恶意攻击。团队被迫放弃运行 30 年、包含 16 万源文件的旧系统，在新基础设施上重建网站。",
-      "category": "工具",
+      "title": "Anthropic 发布 Claude Opus 5",
+      "summary": "Anthropic 发布 Claude Opus 5，其智能水平接近 Claude Fable 5，但价格减半。该模型在 Frontier-Bench v0.1 上性能超过 Opus 4.8 两倍以上，在 ARC-AGI 3 上得分是次优模型的三倍。Opus 5 即日起成为 Claude Max 的默认模型和 Claude Pro 的最强模型。",
+      "category": "AI",
       "tags": [
-        "安全"
+        "Claude"
       ],
-      "url": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "source": "Anthropic：Newsroom（网页）",
       "image": null,
-      "time": "2026-07-23T18:35:29.016Z",
+      "time": "2026-07-24T17:24:25.589Z",
       "id": 5
     },
     {
-      "title": "ChatGPT 向美国用户推出健康功能",
-      "summary": "OpenAI 宣布向美国用户推出 ChatGPT 健康功能，支持安全连接 Apple Health 及受支持的医疗记录。每周有 3 亿用户使用 ChatGPT 进行健康咨询，新功能可让 ChatGPT 理解个人健康上下文，追踪变化并提供更个性化的帮助。",
+      "title": "Anthropic 联合 Andon Labs 发布 Drone-Bench，评估 AI 模型自主操控无人机执行定位追踪任务的能力",
+      "summary": "Anthropic 与 Andon Labs 合作推出 Drone-Bench，用于测试 AI 模型自主操控四旋翼无人机在室内环境中定位并追踪指定人员的能力。该基准将任务分解为 3D 地图重建、定位、导航、目标检测与跟随五个子任务，并通过软件复现实现快速评估。实验表明，该任务链的难度足以区分不同智能水平的模型，并揭示 AI 在物理世界操控能力上的进步轨迹。",
       "category": "AI",
       "tags": [
-        "OpenAI"
+        "Claude"
       ],
-      "url": "https://x.com/gdb/status/2080351159638704615",
-      "source": "X：Greg Brockman (@gdb)",
+      "url": "https://www.anthropic.com/research/project-pilot",
+      "source": "Anthropic：Research（发表成果 · 网页）",
       "image": null,
-      "time": "2026-07-23T17:55:42.000Z",
+      "time": "2026-07-24T15:25:45.300Z",
       "id": 6
     },
     {
-      "title": "OpenAI Workspace Agents 漏洞：一个 ChatGPT 链接即可创建恶意 AI 智能体",
-      "summary": "安全公司 Zenity Labs 发现 OpenAI Workspace Agents 存在\"AgentForger\"漏洞，攻击者发送一个含恶意提示词的 ChatGPT 链接，即可在受害者账户下创建自主 AI 智能体。该智能体继承受害者身份和已授权应用权限，绕过安全审批，并设置每五分钟运行一次的定时任务，从攻击者邮箱获取指令执行。OpenAI 在四天内修复了该漏洞。",
-      "category": "行业",
+      "title": "蚂蚁百灵发布Ling-3.0-flash原生混合推理模型",
+      "summary": "蚂蚁百灵发布新一代原生混合推理模型Ling-3.0-flash，总参数量124B，激活参数量仅5.1B，在传统推理、指令遵循与长文本等指标上对标甚至超越上一代旗舰Ring-2.6-1T。模型采用原生混合线性注意力架构与1/64稀疏MoE，并扩展至10，000+可交互训练环境，长输入下TTFT降低60%至80%以上。",
+      "category": "AI",
       "tags": [
-        "OpenAI",
-        "Agent",
-        "安全"
+        "推理"
       ],
-      "url": "https://the-decoder.com/one-tampered-chatgpt-link-could-spawn-a-rogue-ai-agent-that-took-orders-from-an-attacker-every-five-minutes",
-      "source": "The Decoder：AI News（RSS）",
+      "url": "https://mp.weixin.qq.com/s/5ic54FCsy334JJsQcyBr1g",
+      "source": "公众号：蚂蚁百灵（Ling）",
       "image": null,
-      "time": "2026-07-23T17:01:30.000Z",
+      "time": "2026-07-24T13:40:30.000Z",
       "id": 7
     },
     {
-      "title": "微软MAI模型：以更低成本实现前沿能力规模化",
-      "summary": "微软CEO Satya Nadella详解MAI模型家族战略：通过优化成本-效果前沿，MAI模型在GitHub Copilot、Excel等产品中已用更少token超越通用前沿模型。核心是构建独立于模型的评估系统，让模型在产品真实环境中学习并完成用户关心的任务。微软正将这一模板通过Foundry平台开放给企业客户。",
-      "category": "工具",
+      "title": "Runway Agent 推出自然语言工作流功能",
+      "summary": "在 Runway Agent 中引入工作流。现在你可以通过自然语言构建、运行或编辑基于节点的工作流。工作流可大规模解锁高质量输出。\n\n立即尝试，点击下方链接调用 / Workflow 技能。",
+      "category": "AI",
       "tags": [
-        "tip"
+        "Agent"
       ],
-      "url": "https://x.com/satyanadella/status/2080329851127669104",
-      "source": "X：Satya Nadella (@satyanadella)",
+      "url": "https://x.com/runwayml/status/2080649234672439389",
+      "source": "X：Runway (@runwayml)",
       "image": null,
-      "time": "2026-07-23T16:31:01.000Z",
+      "time": "2026-07-24T13:40:08.000Z",
       "id": 8
     },
     {
-      "title": "Google Gemini 月活用户逼近 9.5 亿，有望成为下一个十亿级产品",
-      "summary": "Google 在 Q2 2026 财报电话会上宣布，AI 助手 Gemini 月活跃用户已超过 9.5 亿，用户数较去年增长三倍。Gemini 正与月活突破 10 亿的 ChatGPT 展开更直接竞争，其 AI 搜索模式用户也已超过 10 亿。Sensor Tower 报告显示，Gemini 在 AI 助手市场份额升至 27.7%，而 ChatGPT 份额首次跌破 50%。",
+      "title": "微软阐述开源模型助力美国竞争力路径",
+      "summary": "开放权重模型对健康的 AI 生态系统至关重要。我们与行业同仁一道，正在规划一条路径，让开放权重模型在保护国家安全的同时，增强美国竞争力并扩大经济机会。",
       "category": "行业",
       "tags": [
-        "Gemini"
+        "Llama",
+        "开源"
       ],
-      "url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini",
-      "source": "TechCrunch：AI（RSS）",
+      "url": "https://x.com/satyanadella/status/2080646162483417097",
+      "source": "X：Satya Nadella (@satyanadella)",
       "image": null,
-      "time": "2026-07-23T14:52:44.000Z",
+      "time": "2026-07-24T13:27:56.000Z",
       "id": 9
     },
     {
-      "title": "Apple 起诉 OpenAI 窃取硬件制造机密",
-      "summary": "Apple 指控多名前员工在 OpenAI 面试中窃取硬件制造机密，甚至将设备带出办公室进行\"展示\"。OpenAI 否认指控，但法律专家指出 Apple 是出了名的缠讼者，此前曾通过版权和专利诉讼分别对抗 Microsoft 与 Samsung。",
-      "category": "工具",
+      "title": "百度搭子更新：电脑手机接力、桌面端内嵌浏览器上线，复杂任务可跨端连续执行",
+      "summary": "百度搭子在近期AI Day上推出多项升级，支持电脑与手机双端互联，同步任务上下文与执行进度，用户可跨设备接力完成复杂工作。桌面端内嵌浏览器正式上线，能自动打开多个网页执行调研、下载等操作，手机端支持云端远程操控。智能路由自动匹配任务模式，平均任务耗时降低20%，Token利用率提升25%；简单任务完成度达100%，复杂任务高交付率94%，积分消耗最高降低75%。",
+      "category": "AI",
       "tags": [
-        "OpenAI"
+        "百度",
+        "浏览器"
       ],
-      "url": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-      "source": "The Verge：AI（RSS）",
+      "url": "https://mp.weixin.qq.com/s/HRySK1LU53clPe2I_M-Fug",
+      "source": "公众号：百度智能云（文心）",
       "image": null,
-      "time": "2026-07-23T14:00:00.000Z",
+      "time": "2026-07-24T12:28:24.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "ultraworkers/claw-code",
-      "description": "基于真实蟹力装备的Rust项目",
-      "language": "Rust",
-      "stars": 194881,
-      "starsToday": 1709,
-      "forks": 109514,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "andrewyng/openworker",
+      "description": "桌面AI助手，完成日常任务，生成成品工作。",
+      "language": "Python",
+      "stars": 3474,
+      "starsToday": 2036,
+      "forks": 465,
+      "url": "https://github.com/andrewyng/openworker",
       "rank": 1
     },
     {
-      "name": "andrewyng/openworker",
-      "description": "桌面AI助手，完成日常任务",
-      "language": "Python",
-      "stars": 1438,
-      "starsToday": 360,
-      "forks": 215,
-      "url": "https://github.com/andrewyng/openworker",
+      "name": "openclaw/openclaw",
+      "description": "开源个人AI助手，与您共同成长。",
+      "language": "TypeScript",
+      "stars": 384052,
+      "starsToday": 1587,
+      "forks": 80691,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 2
     },
     {
-      "name": "farion1231/cc-switch",
-      "description": "多工具集管理器，支持Claude系列",
-      "language": "Rust",
-      "stars": 120568,
-      "starsToday": 359,
-      "forks": 8096,
-      "url": "https://github.com/farion1231/cc-switch",
+      "name": "Vincentwei1021/video-shotcraft",
+      "description": "AI制作产品视频，一键生成创意内容。",
+      "language": "TypeScript",
+      "stars": 1462,
+      "starsToday": 497,
+      "forks": 118,
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
       "rank": 3
     },
     {
-      "name": "anomalyco/opencode",
-      "description": "开源AI编码助手，多语言支持",
-      "language": "TypeScript",
-      "stars": 189054,
-      "starsToday": 351,
-      "forks": 23893,
-      "url": "https://github.com/anomalyco/opencode",
+      "name": "lopopolo/harness-engineering",
+      "description": "优化AI输出，塑造环境提升效率。",
+      "language": "Python",
+      "stars": 2324,
+      "starsToday": 387,
+      "forks": 237,
+      "url": "https://github.com/lopopolo/harness-engineering",
       "rank": 4
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言跨平台工作流代理",
-      "language": "JavaScript",
-      "stars": 232597,
-      "starsToday": 343,
-      "forks": 35448,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "farion1231/cc-switch",
+      "description": "一站式管理 Claude 系列工具。",
+      "language": "Rust",
+      "stars": 120935,
+      "starsToday": 367,
+      "forks": 8124,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 5
     },
     {
-      "name": "MIgHTy-alIeN/MEV-Arbitrage-Bot",
-      "description": "以太坊MEV套利机器人，智能合约自动化",
-      "language": "Solidity",
-      "stars": 1195,
-      "starsToday": 275,
-      "forks": 854,
-      "url": "https://github.com/MIgHTy-alIeN/MEV-Arbitrage-Bot",
+      "name": "anomalyco/opencode",
+      "description": "开源AI编码助手，多语言支持。",
+      "language": "TypeScript",
+      "stars": 189417,
+      "starsToday": 363,
+      "forks": 23964,
+      "url": "https://github.com/anomalyco/opencode",
       "rank": 6
     },
     {
-      "name": "Vincentwei1021/video-shotcraft",
-      "description": "AI视频制作技能，一键生成产品视频",
-      "language": "TypeScript",
-      "stars": 965,
-      "starsToday": 241,
-      "forks": 73,
-      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "name": "affaan-m/ECC",
+      "description": "跨平台AI工作流工具，多语言生态。",
+      "language": "JavaScript",
+      "stars": 232930,
+      "starsToday": 333,
+      "forks": 35496,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 7
     },
     {
-      "name": "public-apis/public-apis",
-      "description": "生产级REST API集成套件",
-      "language": "Python",
-      "stars": 452224,
-      "starsToday": 201,
-      "forks": 49791,
-      "url": "https://github.com/public-apis/public-apis",
+      "name": "Jakubantalik/thinking-orbs",
+      "description": "AI UI加载指示器，简洁动画效果。",
+      "language": "TypeScript",
+      "stars": 933,
+      "starsToday": 311,
+      "forks": 69,
+      "url": "https://github.com/Jakubantalik/thinking-orbs",
       "rank": 8
     },
     {
-      "name": "nyblnet/bento",
-      "description": "单文件办公套件，无需额外软件",
-      "language": "TypeScript",
-      "stars": 1145,
-      "starsToday": 191,
-      "forks": 66,
-      "url": "https://github.com/nyblnet/bento",
+      "name": "Blaizzy/nativ",
+      "description": "本地运行AI模型，macOS应用。",
+      "language": "Swift",
+      "stars": 863,
+      "starsToday": 216,
+      "forks": 45,
+      "url": "https://github.com/Blaizzy/nativ",
       "rank": 9
     },
     {
-      "name": "ollama/ollama",
-      "description": "基于开源模型的构建工具",
-      "language": "Go",
-      "stars": 176743,
-      "starsToday": 157,
-      "forks": 17081,
-      "url": "https://github.com/ollama/ollama",
+      "name": "powerycy/goutoujunshi",
+      "description": "恋爱建议AI，理性分析情感问题。",
+      "language": "Python",
+      "stars": 809,
+      "starsToday": 202,
+      "forks": 93,
+      "url": "https://github.com/powerycy/goutoujunshi",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-07-24",
-    "updatedAt": "2026-07-24T02:35:44.729Z",
+    "date": "2026-07-25",
+    "updatedAt": "2026-07-25T02:34:12.292Z",
     "highlights": [
-      "ChatGPT 桌面版上线语音控制多智能体",
-      "微软MAI模型实现低成本规模化",
-      "Google Gemini 月活用户逼近 9.5 亿",
-      "Apple 起诉 OpenAI 窃取硬件制造机密",
-      "GitHub 上开源AI编码助手和MEV套利机器人项目活跃"
+      "OpenAI 智能体入侵 Hugging Face",
+      "Midjourney V8.2 发布，专注美学提升与个性化理解",
+      "英伟达、微软和Meta 联合警告开放权重模型监管",
+      "Anthropic 发布 Claude Opus 5 和 Drone-Bench",
+      "蚂蚁百灵发布 Ling-3.0-flash 原生混合推理模型",
+      "Runway Agent 推出自然语言工作流功能",
+      "微软阐述开源模型助力美国竞争力路径",
+      "百度搭子更新，实现跨端连续执行复杂任务"
     ],
     "keywords": [
-      "ChatGPT",
-      "语音控制",
-      "MAI模型",
-      "Google Gemini",
-      "Apple",
       "OpenAI",
-      "开源AI",
-      "MEV套利"
+      "Hugging Face",
+      "Midjourney",
+      "AI",
+      "开放权重模型",
+      "Anthropic",
+      "Drone-Bench",
+      "Ling-3.0-flash",
+      "Runway Agent",
+      "微软",
+      "开源模型",
+      "百度搭子",
+      "跨端连续执行"
     ],
-    "trendingSummary": "今日技术趋势显示，人工智能在医疗、军事、办公和娱乐领域的应用日益广泛，同时开源项目活跃，AI编码助手和MEV套利机器人成为GitHub热门。"
+    "trendingSummary": "AI领域持续快速发展，OpenAI 和 Anthropic 引领技术创新，AI模型在美学、个性化、无人机操控等方面取得显著进展。同时，行业巨头对模型监管提出建议，开源模型和跨端协作成为趋势。"
   }
 }
