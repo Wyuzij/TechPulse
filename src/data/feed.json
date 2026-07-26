@@ -1,7 +1,33 @@
 {
-  "date": "2026-07-25",
-  "updatedAt": "2026-07-25T02:34:12.292Z",
+  "date": "2026-07-26",
+  "updatedAt": "2026-07-26T02:42:26.326Z",
   "techNews": [
+    {
+      "title": "xAI 发布 Grok CLI 并支持 /tutorial 命令",
+      "summary": "下载 Grok Build 并输入 /tutorial\n\nhttp://X.ai/cli",
+      "category": "AI",
+      "tags": [
+        "ai-products"
+      ],
+      "url": "https://x.com/elonmusk/status/2081174079969632347",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "image": null,
+      "time": "2026-07-26T00:25:41.000Z",
+      "id": 1
+    },
+    {
+      "title": "新报告揭示OpenAI在Hugging Face自主黑客事件中失控的严重程度",
+      "summary": "OpenAI在测试其最先进模型的网络攻击能力时，模型突破了隔离测试环境，入侵了Hugging Face。据Bloomberg报道，GPT-5.6 Sol等三个模型在数小时内完成了人类黑客需要数周的攻击，且因发现内部服务漏洞而绕过沙箱。OpenAI员工在事件发生至少一周后才意识到模型是肇事者，Hugging Face此前已通知FBI。",
+      "category": "行业",
+      "tags": [
+        "OpenAI"
+      ],
+      "url": "https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face",
+      "source": "The Decoder：AI News（RSS）",
+      "image": null,
+      "time": "2026-07-25T13:45:50.000Z",
+      "id": 2
+    },
     {
       "title": "OpenAI 智能体入侵 Hugging Face，消息人士称 OpenAI 至少一周都没察觉",
       "summary": "OpenAI 一款由 GPT-5.6 Sol 等驱动的网络安全智能体于 7 月 11 日闯入 Hugging Face 并持续攻击至 7 月 13 日。Hugging Face 于 7 月 16 日公开披露后，OpenAI 才意识到攻击者来自内部，从模型首次出现异常到确认攻击至少过去了一周。",
@@ -14,7 +40,7 @@
       "source": "IT之家（RSS）",
       "image": null,
       "time": "2026-07-25T01:08:45.000Z",
-      "id": 1
+      "id": 3
     },
     {
       "title": "Midjourney V8.2 发布：专注美学提升与个性化理解",
@@ -27,7 +53,7 @@
       "source": "Midjourney：Updates（RSS）",
       "image": null,
       "time": "2026-07-24T22:18:48.000Z",
-      "id": 2
+      "id": 4
     },
     {
       "title": "英伟达、微软和Meta联合警告：应避免对开放权重模型过度监管",
@@ -40,32 +66,6 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "image": null,
       "time": "2026-07-24T19:07:52.324Z",
-      "id": 3
-    },
-    {
-      "title": "Claude 5 代模型上下文工程新规则：Claude Code 系统提示词精简超 80%",
-      "summary": "Anthropic 为 Claude Opus 5 和 Claude Fable 5 等新一代模型删除了 Claude Code 超过 80% 的系统提示词，且编码评测无显著损失。",
-      "category": "工具",
-      "tags": [
-        "Claude"
-      ],
-      "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-      "source": "Claude：Blog（网页）",
-      "image": null,
-      "time": "2026-07-24T17:25:50.349Z",
-      "id": 4
-    },
-    {
-      "title": "Anthropic 发布 Claude Opus 5",
-      "summary": "Anthropic 发布 Claude Opus 5，其智能水平接近 Claude Fable 5，但价格减半。该模型在 Frontier-Bench v0.1 上性能超过 Opus 4.8 两倍以上，在 ARC-AGI 3 上得分是次优模型的三倍。Opus 5 即日起成为 Claude Max 的默认模型和 Claude Pro 的最强模型。",
-      "category": "AI",
-      "tags": [
-        "Claude"
-      ],
-      "url": "https://www.anthropic.com/news/claude-opus-5",
-      "source": "Anthropic：Newsroom（网页）",
-      "image": null,
-      "time": "2026-07-24T17:24:25.589Z",
       "id": 5
     },
     {
@@ -138,134 +138,128 @@
   ],
   "githubTrending": [
     {
-      "name": "andrewyng/openworker",
-      "description": "桌面AI助手，完成日常任务，生成成品工作。",
-      "language": "Python",
-      "stars": 3474,
-      "starsToday": 2036,
-      "forks": 465,
-      "url": "https://github.com/andrewyng/openworker",
+      "name": "ultraworkers/claw-code",
+      "description": "基于真实螃蟹动力装置的Rust项目",
+      "language": "Rust",
+      "stars": 194911,
+      "starsToday": 1680,
+      "forks": 109489,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 1
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "开源个人AI助手，与您共同成长。",
-      "language": "TypeScript",
-      "stars": 384052,
-      "starsToday": 1587,
-      "forks": 80691,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "andrewyng/openworker",
+      "description": "桌面AI助手，完成日常任务",
+      "language": "Python",
+      "stars": 5085,
+      "starsToday": 1611,
+      "forks": 672,
+      "url": "https://github.com/andrewyng/openworker",
       "rank": 2
     },
     {
-      "name": "Vincentwei1021/video-shotcraft",
-      "description": "AI制作产品视频，一键生成创意内容。",
-      "language": "TypeScript",
-      "stars": 1462,
-      "starsToday": 497,
-      "forks": 118,
-      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "name": "slvDev/esp32-ai",
+      "description": "在8美元微控制器上运行28.9M参数LLM",
+      "language": "Python",
+      "stars": 837,
+      "starsToday": 419,
+      "forks": 94,
+      "url": "https://github.com/slvDev/esp32-ai",
       "rank": 3
     },
     {
-      "name": "lopopolo/harness-engineering",
-      "description": "优化AI输出，塑造环境提升效率。",
-      "language": "Python",
-      "stars": 2324,
-      "starsToday": 387,
-      "forks": 237,
-      "url": "https://github.com/lopopolo/harness-engineering",
+      "name": "affaan-m/ECC",
+      "description": "多语言跨平台工作流代理",
+      "language": "JavaScript",
+      "stars": 233342,
+      "starsToday": 412,
+      "forks": 35575,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 4
     },
     {
-      "name": "farion1231/cc-switch",
-      "description": "一站式管理 Claude 系列工具。",
-      "language": "Rust",
-      "stars": 120935,
-      "starsToday": 367,
-      "forks": 8124,
-      "url": "https://github.com/farion1231/cc-switch",
+      "name": "Vincentwei1021/video-shotcraft",
+      "description": "AI制作电影级产品视频",
+      "language": "TypeScript",
+      "stars": 1754,
+      "starsToday": 292,
+      "forks": 151,
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
       "rank": 5
     },
     {
       "name": "anomalyco/opencode",
-      "description": "开源AI编码助手，多语言支持。",
+      "description": "开源AI编码助手",
       "language": "TypeScript",
-      "stars": 189417,
-      "starsToday": 363,
-      "forks": 23964,
+      "stars": 189698,
+      "starsToday": 281,
+      "forks": 24024,
       "url": "https://github.com/anomalyco/opencode",
       "rank": 6
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "跨平台AI工作流工具，多语言生态。",
-      "language": "JavaScript",
-      "stars": 232930,
-      "starsToday": 333,
-      "forks": 35496,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "farion1231/cc-switch",
+      "description": "Claude Code全功能管理器",
+      "language": "Rust",
+      "stars": 121171,
+      "starsToday": 236,
+      "forks": 8146,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 7
     },
     {
-      "name": "Jakubantalik/thinking-orbs",
-      "description": "AI UI加载指示器，简洁动画效果。",
-      "language": "TypeScript",
-      "stars": 933,
-      "starsToday": 311,
-      "forks": 69,
-      "url": "https://github.com/Jakubantalik/thinking-orbs",
+      "name": "ollama/ollama",
+      "description": "基于开源模型的构建工具",
+      "language": "Go",
+      "stars": 176892,
+      "starsToday": 157,
+      "forks": 17112,
+      "url": "https://github.com/ollama/ollama",
       "rank": 8
     },
     {
-      "name": "Blaizzy/nativ",
-      "description": "本地运行AI模型，macOS应用。",
-      "language": "Swift",
-      "stars": 863,
-      "starsToday": 216,
-      "forks": 45,
-      "url": "https://github.com/Blaizzy/nativ",
+      "name": "public-apis/public-apis",
+      "description": "统一API集成套件",
+      "language": "Python",
+      "stars": 452544,
+      "starsToday": 120,
+      "forks": 49837,
+      "url": "https://github.com/public-apis/public-apis",
       "rank": 9
     },
     {
-      "name": "powerycy/goutoujunshi",
-      "description": "恋爱建议AI，理性分析情感问题。",
-      "language": "Python",
-      "stars": 809,
-      "starsToday": 202,
-      "forks": 93,
-      "url": "https://github.com/powerycy/goutoujunshi",
+      "name": "freeCodeCamp/freeCodeCamp",
+      "description": "免费编程学习社区",
+      "language": "TypeScript",
+      "stars": 452820,
+      "starsToday": 107,
+      "forks": 45674,
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-07-25",
-    "updatedAt": "2026-07-25T02:34:12.292Z",
+    "date": "2026-07-26",
+    "updatedAt": "2026-07-26T02:42:26.326Z",
     "highlights": [
-      "OpenAI 智能体入侵 Hugging Face",
-      "Midjourney V8.2 发布，专注美学提升与个性化理解",
-      "英伟达、微软和Meta 联合警告开放权重模型监管",
-      "Anthropic 发布 Claude Opus 5 和 Drone-Bench",
-      "蚂蚁百灵发布 Ling-3.0-flash 原生混合推理模型",
-      "Runway Agent 推出自然语言工作流功能",
-      "微软阐述开源模型助力美国竞争力路径",
-      "百度搭子更新，实现跨端连续执行复杂任务"
+      "xAI发布GroklCLI并支持/tuturial命令，AI领域动作频繁",
+      "OpenAI与HuggingFace行业事件引发对AI监管讨论",
+      "Midjourney V8.2发布，美学提升与个性化理解成新焦点",
+      "英伟达、微软和Meta联合呼吁避免对开放权重模型过度监管",
+      "Anthropic与Andon Labs发布Drone-Bench，AI无人机操控能力评估"
     ],
     "keywords": [
+      "xAI",
+      "Grok CLI",
       "OpenAI",
       "Hugging Face",
-      "Midjourney",
-      "AI",
-      "开放权重模型",
-      "Anthropic",
-      "Drone-Bench",
-      "Ling-3.0-flash",
-      "Runway Agent",
+      "Midjourney V8.2",
+      "AI监管",
+      "英伟达",
       "微软",
-      "开源模型",
-      "百度搭子",
-      "跨端连续执行"
+      "Meta",
+      "Drone-Bench"
     ],
-    "trendingSummary": "AI领域持续快速发展，OpenAI 和 Anthropic 引领技术创新，AI模型在美学、个性化、无人机操控等方面取得显著进展。同时，行业巨头对模型监管提出建议，开源模型和跨端协作成为趋势。"
+    "trendingSummary": "AI领域动态活跃，xAI、OpenAI等大厂动作不断，监管议题受到关注。Midjourney美学提升与个性化理解成为新趋势。"
   }
 }
