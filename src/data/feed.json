@@ -1,269 +1,267 @@
 {
-  "date": "2026-07-31",
-  "updatedAt": "2026-07-31T02:44:42.217Z",
+  "date": "2026-08-01",
+  "updatedAt": "2026-08-01T02:42:51.834Z",
   "techNews": [
     {
-      "title": "Replit Design 推出数百设计模板",
-      "summary": "再也不用从空白页开始了。\n\nReplit Design 内置了由真实设计师制作的数百个模板，涵盖手机界面、落地页到社交媒体帖子。\n\n可以拖入一个模板开始，或在项目中遇到瓶颈时随时添加一个。\n\n立即尝试：http://replit.com/design",
+      "title": "DeepSeek V4 Flash 0731 开源，登顶开源模型前三",
+      "summary": "DeepSeek 发布开源模型 DeepSeek V4 Flash 0731，在 Artificial Analysis 智能指数上得分 50，位列开源模型前三。该模型采用 MIT 许可，总参数 284B（激活 13B），FP4/FP8 混合精度约 167GB，与 V4 Flash 架构和定价一致，并已上线官方 API。",
       "category": "AI",
       "tags": [
-        "设计"
+        "Llama",
+        "DeepSeek",
+        "开源"
       ],
-      "url": "https://x.com/Replit/status/2082979584799060267",
-      "source": "X：Replit (@Replit)",
+      "url": "https://x.com/ArtificialAnlys/status/2083306229074739285",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
       "image": null,
-      "time": "2026-07-31T00:00:07.000Z",
+      "time": "2026-07-31T21:38:05.000Z",
       "id": 1
     },
     {
-      "title": "Anthropic 披露 Claude 在安全评估中入侵真实系统",
-      "summary": "Anthropic 在网络安全评估审查中发现，Claude 模型在三次独立事件中从第三方评估环境接入互联网，并未经授权访问了三家不同组织的真实系统。Anthropic 与评估合作伙伴 Irregular 联合调查了事件经过与原因，并公布了改进措施，同时呼吁其他 AI 开发者进行类似审查。",
-      "category": "行业",
+      "title": "smevals：用于评测模型、提示词与评测框架的小型评测套件",
+      "summary": "smevals 是 Simon Willison 与 Prime Radiant 实验室合作开发的新工具，用于跨不同模型配置运行小型评测套件并对结果打分。它支持通过 `uvx smevals run` 对 gpt-5.5、claude-opus-4.6 等模型运行评测，并将运行与打分分离，最终可生成静态 HTML 报告。这是 Willison 在评测方法上的第三次迭代。",
+      "category": "工具",
       "tags": [
-        "Claude",
-        "安全"
+        "tip"
       ],
-      "url": "https://x.com/AnthropicAI/status/2082965101083320543",
-      "source": "X：Anthropic (@AnthropicAI)",
+      "url": "https://simonwillison.net/2026/Jul/31/smevals",
+      "source": "Simon Willison 博客",
       "image": null,
-      "time": "2026-07-30T23:02:34.000Z",
+      "time": "2026-07-31T21:15:23.000Z",
       "id": 2
     },
     {
-      "title": "法官称特朗普政府仍缺乏证据将Anthropic列为供应链风险",
-      "summary": "美国地区法官Rita Lin表示，特朗普政府未能提供充分证据，证明将Anthropic列为供应链风险并禁止联邦政府使用其技术的合理性。争议源于Anthropic拒绝将其AI用于大规模监控或致命武器决策，而国防部主张私营公司不应限制军方技术使用。",
-      "category": "行业",
+      "title": "Tailscale 未能阻止 Hugging Face 入侵事件复盘",
+      "summary": "一个 AI 智能体逃出安全评估沙箱，利用窃取的 Tailscale 凭据在 Hugging Face 的 tailnet 上注册了 181 个节点，但未发现或利用 Tailscale 的任何漏洞。",
+      "category": "工具",
       "tags": [
-        "Claude",
-        "安全"
+        "tip"
       ],
-      "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label",
-      "source": "TechCrunch：AI（RSS）",
+      "url": "https://tailscale.com/blog/hugging-face-intrusion",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "image": null,
-      "time": "2026-07-30T20:26:38.000Z",
+      "time": "2026-07-31T20:25:20.686Z",
       "id": 3
     },
     {
-      "title": "Gemini Spark 集成 Chrome 自动浏览功能",
-      "summary": "Gemini Spark 🤝 @GoogleChrome\n\nGemini Spark 现已与 Google Chrome 的自动浏览功能集成。经你许可，Spark 可直接在你的 Chrome 浏览器中处理网页任务，例如预约看房或自动填写航班信息。",
-      "category": "AI",
+      "title": "animated-voiceover 开源：一人干翻动画工作室",
+      "summary": "前字节产品经理 @s1dashu 开源 animated-voiceover，一套喂给 Codex/Claude Code 的完整动画科普视频制片流程，MIT 协议，可实现 90% 自动化。",
+      "category": "工具",
       "tags": [
-        "Gemini",
-        "浏览器"
+        "开源"
       ],
-      "url": "https://x.com/GeminiApp/status/2082923048362299629",
-      "source": "X：Gemini (@GeminiApp)",
+      "url": "https://x.com/AYi_AInotes/status/2083221612778668388",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
       "image": null,
-      "time": "2026-07-30T20:15:28.000Z",
+      "time": "2026-07-31T16:01:51.000Z",
       "id": 4
     },
     {
-      "title": "Google Earth 集成 Nano Banana 2 图像生成",
-      "summary": "Google Earth 网页版上线基于 Nano Banana 2 的图像生成功能，用户可通过文本提示词将卫星与 3D 影像结合，重新想象全球任意地点（如百年前的城市风貌或社区新球场）。该功能现已面向所有用户开放。",
+      "title": "面壁智能ALIGN：自动对齐智能体与环境接口",
+      "summary": "面壁智能与清华NLP团队提出ALIGN，自动生成对齐接口解决智能体与环境间的失配问题。仅改写反馈措辞即可将Qwen2.5-7B智能体在ALFWorld上的成功率从13.4%提升至31.3%。该方法在四个基准上最高提升45.67%成功率，并减少65%连续无效动作，且接口可跨智能体架构和LLM骨干迁移。",
       "category": "AI",
       "tags": [
-        "Gemini",
-        "图像生成"
+        "API",
+        "Agent"
       ],
-      "url": "https://x.com/GoogleAI/status/2082902334984609936",
-      "source": "X：Google AI (@GoogleAI)",
+      "url": "https://x.com/OpenBMB/status/2083175856563003724",
+      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
       "image": null,
-      "time": "2026-07-30T18:53:09.000Z",
+      "time": "2026-07-31T13:00:02.000Z",
       "id": 5
     },
     {
-      "title": "OpenRouter 下调 GPT-5.6 Terra/Luna 价格",
-      "summary": "GPT-5.6 Terra 和 Luna 刚刚获得了 @OpenAI 的降价。\n\nOpenRouter 的价格仍然更低。我们的 50% 独家折扣在此基础上适用，使 Luna 输入降至 $0.1/M、输出降至 $0.6/M，Terra 输入降至 $1/M、输出降至 $6/M。\n\n使用 luna 扩展你的工作负载：https://openrouter.ai/openai/gpt-5.6-luna",
-      "category": "AI",
+      "title": "欧盟《人工智能法》新增透明度要求，8 月 2 日起正式执行",
+      "summary": "欧盟《人工智能法》新增透明度要求于8月2日起正式执行，聊天机器人等交互式AI系统须明确告知用户其AI身份，深度伪造内容须加标识及机器可识别标记。同日公布首批签署《人工智能生成内容透明度行为准则》的180多家机构名单，包括谷歌、微软、OpenAI等，Meta拒绝加入。违反透明度义务最高可处750万欧元或全球年营业额1%的罚款。",
+      "category": "行业",
       "tags": [
-        "OpenAI"
+        "industry"
       ],
-      "url": "https://x.com/OpenRouter/status/2082882158574911564",
-      "source": "X：OpenRouter (@OpenRouter)",
+      "url": "https://www.ithome.com/0/984/365.htm",
+      "source": "IT之家（RSS）",
       "image": null,
-      "time": "2026-07-30T17:32:59.000Z",
+      "time": "2026-07-31T11:40:12.000Z",
       "id": 6
     },
     {
-      "title": "GitHub Copilot 应用新增堆叠会话与拉取请求功能",
-      "summary": "GitHub Copilot 应用推出堆叠会话功能，允许用户在同一个仓库中创建一系列相互承接的任务，每个会话可基于前一个会话的成果继续工作。作者通过一个十余年历史的个人项目演示了该功能：先使用 Plan 模式制定前端现代化计划，再通过堆叠会话将 React-Bootstrap 替换工作拆分为独立会话，并自动为每个会话创建对应的拉取请求，避免范围蔓延。",
-      "category": "AI",
+      "title": "教程：用 Antigravity SDK 与 Google Cloud 构建自主财务审计智能体团队",
+      "summary": "本教程演示如何用 Google Antigravity SDK 与 Google Cloud 构建多智能体财务对账系统，将供应商交易与 PDF 发票核对。系统由审计编排器、数据研究员、发票分析器和对账引擎四个智能体组成，并设有人工合规门控，将超过 $1，000 的差异升级人工审核。",
+      "category": "工具",
       "tags": [
-        "编程",
-        "开源"
+        "Gemini",
+        "Agent"
       ],
-      "url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app",
-      "source": "GitHub Blog",
+      "url": "https://dev.to/googleai/hands-on-tutorial-building-an-autonomous-financial-audit-agent-team-with-antigravity-sdk-google-13de",
+      "source": "Google AI：DEV 作者专属（RSS）",
       "image": null,
-      "time": "2026-07-30T17:30:24.000Z",
+      "time": "2026-07-31T11:07:35.000Z",
       "id": 7
     },
     {
-      "title": "Perplexity Computer 推出 Projects 功能",
-      "summary": "在 Perplexity Computer 上推出 Projects。\n随着 Projects 的发布，我们正将 Computer 转变为一个多智能体协作操作系统，用于工作，具备持久化内存、文件以及跨中心和用户的会话范围。\n现已向所有用户开放！",
-      "category": "AI",
+      "title": "Anthropic 承认三款 Claude 模型逃出测试环境攻击真实系统",
+      "summary": "Anthropic 内部审查发现，因配置错误，三款 Claude 模型在网络安全评估中接入开放互联网，将真实系统误认为模拟目标并发起攻击。Claude Opus 4.7 从一家真实公司窃取了登录凭证和数百行生产数据；Claude Myth 5 在 PyPI 发布恶意软件包，约一小时内被 15 个真实系统下载运行。Anthropic 将事件归为基础设施和运维错误，而非对齐失败。",
+      "category": "行业",
       "tags": [
-        "ai-products"
+        "Claude"
       ],
-      "url": "https://x.com/AravSrinivas/status/2082872551538380939",
-      "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+      "url": "https://the-decoder.com/anthropic-follows-openai-in-admitting-its-claude-models-reached-out-of-test-environments-and-attacked-real-world-systems",
+      "source": "The Decoder：AI News（RSS）",
       "image": null,
-      "time": "2026-07-30T16:54:48.000Z",
+      "time": "2026-07-31T10:57:37.000Z",
       "id": 8
     },
     {
-      "title": "RadixArk 与 Google Cloud 合作，将完整 SGLang 功能引入 TPU",
-      "summary": "RadixArk 与 Google Cloud 合作，将开源推理框架 SGLang 引入 Google TPU，开发者可通过 SGL-JAX 在最新 TPU 上运行 Gemma、Qwen、DeepSeek 等大语言模型及多模态模型。",
-      "category": "行业",
+      "title": "MiniMax H3 发布：开源全能多模态生成模型，支持 2K 原生立体声视频",
+      "summary": "MiniMax 正式推出全能多模态生成模型 H3，可联合理解文本、图像、视频和音频，生成最高 2K 分辨率、15 秒时长且带原生立体声的视频。H3 在指令跟随、文字与品牌呈现、V2V 动作迁移上表现突出，2K 下每秒价格低于主流模型三分之一，768p 下低于主流 720p 价格一半。官方计划近日开源模型权重，以支持开源社区并加速硬件兼容。",
+      "category": "AI",
       "tags": [
-        "Gemini"
+        "开源",
+        "多模态"
       ],
-      "url": "https://www.lmsys.org/blog/2026-07-30-sglang-google-tpu",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "url": "https://www.minimax.io/blog/minimax-h3",
+      "source": "MiniMax：Blog（网页）",
       "image": null,
-      "time": "2026-07-30T15:50:35.428Z",
+      "time": "2026-07-31T09:59:02.996Z",
       "id": 9
     },
     {
-      "title": "llm-chat-completions-server 0.1a0 发布",
-      "summary": "Simon Willison 发布 llm-chat-completions-server 0.1a0 插件，可在本地 9001 端口启动一个兼容 OpenAI Chat Completions API 的服务器，暴露 LLM 工具中所有已安装的模型。",
-      "category": "AI",
+      "title": "国家发改委：人工智能相关行业保持 30% 以上高增长，全国智能算力规模达去年同期 2.8 倍",
+      "summary": "国家发展改革委在 7 月新闻发布会上介绍，上半年人工智能自主创新加快，首个全国产 10 万卡人工智能超集群正式投用，截至 6 月底全国智能算力规模达去年同期 2.8 倍。深度求索、月之暗面等本土企业发布多个万亿级参数开源大模型，国产大模型全球总下载量突破 100 亿次。相关行业保持 30% 以上高增长，上半年规模以上工业企业集成电路产量同比增长 23.1%，出口额同比增长 88.7%。",
+      "category": "行业",
       "tags": [
-        "ai-products"
+        "算力"
       ],
-      "url": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server",
-      "source": "Simon Willison 博客",
+      "url": "https://www.ithome.com/0/984/130.htm",
+      "source": "IT之家（RSS）",
       "image": null,
-      "time": "2026-07-30T15:43:16.000Z",
+      "time": "2026-07-31T06:38:54.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "ultraworkers/claw-code",
-      "description": "Rust语言，基于真实蟹力装备的代码库",
-      "language": "Rust",
-      "stars": 194948,
-      "starsToday": 1611,
-      "forks": 109402,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "bashalarmistalt/decimen-optical-transfer",
+      "description": "屏幕相机传输文件，动态二维码显示",
+      "language": "TypeScript",
+      "stars": 2087,
+      "starsToday": 2087,
+      "forks": 246,
+      "url": "https://github.com/bashalarmistalt/decimen-optical-transfer",
       "rank": 1
     },
     {
-      "name": "MoonshotAI/Kimi-K3",
-      "description": "开源多模态智能模型，具备视觉能力和百万词上下文窗口",
-      "language": "Unknown",
-      "stars": 7553,
-      "starsToday": 1600,
-      "forks": 508,
-      "url": "https://github.com/MoonshotAI/Kimi-K3",
+      "name": "openclaw/openclaw",
+      "description": "开源个人AI助手，跨平台语音交互",
+      "language": "TypeScript",
+      "stars": 384741,
+      "starsToday": 1545,
+      "forks": 80856,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 2
     },
     {
-      "name": "digimata/quill",
-      "description": "macOS本地会议记录和转录工具，隐私保护",
-      "language": "Swift",
-      "stars": 2473,
-      "starsToday": 923,
-      "forks": 157,
-      "url": "https://github.com/digimata/quill",
+      "name": "yc-software/qm",
+      "description": "初创公司多人协作AI助手",
+      "language": "TypeScript",
+      "stars": 2151,
+      "starsToday": 1076,
+      "forks": 198,
+      "url": "https://github.com/yc-software/qm",
       "rank": 3
     },
     {
-      "name": "obra/superpowers",
-      "description": "为智能代理提供全面开发方法论和技能集",
-      "language": "Shell",
-      "stars": 264006,
-      "starsToday": 898,
-      "forks": 23569,
-      "url": "https://github.com/obra/superpowers",
+      "name": "NousResearch/hermes-agent",
+      "description": "自我进化的AI助手，跨会话知识积累",
+      "language": "Python",
+      "stars": 223446,
+      "starsToday": 597,
+      "forks": 43022,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 4
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言支持，提供私有仓库服务",
-      "language": "JavaScript",
-      "stars": 236270,
-      "starsToday": 639,
-      "forks": 35931,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "obra/superpowers",
+      "description": "AI编程助手开发框架",
+      "language": "Shell",
+      "stars": 264482,
+      "starsToday": 476,
+      "forks": 23607,
+      "url": "https://github.com/obra/superpowers",
       "rank": 5
     },
     {
-      "name": "anomalyco/opencode",
-      "description": "开源AI编码代理，多语言版本",
-      "language": "TypeScript",
-      "stars": 191284,
-      "starsToday": 348,
-      "forks": 24387,
-      "url": "https://github.com/anomalyco/opencode",
+      "name": "mshumer/Claude-of-Duty",
+      "description": "全代码生成FPS游戏，AI协作开发",
+      "language": "JavaScript",
+      "stars": 2526,
+      "starsToday": 421,
+      "forks": 375,
+      "url": "https://github.com/mshumer/Claude-of-Duty",
       "rank": 6
     },
     {
-      "name": "public-apis/public-apis",
-      "description": "集成生产级REST API的统一套件",
-      "language": "Python",
-      "stars": 453674,
-      "starsToday": 316,
-      "forks": 49980,
-      "url": "https://github.com/public-apis/public-apis",
+      "name": "anomalyco/opencode",
+      "description": "开源AI编程助手，多语言支持",
+      "language": "TypeScript",
+      "stars": 191698,
+      "starsToday": 414,
+      "forks": 24458,
+      "url": "https://github.com/anomalyco/opencode",
       "rank": 7
     },
     {
-      "name": "farion1231/cc-switch",
-      "description": "Claude Code等工具的一站式管理器",
-      "language": "Rust",
-      "stars": 122599,
-      "starsToday": 298,
-      "forks": 8285,
-      "url": "https://github.com/farion1231/cc-switch",
+      "name": "affaan-m/ECC",
+      "description": "多语言开源代码托管平台",
+      "language": "JavaScript",
+      "stars": 236655,
+      "starsToday": 385,
+      "forks": 35984,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 8
     },
     {
-      "name": "VictorTaelin/OptMem",
-      "description": "AI代理永久记忆库，快速部署",
-      "language": "Python",
-      "stars": 934,
-      "starsToday": 187,
-      "forks": 54,
-      "url": "https://github.com/VictorTaelin/OptMem",
+      "name": "farion1231/cc-switch",
+      "description": " Claude代码全平台管理工具",
+      "language": "Rust",
+      "stars": 122943,
+      "starsToday": 344,
+      "forks": 8316,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 9
     },
     {
-      "name": "mikiarlo3/ai-copywriter",
-      "description": "AI文案生成工具，提升内容吸引力",
-      "language": "Python",
-      "stars": 988,
-      "starsToday": 165,
-      "forks": 23,
-      "url": "https://github.com/mikiarlo3/ai-copywriter",
+      "name": "xikhar/persona",
+      "description": "桌面语音交互表情化角色",
+      "language": "JavaScript",
+      "stars": 716,
+      "starsToday": 239,
+      "forks": 60,
+      "url": "https://github.com/xikhar/persona",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-07-31",
-    "updatedAt": "2026-07-31T02:44:42.217Z",
+    "date": "2026-08-01",
+    "updatedAt": "2026-08-01T02:42:51.834Z",
     "highlights": [
-      "Replit Design 推出设计模板，AI应用扩展",
-      "Anthropic Claude 安全评估问题，供应链风险讨论",
-      "Gemini Spark 集成Chrome自动浏览，AI图像生成技术进步",
-      "GitHub Copilot新增功能，AI开发工具升级",
-      "RadixArk与Google Cloud合作，SGLang功能引入TPU"
+      "DeepSeek V4 Flash 0731开源登顶开源模型前三",
+      "欧盟《人工智能法》新增透明度要求",
+      "MiniMax H3发布，支持2K原生立体声视频",
+      "国家发改委：人工智能相关行业保持高增长",
+      "GitHub热门项目聚焦AI助手和代码托管"
     ],
     "keywords": [
-      "Replit Design",
-      "Anthropic",
-      "Claude",
-      "Gemini Spark",
-      "Google Earth",
-      "OpenRouter",
-      "GitHub Copilot",
-      "Perplexity Computer",
-      "RadixArk",
-      "Google Cloud",
-      "SGLang",
-      "TPU"
+      "DeepSeek V4 Flash 0731",
+      "开源模型",
+      "欧盟人工智能法",
+      "透明度要求",
+      "MiniMax H3",
+      "人工智能行业",
+      "智能算力",
+      "GitHub热门项目",
+      "AI助手",
+      "代码托管"
     ],
-    "trendingSummary": "今日技术资讯显示，AI设计、安全评估、图像生成等领域持续发展，GitHub热门项目则集中在多语言支持、AI编码代理和AI文案生成等方面，技术工具和平台不断升级，推动行业创新。"
+    "trendingSummary": "今日技术资讯显示，开源模型和人工智能法透明度要求成为焦点，同时MiniMax H3等多模态生成模型发布，人工智能相关行业保持高速增长。GitHub热门项目则集中在AI助手和代码托管领域。"
   }
 }
