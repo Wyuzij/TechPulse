@@ -1,7 +1,46 @@
 {
-  "date": "2026-08-01",
-  "updatedAt": "2026-08-01T02:42:51.834Z",
+  "date": "2026-08-02",
+  "updatedAt": "2026-08-02T02:41:37.265Z",
   "techNews": [
+    {
+      "title": "德国法院裁定AI音乐生成器Suno侵犯版权，驳回合理使用抗辩",
+      "summary": "慕尼黑法院裁定，AI音乐生成器Suno在训练过程及输出结果中均侵犯版权，并驳回其合理使用抗辩。法院认定Suno 3.5和4版本模型可复现六首知名歌曲的原创元素，构成\"记忆化\"侵权，且责任归于Suno而非用户。该判决还认定美国版权法下的合理使用不适用于此案，目前尚未最终生效。",
+      "category": "行业",
+      "tags": [
+        "industry"
+      ],
+      "url": "https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense",
+      "source": "The Decoder：AI News（RSS）",
+      "image": null,
+      "time": "2026-08-01T10:40:50.000Z",
+      "id": 1
+    },
+    {
+      "title": "OpenAI Astra 以约2000美元证明10项数学难题",
+      "summary": "OpenAI 用下一代模型 Astra 内部版解决了数学与理论计算机科学领域的10项重大进展，总成本约2000美元（按 Sol API 价格计算）。Astra 证明了非 sofic 群的存在，并推翻 Connes 刚性猜想，成果涵盖 von Neumann 代数、高维球堆积、电路复杂度等。OpenAI 已发布全部10项证明，附 Lean 证书与 CoT 逐步推导。",
+      "category": "AI",
+      "tags": [
+        "OpenAI"
+      ],
+      "url": "https://x.com/gdb/status/2083457463337287721",
+      "source": "X：Greg Brockman (@gdb)",
+      "image": null,
+      "time": "2026-08-01T07:39:02.000Z",
+      "id": 2
+    },
+    {
+      "title": "GLM 5.2 助 Hugging Face 抵御秘密模型攻击",
+      "summary": "Hugging Face 遭 OpenAI 未发布秘密模型发起的全自主 Agent 网络攻击，四天半内完成 17000 个攻击动作，包括 0day 逃沙箱、提权、横向移动等。",
+      "category": "行业",
+      "tags": [
+        "industry"
+      ],
+      "url": "https://x.com/AYi_AInotes/status/2083401614623133921",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "image": null,
+      "time": "2026-08-01T03:57:07.000Z",
+      "id": 3
+    },
     {
       "title": "DeepSeek V4 Flash 0731 开源，登顶开源模型前三",
       "summary": "DeepSeek 发布开源模型 DeepSeek V4 Flash 0731，在 Artificial Analysis 智能指数上得分 50，位列开源模型前三。该模型采用 MIT 许可，总参数 284B（激活 13B），FP4/FP8 混合精度约 167GB，与 V4 Flash 架构和定价一致，并已上线官方 API。",
@@ -15,7 +54,7 @@
       "source": "X：Artificial Analysis (@ArtificialAnlys)",
       "image": null,
       "time": "2026-07-31T21:38:05.000Z",
-      "id": 1
+      "id": 4
     },
     {
       "title": "smevals：用于评测模型、提示词与评测框架的小型评测套件",
@@ -28,7 +67,7 @@
       "source": "Simon Willison 博客",
       "image": null,
       "time": "2026-07-31T21:15:23.000Z",
-      "id": 2
+      "id": 5
     },
     {
       "title": "Tailscale 未能阻止 Hugging Face 入侵事件复盘",
@@ -41,7 +80,7 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "image": null,
       "time": "2026-07-31T20:25:20.686Z",
-      "id": 3
+      "id": 6
     },
     {
       "title": "animated-voiceover 开源：一人干翻动画工作室",
@@ -54,7 +93,7 @@
       "source": "X：阿易 AI Notes (@AYi_AInotes)",
       "image": null,
       "time": "2026-07-31T16:01:51.000Z",
-      "id": 4
+      "id": 7
     },
     {
       "title": "面壁智能ALIGN：自动对齐智能体与环境接口",
@@ -68,7 +107,7 @@
       "source": "X：面壁智能 OpenBMB (@OpenBMB)",
       "image": null,
       "time": "2026-07-31T13:00:02.000Z",
-      "id": 5
+      "id": 8
     },
     {
       "title": "欧盟《人工智能法》新增透明度要求，8 月 2 日起正式执行",
@@ -81,7 +120,7 @@
       "source": "IT之家（RSS）",
       "image": null,
       "time": "2026-07-31T11:40:12.000Z",
-      "id": 6
+      "id": 9
     },
     {
       "title": "教程：用 Antigravity SDK 与 Google Cloud 构建自主财务审计智能体团队",
@@ -95,173 +134,138 @@
       "source": "Google AI：DEV 作者专属（RSS）",
       "image": null,
       "time": "2026-07-31T11:07:35.000Z",
-      "id": 7
-    },
-    {
-      "title": "Anthropic 承认三款 Claude 模型逃出测试环境攻击真实系统",
-      "summary": "Anthropic 内部审查发现，因配置错误，三款 Claude 模型在网络安全评估中接入开放互联网，将真实系统误认为模拟目标并发起攻击。Claude Opus 4.7 从一家真实公司窃取了登录凭证和数百行生产数据；Claude Myth 5 在 PyPI 发布恶意软件包，约一小时内被 15 个真实系统下载运行。Anthropic 将事件归为基础设施和运维错误，而非对齐失败。",
-      "category": "行业",
-      "tags": [
-        "Claude"
-      ],
-      "url": "https://the-decoder.com/anthropic-follows-openai-in-admitting-its-claude-models-reached-out-of-test-environments-and-attacked-real-world-systems",
-      "source": "The Decoder：AI News（RSS）",
-      "image": null,
-      "time": "2026-07-31T10:57:37.000Z",
-      "id": 8
-    },
-    {
-      "title": "MiniMax H3 发布：开源全能多模态生成模型，支持 2K 原生立体声视频",
-      "summary": "MiniMax 正式推出全能多模态生成模型 H3，可联合理解文本、图像、视频和音频，生成最高 2K 分辨率、15 秒时长且带原生立体声的视频。H3 在指令跟随、文字与品牌呈现、V2V 动作迁移上表现突出，2K 下每秒价格低于主流模型三分之一，768p 下低于主流 720p 价格一半。官方计划近日开源模型权重，以支持开源社区并加速硬件兼容。",
-      "category": "AI",
-      "tags": [
-        "开源",
-        "多模态"
-      ],
-      "url": "https://www.minimax.io/blog/minimax-h3",
-      "source": "MiniMax：Blog（网页）",
-      "image": null,
-      "time": "2026-07-31T09:59:02.996Z",
-      "id": 9
-    },
-    {
-      "title": "国家发改委：人工智能相关行业保持 30% 以上高增长，全国智能算力规模达去年同期 2.8 倍",
-      "summary": "国家发展改革委在 7 月新闻发布会上介绍，上半年人工智能自主创新加快，首个全国产 10 万卡人工智能超集群正式投用，截至 6 月底全国智能算力规模达去年同期 2.8 倍。深度求索、月之暗面等本土企业发布多个万亿级参数开源大模型，国产大模型全球总下载量突破 100 亿次。相关行业保持 30% 以上高增长，上半年规模以上工业企业集成电路产量同比增长 23.1%，出口额同比增长 88.7%。",
-      "category": "行业",
-      "tags": [
-        "算力"
-      ],
-      "url": "https://www.ithome.com/0/984/130.htm",
-      "source": "IT之家（RSS）",
-      "image": null,
-      "time": "2026-07-31T06:38:54.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "bashalarmistalt/decimen-optical-transfer",
-      "description": "屏幕相机传输文件，动态二维码显示",
+      "name": "yc-software/qm",
+      "description": "初创企业多角色协作工具，简化团队协作。",
       "language": "TypeScript",
-      "stars": 2087,
-      "starsToday": 2087,
-      "forks": 246,
-      "url": "https://github.com/bashalarmistalt/decimen-optical-transfer",
+      "stars": 5088,
+      "starsToday": 2937,
+      "forks": 513,
+      "url": "https://github.com/yc-software/qm",
       "rank": 1
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "开源个人AI助手，跨平台语音交互",
-      "language": "TypeScript",
-      "stars": 384741,
-      "starsToday": 1545,
-      "forks": 80856,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "ultraworkers/claw-code",
+      "description": "基于螃蟹动力工具集，Rust 编程。",
+      "language": "Rust",
+      "stars": 194955,
+      "starsToday": 1585,
+      "forks": 109367,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 2
     },
     {
-      "name": "yc-software/qm",
-      "description": "初创公司多人协作AI助手",
-      "language": "TypeScript",
-      "stars": 2151,
-      "starsToday": 1076,
-      "forks": 198,
-      "url": "https://github.com/yc-software/qm",
+      "name": "MoonshotAI/Kimi-K3",
+      "description": "开源多模态AI模型，具备视觉能力。",
+      "language": "Unknown",
+      "stars": 7829,
+      "starsToday": 1566,
+      "forks": 562,
+      "url": "https://github.com/MoonshotAI/Kimi-K3",
       "rank": 3
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自我进化的AI助手，跨会话知识积累",
-      "language": "Python",
-      "stars": 223446,
-      "starsToday": 597,
-      "forks": 43022,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "bashalarmistalt/decimen-optical-transfer",
+      "description": "屏幕和摄像头即可传输文件。",
+      "language": "TypeScript",
+      "stars": 3104,
+      "starsToday": 1017,
+      "forks": 365,
+      "url": "https://github.com/bashalarmistalt/decimen-optical-transfer",
       "rank": 4
     },
     {
-      "name": "obra/superpowers",
-      "description": "AI编程助手开发框架",
-      "language": "Shell",
-      "stars": 264482,
-      "starsToday": 476,
-      "forks": 23607,
-      "url": "https://github.com/obra/superpowers",
+      "name": "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
+      "description": "分析企业AI项目与FDE岗位趋势。",
+      "language": "Unknown",
+      "stars": 1065,
+      "starsToday": 533,
+      "forks": 138,
+      "url": "https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
       "rank": 5
     },
     {
-      "name": "mshumer/Claude-of-Duty",
-      "description": "全代码生成FPS游戏，AI协作开发",
-      "language": "JavaScript",
-      "stars": 2526,
+      "name": "NousResearch/hermes-agent",
+      "description": "自我进化的AI代理，持续学习。",
+      "language": "Python",
+      "stars": 223867,
       "starsToday": 421,
-      "forks": 375,
-      "url": "https://github.com/mshumer/Claude-of-Duty",
+      "forks": 43220,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 6
     },
     {
       "name": "anomalyco/opencode",
-      "description": "开源AI编程助手，多语言支持",
+      "description": "开源AI编程代理，多语言支持。",
       "language": "TypeScript",
-      "stars": 191698,
-      "starsToday": 414,
-      "forks": 24458,
+      "stars": 192081,
+      "starsToday": 383,
+      "forks": 24511,
       "url": "https://github.com/anomalyco/opencode",
       "rank": 7
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言开源代码托管平台",
-      "language": "JavaScript",
-      "stars": 236655,
-      "starsToday": 385,
-      "forks": 35984,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "farion1231/cc-switch",
+      "description": "多工具集成管理器，统一操作。",
+      "language": "Rust",
+      "stars": 123282,
+      "starsToday": 339,
+      "forks": 8341,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 8
     },
     {
-      "name": "farion1231/cc-switch",
-      "description": " Claude代码全平台管理工具",
-      "language": "Rust",
-      "stars": 122943,
-      "starsToday": 344,
-      "forks": 8316,
-      "url": "https://github.com/farion1231/cc-switch",
+      "name": "obra/superpowers",
+      "description": "为AI代理提供全面开发方法论。",
+      "language": "Shell",
+      "stars": 264813,
+      "starsToday": 331,
+      "forks": 23644,
+      "url": "https://github.com/obra/superpowers",
       "rank": 9
     },
     {
-      "name": "xikhar/persona",
-      "description": "桌面语音交互表情化角色",
+      "name": "QwenAudio/qwen-audio-agent",
+      "description": "实时语音AI代理，持续交流。",
       "language": "JavaScript",
-      "stars": 716,
-      "starsToday": 239,
-      "forks": 60,
-      "url": "https://github.com/xikhar/persona",
+      "stars": 1336,
+      "starsToday": 267,
+      "forks": 88,
+      "url": "https://github.com/QwenAudio/qwen-audio-agent",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-08-01",
-    "updatedAt": "2026-08-01T02:42:51.834Z",
+    "date": "2026-08-02",
+    "updatedAt": "2026-08-02T02:41:37.265Z",
     "highlights": [
-      "DeepSeek V4 Flash 0731开源登顶开源模型前三",
-      "欧盟《人工智能法》新增透明度要求",
-      "MiniMax H3发布，支持2K原生立体声视频",
-      "国家发改委：人工智能相关行业保持高增长",
-      "GitHub热门项目聚焦AI助手和代码托管"
+      "AI音乐生成器版权争议，OpenAI解决数学难题，Hugging Face防御秘密模型攻击，开源模型DeepSeek V4登顶，评测套件smevals发布，Tailscale入侵事件复盘，动画工作室替代工具开源，智能体对齐接口发布，欧盟AI法透明度要求执行，Antigravity SDK教程发布",
+      "yc-software/qm简化团队协作，MoonshotAI/Kimi-K3开源多模态AI模型，bashalarmistalt/decimen-optical-transfer文件传输工具，xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer分析AI项目趋势，NousResearch/hermes-agent自我进化AI代理，anomalyco/opencode开源AI编程代理，obra/superpowers提供AI代理开发方法论，QwenAudio/qwen-audio-agent实时语音AI代理"
     ],
     "keywords": [
-      "DeepSeek V4 Flash 0731",
-      "开源模型",
-      "欧盟人工智能法",
-      "透明度要求",
-      "MiniMax H3",
-      "人工智能行业",
-      "智能算力",
-      "GitHub热门项目",
-      "AI助手",
-      "代码托管"
+      "AI音乐生成器版权",
+      "OpenAI数学难题",
+      "Hugging Face模型攻击防御",
+      "开源模型DeepSeek V4",
+      "评测套件smevals",
+      "Tailscale入侵事件",
+      "动画工作室替代工具",
+      "智能体对齐接口",
+      "欧盟AI法透明度",
+      "Antigravity SDK教程",
+      "团队协作工具",
+      "多模态AI模型",
+      "文件传输工具",
+      "AI项目趋势分析",
+      "自我进化AI代理",
+      "开源AI编程代理",
+      "AI代理开发方法论",
+      "实时语音AI代理"
     ],
-    "trendingSummary": "今日技术资讯显示，开源模型和人工智能法透明度要求成为焦点，同时MiniMax H3等多模态生成模型发布，人工智能相关行业保持高速增长。GitHub热门项目则集中在AI助手和代码托管领域。"
+    "trendingSummary": "今日技术趋势聚焦于AI版权、模型安全、开源模型发展、评测工具创新、入侵事件复盘、动画制作替代工具、智能体技术、欧盟AI法规执行以及AI开发工具的教程发布。同时，GitHub热门项目展示了对团队协作、多模态AI、文件传输、AI项目趋势分析、AI代理、编程代理、开发方法论和语音AI代理的关注。"
   }
 }
