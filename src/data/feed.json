@@ -1,7 +1,60 @@
 {
-  "date": "2026-08-02",
-  "updatedAt": "2026-08-02T02:41:37.265Z",
+  "date": "2026-08-03",
+  "updatedAt": "2026-08-03T02:42:55.168Z",
   "techNews": [
+    {
+      "title": "Qwen3.8-Max 发布：开源最强编码与协作模型，2.4T 参数",
+      "summary": "Qwen 正式发布 Qwen3.8-Max，这是 Qwen 家族迄今最强的模型，拥有 2.4T 参数（95B 激活），并首次开源 Qwen-Max 级权重，开放权重将于下周发布。",
+      "category": "AI",
+      "tags": [
+        "阿里",
+        "开源"
+      ],
+      "url": "https://qwen.ai/blog?id=qwen3.8",
+      "source": "Qwen：Blog Retrieval（API）",
+      "image": null,
+      "time": "2026-08-03T02:00:00.000Z",
+      "id": 1
+    },
+    {
+      "title": "OpenAI 新模型 Astra 数学表现出色，但被过度吹捧",
+      "summary": "OpenAI 内部测试的新模型 Astra 在数学问题上表现惊艳，但 Gary Marcus 指出相关讨论犯了\"合成谬误\"：擅长某类数学不等于擅长所有数学、科学乃至一切认知任务。数学之所以成为突破口，是因为它便于用符号工具验证且能廉价生成海量合成数据，而开放世界问题无法如此模拟。此外，OpenAI 未公布方法细节，尚无法评估其真实意义。",
+      "category": "工具",
+      "tags": [
+        "OpenAI"
+      ],
+      "url": "https://garymarcus.substack.com/p/openais-amazing-but-vastly-oversold",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "image": null,
+      "time": "2026-08-02T21:25:27.000Z",
+      "id": 2
+    },
+    {
+      "title": "Codex 用 Sol 指挥 Luna Max 省额度翻倍产出",
+      "summary": "Codex 高阶玩法：让 Sol 在 `~/.codex/agents/` 下创建 `luna-worker.toml` 子代理，模型设 `gpt-5.6-luna`、reasoning effort 设 max，Sol 负责拆任务与审代码，具体实现自动委托给 Luna Max。",
+      "category": "工具",
+      "tags": [
+        "编程"
+      ],
+      "url": "https://x.com/AYi_AInotes/status/2083867265179537565",
+      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "image": null,
+      "time": "2026-08-02T10:47:27.000Z",
+      "id": 3
+    },
+    {
+      "title": "Grok 支持分析任意视频",
+      "summary": "Grok 可以分析任何视频 https://grok.com/share/bGVnYWN5_8013f7a3-f604-4351-8cd7-acecf3ef165b",
+      "category": "AI",
+      "tags": [
+        "ai-products"
+      ],
+      "url": "https://x.com/elonmusk/status/2083800942927839307",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "image": null,
+      "time": "2026-08-02T06:23:54.000Z",
+      "id": 4
+    },
     {
       "title": "德国法院裁定AI音乐生成器Suno侵犯版权，驳回合理使用抗辩",
       "summary": "慕尼黑法院裁定，AI音乐生成器Suno在训练过程及输出结果中均侵犯版权，并驳回其合理使用抗辩。法院认定Suno 3.5和4版本模型可复现六首知名歌曲的原创元素，构成\"记忆化\"侵权，且责任归于Suno而非用户。该判决还认定美国版权法下的合理使用不适用于此案，目前尚未最终生效。",
@@ -13,7 +66,7 @@
       "source": "The Decoder：AI News（RSS）",
       "image": null,
       "time": "2026-08-01T10:40:50.000Z",
-      "id": 1
+      "id": 5
     },
     {
       "title": "OpenAI Astra 以约2000美元证明10项数学难题",
@@ -26,7 +79,7 @@
       "source": "X：Greg Brockman (@gdb)",
       "image": null,
       "time": "2026-08-01T07:39:02.000Z",
-      "id": 2
+      "id": 6
     },
     {
       "title": "GLM 5.2 助 Hugging Face 抵御秘密模型攻击",
@@ -39,7 +92,7 @@
       "source": "X：阿易 AI Notes (@AYi_AInotes)",
       "image": null,
       "time": "2026-08-01T03:57:07.000Z",
-      "id": 3
+      "id": 7
     },
     {
       "title": "DeepSeek V4 Flash 0731 开源，登顶开源模型前三",
@@ -54,7 +107,7 @@
       "source": "X：Artificial Analysis (@ArtificialAnlys)",
       "image": null,
       "time": "2026-07-31T21:38:05.000Z",
-      "id": 4
+      "id": 8
     },
     {
       "title": "smevals：用于评测模型、提示词与评测框架的小型评测套件",
@@ -67,7 +120,7 @@
       "source": "Simon Willison 博客",
       "image": null,
       "time": "2026-07-31T21:15:23.000Z",
-      "id": 5
+      "id": 9
     },
     {
       "title": "Tailscale 未能阻止 Hugging Face 入侵事件复盘",
@@ -80,192 +133,129 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "image": null,
       "time": "2026-07-31T20:25:20.686Z",
-      "id": 6
-    },
-    {
-      "title": "animated-voiceover 开源：一人干翻动画工作室",
-      "summary": "前字节产品经理 @s1dashu 开源 animated-voiceover，一套喂给 Codex/Claude Code 的完整动画科普视频制片流程，MIT 协议，可实现 90% 自动化。",
-      "category": "工具",
-      "tags": [
-        "开源"
-      ],
-      "url": "https://x.com/AYi_AInotes/status/2083221612778668388",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "image": null,
-      "time": "2026-07-31T16:01:51.000Z",
-      "id": 7
-    },
-    {
-      "title": "面壁智能ALIGN：自动对齐智能体与环境接口",
-      "summary": "面壁智能与清华NLP团队提出ALIGN，自动生成对齐接口解决智能体与环境间的失配问题。仅改写反馈措辞即可将Qwen2.5-7B智能体在ALFWorld上的成功率从13.4%提升至31.3%。该方法在四个基准上最高提升45.67%成功率，并减少65%连续无效动作，且接口可跨智能体架构和LLM骨干迁移。",
-      "category": "AI",
-      "tags": [
-        "API",
-        "Agent"
-      ],
-      "url": "https://x.com/OpenBMB/status/2083175856563003724",
-      "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-      "image": null,
-      "time": "2026-07-31T13:00:02.000Z",
-      "id": 8
-    },
-    {
-      "title": "欧盟《人工智能法》新增透明度要求，8 月 2 日起正式执行",
-      "summary": "欧盟《人工智能法》新增透明度要求于8月2日起正式执行，聊天机器人等交互式AI系统须明确告知用户其AI身份，深度伪造内容须加标识及机器可识别标记。同日公布首批签署《人工智能生成内容透明度行为准则》的180多家机构名单，包括谷歌、微软、OpenAI等，Meta拒绝加入。违反透明度义务最高可处750万欧元或全球年营业额1%的罚款。",
-      "category": "行业",
-      "tags": [
-        "industry"
-      ],
-      "url": "https://www.ithome.com/0/984/365.htm",
-      "source": "IT之家（RSS）",
-      "image": null,
-      "time": "2026-07-31T11:40:12.000Z",
-      "id": 9
-    },
-    {
-      "title": "教程：用 Antigravity SDK 与 Google Cloud 构建自主财务审计智能体团队",
-      "summary": "本教程演示如何用 Google Antigravity SDK 与 Google Cloud 构建多智能体财务对账系统，将供应商交易与 PDF 发票核对。系统由审计编排器、数据研究员、发票分析器和对账引擎四个智能体组成，并设有人工合规门控，将超过 $1，000 的差异升级人工审核。",
-      "category": "工具",
-      "tags": [
-        "Gemini",
-        "Agent"
-      ],
-      "url": "https://dev.to/googleai/hands-on-tutorial-building-an-autonomous-financial-audit-agent-team-with-antigravity-sdk-google-13de",
-      "source": "Google AI：DEV 作者专属（RSS）",
-      "image": null,
-      "time": "2026-07-31T11:07:35.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "yc-software/qm",
-      "description": "初创企业多角色协作工具，简化团队协作。",
+      "description": "初创公司专用的多用户智能助手",
       "language": "TypeScript",
-      "stars": 5088,
-      "starsToday": 2937,
-      "forks": 513,
+      "stars": 7427,
+      "starsToday": 2339,
+      "forks": 774,
       "url": "https://github.com/yc-software/qm",
       "rank": 1
     },
     {
-      "name": "ultraworkers/claw-code",
-      "description": "基于螃蟹动力工具集，Rust 编程。",
-      "language": "Rust",
-      "stars": 194955,
-      "starsToday": 1585,
-      "forks": 109367,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "openclaw/openclaw",
+      "description": "跨设备、聊天平台的个人AI助手",
+      "language": "TypeScript",
+      "stars": 384966,
+      "starsToday": 1534,
+      "forks": 80905,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 2
     },
     {
-      "name": "MoonshotAI/Kimi-K3",
-      "description": "开源多模态AI模型，具备视觉能力。",
-      "language": "Unknown",
-      "stars": 7829,
-      "starsToday": 1566,
-      "forks": 562,
-      "url": "https://github.com/MoonshotAI/Kimi-K3",
+      "name": "affaan-m/ECC",
+      "description": "多语言支持的私有代码仓库托管服务",
+      "language": "JavaScript",
+      "stars": 237094,
+      "starsToday": 1204,
+      "forks": 36038,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 3
     },
     {
-      "name": "bashalarmistalt/decimen-optical-transfer",
-      "description": "屏幕和摄像头即可传输文件。",
+      "name": "trycompai/crm",
+      "description": "以智能代理为核心的CRM系统",
       "language": "TypeScript",
-      "stars": 3104,
-      "starsToday": 1017,
-      "forks": 365,
-      "url": "https://github.com/bashalarmistalt/decimen-optical-transfer",
+      "stars": 1876,
+      "starsToday": 938,
+      "forks": 227,
+      "url": "https://github.com/trycompai/crm",
       "rank": 4
     },
     {
-      "name": "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
-      "description": "分析企业AI项目与FDE岗位趋势。",
-      "language": "Unknown",
-      "stars": 1065,
-      "starsToday": 533,
-      "forks": 138,
-      "url": "https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
+      "name": "bashalarmistalt/decimen-optical-transfer",
+      "description": "屏幕和摄像头实现的QR码文件传输",
+      "language": "TypeScript",
+      "stars": 3720,
+      "starsToday": 616,
+      "forks": 430,
+      "url": "https://github.com/bashalarmistalt/decimen-optical-transfer",
       "rank": 5
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自我进化的AI代理，持续学习。",
-      "language": "Python",
-      "stars": 223867,
-      "starsToday": 421,
-      "forks": 43220,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
+      "description": "分析企业AI项目与FDE岗位趋势",
+      "language": "Unknown",
+      "stars": 1620,
+      "starsToday": 555,
+      "forks": 214,
+      "url": "https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
       "rank": 6
     },
     {
-      "name": "anomalyco/opencode",
-      "description": "开源AI编程代理，多语言支持。",
-      "language": "TypeScript",
-      "stars": 192081,
-      "starsToday": 383,
-      "forks": 24511,
-      "url": "https://github.com/anomalyco/opencode",
+      "name": "NousResearch/hermes-agent",
+      "description": "自我进化的AI代理，具备学习循环",
+      "language": "Python",
+      "stars": 224356,
+      "starsToday": 489,
+      "forks": 43393,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 7
     },
     {
-      "name": "farion1231/cc-switch",
-      "description": "多工具集成管理器，统一操作。",
-      "language": "Rust",
-      "stars": 123282,
-      "starsToday": 339,
-      "forks": 8341,
-      "url": "https://github.com/farion1231/cc-switch",
+      "name": "QwenAudio/qwen-audio-agent",
+      "description": "持续交流的实时语音AI助手",
+      "language": "JavaScript",
+      "stars": 1740,
+      "starsToday": 404,
+      "forks": 110,
+      "url": "https://github.com/QwenAudio/qwen-audio-agent",
       "rank": 8
     },
     {
       "name": "obra/superpowers",
-      "description": "为AI代理提供全面开发方法论。",
+      "description": "为AI代理构建的软件开发方法论",
       "language": "Shell",
-      "stars": 264813,
-      "starsToday": 331,
-      "forks": 23644,
+      "stars": 265194,
+      "starsToday": 381,
+      "forks": 23682,
       "url": "https://github.com/obra/superpowers",
       "rank": 9
     },
     {
-      "name": "QwenAudio/qwen-audio-agent",
-      "description": "实时语音AI代理，持续交流。",
-      "language": "JavaScript",
-      "stars": 1336,
-      "starsToday": 267,
-      "forks": 88,
-      "url": "https://github.com/QwenAudio/qwen-audio-agent",
+      "name": "anomalyco/opencode",
+      "description": "开源AI编程代理",
+      "language": "TypeScript",
+      "stars": 192449,
+      "starsToday": 368,
+      "forks": 24582,
+      "url": "https://github.com/anomalyco/opencode",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-08-02",
-    "updatedAt": "2026-08-02T02:41:37.265Z",
+    "date": "2026-08-03",
+    "updatedAt": "2026-08-03T02:42:55.168Z",
     "highlights": [
-      "AI音乐生成器版权争议，OpenAI解决数学难题，Hugging Face防御秘密模型攻击，开源模型DeepSeek V4登顶，评测套件smevals发布，Tailscale入侵事件复盘，动画工作室替代工具开源，智能体对齐接口发布，欧盟AI法透明度要求执行，Antigravity SDK教程发布",
-      "yc-software/qm简化团队协作，MoonshotAI/Kimi-K3开源多模态AI模型，bashalarmistalt/decimen-optical-transfer文件传输工具，xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer分析AI项目趋势，NousResearch/hermes-agent自我进化AI代理，anomalyco/opencode开源AI编程代理，obra/superpowers提供AI代理开发方法论，QwenAudio/qwen-audio-agent实时语音AI代理"
+      "Qwen3.8-Max发布，AI编码与协作模型新进展；OpenAI新模型Astra数学表现卓越；Codex与Sol合作提升产出；Grok支持视频分析；AI音乐生成器版权争议；OpenAI Astra解决数学难题；Hugging Face抵御秘密模型攻击；DeepSeek V4开源登顶；smevals评测套件发布；Tailscale入侵事件复盘"
     ],
     "keywords": [
-      "AI音乐生成器版权",
-      "OpenAI数学难题",
-      "Hugging Face模型攻击防御",
-      "开源模型DeepSeek V4",
-      "评测套件smevals",
-      "Tailscale入侵事件",
-      "动画工作室替代工具",
-      "智能体对齐接口",
-      "欧盟AI法透明度",
-      "Antigravity SDK教程",
-      "团队协作工具",
-      "多模态AI模型",
-      "文件传输工具",
-      "AI项目趋势分析",
-      "自我进化AI代理",
-      "开源AI编程代理",
-      "AI代理开发方法论",
-      "实时语音AI代理"
+      "Qwen3.8-Max",
+      "OpenAI Astra",
+      "Codex",
+      "Grok",
+      "AI音乐生成器",
+      "OpenAI",
+      "Hugging Face",
+      "DeepSeek V4",
+      "smevals",
+      "Tailscale"
     ],
-    "trendingSummary": "今日技术趋势聚焦于AI版权、模型安全、开源模型发展、评测工具创新、入侵事件复盘、动画制作替代工具、智能体技术、欧盟AI法规执行以及AI开发工具的教程发布。同时，GitHub热门项目展示了对团队协作、多模态AI、文件传输、AI项目趋势分析、AI代理、编程代理、开发方法论和语音AI代理的关注。"
+    "trendingSummary": "今日技术趋势聚焦于AI模型的发布与应用，包括编码协作、数学问题解决、视频分析等，同时行业版权争议和工具安全也受到关注。"
   }
 }
