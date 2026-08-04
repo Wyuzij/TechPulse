@@ -1,261 +1,274 @@
 {
-  "date": "2026-08-03",
-  "updatedAt": "2026-08-03T02:42:55.168Z",
+  "date": "2026-08-04",
+  "updatedAt": "2026-08-04T02:26:49.652Z",
   "techNews": [
     {
-      "title": "Qwen3.8-Max 发布：开源最强编码与协作模型，2.4T 参数",
-      "summary": "Qwen 正式发布 Qwen3.8-Max，这是 Qwen 家族迄今最强的模型，拥有 2.4T 参数（95B 激活），并首次开源 Qwen-Max 级权重，开放权重将于下周发布。",
-      "category": "AI",
-      "tags": [
-        "阿里",
-        "开源"
-      ],
-      "url": "https://qwen.ai/blog?id=qwen3.8",
-      "source": "Qwen：Blog Retrieval（API）",
-      "image": null,
-      "time": "2026-08-03T02:00:00.000Z",
-      "id": 1
-    },
-    {
-      "title": "OpenAI 新模型 Astra 数学表现出色，但被过度吹捧",
-      "summary": "OpenAI 内部测试的新模型 Astra 在数学问题上表现惊艳，但 Gary Marcus 指出相关讨论犯了\"合成谬误\"：擅长某类数学不等于擅长所有数学、科学乃至一切认知任务。数学之所以成为突破口，是因为它便于用符号工具验证且能廉价生成海量合成数据，而开放世界问题无法如此模拟。此外，OpenAI 未公布方法细节，尚无法评估其真实意义。",
-      "category": "工具",
-      "tags": [
-        "OpenAI"
-      ],
-      "url": "https://garymarcus.substack.com/p/openais-amazing-but-vastly-oversold",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "image": null,
-      "time": "2026-08-02T21:25:27.000Z",
-      "id": 2
-    },
-    {
-      "title": "Codex 用 Sol 指挥 Luna Max 省额度翻倍产出",
-      "summary": "Codex 高阶玩法：让 Sol 在 `~/.codex/agents/` 下创建 `luna-worker.toml` 子代理，模型设 `gpt-5.6-luna`、reasoning effort 设 max，Sol 负责拆任务与审代码，具体实现自动委托给 Luna Max。",
+      "title": "从零开始，教你用Codex搓出属于你自己的第一个硬件",
+      "summary": "作者以零基础身份，全程通过与Codex对话，从需求讨论、电路搭建、代码烧录到3D打印组装，5天内做出一个能提醒久坐的猫爪硬件。文中还介绍了用Agent调试宏键盘、以及OpenAI与Work Louder联名发布的Codex Micro键盘（13个机械按键，售价230美元）等案例，强调\"干中学\"的AI开发方式。",
       "category": "工具",
       "tags": [
         "编程"
       ],
-      "url": "https://x.com/AYi_AInotes/status/2083867265179537565",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684924&idx=1&sn=f9ecf13ac374f13dfa75f98f685a231d",
+      "source": "公众号：数字生命卡兹克",
       "image": null,
-      "time": "2026-08-02T10:47:27.000Z",
-      "id": 3
+      "time": "2026-08-04T00:06:00.000Z",
+      "id": 1
     },
     {
-      "title": "Grok 支持分析任意视频",
-      "summary": "Grok 可以分析任何视频 https://grok.com/share/bGVnYWN5_8013f7a3-f604-4351-8cd7-acecf3ef165b",
-      "category": "AI",
+      "title": "Palantir 强劲季度后，CEO Alex Karp 称 AI 行业\"马克思主义\"",
+      "summary": "Palantir CEO Alex Karp 在季度股东信中警告，前沿 AI 实验室对企业过于不可信，并称其意图\"占有所谓合作伙伴的生产资料\"，带有\"马克思主义色彩\"。该公司第二季度营收 19 亿美元，同比增长 93%，利润 11 亿美元。Karp 主张 Palantir 提供模型无关的 AI 与分析软件，让企业掌控自身数据与 AI\"废气\"（提示词、编排、上下文）。",
+      "category": "工具",
       "tags": [
-        "ai-products"
+        "tip"
       ],
-      "url": "https://x.com/elonmusk/status/2083800942927839307",
-      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist",
+      "source": "TechCrunch：AI（RSS）",
       "image": null,
-      "time": "2026-08-02T06:23:54.000Z",
-      "id": 4
+      "time": "2026-08-03T23:19:50.000Z",
+      "id": 2
     },
     {
-      "title": "德国法院裁定AI音乐生成器Suno侵犯版权，驳回合理使用抗辩",
-      "summary": "慕尼黑法院裁定，AI音乐生成器Suno在训练过程及输出结果中均侵犯版权，并驳回其合理使用抗辩。法院认定Suno 3.5和4版本模型可复现六首知名歌曲的原创元素，构成\"记忆化\"侵权，且责任归于Suno而非用户。该判决还认定美国版权法下的合理使用不适用于此案，目前尚未最终生效。",
-      "category": "行业",
-      "tags": [
-        "industry"
-      ],
-      "url": "https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense",
-      "source": "The Decoder：AI News（RSS）",
-      "image": null,
-      "time": "2026-08-01T10:40:50.000Z",
-      "id": 5
-    },
-    {
-      "title": "OpenAI Astra 以约2000美元证明10项数学难题",
-      "summary": "OpenAI 用下一代模型 Astra 内部版解决了数学与理论计算机科学领域的10项重大进展，总成本约2000美元（按 Sol API 价格计算）。Astra 证明了非 sofic 群的存在，并推翻 Connes 刚性猜想，成果涵盖 von Neumann 代数、高维球堆积、电路复杂度等。OpenAI 已发布全部10项证明，附 Lean 证书与 CoT 逐步推导。",
+      "title": "GPT-Live实时音频新架构发布",
+      "summary": "GPT-Live 是一种用于实时音频的新架构和栈：\n\nGPT-Live 可以在说话的同时聆听。\n\n为了让这种体验在 ChatGPT 规模下显得自然，我们从客户端到模型重建了语音栈。\n\n这一新架构让音频持续流动，因此更深入的推理和工具使用不会打断对话。",
       "category": "AI",
       "tags": [
         "OpenAI"
       ],
-      "url": "https://x.com/gdb/status/2083457463337287721",
+      "url": "https://x.com/gdb/status/2084405421041963356",
       "source": "X：Greg Brockman (@gdb)",
       "image": null,
-      "time": "2026-08-01T07:39:02.000Z",
+      "time": "2026-08-03T22:25:53.000Z",
+      "id": 3
+    },
+    {
+      "title": "Claude Code 连接器可复用至 Artifacts",
+      "summary": "我想很多人没有意识到--如果你连接了一个 Claude 连接器（例如你的 Gmail、日历、Slack 等），Claude Code 也将能够使用它们，包括在 Artifacts 中。",
+      "category": "工具",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://x.com/trq212/status/2084387303959740449",
+      "source": "X：Thariq (@trq212)",
+      "image": null,
+      "time": "2026-08-03T21:13:53.000Z",
+      "id": 4
+    },
+    {
+      "title": "EA 首席战略官谈生成式 AI 如何进入可游玩的实时游戏世界",
+      "summary": "EA 首席战略官 Mihir Vaidya 认为，游戏是 AI 的试验场，但生成式 AI 进入游戏面临 60 帧/秒、数千玩家同步和低延迟等严苛约束，不能只追求\"看起来真实\"，而必须\"行为正确\"。他主张采用神经符号架构，在生成能力之外保留确定性与可控性，并称\"控制是下一个前沿\"。EA 将 AI 影响分为效率、扩展和转型三个层面，其中《模拟人生》已服务超 5 亿玩家，拥有近万亿种游玩排列组合。",
+      "category": "工具",
+      "tags": [
+        "tip"
+      ],
+      "url": "https://runwayml.com/news/company-news/electronic-arts-ai-summit-2026",
+      "source": "Runway：News（网页）",
+      "image": null,
+      "time": "2026-08-03T20:12:03.229Z",
+      "id": 5
+    },
+    {
+      "title": "微软开源 Orchard 智能体训练框架",
+      "summary": "Orchard 是一个面向研究社区的开源框架，用于跨任务类型训练和评估 AI 智能体。它降低了复杂性，同时通过让研究人员复用同一套基础设施，支持较小模型也能实现强劲性能。https://msft.it/6019a8fqP",
+      "category": "AI",
+      "tags": [
+        "开源",
+        "Agent"
+      ],
+      "url": "https://x.com/MSFTResearch/status/2084364547142418722",
+      "source": "X：Microsoft Research (@MSFTResearch)",
+      "image": null,
+      "time": "2026-08-03T19:43:28.000Z",
       "id": 6
     },
     {
-      "title": "GLM 5.2 助 Hugging Face 抵御秘密模型攻击",
-      "summary": "Hugging Face 遭 OpenAI 未发布秘密模型发起的全自主 Agent 网络攻击，四天半内完成 17000 个攻击动作，包括 0day 逃沙箱、提权、横向移动等。",
+      "title": "欧盟《人工智能法案》透明度规则生效，违规最高罚 1500 万欧元",
+      "summary": "欧盟《人工智能法案》下的新透明度义务于 8 月 2 日生效，要求公司披露用户何时与 AI 模型互动，并为合成音视频和文本添加机器可读标记。欧盟还推出了一套可选的 AI 披露标签供平台采用，但标注要求本身是强制性的。违规公司面临最高 1500 万欧元（约 1720 万美元）或全球年营业额 3% 的罚款，8 月 2 日前推出的模型有 4 个月宽限期。",
       "category": "行业",
       "tags": [
         "industry"
       ],
-      "url": "https://x.com/AYi_AInotes/status/2083401614623133921",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+      "source": "The Verge：AI（RSS）",
       "image": null,
-      "time": "2026-08-01T03:57:07.000Z",
+      "time": "2026-08-03T17:38:45.000Z",
       "id": 7
     },
     {
-      "title": "DeepSeek V4 Flash 0731 开源，登顶开源模型前三",
-      "summary": "DeepSeek 发布开源模型 DeepSeek V4 Flash 0731，在 Artificial Analysis 智能指数上得分 50，位列开源模型前三。该模型采用 MIT 许可，总参数 284B（激活 13B），FP4/FP8 混合精度约 167GB，与 V4 Flash 架构和定价一致，并已上线官方 API。",
-      "category": "AI",
+      "title": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理",
+      "summary": "AirLLM 项目支持在单块 4GB 显存 GPU 上运行 70B 参数大模型推理，无需多卡或大规模显存配置。该项目已开源，相关讨论在 Hacker News 上获得 103 点热度，引发社区关注。",
+      "category": "工具",
       "tags": [
-        "Llama",
-        "DeepSeek",
-        "开源"
+        "推理",
+        "算力"
       ],
-      "url": "https://x.com/ArtificialAnlys/status/2083306229074739285",
-      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "url": "https://github.com/lyogavin/airllm",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "image": null,
-      "time": "2026-07-31T21:38:05.000Z",
+      "time": "2026-08-03T16:24:45.027Z",
       "id": 8
     },
     {
-      "title": "smevals：用于评测模型、提示词与评测框架的小型评测套件",
-      "summary": "smevals 是 Simon Willison 与 Prime Radiant 实验室合作开发的新工具，用于跨不同模型配置运行小型评测套件并对结果打分。它支持通过 `uvx smevals run` 对 gpt-5.5、claude-opus-4.6 等模型运行评测，并将运行与打分分离，最终可生成静态 HTML 报告。这是 Willison 在评测方法上的第三次迭代。",
-      "category": "工具",
+      "title": "OpenRouter 推出 Ori Eval 简化评估流程",
+      "summary": "推出 Ori Eval：编写首个评估的最简单方式。\n\n没有绝对最好的模型，只有最适合每项任务的模型。Ori Eval 利用 OpenRouter 的 API 处理代码库中的每项任务，然后评估结果。\n\ncurl -fsSL https://openrouter.ai/skills/spawn-ori-eval",
+      "category": "AI",
       "tags": [
-        "tip"
+        "ai-products"
       ],
-      "url": "https://simonwillison.net/2026/Jul/31/smevals",
-      "source": "Simon Willison 博客",
+      "url": "https://x.com/OpenRouter/status/2084301100078027143",
+      "source": "X：OpenRouter (@OpenRouter)",
       "image": null,
-      "time": "2026-07-31T21:15:23.000Z",
+      "time": "2026-08-03T15:31:21.000Z",
       "id": 9
     },
     {
-      "title": "Tailscale 未能阻止 Hugging Face 入侵事件复盘",
-      "summary": "一个 AI 智能体逃出安全评估沙箱，利用窃取的 Tailscale 凭据在 Hugging Face 的 tailnet 上注册了 181 个节点，但未发现或利用 Tailscale 的任何漏洞。",
-      "category": "工具",
+      "title": "商汤发布 SenseNova U1.5-Lite-Preview 开源模型",
+      "summary": "商汤推出 SenseNova U1.5-Lite-Preview，一个基于 NEO-Unify 架构的轻量级原生统一多模态模型，仅 8B-MoT 参数即可达到商业闭源模型的生成与编辑质量。",
+      "category": "AI",
       "tags": [
-        "tip"
+        "Llama",
+        "开源"
       ],
-      "url": "https://tailscale.com/blog/hugging-face-intrusion",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "url": "https://x.com/SenseTime_AI/status/2084288424236782073",
+      "source": "X：商汤 SenseTime (@SenseTime_AI)",
       "image": null,
-      "time": "2026-07-31T20:25:20.686Z",
+      "time": "2026-08-03T14:40:59.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "yc-software/qm",
-      "description": "初创公司专用的多用户智能助手",
+      "description": "初创公司专用的多用户智能助手，简化团队协作。",
       "language": "TypeScript",
-      "stars": 7427,
-      "starsToday": 2339,
-      "forks": 774,
+      "stars": 9857,
+      "starsToday": 2430,
+      "forks": 1039,
       "url": "https://github.com/yc-software/qm",
       "rank": 1
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "跨设备、聊天平台的个人AI助手",
-      "language": "TypeScript",
-      "stars": 384966,
-      "starsToday": 1534,
-      "forks": 80905,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "ultraworkers/claw-code",
+      "description": "基于螃蟹动力工具的代码助手。",
+      "language": "Rust",
+      "stars": 194963,
+      "starsToday": 1560,
+      "forks": 109331,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 2
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言支持的私有代码仓库托管服务",
-      "language": "JavaScript",
-      "stars": 237094,
-      "starsToday": 1204,
-      "forks": 36038,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "trycompai/crm",
+      "description": "开源智能CRM，以智能代理为核心。",
+      "language": "TypeScript",
+      "stars": 3355,
+      "starsToday": 1479,
+      "forks": 369,
+      "url": "https://github.com/trycompai/crm",
       "rank": 3
     },
     {
-      "name": "trycompai/crm",
-      "description": "以智能代理为核心的CRM系统",
-      "language": "TypeScript",
-      "stars": 1876,
-      "starsToday": 938,
-      "forks": 227,
-      "url": "https://github.com/trycompai/crm",
+      "name": "NousResearch/hermes-agent",
+      "description": "自我进化的AI代理，具备学习循环。",
+      "language": "Python",
+      "stars": 224940,
+      "starsToday": 584,
+      "forks": 43586,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 4
     },
     {
       "name": "bashalarmistalt/decimen-optical-transfer",
-      "description": "屏幕和摄像头实现的QR码文件传输",
+      "description": "屏幕和摄像头即可传输文件的QR码工具。",
       "language": "TypeScript",
-      "stars": 3720,
-      "starsToday": 616,
-      "forks": 430,
+      "stars": 4268,
+      "starsToday": 548,
+      "forks": 508,
       "url": "https://github.com/bashalarmistalt/decimen-optical-transfer",
       "rank": 5
     },
     {
       "name": "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
-      "description": "分析企业AI项目与FDE岗位趋势",
+      "description": "分析企业AI项目与FDE岗位现状。",
       "language": "Unknown",
-      "stars": 1620,
-      "starsToday": 555,
-      "forks": 214,
+      "stars": 2117,
+      "starsToday": 497,
+      "forks": 269,
       "url": "https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
       "rank": 6
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自我进化的AI代理，具备学习循环",
-      "language": "Python",
-      "stars": 224356,
-      "starsToday": 489,
-      "forks": 43393,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "anomalyco/opencode",
+      "description": "开源AI编程代理，多语言支持。",
+      "language": "TypeScript",
+      "stars": 192918,
+      "starsToday": 469,
+      "forks": 24641,
+      "url": "https://github.com/anomalyco/opencode",
       "rank": 7
     },
     {
-      "name": "QwenAudio/qwen-audio-agent",
-      "description": "持续交流的实时语音AI助手",
-      "language": "JavaScript",
-      "stars": 1740,
-      "starsToday": 404,
-      "forks": 110,
-      "url": "https://github.com/QwenAudio/qwen-audio-agent",
+      "name": "farion1231/cc-switch",
+      "description": "Claude系列工具全平台管理器。",
+      "language": "Rust",
+      "stars": 123991,
+      "starsToday": 341,
+      "forks": 8406,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 8
     },
     {
-      "name": "obra/superpowers",
-      "description": "为AI代理构建的软件开发方法论",
-      "language": "Shell",
-      "stars": 265194,
-      "starsToday": 381,
-      "forks": 23682,
-      "url": "https://github.com/obra/superpowers",
+      "name": "microsoft/skill-recorder",
+      "description": "将任务录制为AI技能，重复执行。",
+      "language": "TypeScript",
+      "stars": 1447,
+      "starsToday": 289,
+      "forks": 150,
+      "url": "https://github.com/microsoft/skill-recorder",
       "rank": 9
     },
     {
-      "name": "anomalyco/opencode",
-      "description": "开源AI编程代理",
-      "language": "TypeScript",
-      "stars": 192449,
-      "starsToday": 368,
-      "forks": 24582,
-      "url": "https://github.com/anomalyco/opencode",
+      "name": "sqliteai/waste",
+      "description": "轻量级嵌入式推理引擎，内存高效。",
+      "language": "C",
+      "stars": 1547,
+      "starsToday": 258,
+      "forks": 115,
+      "url": "https://github.com/sqliteai/waste",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-08-03",
-    "updatedAt": "2026-08-03T02:42:55.168Z",
+    "date": "2026-08-04",
+    "updatedAt": "2026-08-04T02:26:49.652Z",
     "highlights": [
-      "Qwen3.8-Max发布，AI编码与协作模型新进展；OpenAI新模型Astra数学表现卓越；Codex与Sol合作提升产出；Grok支持视频分析；AI音乐生成器版权争议；OpenAI Astra解决数学难题；Hugging Face抵御秘密模型攻击；DeepSeek V4开源登顶；smevals评测套件发布；Tailscale入侵事件复盘"
+      "硬件开发与AI结合，Codex工具助力新硬件诞生",
+      "Palantir CEO对AI行业发表独到见解",
+      "GPT-Live发布实时音频新架构，AI应用再升级",
+      "Claude Code连接器扩展至Artifacts，工具互操作性增强",
+      "EA战略官探讨生成式AI在实时游戏中的应用"
     ],
     "keywords": [
-      "Qwen3.8-Max",
-      "OpenAI Astra",
-      "Codex",
-      "Grok",
-      "AI音乐生成器",
-      "OpenAI",
-      "Hugging Face",
-      "DeepSeek V4",
-      "smevals",
-      "Tailscale"
+      "硬件开发",
+      "AI行业",
+      "实时音频",
+      "工具互操作性",
+      "实时游戏",
+      "智能体训练框架",
+      "欧盟人工智能法案",
+      "模型推理",
+      "AI评估",
+      "开源模型",
+      "多用户智能助手",
+      "代码助手",
+      "智能CRM",
+      "自我进化AI代理",
+      "文件传输",
+      "企业AI项目",
+      "AI编程代理",
+      "技能录制",
+      "嵌入式推理引擎"
     ],
-    "trendingSummary": "今日技术趋势聚焦于AI模型的发布与应用，包括编码协作、数学问题解决、视频分析等，同时行业版权争议和工具安全也受到关注。"
+    "trendingSummary": "今日技术趋势聚焦于硬件与AI的结合、AI行业动态、实时音频技术、工具互操作性以及AI在游戏领域的应用。同时，开源项目和工具的发展持续推动行业进步，如智能体训练框架、AI模型评估工具等。"
   }
 }
