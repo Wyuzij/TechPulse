@@ -1,274 +1,283 @@
 {
-  "date": "2026-08-04",
-  "updatedAt": "2026-08-04T02:26:49.652Z",
+  "date": "2026-08-05",
+  "updatedAt": "2026-08-05T02:26:40.170Z",
   "techNews": [
     {
-      "title": "从零开始，教你用Codex搓出属于你自己的第一个硬件",
-      "summary": "作者以零基础身份，全程通过与Codex对话，从需求讨论、电路搭建、代码烧录到3D打印组装，5天内做出一个能提醒久坐的猫爪硬件。文中还介绍了用Agent调试宏键盘、以及OpenAI与Work Louder联名发布的Codex Micro键盘（13个机械按键，售价230美元）等案例，强调\"干中学\"的AI开发方式。",
+      "title": "开源「活人感写作.skill」：一个帮你写出没有AI味的文字的通用写作技能",
+      "summary": "数字生命卡兹克开源「活人感写作.skill」（英文名 human Writing.skill），旨在去除AI味、帮用户写出有真实生活感的文字。该Skill鼓励用户提供真实案例与情感，并针对辞章端禁用AI常用口癖和黑话，同时适配Qwen 3.8 Max、DeepSeek V4 Pro、Kimi K3等模型，可直接用于WorkBuddy、千问办公等产品。",
       "category": "工具",
       "tags": [
-        "编程"
+        "开源"
       ],
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684924&idx=1&sn=f9ecf13ac374f13dfa75f98f685a231d",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684946&idx=1&sn=ae7edcc572b998dc4e1ac3591977aa85",
       "source": "公众号：数字生命卡兹克",
       "image": null,
-      "time": "2026-08-04T00:06:00.000Z",
+      "time": "2026-08-05T01:35:42.000Z",
       "id": 1
     },
     {
-      "title": "Palantir 强劲季度后，CEO Alex Karp 称 AI 行业\"马克思主义\"",
-      "summary": "Palantir CEO Alex Karp 在季度股东信中警告，前沿 AI 实验室对企业过于不可信，并称其意图\"占有所谓合作伙伴的生产资料\"，带有\"马克思主义色彩\"。该公司第二季度营收 19 亿美元，同比增长 93%，利润 11 亿美元。Karp 主张 Palantir 提供模型无关的 AI 与分析软件，让企业掌控自身数据与 AI\"废气\"（提示词、编排、上下文）。",
-      "category": "工具",
+      "title": "LLM 0.32 发布：新增推理轨迹、OpenAI Responses、服务端工具与更智能的日志",
+      "summary": "Simon Willison 发布 LLM 0.32，这是该项目自启动以来最重要的新版本。新版本支持显示推理轨迹、服务端工具、OpenAI Responses API，并默认使用 GPT-5.6 Luna 模型。",
+      "category": "AI",
       "tags": [
-        "tip"
+        "OpenAI",
+        "推理"
       ],
-      "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist",
-      "source": "TechCrunch：AI（RSS）",
+      "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm",
+      "source": "Simon Willison 博客",
       "image": null,
-      "time": "2026-08-03T23:19:50.000Z",
+      "time": "2026-08-04T23:58:24.000Z",
       "id": 2
     },
     {
-      "title": "GPT-Live实时音频新架构发布",
-      "summary": "GPT-Live 是一种用于实时音频的新架构和栈：\n\nGPT-Live 可以在说话的同时聆听。\n\n为了让这种体验在 ChatGPT 规模下显得自然，我们从客户端到模型重建了语音栈。\n\n这一新架构让音频持续流动，因此更深入的推理和工具使用不会打断对话。",
+      "title": "Replit 环境智能：免提示词自动生成设计",
+      "summary": "你无需提示词，也无需设计语言。\n\n环境智能（Ambient Intelligence）会在每个画面旁显示建议卡片，每张卡片都指向你的设计的一个不同方向。点击你喜欢的那张，即可看到它生成一个新的画面。\n\n你再也不必纠结下一步该做什么。\n\n立即在 http://replit.com/design 体验。",
       "category": "AI",
       "tags": [
-        "OpenAI"
+        "设计"
       ],
-      "url": "https://x.com/gdb/status/2084405421041963356",
-      "source": "X：Greg Brockman (@gdb)",
+      "url": "https://x.com/Replit/status/2084761337570144424",
+      "source": "X：Replit (@Replit)",
       "image": null,
-      "time": "2026-08-03T22:25:53.000Z",
+      "time": "2026-08-04T22:00:10.000Z",
       "id": 3
     },
     {
-      "title": "Claude Code 连接器可复用至 Artifacts",
-      "summary": "我想很多人没有意识到--如果你连接了一个 Claude 连接器（例如你的 Gmail、日历、Slack 等），Claude Code 也将能够使用它们，包括在 Artifacts 中。",
-      "category": "工具",
-      "tags": [
-        "Claude"
-      ],
-      "url": "https://x.com/trq212/status/2084387303959740449",
-      "source": "X：Thariq (@trq212)",
-      "image": null,
-      "time": "2026-08-03T21:13:53.000Z",
-      "id": 4
-    },
-    {
-      "title": "EA 首席战略官谈生成式 AI 如何进入可游玩的实时游戏世界",
-      "summary": "EA 首席战略官 Mihir Vaidya 认为，游戏是 AI 的试验场，但生成式 AI 进入游戏面临 60 帧/秒、数千玩家同步和低延迟等严苛约束，不能只追求\"看起来真实\"，而必须\"行为正确\"。他主张采用神经符号架构，在生成能力之外保留确定性与可控性，并称\"控制是下一个前沿\"。EA 将 AI 影响分为效率、扩展和转型三个层面，其中《模拟人生》已服务超 5 亿玩家，拥有近万亿种游玩排列组合。",
+      "title": "MiniMax-H3 通过 MLX 移植可在 Apple Silicon 上运行",
+      "summary": "MiniMax 发布 MiniMax-H3，一个可接受文本、图像、音频和视频并生成最长 15 秒带音频视频片段的通用全模态生成系统。Python 包 PipeNetwork/minimax-h3-mlx 将其移植到 MLX，支持 Apple Silicon 运行。作者在 M5 Max MacBook Pro 上实测，下载约 115 GB 模型文件，视频生成耗时不到 45 分钟。",
       "category": "工具",
       "tags": [
         "tip"
       ],
-      "url": "https://runwayml.com/news/company-news/electronic-arts-ai-summit-2026",
-      "source": "Runway：News（网页）",
+      "url": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx",
+      "source": "Simon Willison 博客",
       "image": null,
-      "time": "2026-08-03T20:12:03.229Z",
+      "time": "2026-08-04T19:10:09.000Z",
+      "id": 4
+    },
+    {
+      "title": "Soup v0.72.4：在4 GB显存笔记本GPU上微调8B模型",
+      "summary": "Soup 推出 v0.72.4，支持在配备 4 GB 显存的笔记本 GPU 上通过 QLoRA 微调 8B 模型，无需 SSH 或云服务。",
+      "category": "AI",
+      "tags": [
+        "算力"
+      ],
+      "url": "https://github.com/MakazhanAlpamys/Soup",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "image": null,
+      "time": "2026-08-04T18:17:29.648Z",
       "id": 5
     },
     {
-      "title": "微软开源 Orchard 智能体训练框架",
-      "summary": "Orchard 是一个面向研究社区的开源框架，用于跨任务类型训练和评估 AI 智能体。它降低了复杂性，同时通过让研究人员复用同一套基础设施，支持较小模型也能实现强劲性能。https://msft.it/6019a8fqP",
+      "title": "OpenRouter 上线 FLUX 3 Video 统一多模态模型",
+      "summary": "@bfl_ai 的 FLUX 3 Video 现已在 OpenRouter 上向所有人开放。\n\n一个统一的视频、音频、图像和动作预测多模态模型家族。严肃、有趣、创意、真实、电影感，随你所需。基于统一架构联合训练。",
       "category": "AI",
       "tags": [
-        "开源",
-        "Agent"
+        "多模态",
+        "设计"
       ],
-      "url": "https://x.com/MSFTResearch/status/2084364547142418722",
-      "source": "X：Microsoft Research (@MSFTResearch)",
+      "url": "https://x.com/OpenRouter/status/2084699413898027064",
+      "source": "X：OpenRouter (@OpenRouter)",
       "image": null,
-      "time": "2026-08-03T19:43:28.000Z",
+      "time": "2026-08-04T17:54:06.000Z",
       "id": 6
     },
     {
-      "title": "欧盟《人工智能法案》透明度规则生效，违规最高罚 1500 万欧元",
-      "summary": "欧盟《人工智能法案》下的新透明度义务于 8 月 2 日生效，要求公司披露用户何时与 AI 模型互动，并为合成音视频和文本添加机器可读标记。欧盟还推出了一套可选的 AI 披露标签供平台采用，但标注要求本身是强制性的。违规公司面临最高 1500 万欧元（约 1720 万美元）或全球年营业额 3% 的罚款，8 月 2 日前推出的模型有 4 个月宽限期。",
-      "category": "行业",
-      "tags": [
-        "industry"
-      ],
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
-      "source": "The Verge：AI（RSS）",
-      "image": null,
-      "time": "2026-08-03T17:38:45.000Z",
-      "id": 7
-    },
-    {
-      "title": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理",
-      "summary": "AirLLM 项目支持在单块 4GB 显存 GPU 上运行 70B 参数大模型推理，无需多卡或大规模显存配置。该项目已开源，相关讨论在 Hacker News 上获得 103 点热度，引发社区关注。",
-      "category": "工具",
-      "tags": [
-        "推理",
-        "算力"
-      ],
-      "url": "https://github.com/lyogavin/airllm",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "image": null,
-      "time": "2026-08-03T16:24:45.027Z",
-      "id": 8
-    },
-    {
-      "title": "OpenRouter 推出 Ori Eval 简化评估流程",
-      "summary": "推出 Ori Eval：编写首个评估的最简单方式。\n\n没有绝对最好的模型，只有最适合每项任务的模型。Ori Eval 利用 OpenRouter 的 API 处理代码库中的每项任务，然后评估结果。\n\ncurl -fsSL https://openrouter.ai/skills/spawn-ori-eval",
+      "title": "SpecForge v0.3.0 发布：统一解耦与共置投机解码栈，新增开放 SpecBundle 草稿模型",
+      "summary": "SpecForge v0.3.0 将目标模型推理与草稿模型训练分离，支持 EAGLE3、EAGLE3.1、P-EAGLE、DFlash、Domino、DSpark 等多种投机解码算法，并统一在线、离线与解耦工作流。",
       "category": "AI",
       "tags": [
         "ai-products"
       ],
-      "url": "https://x.com/OpenRouter/status/2084301100078027143",
-      "source": "X：OpenRouter (@OpenRouter)",
+      "url": "https://www.lmsys.org/blog/2026-08-04-specforge-v0-3",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
       "image": null,
-      "time": "2026-08-03T15:31:21.000Z",
+      "time": "2026-08-04T17:51:09.590Z",
+      "id": 7
+    },
+    {
+      "title": "GitHub 如何用堆叠式 Pull Request 拆解 AI 生成的巨型代码",
+      "summary": "GitHub 介绍用堆叠式 Pull Request（stacked PR）解决 AI 编码智能体生成巨型代码难以审查的问题。通过将 1，000+ 行的大 diff 按数据、API、接线、UI 拆成 L1-L4 四个独立分层，每层可分配不同审查者。",
+      "category": "工具",
+      "tags": [
+        "编程",
+        "开源"
+      ],
+      "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack",
+      "source": "GitHub Blog",
+      "image": null,
+      "time": "2026-08-04T16:47:18.000Z",
+      "id": 8
+    },
+    {
+      "title": "Google Cloud API Gateway 推出统一模型路由功能，支持 Gemini、Claude 与 OpenAI OSS-GPT",
+      "summary": "Google Cloud API Gateway 新增模型路由功能（Public Preview），开发者可在 OpenAPI 3.x 规范中配置虚拟模型名到后端目标的映射，无需硬编码端点或管理开源代理。网关作为无服务器入口层，接受标准 OpenAI 兼容请求，自动将负载转码为目标模型的原生格式并动态路由流量。",
+      "category": "AI",
+      "tags": [
+        "OpenAI",
+        "Claude",
+        "Gemini"
+      ],
+      "url": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing",
+      "source": "Google Developers Blog（RSS）",
+      "image": null,
+      "time": "2026-08-04T16:45:02.138Z",
       "id": 9
     },
     {
-      "title": "商汤发布 SenseNova U1.5-Lite-Preview 开源模型",
-      "summary": "商汤推出 SenseNova U1.5-Lite-Preview，一个基于 NEO-Unify 架构的轻量级原生统一多模态模型，仅 8B-MoT 参数即可达到商业闭源模型的生成与编辑质量。",
+      "title": "Google Cloud 推出 Database Operations Agents，实现自主数据库管理",
+      "summary": "Google Cloud 在 Agentic Data Cloud 发布中推出两款 AI 数据库智能体：Database Onboarding Agent 负责 Day 0 的配置与部署，Database Observability Agent 负责 Day 1/2 的监控、故障排查与维护。",
       "category": "AI",
       "tags": [
-        "Llama",
-        "开源"
+        "Gemini",
+        "Agent"
       ],
-      "url": "https://x.com/SenseTime_AI/status/2084288424236782073",
-      "source": "X：商汤 SenseTime (@SenseTime_AI)",
+      "url": "https://cloud.google.com/blog/products/databases/deep-dive-on-new-ai-powered-database-agents",
+      "source": "Google Cloud：Databases（RSS）",
       "image": null,
-      "time": "2026-08-03T14:40:59.000Z",
+      "time": "2026-08-04T16:00:00.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "yc-software/qm",
-      "description": "初创公司专用的多用户智能助手，简化团队协作。",
+      "name": "openclaw/openclaw",
+      "description": "个人AI助手，跨设备聊天使用",
       "language": "TypeScript",
-      "stars": 9857,
-      "starsToday": 2430,
-      "forks": 1039,
-      "url": "https://github.com/yc-software/qm",
+      "stars": 385151,
+      "starsToday": 1522,
+      "forks": 80960,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 1
     },
     {
-      "name": "ultraworkers/claw-code",
-      "description": "基于螃蟹动力工具的代码助手。",
-      "language": "Rust",
-      "stars": 194963,
-      "starsToday": 1560,
-      "forks": 109331,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "trycompai/crm",
+      "description": "开源CRM，以代理为中心",
+      "language": "TypeScript",
+      "stars": 4786,
+      "starsToday": 1431,
+      "forks": 500,
+      "url": "https://github.com/trycompai/crm",
       "rank": 2
     },
     {
-      "name": "trycompai/crm",
-      "description": "开源智能CRM，以智能代理为核心。",
+      "name": "yc-software/qm",
+      "description": "适用于初创公司的多用户代理工具",
       "language": "TypeScript",
-      "stars": 3355,
-      "starsToday": 1479,
-      "forks": 369,
-      "url": "https://github.com/trycompai/crm",
+      "stars": 11202,
+      "starsToday": 1345,
+      "forks": 1224,
+      "url": "https://github.com/yc-software/qm",
       "rank": 3
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自我进化的AI代理，具备学习循环。",
-      "language": "Python",
-      "stars": 224940,
-      "starsToday": 584,
-      "forks": 43586,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "affaan-m/ECC",
+      "description": "多语言开源代码托管平台",
+      "language": "JavaScript",
+      "stars": 237722,
+      "starsToday": 1195,
+      "forks": 36116,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 4
     },
     {
-      "name": "bashalarmistalt/decimen-optical-transfer",
-      "description": "屏幕和摄像头即可传输文件的QR码工具。",
-      "language": "TypeScript",
-      "stars": 4268,
-      "starsToday": 548,
-      "forks": 508,
-      "url": "https://github.com/bashalarmistalt/decimen-optical-transfer",
+      "name": "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
+      "description": "探讨FDE岗位与AI项目成功率对比",
+      "language": "Unknown",
+      "stars": 2979,
+      "starsToday": 862,
+      "forks": 367,
+      "url": "https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
       "rank": 5
     },
     {
-      "name": "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
-      "description": "分析企业AI项目与FDE岗位现状。",
-      "language": "Unknown",
-      "stars": 2117,
-      "starsToday": 497,
-      "forks": 269,
-      "url": "https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
+      "name": "FareedKhan-dev/kimi-k3-in-c",
+      "description": "高性能C99模型，无需GPU",
+      "language": "C",
+      "stars": 2061,
+      "starsToday": 687,
+      "forks": 336,
+      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
       "rank": 6
     },
     {
-      "name": "anomalyco/opencode",
-      "description": "开源AI编程代理，多语言支持。",
-      "language": "TypeScript",
-      "stars": 192918,
-      "starsToday": 469,
-      "forks": 24641,
-      "url": "https://github.com/anomalyco/opencode",
+      "name": "NousResearch/hermes-agent",
+      "description": "自改进AI代理，跨会话学习",
+      "language": "Python",
+      "stars": 225547,
+      "starsToday": 607,
+      "forks": 43815,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 7
     },
     {
-      "name": "farion1231/cc-switch",
-      "description": "Claude系列工具全平台管理器。",
-      "language": "Rust",
-      "stars": 123991,
-      "starsToday": 341,
-      "forks": 8406,
-      "url": "https://github.com/farion1231/cc-switch",
+      "name": "anomalyco/opencode",
+      "description": "开源AI编程代理",
+      "language": "TypeScript",
+      "stars": 193376,
+      "starsToday": 458,
+      "forks": 24714,
+      "url": "https://github.com/anomalyco/opencode",
       "rank": 8
     },
     {
-      "name": "microsoft/skill-recorder",
-      "description": "将任务录制为AI技能，重复执行。",
-      "language": "TypeScript",
-      "stars": 1447,
-      "starsToday": 289,
-      "forks": 150,
-      "url": "https://github.com/microsoft/skill-recorder",
+      "name": "farion1231/cc-switch",
+      "description": "多工具统一管理平台",
+      "language": "Rust",
+      "stars": 124391,
+      "starsToday": 400,
+      "forks": 8442,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 9
     },
     {
-      "name": "sqliteai/waste",
-      "description": "轻量级嵌入式推理引擎，内存高效。",
-      "language": "C",
-      "stars": 1547,
-      "starsToday": 258,
-      "forks": 115,
-      "url": "https://github.com/sqliteai/waste",
+      "name": "microsoft/skill-recorder",
+      "description": "将任务录制为AI技能",
+      "language": "TypeScript",
+      "stars": 1797,
+      "starsToday": 350,
+      "forks": 181,
+      "url": "https://github.com/microsoft/skill-recorder",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-08-04",
-    "updatedAt": "2026-08-04T02:26:49.652Z",
+    "date": "2026-08-05",
+    "updatedAt": "2026-08-05T02:26:40.170Z",
     "highlights": [
-      "硬件开发与AI结合，Codex工具助力新硬件诞生",
-      "Palantir CEO对AI行业发表独到见解",
-      "GPT-Live发布实时音频新架构，AI应用再升级",
-      "Claude Code连接器扩展至Artifacts，工具互操作性增强",
-      "EA战略官探讨生成式AI在实时游戏中的应用"
+      "活人感写作技能发布",
+      "LLM 0.32版本更新",
+      "Replit智能设计生成",
+      "MiniMax-H3移植至Apple Silicon",
+      "Soup v0.72.4模型微调",
+      "OpenRouter推出统一多模态模型",
+      "SpecForge v0.3.0发布",
+      "GitHub堆叠式Pull Request拆解AI代码",
+      "Google Cloud API Gateway统一模型路由",
+      "Google Cloud Database Operations Agents"
     ],
     "keywords": [
-      "硬件开发",
-      "AI行业",
-      "实时音频",
-      "工具互操作性",
-      "实时游戏",
-      "智能体训练框架",
-      "欧盟人工智能法案",
-      "模型推理",
-      "AI评估",
-      "开源模型",
-      "多用户智能助手",
-      "代码助手",
-      "智能CRM",
-      "自我进化AI代理",
-      "文件传输",
-      "企业AI项目",
-      "AI编程代理",
-      "技能录制",
-      "嵌入式推理引擎"
+      "活人感写作",
+      "LLM",
+      "Replit",
+      "MiniMax-H3",
+      "Soup",
+      "OpenRouter",
+      "SpecForge",
+      "GitHub",
+      "Google Cloud",
+      "Database Operations Agents",
+      "个人AI助手",
+      "开源CRM",
+      "多用户代理工具",
+      "开源代码托管平台",
+      "FDE岗位",
+      "高性能C99模型",
+      "自改进AI代理",
+      "开源AI编程代理",
+      "多工具统一管理平台",
+      "技能录制"
     ],
-    "trendingSummary": "今日技术趋势聚焦于硬件与AI的结合、AI行业动态、实时音频技术、工具互操作性以及AI在游戏领域的应用。同时，开源项目和工具的发展持续推动行业进步，如智能体训练框架、AI模型评估工具等。"
+    "trendingSummary": "今日技术资讯聚焦于AI和开源工具的发展，包括活人感写作技能、LLM更新、智能设计生成等，同时GitHub热门项目涉及个人AI助手、开源CRM、多用户代理工具等多个领域，显示出AI和开源技术正日益成为技术发展的核心驱动力。"
   }
 }
