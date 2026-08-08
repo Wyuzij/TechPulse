@@ -1,255 +1,278 @@
 {
-  "date": "2026-08-07",
-  "updatedAt": "2026-08-07T02:36:59.398Z",
+  "date": "2026-08-08",
+  "updatedAt": "2026-08-08T01:27:59.425Z",
   "techNews": [
     {
-      "title": "千问功能上新：推出思考研究、定时任务、办公助理、语音通话等多项新功能，并支持 Qwen3.8-MAX",
-      "summary": "千问今日上线多项新功能，并支持最新旗舰模型 Qwen3.8-MAX。其中\"思考研究\"在原\"深度思考\"基础上升级，强化复杂推理与工具调用；\"定时任务\"可预设执行时间自动完成行业简报梳理等周期工作；\"办公助理\"能连接备忘录、日历等应用并操作电脑浏览器，直接输出可用的 Office 文档。语音通话支持 7x24 小时多场景，智能体广场首批覆盖物流、房产等十多个领域。",
-      "category": "AI",
-      "tags": [
-        "阿里",
-        "多模态"
-      ],
-      "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488266&idx=1&sn=3a1988ba0710abcefba9c9dd282b464e",
-      "source": "公众号：千问APP（阿里）",
-      "image": null,
-      "time": "2026-08-07T02:04:51.000Z",
-      "id": 1
-    },
-    {
-      "title": "OpenAI 优化 ChatGPT 中的 GPT-5.6 Sol，并扩大免费用户对 GPT-5.6 Luna 的访问权限",
-      "summary": "OpenAI 更新 ChatGPT：Plus 和 Pro 用户的 GPT-5.6 Sol 在事实准确性和回答聚焦度上有所提升，新增滑块可控制模型思考投入。免费用户默认模型升级为 GPT-5.6 Luna，并开放无限文本聊天，新增 Think 按钮以处理更复杂问题。",
-      "category": "AI",
-      "tags": [
-        "OpenAI"
-      ],
-      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "image": null,
-      "time": "2026-08-06T23:01:28.628Z",
-      "id": 2
-    },
-    {
-      "title": "GitHub Copilot 应用中的斜杠命令使用指南",
-      "summary": "GitHub Copilot 应用中的斜杠命令可帮助管理会话、导航项目和自定义 Copilot 工作流。与 CLI 版不同，应用版命令更侧重工作流，如 /plan 用于编码前规划、/spar 用于挑战方案假设、/autopilot 用于自动执行实现。/clear 和 /model 在 CLI 和应用中均可用。",
-      "category": "工具",
-      "tags": [
-        "编程",
-        "开源"
-      ],
-      "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app",
-      "source": "GitHub Blog",
-      "image": null,
-      "time": "2026-08-06T19:49:34.000Z",
-      "id": 3
-    },
-    {
-      "title": "科学家首次用AI制造新病毒",
-      "summary": "superebola/acc 🚀🚀🚀\n\n【引用 @nytimes】：突发新闻：科学家首次利用人工智能制造出新病毒，在为医学进步带来希望的同时，也引发了该技术有朝一日可能被用于制造危险病原体的担忧。https://nyti.ms/4bxx7Wy",
-      "category": "行业",
-      "tags": [
-        "industry"
-      ],
-      "url": "https://x.com/AISafetyMemes/status/2085447739320758622",
-      "source": "X：AI Safety Memes (@AISafetyMemes)",
-      "image": null,
-      "time": "2026-08-06T19:27:41.000Z",
-      "id": 4
-    },
-    {
-      "title": "Agent Plugins 1.0.0 发布：谷歌、亚马逊、微软等支持的统一智能体插件规范",
-      "summary": "Agent Plugins 1.0.0 是一项由谷歌、亚马逊、微软等支持的中立目录规范，将 Agent Skills 和 MCP 服务器打包为单一可移植单元。通过标准化 plugin.json 清单和固定目录布局，开发者无需为不同 AI 编码智能体和 IDE 维护单独封装。谷歌已作为核心维护者加入，并在 Agents CLI 和 Data Agent Kit 中提供支持。",
-      "category": "AI",
-      "tags": [
-        "Gemini",
-        "Agent"
-      ],
-      "url": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more",
-      "source": "Google Developers Blog（RSS）",
-      "image": null,
-      "time": "2026-08-06T16:53:12.298Z",
-      "id": 5
-    },
-    {
-      "title": "OpenAI 称苹果自身安全实践削弱其商业机密诉讼",
-      "summary": "OpenAI 在驳回苹果商业机密诉讼的动议中辩称，苹果允许员工用个人 iCloud 处理工作且离职后未正确撤销访问权限，相关信息不构成受法律保护的商业机密。OpenAI 还指苹果未指明具体被窃取的机密，并称其借诉讼阻碍竞争对手在 AI 硬件领域创新。",
+      "title": "OpenAI：因网络安全风险，延缓 Astra 模型发布",
+      "summary": "OpenAI 因内部与专家评估显示 Astra 在智能体编程和网络安全领域取得重大突破，依据《准备框架》将其列为旗下首个网络安全风险达\"关键\"级别的模型，决定延缓发布。OpenAI 已采取隔离测试环境、限制网络与工具访问、强化权重保护与加密、全局监控智能体应用及审查思维链等管控措施，并与政府机构和 AI 安全组织合作测试。CEO 萨姆·奥尔特曼表示 Astra 性能强劲，正全力推进公开发布。",
       "category": "行业",
       "tags": [
         "OpenAI",
         "安全"
       ],
-      "url": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case",
-      "source": "TechCrunch：AI（RSS）",
+      "url": "https://www.ithome.com/0/987/221.htm",
+      "source": "IT之家（RSS）",
       "image": null,
-      "time": "2026-08-06T15:10:32.000Z",
+      "time": "2026-08-07T23:08:56.000Z",
+      "id": 1
+    },
+    {
+      "title": "Claude Code 会话间可互发消息",
+      "summary": "Claude Code 新功能：你的会话现在可以互相发送消息了。\n\n无需在另一个会话中重新解释自己，你现在可以让 Claude 代为传达。它会发送一份摘要（而非你的历史记录或文件），另一个会话会在任务进行中接收该摘要。",
+      "category": "AI",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://x.com/ClaudeDevs/status/2085817074816070014",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "image": null,
+      "time": "2026-08-07T19:55:17.000Z",
+      "id": 2
+    },
+    {
+      "title": "Kitesurf：一款在 V8 隔离环境中运行的\"代理优先\"浏览器",
+      "summary": "Cloudflare 推出 Kitesurf，一款专为 AI 智能体设计的浏览器，完全运行在 Workers 上，基于 V8 隔离环境，现已在 Browser Run 中免费开放测试。",
+      "category": "AI",
+      "tags": [
+        "浏览器"
+      ],
+      "url": "https://blog.cloudflare.com/kitesurf",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "image": null,
+      "time": "2026-08-07T18:54:34.746Z",
+      "id": 3
+    },
+    {
+      "title": "OpenAI 将 Astra 列为首个\"关键\"网络安全模型",
+      "summary": "OpenAI 在评估其即将推出的模型 Astra 后，依据\"准备框架\"将其列为首个\"关键\"网络安全模型。OpenAI 表示已为此情景做好规划，并将实施额外控制措施以确保 Astra 后续开发的安全。该公司正努力让 Astra 广泛可用，并将其先进网络能力交到防御者手中。",
+      "category": "行业",
+      "tags": [
+        "OpenAI",
+        "安全"
+      ],
+      "url": "https://x.com/OpenAI/status/2085801349866729975",
+      "source": "X：OpenAI (@OpenAI)",
+      "image": null,
+      "time": "2026-08-07T18:52:48.000Z",
+      "id": 4
+    },
+    {
+      "title": "HPC-Ops × SGLang：腾讯混元开源高性能 Attention、Router GEMM 与 MoE 算子",
+      "summary": "腾讯混元开源算子库 HPC-Ops 已集成至 SGLang 主分支，其 Dynamic Attention 与 Fused MoE 在 Hy3 模型上最高降低 TPOT 48.8%。",
+      "category": "AI",
+      "tags": [
+        "腾讯",
+        "开源"
+      ],
+      "url": "https://www.lmsys.org/blog/2026-08-07-hpc-ops-sglang",
+      "source": "LMSYS：Blog（Chatbot Arena 团队）",
+      "image": null,
+      "time": "2026-08-07T17:51:24.888Z",
+      "id": 5
+    },
+    {
+      "title": "LangChain 推出 Managed Deep Agents 公开测试版",
+      "summary": "LangChain 的 Managed Deep Agents 进入公开测试版，可将 Deep Agents 部署到托管的 LangSmith 运行时。该服务提供持久化执行、记忆、沙箱、通道、评估（evals）及生产级基础设施。",
+      "category": "AI",
+      "tags": [
+        "Agent"
+      ],
+      "url": "https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta",
+      "source": "LangChain：Blog（RSS）",
+      "image": null,
+      "time": "2026-08-07T17:24:06.000Z",
       "id": 6
     },
     {
-      "title": "微软首次披露OpenAI贡献七成AI收入",
-      "summary": "微软刚刚首次披露，OpenAI 贡献了微软约 70% 的 AI 收入，依据最新文件。\n\n这一数据基于预期增长及此前与 OpenAI 相关收入的披露。\n\n241 亿美元中的大部分是 OpenAI 在微软数据中心训练和运行 ChatGPT 的云账单，再加上模型开发成本和 OpenAI 自身销售的分成，全部由微软合并计入收入。微软同时还向 OpenAI 投入了 119 亿美元。",
-      "category": "行业",
-      "tags": [
-        "OpenAI"
-      ],
-      "url": "https://x.com/rohanpaul_ai/status/2085368375816163423",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "image": null,
-      "time": "2026-08-06T14:12:19.000Z",
-      "id": 7
-    },
-    {
-      "title": "左右两派罕见达成一致：反对数据中心",
-      "summary": "The Verge 政策记者 Gaby Del Valle 报道，美国两党民众正联合反对 AI 数据中心建设，佛罗里达州 Hernando County 上月一致通过为期一年的建设禁令。抗议者担忧地下水污染、PFAS 及当地环境不适配，保守派组织 Humans First 成为核心力量。数据中心争议正打破传统党派界限，并可能影响中期选举政治格局。",
-      "category": "工具",
-      "tags": [
-        "tip"
-      ],
-      "url": "https://www.theverge.com/podcast/971855/ai-data-center-backlash-protests-florida-bipartisan",
-      "source": "The Verge：AI（RSS）",
-      "image": null,
-      "time": "2026-08-06T14:00:00.000Z",
-      "id": 8
-    },
-    {
-      "title": "Google 大规模 AI 组织调整背后的混乱政治",
-      "summary": "Google 宣布迄今最大规模 AI 组织调整：Demis Hassabis 卸任 DeepMind 日常管理以专注 AGI 研究，CTO Koray Kavukcuoglu 接任；27 年老将 Jeff Dean 与三位顶级研究员离职创办 AI 初创公司。内部员工认为调整源于产品提速压力、Hassabis 影响力下降及与美国国防部合作引发的伦理冲突。",
-      "category": "行业",
-      "tags": [
-        "Gemini"
-      ],
-      "url": "https://www.theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind",
-      "source": "The Verge：AI（RSS）",
-      "image": null,
-      "time": "2026-08-06T13:26:42.000Z",
-      "id": 9
-    },
-    {
-      "title": "千问全网首发公测，全新 Wan3.0 来了！",
-      "summary": "阿里千问全网首发公测视频生成模型 Wan3.0，在生成时长、镜头语言、角色真实感及一致性保持等维度全面升级。该模型支持稳定直出 30 秒一镜到底视频，具备导演级镜头与蒙太奇叙事，并强调角色、道具、场景高一致性保持。Wan3.0 主打超高性价比，现已在千问创作（c.qianwen.com）开放体验，千问 app 也将陆续开启。",
+      "title": "Suno移动端上线Voices功能",
+      "summary": "Voices 功能已在 Suno 移动应用 iOS 和 Android 版正式上线！📱✨\n\n现在你可以直接在手机上录制人声，并将其用于你的歌曲中。只需在创作界面点击\"+ Voice\"按钮，录制至少一分钟，然后让音乐流淌起来。（Pro 和 Premier 套餐可无限使用，免费套餐可体验有限版本！）\n\n打开应用，录制你的声音，并在评论区告诉我们你的使用体验！",
       "category": "AI",
       "tags": [
         "ai-products"
       ],
-      "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247488240&idx=1&sn=3fea5624e07184f42661d5f3bc798873",
-      "source": "公众号：千问APP（阿里）",
+      "url": "https://x.com/suno/status/2085731234970227145",
+      "source": "X：Suno (@suno)",
       "image": null,
-      "time": "2026-08-06T13:25:10.000Z",
+      "time": "2026-08-07T14:14:12.000Z",
+      "id": 7
+    },
+    {
+      "title": "斯坦福与 Arc Institute 用 AI 设计全新病毒基因组，16 种在实验室成功杀死细菌",
+      "summary": "斯坦福大学与 Arc Institute 团队用 AI 模型 Evo 从零设计完整病毒基因组，并在实验室构建出 16 种自然界不存在的功能性病毒。Evo 提出 70 万个候选基因组，团队仅筛选最有希望的 285 个序列合成并植入细菌，其中 16 个成功复制并杀死宿主。该研究已通过同行评审发表于《Science》，但 Evo 未接受人类病原体数据训练，且能否推广至其他病毒类群仍是未知数。",
+      "category": "AI",
+      "tags": [
+        "设计"
+      ],
+      "url": "https://the-decoder.com/stanford-and-arc-institute-scientists-used-ai-to-design-new-viruses-that-killed-bacteria-in-the-lab",
+      "source": "The Decoder：AI News（RSS）",
+      "image": null,
+      "time": "2026-08-07T12:50:56.000Z",
+      "id": 8
+    },
+    {
+      "title": "蚂蚁百灵开源 Ling-3.0-flash：124B 总参数 MoE 模型，支持 API、单机与高性能三种部署",
+      "summary": "蚂蚁百灵正式开源新一代原生混合推理模型 Ling-3.0-flash，采用 124B 总参数、5.1B 激活参数的 MoE 架构，并提供 FP8、FP4、INT4 等多个版本。",
+      "category": "AI",
+      "tags": [
+        "开源",
+        "API"
+      ],
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487457&idx=1&sn=24ad4a355d81291e53fbe680ca987112",
+      "source": "公众号：蚂蚁百灵（Ling）",
+      "image": null,
+      "time": "2026-08-07T12:02:16.000Z",
+      "id": 9
+    },
+    {
+      "title": "Runway 上线 Seedance 2.5，支持 50 个角色参考",
+      "summary": "Seedance 2.5 现已登陆 Runway。每次生成最多可引用 50 个角色参考，构建充满角色的完整世界；可创作最长 30 秒、带完整音效与对白的片段，再按你的故事需求随意剪辑与延展。\n\n点击下方链接立即开始。",
+      "category": "AI",
+      "tags": [
+        "ai-products"
+      ],
+      "url": "https://x.com/runwayml/status/2085684483366523193",
+      "source": "X：Runway (@runwayml)",
+      "image": null,
+      "time": "2026-08-07T11:08:25.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "firecrawl/anydoc",
-      "description": "快速Rust库，将文档转换为Markdown",
+      "description": "快速Rust库，将文档转换为Markdown格式",
       "language": "Rust",
-      "stars": 8654,
-      "starsToday": 3386,
-      "forks": 411,
+      "stars": 11052,
+      "starsToday": 2398,
+      "forks": 514,
       "url": "https://github.com/firecrawl/anydoc",
       "rank": 1
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "跨设备AI助手，集成多渠道",
-      "language": "TypeScript",
-      "stars": 385394,
-      "starsToday": 1511,
-      "forks": 81017,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "ultraworkers/claw-code",
+      "description": "Rust语言，基于螃蟹动力工具",
+      "language": "Rust",
+      "stars": 195005,
+      "starsToday": 1512,
+      "forks": 109261,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 2
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言支持，私有仓库服务",
-      "language": "JavaScript",
-      "stars": 238329,
-      "starsToday": 1186,
-      "forks": 36198,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "KKKKhazix/human-writing",
+      "description": "Python库，让模型文章更自然",
+      "language": "Python",
+      "stars": 1878,
+      "starsToday": 626,
+      "forks": 165,
+      "url": "https://github.com/KKKKhazix/human-writing",
       "rank": 3
     },
     {
-      "name": "trycompai/crm",
-      "description": "AI智能CRM，以代理为中心",
-      "language": "TypeScript",
-      "stars": 7220,
-      "starsToday": 867,
-      "forks": 753,
-      "url": "https://github.com/trycompai/crm",
+      "name": "NousResearch/hermes-agent",
+      "description": "自改进AI代理，跨会话学习",
+      "language": "Python",
+      "stars": 227097,
+      "starsToday": 459,
+      "forks": 44416,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 4
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自改进AI代理，内置学习循环",
-      "language": "Python",
-      "stars": 226638,
-      "starsToday": 533,
-      "forks": 44232,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "FareedKhan-dev/kimi-k3-in-c",
+      "description": "C语言，2.78万亿参数模型推理",
+      "language": "C",
+      "stars": 3301,
+      "starsToday": 447,
+      "forks": 540,
+      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
       "rank": 5
     },
     {
       "name": "anomalyco/opencode",
       "description": "开源AI编码代理，多语言支持",
       "language": "TypeScript",
-      "stars": 194355,
-      "starsToday": 496,
-      "forks": 24861,
+      "stars": 194777,
+      "starsToday": 422,
+      "forks": 24919,
       "url": "https://github.com/anomalyco/opencode",
       "rank": 6
     },
     {
-      "name": "thebuggeddev/anatomy",
-      "description": "全栈启动器，可选Cloudflare和Drizzle支持",
-      "language": "TypeScript",
-      "stars": 1873,
-      "starsToday": 468,
-      "forks": 535,
-      "url": "https://github.com/thebuggeddev/anatomy",
+      "name": "imsai-sh/zhuzhiliao",
+      "description": "HTML，模拟传统玩具",
+      "language": "HTML",
+      "stars": 2433,
+      "starsToday": 406,
+      "forks": 311,
+      "url": "https://github.com/imsai-sh/zhuzhiliao",
       "rank": 7
     },
     {
-      "name": "genspark-ai/genoffice",
-      "description": "AI原生办公套件，多应用共享引擎",
+      "name": "DannyMac180/sol-advisor",
+      "description": "TypeScript插件，配置化架构编排",
       "language": "TypeScript",
-      "stars": 2058,
-      "starsToday": 343,
-      "forks": 342,
-      "url": "https://github.com/genspark-ai/genoffice",
+      "stars": 1780,
+      "starsToday": 297,
+      "forks": 128,
+      "url": "https://github.com/DannyMac180/sol-advisor",
       "rank": 8
     },
     {
       "name": "farion1231/cc-switch",
-      "description": "Claude系列工具全平台管理器",
+      "description": "Rust库，管理多种AI工具",
       "language": "Rust",
-      "stars": 125175,
-      "starsToday": 341,
-      "forks": 8505,
+      "stars": 125464,
+      "starsToday": 289,
+      "forks": 8536,
       "url": "https://github.com/farion1231/cc-switch",
       "rank": 9
     },
     {
-      "name": "FareedKhan-dev/kimi-k3-in-c",
-      "description": "便携式C99模型，无需BLAS和框架",
-      "language": "C",
-      "stars": 2854,
-      "starsToday": 257,
-      "forks": 476,
-      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+      "name": "affaan-m/ECC",
+      "description": "JavaScript库，多语言支持",
+      "language": "JavaScript",
+      "stars": 238581,
+      "starsToday": 252,
+      "forks": 36230,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-08-07",
-    "updatedAt": "2026-08-07T02:36:59.398Z",
+    "date": "2026-08-08",
+    "updatedAt": "2026-08-08T01:27:59.425Z",
     "highlights": [
-      "千问功能上新，OpenAI优化ChatGPT，GitHub Copilot斜杠命令指南发布，AI制造新病毒，Agent Plugins发布，OpenAI与苹果安全实践，微软披露AI收入贡献，反对数据中心，Google AI组织调整，千问全网公测",
-      "火crawl/anydoc，openclaw/openclaw，affaan-m/ECC，trycompai/crm，NousResearch/hermes-agent，anomalyco/opencode，thebuggeddev/anatomy，genspark-ai/genoffice，farion1231/cc-switch，FareedKhan-dev/kimi-k3-in-c"
+      "OpenAI延缓Astra模型发布",
+      "Claude Code会话间消息功能",
+      "Kitesurf代理优先浏览器",
+      "Astra列为关键网络安全模型",
+      "腾讯开源高性能AI算子"
     ],
     "keywords": [
-      "千问，OpenAI，ChatGPT，GitHub Copilot，AI制造病毒，Agent Plugins，OpenAI与苹果，微软AI收入，数据中心，Google AI组织，千问公测",
-      "firecrawl/anydoc，openclaw/openclaw，affaan-m/ECC，trycompai/crm，NousResearch/hermes-agent，anomalyco/opencode，thebuggeddev/anatomy，genspark-ai/genoffice，farion1231/cc-switch，FareedKhan-dev/kimi-k3-in-c"
+      "OpenAI",
+      "Astra",
+      "Claude Code",
+      "Kitesurf",
+      "网络安全",
+      "AI算子",
+      "腾讯",
+      "开源",
+      "高性能",
+      "SGLang",
+      "LangChain",
+      "Suno",
+      "斯坦福",
+      "Arc Institute",
+      "蚂蚁百灵",
+      "Runway",
+      "GitHub",
+      "Markdown",
+      "Rust",
+      "Python",
+      "C",
+      "JavaScript"
     ],
-    "trendingSummary": "今日技术趋势集中在AI领域，特别是千问和OpenAI的产品更新，以及GitHub上AI相关项目的流行。同时，数据中心和安全实践也成为行业关注的焦点。"
+    "trendingSummary": "今日技术资讯显示，AI领域持续发展，OpenAI延缓Astra模型发布，同时多个AI项目如Claude Code和蚂蚁百灵开源新模型。网络安全和性能优化成为关键议题，腾讯和SGLang开源高性能AI算子，GitHub上Rust和Python库活跃。"
   }
 }
