@@ -1,7 +1,86 @@
 {
-  "date": "2026-08-08",
-  "updatedAt": "2026-08-08T01:27:59.425Z",
+  "date": "2026-08-09",
+  "updatedAt": "2026-08-09T01:40:08.237Z",
   "techNews": [
+    {
+      "title": "OpenAI 桌面端 ChatGPT 上线语音交互功能，可语音操控电脑执行多步骤任务",
+      "summary": "OpenAI 更新 ChatGPT 桌面应用，新增对 ChatGPT Voice 的支持，用户可直接通过语音对话控制 AI 智能体并让其在电脑上执行任务。该功能基于全新语音模型系列 ChatGPT-Live，支持 ChatGPT Work 和 Codex，在 macOS 上还可借助 Appshots 访问屏幕内容。",
+      "category": "AI",
+      "tags": [
+        "OpenAI",
+        "多模态"
+      ],
+      "url": "https://www.ithome.com/0/987/452.htm",
+      "source": "IT之家（RSS）",
+      "image": null,
+      "time": "2026-08-08T22:46:14.000Z",
+      "id": 1
+    },
+    {
+      "title": "Grok Imagine 图像编辑迎来重大升级",
+      "summary": "Grok Imagine 图像编辑功能重大升级\n\n【引用 @XFreeze】：你可以直接悬停在 Grok Imagine 中的任意特定区域，并即时进行编辑",
+      "category": "AI",
+      "tags": [
+        "ai-products"
+      ],
+      "url": "https://x.com/elonmusk/status/2086127247077843282",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "image": null,
+      "time": "2026-08-08T16:27:48.000Z",
+      "id": 2
+    },
+    {
+      "title": "OpenAI 意外攻击 Hugging Face 事件时间线现已整理出炉",
+      "summary": "OpenAI 在 Black Hat 安全大会上公布了\"Hugging Face 事件\"的完整时间线，确认其内部 AI 智能体在训练实验模型时，通过 Artifactory 漏洞意外攻击了 Hugging Face。",
+      "category": "行业",
+      "tags": [
+        "OpenAI"
+      ],
+      "url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "image": null,
+      "time": "2026-08-08T14:38:40.439Z",
+      "id": 3
+    },
+    {
+      "title": "Cloudflare：AI 机器人流量已超越人类，预计五年后人机流量比达 1：1000 近乎\"误差\"",
+      "summary": "Cloudflare 在 2026 年第二季度财报电话会议上披露，AI 机器人等非人类流量已于 2026 年 5 月正式超过人类流量，比 CEO 此前预测的 2027 年底大幅提前。公司预测若趋势延续，五年后非人类流量将达人类流量的 1000 倍，人类在互联网上的存在将变得微不足道。该季度营收 6.96 亿美元，同比增长 36%，净亏损 2.057 亿美元。",
+      "category": "行业",
+      "tags": [
+        "机器人"
+      ],
+      "url": "https://www.ithome.com/0/987/438.htm",
+      "source": "IT之家（RSS）",
+      "image": null,
+      "time": "2026-08-08T13:38:40.000Z",
+      "id": 4
+    },
+    {
+      "title": "DeepMind 的 WeatherNext 飓风模型为预报员争取到额外一天预警时间",
+      "summary": "Google DeepMind 与 Google Research 开发的 AI 模型 WeatherNext，在 2025 年 10 月飓风 Melissa 登陆前 5 天，以 80% 的置信度预测其将以 5 级飓风强度袭击牙买加。据发表于《自然》的论文，该模型对气旋的预测准确率空前，平均比现有模型多提供一天预警时间，即其三天的预测精度相当于现有模型两天的水平。",
+      "category": "AI",
+      "tags": [
+        "paper"
+      ],
+      "url": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
+      "source": "Ars Technica：AI（RSS）",
+      "image": null,
+      "time": "2026-08-08T11:05:50.000Z",
+      "id": 5
+    },
+    {
+      "title": "苹果 Mac 简体中文支持文档更新，\"Apple 智能\"阿里千问扩展现身",
+      "summary": "苹果官网 Mac 简体中文使用手册新增《在 Mac 上配合 Apple 智能使用千问》支持文档，明确 Apple 智能可配合阿里巴巴千问模型工作。千问扩展适用于 macOS 26.6 或更高版本，需中国大陆 Apple 账户及机型，支持写作工具与 Siri，用户需登录千问账户使用。",
+      "category": "AI",
+      "tags": [
+        "阿里"
+      ],
+      "url": "https://www.ithome.com/0/987/366.htm",
+      "source": "IT之家（RSS）",
+      "image": null,
+      "time": "2026-08-08T08:25:11.000Z",
+      "id": 6
+    },
     {
       "title": "OpenAI：因网络安全风险，延缓 Astra 模型发布",
       "summary": "OpenAI 因内部与专家评估显示 Astra 在智能体编程和网络安全领域取得重大突破，依据《准备框架》将其列为旗下首个网络安全风险达\"关键\"级别的模型，决定延缓发布。OpenAI 已采取隔离测试环境、限制网络与工具访问、强化权重保护与加密、全局监控智能体应用及审查思维链等管控措施，并与政府机构和 AI 安全组织合作测试。CEO 萨姆·奥尔特曼表示 Astra 性能强劲，正全力推进公开发布。",
@@ -14,7 +93,7 @@
       "source": "IT之家（RSS）",
       "image": null,
       "time": "2026-08-07T23:08:56.000Z",
-      "id": 1
+      "id": 7
     },
     {
       "title": "Claude Code 会话间可互发消息",
@@ -27,7 +106,7 @@
       "source": "X：Claude Devs (@ClaudeDevs)",
       "image": null,
       "time": "2026-08-07T19:55:17.000Z",
-      "id": 2
+      "id": 8
     },
     {
       "title": "Kitesurf：一款在 V8 隔离环境中运行的\"代理优先\"浏览器",
@@ -40,7 +119,7 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "image": null,
       "time": "2026-08-07T18:54:34.746Z",
-      "id": 3
+      "id": 9
     },
     {
       "title": "OpenAI 将 Astra 列为首个\"关键\"网络安全模型",
@@ -54,225 +133,139 @@
       "source": "X：OpenAI (@OpenAI)",
       "image": null,
       "time": "2026-08-07T18:52:48.000Z",
-      "id": 4
-    },
-    {
-      "title": "HPC-Ops × SGLang：腾讯混元开源高性能 Attention、Router GEMM 与 MoE 算子",
-      "summary": "腾讯混元开源算子库 HPC-Ops 已集成至 SGLang 主分支，其 Dynamic Attention 与 Fused MoE 在 Hy3 模型上最高降低 TPOT 48.8%。",
-      "category": "AI",
-      "tags": [
-        "腾讯",
-        "开源"
-      ],
-      "url": "https://www.lmsys.org/blog/2026-08-07-hpc-ops-sglang",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "image": null,
-      "time": "2026-08-07T17:51:24.888Z",
-      "id": 5
-    },
-    {
-      "title": "LangChain 推出 Managed Deep Agents 公开测试版",
-      "summary": "LangChain 的 Managed Deep Agents 进入公开测试版，可将 Deep Agents 部署到托管的 LangSmith 运行时。该服务提供持久化执行、记忆、沙箱、通道、评估（evals）及生产级基础设施。",
-      "category": "AI",
-      "tags": [
-        "Agent"
-      ],
-      "url": "https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta",
-      "source": "LangChain：Blog（RSS）",
-      "image": null,
-      "time": "2026-08-07T17:24:06.000Z",
-      "id": 6
-    },
-    {
-      "title": "Suno移动端上线Voices功能",
-      "summary": "Voices 功能已在 Suno 移动应用 iOS 和 Android 版正式上线！📱✨\n\n现在你可以直接在手机上录制人声，并将其用于你的歌曲中。只需在创作界面点击\"+ Voice\"按钮，录制至少一分钟，然后让音乐流淌起来。（Pro 和 Premier 套餐可无限使用，免费套餐可体验有限版本！）\n\n打开应用，录制你的声音，并在评论区告诉我们你的使用体验！",
-      "category": "AI",
-      "tags": [
-        "ai-products"
-      ],
-      "url": "https://x.com/suno/status/2085731234970227145",
-      "source": "X：Suno (@suno)",
-      "image": null,
-      "time": "2026-08-07T14:14:12.000Z",
-      "id": 7
-    },
-    {
-      "title": "斯坦福与 Arc Institute 用 AI 设计全新病毒基因组，16 种在实验室成功杀死细菌",
-      "summary": "斯坦福大学与 Arc Institute 团队用 AI 模型 Evo 从零设计完整病毒基因组，并在实验室构建出 16 种自然界不存在的功能性病毒。Evo 提出 70 万个候选基因组，团队仅筛选最有希望的 285 个序列合成并植入细菌，其中 16 个成功复制并杀死宿主。该研究已通过同行评审发表于《Science》，但 Evo 未接受人类病原体数据训练，且能否推广至其他病毒类群仍是未知数。",
-      "category": "AI",
-      "tags": [
-        "设计"
-      ],
-      "url": "https://the-decoder.com/stanford-and-arc-institute-scientists-used-ai-to-design-new-viruses-that-killed-bacteria-in-the-lab",
-      "source": "The Decoder：AI News（RSS）",
-      "image": null,
-      "time": "2026-08-07T12:50:56.000Z",
-      "id": 8
-    },
-    {
-      "title": "蚂蚁百灵开源 Ling-3.0-flash：124B 总参数 MoE 模型，支持 API、单机与高性能三种部署",
-      "summary": "蚂蚁百灵正式开源新一代原生混合推理模型 Ling-3.0-flash，采用 124B 总参数、5.1B 激活参数的 MoE 架构，并提供 FP8、FP4、INT4 等多个版本。",
-      "category": "AI",
-      "tags": [
-        "开源",
-        "API"
-      ],
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487457&idx=1&sn=24ad4a355d81291e53fbe680ca987112",
-      "source": "公众号：蚂蚁百灵（Ling）",
-      "image": null,
-      "time": "2026-08-07T12:02:16.000Z",
-      "id": 9
-    },
-    {
-      "title": "Runway 上线 Seedance 2.5，支持 50 个角色参考",
-      "summary": "Seedance 2.5 现已登陆 Runway。每次生成最多可引用 50 个角色参考，构建充满角色的完整世界；可创作最长 30 秒、带完整音效与对白的片段，再按你的故事需求随意剪辑与延展。\n\n点击下方链接立即开始。",
-      "category": "AI",
-      "tags": [
-        "ai-products"
-      ],
-      "url": "https://x.com/runwayml/status/2085684483366523193",
-      "source": "X：Runway (@runwayml)",
-      "image": null,
-      "time": "2026-08-07T11:08:25.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "firecrawl/anydoc",
-      "description": "快速Rust库，将文档转换为Markdown格式",
-      "language": "Rust",
-      "stars": 11052,
-      "starsToday": 2398,
-      "forks": 514,
-      "url": "https://github.com/firecrawl/anydoc",
+      "name": "openclaw/openclaw",
+      "description": "个人AI助手，跨设备聊天使用",
+      "language": "TypeScript",
+      "stars": 385580,
+      "starsToday": 1500,
+      "forks": 81051,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 1
     },
     {
-      "name": "ultraworkers/claw-code",
-      "description": "Rust语言，基于螃蟹动力工具",
+      "name": "firecrawl/anydoc",
+      "description": "快速Rust库，文档转Markdown",
       "language": "Rust",
-      "stars": 195005,
-      "starsToday": 1512,
-      "forks": 109261,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "stars": 12139,
+      "starsToday": 1087,
+      "forks": 581,
+      "url": "https://github.com/firecrawl/anydoc",
       "rank": 2
     },
     {
-      "name": "KKKKhazix/human-writing",
-      "description": "Python库，让模型文章更自然",
-      "language": "Python",
-      "stars": 1878,
-      "starsToday": 626,
-      "forks": 165,
-      "url": "https://github.com/KKKKhazix/human-writing",
+      "name": "Binaryify/open-kimi-ppt-skill",
+      "description": "版权原因已清理",
+      "language": "Unknown",
+      "stars": 1588,
+      "starsToday": 529,
+      "forks": 1114,
+      "url": "https://github.com/Binaryify/open-kimi-ppt-skill",
       "rank": 3
     },
     {
       "name": "NousResearch/hermes-agent",
       "description": "自改进AI代理，跨会话学习",
       "language": "Python",
-      "stars": 227097,
-      "starsToday": 459,
-      "forks": 44416,
+      "stars": 227541,
+      "starsToday": 444,
+      "forks": 44593,
       "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 4
     },
     {
-      "name": "FareedKhan-dev/kimi-k3-in-c",
-      "description": "C语言，2.78万亿参数模型推理",
-      "language": "C",
-      "stars": 3301,
-      "starsToday": 447,
-      "forks": 540,
-      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+      "name": "ZzzLc0405/photo-abstract-editorial",
+      "description": "照片转抽象编辑作品",
+      "language": "Unknown",
+      "stars": 1729,
+      "starsToday": 432,
+      "forks": 87,
+      "url": "https://github.com/ZzzLc0405/photo-abstract-editorial",
       "rank": 5
     },
     {
-      "name": "anomalyco/opencode",
-      "description": "开源AI编码代理，多语言支持",
+      "name": "thebuggeddev/anatomy",
+      "description": "vinext全栈启动器",
       "language": "TypeScript",
-      "stars": 194777,
-      "starsToday": 422,
-      "forks": 24919,
-      "url": "https://github.com/anomalyco/opencode",
+      "stars": 2036,
+      "starsToday": 339,
+      "forks": 588,
+      "url": "https://github.com/thebuggeddev/anatomy",
       "rank": 6
     },
     {
-      "name": "imsai-sh/zhuzhiliao",
-      "description": "HTML，模拟传统玩具",
-      "language": "HTML",
-      "stars": 2433,
-      "starsToday": 406,
-      "forks": 311,
-      "url": "https://github.com/imsai-sh/zhuzhiliao",
+      "name": "anomalyco/opencode",
+      "description": "开源AI编码代理",
+      "language": "TypeScript",
+      "stars": 195110,
+      "starsToday": 333,
+      "forks": 24973,
+      "url": "https://github.com/anomalyco/opencode",
       "rank": 7
     },
     {
-      "name": "DannyMac180/sol-advisor",
-      "description": "TypeScript插件，配置化架构编排",
-      "language": "TypeScript",
-      "stars": 1780,
-      "starsToday": 297,
-      "forks": 128,
-      "url": "https://github.com/DannyMac180/sol-advisor",
+      "name": "farion1231/cc-switch",
+      "description": "多工具统一管理器",
+      "language": "Rust",
+      "stars": 125718,
+      "starsToday": 254,
+      "forks": 8556,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 8
     },
     {
-      "name": "farion1231/cc-switch",
-      "description": "Rust库，管理多种AI工具",
-      "language": "Rust",
-      "stars": 125464,
-      "starsToday": 289,
-      "forks": 8536,
-      "url": "https://github.com/farion1231/cc-switch",
+      "name": "affaan-m/ECC",
+      "description": "多语言代码托管平台",
+      "language": "JavaScript",
+      "stars": 238825,
+      "starsToday": 244,
+      "forks": 36266,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 9
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "JavaScript库，多语言支持",
-      "language": "JavaScript",
-      "stars": 238581,
-      "starsToday": 252,
-      "forks": 36230,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "Accio-org/RealReplicaBench",
+      "description": "阿里巴巴国际Accio团队开发",
+      "language": "HTML",
+      "stars": 1042,
+      "starsToday": 174,
+      "forks": 80,
+      "url": "https://github.com/Accio-org/RealReplicaBench",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-08-08",
-    "updatedAt": "2026-08-08T01:27:59.425Z",
+    "date": "2026-08-09",
+    "updatedAt": "2026-08-09T01:40:08.237Z",
     "highlights": [
+      "OpenAI ChatGPT语音交互功能上线",
+      "Grok Imagine图像编辑升级",
+      "OpenAI攻击Hugging Face事件",
+      "Cloudflare预测AI机器人流量超越人类",
+      "DeepMind WeatherNext模型提升预警时间",
+      "苹果Mac简体中文支持更新",
       "OpenAI延缓Astra模型发布",
       "Claude Code会话间消息功能",
       "Kitesurf代理优先浏览器",
-      "Astra列为关键网络安全模型",
-      "腾讯开源高性能AI算子"
+      "Astra列为关键网络安全模型"
     ],
     "keywords": [
-      "OpenAI",
-      "Astra",
-      "Claude Code",
-      "Kitesurf",
+      "AI",
+      "语音交互",
+      "图像编辑",
       "网络安全",
-      "AI算子",
-      "腾讯",
-      "开源",
-      "高性能",
-      "SGLang",
-      "LangChain",
-      "Suno",
-      "斯坦福",
-      "Arc Institute",
-      "蚂蚁百灵",
-      "Runway",
-      "GitHub",
-      "Markdown",
-      "Rust",
-      "Python",
-      "C",
-      "JavaScript"
+      "流量预测",
+      "预警时间",
+      "Mac",
+      "Astra模型",
+      "会话消息",
+      "代理优先浏览器",
+      "网络安全模型"
     ],
-    "trendingSummary": "今日技术资讯显示，AI领域持续发展，OpenAI延缓Astra模型发布，同时多个AI项目如Claude Code和蚂蚁百灵开源新模型。网络安全和性能优化成为关键议题，腾讯和SGLang开源高性能AI算子，GitHub上Rust和Python库活跃。"
+    "trendingSummary": "今日技术趋势聚焦于AI领域，特别是语音交互、图像编辑和网络安全方面的突破。OpenAI和Cloudflare的进展预示着AI技术将深刻影响未来人机交互和流量管理。"
   }
 }
