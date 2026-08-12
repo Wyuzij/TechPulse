@@ -1,266 +1,267 @@
 {
-  "date": "2026-08-11",
-  "updatedAt": "2026-08-11T01:40:15.225Z",
+  "date": "2026-08-12",
+  "updatedAt": "2026-08-12T01:51:05.386Z",
   "techNews": [
     {
-      "title": "微信小微AI帮写与AI点评内测：朋友圈最后一点人味正在消失",
-      "summary": "微信基于小微推出朋友圈AI帮写与AI点评内测功能，前者可根据图片和已写文字生成3条朋友圈文案，后者可长按文字生成评价或快捷评论。作者认为这两个功能将AI置于社交核心位置，可能鼓励AI内容、破坏朋友圈自2012年确立的\"记录美好生活\"基调。公众号端小微还常驻首位，自动总结常看公众号文章，作者担忧这会反向影响创作者内容生产。",
+      "title": "零基础用户半天上手AI的12步实操流程",
+      "summary": "文章给出一套零基础用户半天上手AI的12步实操流程：准备内存不低于16G的电脑，订阅ChatGPT并安装Codex或使用WorkBuddy，用语音输入法以【背景、痛点、需求】框架向AI交代任务，经苏格拉底提问澄清需求后投喂文件让AI直接完成，最后沉淀为可复用Skill。文中建议Codex选GPT-5.6 Sol最高模型，WorkBuddy选Kimi K3。",
       "category": "工具",
       "tags": [
         "tip"
       ],
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685081&idx=1&sn=13a05578a3959c047209c8e74b56fa48",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685084&idx=1&sn=0899296dbc140eeb745f7a99f9d5ed9c",
       "source": "公众号：数字生命卡兹克",
       "image": null,
-      "time": "2026-08-11T00:12:00.000Z",
+      "time": "2026-08-12T00:08:00.000Z",
       "id": 1
     },
     {
-      "title": "Databricks 如何在兼顾治理的前提下让 Genie Agents 同时基于结构化数据与文档运行",
-      "summary": "Databricks 介绍如何让 Genie Agents 同时基于结构化数据与文档运行，且不牺牲治理能力。文章探讨了构建自动化简单业务任务的智能体虽易，但要在统一治理框架下融合两类数据源、确保安全合规地执行查询，仍需解决数据权限、血缘追踪与策略管控等关键问题。",
-      "category": "工具",
+      "title": "ChatGPT 与 Gemini 双双突破 10 亿用户",
+      "summary": "OpenAI 与 Google 的聊天机器人均跨过 10 亿用户门槛。OpenAI 在 8 月 6 日的博文中披露 ChatGPT 月活用户超 10 亿，Google CEO 皮查伊则宣布 Gemini 月活达 10 亿，成为其史上增长最快的产品。OpenAI 称 ChatGPT 在 7 月周活用户已达 10 亿，而 Gemini 在 2 月月活为 7.5 亿，增长势头更猛。",
+      "category": "行业",
       "tags": [
-        "Agent"
+        "OpenAI",
+        "Gemini"
       ],
-      "url": "https://www.databricks.com/blog/how-ground-genie-agents-both-structured-data-and-documents-without-losing-governance",
-      "source": "Databricks：Blog（RSS）",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
+      "source": "The Verge：AI（RSS）",
       "image": null,
-      "time": "2026-08-10T23:08:50.000Z",
+      "time": "2026-08-11T19:41:42.000Z",
       "id": 2
     },
     {
-      "title": "英伟达联合六大机构融资5000亿美元建AI工厂",
-      "summary": "英伟达宣布与Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs和KKR合作，建立独立融资平台，动员超5000亿美元第三方资本支持AI基础设施建设。",
-      "category": "行业",
+      "title": "Runway Seedance 2.5 上线，支持50角色参考",
+      "summary": "完整阵容，完整曲目，一次生成一个。\n\nSeedance 2.5 已在 Runway 上线，支持 50 个独特角色参考，以及最长 30 秒、与音乐同步的片段。点击下方链接即可开始使用。",
+      "category": "AI",
       "tags": [
-        "industry"
+        "ai-products"
       ],
-      "url": "https://x.com/JensenHuang/status/2086934705207959965",
-      "source": "X：Jensen Huang (@JensenHuang)",
+      "url": "https://x.com/runwayml/status/2087251184658657346",
+      "source": "X：Runway (@runwayml)",
       "image": null,
-      "time": "2026-08-10T21:56:21.000Z",
+      "time": "2026-08-11T18:53:56.000Z",
       "id": 3
     },
     {
-      "title": "Claude 未发布研究版将黎曼 zeta 函数零点下界从 41.6% 提升至 67.2%",
-      "summary": "Anthropic 员工让 Claude 尝试攻克黎曼猜想，虽未成功，但一个未发布的研究版 Claude 在相关问题上取得突破：将满足黎曼猜想的 zeta 函数零点比例下界从 41.6% 提升至 67.2%。",
-      "category": "AI",
+      "title": "将 GitHub Copilot 置于中间人（MitM）代理之后后，我学到了什么",
+      "summary": "作者通过 mitmproxy 对 VS Code 中的 GitHub Copilot 进行中间人代理拦截，逆向分析其网络流量与内部架构。文章指出这些 AI 应用普遍基于 Electron 构建，共享相似的网络栈，因此探测结果可迁移至其他同类应用。作者借此揭示了 Copilot 的运行时行为，并分享了配置代理的具体步骤。",
+      "category": "工具",
       "tags": [
-        "Claude"
+        "编程",
+        "开源"
       ],
-      "url": "https://www.anthropic.com/research/riemann-zeta",
-      "source": "Anthropic：Research（发表成果 · 网页）",
+      "url": "https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "image": null,
-      "time": "2026-08-10T17:46:50.781Z",
+      "time": "2026-08-11T18:32:57.961Z",
       "id": 4
     },
     {
-      "title": "Claude Code 自动模式默认开启原理",
-      "summary": "我们最近将自动模式设为 Claude Code 的默认选项，这意味着你不再需要批准每一个操作。\n\n但什么决定某个操作是否可以安全运行？看看它是如何工作的：",
+      "title": "ChatGPT 桌面端支持导入其他智能体工作数据",
+      "summary": "你现在可以将其他智能体的工作内容与 ChatGPT Work 和 Codex 保持同步。\n\n可导入项目、聊天记录、技能和插件，查看导入历史，并可在设置中选择开启自动更新。\n\n现已在 ChatGPT 桌面应用中提供。",
       "category": "AI",
       "tags": [
-        "Claude"
+        "OpenAI",
+        "Agent"
       ],
-      "url": "https://x.com/ClaudeDevs/status/2086844755770757531",
-      "source": "X：Claude Devs (@ClaudeDevs)",
+      "url": "https://x.com/OpenAIDevs/status/2087242829076791392",
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
       "image": null,
-      "time": "2026-08-10T15:58:56.000Z",
+      "time": "2026-08-11T18:20:44.000Z",
       "id": 5
     },
     {
-      "title": "tl；dv 逾18.1万段AI会议录音被公开暴露，可实时闯入他人通话",
-      "summary": "AI会议记录平台tl；dv的Firestore数据库因缺乏租户隔离，任何已认证用户可查询全部18.1万段会议记录，涉及84，312名用户、35，003个域名，含23国政府及多所高校会议。处于录制状态的约1，000场会议会暴露可加入的会议ID，研究者借此闯入马来西亚教育部及美国某大学创业团队的实时通话。该漏洞自2026年1月报告后6个月仍未修复，另有超1，000段会议内容为公开状态。",
+      "title": "研究人员发现可读取ChatGPT等模型加密推理过程的API漏洞",
+      "summary": "Alexander Panfilov团队发现OpenAI、Anthropic、Google等主要AI提供商API存在漏洞，可读取推理模型的加密思考过程。扫描约7000条公开会话发现62个API密钥、33个邮箱和33个密码。通过越狱，Anthropic的Haiku 4.5可逐字转写Opus 4.8的原始推理；解码10000条推理轨迹的API成本约720美元。",
+      "category": "行业",
+      "tags": [
+        "OpenAI",
+        "API",
+        "推理"
+      ],
+      "url": "https://the-decoder.com/but-marinade-and-leaked-passwords-are-what-researchers-found-in-chatgpts-hidden-reasoning",
+      "source": "The Decoder：AI News（RSS）",
+      "image": null,
+      "time": "2026-08-11T17:38:49.000Z",
+      "id": 6
+    },
+    {
+      "title": "Gemini月活破10亿，成谷歌增长最快产品",
+      "summary": "每月已有超过 10 亿人使用 @Geminiapp 激发新想法、完成工作。这是我们有史以来增长最快的产品，也是第 14 个达到 10 亿用户里程碑的产品。\n\n感谢 @JoshWoodward 和整个 Gemini 团队，也感谢每一位与我们同行的伙伴--未来还有更多精彩！",
+      "category": "行业",
+      "tags": [
+        "Gemini"
+      ],
+      "url": "https://x.com/sundarpichai/status/2087222656819241292",
+      "source": "X：Sundar Pichai (@sundarpichai)",
+      "image": null,
+      "time": "2026-08-11T17:00:34.000Z",
+      "id": 7
+    },
+    {
+      "title": "AMIE 研究医疗 AI 系统首次展示实时临床视频问诊能力",
+      "summary": "Google Research 与 Google DeepMind 推进医疗 AI 系统 AMIE，实现实时临床视频问诊，首次在此场景展示专家级 AI 能力。该系统基于 Gemini 和 Project Astra 构建，可解读视觉与听觉线索、引导虚拟体格检查并实时诊断推理。随机研究中，临床评估者对 AMIE 的病史采集、诊断准确性等核心能力给予好评，患者演员也更偏好视频体验。",
+      "category": "AI",
+      "tags": [
+        "paper"
+      ],
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations",
+      "source": "Google Blog：AI（RSS）",
+      "image": null,
+      "time": "2026-08-11T17:00:00.000Z",
+      "id": 8
+    },
+    {
+      "title": "Apple Silicon 与 macOS 虚拟机：借助 Llama.cpp 实现 11-16 倍的 LLM 推理加速",
+      "summary": "研究团队为 macOS 虚拟机中的 Metal 能力查询构建进程级兼容层，使 llama.cpp 能选用更新的 Metal 内核。在 M1 Ultra 上，TinyLlama 1.1B 的提示处理速度提升 11.08 倍、token 生成提升 16.36 倍，接近裸机性能的 98%；Gemma 4 12B 的提示处理与生成速度分别提升 7.20 倍和 14.54 倍。",
+      "category": "AI",
+      "tags": [
+        "Llama",
+        "推理"
+      ],
+      "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "image": null,
+      "time": "2026-08-11T16:41:17.281Z",
+      "id": 9
+    },
+    {
+      "title": "Ryan Greenblatt：人类级AI或于2032年前通过递归自我改进催生失控超级智能",
+      "summary": "Dwarkesh Patel与Redwood Research首席科学家Ryan Greenblatt探讨递归自我改进（RSI）的可能性：一旦AI达到人类顶级专家水平，可能在一年内实现相当于4-5年的AI进展，Ryan的中位预期是2031年自动化AI研发。双方还讨论了超级智能的对齐对象、奖励黑客行为是否会升级为AI联手接管世界等风险。",
       "category": "工具",
       "tags": [
         "tip"
       ],
-      "url": "https://bobdahacker.com/blog/tldv-hack",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "url": "https://www.dwarkesh.com/p/ryan-greenblatt",
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
       "image": null,
-      "time": "2026-08-10T14:03:26.804Z",
-      "id": 6
-    },
-    {
-      "title": "智能体真的会用电脑吗？a16z 用数据给出答案",
-      "summary": "a16z 数据显示，计算机操作智能体在 OSWorld-Verified 基准上的最佳成绩已从一年前的 42% 升至 85%，超过人类测试者约 72% 的水平，Claude Fable 5 以 85% 领先。",
-      "category": "工具",
-      "tags": [
-        "Agent"
-      ],
-      "url": "https://www.a16z.news/p/can-agents-use-a-computer-yet-weve",
-      "source": "a16z：News（RSS）",
-      "image": null,
-      "time": "2026-08-10T14:00:46.000Z",
-      "id": 7
-    },
-    {
-      "title": "SGLang 为 Muse Glimmer 提供 Day-0 支持，针对本地智能体工作流优化推理",
-      "summary": "SGLang 与 Meta Superintelligence Labs 合作，为 30B 参数多模态模型 Muse Glimmer 提供 Day-0 支持，该模型拥有 128k+ token 上下文窗口。",
-      "category": "AI",
-      "tags": [
-        "Agent",
-        "推理"
-      ],
-      "url": "https://www.lmsys.org/blog/2026-08-10-meta-muse-glimmer",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "image": null,
-      "time": "2026-08-10T11:51:38.747Z",
-      "id": 8
-    },
-    {
-      "title": "Meta 发布开源模型 Muse Glimmer",
-      "summary": "推出 Muse Glimmer，一款开放权重、300 亿参数的模型，专为本地、常驻运行的智能体工作流优化。\n\n与同尺寸领先模型相比，Muse Glimmer 在关键智能体用例和基准测试中表现出色，并设计为完全在消费级硬件（如 Mac 或配备高性能 GPU 的 PC）上运行。\n\n秉承我们长期分享基础 AI 研究的传统，我们以宽松的 Apache 2.0 许可证发布模型权重。",
-      "category": "AI",
-      "tags": [
-        "Llama",
-        "开源"
-      ],
-      "url": "https://x.com/AIatMeta/status/2086757844544811485",
-      "source": "X：AI at Meta (@AIatMeta)",
-      "image": null,
-      "time": "2026-08-10T10:13:34.000Z",
-      "id": 9
-    },
-    {
-      "title": "Scale AI 开源 Muse 系列模型",
-      "summary": "1/ 今天有个重大消息：我们很快将发布 Muse Spark 1.2 的开源权重版本。\n\n同时，我们还将发布 Muse Glimmer--一个 30B 参数的智能体模型，采用 Apache 2.0 协议开源权重。Muse Glimmer 可在 24GB 显存上运行，且不损失智能体可靠性。🧵",
-      "category": "AI",
-      "tags": [
-        "开源"
-      ],
-      "url": "https://x.com/alexandr_wang/status/2086756152034066792",
-      "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
-      "image": null,
-      "time": "2026-08-10T10:06:51.000Z",
+      "time": "2026-08-11T16:31:23.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "openclaw/openclaw",
-      "description": "设备端AI助手，跨平台聊天",
-      "language": "TypeScript",
-      "stars": 385829,
-      "starsToday": 1490,
-      "forks": 81088,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "ultraworkers/claw-code",
+      "description": "Rust语言，基于真实蟹力装备的代码工具",
+      "language": "Rust",
+      "stars": 195047,
+      "starsToday": 1467,
+      "forks": 109200,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 1
     },
     {
-      "name": "obra/superpowers",
-      "description": "赋予AI编程能力，构建智能代理",
-      "language": "Shell",
-      "stars": 270252,
-      "starsToday": 886,
-      "forks": 24158,
-      "url": "https://github.com/obra/superpowers",
+      "name": "SMNETSTUDIO/WeChat-AI",
+      "description": "自托管微信对话服务，直连腾讯iLink",
+      "language": "TypeScript",
+      "stars": 1433,
+      "starsToday": 1433,
+      "forks": 1059,
+      "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
       "rank": 2
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自学习AI代理，跨会话知识积累",
-      "language": "Python",
-      "stars": 228483,
-      "starsToday": 528,
-      "forks": 44949,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "JuliusBrussee/caveman",
+      "description": "Go语言，减少输入token，提升AI效率",
+      "language": "Go",
+      "stars": 97529,
+      "starsToday": 756,
+      "forks": 5623,
+      "url": "https://github.com/JuliusBrussee/caveman",
       "rank": 3
     },
     {
-      "name": "ShawnPana/phone-harness",
-      "description": "无需越狱，直接连接iPhone",
-      "language": "Python",
-      "stars": 1327,
-      "starsToday": 448,
-      "forks": 104,
-      "url": "https://github.com/ShawnPana/phone-harness",
+      "name": "antirez/h3.c",
+      "description": "C语言，Apple Silicon原生MiniMax-H3推理",
+      "language": "C",
+      "stars": 1263,
+      "starsToday": 632,
+      "forks": 60,
+      "url": "https://github.com/antirez/h3.c",
       "rank": 4
     },
     {
-      "name": "oil-oil/oil-motion",
-      "description": "通用交互动画技能，接入多种交互",
+      "name": "NousResearch/hermes-agent",
+      "description": "Python语言，自改进AI代理，内置学习循环",
       "language": "Python",
-      "stars": 1207,
-      "starsToday": 402,
-      "forks": 102,
-      "url": "https://github.com/oil-oil/oil-motion",
+      "stars": 229053,
+      "starsToday": 570,
+      "forks": 45143,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 5
     },
     {
       "name": "anomalyco/opencode",
-      "description": "开源AI编程代理，多语言支持",
+      "description": "开源AI编码代理，多语言支持",
       "language": "TypeScript",
-      "stars": 195828,
-      "starsToday": 386,
-      "forks": 25115,
+      "stars": 196248,
+      "starsToday": 420,
+      "forks": 25190,
       "url": "https://github.com/anomalyco/opencode",
       "rank": 6
     },
     {
-      "name": "Binaryify/open-kimi-ppt-skill",
-      "description": "因版权原因已清理",
-      "language": "Unknown",
-      "stars": 1606,
-      "starsToday": 321,
-      "forks": 1182,
-      "url": "https://github.com/Binaryify/open-kimi-ppt-skill",
+      "name": "KKKKhazix/human-writing",
+      "description": "Python语言，让模型写作更像真人",
+      "language": "Python",
+      "stars": 2410,
+      "starsToday": 344,
+      "forks": 207,
+      "url": "https://github.com/KKKKhazix/human-writing",
       "rank": 7
     },
     {
-      "name": "ZzzLc0405/photo-abstract-editorial",
-      "description": "个人、教育及非商业用途免费",
-      "language": "Unknown",
-      "stars": 2259,
-      "starsToday": 295,
-      "forks": 114,
-      "url": "https://github.com/ZzzLc0405/photo-abstract-editorial",
+      "name": "oil-oil/oil-motion",
+      "description": "Python语言，通用交互动画技能",
+      "language": "Python",
+      "stars": 1485,
+      "starsToday": 278,
+      "forks": 117,
+      "url": "https://github.com/oil-oil/oil-motion",
       "rank": 8
     },
     {
       "name": "farion1231/cc-switch",
-      "description": "Claude Code等工具统一管理器",
+      "description": "Rust语言，Claude Code全功能管理器",
       "language": "Rust",
-      "stars": 126222,
-      "starsToday": 270,
-      "forks": 8595,
+      "stars": 126483,
+      "starsToday": 261,
+      "forks": 8622,
       "url": "https://github.com/farion1231/cc-switch",
       "rank": 9
     },
     {
       "name": "affaan-m/ECC",
-      "description": "免费安装，私有仓库服务",
+      "description": "JavaScript语言，Claude Code命令行工具",
       "language": "JavaScript",
-      "stars": 239255,
-      "starsToday": 226,
-      "forks": 36329,
+      "stars": 239490,
+      "starsToday": 235,
+      "forks": 36359,
       "url": "https://github.com/affaan-m/ECC",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-08-11",
-    "updatedAt": "2026-08-11T01:40:15.225Z",
+    "date": "2026-08-12",
+    "updatedAt": "2026-08-12T01:51:05.386Z",
     "highlights": [
-      "微信AI内测影响人味”，“Databricks Genie Agents结构化数据与文档运行”，“英伟达AI工厂建设”，“Claude黎曼zeta函数零点研究”，“AI会议录音公开泄露”，“智能体电脑使用研究”，“SGLang Muse Glimmer支持”，“Meta开源Muse Glimmer”，“Scale AI开源Muse模型”，“openclaw设备端AI助手”，“obra超级代理AI编程能力”，“NousResearch跨会话AI代理”，“ShawnPana直接连接iPhone”，“oil-motion交互动画技能”，“opencode开源AI编程代理”，“cc-switch Claude Code管理器”，“ECC私有仓库服务"
+      "AI易用性提升，ChatGPT和Gemini用户突破10亿，Runway Seedance更新，GitHub工具和项目活跃",
+      "GitHub Copilot安全讨论，ChatGPT功能增强，AI模型安全漏洞发现，AI医疗应用展示",
+      "Apple Silicon性能优化，AI推理加速，AI失控风险讨论",
+      "热门GitHub项目涉及Rust、Go、Python、C语言，涵盖AI编码、微信服务、动画技能等领域"
     ],
     "keywords": [
-      "AI助手",
-      "Genie Agents",
-      "AI工厂",
-      "黎曼zeta函数",
-      "AI会议录音",
-      "智能体",
-      "Muse Glimmer",
-      "开源模型",
-      "设备端AI",
-      "AI编程",
-      "跨会话AI代理",
-      "iPhone连接",
-      "交互动画",
-      "AI编程代理",
-      "工具管理器",
-      "私有仓库"
+      "AI易用性",
+      "ChatGPT",
+      "用户增长",
+      "AI模型安全",
+      "医疗AI",
+      "Apple Silicon",
+      "AI推理加速",
+      "GitHub项目",
+      "AI编码",
+      "微信服务"
     ],
-    "trendingSummary": "今日技术资讯显示，AI助手和编程工具发展迅速，英伟达AI工厂建设、Claude研究进展等表明AI技术不断突破，同时，AI工具的潜在风险如会议录音泄露等问题亦需关注。"
+    "trendingSummary": "今日技术趋势集中在AI易用性提升、用户增长、模型安全和医疗AI应用。GitHub项目活跃，涵盖多种编程语言和AI领域。"
   }
 }
