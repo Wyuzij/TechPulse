@@ -1,19 +1,32 @@
 {
-  "date": "2026-08-15",
-  "updatedAt": "2026-08-15T01:10:04.816Z",
+  "date": "2026-08-16",
+  "updatedAt": "2026-08-16T01:14:18.034Z",
   "techNews": [
     {
-      "title": "Claude 文本水印机制如何运作",
-      "summary": "未来 Claude 模型生成的文本将包含水印，用于判断文本由 Claude 撰写的可能性，这是 Anthropic 为遵守欧盟《AI 法案》而实施的变更。该方法基于 Google DeepMind 的 SynthID-Text 技术，对输出质量、创造力和可读性无实际影响，读者无法区分水印文本与普通文本，且不增加额外 token 或成本。",
+      "title": "Cursor 正式被 SpaceX 收购",
+      "summary": "Cursor 已被 SpaceX 正式收购，完成自 4 月启动的收购流程。借助 SpaceX 全球最大规模的 GPU 集群，Cursor 将构建更强且运行成本更低的模型，并以更低价格向客户提供更强大的模型。本周三发布的 Grok 4.6 是双方合作成果的早期体现。",
       "category": "行业",
       "tags": [
-        "Claude"
+        "industry"
       ],
-      "url": "https://www.anthropic.com/news/claude-text-watermark",
-      "source": "Anthropic：Newsroom（网页）",
+      "url": "https://cursor.com/blog/joining-spacex",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "image": null,
-      "time": "2026-08-14T19:22:48.546Z",
+      "time": "2026-08-15T20:05:54.703Z",
       "id": 1
+    },
+    {
+      "title": "AI生成书籍正淹没亚马逊，并拉低人类作者的单书收入",
+      "summary": "一项对14，419本自出版电子书的分析显示，AI生成书籍正以数量而非质量挤占人类作者市场，即便未检测到AI文本的书籍，单书收入也在下滑。2023年Q1至2026年Q1，书目总量增长38.3倍，而季度收入仅增长8.9倍；在八个类型中，七个类型的无AI文本书籍单书收入下降。",
+      "category": "AI",
+      "tags": [
+        "paper"
+      ],
+      "url": "https://the-decoder.com/ai-generated-books-are-flooding-amazon-and-tanking-sales-for-human-authors",
+      "source": "The Decoder：AI News（RSS）",
+      "image": null,
+      "time": "2026-08-15T11:00:50.000Z",
+      "id": 2
     },
     {
       "title": "Gemini 3.7 Flash 全面上线 Pro 与 Ultra 用户",
@@ -26,7 +39,7 @@
       "source": "X：Gemini (@GeminiApp)",
       "image": null,
       "time": "2026-08-14T18:06:29.000Z",
-      "id": 2
+      "id": 3
     },
     {
       "title": "通义千问开源 Qwen3.8 系列模型",
@@ -40,7 +53,7 @@
       "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
       "image": null,
       "time": "2026-08-14T15:02:48.000Z",
-      "id": 3
+      "id": 4
     },
     {
       "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
@@ -54,7 +67,7 @@
       "source": "Ars Technica：AI（RSS）",
       "image": null,
       "time": "2026-08-14T14:27:14.000Z",
-      "id": 4
+      "id": 5
     },
     {
       "title": "Cursor 正式被 SpaceX 收购",
@@ -67,7 +80,7 @@
       "source": "Cursor Blog",
       "image": null,
       "time": "2026-08-14T12:00:00.000Z",
-      "id": 5
+      "id": 6
     },
     {
       "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
@@ -82,7 +95,7 @@
       "source": "公众号：小红书技术（dots.llm）",
       "image": null,
       "time": "2026-08-14T11:25:29.000Z",
-      "id": 6
+      "id": 7
     },
     {
       "title": "GLM-5.3 发布：编程能力开源第一，并涌现网络安全能力",
@@ -97,7 +110,7 @@
       "source": "公众号：智谱（GLM）",
       "image": null,
       "time": "2026-08-14T05:31:04.000Z",
-      "id": 7
+      "id": 8
     },
     {
       "title": "DeepSeek V4 Pro 登陆硅基流动，1M 上下文",
@@ -110,7 +123,7 @@
       "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
       "image": null,
       "time": "2026-08-14T04:55:56.000Z",
-      "id": 8
+      "id": 9
     },
     {
       "title": "蚂蚁百灵与 ASystem 团队打通单机 Agentic RL 后训练闭环",
@@ -123,155 +136,140 @@
       "source": "公众号：蚂蚁百灵（Ling）",
       "image": null,
       "time": "2026-08-14T04:00:00.000Z",
-      "id": 9
-    },
-    {
-      "title": "2026年夏季开源模型生态观察：中国前沿模型规模领先，AMD与NVIDIA主导发布量",
-      "summary": "2026年1至8月，Hugging Face公开模型仓库从243万增至296万，但85.6%的模型下载量不足200次，1.5%的仓库占据99.2%下载量。中国实验室月度最大开源模型参数规模在754B至2.78万亿之间，美国实验室七个月中五个月低于130B。AMD与NVIDIA各发布超200个新模型仓库，成为发布开源模型最多的机构。",
-      "category": "工具",
-      "tags": [
-        "Llama",
-        "开源",
-        "算力"
-      ],
-      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "source": "Hugging Face：Blog（RSS）",
-      "image": null,
-      "time": "2026-08-14T00:00:00.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "deepseek-ai/deepseek-harness",
-      "description": "基于插件架构的AI工具集，支持时空组合",
+      "description": "开源插件式智能体工具包，支持时空组合",
       "language": "TypeScript",
-      "stars": 96059,
-      "starsToday": 42957,
-      "forks": 8920,
+      "stars": 115673,
+      "starsToday": 19614,
+      "forks": 11294,
       "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 1
     },
     {
-      "name": "guillaumemeyer/watermarks-remover",
-      "description": "AI去水印工具，保护隐私内容",
-      "language": "Python",
-      "stars": 8200,
-      "starsToday": 2716,
-      "forks": 854,
-      "url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "name": "anywhere-labs/deepseek-harness-desktop",
+      "description": "DeepSeek Harness 桌面端插件，原生桌面体验",
+      "language": "TypeScript",
+      "stars": 5940,
+      "starsToday": 3982,
+      "forks": 253,
+      "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
       "rank": 2
     },
     {
-      "name": "anywhere-labs/deepseek-harness-desktop",
-      "description": "DeepSeek Harness桌面端，一键启动Web UI",
-      "language": "TypeScript",
-      "stars": 1958,
-      "starsToday": 1958,
-      "forks": 105,
-      "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
+      "name": "xiaobright/dsh-anchored-standard",
+      "description": "实验性 DeepSeek Harness 智能体预设，锚定最小条件",
+      "language": "JavaScript",
+      "stars": 2197,
+      "starsToday": 2197,
+      "forks": 69,
+      "url": "https://github.com/xiaobright/dsh-anchored-standard",
       "rank": 3
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "跨设备AI助手，集成多平台",
-      "language": "TypeScript",
-      "stars": 386311,
-      "starsToday": 1469,
-      "forks": 81198,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "guillaumemeyer/watermarks-remover",
+      "description": "移除文本和文件中的 AI 标记，保护隐私",
+      "language": "Python",
+      "stars": 9757,
+      "starsToday": 1557,
+      "forks": 1006,
+      "url": "https://github.com/guillaumemeyer/watermarks-remover",
       "rank": 4
     },
     {
-      "name": "zhu1090093659/dsh-web-ui",
-      "description": "DeepSeek Harness Web UI插件，任务管理看板",
-      "language": "TypeScript",
-      "stars": 1954,
-      "starsToday": 977,
-      "forks": 98,
-      "url": "https://github.com/zhu1090093659/dsh-web-ui",
+      "name": "awesome-dsh-plugin/awesome-dsh-plugin",
+      "description": "DeepSeek Harness 插件集合，支持插件化构建",
+      "language": "Python",
+      "stars": 3011,
+      "starsToday": 1506,
+      "forks": 609,
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
       "rank": 5
     },
     {
-      "name": "obra/superpowers",
-      "description": "AI编程助手开发方法论，支持技能组合",
-      "language": "Shell",
-      "stars": 272187,
-      "starsToday": 881,
-      "forks": 24340,
-      "url": "https://github.com/obra/superpowers",
+      "name": "ultraworkers/claw-code",
+      "description": "基于螃蟹动力工具包的代码",
+      "language": "Rust",
+      "stars": 195053,
+      "starsToday": 1424,
+      "forks": 109112,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 6
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自学习AI助手，持续优化技能",
-      "language": "Python",
-      "stars": 230647,
-      "starsToday": 491,
-      "forks": 45728,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "affaan-m/ECC",
+      "description": "多语言命令行工具",
+      "language": "JavaScript",
+      "stars": 240303,
+      "starsToday": 1144,
+      "forks": 36463,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 7
     },
     {
-      "name": "anomalyco/opencode",
-      "description": "开源AI编程助手，多语言支持",
+      "name": "zhu1090093659/dsh-web-ui",
+      "description": "DeepSeek Harness Web UI 插件与皮肤集合",
       "language": "TypeScript",
-      "stars": 197515,
-      "starsToday": 385,
-      "forks": 25414,
-      "url": "https://github.com/anomalyco/opencode",
+      "stars": 2722,
+      "starsToday": 768,
+      "forks": 152,
+      "url": "https://github.com/zhu1090093659/dsh-web-ui",
       "rank": 8
     },
     {
-      "name": "antirez/h3.c",
-      "description": "Apple Silicon原生MiniMax-H3推理",
-      "language": "C",
-      "stars": 1851,
-      "starsToday": 370,
-      "forks": 122,
-      "url": "https://github.com/antirez/h3.c",
+      "name": "JuliusBrussee/caveman",
+      "description": "减少智能体输入，提高效率",
+      "language": "Go",
+      "stars": 98404,
+      "starsToday": 740,
+      "forks": 5687,
+      "url": "https://github.com/JuliusBrussee/caveman",
       "rank": 9
     },
     {
-      "name": "farion1231/cc-switch",
-      "description": "Claude系列工具全平台管理器",
-      "language": "Rust",
-      "stars": 127272,
-      "starsToday": 233,
-      "forks": 8685,
-      "url": "https://github.com/farion1231/cc-switch",
+      "name": "NousResearch/hermes-agent",
+      "description": "自改进 AI 智能体，内置学习循环",
+      "language": "Python",
+      "stars": 231089,
+      "starsToday": 442,
+      "forks": 45898,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-08-15",
-    "updatedAt": "2026-08-15T01:10:04.816Z",
+    "date": "2026-08-16",
+    "updatedAt": "2026-08-16T01:14:18.034Z",
     "highlights": [
-      "Claude 文本水印机制发布",
-      "Gemini 3.7 Flash 全面上线",
-      "通义千问开源Qwen3.8模型",
-      "OpenAI和Anthropic价格战",
       "Cursor 被SpaceX收购",
+      "AI生成书籍影响作者收入",
+      "Gemini 3.7 Flash全面上线",
+      "通义千问开源Qwen3.8系列模型",
+      "OpenAI与Anthropic价格战",
       "dots3-note Preview开源",
       "GLM-5.3发布",
       "DeepSeek V4 Pro登陆硅基流动",
-      "蚂蚁百灵与ASystem团队合作",
-      "2026年夏季开源模型生态观察"
+      "蚂蚁百灵与ASystem团队打通单机Agentic RL后训练闭环"
     ],
     "keywords": [
-      "文本水印",
+      "Cursor",
+      "SpaceX",
+      "AI生成书籍",
       "Gemini",
       "通义千问",
-      "价格战",
-      "Cursor",
+      "OpenAI",
+      "Anthropic",
       "dots3-note",
       "GLM",
       "DeepSeek",
       "蚂蚁百灵",
-      "开源模型",
-      "AMD",
-      "NVIDIA"
+      "ASystem",
+      "Agentic RL"
     ],
-    "trendingSummary": "AI领域持续活跃，文本水印、开源模型、价格战等成为热点。技术巨头争相推出新产品和开源项目，行业竞争加剧。"
+    "trendingSummary": "今日技术资讯显示，AI领域持续发展，AI生成书籍对传统出版业产生影响，同时AI技术应用于更多领域，如编程、网络安全等。GitHub热门项目集中在智能体工具包和AI应用开发。"
   }
 }
