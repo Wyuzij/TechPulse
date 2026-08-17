@@ -1,7 +1,34 @@
 {
-  "date": "2026-08-16",
-  "updatedAt": "2026-08-16T01:14:18.034Z",
+  "date": "2026-08-17",
+  "updatedAt": "2026-08-17T01:11:51.872Z",
   "techNews": [
+    {
+      "title": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考",
+      "summary": "阿里 Qwen 实验室发布 Apache 2 许可的 27B 参数视觉大模型 Qwen 3.8 27B，官方基准显示其超越前代 Qwen 3.6 27B 及闭源 Qwen 3.7-Plus。",
+      "category": "工具",
+      "tags": [
+        "阿里",
+        "推理"
+      ],
+      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
+      "source": "Simon Willison 博客",
+      "image": null,
+      "time": "2026-08-16T22:00:39.000Z",
+      "id": 1
+    },
+    {
+      "title": "新兴多智能体系统的模式与问题",
+      "summary": "随着AI智能体在共享代码库、市场等社会系统中承担更多任务，智能体间的真实交互将激增，其交互量可能超过人机交互。Anthropic实验显示，协调式智能体群在2700万token运行中发现266个漏洞，远超独立并行方法的21个，但两者互补性明显。智能体虽擅长工具使用，但在长期协作与协调方面仍面临挑战。",
+      "category": "AI",
+      "tags": [
+        "Agent"
+      ],
+      "url": "https://www.anthropic.com/research/multiagent-systems",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "image": null,
+      "time": "2026-08-16T11:17:57.393Z",
+      "id": 2
+    },
     {
       "title": "Cursor 正式被 SpaceX 收购",
       "summary": "Cursor 已被 SpaceX 正式收购，完成自 4 月启动的收购流程。借助 SpaceX 全球最大规模的 GPU 集群，Cursor 将构建更强且运行成本更低的模型，并以更低价格向客户提供更强大的模型。本周三发布的 Grok 4.6 是双方合作成果的早期体现。",
@@ -13,7 +40,7 @@
       "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "image": null,
       "time": "2026-08-15T20:05:54.703Z",
-      "id": 1
+      "id": 3
     },
     {
       "title": "AI生成书籍正淹没亚马逊，并拉低人类作者的单书收入",
@@ -26,7 +53,7 @@
       "source": "The Decoder：AI News（RSS）",
       "image": null,
       "time": "2026-08-15T11:00:50.000Z",
-      "id": 2
+      "id": 4
     },
     {
       "title": "Gemini 3.7 Flash 全面上线 Pro 与 Ultra 用户",
@@ -39,7 +66,7 @@
       "source": "X：Gemini (@GeminiApp)",
       "image": null,
       "time": "2026-08-14T18:06:29.000Z",
-      "id": 3
+      "id": 5
     },
     {
       "title": "通义千问开源 Qwen3.8 系列模型",
@@ -53,7 +80,7 @@
       "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
       "image": null,
       "time": "2026-08-14T15:02:48.000Z",
-      "id": 4
+      "id": 6
     },
     {
       "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
@@ -67,7 +94,7 @@
       "source": "Ars Technica：AI（RSS）",
       "image": null,
       "time": "2026-08-14T14:27:14.000Z",
-      "id": 5
+      "id": 7
     },
     {
       "title": "Cursor 正式被 SpaceX 收购",
@@ -80,7 +107,7 @@
       "source": "Cursor Blog",
       "image": null,
       "time": "2026-08-14T12:00:00.000Z",
-      "id": 6
+      "id": 8
     },
     {
       "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
@@ -95,7 +122,7 @@
       "source": "公众号：小红书技术（dots.llm）",
       "image": null,
       "time": "2026-08-14T11:25:29.000Z",
-      "id": 7
+      "id": 9
     },
     {
       "title": "GLM-5.3 发布：编程能力开源第一，并涌现网络安全能力",
@@ -110,166 +137,139 @@
       "source": "公众号：智谱（GLM）",
       "image": null,
       "time": "2026-08-14T05:31:04.000Z",
-      "id": 8
-    },
-    {
-      "title": "DeepSeek V4 Pro 登陆硅基流动，1M 上下文",
-      "summary": "DeepSeek-V4-Pro-0813 正式上线硅基流动 SiliconFlow，提供 Day-0 支持，具备 1M 上下文窗口及低/高/最大三档推理强度，更侧重编码、工具调用与智能体工作流，仍保持 MIT 开源协议。定价为输入 $1.32/M、输出 $3.96/M、缓存命中 $0.44/M。同系列 DeepSeek-V4-Flash-0731 则面向追求速度与成本效益的日常生产场景。",
-      "category": "AI",
-      "tags": [
-        "DeepSeek"
-      ],
-      "url": "https://x.com/SiliconFlowAI/status/2088127458558271885",
-      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-      "image": null,
-      "time": "2026-08-14T04:55:56.000Z",
-      "id": 9
-    },
-    {
-      "title": "蚂蚁百灵与 ASystem 团队打通单机 Agentic RL 后训练闭环",
-      "summary": "蚂蚁百灵与 ASystem 团队合作，用 Ling-3.0-tiny 和 AReno 在 DGX Spark 上跑通单机 Agentic RL 后训练闭环。以井字棋为最小验证任务，用 GSPO 算法训练 400 步后，rollout/rewards_mean 从约 -0.5 升至 0.4，response_len 降至约 850 tokens，工具调用与动作选择趋于稳定。",
-      "category": "工具",
-      "tags": [
-        "Agent"
-      ],
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487525&idx=1&sn=b9def9117e34b45fce50ab76eeed726c",
-      "source": "公众号：蚂蚁百灵（Ling）",
-      "image": null,
-      "time": "2026-08-14T04:00:00.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "deepseek-ai/deepseek-harness",
-      "description": "开源插件式智能体工具包，支持时空组合",
+      "description": "基于插件架构的DeepSeek Harness，支持时空组合。",
       "language": "TypeScript",
-      "stars": 115673,
-      "starsToday": 19614,
-      "forks": 11294,
+      "stars": 132271,
+      "starsToday": 16598,
+      "forks": 13262,
       "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 1
     },
     {
       "name": "anywhere-labs/deepseek-harness-desktop",
-      "description": "DeepSeek Harness 桌面端插件，原生桌面体验",
+      "description": "无需配置的DeepSeek Harness桌面客户端。",
       "language": "TypeScript",
-      "stars": 5940,
-      "starsToday": 3982,
-      "forks": 253,
+      "stars": 9023,
+      "starsToday": 3083,
+      "forks": 377,
       "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
       "rank": 2
     },
     {
-      "name": "xiaobright/dsh-anchored-standard",
-      "description": "实验性 DeepSeek Harness 智能体预设，锚定最小条件",
-      "language": "JavaScript",
-      "stars": 2197,
-      "starsToday": 2197,
-      "forks": 69,
-      "url": "https://github.com/xiaobright/dsh-anchored-standard",
+      "name": "awesome-dsh-plugin/awesome-dsh-plugin",
+      "description": "DeepSeek Harness插件，支持Web和头less运行。",
+      "language": "Python",
+      "stars": 5222,
+      "starsToday": 2211,
+      "forks": 878,
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
       "rank": 3
     },
     {
       "name": "guillaumemeyer/watermarks-remover",
-      "description": "移除文本和文件中的 AI 标记，保护隐私",
+      "description": "去除AI文本和文件水印的Python服务。",
       "language": "Python",
-      "stars": 9757,
-      "starsToday": 1557,
-      "forks": 1006,
+      "stars": 11544,
+      "starsToday": 1787,
+      "forks": 1219,
       "url": "https://github.com/guillaumemeyer/watermarks-remover",
       "rank": 4
     },
     {
-      "name": "awesome-dsh-plugin/awesome-dsh-plugin",
-      "description": "DeepSeek Harness 插件集合，支持插件化构建",
-      "language": "Python",
-      "stars": 3011,
-      "starsToday": 1506,
-      "forks": 609,
-      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "name": "openclaw/openclaw",
+      "description": "跨设备、跨渠道的个人AI助手。",
+      "language": "TypeScript",
+      "stars": 386471,
+      "starsToday": 1458,
+      "forks": 81210,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 5
     },
     {
-      "name": "ultraworkers/claw-code",
-      "description": "基于螃蟹动力工具包的代码",
-      "language": "Rust",
-      "stars": 195053,
-      "starsToday": 1424,
-      "forks": 109112,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "xiaobright/dsh-anchored-standard",
+      "description": "DeepSeek Harness实验性预设，锚定模型轨迹。",
+      "language": "JavaScript",
+      "stars": 3045,
+      "starsToday": 848,
+      "forks": 95,
+      "url": "https://github.com/xiaobright/dsh-anchored-standard",
       "rank": 6
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言命令行工具",
-      "language": "JavaScript",
-      "stars": 240303,
-      "starsToday": 1144,
-      "forks": 36463,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "zhu1090093659/dsh-web-ui",
+      "description": "DeepSeek Harness Web GUI插件与皮肤全家桶。",
+      "language": "TypeScript",
+      "stars": 3449,
+      "starsToday": 727,
+      "forks": 204,
+      "url": "https://github.com/zhu1090093659/dsh-web-ui",
       "rank": 7
     },
     {
-      "name": "zhu1090093659/dsh-web-ui",
-      "description": "DeepSeek Harness Web UI 插件与皮肤集合",
-      "language": "TypeScript",
-      "stars": 2722,
-      "starsToday": 768,
-      "forks": 152,
-      "url": "https://github.com/zhu1090093659/dsh-web-ui",
+      "name": "NousResearch/hermes-agent",
+      "description": "自改进AI代理，内置学习循环。",
+      "language": "Python",
+      "stars": 231521,
+      "starsToday": 432,
+      "forks": 46051,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 8
     },
     {
-      "name": "JuliusBrussee/caveman",
-      "description": "减少智能体输入，提高效率",
-      "language": "Go",
-      "stars": 98404,
-      "starsToday": 740,
-      "forks": 5687,
-      "url": "https://github.com/JuliusBrussee/caveman",
+      "name": "anomalyco/opencode",
+      "description": "开源AI编码代理，支持多语言。",
+      "language": "TypeScript",
+      "stars": 198123,
+      "starsToday": 419,
+      "forks": 25520,
+      "url": "https://github.com/anomalyco/opencode",
       "rank": 9
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自改进 AI 智能体，内置学习循环",
-      "language": "Python",
-      "stars": 231089,
-      "starsToday": 442,
-      "forks": 45898,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "farion1231/cc-switch",
+      "description": "Claude系列工具的统一管理器。",
+      "language": "Rust",
+      "stars": 127611,
+      "starsToday": 338,
+      "forks": 8723,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-08-16",
-    "updatedAt": "2026-08-16T01:14:18.034Z",
+    "date": "2026-08-17",
+    "updatedAt": "2026-08-17T01:11:51.872Z",
     "highlights": [
-      "Cursor 被SpaceX收购",
-      "AI生成书籍影响作者收入",
-      "Gemini 3.7 Flash全面上线",
-      "通义千问开源Qwen3.8系列模型",
-      "OpenAI与Anthropic价格战",
-      "dots3-note Preview开源",
-      "GLM-5.3发布",
-      "DeepSeek V4 Pro登陆硅基流动",
-      "蚂蚁百灵与ASystem团队打通单机Agentic RL后训练闭环"
+      "Qwen 3.8 表现卓越但存在过度思考问题",
+      "多智能体系统模式与问题探讨",
+      "Cursor 被 SpaceX 收购",
+      "AI生成书籍影响人类作者收入",
+      "Gemini 3.7 Flash 全面上线",
+      "通义千问开源 Qwen3.8 模型",
+      "OpenAI 与 Anthropic 价格战",
+      "dots3-note Preview 开源轻量模型",
+      "GLM-5.3 发布编程与网络安全能力"
     ],
     "keywords": [
+      "Qwen 3.8",
+      "多智能体系统",
       "Cursor",
-      "SpaceX",
       "AI生成书籍",
-      "Gemini",
+      "Gemini 3.7",
       "通义千问",
       "OpenAI",
-      "Anthropic",
       "dots3-note",
-      "GLM",
-      "DeepSeek",
-      "蚂蚁百灵",
-      "ASystem",
-      "Agentic RL"
+      "GLM-5.3",
+      "DeepSeek Harness",
+      "AI编码代理",
+      "网络安全"
     ],
-    "trendingSummary": "今日技术资讯显示，AI领域持续发展，AI生成书籍对传统出版业产生影响，同时AI技术应用于更多领域，如编程、网络安全等。GitHub热门项目集中在智能体工具包和AI应用开发。"
+    "trendingSummary": "今日技术趋势聚焦于AI工具的优化与开源模型的发展，同时AI对传统行业的影响持续显现，多智能体系统成为研究热点。"
   }
 }
