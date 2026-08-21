@@ -1,7 +1,102 @@
 {
-  "date": "2026-08-20",
-  "updatedAt": "2026-08-20T01:09:40.307Z",
+  "date": "2026-08-21",
+  "updatedAt": "2026-08-21T01:13:32.710Z",
   "techNews": [
+    {
+      "title": "Claude Platform 正式上线 Computer Use、Skills API 与 Files API，新增浏览器操作工具",
+      "summary": "Anthropic 宣布 Computer Use、Skills API 与 Files API 在 Claude Platform 全面可用，并新增浏览器操作工具，让智能体可操作软件、调用团队技能并返回成品文件。",
+      "category": "AI",
+      "tags": [
+        "Claude",
+        "API",
+        "浏览器"
+      ],
+      "url": "https://claude.com/blog/computer-use-skills-api-files-api",
+      "source": "Claude：Blog（网页）",
+      "image": null,
+      "time": "2026-08-20T20:27:01.660Z",
+      "id": 1
+    },
+    {
+      "title": "Anthropic 如何开展 AI 教学",
+      "summary": "Anthropic 发布 Claude Academy，为全球数百万用户提供 AI 教学资源，帮助其安全、有效地使用 AI。该学院课程借鉴其内部员工培训方法，包括 4D AI Fluency Framework 及\"ever-boarding\"持续学习项目，并强调以问题为中心、培养持久思维模式而非特定操作行为。",
+      "category": "AI",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
+      "source": "Claude：Blog（网页）",
+      "image": null,
+      "time": "2026-08-20T17:56:58.396Z",
+      "id": 2
+    },
+    {
+      "title": "Hugging Face 发布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍",
+      "summary": "Hugging Face 发布 LFM2.5 系列三款模型的 DSpark 草稿模型检查点，通过投机解码在不改变输出质量的前提下，GPU 吞吐最高提升 3.18 倍，端侧最高 2.87 倍。草稿模型约 300M 参数，LFM2.5-2.6B 函数调用延迟平均降低 57%，已开源支持 llama.cpp 和 SGLang。",
+      "category": "AI",
+      "tags": [
+        "推理"
+      ],
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "source": "Hugging Face：Blog（RSS）",
+      "image": null,
+      "time": "2026-08-20T16:52:57.000Z",
+      "id": 3
+    },
+    {
+      "title": "Mistral 推出 Agentic Search：多步检索提升 AI 系统复杂文档查询准确率",
+      "summary": "Mistral 发布 Agentic Search，通过 search、open、navigate、read、grep 五工具的多步检索循环，让模型在长文档与多来源中查找、定位并验证信息。",
+      "category": "AI",
+      "tags": [
+        "Agent"
+      ],
+      "url": "https://mistral.ai/news/agentic-search",
+      "source": "Mistral AI：News（网页）",
+      "image": null,
+      "time": "2026-08-20T16:02:07.300Z",
+      "id": 4
+    },
+    {
+      "title": "AlloyDB ScaNN 如何将向量搜索扩展到 100 亿向量",
+      "summary": "AlloyDB 的 ScaNN 索引现已支持超过 100 亿向量的规模，通过全新的四层树架构（预览版）实现，将查询复杂度从 O（N^1/2） 降至 O（N^1/4）。内部测试中，该架构在 100 亿向量规模下可实现 p95 延迟不超过 51 毫秒、召回率达 95%。该功能可通过快速入门指南部署，新用户可享受 30 天免费试用。",
+      "category": "AI",
+      "tags": [
+        "ai-products"
+      ],
+      "url": "https://cloud.google.com/blog/products/databases/alloydb-scann-index-four-level-tree-improves-vector-search",
+      "source": "Google Cloud：Databases（RSS）",
+      "image": null,
+      "time": "2026-08-20T16:00:00.000Z",
+      "id": 5
+    },
+    {
+      "title": "Claude Code 初创公司指南：五大规则与创始人洞见",
+      "summary": "Anthropic 发布面向初创公司的 Claude Code 使用指南，基于对十余家高增长公司的调研，总结出\"人人皆可交付、自动化繁琐工作、信任但验证、为重构而构建、原型-自用-产品化\"五大规则。",
+      "category": "工具",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://claude.com/blog/claude-code-guide-for-startups",
+      "source": "Claude：Blog（网页）",
+      "image": null,
+      "time": "2026-08-20T13:26:53.704Z",
+      "id": 6
+    },
+    {
+      "title": "阿里发布 Qwen-UI-Agent，主打让模型真正\"会用\"每一块屏幕",
+      "summary": "阿里巴巴正式推出 Qwen-UI-Agent，一个以真实世界为中心的 GUI 智能体基座模型，覆盖移动端、电脑端、网页端及深度搜索（DeepSearch）环境。",
+      "category": "AI",
+      "tags": [
+        "阿里",
+        "Agent",
+        "设计"
+      ],
+      "url": "https://www.ithome.com/0/992/239.htm",
+      "source": "IT之家（RSS）",
+      "image": null,
+      "time": "2026-08-20T09:45:51.000Z",
+      "id": 7
+    },
     {
       "title": "消息称 OpenAI 首席财务官告知员工：公司最迟将于 2027 年上市",
       "summary": "OpenAI 首席财务官萨拉·弗里亚尔在全员大会上告知员工，公司最迟将于 2027 年完成上市，若业务持续向好也可能更早。OpenAI 已于 6 月秘密提交 IPO 招股书，本季度整体年化营收增长 35%，企业级业务年化营收增长 50%，AI 编程与办公产品周活跃用户突破 2000 万。",
@@ -13,21 +108,7 @@
       "source": "IT之家（RSS）",
       "image": null,
       "time": "2026-08-20T00:17:26.000Z",
-      "id": 1
-    },
-    {
-      "title": "Anthropic 在网络关键能力时代放缓模型开发：暂停 RL 训练并强化安全防护",
-      "summary": "Anthropic 因 OpenAI-Hugging Face 事件及即将推出的 Astra 模型可能达到\"关键网络安全能力阈值\"，暂时放缓模型扩展速度，包括暂停最新模型两周的强化学习（RL）训练。公司已加强研究环境安全要求，包括工作负载隔离、网络隔离和持续安全测试，并扩大思维链监控范围。涉及 Astra 或网络模型的工作负载需满足最严格安全标准，部分训练和评估工作仍处于暂停状态。",
-      "category": "行业",
-      "tags": [
-        "Claude",
-        "安全"
-      ],
-      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "image": null,
-      "time": "2026-08-19T21:42:09.969Z",
-      "id": 2
+      "id": 8
     },
     {
       "title": "FastMetal 让 Mac 本地 30 秒生成视频",
@@ -40,20 +121,7 @@
       "source": "X：Sky Computing Lab (@haoailab)",
       "image": null,
       "time": "2026-08-19T20:42:57.000Z",
-      "id": 3
-    },
-    {
-      "title": "突破 DeepSeek-V4-Pro 服务极限：H20 上的多场景优化方法",
-      "summary": "LMSYS 团队针对 1.6 万亿参数的 MoE 模型 DeepSeek-V4-Pro，在 H20 GPU 上通过场景化服务配置逼近 B300 性能。单节点 H20-141GB 参考实现达 271 output tokens/s，与 B300 的 383.7 tokens/s 性能差距缩小至 1.42×。",
-      "category": "AI",
-      "tags": [
-        "DeepSeek"
-      ],
-      "url": "https://www.lmsys.org/blog/2026-08-19-deepseek-v4-pro-engine-optimization-h20",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "image": null,
-      "time": "2026-08-19T17:56:13.817Z",
-      "id": 4
+      "id": 9
     },
     {
       "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
@@ -66,208 +134,140 @@
       "source": "Hugging Face：Blog（RSS）",
       "image": null,
       "time": "2026-08-19T13:48:49.000Z",
-      "id": 5
-    },
-    {
-      "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
-      "summary": "GLM-5.3 API即日上线，擅长复杂编码、防御性网络安全与长程任务，在AA综合智能指数中取得60分，与Claude Fable 5、GPT-5.6 Sol等闭源旗舰同级，并与Kimi K3并列开源模型第一。该模型以更小参数规模和更低调用成本降低前沿智能门槛，单任务成本为旗舰模型中最低。API定价与GLM-5.2持平，模型权重将于下周五开源。",
-      "category": "AI",
-      "tags": [
-        "开源"
-      ],
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494105&idx=1&sn=8d7409e0fb846a3c7803c142b5d1a8e7",
-      "source": "公众号：智谱（GLM）",
-      "image": null,
-      "time": "2026-08-19T01:03:29.000Z",
-      "id": 6
-    },
-    {
-      "title": "OpenRouter 宣布加入 Stripe",
-      "summary": "OpenRouter 宣布与 Stripe 合并，以加速推动全球经济增长。OpenRouter 目前每日处理来自 400 多个 AI 模型的 10+ 万亿 token，服务超 1000 万开发者与公司，自成立以来推理量每年至少增长 10 倍。合并后 OpenRouter 将继续以原名、原使命独立运营，产品与路线图不变，路由决策仍以用户利益为先，交易预计在未来数周内完成。",
-      "category": "行业",
-      "tags": [
-        "industry"
-      ],
-      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
-      "source": "OpenRouter：Announcements（RSS）",
-      "image": null,
-      "time": "2026-08-19T00:00:00.000Z",
-      "id": 7
-    },
-    {
-      "title": "Mojo 语言正式开源，编译器与工具链全面开放",
-      "summary": "Mojo🔥 语言现已正式开源，采用 Apache 2.0 许可证（含 LLVM 例外），编译器、工具链及全部源码已发布至 modular GitHub 仓库。Mojo 上周刚达成 1.0 版本（源码稳定），此次开源涵盖整个编译器与工具链。目前暂不接受编译器相关贡献，计划年底前开放，标准库自 2024 年起已接受社区贡献。",
-      "category": "AI",
-      "tags": [
-        "开源"
-      ],
-      "url": "https://www.modular.com/blog/mojo-open-source",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "image": null,
-      "time": "2026-08-18T21:26:01.095Z",
-      "id": 8
-    },
-    {
-      "title": "Claude 现已支持 Gmail 邮件与 Google Drive 文件管理",
-      "summary": "Claude 现在可以在 Gmail 中发送邮件，并管理 Google Drive 中的文件。\n\n让 Claude 回复某个邮件线程，它会起草并发送回复。你可以控制何时需要你的批准。\n\n从连接器菜单中选择连接 Gmail 或 Google Drive 即可试用。所有付费套餐均可用。",
-      "category": "AI",
-      "tags": [
-        "Claude",
-        "Gemini"
-      ],
-      "url": "https://x.com/claudeai/status/2089806039088517356",
-      "source": "X：Claude (@claudeai)",
-      "image": null,
-      "time": "2026-08-18T20:06:01.000Z",
-      "id": 9
-    },
-    {
-      "title": "智能体记忆并非越多越好：八款模型评测显示剂量需按能力校准",
-      "summary": "智能体记忆并非可随意开启的功能，而是需按模型能力校准的剂量。强模型适合注入完整指南集，DeepSeek-V3.2（671B MoE）任务完成率提升+9.5个百分点；较弱模型采用精选检索效果最佳，gpt-oss-120b（117B MoE）提升+16.1pp且仅增加+5% token。该方法无需更新权重或人工标注，通过从智能体过往轨迹中蒸馏指南并在推理时注入实现。",
-      "category": "AI",
-      "tags": [
-        "Agent"
-      ],
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-      "source": "Hugging Face：Blog（RSS）",
-      "image": null,
-      "time": "2026-08-18T18:09:38.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "deepseek-ai/deepseek-harness",
-      "description": "开源插件式智能体工具，支持时空组合",
-      "language": "TypeScript",
-      "stars": 167434,
-      "starsToday": 6858,
-      "forks": 17884,
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "name": "s1dashu/ip-as-logo-skill",
+      "description": "is a compact Agent Skill for generating extremely simple, cute, company-ready IP mascots. It prioritizes lovable character appeal, bold rounded silhouettes, strict complexity limits, a dominant lower-corner composition, and a solid named background color.。",
+      "language": "Unknown",
+      "stars": 3106,
+      "starsToday": 1553,
+      "forks": 150,
+      "url": "https://github.com/s1dashu/ip-as-logo-skill",
       "rank": 1
     },
     {
-      "name": "anywhere-labs/deepseek-harness-desktop",
-      "description": "插件化桌面客户端，一键使用",
+      "name": "openclaw/openclaw",
+      "description": "个人AI助手，设备端运行，多渠道接入",
       "language": "TypeScript",
-      "stars": 15207,
-      "starsToday": 1569,
-      "forks": 719,
-      "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
+      "stars": 386915,
+      "starsToday": 1438,
+      "forks": 81275,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 2
     },
     {
-      "name": "ultraworkers/claw-code",
-      "description": "基于螃蟹动力工具集",
-      "language": "Rust",
-      "stars": 195085,
-      "starsToday": 1384,
-      "forks": 109037,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "xiaobright/dsh-anchored-standard",
+      "description": "深度探索工具集，锚定模型轨迹，按需解锁",
+      "language": "JavaScript",
+      "stars": 3684,
+      "starsToday": 614,
+      "forks": 110,
+      "url": "https://github.com/xiaobright/dsh-anchored-standard",
       "rank": 3
     },
     {
-      "name": "yetone/cumora",
-      "description": "跨平台AI团队聊天应用",
-      "language": "TypeScript",
-      "stars": 2688,
-      "starsToday": 1344,
-      "forks": 307,
-      "url": "https://github.com/yetone/cumora",
+      "name": "NousResearch/hermes-agent",
+      "description": "自学习AI助手，经验驱动技能提升",
+      "language": "Python",
+      "stars": 233558,
+      "starsToday": 494,
+      "forks": 46805,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 4
     },
     {
-      "name": "awesome-dsh-plugin/awesome-dsh-plugin",
-      "description": "DeepSeek Harness插件，支持插件化开发",
-      "language": "Python",
-      "stars": 10055,
-      "starsToday": 1132,
-      "forks": 1482,
-      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "name": "CopilotKit/OpenBot",
+      "description": "可信赖的AI同事，真实工作场景应用",
+      "language": "TypeScript",
+      "stars": 1641,
+      "starsToday": 410,
+      "forks": 170,
+      "url": "https://github.com/CopilotKit/OpenBot",
       "rank": 5
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言命令行工具",
-      "language": "JavaScript",
-      "stars": 241194,
-      "starsToday": 1127,
-      "forks": 36576,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "farion1231/cc-switch",
+      "description": "多工具管理平台，一键安装插件",
+      "language": "Rust",
+      "stars": 128511,
+      "starsToday": 337,
+      "forks": 8791,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 6
     },
     {
-      "name": "JuliusBrussee/caveman",
-      "description": "减少输入，提高效率的智能体",
-      "language": "Go",
-      "stars": 99243,
-      "starsToday": 724,
-      "forks": 5758,
-      "url": "https://github.com/JuliusBrussee/caveman",
+      "name": "anomalyco/opencode",
+      "description": "开源AI编码助手，多语言支持",
+      "language": "TypeScript",
+      "stars": 199562,
+      "starsToday": 317,
+      "forks": 25755,
+      "url": "https://github.com/anomalyco/opencode",
       "rank": 7
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自改进AI智能体，内置学习循环",
-      "language": "Python",
-      "stars": 233064,
-      "starsToday": 502,
-      "forks": 46626,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "affaan-m/ECC",
+      "description": "Claude Code命令行工具，多语言",
+      "language": "JavaScript",
+      "stars": 241473,
+      "starsToday": 279,
+      "forks": 36617,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 8
     },
     {
-      "name": "anomalyco/opencode",
-      "description": "开源AI编码智能体",
+      "name": "dsh-market/dsh-market",
+      "description": "深度探索插件市场，一键安装主题",
       "language": "TypeScript",
-      "stars": 199245,
-      "starsToday": 406,
-      "forks": 25697,
-      "url": "https://github.com/anomalyco/opencode",
+      "stars": 1452,
+      "starsToday": 242,
+      "forks": 85,
+      "url": "https://github.com/dsh-market/dsh-market",
       "rank": 9
     },
     {
-      "name": "yjh051108/dsh-routing-suite",
-      "description": "智能体运行时手术台和思维模式路由套装",
-      "language": "PowerShell",
-      "stars": 6302,
-      "starsToday": 257,
-      "forks": 112,
-      "url": "https://github.com/yjh051108/dsh-routing-suite",
+      "name": "ollama/ollama",
+      "description": "基于开源模型的构建工具",
+      "language": "Go",
+      "stars": 179064,
+      "starsToday": 156,
+      "forks": 17487,
+      "url": "https://github.com/ollama/ollama",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-08-20",
-    "updatedAt": "2026-08-20T01:09:40.307Z",
+    "date": "2026-08-21",
+    "updatedAt": "2026-08-21T01:13:32.710Z",
     "highlights": [
-      "OpenAI计划上市",
-      "Anthropic暂停RL训练",
-      "FastMetal视频生成",
-      "DeepSeek-V4-Pro优化",
-      "Liquid AI恢复精度",
-      "GLM-5.3发布",
-      "Mojo语言开源",
-      "Claude支持Gmail和Google Drive",
-      "智能体记忆校准"
+      "Claude Platform 新增 API 与浏览器工具， Anthropic 探索 AI 教学，Hugging Face 发布速度提升模型，Mistral 推出 Agentic Search，AlloyDB 扩展向量搜索，阿里发布 Qwen-UI-Agent，OpenAI 首席财务官透露上市计划，FastMetal 提升视频生成速度，Liquid AI 发布 QAD 模型。",
+      "GitHub 热门项目包括 IP Mascots 生成工具，个人AI助手，深度探索工具集，自学习AI助手，可信赖AI同事，多工具管理平台，开源AI编码助手， Claude Code 命令行工具，深度探索插件市场，开源模型构建工具。"
     ],
     "keywords": [
-      "OpenAI",
-      "上市",
+      "Claude Platform",
       "Anthropic",
-      "RL训练",
+      "Hugging Face",
+      "Mistral",
+      "AlloyDB",
+      "阿里",
+      "OpenAI",
       "FastMetal",
-      "DeepSeek-V4-Pro",
       "Liquid AI",
-      "GLM-5.3",
-      "Mojo",
-      "Claude",
-      "Gmail",
-      "Google Drive",
-      "智能体",
-      "记忆",
-      "校准"
+      "GitHub",
+      "IP Mascots",
+      "个人AI助手",
+      "深度探索工具集",
+      "自学习AI助手",
+      "可信赖AI同事",
+      "多工具管理平台",
+      "开源AI编码助手",
+      "Claude Code",
+      "深度探索插件市场",
+      "开源模型构建工具"
     ],
-    "trendingSummary": "AI领域持续发展，OpenAI计划上市，Anthropic暂停模型开发以强化安全。技术工具如FastMetal和GLM-5.3展示性能提升，Mojo语言开源推动社区参与。智能体研究关注记忆校准， Claude扩展功能支持更多平台。"
+    "trendingSummary": "今日AI领域进展迅速，模型速度提升、新工具发布成为亮点，同时，GitHub上的热门项目也显示出开源社区的活跃度和创新性。"
   }
 }
