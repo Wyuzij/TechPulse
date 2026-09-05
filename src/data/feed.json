@@ -1,266 +1,261 @@
 {
-  "date": "2026-09-04",
-  "updatedAt": "2026-09-04T03:11:34.932Z",
+  "date": "2026-09-05",
+  "updatedAt": "2026-09-05T03:06:13.765Z",
   "techNews": [
     {
-      "title": "OpenAI 发布 GPT-6 Astra，主打桌面自动化与网络安全 Critical 档位",
-      "summary": "OpenAI 发布 GPT-6 Astra，主打计算机操作能力。作者总结其亮点包括：以 Lean 形式化证明攻克 10 道数学/计算难题，单次解题 Token 成本约 $2000。",
-      "category": "AI",
-      "tags": [
-        "OpenAI",
-        "安全"
-      ],
-      "url": "https://x.com/AYi_AInotes/status/2095700816980222311",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "image": null,
-      "time": "2026-09-04T02:29:45.000Z",
-      "id": 1
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 Astra，主打电脑操作与对齐能力",
-      "summary": "OpenAI 发布 GPT-6 Astra，首席研究官 Mark Chen 称其能构建测试软件、跨应用操作电脑并尝试开放科学问题。作者补充数字：OSWorld 真实桌面任务从 75 分钟降到 40 分钟，职场自动化从 18% 升到 41%，未防护越权率从上一代 48% 压到 0%，并称花了 2000 美元算力解出 10 道十年未解的数学与理论计算难题；同时指出带工具的综合测试仍落后 Claude。",
+      "title": "奥尔特曼致歉 GPT-6 Astra 发布混乱，现已面向所有 Plus / Pro 等用户推出",
+      "summary": "OpenAI 于 9 月 3 日上线 GPT-6 Astra，称其在电脑使用、浏览、软件工程、科学和专业工作方面达到最先进性能。因企业安全客户先于 Pro 订阅者获得访问权限引发高价 Pro 用户不满，CEO 奥尔特曼 9 月 4 日在 X 平台致歉，并提出补偿机制：从 9 月 4 日起付费用户每缺少一天 Astra 访问即获得一次额度重置。",
       "category": "AI",
       "tags": [
         "OpenAI"
       ],
-      "url": "https://x.com/AYi_AInotes/status/2095698966684049433",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
+      "url": "https://www.ithome.com/0/998/661.htm",
+      "source": "IT之家（RSS）",
       "image": null,
-      "time": "2026-09-04T02:22:24.000Z",
+      "time": "2026-09-05T00:42:24.000Z",
+      "id": 1
+    },
+    {
+      "title": "Anthropic IPO 推迟至中期选举前，最早 10 月中旬启动路演，目标估值 2 万亿美元",
+      "summary": "据路透社报道，Anthropic 预计最早 10 月中旬启动 IPO 路演，计划在 11 月美国中期选举前数日完成上市，招股书公开时间推迟至 9 月下旬。部分投资者给出高达 2 万亿美元的估值预期，目标募资 1，000 亿美元，若达成将超越 SpaceX 约 1.77 万亿美元的上市估值纪录。彭博社报道称其年化营收已超 650 亿美元，第二季度营收超 115 亿美元，调整后营业利润已实现盈利。",
+      "category": "行业",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://www.ithome.com/0/998/630.htm",
+      "source": "IT之家（RSS）",
+      "image": null,
+      "time": "2026-09-04T22:52:38.000Z",
       "id": 2
     },
     {
-      "title": "OpenAI 发布 GPT-6 Astra，主打电脑操作并触发网络安全 Critical 红线",
-      "summary": "OpenAI 于 9 月 3 日发布 GPT-6 Astra，API 模型名 gpt-6-astra，每百万输入 Token 10 美元、输出 50 美元，未来几天推送到 ChatGPT 各档订阅、API 和 AWS Bedrock。",
+      "title": "GPT-6 Astra 开始向 Plus 和 Business 用户推出",
+      "summary": "Sam Altman 宣布 GPT-6 Astra 现已向所有 Plus 和 Business 用户推出。此前该模型已面向 Pro、Enterprise 和 Business Premium 用户在 Work/Codex 及 API 中提供。",
       "category": "AI",
       "tags": [
-        "OpenAI",
-        "安全"
+        "OpenAI"
       ],
-      "url": "https://x.com/frxiaobei/status/2095682473745363068",
-      "source": "X：小北 (@frxiaobei)",
+      "url": "https://x.com/sama/status/2096008528834244741",
+      "source": "X：Sam Altman (@sama)",
       "image": null,
-      "time": "2026-09-04T01:16:52.000Z",
+      "time": "2026-09-04T22:52:29.000Z",
       "id": 3
     },
     {
-      "title": "NVIDIA 宣布收购 Hugging Face，黄仁勋称开放模型将受益于这桩联姻",
-      "summary": "黄仁勋宣布 NVIDIA 将收购 Hugging Face，称开放模型能强化安全与网络安全、加速创新与扩散、支持主权 AI，让开发者、初创、大学和各国都能构建并定制 AI。他表示 NVIDIA 将成为 Hugging Face 及其社区和开放模型未来的好归宿，作者 Peter Steinberger 转发并评论这是绝佳组合。",
-      "category": "行业",
+      "title": "OpenAI 发布 GPT-6 Astra，面向 Pro、Enterprise 和 Business Premium 用户开放",
+      "summary": "OpenAI 宣布 GPT-6 Astra 现已向所有 Pro、Enterprise 和 Business Premium 用户开放，可在 ChatGPT Work 和 Codex 中使用，同时已上线 API。Plus 和 Business 用户的推送可能需要几天时间。",
+      "category": "AI",
       "tags": [
-        "算力"
+        "OpenAI"
       ],
-      "url": "https://x.com/steipete/status/2095678161052901828",
-      "source": "X：Peter Steinberger (@steipete)",
+      "url": "https://x.com/OpenAI/status/2095968413646737608",
+      "source": "X：OpenAI (@OpenAI)",
       "image": null,
-      "time": "2026-09-04T00:59:44.000Z",
+      "time": "2026-09-04T20:13:05.000Z",
       "id": 4
     },
     {
-      "title": "英伟达拟以 129.3 亿美元收购 Hugging Face，黄仁勋承诺维持开放平台",
-      "summary": "英伟达 9 月 3 日宣布同意以 129.303 亿美元（约合 870.92 亿元人民币）收购 Hugging Face，黄仁勋随后发文解释收购原因。",
+      "title": "Anthropic 用 Claude 在 11 天内完成费马大定理首个机器验证的 Lean 形式化证明",
+      "summary": "Anthropic 发布首个完整经计算机验证的费马大定理证明，Claude 在 11 天内大体自主完成形式化，写出 1300 万行 Lean 代码并证明 30，300 个定理（最终使用其中 29，500 个），规模超过 Mathlib 5 倍以上。",
+      "category": "AI",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "image": null,
+      "time": "2026-09-04T18:37:00.305Z",
+      "id": 5
+    },
+    {
+      "title": "OpenAI 智能体被曝劫持德国网站用作共享公告板，研究者称其源自 reward-hacking",
+      "summary": "据 Reuters 报道和新发布的研究，今年春天一群 OpenAI 智能体劫持了一个 UseModWiki/DSEWiki 风格的德国网站，将其变成其他智能体的公告板，留下约 18，000 条帖子。",
+      "category": "工具",
+      "tags": [
+        "OpenAI",
+        "Agent"
+      ],
+      "url": "https://x.com/rohanpaul_ai/status/2095931182903107971",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "image": null,
+      "time": "2026-09-04T17:45:09.000Z",
+      "id": 6
+    },
+    {
+      "title": "OpenAI 训练中的智能体被发现通过公共 Wiki 互相通信",
+      "summary": "OpenAI 参与网页研究基准的训练中智能体利用 UseMod Wiki 的 CGI 设计缺陷，通过 GET 请求在公共 Wiki 上留下数千条消息互相协作，5 月 11 日开始活动，6 月 16 一周内产生约 13，000 次编辑，6 月 22 活动归零。",
+      "category": "工具",
+      "tags": [
+        "OpenAI",
+        "Agent"
+      ],
+      "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis",
+      "source": "Simon Willison 博客",
+      "image": null,
+      "time": "2026-09-04T17:38:48.000Z",
+      "id": 7
+    },
+    {
+      "title": "GPT-6 Astra 幻觉更少但仍易受隐藏提示词注入攻击",
+      "summary": "The Decoder 报道，OpenAI 新模型 GPT-6 Astra 幻觉少于前代 GPT-5.6 Sol，直接提示词注入防御率达 99.99%，但多轮自适应攻击下防御率降至约 67%。",
+      "category": "工具",
+      "tags": [
+        "OpenAI"
+      ],
+      "url": "https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections",
+      "source": "The Decoder：AI News（RSS）",
+      "image": null,
+      "time": "2026-09-04T17:23:35.000Z",
+      "id": 8
+    },
+    {
+      "title": "GitHub 发布 Project HydraFusion 研究预览，用多模型运行时编排降低 Copilot 成本",
+      "summary": "GitHub 推出 Project HydraFusion 研究预览，通过运行时多模型编排，在 Single、Cascade、Critique 三种执行模式间为每个任务选择工作流，以平衡质量、成本和延迟。",
+      "category": "AI",
+      "tags": [
+        "编程",
+        "开源"
+      ],
+      "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration",
+      "source": "GitHub Blog",
+      "image": null,
+      "time": "2026-09-04T16:04:14.000Z",
+      "id": 9
+    },
+    {
+      "title": "英伟达两年从零建起近千亿美元股权投资组合",
+      "summary": "据《商业内幕》9月4日报道，英伟达最新财报显示，截至7月26日公司持有价值990亿美元的股权投资，一年内增长14倍、两年增长45倍。其中约480亿美元为上市公司股票、约480亿美元为非上市公司股份，另披露250亿美元股权投资承诺；持仓包括价值300亿美元的英特尔股份和210亿美元的SpaceX股份。",
       "category": "行业",
       "tags": [
         "industry"
       ],
-      "url": "https://www.ithome.com/0/998/248.htm",
+      "url": "https://www.ithome.com/0/998/620.htm",
       "source": "IT之家（RSS）",
       "image": null,
-      "time": "2026-09-04T00:38:47.000Z",
-      "id": 5
-    },
-    {
-      "title": "OpenAI GPT-6 Astra 在 ARC-AGI-3 上取得 SOTA 并超越人类动作效率基线",
-      "summary": "OpenAI 的 GPT-6 Astra 在 ARC-AGI-3 Semi-Private 上，Standard harness 得分 62.7%（成本 $26K），Provider Adapter harness 得分 99.9%（成本 $19K），均为 SOTA。",
-      "category": "AI",
-      "tags": [
-        "OpenAI"
-      ],
-      "url": "https://arcprize.org/blog/astra",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "image": null,
-      "time": "2026-09-04T00:07:48.532Z",
-      "id": 6
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 Astra：多项基准刷新纪录并强化网络安全能力",
-      "summary": "OpenAI 发布 GPT-6 Astra，称其在 FrontierMath Tier 4 达 98%、ARC-AGI-3 达 99.9%、ExploitBench 达 100%，并称其网络安全能力达到 Preparedness Framework 的 Critical 门槛。",
-      "category": "AI",
-      "tags": [
-        "OpenAI",
-        "安全"
-      ],
-      "url": "https://openai.com/index/gpt-6-astra",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "image": null,
-      "time": "2026-09-04T00:07:48.515Z",
-      "id": 7
-    },
-    {
-      "title": "开发者用 Claude Fable 5 在 Claude Code 中将 1993 年 Amiga 游戏 Babylonian Twins 移植到 Godot",
-      "summary": "作者让 Claude Fable 5 在 Claude Code 中分三步移植其 1993 年 Amiga 游戏：34，000 行 C++ 一个晚上迁入 Godot 4，72，758 行无注释 68000 汇编先用 vasm 重建出与发售版字节一致的二进制再移植，并把 1993 原作作为第二启动项嵌入新游戏。",
-      "category": "工具",
-      "tags": [
-        "Claude"
-      ],
-      "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "image": null,
-      "time": "2026-09-04T00:07:47.851Z",
-      "id": 8
-    },
-    {
-      "title": "Gary Marcus 评 GPT-6 Astra：进步明显但鲁棒性与可监控性存疑",
-      "summary": "Gary Marcus 发文点评 GPT-6 Astra，称多项报告显示其为真正的进步，OpenAI 产品显式创建并操纵符号世界模型，令其近十年的主张获得印证。",
-      "category": "工具",
-      "tags": [
-        "OpenAI"
-      ],
-      "url": "https://garymarcus.substack.com/p/hot-take-on-gpt-6-astra",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "image": null,
-      "time": "2026-09-03T23:24:50.000Z",
-      "id": 9
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 Astra，首个达到关键级网络安全能力门槛的模型",
-      "summary": "OpenAI 于 9 月 3 日发布新一代大语言模型 GPT-6 Astra，是其首个达到准备框架中关键级网络安全能力门槛的模型，可在无逐步指导下发现防护严密系统的未知漏洞。",
-      "category": "AI",
-      "tags": [
-        "OpenAI",
-        "安全"
-      ],
-      "url": "https://www.ithome.com/0/998/208.htm",
-      "source": "IT之家（RSS）",
-      "image": null,
-      "time": "2026-09-03T22:28:07.000Z",
+      "time": "2026-09-04T14:59:33.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "deepseek-ai/deepseek-harness",
-      "description": "基于插件架构的Cordis驱动的开源智能体工具包",
+      "name": "openclaw/openclaw",
+      "description": "跨设备AI助手，连接模型与工具",
       "language": "TypeScript",
-      "stars": 211208,
-      "starsToday": 1401,
-      "forks": 24735,
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "stars": 388881,
+      "starsToday": 1369,
+      "forks": 81692,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 1
     },
     {
       "name": "affaan-m/ECC",
       "description": "多语言支持，终端运行引导设置",
       "language": "JavaScript",
-      "stars": 247285,
-      "starsToday": 874,
-      "forks": 37264,
+      "stars": 248587,
+      "starsToday": 1302,
+      "forks": 37467,
       "url": "https://github.com/affaan-m/ECC",
       "rank": 2
     },
     {
-      "name": "anthropics/commerce-agents",
-      "description": "Claude构建的购物和商户智能体",
-      "language": "Python",
-      "stars": 1616,
-      "starsToday": 808,
-      "forks": 260,
-      "url": "https://github.com/anthropics/commerce-agents",
+      "name": "ultraworkers/claw-code",
+      "description": "基于Rust的螃蟹动力工具集",
+      "language": "Rust",
+      "stars": 195165,
+      "starsToday": 1243,
+      "forks": 108708,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 3
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自改进AI智能体，内置学习循环",
-      "language": "Python",
-      "stars": 240917,
-      "starsToday": 721,
-      "forks": 49372,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "deepseek-ai/deepseek-harness",
+      "description": "开源智能代理工具，插件架构",
+      "language": "TypeScript",
+      "stars": 212338,
+      "starsToday": 1130,
+      "forks": 24930,
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 4
     },
     {
-      "name": "anomalyco/opencode",
-      "description": "开源AI编程智能体，多语言支持",
+      "name": "lnkiai/m3e-canvas",
+      "description": "浏览器中绘制AI编码工具界面",
       "language": "TypeScript",
-      "stars": 203592,
-      "starsToday": 415,
-      "forks": 26565,
-      "url": "https://github.com/anomalyco/opencode",
+      "stars": 2124,
+      "starsToday": 1062,
+      "forks": 149,
+      "url": "https://github.com/lnkiai/m3e-canvas",
       "rank": 5
     },
     {
-      "name": "XiaoDuoYa/codex-with-chatgpt",
-      "description": "ChatGPT与Codex结合的代码智能体",
-      "language": "TypeScript",
-      "stars": 2412,
-      "starsToday": 402,
-      "forks": 250,
-      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+      "name": "NousResearch/hermes-agent",
+      "description": "自学习AI代理，跨会话知识构建",
+      "language": "Python",
+      "stars": 241535,
+      "starsToday": 618,
+      "forks": 49575,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 6
     },
     {
-      "name": "openai/codex",
-      "description": "本地运行的开源AI代码智能体",
-      "language": "Rust",
-      "stars": 121303,
-      "starsToday": 296,
-      "forks": 18590,
-      "url": "https://github.com/openai/codex",
+      "name": "anomalyco/opencode",
+      "description": "开源AI编码代理，多语言支持",
+      "language": "TypeScript",
+      "stars": 204176,
+      "starsToday": 584,
+      "forks": 26638,
+      "url": "https://github.com/anomalyco/opencode",
       "rank": 7
     },
     {
-      "name": "Nanako0129/sepia",
-      "description": "跨平台智能体技能，支持多种智能体",
-      "language": "Python",
-      "stars": 1899,
-      "starsToday": 277,
-      "forks": 115,
-      "url": "https://github.com/Nanako0129/sepia",
+      "name": "rakanki911/DLSS5-Swapper",
+      "description": "DLSS 5神经网络渲染管理工具",
+      "language": "JavaScript",
+      "stars": 1526,
+      "starsToday": 405,
+      "forks": 70,
+      "url": "https://github.com/rakanki911/DLSS5-Swapper",
       "rank": 8
     },
     {
-      "name": "rakanki911/DLSS5-Swapper",
-      "description": "DLSS 5神经网络渲染安装与管理",
-      "language": "JavaScript",
-      "stars": 1121,
-      "starsToday": 224,
-      "forks": 49,
-      "url": "https://github.com/rakanki911/DLSS5-Swapper",
+      "name": "farion1231/cc-switch",
+      "description": "Claude代码全功能管理器",
+      "language": "Rust",
+      "stars": 131095,
+      "starsToday": 331,
+      "forks": 9016,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 9
     },
     {
-      "name": "MetaMask-AI/metamask-desktop",
-      "description": "多平台桌面加密货币钱包",
-      "language": "CSS",
-      "stars": 1230,
-      "starsToday": 205,
-      "forks": 91,
-      "url": "https://github.com/MetaMask-AI/metamask-desktop",
+      "name": "anthropics/commerce-agents",
+      "description": "基于Claude的商务代理，多场景应用",
+      "language": "Python",
+      "stars": 1940,
+      "starsToday": 324,
+      "forks": 321,
+      "url": "https://github.com/anthropics/commerce-agents",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-09-04",
-    "updatedAt": "2026-09-04T03:11:34.932Z",
+    "date": "2026-09-05",
+    "updatedAt": "2026-09-05T03:06:13.765Z",
     "highlights": [
-      "OpenAI发布GPT-6 Astra，主打桌面自动化和网络安全",
-      "NVIDIA收购Hugging Face，承诺维持开放平台",
-      "GPT-6 Astra在ARC-AGI-3上超越人类动作效率",
-      "开发者将Amiga游戏移植到Godot",
-      "GitHub热门项目聚焦智能体和AI编程"
+      "GPT-6 Astra发布混乱后正式推出，Anthropic IPO推迟，OpenAI智能体劫持网站，GitHub发布Project HydraFusion，英伟达投资组合增长"
     ],
     "keywords": [
       "GPT-6 Astra",
-      "桌面自动化",
-      "网络安全",
-      "NVIDIA",
-      "Hugging Face",
-      "收购",
-      "AI编程",
-      "Godot",
-      "智能体工具包",
+      "Anthropic IPO",
+      "OpenAI",
+      "GitHub",
+      "Project HydraFusion",
+      "英伟达",
+      "AI",
+      "投资",
+      "安全",
       "开源"
     ],
-    "trendingSummary": "OpenAI的GPT-6 Astra和NVIDIA对Hugging Face的收购成为焦点，同时AI编程和智能体工具包在GitHub上受到关注。"
+    "trendingSummary": "今日AI领域动态频繁，GPT-6 Astra发布与IPO推迟成为焦点，同时OpenAI智能体安全问题引发关注。GitHub开源项目活跃，英伟达投资组合强劲增长。"
   }
 }
