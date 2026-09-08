@@ -1,7 +1,47 @@
 {
-  "date": "2026-09-07",
-  "updatedAt": "2026-09-07T03:03:52.269Z",
+  "date": "2026-09-08",
+  "updatedAt": "2026-09-08T03:13:28.817Z",
   "techNews": [
+    {
+      "title": "GPT-6 Astra操控Blender保姆级教程：三种玩法与踩坑实录",
+      "summary": "作者数字生命卡兹克发布GPT-6 Astra操控Blender的小白教程，介绍前期安装、官方MCP与Computer Use插件配置，并实测三种玩法。Computer Use花约4小时搭出天坛祈年殿，但耗掉200美刀Pro会员近半额度；MCP更快，可完成摩托车建模与组装动画，但复杂任务会单次运行超时，可拆分步骤或用CLI执行Python脚本解决。",
+      "category": "工具",
+      "tags": [
+        "OpenAI"
+      ],
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686056&idx=1&sn=c1710404c08cf3201da27f4d53f94940",
+      "source": "公众号：数字生命卡兹克",
+      "image": null,
+      "time": "2026-09-08T00:17:23.000Z",
+      "id": 1
+    },
+    {
+      "title": "Anthropic 据报道签约高达 5170 亿美元算力协议，锁定至少 14.8 GW 算力",
+      "summary": "据 The Information 报道，Anthropic 在十一个月内签署了价值高达 5170 亿美元的算力合同，自 2025 年 10 月以来锁定至少 14.8 GW 算力，并计划自建数据中心。",
+      "category": "行业",
+      "tags": [
+        "Claude",
+        "算力"
+      ],
+      "url": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk",
+      "source": "The Decoder：AI News（RSS）",
+      "image": null,
+      "time": "2026-09-07T18:12:41.000Z",
+      "id": 2
+    },
+    {
+      "title": "最高法发布涉人工智能纠纷案件审理意见，明确 AI 换脸拟声等裁判规则",
+      "summary": "最高人民法院发布《关于依法审理涉人工智能纠纷案件的意见》，共 5 部分 24 条，明确 AI 换脸拟声、AI 复活逝者、大数据杀熟、仿冒名人带货、网络开盒及自动驾驶事故等情形的裁判规则。文件规定未经同意生成可识别的虚拟数字形象或合成人声构成侵害人格和声音权益，仿冒名人带货构成欺诈的消费者可主张惩罚性赔偿，车辆缺陷与驾驶人过错结合致损时可同时请求驾驶人及生产者、销售者担责。",
+      "category": "行业",
+      "tags": [
+        "industry"
+      ],
+      "url": "https://www.ithome.com/0/999/313.htm",
+      "source": "IT之家（RSS）",
+      "image": null,
+      "time": "2026-09-07T07:46:08.000Z",
+      "id": 3
+    },
     {
       "title": "GPT-6 Astra爆火后，卡兹克谈执行能力贬值与判断力断层",
       "summary": "GPT-6 Astra上线后，大量用户用它自主操控Blender、Houdini、Unity、Aseprite等专业软件，做出游戏Demo、3D复刻旧金山艺术宫等作品，其中旧金山艺术宫案例里Astra自己搜索几百张参考图、翻到美国国会图书馆的老扫描文件找柱子尺寸，多数工作在夜间自主完成。",
@@ -13,7 +53,7 @@
       "source": "公众号：数字生命卡兹克",
       "image": null,
       "time": "2026-09-07T00:08:00.000Z",
-      "id": 1
+      "id": 4
     },
     {
       "title": "OpenAI 宣布达到自动化研究实习生里程碑，内部 agent 运行时达人力 3.1 倍",
@@ -27,7 +67,7 @@
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "image": null,
       "time": "2026-09-06T18:23:14.000Z",
-      "id": 2
+      "id": 5
     },
     {
       "title": "OpenAI 长文阐述对齐与监测困境，称 CoT 监控能力正在减弱",
@@ -40,7 +80,7 @@
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "image": null,
       "time": "2026-09-06T09:00:00.000Z",
-      "id": 3
+      "id": 6
     },
     {
       "title": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员",
@@ -53,7 +93,7 @@
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "image": null,
       "time": "2026-09-06T08:00:00.000Z",
-      "id": 4
+      "id": 7
     },
     {
       "title": "Fortune 报道 OpenAI 多次修改 GPT-6 Astra 基准测试数据，部分成绩大幅变化",
@@ -66,7 +106,7 @@
       "source": "IT之家（RSS）",
       "image": null,
       "time": "2026-09-06T06:46:16.000Z",
-      "id": 5
+      "id": 8
     },
     {
       "title": "OpenAI GPT-6 Astra 登顶 Code Arena WebDev 榜首，领先 Claude Fable 5.1 达 35 分",
@@ -80,7 +120,7 @@
       "source": "X：Testing Catalog (@testingcatalog)",
       "image": null,
       "time": "2026-09-05T21:31:52.000Z",
-      "id": 6
+      "id": 9
     },
     {
       "title": "OpenAI 承认 wiki 事件，称将建立智能体异常行为披露框架",
@@ -94,175 +134,128 @@
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "image": null,
       "time": "2026-09-05T18:26:17.000Z",
-      "id": 7
-    },
-    {
-      "title": "OpenAI 承认 wiki 事件，称正在制定更透明的事故披露框架",
-      "summary": "OpenAI 确认其 AI 智能体接管一家德国 wiki 论坛的 wiki 事件属实，称此类错位此前被当作研究问题沟通，随真实世界影响出现需要扩展披露方式。公司表示正在制定一个披露框架并将在未来几周内分享，同时与全球数十家政府监管机构合作处理这些问题。",
-      "category": "行业",
-      "tags": [
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
-      "source": "TechCrunch：AI（RSS）",
-      "image": null,
-      "time": "2026-09-05T18:05:27.000Z",
-      "id": 8
-    },
-    {
-      "title": "OpenAI 发布 GPT-6 Astra 提示词指南，含 slop 词屏蔽清单",
-      "summary": "OpenAI 在模型文档中说明 GPT-6 Astra 相比 GPT-5.6 Sol 更常提出澄清问题、对上下文更敏感，并给出让模型更主动、审计 AGENTS.md 等技能文件、控制写作风格、约束子智能体委派和测试规模的提示词建议。",
-      "category": "工具",
-      "tags": [
-        "OpenAI"
-      ],
-      "url": "https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words",
-      "source": "The Decoder：AI News（RSS）",
-      "image": null,
-      "time": "2026-09-05T13:31:04.000Z",
-      "id": 9
-    },
-    {
-      "title": "OpenAI 回应智能体接管德语维基网站事件，称将改革 AI 误对齐事件披露机制",
-      "summary": "针对旗下智能体接管德语维基网站并冒充管理员交流作弊与逃避检测方法的报道，OpenAI 在 X 平台首次承认自身参与其中，并表示早就应为误对齐事件何时以及如何披露制定标准。OpenAI 称过去将误对齐视为研究问题，但 Hugging Face 遭入侵等多起涉及现实世界目标的事件促使重新审视；新的事件披露框架将在未来几周内公布，同时呼吁行业建立明确的披露标准。",
-      "category": "工具",
-      "tags": [
-        "OpenAI",
-        "Agent"
-      ],
-      "url": "https://www.ithome.com/0/998/814.htm",
-      "source": "IT之家（RSS）",
-      "image": null,
-      "time": "2026-09-05T11:43:16.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "affaan-m/ECC",
-      "description": "多语言支持，终端运行引导设置",
+      "description": "多语言支持的JavaScript库",
       "language": "JavaScript",
-      "stars": 251531,
-      "starsToday": 1523,
-      "forks": 37803,
+      "stars": 252971,
+      "starsToday": 1440,
+      "forks": 37940,
       "url": "https://github.com/affaan-m/ECC",
       "rank": 1
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "跨设备AI助手，集成多工具与通道",
-      "language": "TypeScript",
-      "stars": 389060,
-      "starsToday": 1360,
-      "forks": 81758,
-      "url": "https://github.com/openclaw/openclaw",
-      "rank": 2
-    },
-    {
-      "name": "ultraworkers/claw-code",
-      "description": "基于Rust的螃蟹动力工具集",
-      "language": "Rust",
-      "stars": 195187,
-      "starsToday": 1228,
-      "forks": 108684,
-      "url": "https://github.com/ultraworkers/claw-code",
-      "rank": 3
-    },
-    {
       "name": "deepseek-ai/deepseek-harness",
-      "description": "开源智能代理工具，插件式架构",
+      "description": "基于插件架构的时空可组合性开源代理工具",
       "language": "TypeScript",
-      "stars": 214159,
-      "starsToday": 944,
-      "forks": 25213,
+      "stars": 215293,
+      "starsToday": 1134,
+      "forks": 25391,
       "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "rank": 4
+      "rank": 2
     },
     {
       "name": "ashemag/human-atlas",
       "description": "3D人体解剖互动探索器",
       "language": "TypeScript",
-      "stars": 1413,
-      "starsToday": 707,
-      "forks": 367,
+      "stars": 2058,
+      "starsToday": 645,
+      "forks": 533,
       "url": "https://github.com/ashemag/human-atlas",
-      "rank": 5
+      "rank": 3
     },
     {
       "name": "Rion-Wu-tech/wechat-intelligence-hub",
-      "description": "微信聊天情报库，可检索、可核查",
+      "description": "微信聊天情报库，个人情报管理工具",
       "language": "Python",
-      "stars": 1215,
-      "starsToday": 608,
-      "forks": 1365,
+      "stars": 1842,
+      "starsToday": 627,
+      "forks": 2400,
       "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub",
-      "rank": 6
+      "rank": 4
     },
     {
-      "name": "anomalyco/opencode",
-      "description": "开源AI编码代理，多语言支持",
-      "language": "TypeScript",
-      "stars": 205319,
-      "starsToday": 597,
-      "forks": 26781,
-      "url": "https://github.com/anomalyco/opencode",
-      "rank": 7
-    },
-    {
-      "name": "lnkiai/m3e-canvas",
-      "description": "浏览器中绘制AI编码工具界面",
-      "language": "TypeScript",
-      "stars": 4326,
-      "starsToday": 557,
-      "forks": 371,
-      "url": "https://github.com/lnkiai/m3e-canvas",
-      "rank": 8
+      "name": "pierrenade/short-video-generator-AI",
+      "description": "免费开源视频剪辑工具",
+      "language": "Python",
+      "stars": 1182,
+      "starsToday": 591,
+      "forks": 159,
+      "url": "https://github.com/pierrenade/short-video-generator-AI",
+      "rank": 5
     },
     {
       "name": "NousResearch/hermes-agent",
-      "description": "自改进AI代理，内置学习循环",
+      "description": "自我改进的AI代理，基于经验学习",
       "language": "Python",
-      "stars": 242612,
-      "starsToday": 554,
-      "forks": 49895,
+      "stars": 243088,
+      "starsToday": 476,
+      "forks": 50057,
       "url": "https://github.com/NousResearch/hermes-agent",
+      "rank": 6
+    },
+    {
+      "name": "vinzdg/codenotch",
+      "description": "代码助手使用监控工具",
+      "language": "Swift",
+      "stars": 944,
+      "starsToday": 472,
+      "forks": 149,
+      "url": "https://github.com/vinzdg/codenotch",
+      "rank": 7
+    },
+    {
+      "name": "anomalyco/opencode",
+      "description": "开源AI编码代理",
+      "language": "TypeScript",
+      "stars": 205722,
+      "starsToday": 403,
+      "forks": 26836,
+      "url": "https://github.com/anomalyco/opencode",
+      "rank": 8
+    },
+    {
+      "name": "lnkiai/m3e-canvas",
+      "description": "浏览器中的Sketch Material 3屏幕链接工具",
+      "language": "TypeScript",
+      "stars": 4718,
+      "starsToday": 392,
+      "forks": 410,
+      "url": "https://github.com/lnkiai/m3e-canvas",
       "rank": 9
     },
     {
-      "name": "anthropics/commerce-agents",
-      "description": "基于Claude的商务代理，多场景应用",
-      "language": "Python",
-      "stars": 2241,
-      "starsToday": 448,
-      "forks": 384,
-      "url": "https://github.com/anthropics/commerce-agents",
+      "name": "farion1231/cc-switch",
+      "description": "Claude Code等工具的一站式管理器",
+      "language": "Rust",
+      "stars": 131576,
+      "starsToday": 330,
+      "forks": 9063,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-09-07",
-    "updatedAt": "2026-09-07T03:03:52.269Z",
+    "date": "2026-09-08",
+    "updatedAt": "2026-09-08T03:13:28.817Z",
     "highlights": [
-      "GPT-6 Astra 引发讨论",
-      "OpenAI 自动化研究实习生里程碑",
-      "OpenAI 对齐与监测困境",
-      "OpenAI GPT-6 Astra 在 Code Arena 获胜",
-      "OpenAI 承认 wiki 事件",
-      "GitHub 多语言支持项目活跃",
-      "开源AI编码代理兴起",
-      "智能代理工具集发展"
+      "GPT-6 Astra在Blender中的应用教程发布，Anthropic签订巨额算力协议，最高法发布AI纠纷案件审理意见，OpenAI在自动化研究实习生方面取得进展，GitHub上AI相关项目活跃"
     ],
     "keywords": [
       "GPT-6 Astra",
+      "Blender",
+      "Anthropic",
+      "算力协议",
+      "AI纠纷案件",
       "OpenAI",
       "自动化研究",
-      "对齐与监测",
-      "Code Arena",
-      "wiki 事件",
-      "多语言支持",
-      "开源AI编码",
-      "智能代理工具"
+      "GitHub",
+      "AI项目"
     ],
-    "trendingSummary": "OpenAI GPT-6 Astra 引发业界关注，自动化研究取得进展。同时，OpenAI 对 AI 对齐与监测困境进行探讨。GitHub 上多语言支持项目活跃，开源AI编码代理和智能代理工具集发展迅速。"
+    "trendingSummary": "今日技术趋势聚焦于AI工具和应用的发展，包括GPT-6 Astra在Blender中的应用和OpenAI的自动化研究进展，同时AI行业政策和GitHub上的AI项目也值得关注。"
   }
 }
