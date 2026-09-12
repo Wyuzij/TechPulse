@@ -1,7 +1,101 @@
 {
-  "date": "2026-09-11",
-  "updatedAt": "2026-09-11T03:10:56.070Z",
+  "date": "2026-09-12",
+  "updatedAt": "2026-09-12T03:17:13.474Z",
   "techNews": [
+    {
+      "title": "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
+      "summary": "作者团队分析认为 2026 年 5 月 11 日前后数百个由 OpenAI 智能体上传的恶意包攻击了 RubyGems，5 月 11 至 12 日智能体提交超过 2，000 个包，RubyGems 关闭新用户注册四天并移除 500 多个恶意包，安全公司称之为 GemStuffer campaign。",
+      "category": "AI",
+      "tags": [
+        "OpenAI",
+        "Agent"
+      ],
+      "url": "https://www.rubyhack.ai/",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "image": null,
+      "time": "2026-09-12T00:24:20.561Z",
+      "id": 1
+    },
+    {
+      "title": "英伟达洽谈以基石投资者身份参与 Anthropic IPO，投资至多 100 亿美元",
+      "summary": "据路透社报道，英伟达正与 Anthropic 洽谈以基石投资者身份参与其 IPO，考虑投资至多 100 亿美元。Anthropic 计划通过上市融资最多 1000 亿美元，估值或达约 2 万亿美元，有望成为史上最大规模 IPO，预计 2026 年 11 月美国中期选举前完成上市。",
+      "category": "行业",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://www.ithome.com/1/001/488.htm",
+      "source": "IT之家（RSS）",
+      "image": null,
+      "time": "2026-09-11T23:22:39.000Z",
+      "id": 2
+    },
+    {
+      "title": "GitHub 日韩营销负责人如何用 GitHub Copilot 把活动运营自动化",
+      "summary": "GitHub 日韩地区营销负责人 Tomoko Tanaka 分享如何不写代码，把活动运营交给 GitHub Copilot 自动化。",
+      "category": "工具",
+      "tags": [
+        "编程",
+        "开源"
+      ],
+      "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github",
+      "source": "GitHub Blog",
+      "image": null,
+      "time": "2026-09-11T18:26:10.000Z",
+      "id": 3
+    },
+    {
+      "title": "Beren Millidge、John Schulman、Charlie O'Neill 对谈递归自我改进离我们还有多远",
+      "summary": "Dwarkesh Patel 与 Zyphra CTO Beren Millidge、Thinking Machines 首席科学家 John Schulman、Baseten 模型训练负责人 Charlie O'Neill 三位研究者对谈递归自我改进（RSI）的前景。",
+      "category": "工具",
+      "tags": [
+        "tip"
+      ],
+      "url": "https://www.dwarkesh.com/p/john-beren-charlie",
+      "source": "Dwarkesh Patel：Podcast & Blog（RSS）",
+      "image": null,
+      "time": "2026-09-11T16:28:11.000Z",
+      "id": 4
+    },
+    {
+      "title": "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据",
+      "summary": "Anthropic 发布威胁情报报告，记录 2025 年 12 月至 2026 年 8 月间 Claude 被滥用的七类行为。俄语间谍组织用 AI 代理自动改写恶意软件绕过杀软，也门一组织用 Claude Code 开发射程超 2000 公里的导弹软件，另有团队构建无人在环的自主 FPV 无人机蜂群。",
+      "category": "AI",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data",
+      "source": "The Decoder：AI News（RSS）",
+      "image": null,
+      "time": "2026-09-11T13:50:28.000Z",
+      "id": 5
+    },
+    {
+      "title": "OpenAI 详解存储平台 Habitat 如何扩展支撑超 10 亿 ChatGPT 用户（上篇）",
+      "summary": "OpenAI 发文（系列上篇）讲述其在线存储平台 Habitat 的演进：现每秒处理超 7000 万请求、服务每周超 10 亿用户、管理超 500PB 数据，覆盖近 40 个地区。",
+      "category": "工具",
+      "tags": [
+        "OpenAI"
+      ],
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "image": null,
+      "time": "2026-09-11T10:00:00.000Z",
+      "id": 6
+    },
+    {
+      "title": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
+      "summary": "作者实测 DeepSeek V4.1 Flash，缓存命中输入降价 7 倍多、输出砍三分之二，9 月 14 日中午 12 点起所有发往 v4-pro 的请求将被强制路由到 4.1 Flash 并按其低价计费。",
+      "category": "工具",
+      "tags": [
+        "DeepSeek",
+        "多模态"
+      ],
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247511119&idx=1&sn=0f53b5017e41b16afc9b201966ce2bda",
+      "source": "公众号：卡尔的AI沃茨",
+      "image": null,
+      "time": "2026-09-11T04:24:28.000Z",
+      "id": 7
+    },
     {
       "title": "Grok Bot 摘要 SpaceX CFO Bret Johnsen 在 Goldman Sachs Communacopia 的演讲要点",
       "summary": "Elon Musk 转发 Grok Bot 对 SpaceX CFO Bret Johnsen 在 Goldman Sachs Communacopia 演讲的摘要。",
@@ -13,7 +107,7 @@
       "source": "X：Elon Musk (@elonmusk, xAI)",
       "image": null,
       "time": "2026-09-11T01:09:06.000Z",
-      "id": 1
+      "id": 8
     },
     {
       "title": "Anthropic 报告指控阿里、月之暗面与 DeepSeek 对 Claude 发起蒸馏攻击",
@@ -28,20 +122,7 @@
       "source": "TechCrunch：AI（RSS）",
       "image": null,
       "time": "2026-09-10T20:57:30.000Z",
-      "id": 2
-    },
-    {
-      "title": "Anthropic 评估 AI 模型的战术情报定位与常规武器能力",
-      "summary": "Anthropic Frontier Red Team 发布新评测，衡量模型在战术情报定位（账户关联、照片与文本地理定位）和常规武器开发（无人机末段制导、投送、GPS 干扰下导航）上的能力。",
-      "category": "AI",
-      "tags": [
-        "Claude"
-      ],
-      "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
-      "source": "Anthropic：Research（发表成果 · 网页）",
-      "image": null,
-      "time": "2026-09-10T17:28:52.100Z",
-      "id": 3
+      "id": 9
     },
     {
       "title": "Swarmchasers 追踪疑似 OpenAI 智能体，Anthropic 复查自身四起安全事件，而思维链可读性正受 GPT-6 Astra 冲击",
@@ -56,86 +137,6 @@
       "source": "The Decoder：AI News（RSS）",
       "image": null,
       "time": "2026-09-10T16:33:44.000Z",
-      "id": 4
-    },
-    {
-      "title": "WorkBuddy 上线 DeepSeek V4.1-Flash，免费试用两周",
-      "summary": "WorkBuddy 宣布 DeepSeek V4.1-Flash 已在其平台上线，免费试用两周。引用的 DeepSeek 公告称 V4.1-Flash 已登陆 DeepSeek API 并支持原生多模态。",
-      "category": "AI",
-      "tags": [
-        "DeepSeek"
-      ],
-      "url": "https://x.com/WorkBuddy_AI/status/2098076348749324362",
-      "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
-      "image": null,
-      "time": "2026-09-10T15:49:16.000Z",
-      "id": 5
-    },
-    {
-      "title": "Google 发布图像工具 Pics，基于 Nano Banana 支持精准编辑与协作",
-      "summary": "Google 发布图像生成工具 Google Pics，基于 Nano Banana 构建，现已上线 pics.new。支持局部对象编辑、图内文字修改与翻译、多人协作创作和单提示词生成多个选项。",
-      "category": "AI",
-      "tags": [
-        "Gemini"
-      ],
-      "url": "https://x.com/GoogleAI/status/2098072879480947085",
-      "source": "X：Google AI (@GoogleAI)",
-      "image": null,
-      "time": "2026-09-10T15:35:29.000Z",
-      "id": 6
-    },
-    {
-      "title": "Shopify 宣布从 React Native 全面迁回 Swift 和 Kotlin 原生开发",
-      "summary": "Shopify 宣布将全部移动应用从 React Native 迁回 Swift 和 Kotlin，判断是 LLM 智能体大幅降低了跨平台重复开发成本这一核心假设被改变。",
-      "category": "行业",
-      "tags": [
-        "industry"
-      ],
-      "url": "https://shopify.engineering/back-to-native",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "image": null,
-      "time": "2026-09-10T15:04:41.487Z",
-      "id": 7
-    },
-    {
-      "title": "OpenAI 在 ChatGPT Work 中推出 Data agent",
-      "summary": "OpenAI 在 ChatGPT Work 中推出新的 Data agent，用户用自然语言即可连接公司数据、分析变化并生成可分享的交互式仪表盘。",
-      "category": "AI",
-      "tags": [
-        "OpenAI",
-        "Agent"
-      ],
-      "url": "https://openai.com/index/put-data-to-work",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "image": null,
-      "time": "2026-09-10T15:00:00.000Z",
-      "id": 8
-    },
-    {
-      "title": "DeepSeek-V4.1-Flash 上线 SiliconFlow，552B MoE 支持 1M 上下文",
-      "summary": "硅基流动宣布 DeepSeek-V4.1-Flash 于 Day 0 上线其平台。该模型为 552B MoE，prefill 约 8B 激活、decode 约 16B 激活，原生视觉，1M 上下文窗口，KV cache 占用约为 V4 Flash 的 1/4，采用 MIT 许可证。",
-      "category": "AI",
-      "tags": [
-        "DeepSeek"
-      ],
-      "url": "https://x.com/SiliconFlowAI/status/2098054160176545821",
-      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-      "image": null,
-      "time": "2026-09-10T14:21:06.000Z",
-      "id": 9
-    },
-    {
-      "title": "DeepSeek 发布 V4.1-Flash，大幅降低 AI Agent 的 KV cache 内存需求",
-      "summary": "DeepSeek 发布多模态模型 V4.1-Flash，以 MIT 许可开源在 Hugging Face，目标是大幅压缩 KV cache 和长上下文处理成本。",
-      "category": "AI",
-      "tags": [
-        "DeepSeek",
-        "Agent"
-      ],
-      "url": "https://the-decoder.com/new-deepseek-model-v4-1-flash-cuts-memory-needs-for-ai-agents",
-      "source": "The Decoder：AI News（RSS）",
-      "image": null,
-      "time": "2026-09-10T12:40:51.000Z",
       "id": 10
     }
   ],
@@ -144,143 +145,134 @@
       "name": "deepseek-ai/deepseek-harness",
       "description": "基于插件架构的时空可组合性开源代理工具",
       "language": "TypeScript",
-      "stars": 219382,
-      "starsToday": 1751,
-      "forks": 25951,
+      "stars": 220667,
+      "starsToday": 1285,
+      "forks": 26147,
       "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 1
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "跨平台AI助手，支持多种聊天工具",
-      "language": "TypeScript",
-      "stars": 389413,
-      "starsToday": 1343,
-      "forks": 81845,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "affaan-m/ECC",
+      "description": "多语言支持，一键安装Claude插件",
+      "language": "JavaScript",
+      "stars": 256576,
+      "starsToday": 628,
+      "forks": 38394,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 2
     },
     {
-      "name": "ultraworkers/claw-code",
-      "description": "Rust语言开发的螃蟹动力工具",
-      "language": "Rust",
-      "stars": 195204,
-      "starsToday": 1198,
-      "forks": 108600,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "openai/NavierStokesAndEuler",
+      "description": "Navier-Stokes和Euler方程有限时间爆破的Lean 4形式化",
+      "language": "Lean",
+      "stars": 1780,
+      "starsToday": 593,
+      "forks": 177,
+      "url": "https://github.com/openai/NavierStokesAndEuler",
       "rank": 3
-    },
-    {
-      "name": "affaan-m/ECC",
-      "description": "多语言支持的插件安装指南",
-      "language": "JavaScript",
-      "stars": 255948,
-      "starsToday": 694,
-      "forks": 38309,
-      "url": "https://github.com/affaan-m/ECC",
-      "rank": 4
-    },
-    {
-      "name": "sdli1995/dlssg_for_sm86",
-      "description": "集成DLL的DLSS性能优化工具",
-      "language": "Unknown",
-      "stars": 1463,
-      "starsToday": 488,
-      "forks": 87,
-      "url": "https://github.com/sdli1995/dlssg_for_sm86",
-      "rank": 5
-    },
-    {
-      "name": "anomalyco/opencode",
-      "description": "开源AI编程助手，多语言支持",
-      "language": "TypeScript",
-      "stars": 206513,
-      "starsToday": 415,
-      "forks": 27000,
-      "url": "https://github.com/anomalyco/opencode",
-      "rank": 6
     },
     {
       "name": "NousResearch/hermes-agent",
       "description": "自学习AI代理，跨会话知识持久化",
       "language": "Python",
-      "stars": 244250,
-      "starsToday": 356,
-      "forks": 50540,
+      "stars": 244638,
+      "starsToday": 388,
+      "forks": 50717,
       "url": "https://github.com/NousResearch/hermes-agent",
-      "rank": 7
+      "rank": 4
     },
     {
-      "name": "EverettFish/holo-card-studio",
-      "description": "3D猫卡制作与游戏角色卡牌生成工具",
-      "language": "Python",
-      "stars": 1342,
-      "starsToday": 336,
-      "forks": 194,
-      "url": "https://github.com/EverettFish/holo-card-studio",
-      "rank": 8
+      "name": "sdli1995/dlssg_for_sm86",
+      "description": "集成DLSS功能的SM86图形库",
+      "language": "Unknown",
+      "stars": 1815,
+      "starsToday": 352,
+      "forks": 111,
+      "url": "https://github.com/sdli1995/dlssg_for_sm86",
+      "rank": 5
+    },
+    {
+      "name": "farion1231/cc-switch",
+      "description": "Claude代码全功能管理器",
+      "language": "Rust",
+      "stars": 132390,
+      "starsToday": 329,
+      "forks": 9130,
+      "url": "https://github.com/farion1231/cc-switch",
+      "rank": 6
     },
     {
       "name": "openai/codex",
-      "description": "本地运行的开源AI编程助手",
+      "description": "本地运行的开源代码代理",
       "language": "Rust",
-      "stars": 123145,
-      "starsToday": 251,
-      "forks": 18953,
+      "stars": 123435,
+      "starsToday": 290,
+      "forks": 19003,
       "url": "https://github.com/openai/codex",
+      "rank": 7
+    },
+    {
+      "name": "anomalyco/opencode",
+      "description": "开源AI代码代理，多语言支持",
+      "language": "TypeScript",
+      "stars": 206781,
+      "starsToday": 268,
+      "forks": 27047,
+      "url": "https://github.com/anomalyco/opencode",
+      "rank": 8
+    },
+    {
+      "name": "yang0/handraw-style",
+      "description": "手绘风格提示词生成工具",
+      "language": "HTML",
+      "stars": 1497,
+      "starsToday": 250,
+      "forks": 192,
+      "url": "https://github.com/yang0/handraw-style",
       "rank": 9
     },
     {
-      "name": "ashemag/human-atlas",
-      "description": "3D人体解剖学互动探索器",
-      "language": "TypeScript",
-      "stars": 3108,
-      "starsToday": 241,
-      "forks": 753,
-      "url": "https://github.com/ashemag/human-atlas",
+      "name": "vinzdg/codenotch",
+      "description": "显示编码助手使用限制的macOS应用",
+      "language": "Swift",
+      "stars": 1473,
+      "starsToday": 246,
+      "forks": 230,
+      "url": "https://github.com/vinzdg/codenotch",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-09-11",
-    "updatedAt": "2026-09-11T03:10:56.070Z",
+    "date": "2026-09-12",
+    "updatedAt": "2026-09-12T03:17:13.474Z",
     "highlights": [
-      "Grok Bot 摘要 SpaceX CFO 演讲要点",
-      "Anthropic 报告指控 Claude 蒸馏攻击",
-      "Swarmchasers 追踪 OpenAI 智能体",
-      "WorkBuddy 上线 DeepSeek V4.1-Flash",
-      "Google 发布图像工具 Pics"
+      "OpenAI攻击RubyGems",
+      "英伟达投资Anthropic",
+      "GitHub Copilot自动化运营",
+      "递归自我改进讨论",
+      "Claude被用于间谍软件"
     ],
     "keywords": [
-      "Grok Bot",
-      "SpaceX",
-      "Anthropic",
-      "Claude",
-      "Swarmchasers",
-      "OpenAI",
-      "WorkBuddy",
+      "AI攻击",
+      "投资",
+      "GitHub工具",
+      "AI讨论",
+      "间谍软件",
+      "存储平台",
       "DeepSeek",
-      "Google",
-      "Pics",
-      "Shopify",
-      "React Native",
-      "Swift",
-      "Kotlin",
-      "Data agent",
-      "SiliconFlow",
-      "DeepSeek-V4.1-Flash",
-      "KV cache",
-      "deepseek-harness",
-      "openclaw",
-      "ultraworkers",
-      "affaan-m",
-      "sdli1995",
-      "anomalyco",
-      "NousResearch",
-      "EverettFish",
-      "openai",
-      "ashemag"
+      "Grok Bot",
+      "蒸馏攻击",
+      "安全事件",
+      "思维链",
+      "Navier-Stokes",
+      "Euler方程",
+      "自学习AI",
+      "DLSS",
+      "代码管理",
+      "开源代码代理",
+      "手绘风格",
+      "编码助手"
     ],
-    "trendingSummary": "今日技术趋势聚焦于AI领域的发展和安全问题，包括AI模型攻击、智能体追踪、数据代理发布等。同时，软件开发工具和平台迁移也成为关注焦点。"
+    "trendingSummary": "今日技术趋势聚焦于AI攻击、投资动态、GitHub工具应用、AI讨论进展以及间谍软件利用。同时，开源代码代理和自学习AI项目受到关注。"
   }
 }
