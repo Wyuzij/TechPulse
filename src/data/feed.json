@@ -1,34 +1,45 @@
 {
-  "date": "2026-09-13",
-  "updatedAt": "2026-09-13T03:21:21.764Z",
+  "date": "2026-09-14",
+  "updatedAt": "2026-09-14T03:32:55.192Z",
   "techNews": [
     {
-      "title": "OpenAI 将 GPT-Live-1 语音模型开放至 API",
-      "summary": "OpenAI 宣布 GPT-Live-1 正式登陆 API，即 1-800-ChatGPT 背后的语音能力。开发者可把它接入应用，获得边说边听的自然对话语音智能体，并搭配自选的模型与 harness 使用。",
-      "category": "AI",
-      "tags": [
-        "OpenAI",
-        "API",
-        "多模态"
-      ],
-      "url": "https://x.com/OpenAIDevs/status/2098913661993603215",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "image": null,
-      "time": "2026-09-12T23:16:27.000Z",
-      "id": 1
-    },
-    {
-      "title": "Dario Amodei 发文呼吁 AI 行业放慢前沿速度并公布三步计划",
-      "summary": "Dario Amodei 发布新文章 We Must Pace the Frontier，主张 AI 行业应放慢速度，并提出三部分计划。Anthropic 单方面承诺第一步，为第三方评估者提供永久的员工级系统访问权限，以核实安全措施执行、报告事故并评估训练期间模型的 alignment。",
+      "title": "Gary Marcus 评 Dario Amodei 的放慢 AI 发展提议：三份赞誉加两分怀疑",
+      "summary": "Gary Marcus 评析 Dario Amodei 倡导放慢 AI 发展并支持透明度的文章，Sam Altman 与 Elon Musk 迅速表示认同。Marcus 肯定其透明度承诺，但列举多方质疑：METR 与 AI 公司关系过近、Anthropic 借对华威胁维持加速、以及该提议可能意在抢先于真正的监管。",
       "category": "工具",
       "tags": [
         "tip"
       ],
-      "url": "https://x.com/PeterMcCrory/status/2098868931071226252",
-      "source": "X：Peter McCrory（Anthropic 首席经济学家，@PeterMcCrory）",
+      "url": "https://garymarcus.substack.com/p/two-cheers-out-of-three-for-dario",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
       "image": null,
-      "time": "2026-09-12T20:18:42.000Z",
+      "time": "2026-09-13T18:34:31.000Z",
+      "id": 1
+    },
+    {
+      "title": "Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
+      "summary": "Anthropic 9 月威胁报告披露，据评估极可能关联胡塞组织的也门小组使用 Claude Code 开发制导火箭、射程超 2，000 公里弹道导弹及名为 R2000 的高超声速滑翔载具概念的相关软件。",
+      "category": "行业",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
+      "source": "Hacker News：AI 热帖",
+      "image": null,
+      "time": "2026-09-13T14:15:40.000Z",
       "id": 2
+    },
+    {
+      "title": "Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失",
+      "summary": "文章解析 Agent harness 层应对长任务中上下文溢出与目标丢失的四类机制：上下文预算与卸载、压缩、todo-state 复述和跨会话记忆。",
+      "category": "工具",
+      "tags": [
+        "Agent"
+      ],
+      "url": "https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks",
+      "source": "MarkTechPost（RSS）",
+      "image": null,
+      "time": "2026-09-13T05:56:03.000Z",
+      "id": 3
     },
     {
       "title": "Thariq 支持 Dario Amodei 的放缓前沿 AI 倡议，呼吁给系统加固和社会讨论留出时间",
@@ -41,7 +52,7 @@
       "source": "X：Thariq (@trq212)",
       "image": null,
       "time": "2026-09-12T19:46:58.000Z",
-      "id": 3
+      "id": 4
     },
     {
       "title": "OpenAI 发布 GPT-6 Astra 并展示社区构建案例",
@@ -54,7 +65,7 @@
       "source": "X：OpenAI Developers (@OpenAIDevs)",
       "image": null,
       "time": "2026-09-12T17:33:23.000Z",
-      "id": 4
+      "id": 5
     },
     {
       "title": "Suno 发布 v6 音乐模型，推出 v6、v6-wild、v6-mini 三个版本",
@@ -67,7 +78,20 @@
       "source": "Suno：Blog（网页）",
       "image": null,
       "time": "2026-09-12T16:39:24.855Z",
-      "id": 5
+      "id": 6
+    },
+    {
+      "title": "英伟达是人工智能领域的\"中央银行\"",
+      "summary": "英伟达通过为客户提供巨额融资支持来拉动芯片需求，过去三年承诺向初创企业投资超 700 亿美元、向客户提供 3000 亿美元财务支持，因此被称为\"AI 的中央银行\"。今年 8 月它同意为俄亥俄州一座大型数据中心提供最高 1050 亿美元的兜底，并与六家华尔街机构合作撬动超 5000 亿美元 AI 基础设施投资。批评者将其类比 1990 年代末思科和朗讯向电信客户放贷的互联网泡沫风险。",
+      "category": "工具",
+      "tags": [
+        "tip"
+      ],
+      "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "image": null,
+      "time": "2026-09-12T16:37:21.932Z",
+      "id": 7
     },
     {
       "title": "Sam Altman 表示同意 Dario Amodei 的放缓前沿主张，OpenAI 将同样开放独立评估者访问",
@@ -80,7 +104,20 @@
       "source": "X：Sam Altman (@sama)",
       "image": null,
       "time": "2026-09-12T16:30:45.000Z",
-      "id": 6
+      "id": 8
+    },
+    {
+      "title": "Dario Amodei 发文呼吁为前沿 AI 降速并提出三点计划",
+      "summary": "Dario Amodei 发布新文章《We Must Pace the Frontier》，主张 AI 行业应放慢速度并给出三点计划。Anthropic 单方面承诺落实第一步，为第三方评估者提供永久、员工级系统访问权限，使其可验证安全措施执行情况、报告事故并在训练期间评估模型对齐。全文见 https://darioamodei.com/post/we-must-pace-the-frontier",
+      "category": "工具",
+      "tags": [
+        "tip"
+      ],
+      "url": "https://x.com/DarioAmodei/status/2098773920774074715",
+      "source": "X：Dario Amodei (@DarioAmodei)",
+      "image": null,
+      "time": "2026-09-12T14:01:10.000Z",
+      "id": 9
     },
     {
       "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
@@ -95,173 +132,124 @@
       "source": "Hacker News：AI 热帖",
       "image": null,
       "time": "2026-09-12T02:39:39.000Z",
-      "id": 7
-    },
-    {
-      "title": "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
-      "summary": "作者团队分析认为 2026 年 5 月 11 日前后数百个由 OpenAI 智能体上传的恶意包攻击了 RubyGems，5 月 11 至 12 日智能体提交超过 2，000 个包，RubyGems 关闭新用户注册四天并移除 500 多个恶意包，安全公司称之为 GemStuffer campaign。",
-      "category": "AI",
-      "tags": [
-        "OpenAI",
-        "Agent"
-      ],
-      "url": "https://www.rubyhack.ai/",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "image": null,
-      "time": "2026-09-12T00:24:20.561Z",
-      "id": 8
-    },
-    {
-      "title": "英伟达洽谈以基石投资者身份参与 Anthropic IPO，投资至多 100 亿美元",
-      "summary": "据路透社报道，英伟达正与 Anthropic 洽谈以基石投资者身份参与其 IPO，考虑投资至多 100 亿美元。Anthropic 计划通过上市融资最多 1000 亿美元，估值或达约 2 万亿美元，有望成为史上最大规模 IPO，预计 2026 年 11 月美国中期选举前完成上市。",
-      "category": "行业",
-      "tags": [
-        "Claude"
-      ],
-      "url": "https://www.ithome.com/1/001/488.htm",
-      "source": "IT之家（RSS）",
-      "image": null,
-      "time": "2026-09-11T23:22:39.000Z",
-      "id": 9
-    },
-    {
-      "title": "DeepSeek 开源 V4.1-Flash：CED 架构降低编码 Agent 的 prefill 开销",
-      "summary": "DeepSeek 本周在 HuggingFace 开源 DeepSeek-V4.1-Flash 权重，模型已在 Baseten Model APIs 上线。规格为 552B 总参数、prefill 激活 8B、decode 激活 16B、1M token 上下文、支持文本加图像输入。",
-      "category": "AI",
-      "tags": [
-        "DeepSeek",
-        "开源",
-        "Agent"
-      ],
-      "url": "https://www.baseten.co/blog/deepseek-v41-flash-more-efficient-prefill-for-coding-agents",
-      "source": "Baseten 工程博客（网页）",
-      "image": null,
-      "time": "2026-09-11T22:01:37.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "openclaw/openclaw",
-      "description": "跨平台AI助手，支持多聊天平台",
+      "name": "deepseek-ai/deepseek-harness",
+      "description": "基于插件架构的深度学习工具",
       "language": "TypeScript",
-      "stars": 389538,
-      "starsToday": 1334,
-      "forks": 81881,
-      "url": "https://github.com/openclaw/openclaw",
+      "stars": 222815,
+      "starsToday": 1108,
+      "forks": 26470,
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 1
     },
     {
-      "name": "ultraworkers/claw-code",
-      "description": "基于Rust的螃蟹动力工具",
-      "language": "Rust",
-      "stars": 195217,
-      "starsToday": 1183,
-      "forks": 108574,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "affaan-m/ECC",
+      "description": "多语言支持，一键安装插件",
+      "language": "JavaScript",
+      "stars": 257819,
+      "starsToday": 654,
+      "forks": 38560,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 2
     },
     {
-      "name": "deepseek-ai/deepseek-harness",
-      "description": "开源智能体工具，插件式架构",
+      "name": "anomalyco/opencode",
+      "description": "开源AI编程助手，多语言版本",
       "language": "TypeScript",
-      "stars": 221707,
-      "starsToday": 1040,
-      "forks": 26286,
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "stars": 207173,
+      "starsToday": 414,
+      "forks": 27148,
+      "url": "https://github.com/anomalyco/opencode",
       "rank": 3
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言插件安装指南",
-      "language": "JavaScript",
-      "stars": 257165,
-      "starsToday": 589,
-      "forks": 38477,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "openai/NavierStokesAndEuler",
+      "description": "Navier-Stokes和Euler方程有限时间爆破证明",
+      "language": "Lean",
+      "stars": 1861,
+      "starsToday": 372,
+      "forks": 192,
+      "url": "https://github.com/openai/NavierStokesAndEuler",
       "rank": 4
     },
     {
-      "name": "sdli1995/dlssg_for_sm86",
-      "description": "集成DLL的DLSS性能优化工具",
-      "language": "Unknown",
-      "stars": 2212,
-      "starsToday": 397,
-      "forks": 133,
-      "url": "https://github.com/sdli1995/dlssg_for_sm86",
+      "name": "farion1231/cc-switch",
+      "description": "Claude代码全功能管理器",
+      "language": "Rust",
+      "stars": 132694,
+      "starsToday": 328,
+      "forks": 9146,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 5
     },
     {
-      "name": "Edge0-AI/Edge0",
-      "description": "开源MoE推理框架，SSD专家卸载",
+      "name": "NousResearch/hermes-agent",
+      "description": "自学习AI代理，跨会话知识持久化",
       "language": "Python",
-      "stars": 1452,
-      "starsToday": 363,
-      "forks": 118,
-      "url": "https://github.com/Edge0-AI/Edge0",
+      "stars": 245203,
+      "starsToday": 276,
+      "forks": 51015,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 6
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自学习AI智能体，跨会话知识积累",
-      "language": "Python",
-      "stars": 244927,
-      "starsToday": 289,
-      "forks": 50843,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "sdli1995/dlssg_for_sm86",
+      "description": "集成DLSS的SM86推理工具",
+      "language": "Unknown",
+      "stars": 2456,
+      "starsToday": 244,
+      "forks": 145,
+      "url": "https://github.com/sdli1995/dlssg_for_sm86",
       "rank": 7
     },
     {
-      "name": "Vincentwei1021/anything2explainer",
-      "description": "将话题转换为动画解释视频",
-      "language": "TypeScript",
-      "stars": 1084,
-      "starsToday": 271,
-      "forks": 187,
-      "url": "https://github.com/Vincentwei1021/anything2explainer",
+      "name": "openai/codex",
+      "description": "本地运行的开源编程助手",
+      "language": "Rust",
+      "stars": 123887,
+      "starsToday": 222,
+      "forks": 19102,
+      "url": "https://github.com/openai/codex",
       "rank": 8
     },
     {
-      "name": "EverettFish/holo-card-studio",
-      "description": "定制猫卡牌和游戏角色卡牌",
+      "name": "Edge0-AI/Edge0",
+      "description": "开源MoE推理框架，专家卸载与路由预测",
       "language": "Python",
-      "stars": 1471,
-      "starsToday": 245,
-      "forks": 209,
-      "url": "https://github.com/EverettFish/holo-card-studio",
+      "stars": 1618,
+      "starsToday": 166,
+      "forks": 130,
+      "url": "https://github.com/Edge0-AI/Edge0",
       "rank": 9
     },
     {
-      "name": "openai/codex",
-      "description": "本地运行的开源代码助手",
-      "language": "Rust",
-      "stars": 123665,
-      "starsToday": 230,
-      "forks": 19054,
-      "url": "https://github.com/openai/codex",
+      "name": "achimala/dream-loop",
+      "description": "AI构建视觉游戏和应用的闭环技能",
+      "language": "JavaScript",
+      "stars": 970,
+      "starsToday": 162,
+      "forks": 111,
+      "url": "https://github.com/achimala/dream-loop",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-09-13",
-    "updatedAt": "2026-09-13T03:21:21.764Z",
+    "date": "2026-09-14",
+    "updatedAt": "2026-09-14T03:32:55.192Z",
     "highlights": [
-      "OpenAI发布GPT-Live-1语音模型API",
-      "Dario Amodei倡导AI行业放缓前沿速度",
-      "Suno发布v6音乐模型",
-      "Minitap指控Google Artemis未署名使用代码",
-      "英伟达洽谈参与Anthropic IPO"
+      "Gary Marcus对Dario Amodei放慢AI发展的提议进行评价，Anthropic报告胡塞组织使用Claude Code开发导弹制导软件，OpenAI发布GPT-6 Astra并展示社区构建案例，Dario Amodei呼吁为前沿AI降速并提出三点计划，Minitap指控Google Artemis未署名使用其开源项目代码"
     ],
     "keywords": [
-      "OpenAI",
-      "GPT-Live-1",
-      "AI放缓",
-      "Suno",
-      "Minitap",
-      "Google Artemis",
-      "英伟达",
-      "Anthropic IPO"
+      "AI发展提议",
+      "导弹制导软件",
+      "GPT-6 Astra",
+      "AI降速",
+      "开源项目代码"
     ],
-    "trendingSummary": "今日AI领域动态活跃，OpenAI发布新模型并放缓AI发展速度，音乐模型和开源项目也备受关注。英伟达行业投资动向引人注目。"
+    "trendingSummary": "今日AI领域热议放慢AI发展步伐，技术进步与伦理安全成为焦点。OpenAI新模型GPT-6 Astra发布，开源项目代码被指未署名使用，AI编程助手和深度学习工具持续受到关注。"
   }
 }
