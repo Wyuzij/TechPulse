@@ -1,265 +1,265 @@
 {
-  "date": "2026-09-15",
-  "updatedAt": "2026-09-15T03:33:51.475Z",
+  "date": "2026-09-16",
+  "updatedAt": "2026-09-16T03:30:00.304Z",
   "techNews": [
     {
-      "title": "Artificial Analysis 评测：GPT-Live-1 以 81.5 分登顶 Speech to Speech Index",
-      "summary": "Artificial Analysis 发布 Speech to Speech Index，OpenAI 的 GPT-Live-1 以 81.5 分（Astra 后端，medium 推理强度）排名第一，超过 Grok Voice Think Fast 2.0 High 的 81.3；Sol 后端配置得 80.1 排第三。",
+      "title": "Arena 更新 Image-to-WebDev 榜单：GPT-6 Astra 以 1733 分登顶",
+      "summary": "Arena 更新 Image-to-WebDev 排行榜，纳入四个新评测模型。GPT-6 Astra （Max） 以 1733 分居第一，领先 GPT-5.6 Sol （xHigh） 129 分；Claude Fable 5.1 （Max） 以 1710 分排第二，Muse Spark 1.3 （Max） 1645 分第四，GLM-5.3-Flash 1588 分第十。",
       "category": "工具",
       "tags": [
         "OpenAI"
       ],
-      "url": "https://x.com/ArtificialAnlys/status/2099698254414029207",
-      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "url": "https://x.com/arena/status/2099971741993050236",
+      "source": "X：Arena (@arena)",
       "image": null,
-      "time": "2026-09-15T03:14:09.000Z",
+      "time": "2026-09-15T21:20:53.000Z",
       "id": 1
     },
     {
-      "title": "Fireworks 评测 DeepSeek-V4.1-Flash：DeepSWE 达 GPT-6 Astra 水准、成本仅 1/15",
-      "summary": "Fireworks 发布 DeepSeek-V4.1-Flash 并公布完整基准结果：在 DeepSWE 上以 max 档取得 74.34% pass@1，与 GPT-6 Astra 同一水平，但每任务成本 $0.43，约为 Astra 的 1/15。",
-      "category": "AI",
+      "title": "Perplexity 自研 CobbleDB 替代 AWS DynamoDB，每年最多可节省一亿美元",
+      "summary": "Perplexity CEO Aravind Srinivas 宣布自研键值数据库 CobbleDB，替代 AWS DynamoDB 用于快速网页内容抓取，迁移后每年最多可节省一亿美元。该项目由两名工程师和数百个持续运行的 Computer 智能体在两个月内完成核心基础设施，官方研究称热存储批次读取延迟较 DynamoDB 全分布下降约 5 倍（P50 从 31.4ms 降至 5.60ms）。",
+      "category": "行业",
       "tags": [
-        "OpenAI",
-        "DeepSeek"
+        "industry"
       ],
-      "url": "https://fireworks.ai/blog/DeepSeek-V4.1-Flash-Astra",
-      "source": "Fireworks AI（网页）",
+      "url": "https://x.com/AravSrinivas/status/2099957318935028173",
+      "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
       "image": null,
-      "time": "2026-09-15T00:36:35.301Z",
+      "time": "2026-09-15T20:23:34.000Z",
       "id": 2
     },
     {
-      "title": "科技巨头放缓 AI 开发的口头协议是安全共识还是卡特尔",
-      "summary": "Sam Altman、Dario Amodei、Demis Hassabis 和 Elon Musk 周末粗略同意放慢 AI 开发，提出引入第三方审计、监管国内实验室并达成全球放缓协议，批评者则称其为压制竞争者和开源运动的\"卡特尔\"。",
-      "category": "工具",
-      "tags": [
-        "安全"
-      ],
-      "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
-      "source": "The Verge：AI（RSS）",
-      "image": null,
-      "time": "2026-09-14T22:59:41.000Z",
-      "id": 3
-    },
-    {
-      "title": "GPT-5.6 Luna 对比 GPT-6 Astra：$1.20 的模型做代码评审够用吗",
-      "summary": "Entelligence 在 50 个公开基准 PR 上用相同提示词对比 GPT-5.6 Luna 和 GPT-6 Astra 的代码评审能力，Luna 找到 69 个经验证 bug（Astra 92 个），总成本 $0.20 对 $5.66，精度 74% 对 96%。",
-      "category": "工具",
-      "tags": [
-        "OpenAI",
-        "编程"
-      ],
-      "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
-      "source": "Hacker News：AI 热帖",
-      "image": null,
-      "time": "2026-09-14T19:56:20.000Z",
-      "id": 4
-    },
-    {
-      "title": "Anthropic 如何重构测试影响分析服务以应对智能体编码带来的 CI 压力",
-      "summary": "Anthropic 工程师每季度交付的代码量是 2021-2025 年均值的 8 倍，其中 80% 由 Claude 编写，六个月内 CI 任务增长 25 倍。",
-      "category": "工具",
-      "tags": [
-        "Claude",
-        "Agent"
-      ],
-      "url": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic",
-      "source": "Claude：Blog（网页）",
-      "image": null,
-      "time": "2026-09-14T19:15:56.861Z",
-      "id": 5
-    },
-    {
-      "title": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名",
-      "summary": "DeepSeek-V4.1-Flash （Max） 进入 Agent Arena 开源模型第 3 名，净提升 +4.87%，每任务中位成本 $0.07，重塑 Pareto 前沿。其成本比第 2 名 Hy4 preview 低 68%、成绩仅差 0.09 个百分点；总榜排名第 12，Confirmed Success 信号排名 第 4（+13.75%）。",
+      "title": "Claude for Small Business 新增 43 个工作流和 27 个集成，并推出免费培训计划",
+      "summary": "Anthropic 为 Claude for Small Business 新增 43 个工作流和 27 个集成，覆盖 Shopify、Salesforce、Stripe、Gusto 等，该产品自 5 月上线以来安装量超过 90 万次。工作流默认处于审批模式，所有发送、发布或付款需用户确认；今秋将在 10 个美国城市举办免费工作坊，14 个集成伙伴从 9 月底到 11 月各举办一场免费网络研讨会。",
       "category": "AI",
-      "tags": [
-        "Llama",
-        "DeepSeek",
-        "开源"
-      ],
-      "url": "https://x.com/arena/status/2099549108013006958",
-      "source": "X：Arena (@arena)",
-      "image": null,
-      "time": "2026-09-14T17:21:29.000Z",
-      "id": 6
-    },
-    {
-      "title": "Apple 发布新一代 Apple Intelligence，Siri AI 正式以测试版上线",
-      "summary": "Apple 发布新一代 Apple Intelligence，推出全面重构的 Siri AI，支持个人语境理解、屏幕感知、系统级应用操作和跨设备对话，今日起以英文测试版随 2027 系统更新推出，下月扩展至法语、日语、韩语、葡萄牙语和西班牙语。",
-      "category": "AI",
-      "tags": [
-        "ai-products"
-      ],
-      "url": "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here",
-      "source": "Apple：Newsroom（RSS）",
-      "image": null,
-      "time": "2026-09-14T17:09:41.324Z",
-      "id": 7
-    },
-    {
-      "title": "硅基流动上线开源模型 Hy4 preview，770B 总参数、1M 上下文",
-      "summary": "硅基流动（SiliconFlow）宣布开源模型 Hy4 preview 上线其平台。该模型总参数 770B、每 token 激活 49B、支持 1M 上下文，采用 Apache 2.0 协议，面向编码、分析、研究和复杂实际工作。用户可将其接入 Claude Code、Codex、Cursor 等已有工具；图片显示定价为每 1M tokens 输入 $0.834、输出 $2.501、缓存 $0.042。",
-      "category": "AI",
-      "tags": [
-        "Llama",
-        "开源"
-      ],
-      "url": "https://x.com/SiliconFlowAI/status/2099536759168352634",
-      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-      "image": null,
-      "time": "2026-09-14T16:32:25.000Z",
-      "id": 8
-    },
-    {
-      "title": "Anthropic 计划登陆纳斯达克，连续第二季度盈利瞄准 2 万亿美元估值",
-      "summary": "Anthropic 告知投资者将实现连续第二个季度盈利，但该说法基于剔除股权激励等成本的调整后指标；据 Financial Times，毛利率超过 80%，尚未计入对 Amazon 等伙伴的分成和模型训练成本。",
-      "category": "行业",
       "tags": [
         "Claude"
       ],
-      "url": "https://the-decoder.com/anthropic-eyes-nasdaq-listing-as-a-second-profitable-quarter-aims-to-win-over-investors-ahead-of-a-mega-ipo",
-      "source": "The Decoder：AI News（RSS）",
+      "url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
+      "source": "Claude：Blog（网页）",
       "image": null,
-      "time": "2026-09-14T15:46:45.000Z",
-      "id": 9
+      "time": "2026-09-15T17:21:21.489Z",
+      "id": 3
     },
     {
-      "title": "恶意 AI 智能体攻击 RubyGems.org：YARD 执行任意代码与 Fastly 缓存密钥利用分析",
-      "summary": "作者分析被指与 OpenAI 机器人相关的 GemStuffer 恶意 gem 代码，发现其利用 .yardopts 的 --load 加载脚本，在安装或 RubyDoc.info 处理 YARD 文档时执行任意代码，且 Docker 容器有网络访问权限可执行爬取。",
+      "title": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
+      "summary": "Google DeepMind 发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 两个近实时语音对话模型，主打语音智能体和复杂任务执行。",
+      "category": "AI",
+      "tags": [
+        "Gemini"
+      ],
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
+      "source": "Google DeepMind：Blog（RSS）",
+      "image": null,
+      "time": "2026-09-15T17:05:57.000Z",
+      "id": 4
+    },
+    {
+      "title": "Google 发布 TranslateGemma 等多语言 AI 成果，语言技术覆盖 300 多种语言",
+      "summary": "Google 宣布其语言技术已支持超过 300 种语言、覆盖全球 86% 人口，并发布 TranslateGemma 轻量开源翻译模型（基于 Gemini 训练、支持 55 种语言、可离线运行）。",
+      "category": "AI",
+      "tags": [
+        "Gemini"
+      ],
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language",
+      "source": "Google Blog：AI（RSS）",
+      "image": null,
+      "time": "2026-09-15T16:00:00.000Z",
+      "id": 5
+    },
+    {
+      "title": "Gergely Orosz 探访 OpenAI：Codex 驱动的智能体软件工厂",
+      "summary": "Gergely Orosz 实地探访 OpenAI 总部并访谈七位工程师与工程负责人，发现自约一月起 Codex 和 ChatGPT Work 已成为公司几乎所有工作的基础。",
       "category": "工具",
       "tags": [
+        "OpenAI",
         "编程",
         "Agent"
       ],
-      "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive",
-      "source": "Hacker News：AI 热帖",
+      "url": "https://newsletter.pragmaticengineer.com/p/openai-software-factory",
+      "source": "Pragmatic Engineer（RSS）",
       "image": null,
-      "time": "2026-09-14T12:40:57.000Z",
+      "time": "2026-09-15T15:41:25.000Z",
+      "id": 6
+    },
+    {
+      "title": "生数科技发布 Vidu S2：含 Avatar 与 Editing 双模型，探索空间视频",
+      "summary": "生数科技正式发布 Vidu S2，包含面向数字角色实时交互的 Vidu S2-Avatar 和面向视频流实时编辑的 Vidu S2-Editing，并探索面向 VR 头显的实时空间视频生成与编辑。",
+      "category": "AI",
+      "tags": [
+        "视频生成"
+      ],
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkzMDQ5NTQwMQ%3D%3D&mid=2247489246&idx=2&sn=b23b39da69f6c75594eccac11854111f",
+      "source": "公众号：生数科技（Vidu·视频）",
+      "image": null,
+      "time": "2026-09-15T14:30:59.000Z",
+      "id": 7
+    },
+    {
+      "title": "404 Media 曝光 OpenAI 莉莉计划：人工审核 ChatGPT 聊天记录以优化模型",
+      "summary": "404 Media 披露 OpenAI 内部代号为莉莉计划（Project Lily）的项目，由时薪超 50 美元的提示词审核员查看匿名化后的真实用户聊天记录，评判回复是否切题、是否存在 AI 式话术和谄媚口吻。",
+      "category": "工具",
+      "tags": [
+        "OpenAI"
+      ],
+      "url": "https://www.ithome.com/1/002/750.htm",
+      "source": "IT之家（RSS）",
+      "image": null,
+      "time": "2026-09-15T11:48:13.000Z",
+      "id": 8
+    },
+    {
+      "title": "Trail of Bits 批评 1Password 的 AI 补丁基准存在误导，并发布两个补丁验证 Agent 技能",
+      "summary": "Trail of Bits 发文批评 1Password 8月6日发布的 FLAWED 报告，称其 26% 的 AI 干净修复率受四项实验设计选择影响而失真，包括刻意指示智能体应用错误修复的提示词占 22% 数据、36% 的试验禁止编译测试，以及不同推理档位设置。",
+      "category": "工具",
+      "tags": [
+        "Agent"
+      ],
+      "url": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading",
+      "source": "Trail of Bits：AI安全研究",
+      "image": null,
+      "time": "2026-09-15T11:00:00.000Z",
+      "id": 9
+    },
+    {
+      "title": "Anthropic 与 OpenAI 提议协调放缓前沿 AI 开发，Cohere CEO 等批评者质疑其真实动机",
+      "summary": "Anthropic CEO Dario Amodei 呼吁行业与政府协调放缓前沿 AI 开发，并寻求反垄断豁免，Sam Altman 与 Elon Musk 表示同意。",
+      "category": "工具",
+      "tags": [
+        "OpenAI",
+        "Claude"
+      ],
+      "url": "https://the-decoder.com/not-everyone-is-convinced-that-big-ais-proposed-development-slowdown-is-really-about-safety",
+      "source": "The Decoder：AI News（RSS）",
+      "image": null,
+      "time": "2026-09-15T09:04:36.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "deepseek-ai/deepseek-harness",
-      "description": "基于插件架构的时空可组合性开源代理工具",
+      "description": "基于插件架构的深度学习工具",
       "language": "TypeScript",
-      "stars": 224224,
-      "starsToday": 1409,
-      "forks": 26665,
+      "stars": 225550,
+      "starsToday": 1326,
+      "forks": 26855,
       "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 1
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "跨平台AI助手，支持多种聊天平台",
-      "language": "TypeScript",
-      "stars": 389714,
-      "starsToday": 1326,
-      "forks": 81924,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "affaan-m/ECC",
+      "description": "多语言支持，一键安装插件",
+      "language": "JavaScript",
+      "stars": 259406,
+      "starsToday": 951,
+      "forks": 38801,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 2
     },
     {
-      "name": "ultraworkers/claw-code",
-      "description": "基于螃蟹动力的开源工具",
-      "language": "Rust",
-      "stars": 195242,
-      "starsToday": 1169,
-      "forks": 108547,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "ai-sucks-butt/ai-sucks-butt",
+      "description": "AI吐槽仓库",
+      "language": "Unknown",
+      "stars": 864,
+      "starsToday": 864,
+      "forks": 0,
+      "url": "https://github.com/ai-sucks-butt/ai-sucks-butt",
       "rank": 3
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言插件安装指南",
-      "language": "JavaScript",
-      "stars": 258455,
-      "starsToday": 636,
-      "forks": 38660,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "NousResearch/hermes-agent",
+      "description": "自学习AI代理，跨会话知识构建",
+      "language": "Python",
+      "stars": 245912,
+      "starsToday": 363,
+      "forks": 51318,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 4
     },
     {
-      "name": "Chuloo/mural",
-      "description": "通过对话学习语言的iPhone和Android应用",
-      "language": "Kotlin",
-      "stars": 842,
-      "starsToday": 421,
-      "forks": 175,
-      "url": "https://github.com/Chuloo/mural",
+      "name": "farion1231/cc-switch",
+      "description": "多工具集成管理平台",
+      "language": "Rust",
+      "stars": 133064,
+      "starsToday": 327,
+      "forks": 9171,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 5
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自我改进的AI代理，具备内置学习循环",
-      "language": "Python",
-      "stars": 245549,
-      "starsToday": 346,
-      "forks": 51169,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "openai/codex",
+      "description": "本地运行代码助手",
+      "language": "Rust",
+      "stars": 124485,
+      "starsToday": 314,
+      "forks": 19239,
+      "url": "https://github.com/openai/codex",
       "rank": 6
     },
     {
-      "name": "openai/codex",
-      "description": "本地运行的开源AI编码代理",
-      "language": "Rust",
-      "stars": 124171,
-      "starsToday": 284,
-      "forks": 19166,
-      "url": "https://github.com/openai/codex",
+      "name": "yifanzhang-pro/recurrent-looped-tranformer",
+      "description": "循环Transformer，跨提示响应计算",
+      "language": "HTML",
+      "stars": 834,
+      "starsToday": 278,
+      "forks": 81,
+      "url": "https://github.com/yifanzhang-pro/recurrent-looped-tranformer",
       "rank": 7
     },
     {
       "name": "anomalyco/opencode",
-      "description": "开源AI编码代理，多语言支持",
+      "description": "开源AI编码助手",
       "language": "TypeScript",
-      "stars": 207437,
-      "starsToday": 264,
-      "forks": 27217,
+      "stars": 207706,
+      "starsToday": 269,
+      "forks": 27265,
       "url": "https://github.com/anomalyco/opencode",
       "rank": 8
     },
     {
-      "name": "Vincentwei1021/anything2explainer",
-      "description": "将任何主题转换为动画解释视频",
-      "language": "TypeScript",
-      "stars": 1334,
-      "starsToday": 222,
-      "forks": 224,
-      "url": "https://github.com/Vincentwei1021/anything2explainer",
+      "name": "Chuloo/mural",
+      "description": "对话式语言学习应用",
+      "language": "Kotlin",
+      "stars": 1061,
+      "starsToday": 219,
+      "forks": 223,
+      "url": "https://github.com/Chuloo/mural",
       "rank": 9
     },
     {
-      "name": "sumimakito/Mac-Duo",
-      "description": "MacBook上的iPhone Duo效果",
-      "language": "Swift",
-      "stars": 874,
-      "starsToday": 219,
-      "forks": 64,
-      "url": "https://github.com/sumimakito/Mac-Duo",
+      "name": "kruzovic7/ai-data-extractor",
+      "description": "AI编码助手数据提取工具",
+      "language": "Python",
+      "stars": 823,
+      "starsToday": 206,
+      "forks": 132,
+      "url": "https://github.com/kruzovic7/ai-data-extractor",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-09-15",
-    "updatedAt": "2026-09-15T03:33:51.475Z",
+    "date": "2026-09-16",
+    "updatedAt": "2026-09-16T03:30:00.304Z",
     "highlights": [
-      "GPT-Live-1 在语音转换领域取得领先，DeepSeek-V4.1-Flash 成本效益高，科技巨头AI开发放缓引安全讨论，GPT-5.6 Luna 与 GPT-6 Astra 对比，Anthropic 重构测试服务，DeepSeek-V4.1-Flash 开源排名第三，Apple 新一代 AI 发布，硅基流动开源模型 Hy4，Anthropic 盈利计划，恶意AI攻击 RubyGems.org"
+      "GPT-6 Astra 在 Image-to-WebDev 榜单中登顶",
+      "CobbleDB 替代 AWS DynamoDB，节省巨大成本",
+      "Claude for Small Business 推出免费培训计划",
+      "Google DeepMind 发布 Gemini 3.8 版本",
+      "Google 发布多语言 AI 成果覆盖300多种语言"
     ],
     "keywords": [
-      "GPT-Live-1",
-      "DeepSeek-V4.1-Flash",
-      "AI 开发放缓",
-      "GPT-5.6 Luna",
-      "Anthropic",
-      "DeepSeek-V4.1-Flash 开源",
-      "Apple AI",
-      "Hy4",
-      "Anthropic 盈利",
-      "恶意AI攻击"
+      "GPT-6 Astra",
+      "CobbleDB",
+      "Claude for Small Business",
+      "Gemini 3.8",
+      "多语言AI",
+      "OpenAI",
+      "深度学习工具",
+      "AI代理",
+      "开源AI编码助手",
+      "对话式语言学习应用"
     ],
-    "trendingSummary": "今日技术趋势集中在AI领域，特别是语音转换和成本效益高的AI模型，同时关注AI安全与恶意攻击问题，Apple和Anthropic的动作也值得关注。"
+    "trendingSummary": "今日技术资讯显示，AI领域持续快速发展，大型语言模型和深度学习工具备受关注。同时，开源项目和AI在商业领域的应用也日益广泛，预示着未来技术趋势将继续向智能化和开放化发展。"
   }
 }
