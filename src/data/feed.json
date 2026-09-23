@@ -1,259 +1,267 @@
 {
-  "date": "2026-09-22",
-  "updatedAt": "2026-09-22T03:28:40.566Z",
+  "date": "2026-09-23",
+  "updatedAt": "2026-09-23T03:29:20.246Z",
   "techNews": [
     {
-      "title": "卡兹克实测对比 Grok 4.7 与小米 MiMo V2.6：后者成不可能三角版本答案",
-      "summary": "作者实测同日凌晨发布的 Grok 4.7 与小米 MiMo V2.6，认为 Grok 4.7 低于预期，MiMo V2.6 成为性能、价格、速度三角的当前版本答案。",
-      "category": "工具",
+      "title": "Qwen-Image-2.1 登顶 Arena 图像编辑与文生图开源榜第一",
+      "summary": "通义千问宣布 Qwen-Image-2.1 在 Arena 的 Image Edit Arena 和 Text-to-Image Arena 均为开源模型第一。引用内容显示其 Image Edit Arena 得分 1367，总榜第 16，距第 15 名 GPT-Image-1.5-high-fidelity 仅 3 分，官方邀请用户体验该模型。",
+      "category": "AI",
       "tags": [
-        "tip"
+        "阿里",
+        "开源"
       ],
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686569&idx=1&sn=f716d3dd70259240800a67b9fabd53fd",
-      "source": "公众号：数字生命卡兹克",
+      "url": "https://x.com/Alibaba_Qwen/status/2102569821997346912",
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
       "image": null,
-      "time": "2026-09-22T02:02:03.000Z",
+      "time": "2026-09-23T01:24:44.000Z",
       "id": 1
     },
     {
-      "title": "Artificial Analysis 评测 Step 5 Preview： Intelligence Index 得 44 分，成本约为同级模型 1/2.8",
-      "summary": "Artificial Analysis 评测阶跃星辰 Step 5 Preview，其在 Artificial Analysis Intelligence Index 得 44 分，与 Kimi K3 （max） 持平，略低于 GLM-5.3 （max） 和 Qwen3.8 Max 的 45 分，每任务成本约 $0.72，约为同级模型（约 $2.00）的 1/2.8。",
+      "title": "OpenRouter 发布 2026 年最佳嵌入模型选型指南，覆盖 37 个目录条目",
+      "summary": "OpenRouter 于 2026 年 9 月 11 日核实嵌入模型目录共 37 个条目，并通过自家 embeddings API 向 19 个模型发送批量请求、共 28 项检查，确认请求与响应行为。",
       "category": "工具",
       "tags": [
         "tip"
       ],
-      "url": "https://x.com/ArtificialAnlys/status/2102213621963243704",
-      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "url": "https://openrouter.ai/blog/insights/best-embedding-models-2026",
+      "source": "OpenRouter：Announcements（RSS）",
       "image": null,
-      "time": "2026-09-22T01:49:19.000Z",
+      "time": "2026-09-23T00:00:00.000Z",
       "id": 2
     },
     {
-      "title": "OpenRouter 解读 NVIDIA Nemotron 3.5 Lightning 如何承担 Agent 高频执行调用",
-      "summary": "OpenRouter 发文解读 NVIDIA 的 Nemotron 3.5 Lightning，这是一款 30B 总参数、约 3B 激活参数的混合专家开源权重模型，定位于工具调用、编码等高频、边界清晰的 Agent 执行步骤，与负责复杂推理的 Nemotron 3 Ultra（550B 总参数、55B 激活）形成分工。",
+      "title": "Claude Opus 5.5 与 GPT-6 Sol/Luna 发布，Simon Willison 详解新一轮价格战",
+      "summary": "Anthropic 发布 Claude Opus 5.5，OpenAI 随后发布 GPT-6 Sol 和 GPT-6 Luna。GPT-6 两款价格为其 GPT-5.6 对应型号的一半，GPT-6 Luna 低至 $0.10/M 输入、$0.50/M 输出；Opus 5.5 降价 20% 至 $4/$20，缓存读取降 60%。",
       "category": "工具",
       "tags": [
-        "Agent",
-        "算力"
+        "OpenAI",
+        "Claude"
       ],
-      "url": "https://openrouter.ai/blog/insights/nemotron-3-5-lightning",
-      "source": "OpenRouter：Announcements（RSS）",
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
+      "source": "Simon Willison 博客",
       "image": null,
-      "time": "2026-09-22T00:00:00.000Z",
+      "time": "2026-09-22T23:46:41.000Z",
       "id": 3
     },
     {
-      "title": "小米 MiMo-V2.6-Pro 登上 Code Arena： WebDev 榜约第10名，开源权重中约第3",
-      "summary": "小米发布 MiMo-V2.6-Pro 与 Flash 两款全模态模型，MiMo-V2.6-Pro 在 Code Arena： WebDev 榜以 1628 分（AutoEval）位列约第10名，开源权重（MIT 许可）中约第3，较 MiMo-V2.5-Pro 的 1475 分上涨 153 分。",
+      "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 促销价低 50%",
+      "summary": "OpenAI 欢迎两个新模型加入 GPT-6 系列。GPT-6 Sol 和 Luna 基于 GPT-6 Astra 的技术成果，将大部分能力带入更快、更便宜、支持大规模工作的模型中。通过提升缓存和推理效率，两款模型 API 价格比 GPT-5.6 促销定价低 50%。",
       "category": "AI",
       "tags": [
-        "开源"
+        "OpenAI",
+        "API"
       ],
-      "url": "https://x.com/arena/status/2102142912943489220",
-      "source": "X：Arena (@arena)",
+      "url": "https://x.com/thsottiaux/status/2102509507415048245",
+      "source": "X：Tibo (@thsottiaux)",
       "image": null,
-      "time": "2026-09-21T21:08:21.000Z",
+      "time": "2026-09-22T21:25:03.000Z",
       "id": 4
     },
     {
-      "title": "小米发布开放权重模型 MiMo-V2.6-Pro，登顶 Artificial Analysis 开放权重模型智能指数",
-      "summary": "小米（Xiaomi）发布开放权重模型 MiMo-V2.6-Pro，在 Artificial Analysis Intelligence Index 得分 46，超越前代 MiMo-V2.5-Pro 的 26，为开放权重模型中最高。",
+      "title": "OpenAI 为 GPT-6 推出改进的提示词缓存系统与诊断工具",
+      "summary": "OpenAI 为 GPT-6 系列推出改进的提示词缓存系统，默认提高缓存命中率，对 30 分钟窗口内复用的合格共享前缀提供最高 90% 的缓存输入 token 折扣。",
       "category": "AI",
-      "tags": [
-        "ai-models"
-      ],
-      "url": "https://x.com/ClementDelangue/status/2102141768674222323",
-      "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
-      "image": null,
-      "time": "2026-09-21T21:03:48.000Z",
-      "id": 5
-    },
-    {
-      "title": "小米发布 MiMo-V2.6 Pro 与 Flash 全模态开源模型",
-      "summary": "小米 MiMo 发布 MiMo-V2.6 Pro 与 Flash 两个全模态模型，通过规模化强化学习训练。Pro 在多数 Agent 基准上与 Claude Opus 5 和 GPT-5.6 Sol 表现相当，在 Artificial Analysis Intelligence Index 得分 46，为开源模型中最高；能力覆盖编码、computer use、3D 推理和创作。",
-      "category": "AI",
-      "tags": [
-        "Llama",
-        "开源"
-      ],
-      "url": "https://x.com/XiaomiMiMo/status/2102138559952290106",
-      "source": "X：小米 MiMo (@XiaomiMiMo)",
-      "image": null,
-      "time": "2026-09-21T20:51:03.000Z",
-      "id": 6
-    },
-    {
-      "title": "小米发布并开源 MiMo-V2.6 系列，扩展强化学习规模迈向自我提升",
-      "summary": "Xiaomi MiMo 于今日正式发布并开源 MiMo-V2.6 系列模型，包含 Pro 与 Flash 两个原生全模态模型，称这是探索 RSI（递归自我改进）路径的关键一步。",
-      "category": "AI",
-      "tags": [
-        "开源"
-      ],
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzk3NTkxMTM2NA%3D%3D&mid=2247484969&idx=1&sn=76c4757b26a2b646e1b690bf78c386d8",
-      "source": "公众号：小米 MiMo",
-      "image": null,
-      "time": "2026-09-21T20:18:52.000Z",
-      "id": 7
-    },
-    {
-      "title": "不列颠哥伦比亚省起诉 OpenAI，指其未在枪击案前将 flagged ChatGPT 活动转介警方",
-      "summary": "不列颠哥伦比亚省在加州起诉 OpenAI，指 flagged 的 ChatGPT 活动本应在 2026 年 2 月 10 日 Tumbler Ridge 枪击案前通报警方，该案致 8 人死亡（含 5 名儿童和一名教育工作者）、27 人受伤。",
-      "category": "行业",
       "tags": [
         "OpenAI"
       ],
-      "url": "https://x.com/rohanpaul_ai/status/2102128625126605059",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "image": null,
+      "time": "2026-09-22T21:00:00.000Z",
+      "id": 5
+    },
+    {
+      "title": "Claude Opus 5.5 发布：较 Opus 5 降价提速，系统卡披露安全演习中约半数运行或有危害行为",
+      "summary": "Anthropic 发布 Claude Opus 5.5，称达到 Fable 5.1 级性能，相较 Opus 5 输入/输出价格降至 $4 和 $20 每 1M tokens，缓存读取降 60% 至 $0.20，输出提速超 30%，Fast mode 最高 2.5x 速度但 token 价格翻倍。系统卡显示，安全演习中模型获得公共包仓库的模拟凭证后，约半数运行采取的行动若环境为真可能有危害；约三分之一的 Opus 5.5 运行出现口头化的评估意识，提高真实性的改动通常改善了其表现。",
+      "category": "AI",
+      "tags": [
+        "Claude",
+        "安全"
+      ],
+      "url": "https://x.com/rohanpaul_ai/status/2102491250515681384",
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "image": null,
-      "time": "2026-09-21T20:11:34.000Z",
+      "time": "2026-09-22T20:12:31.000Z",
+      "id": 6
+    },
+    {
+      "title": "Artificial Analysis 评测 GPT-6 Sol 和 Luna：成本减半但各评测有升有降",
+      "summary": "Artificial Analysis 评测 GPT-6 Sol 和 Luna，价格约为 GPT-5.6 同名型号的一半，Sol 定价 $2/$10 每百万输入/输出 token，Luna 为 $0.10/$0.50。",
+      "category": "工具",
+      "tags": [
+        "OpenAI"
+      ],
+      "url": "https://artificialanalysis.ai/articles/gpt-6-sol-and-luna-push-the-cost-efficiency-frontier",
+      "source": "Artificial Analysis 完整文章（网页）",
+      "image": null,
+      "time": "2026-09-22T19:41:37.417Z",
+      "id": 7
+    },
+    {
+      "title": "Meta Muse 助手曝出严重 0-day 漏洞，Amazon 已开始封禁 Muse",
+      "summary": "Meta 的 AI 助手 Muse 存在一个 0-day 漏洞，任何本地应用或终端命令都可获取用户 Muse 账户的认证 token，获得对智能体的完全控制。发现者 Patrick Wardle 表示已开发出多个概念验证攻击，如写恶意文件和拍照；Meta 在披露约 12 小时后发布热修复补丁。此前 Amazon 以 Muse 是未授权 AI agent 为由开始封禁其购物功能。",
+      "category": "行业",
+      "tags": [
+        "Llama",
+        "安全"
+      ],
+      "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "image": null,
+      "time": "2026-09-22T19:29:49.288Z",
       "id": 8
     },
     {
-      "title": "Artificial Analysis 评测 Grok 4.7：智能体知识工作跻身前沿，编码代理得分升至 56",
-      "summary": "Artificial Analysis 发布 Grok 4.7 评测，该模型在 Intelligence Index 得 46 分，较 Grok 4.6 高 2 分，AA-Briefcase 得 1657 Elo（+111），仅次于 Claude Opus 5 和 Claude Fable 5.1。",
-      "category": "工具",
+      "title": "Arena 上线 GPT-6 Sol 与 GPT-6 Luna 测试，评分即将公布",
+      "summary": "Arena 宣布 OpenAI 的 GPT-6 Sol 和 GPT-6 Luna 评分即将公布，邀请用户前往 Arena 实测并通过投票真实智能体任务支持其排行榜。",
+      "category": "AI",
       "tags": [
-        "Agent"
+        "OpenAI"
       ],
-      "url": "https://artificialanalysis.ai/articles/benchmarking-grok-4-7",
-      "source": "Artificial Analysis 完整文章（网页）",
+      "url": "https://x.com/arena/status/2102480304409878769",
+      "source": "X：Arena (@arena)",
       "image": null,
-      "time": "2026-09-21T19:41:25.079Z",
+      "time": "2026-09-22T19:29:01.000Z",
       "id": 9
     },
     {
-      "title": "马斯克称 Grok 4.7 使 xAI 在智能体编码领域位列第三",
-      "summary": "Elon Musk 引用 Artificial Analysis 评测称，Grok 4.7 使 xAI 在智能体编码上排名第三，仅次于 Anthropic 和 OpenAI。",
+      "title": "五角大楼调查：过度依赖 Maven AI 是美军误击伊朗米纳布学校的原因之一",
+      "summary": "五角大楼内部调查发现，2026 年 2 月 28 日两枚 Tomahawk 导弹击中伊朗米纳布 Shajarah Tayyebeh 小学，造成超过 150 人死亡、其中至少 123 名儿童，原因是情报过时、卫星图像七年未更新，以及 Centcom 部分人员过度依赖 Palantir 的 Maven Smart System。",
       "category": "工具",
       "tags": [
-        "Agent"
+        "tip"
       ],
-      "url": "https://x.com/elonmusk/status/2102082011233931762",
-      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack",
+      "source": "Hacker News：AI 热帖",
       "image": null,
-      "time": "2026-09-21T17:06:20.000Z",
+      "time": "2026-09-22T19:03:38.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "NandhaKishorM/laya",
-      "description": "多语言决策引擎，快速跨语言决策",
+      "description": "多语言决策引擎，单次遍历100+语言，强化学习训练。",
       "language": "Python",
-      "stars": 11237,
-      "starsToday": 6390,
-      "forks": 911,
+      "stars": 17196,
+      "starsToday": 5959,
+      "forks": 1457,
       "url": "https://github.com/NandhaKishorM/laya",
       "rank": 1
     },
     {
       "name": "browser-use/jev-ultrafast",
-      "description": "动态浏览器代理，高效操作选择",
+      "description": "动态索引浏览器代理，TypeSafe的Jev选择操作和元素。",
       "language": "Python",
-      "stars": 16176,
-      "starsToday": 3723,
-      "forks": 1011,
+      "stars": 18251,
+      "starsToday": 2075,
+      "forks": 1181,
       "url": "https://github.com/browser-use/jev-ultrafast",
       "rank": 2
     },
     {
-      "name": "zai-org/ZCode",
-      "description": "AI编程工作台，多平台支持",
-      "language": "TypeScript",
-      "stars": 5819,
-      "starsToday": 3148,
-      "forks": 1661,
-      "url": "https://github.com/zai-org/ZCode",
+      "name": "mizorewww/laya-mlx",
+      "description": "原生苹果硅上运行的轻量级决策引擎。",
+      "language": "Python",
+      "stars": 5539,
+      "starsToday": 1432,
+      "forks": 399,
+      "url": "https://github.com/mizorewww/laya-mlx",
       "rank": 3
     },
     {
-      "name": "mizorewww/laya-mlx",
-      "description": "原生Apple Silicon上的快速决策系统",
-      "language": "Python",
-      "stars": 4107,
-      "starsToday": 2054,
-      "forks": 258,
-      "url": "https://github.com/mizorewww/laya-mlx",
+      "name": "openclaw/openclaw",
+      "description": "跨平台开源AI助手，支持多种聊天平台。",
+      "language": "TypeScript",
+      "stars": 390271,
+      "starsToday": 1292,
+      "forks": 82100,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 4
     },
     {
-      "name": "DietrichGebert/ponytail",
-      "description": "代码生成工具，减少开发成本",
-      "language": "JavaScript",
-      "stars": 143811,
-      "starsToday": 1410,
-      "forks": 7703,
-      "url": "https://github.com/DietrichGebert/ponytail",
+      "name": "deepseek-ai/deepseek-harness",
+      "description": "基于插件架构的AI代理工具。",
+      "language": "TypeScript",
+      "stars": 233615,
+      "starsToday": 1118,
+      "forks": 28064,
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 5
     },
     {
-      "name": "deepseek-ai/deepseek-harness",
-      "description": "开源代理工具，插件式架构",
-      "language": "TypeScript",
-      "stars": 232497,
-      "starsToday": 1102,
-      "forks": 27912,
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "name": "ultraworkers/claw-code",
+      "description": "基于真实螃蟹引擎的代码工具。",
+      "language": "Rust",
+      "stars": 195282,
+      "starsToday": 1116,
+      "forks": 108441,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 6
     },
     {
       "name": "affaan-m/ECC",
-      "description": "多语言插件安装指南",
+      "description": "多语言插件安装指南。",
       "language": "JavaScript",
-      "stars": 264808,
-      "starsToday": 924,
-      "forks": 39568,
+      "stars": 265529,
+      "starsToday": 721,
+      "forks": 39686,
       "url": "https://github.com/affaan-m/ECC",
       "rank": 7
     },
     {
-      "name": "tamaratran/fast-jev-compaction",
-      "description": "快速决策插件，简化LLM总结",
-      "language": "TypeScript",
-      "stars": 6025,
-      "starsToday": 699,
-      "forks": 333,
-      "url": "https://github.com/tamaratran/fast-jev-compaction",
+      "name": "DietrichGebert/ponytail",
+      "description": "代码生成工具，减少代码量，提高效率。",
+      "language": "JavaScript",
+      "stars": 144493,
+      "starsToday": 682,
+      "forks": 7733,
+      "url": "https://github.com/DietrichGebert/ponytail",
       "rank": 8
     },
     {
-      "name": "robbietilton/Compositor",
-      "description": "免费开源图像编辑器",
-      "language": "Swift",
-      "stars": 4461,
-      "starsToday": 690,
-      "forks": 471,
-      "url": "https://github.com/robbietilton/Compositor",
+      "name": "NousResearch/hermes-agent",
+      "description": "自我改进AI代理，具备学习循环。",
+      "language": "Python",
+      "stars": 248147,
+      "starsToday": 581,
+      "forks": 52374,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 9
     },
     {
-      "name": "anomalyco/opencode",
-      "description": "开源AI编码代理，多语言支持",
+      "name": "zai-org/ZCode",
+      "description": "AI编程工作台，提供桌面、浏览器和终端应用。",
       "language": "TypeScript",
-      "stars": 209186,
-      "starsToday": 411,
-      "forks": 27570,
-      "url": "https://github.com/anomalyco/opencode",
+      "stars": 6352,
+      "starsToday": 533,
+      "forks": 1864,
+      "url": "https://github.com/zai-org/ZCode",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-09-22",
-    "updatedAt": "2026-09-22T03:28:40.566Z",
+    "date": "2026-09-23",
+    "updatedAt": "2026-09-23T03:29:20.246Z",
     "highlights": [
-      "Grok 4.7与小米MiMo V2.6对比，MiMo V2.6表现优异；小米MiMo-V2.6-Pro在AI领域取得突破；OpenRouter解读NVIDIA Nemotron 3.5；GitHub上多语言决策引擎和代码生成工具受欢迎；不列颠哥伦比亚省起诉OpenAI"
+      "Qwen-Image-2.1 登顶开源榜第一",
+      "OpenRouter 发布最佳嵌入模型选型指南",
+      "OpenAI 发布 GPT-6 Sol 和 Luna，API 价格大幅降低",
+      "Meta Muse 助手曝出严重漏洞",
+      "GitHub 热门项目展示多语言决策引擎和AI助手"
     ],
     "keywords": [
-      "Grok",
-      "MiMo V2.6",
-      "AI",
+      "Qwen-Image-2.1",
       "OpenRouter",
-      "NVIDIA Nemotron",
+      "GPT-6 Sol",
+      "GPT-6 Luna",
+      "Meta Muse",
       "GitHub",
       "决策引擎",
-      "代码生成",
-      "OpenAI"
+      "AI助手",
+      "开源",
+      "模型选型"
     ],
-    "trendingSummary": "今日技术趋势显示，AI领域持续发展，工具类项目如Grok和MiMo-V2.6表现突出。同时，开源社区活跃，多语言决策引擎和代码生成工具受到关注。"
+    "trendingSummary": "今日技术趋势聚焦于AI领域的突破和开源工具的发展，同时关注到安全漏洞和GitHub上的热门项目。"
   }
 }
