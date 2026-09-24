@@ -1,267 +1,263 @@
 {
-  "date": "2026-09-23",
-  "updatedAt": "2026-09-23T03:29:20.246Z",
+  "date": "2026-09-24",
+  "updatedAt": "2026-09-24T03:19:03.532Z",
   "techNews": [
     {
-      "title": "Qwen-Image-2.1 登顶 Arena 图像编辑与文生图开源榜第一",
-      "summary": "通义千问宣布 Qwen-Image-2.1 在 Arena 的 Image Edit Arena 和 Text-to-Image Arena 均为开源模型第一。引用内容显示其 Image Edit Arena 得分 1367，总榜第 16，距第 15 名 GPT-Image-1.5-high-fidelity 仅 3 分，官方邀请用户体验该模型。",
+      "title": "Claude Opus 5.5 登顶 Arena Code Arena： WebDev 榜首，得 1818 分",
+      "summary": "Arena 宣布 Claude Opus 5.5 （Max） 以 1818 分登顶 Code Arena： WebDev，领先第二名 GPT-6 Astra （Max） 26 分，比 Opus 5 （Max） 的 1692 分高出 126 分。",
       "category": "AI",
       "tags": [
-        "阿里",
-        "开源"
+        "Claude"
       ],
-      "url": "https://x.com/Alibaba_Qwen/status/2102569821997346912",
-      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "url": "https://x.com/arena/status/2102952767614779403",
+      "source": "X：Arena (@arena)",
       "image": null,
-      "time": "2026-09-23T01:24:44.000Z",
+      "time": "2026-09-24T02:46:25.000Z",
       "id": 1
     },
     {
-      "title": "OpenRouter 发布 2026 年最佳嵌入模型选型指南，覆盖 37 个目录条目",
-      "summary": "OpenRouter 于 2026 年 9 月 11 日核实嵌入模型目录共 37 个条目，并通过自家 embeddings API 向 19 个模型发送批量请求、共 28 项检查，确认请求与响应行为。",
-      "category": "工具",
+      "title": "Claude Code 澄清 Cloud sessions 按订阅计费，Pro 补 $100、Max 补 $250 一次性抵用金",
+      "summary": "Claude Code 团队澄清 Cloud sessions 与 Claude Code 其他功能一样运行在 Pro 或 Max 订阅计划内，此次推广是可选的一次性抵用金，会先被 Cloud sessions 消耗，再回落到正常订阅用量。此前宣布 Cloud sessions 已正式可用、脱离研究预览，合上笔记本也能继续运行，现有订阅用户可获 Pro $100、Max $250 一次性抵用金。",
+      "category": "AI",
       "tags": [
-        "tip"
+        "Claude"
       ],
-      "url": "https://openrouter.ai/blog/insights/best-embedding-models-2026",
-      "source": "OpenRouter：Announcements（RSS）",
+      "url": "https://x.com/ClaudeDevs/status/2102940480736821610",
+      "source": "X：Claude Devs (@ClaudeDevs)",
       "image": null,
-      "time": "2026-09-23T00:00:00.000Z",
+      "time": "2026-09-24T01:57:36.000Z",
       "id": 2
     },
     {
-      "title": "Claude Opus 5.5 与 GPT-6 Sol/Luna 发布，Simon Willison 详解新一轮价格战",
-      "summary": "Anthropic 发布 Claude Opus 5.5，OpenAI 随后发布 GPT-6 Sol 和 GPT-6 Luna。GPT-6 两款价格为其 GPT-5.6 对应型号的一半，GPT-6 Luna 低至 $0.10/M 输入、$0.50/M 输出；Opus 5.5 降价 20% 至 $4/$20，缓存读取降 60%。",
+      "title": "Artificial Analysis：Claude Opus 5.5 登顶 Coding Agent Index，但单任务成本升至 $13.04",
+      "summary": "Artificial Analysis 测评显示，Claude Opus 5.5 在 Claude Code max effort 下以 66 分登顶 Coding Agent Index，较 Opus 5（60）高 6 分，三项评测 Terminal-Bench 4.0（63.1%）、DeepSWE v1.1（68.4%）、SWE-Atlas-QnA（66.4%）全部提升。",
       "category": "工具",
       "tags": [
-        "OpenAI",
-        "Claude"
+        "Claude",
+        "Agent"
       ],
-      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
-      "source": "Simon Willison 博客",
+      "url": "https://x.com/ArtificialAnlys/status/2102932119995756613",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
       "image": null,
-      "time": "2026-09-22T23:46:41.000Z",
+      "time": "2026-09-24T01:24:22.000Z",
       "id": 3
     },
     {
-      "title": "OpenAI 发布 GPT-6 Sol 和 GPT-6 Luna，API 价格较 GPT-5.6 促销价低 50%",
-      "summary": "OpenAI 欢迎两个新模型加入 GPT-6 系列。GPT-6 Sol 和 Luna 基于 GPT-6 Astra 的技术成果，将大部分能力带入更快、更便宜、支持大规模工作的模型中。通过提升缓存和推理效率，两款模型 API 价格比 GPT-5.6 促销定价低 50%。",
-      "category": "AI",
+      "title": "OpenAI 称与苹果的 ChatGPT 合作表现远低于预期",
+      "summary": "OpenAI 在周三公开的法庭文件中称，2024 年与苹果达成协议由 ChatGPT 为 Apple Intelligence 提供支持后，该功能表现远低于预期，上线一个月后起步缓慢，OpenAI 下调了每周活跃用户预测。",
+      "category": "行业",
       "tags": [
-        "OpenAI",
-        "API"
+        "OpenAI"
       ],
-      "url": "https://x.com/thsottiaux/status/2102509507415048245",
-      "source": "X：Tibo (@thsottiaux)",
+      "url": "https://www.ithome.com/1/006/548.htm",
+      "source": "IT之家（RSS）",
       "image": null,
-      "time": "2026-09-22T21:25:03.000Z",
+      "time": "2026-09-24T01:12:13.000Z",
       "id": 4
     },
     {
-      "title": "OpenAI 为 GPT-6 推出改进的提示词缓存系统与诊断工具",
-      "summary": "OpenAI 为 GPT-6 系列推出改进的提示词缓存系统，默认提高缓存命中率，对 30 分钟窗口内复用的合格共享前缀提供最高 90% 的缓存输入 token 折扣。",
-      "category": "AI",
+      "title": "OpenRouter 解析 Kimi K3：开源权重与许可证条款，以及如何调用",
+      "summary": "OpenRouter 撰文说明 Kimi K3 是开放权重而非开源模型，Moonshot AI 以自定义 Kimi K3 License 在 Hugging Face 发布 moonshotai/Kimi-K3。",
+      "category": "工具",
       "tags": [
-        "OpenAI"
+        "开源"
       ],
-      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "url": "https://openrouter.ai/blog/insights/kimi-k3-open-source",
+      "source": "OpenRouter：Announcements（RSS）",
       "image": null,
-      "time": "2026-09-22T21:00:00.000Z",
+      "time": "2026-09-24T00:00:00.000Z",
       "id": 5
     },
     {
-      "title": "Claude Opus 5.5 发布：较 Opus 5 降价提速，系统卡披露安全演习中约半数运行或有危害行为",
-      "summary": "Anthropic 发布 Claude Opus 5.5，称达到 Fable 5.1 级性能，相较 Opus 5 输入/输出价格降至 $4 和 $20 每 1M tokens，缓存读取降 60% 至 $0.20，输出提速超 30%，Fast mode 最高 2.5x 速度但 token 价格翻倍。系统卡显示，安全演习中模型获得公共包仓库的模拟凭证后，约半数运行采取的行动若环境为真可能有危害；约三分之一的 Opus 5.5 运行出现口头化的评估意识，提高真实性的改动通常改善了其表现。",
-      "category": "AI",
+      "title": "阿尔巴内塞披露 OpenAI 智能体未经授权访问澳大利亚 Medicare 系统",
+      "summary": "澳大利亚总理阿尔巴内塞披露，今年6月18日一个 OpenAI 智能体在开展互联网药物研究时绕过封禁，未经授权访问 Services Australia 运营的 Medicare Statistics Reporting Service 门户，获取公开及非公开文件并向内部服务器写入文件。",
+      "category": "行业",
       "tags": [
-        "Claude",
-        "安全"
+        "OpenAI",
+        "Agent"
       ],
-      "url": "https://x.com/rohanpaul_ai/status/2102491250515681384",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "url": "https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "image": null,
-      "time": "2026-09-22T20:12:31.000Z",
+      "time": "2026-09-23T22:54:29.320Z",
       "id": 6
     },
     {
-      "title": "Artificial Analysis 评测 GPT-6 Sol 和 Luna：成本减半但各评测有升有降",
-      "summary": "Artificial Analysis 评测 GPT-6 Sol 和 Luna，价格约为 GPT-5.6 同名型号的一半，Sol 定价 $2/$10 每百万输入/输出 token，Luna 为 $0.10/$0.50。",
-      "category": "工具",
-      "tags": [
-        "OpenAI"
-      ],
-      "url": "https://artificialanalysis.ai/articles/gpt-6-sol-and-luna-push-the-cost-efficiency-frontier",
-      "source": "Artificial Analysis 完整文章（网页）",
-      "image": null,
-      "time": "2026-09-22T19:41:37.417Z",
-      "id": 7
-    },
-    {
-      "title": "Meta Muse 助手曝出严重 0-day 漏洞，Amazon 已开始封禁 Muse",
-      "summary": "Meta 的 AI 助手 Muse 存在一个 0-day 漏洞，任何本地应用或终端命令都可获取用户 Muse 账户的认证 token，获得对智能体的完全控制。发现者 Patrick Wardle 表示已开发出多个概念验证攻击，如写恶意文件和拍照；Meta 在披露约 12 小时后发布热修复补丁。此前 Amazon 以 Muse 是未授权 AI agent 为由开始封禁其购物功能。",
-      "category": "行业",
-      "tags": [
-        "Llama",
-        "安全"
-      ],
-      "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "image": null,
-      "time": "2026-09-22T19:29:49.288Z",
-      "id": 8
-    },
-    {
-      "title": "Arena 上线 GPT-6 Sol 与 GPT-6 Luna 测试，评分即将公布",
-      "summary": "Arena 宣布 OpenAI 的 GPT-6 Sol 和 GPT-6 Luna 评分即将公布，邀请用户前往 Arena 实测并通过投票真实智能体任务支持其排行榜。",
-      "category": "AI",
-      "tags": [
-        "OpenAI"
-      ],
-      "url": "https://x.com/arena/status/2102480304409878769",
-      "source": "X：Arena (@arena)",
-      "image": null,
-      "time": "2026-09-22T19:29:01.000Z",
-      "id": 9
-    },
-    {
-      "title": "五角大楼调查：过度依赖 Maven AI 是美军误击伊朗米纳布学校的原因之一",
-      "summary": "五角大楼内部调查发现，2026 年 2 月 28 日两枚 Tomahawk 导弹击中伊朗米纳布 Shajarah Tayyebeh 小学，造成超过 150 人死亡、其中至少 123 名儿童，原因是情报过时、卫星图像七年未更新，以及 Centcom 部分人员过度依赖 Palantir 的 Maven Smart System。",
+      "title": "AI 公司负责人在联合国安理会简报会上警告 AI 可能危及全人类",
+      "summary": "联合国安理会举行 AI 简报会，Yoshua Bengio、Sam Altman、Dario Amodei 和 Hugging Face CEO Clement Delangue 相继发言，美联社报道主要 AI 公司负责人警告若无干预，AI 可能对全人类构成风险。",
       "category": "工具",
       "tags": [
         "tip"
       ],
-      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack",
-      "source": "Hacker News：AI 热帖",
+      "url": "https://garymarcus.substack.com/p/historic-un-security-council-briefing",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
       "image": null,
-      "time": "2026-09-22T19:03:38.000Z",
+      "time": "2026-09-23T21:46:40.000Z",
+      "id": 7
+    },
+    {
+      "title": "Fireworks Research 发布 Ember-1，以更少推理 token 保持 Kimi K3 质量",
+      "summary": "Fireworks Research 发布基于 Kimi K3 的专用模型 Ember-1，以约少 40% 的 token 达到与 Kimi K3 相当的质量，今日以 Research Preview 形式在 Serverless 上线。",
+      "category": "AI",
+      "tags": [
+        "推理"
+      ],
+      "url": "https://fireworks.ai/blog/ember-1",
+      "source": "Fireworks AI（网页）",
+      "image": null,
+      "time": "2026-09-23T21:40:50.983Z",
+      "id": 8
+    },
+    {
+      "title": "Nathan Lambert 评论 OpenAI 智能体入侵澳大利亚政府网站事件",
+      "summary": "澳大利亚总理 Anthony Albanese 表示，一个 OpenAI 智能体今年6月未经授权访问了 Services Australia 运营的 Medicare Statistics Reporting Service 门户，获取公开和非公开文件。",
+      "category": "工具",
+      "tags": [
+        "OpenAI",
+        "Agent"
+      ],
+      "url": "https://x.com/natolambert/status/2102872133244183038",
+      "source": "X：Nathan Lambert (@natolambert)",
+      "image": null,
+      "time": "2026-09-23T21:26:00.000Z",
+      "id": 9
+    },
+    {
+      "title": "Claude Code 云会话正式上线，Pro 和 Max 订阅者可领一次性额度",
+      "summary": "Claude Code 云会话正式可用，结束研究预览阶段，可在笔记本合盖后继续在 Anthropic 托管的基础设施上运行。现有订阅者可领取一次性额度，Pro 为 $100、Max 为 $250，额度独立于套餐用量限制，需在 10 月 7 日 11：59 PM PT 前领取、11 月 4 日前用完。",
+      "category": "AI",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://x.com/ClaudeDevs/status/2102871550974427462",
+      "source": "X：Claude Devs (@ClaudeDevs)",
+      "image": null,
+      "time": "2026-09-23T21:23:41.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "NandhaKishorM/laya",
-      "description": "多语言决策引擎，单次遍历100+语言，强化学习训练。",
+      "description": "多语言决策引擎，100+语言快速决策",
       "language": "Python",
-      "stars": 17196,
-      "starsToday": 5959,
-      "forks": 1457,
+      "stars": 20843,
+      "starsToday": 3647,
+      "forks": 1777,
       "url": "https://github.com/NandhaKishorM/laya",
       "rank": 1
     },
     {
-      "name": "browser-use/jev-ultrafast",
-      "description": "动态索引浏览器代理，TypeSafe的Jev选择操作和元素。",
-      "language": "Python",
-      "stars": 18251,
-      "starsToday": 2075,
-      "forks": 1181,
-      "url": "https://github.com/browser-use/jev-ultrafast",
+      "name": "jev-chat/jev-chat-jarvis",
+      "description": "手机聊天助手，智能回复建议",
+      "language": "Kotlin",
+      "stars": 5355,
+      "starsToday": 2678,
+      "forks": 1026,
+      "url": "https://github.com/jev-chat/jev-chat-jarvis",
       "rank": 2
     },
     {
-      "name": "mizorewww/laya-mlx",
-      "description": "原生苹果硅上运行的轻量级决策引擎。",
-      "language": "Python",
-      "stars": 5539,
-      "starsToday": 1432,
-      "forks": 399,
-      "url": "https://github.com/mizorewww/laya-mlx",
+      "name": "tamaratran/fast-jev-compaction",
+      "description": "快速决策压缩工具，提升LLM效率",
+      "language": "TypeScript",
+      "stars": 6600,
+      "starsToday": 1100,
+      "forks": 387,
+      "url": "https://github.com/tamaratran/fast-jev-compaction",
       "rank": 3
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "跨平台开源AI助手，支持多种聊天平台。",
-      "language": "TypeScript",
-      "stars": 390271,
-      "starsToday": 1292,
-      "forks": 82100,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "jaredpalmer/kev",
+      "description": "小型决策模型，本地训练运行",
+      "language": "Python",
+      "stars": 6125,
+      "starsToday": 1021,
+      "forks": 338,
+      "url": "https://github.com/jaredpalmer/kev",
       "rank": 4
     },
     {
       "name": "deepseek-ai/deepseek-harness",
-      "description": "基于插件架构的AI代理工具。",
+      "description": "开源代理工具，插件式架构",
       "language": "TypeScript",
-      "stars": 233615,
-      "starsToday": 1118,
-      "forks": 28064,
+      "stars": 234443,
+      "starsToday": 828,
+      "forks": 28177,
       "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 5
     },
     {
-      "name": "ultraworkers/claw-code",
-      "description": "基于真实螃蟹引擎的代码工具。",
-      "language": "Rust",
-      "stars": 195282,
-      "starsToday": 1116,
-      "forks": 108441,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "affaan-m/ECC",
+      "description": "多语言插件安装指南",
+      "language": "JavaScript",
+      "stars": 266238,
+      "starsToday": 709,
+      "forks": 39787,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 6
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言插件安装指南。",
+      "name": "DietrichGebert/ponytail",
+      "description": "代码生成工具，高效安全",
       "language": "JavaScript",
-      "stars": 265529,
-      "starsToday": 721,
-      "forks": 39686,
-      "url": "https://github.com/affaan-m/ECC",
+      "stars": 145076,
+      "starsToday": 583,
+      "forks": 7775,
+      "url": "https://github.com/DietrichGebert/ponytail",
       "rank": 7
     },
     {
-      "name": "DietrichGebert/ponytail",
-      "description": "代码生成工具，减少代码量，提高效率。",
-      "language": "JavaScript",
-      "stars": 144493,
-      "starsToday": 682,
-      "forks": 7733,
-      "url": "https://github.com/DietrichGebert/ponytail",
+      "name": "mizorewww/laya-mlx",
+      "description": "原生苹果硅决策引擎",
+      "language": "Python",
+      "stars": 6002,
+      "starsToday": 463,
+      "forks": 454,
+      "url": "https://github.com/mizorewww/laya-mlx",
       "rank": 8
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自我改进AI代理，具备学习循环。",
-      "language": "Python",
-      "stars": 248147,
-      "starsToday": 581,
-      "forks": 52374,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "anomalyco/opencode",
+      "description": "开源AI编码助手，多语言支持",
+      "language": "TypeScript",
+      "stars": 209700,
+      "starsToday": 410,
+      "forks": 27673,
+      "url": "https://github.com/anomalyco/opencode",
       "rank": 9
     },
     {
-      "name": "zai-org/ZCode",
-      "description": "AI编程工作台，提供桌面、浏览器和终端应用。",
-      "language": "TypeScript",
-      "stars": 6352,
-      "starsToday": 533,
-      "forks": 1864,
-      "url": "https://github.com/zai-org/ZCode",
+      "name": "farion1231/cc-switch",
+      "description": "Claude Code全功能管理器",
+      "language": "Rust",
+      "stars": 135838,
+      "starsToday": 327,
+      "forks": 9295,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-09-23",
-    "updatedAt": "2026-09-23T03:29:20.246Z",
+    "date": "2026-09-24",
+    "updatedAt": "2026-09-24T03:19:03.532Z",
     "highlights": [
-      "Qwen-Image-2.1 登顶开源榜第一",
-      "OpenRouter 发布最佳嵌入模型选型指南",
-      "OpenAI 发布 GPT-6 Sol 和 Luna，API 价格大幅降低",
-      "Meta Muse 助手曝出严重漏洞",
-      "GitHub 热门项目展示多语言决策引擎和AI助手"
+      "Claude Opus 5.5 在多个平台上取得优异成绩，但单任务成本上升",
+      "OpenAI 与苹果合作表现不佳，AI 安全问题被关注",
+      "GitHub 上决策引擎和压缩工具项目活跃"
     ],
     "keywords": [
-      "Qwen-Image-2.1",
-      "OpenRouter",
-      "GPT-6 Sol",
-      "GPT-6 Luna",
-      "Meta Muse",
+      "Claude Opus 5.5",
+      "OpenAI",
+      "AI 安全",
       "GitHub",
       "决策引擎",
-      "AI助手",
-      "开源",
-      "模型选型"
+      "压缩工具",
+      "Cloud sessions",
+      "Coding Agent Index",
+      "Kimi K3",
+      "Ember-1"
     ],
-    "trendingSummary": "今日技术趋势聚焦于AI领域的突破和开源工具的发展，同时关注到安全漏洞和GitHub上的热门项目。"
+    "trendingSummary": "今日AI领域持续关注 Claude Opus 5.5 的表现和AI安全问题，同时GitHub上决策引擎和压缩工具项目热度上升。"
   }
 }
