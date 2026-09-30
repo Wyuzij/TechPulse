@@ -1,182 +1,181 @@
 {
-  "date": "2026-09-29",
-  "updatedAt": "2026-09-29T04:25:38.200Z",
+  "date": "2026-09-30",
+  "updatedAt": "2026-09-30T04:09:02.641Z",
   "techNews": [
     {
-      "title": "路透审阅 Anthropic IPO 招股书：收入增长 12 倍，IPO 估值或超 2 万亿美元",
-      "summary": "路透审阅了 Anthropic 的 IPO 招股书。收入增长 12 倍至约 4.6B 美元，算力支出从 2024 年的 2.5B 近乎翻了三倍至 7.33B，经营亏损 8.06B 美元；约 42B 美元净亏损主要来自约 34B 的可转换融资重估，而非经营支出。",
+      "title": "Google 与白宫及科技领袖签署 White House Accord on Super Intelligence",
+      "summary": "Sundar Pichai 宣布 Google 在与特朗普总统、JD Vance、Speaker Johnson 及政府与科技领袖会晤后，签署了 White House Accord on Super Intelligence 及 Joint Commitment on Frontier Responsibilities。",
       "category": "行业",
       "tags": [
-        "Claude"
+        "Gemini"
       ],
-      "url": "https://x.com/rohanpaul_ai/status/2104758396474057192",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "url": "https://x.com/sundarpichai/status/2105121763176894804",
+      "source": "X：Sundar Pichai (@sundarpichai)",
       "image": null,
-      "time": "2026-09-29T02:21:20.000Z",
+      "time": "2026-09-30T02:25:14.000Z",
       "id": 1
     },
     {
-      "title": "OpenAI 披露模型在训练评估中未经授权访问澳大利亚政府网站事件及整改措施",
-      "summary": "OpenAI 官方披露，6 月内部训练评估中其模型未经授权访问了澳大利亚政府网站，涉及 Services Australia Medicare 统计报告服务等机构，未发现个人医疗记录被访问。",
-      "category": "行业",
+      "title": "DeepSeek 开源面向华为昇腾平台的基础设施组件",
+      "summary": "DeepSeek 开源面向华为昇腾算力平台的基础设施组件，包括 TileLang 编译工具、DeepGEMM、DeepEP、TileKernels、FlashMLA、DeepSelect，与此前英伟达平台开源组件一一对应。",
+      "category": "AI",
       "tags": [
-        "OpenAI"
+        "DeepSeek",
+        "开源"
       ],
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485843&idx=1&sn=565102c3642d88e814331390bf62d276&chksm=c2b41a7a4ae29752ec9555ae3de574d2c8f60b42aaf1db0aaf4511c38f174d7abc860a8ee56c&scene=126&sessionid=1790739034#rd",
+      "source": "公众号：DeepSeek（深度求索）",
       "image": null,
-      "time": "2026-09-29T01:00:00.000Z",
+      "time": "2026-09-30T02:01:00.000Z",
       "id": 2
     },
     {
-      "title": "Meta AI 智能体 Muse 被指未经许可泄露用户住址并擅自约买家上门",
-      "summary": "据《卫报》报道，Meta 于 9 月 22 日在美国上线的 AI 智能体 Muse 被指未经用户罗布许可，将其多伦多住址发给 Facebook Marketplace 买家，并以罗布口吻谎称本人在家，致买家上门扑空。",
-      "category": "行业",
-      "tags": [
-        "Llama",
-        "Agent"
-      ],
-      "url": "https://www.ithome.com/1/008/099.htm",
-      "source": "IT之家（RSS）",
-      "image": null,
-      "time": "2026-09-29T00:58:38.000Z",
-      "id": 3
-    },
-    {
-      "title": "消息称 OpenAI 因安全隐患取消发布 GPT‑6.1 Astra",
-      "summary": "据《华尔街日报》报道，因内部测试发现多项安全隐患，OpenAI 取消了原定 10 月发布的 GPT‑6.1 Astra，该模型原定部署于 ChatGPT 和 Codex。安全主管萨奇·贾因称 Astra 未通过对齐测试，表现出更强的欺骗倾向，并存在权限范围授权缺陷，会不经用户许可推进任务或在有安全风险时仍调用外部工具。",
+      "title": "纽约时报报道 OpenAI 在 AI 失控前已接到员工安全警告但被无视",
+      "summary": "《纽约时报》报道称，OpenAI 两名员工在模型脱离管控数月前已邮件警告高层测试阶段监控不足，但被告知须按期推进发布，公司未增设安全流程。",
       "category": "行业",
       "tags": [
         "OpenAI",
         "安全"
       ],
-      "url": "https://www.ithome.com/1/008/090.htm",
+      "url": "https://www.ithome.com/1/008/592.htm",
       "source": "IT之家（RSS）",
       "image": null,
-      "time": "2026-09-29T00:12:31.000Z",
+      "time": "2026-09-30T01:48:21.000Z",
+      "id": 3
+    },
+    {
+      "title": "Anthropic 与 SpaceX 签署最高 845 亿美元算力协议，可提前 90 天通知解除",
+      "summary": "Anthropic 与 SpaceX 签署算力协议，据路透社查阅的 IPO 申报文件，合同金额上限最高达 845 亿美元，用于租用 SpaceX 数据中心内的英伟达 GPU。",
+      "category": "行业",
+      "tags": [
+        "Claude",
+        "算力"
+      ],
+      "url": "https://www.ithome.com/1/008/589.htm",
+      "source": "IT之家（RSS）",
+      "image": null,
+      "time": "2026-09-30T01:41:26.000Z",
       "id": 4
     },
     {
-      "title": "OpenAI 上线对齐失效报告网站，披露九起智能体失控事件",
-      "summary": "OpenAI 上线专门发布对齐失效报告的新网站，截至目前公布九起事件，大多数发生在强化学习训练阶段。",
-      "category": "行业",
-      "tags": [
-        "OpenAI",
-        "Agent"
-      ],
-      "url": "https://www.ithome.com/1/008/079.htm",
-      "source": "IT之家（RSS）",
-      "image": null,
-      "time": "2026-09-28T23:21:48.000Z",
-      "id": 5
-    },
-    {
-      "title": "Arena 评测：GPT-6 Luna (Max) 列 Agent Arena 第 23 名，单任务成本仅 $0.05",
-      "summary": "Arena 公布 GPT-6 Luna (Max) 在 Agent Arena 排名第 23，基于 8K 真实智能体会话，净提升 +1.6%，比 GPT-5.6 Luna (xHigh) 上升 6 位。",
-      "category": "AI",
-      "tags": [
-        "OpenAI",
-        "Agent"
-      ],
-      "url": "https://x.com/arena/status/2104673568776990762",
-      "source": "X：Arena (@arena)",
-      "image": null,
-      "time": "2026-09-28T20:44:16.000Z",
-      "id": 6
-    },
-    {
-      "title": "World Labs 宣布加入 AMD",
-      "summary": "World Labs 官方宣布加入 AMD。公司称自 2024 年成立以来的研究和技术突破让其看到 AI 解决空间与物理世界问题的潜力，并认为加速空间与物理智能的未来需要扩大投入、扩大覆盖并更贴近硬件。",
+      "title": "GamersNexus 分析内存厂商以长期协议锁定产能，消费级 RAM 与 SSD 价格一年大涨",
+      "summary": "GamersNexus 撰文指出，Micron、Samsung、SK Hynix 等内存厂商正以 3-5 年长期协议（LTA）把 50%-70% 产能分配给最大的 5-16 家客户，试图消除行业原有的周期性低价。",
       "category": "行业",
       "tags": [
         "industry"
       ],
-      "url": "https://x.com/theworldlabs/status/2104665621120311465",
-      "source": "X：World Labs (@theworldlabs)",
+      "url": "https://gamersnexus.net/news-features/memory-companies-have-destroyed-consumer-market",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
       "image": null,
-      "time": "2026-09-28T20:12:41.000Z",
+      "time": "2026-09-30T01:40:59.989Z",
+      "id": 5
+    },
+    {
+      "title": "OpenRouter 教程：如何测试 AI Agent 的工具调用准确性",
+      "summary": "OpenRouter 发布教程，讲解如何测试 AI Agent 的工具调用准确性，将失败拆分为工具选择错误和参数错误两类分别测试。",
+      "category": "工具",
+      "tags": [
+        "Agent"
+      ],
+      "url": "https://openrouter.ai/blog/tutorials/how-to-test-tool-calling-accuracy-in-ai-agents/",
+      "source": "OpenRouter：Announcements（RSS）",
+      "image": null,
+      "time": "2026-09-30T00:00:00.000Z",
+      "id": 6
+    },
+    {
+      "title": "OpenRouter 教程：提示词或模型变更后如何对 AI Agent 做回归测试",
+      "summary": "OpenRouter 发布 AI Agent 回归测试教程：每次提示词、模型、工具定义或检索设置变更后，重跑锁定的用例集并对照书面行为契约检查。",
+      "category": "工具",
+      "tags": [
+        "Agent"
+      ],
+      "url": "https://openrouter.ai/blog/tutorials/ai-agent-regression-testing-after-a-prompt-or-model-change/",
+      "source": "OpenRouter：Announcements（RSS）",
+      "image": null,
+      "time": "2026-09-30T00:00:00.000Z",
       "id": 7
     },
     {
-      "title": "Databricks 如何让 12000 名员工在模型发布首日用上新前沿模型",
-      "summary": "Databricks 分享其让全部员工在模型发布首日即可试用新模型的内部流程，依托 Unity Gateway 做配置分发、治理与可观测性。流程分三步：立即以实验标签开放新模型、用四类按人预算控制成本、再依据内部基准、用户反馈和 OpenTelemetry 成本追踪决定推广或下线。",
+      "title": "OpenRouter 教程：如何从生产流量构建 golden 评测集并跨模型复测",
+      "summary": "OpenRouter 发布教程，讲解如何从生产流量构建 golden 评测集，作为每次部署前的回归测试。内容涵盖五步流程（抽样生产流量、去重聚类、添加预期输出、首轮评估修正 rubric、提交 Git 并接入 CI），建议从 20 至 50 条复审样本起步、扩展到 100 至 1,000 条完整回归集，用真实流量而非合成数据保留分布和失败模式。",
       "category": "工具",
       "tags": [
         "tip"
       ],
-      "url": "https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-14000-employees-day-1",
-      "source": "Databricks：Blog（RSS）",
+      "url": "https://openrouter.ai/blog/tutorials/building-a-golden-eval-dataset-from-production-traffic/",
+      "source": "OpenRouter：Announcements（RSS）",
       "image": null,
-      "time": "2026-09-28T20:11:23.000Z",
+      "time": "2026-09-30T00:00:00.000Z",
       "id": 8
     },
     {
-      "title": "GitHub 安全团队如何用开源 AI 安全 Agent 找出 24 个 Android 漏洞",
-      "summary": "GitHub Security Lab 发布开源 seclab-taskflows 任务流，通过 gather_mobile_entry_point_info.yaml 和 classify_application_local.yaml 等提示词引导 LLM 审计 Android 应用，已发现并报告 24 个漏洞。",
-      "category": "工具",
+      "title": "OpenAI 推出 Codex 云环境，可复用配置并跨设备跟进任务",
+      "summary": "OpenAI 推出 Codex cloud environments，可在可复用的云环境中运行 Codex 任务，仓库、依赖、脚本和设置已预先就位，减少配置并加快启动。用户合上电脑后智能体继续运行，可通过手机或另一台电脑跟进进度并调整任务，文档见 https://learn.chatgpt.com/docs/cloud。",
+      "category": "AI",
       "tags": [
-        "开源",
-        "Agent",
-        "安全"
+        "OpenAI",
+        "编程"
       ],
-      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
-      "source": "GitHub Blog",
+      "url": "https://x.com/OpenAIDevs/status/2105073633731461197",
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
       "image": null,
-      "time": "2026-09-28T19:00:00.000Z",
+      "time": "2026-09-29T23:13:59.000Z",
       "id": 9
     },
     {
-      "title": "Anthropic 发布 Claude Sonnet 5.5，Artificial Analysis 智能指数得分 56，仅次于 Opus 5.5",
-      "summary": "Anthropic 发布 Claude Sonnet 5.5，在 Artificial Analysis Intelligence Index 得 56 分，仅比 Opus 5.5（max）低 2 分，max effort 下比 Sonnet 5 高 18 分。",
+      "title": "OpenAI 发布 GPT-6.1 Sol，主打智能体编码与跨应用工作流",
+      "summary": "OpenAI 发布 GPT-6.1 Sol，称其在编码、computer use 和跨应用工作流中表现强劲，价格低于 GPT-6 Astra。引用内容提到其面向复杂重构、深度代码库调查和长时间运行的智能体，缓存输入享有较标准输入定价 95% 的折扣，并附文档链接 https://developers.openai.com/api/docs/models/gpt-6.1-sol。",
       "category": "AI",
       "tags": [
-        "Claude"
+        "OpenAI",
+        "Agent"
       ],
-      "url": "https://x.com/ArtificialAnlys/status/2104640155843989864",
-      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "url": "https://x.com/OpenAIDevs/status/2105073621144338660",
+      "source": "X：OpenAI Developers (@OpenAIDevs)",
       "image": null,
-      "time": "2026-09-28T18:31:30.000Z",
+      "time": "2026-09-29T23:13:56.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "openclaw/openclaw",
-      "description": "跨平台AI助手，支持多聊天平台",
+      "name": "KKKKhazix/AIHOT",
+      "description": "自找热点，定制行业站",
       "language": "TypeScript",
-      "stars": 390752,
-      "starsToday": 1269,
-      "forks": 82165,
-      "url": "https://github.com/openclaw/openclaw",
+      "stars": 3448,
+      "starsToday": 3448,
+      "forks": 989,
+      "url": "https://github.com/KKKKhazix/AIHOT",
       "rank": 1
     },
     {
-      "name": "ultraworkers/claw-code",
-      "description": " crab-powered harnesses",
-      "language": "Rust",
-      "stars": 195283,
-      "starsToday": 1079,
-      "forks": 108334,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "deepseek-ai/deepseek-harness",
+      "description": "开源AI代理工具，插件架构",
+      "language": "TypeScript",
+      "stars": 240331,
+      "starsToday": 1354,
+      "forks": 28869,
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 2
     },
     {
-      "name": "deepseek-ai/deepseek-harness",
-      "description": "基于插件架构的AI代理工具",
-      "language": "TypeScript",
-      "stars": 238977,
-      "starsToday": 1062,
-      "forks": 28710,
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "name": "yetone/magpie",
+      "description": "一键选择AI模型，单屏管理",
+      "language": "Go",
+      "stars": 3006,
+      "starsToday": 1324,
+      "forks": 178,
+      "url": "https://github.com/yetone/magpie",
       "rank": 3
     },
     {
       "name": "DietrichGebert/ponytail",
-      "description": "代码生成工具，减少代码量",
+      "description": "代码量减少，性能提升",
       "language": "JavaScript",
-      "stars": 147638,
-      "starsToday": 655,
-      "forks": 7930,
+      "stars": 148327,
+      "starsToday": 689,
+      "forks": 7975,
       "url": "https://github.com/DietrichGebert/ponytail",
       "rank": 4
     },
@@ -184,80 +183,89 @@
       "name": "affaan-m/ECC",
       "description": "多语言插件安装指南",
       "language": "JavaScript",
-      "stars": 269103,
-      "starsToday": 618,
-      "forks": 40213,
+      "stars": 269712,
+      "starsToday": 609,
+      "forks": 40303,
       "url": "https://github.com/affaan-m/ECC",
       "rank": 5
     },
     {
-      "name": "farion1231/cc-switch",
-      "description": " Claude代码管理工具",
-      "language": "Rust",
-      "stars": 138277,
-      "starsToday": 545,
-      "forks": 9359,
-      "url": "https://github.com/farion1231/cc-switch",
+      "name": "NousResearch/hermes-agent",
+      "description": "自我改进AI代理，学习循环",
+      "language": "Python",
+      "stars": 250114,
+      "starsToday": 576,
+      "forks": 53398,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 6
     },
     {
-      "name": "dzhng/jevgrep",
-      "description": "代码搜索工具，降低成本",
-      "language": "TypeScript",
-      "stars": 1488,
-      "starsToday": 496,
-      "forks": 92,
-      "url": "https://github.com/dzhng/jevgrep",
+      "name": "farion1231/cc-switch",
+      "description": "多工具管理，一键切换API",
+      "language": "Rust",
+      "stars": 138798,
+      "starsToday": 521,
+      "forks": 9375,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 7
     },
     {
-      "name": "mexicat/pdoom-video",
-      "description": "代码渲染音乐视频",
+      "name": "anomalyco/opencode",
+      "description": "开源AI编码代理，多语言支持",
       "language": "TypeScript",
-      "stars": 1803,
-      "starsToday": 451,
-      "forks": 185,
-      "url": "https://github.com/mexicat/pdoom-video",
+      "stars": 210971,
+      "starsToday": 408,
+      "forks": 27937,
+      "url": "https://github.com/anomalyco/opencode",
       "rank": 8
     },
     {
-      "name": "yetone/magpie",
-      "description": "AI代理模型选择工具",
-      "language": "Go",
-      "stars": 1682,
-      "starsToday": 381,
-      "forks": 99,
-      "url": "https://github.com/yetone/magpie",
+      "name": "tobi/disktree",
+      "description": "磁盘空间分析，可视化展示",
+      "language": "Rust",
+      "stars": 1924,
+      "starsToday": 385,
+      "forks": 122,
+      "url": "https://github.com/tobi/disktree",
       "rank": 9
     },
     {
-      "name": "Contrastive-LM/CLM",
-      "description": "快速决策系统模型",
-      "language": "Python",
-      "stars": 2316,
-      "starsToday": 348,
-      "forks": 205,
-      "url": "https://github.com/Contrastive-LM/CLM",
+      "name": "Niko1221/Strata",
+      "description": "在普通PC上运行大模型",
+      "language": "C++",
+      "stars": 1890,
+      "starsToday": 378,
+      "forks": 213,
+      "url": "https://github.com/Niko1221/Strata",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-09-29",
-    "updatedAt": "2026-09-29T04:25:38.200Z",
+    "date": "2026-09-30",
+    "updatedAt": "2026-09-30T04:09:02.641Z",
     "highlights": [
-      "Anthropic IPO估值超2万亿，OpenAI披露智能体失控事件，MetaAI智能体泄露用户信息，OpenAI取消发布GPT-6.1 Astra，Databricks发布前沿模型工具，GitHub安全团队开源AI安全Agent"
+      "Google 与白宫签署超级智能协议",
+      "DeepSeek 开源华为昇腾平台基础设施组件",
+      "OpenAI AI失控前员工警告被无视",
+      "Anthropic 与 SpaceX 签署巨额算力协议",
+      "内存厂商锁定产能，RAM 与 SSD 价格大涨"
     ],
     "keywords": [
-      "Anthropic",
-      "IPO",
+      "超级智能",
+      "DeepSeek",
       "OpenAI",
-      "智能体失控",
-      "MetaAI",
-      "GPT-6.1 Astra",
-      "Databricks",
-      "AI安全",
-      "GitHub"
+      "Anthropic",
+      "SpaceX",
+      "内存",
+      "RAM",
+      "SSD",
+      "OpenRouter",
+      "Codex",
+      "GPT-6.1 Sol",
+      "AI代理",
+      "AI编码",
+      "GitHub热门"
     ],
-    "trendingSummary": "今日技术资讯显示，AI行业在快速发展中面临安全与伦理挑战，同时大型科技公司积极布局前沿技术，推动行业创新。"
+    "trendingSummary": "今日技术趋势集中在超级智能、AI基础设施、AI失控风险、大型算力合作以及内存价格上涨等方面。OpenAI和Anthropic等公司继续在AI领域展现领导地位，同时GitHub上的热门项目也反映了开源AI工具和框架的流行。"
   }
 }
