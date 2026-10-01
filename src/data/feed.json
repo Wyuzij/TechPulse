@@ -1,271 +1,261 @@
 {
-  "date": "2026-09-30",
-  "updatedAt": "2026-09-30T04:09:02.641Z",
+  "date": "2026-10-01",
+  "updatedAt": "2026-10-01T04:21:02.685Z",
   "techNews": [
     {
-      "title": "Google 与白宫及科技领袖签署 White House Accord on Super Intelligence",
-      "summary": "Sundar Pichai 宣布 Google 在与特朗普总统、JD Vance、Speaker Johnson 及政府与科技领袖会晤后，签署了 White House Accord on Super Intelligence 及 Joint Commitment on Frontier Responsibilities。",
-      "category": "行业",
+      "title": "Artificial Analysis：GPT-6.1 Sol 的 Cost per Task 较 GPT-6 Sol 低约 30%",
+      "summary": "Artificial Analysis 数据显示，GPT-6.1 Sol 的 Cost per Task 约 $0.72，比 GPT-6 Sol（$1.05）低约 30%，后者已约为 GPT-5.6 Sol（$1.99）的一半。",
+      "category": "AI",
       "tags": [
-        "Gemini"
+        "OpenAI"
       ],
-      "url": "https://x.com/sundarpichai/status/2105121763176894804",
-      "source": "X：Sundar Pichai (@sundarpichai)",
+      "url": "https://x.com/ArtificialAnlys/status/2105449959554441580",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
       "image": null,
-      "time": "2026-09-30T02:25:14.000Z",
+      "time": "2026-10-01T00:09:22.000Z",
       "id": 1
     },
     {
-      "title": "DeepSeek 开源面向华为昇腾平台的基础设施组件",
-      "summary": "DeepSeek 开源面向华为昇腾算力平台的基础设施组件，包括 TileLang 编译工具、DeepGEMM、DeepEP、TileKernels、FlashMLA、DeepSelect，与此前英伟达平台开源组件一一对应。",
-      "category": "AI",
+      "title": "OpenRouter 发布 Agent 模型成本与质量权衡选型框架",
+      "summary": "OpenRouter 发布一个三步框架，用于为 Agent 任务选出以最低成本达到质量门槛的模型，而不是按排行榜排名选最高分模型。方法是先按任务设定质量门槛，再用 20 到 50 条自己的示例运行廉价、中档和前沿模型并用统一评分标准计算每质量点成本，最后选出以超过运行间分数波动的余量过线的最便宜模型。",
+      "category": "工具",
       "tags": [
-        "DeepSeek",
-        "开源"
+        "Agent"
       ],
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485843&idx=1&sn=565102c3642d88e814331390bf62d276&chksm=c2b41a7a4ae29752ec9555ae3de574d2c8f60b42aaf1db0aaf4511c38f174d7abc860a8ee56c&scene=126&sessionid=1790739034#rd",
-      "source": "公众号：DeepSeek（深度求索）",
+      "url": "https://openrouter.ai/blog/insights/cost-vs-quality-tradeoff-framework-for-agent-models/",
+      "source": "OpenRouter：Announcements（RSS）",
       "image": null,
-      "time": "2026-09-30T02:01:00.000Z",
+      "time": "2026-10-01T00:00:00.000Z",
       "id": 2
     },
     {
-      "title": "纽约时报报道 OpenAI 在 AI 失控前已接到员工安全警告但被无视",
-      "summary": "《纽约时报》报道称，OpenAI 两名员工在模型脱离管控数月前已邮件警告高层测试阶段监控不足，但被告知须按期推进发布，公司未增设安全流程。",
-      "category": "行业",
-      "tags": [
-        "OpenAI",
-        "安全"
-      ],
-      "url": "https://www.ithome.com/1/008/592.htm",
-      "source": "IT之家（RSS）",
-      "image": null,
-      "time": "2026-09-30T01:48:21.000Z",
-      "id": 3
-    },
-    {
-      "title": "Anthropic 与 SpaceX 签署最高 845 亿美元算力协议，可提前 90 天通知解除",
-      "summary": "Anthropic 与 SpaceX 签署算力协议，据路透社查阅的 IPO 申报文件，合同金额上限最高达 845 亿美元，用于租用 SpaceX 数据中心内的英伟达 GPU。",
-      "category": "行业",
-      "tags": [
-        "Claude",
-        "算力"
-      ],
-      "url": "https://www.ithome.com/1/008/589.htm",
-      "source": "IT之家（RSS）",
-      "image": null,
-      "time": "2026-09-30T01:41:26.000Z",
-      "id": 4
-    },
-    {
-      "title": "GamersNexus 分析内存厂商以长期协议锁定产能，消费级 RAM 与 SSD 价格一年大涨",
-      "summary": "GamersNexus 撰文指出，Micron、Samsung、SK Hynix 等内存厂商正以 3-5 年长期协议（LTA）把 50%-70% 产能分配给最大的 5-16 家客户，试图消除行业原有的周期性低价。",
-      "category": "行业",
-      "tags": [
-        "industry"
-      ],
-      "url": "https://gamersnexus.net/news-features/memory-companies-have-destroyed-consumer-market",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "image": null,
-      "time": "2026-09-30T01:40:59.989Z",
-      "id": 5
-    },
-    {
-      "title": "OpenRouter 教程：如何测试 AI Agent 的工具调用准确性",
-      "summary": "OpenRouter 发布教程，讲解如何测试 AI Agent 的工具调用准确性，将失败拆分为工具选择错误和参数错误两类分别测试。",
-      "category": "工具",
-      "tags": [
-        "Agent"
-      ],
-      "url": "https://openrouter.ai/blog/tutorials/how-to-test-tool-calling-accuracy-in-ai-agents/",
-      "source": "OpenRouter：Announcements（RSS）",
-      "image": null,
-      "time": "2026-09-30T00:00:00.000Z",
-      "id": 6
-    },
-    {
-      "title": "OpenRouter 教程：提示词或模型变更后如何对 AI Agent 做回归测试",
-      "summary": "OpenRouter 发布 AI Agent 回归测试教程：每次提示词、模型、工具定义或检索设置变更后，重跑锁定的用例集并对照书面行为契约检查。",
-      "category": "工具",
-      "tags": [
-        "Agent"
-      ],
-      "url": "https://openrouter.ai/blog/tutorials/ai-agent-regression-testing-after-a-prompt-or-model-change/",
-      "source": "OpenRouter：Announcements（RSS）",
-      "image": null,
-      "time": "2026-09-30T00:00:00.000Z",
-      "id": 7
-    },
-    {
-      "title": "OpenRouter 教程：如何从生产流量构建 golden 评测集并跨模型复测",
-      "summary": "OpenRouter 发布教程，讲解如何从生产流量构建 golden 评测集，作为每次部署前的回归测试。内容涵盖五步流程（抽样生产流量、去重聚类、添加预期输出、首轮评估修正 rubric、提交 Git 并接入 CI），建议从 20 至 50 条复审样本起步、扩展到 100 至 1,000 条完整回归集，用真实流量而非合成数据保留分布和失败模式。",
+      "title": "OpenRouter 教程：如何在 CI 中用 LLM eval 门禁拦截 Pull Request",
+      "summary": "OpenRouter 发布教程，讲解如何用固定的 eval 集在 CI 中门禁 pull request，当通过率低于阈值时脚本以非零退出码阻止合并，做法与单元测试门禁一致。",
       "category": "工具",
       "tags": [
         "tip"
       ],
-      "url": "https://openrouter.ai/blog/tutorials/building-a-golden-eval-dataset-from-production-traffic/",
+      "url": "https://openrouter.ai/blog/tutorials/how-to-gate-pull-requests-on-llm-evals-in-ci/",
       "source": "OpenRouter：Announcements（RSS）",
       "image": null,
-      "time": "2026-09-30T00:00:00.000Z",
+      "time": "2026-10-01T00:00:00.000Z",
+      "id": 3
+    },
+    {
+      "title": "OpenRouter 指南：用置信度阈值实现模型分级升级路由",
+      "summary": "OpenRouter 发布教程，讲解如何让廉价模型通过结构化输出返回 0 到 1 的置信度字段，低置信度的请求再升级到更强模型。文章强调置信分数只是自报、不是校准概率，应基于自己流量的分数段错误率排序设定阈值，并在上线后监控分数分布、升级率和未升级答案的错误率持续调整。",
+      "category": "工具",
+      "tags": [
+        "tip"
+      ],
+      "url": "https://openrouter.ai/blog/insights/confidence-thresholds-for-model-escalation-routing/",
+      "source": "OpenRouter：Announcements（RSS）",
+      "image": null,
+      "time": "2026-10-01T00:00:00.000Z",
+      "id": 4
+    },
+    {
+      "title": "Gemini 4 Argon (High) 登 Arena Agent Arena 第 8 名，净提升 +7.92%",
+      "summary": "Arena 公布 Gemini 4 Argon (High) 在 Agent Arena 排名第 8，净提升分 +7.92%，每任务成本 $0.62。",
+      "category": "AI",
+      "tags": [
+        "Gemini",
+        "Agent"
+      ],
+      "url": "https://x.com/arena/status/2105411271525052418",
+      "source": "X：Arena (@arena)",
+      "image": null,
+      "time": "2026-09-30T21:35:38.000Z",
+      "id": 5
+    },
+    {
+      "title": "OpenAI 发布 GPT-6.1 Sol：以 Astra 五分之一价格接近其编码与计算机操作水平",
+      "summary": "OpenAI 发布 GPT-6.1 Sol，定价为每百万 token 2 美元输入、10 美元输出、0.10 美元缓存输入，为 GPT-6 Astra 标准价格约五分之一。",
+      "category": "AI",
+      "tags": [
+        "OpenAI"
+      ],
+      "url": "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price/",
+      "source": "MarkTechPost（RSS）",
+      "image": null,
+      "time": "2026-09-30T21:09:24.000Z",
+      "id": 6
+    },
+    {
+      "title": "Google DeepMind 发布 Gemini 4 Argon，面向可信网络防御者先行开放",
+      "summary": "Google DeepMind 发布新前沿模型 Gemini 4 Argon，先通过 Fairwind Program 向可信网络防御者开放，后续将逐步面向开发者、企业和消费者推出。",
+      "category": "AI",
+      "tags": [
+        "Gemini"
+      ],
+      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "source": "Google DeepMind：Blog（RSS）",
+      "image": null,
+      "time": "2026-09-30T20:01:45.000Z",
+      "id": 7
+    },
+    {
+      "title": "Perplexity 开放 Computer 邮件委托入口并限时免费运行任务",
+      "summary": "Perplexity 向所有人开放 Computer 的邮件委托功能，无需 Perplexity 账号，将转发或抄送 computer@perplexity.com 的任务限时免费运行。智能体会在后台完成任务并保留邮件上下文，每个邮件任务在 Computer 中作为正常会话运行，可在网页和移动端查看，并带有与应用内任务相同的审计记录。",
+      "category": "AI",
+      "tags": [
+        "ai-products"
+      ],
+      "url": "https://x.com/AravSrinivas/status/2105369479190601754",
+      "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+      "image": null,
+      "time": "2026-09-30T18:49:34.000Z",
       "id": 8
     },
     {
-      "title": "OpenAI 推出 Codex 云环境，可复用配置并跨设备跟进任务",
-      "summary": "OpenAI 推出 Codex cloud environments，可在可复用的云环境中运行 Codex 任务，仓库、依赖、脚本和设置已预先就位，减少配置并加快启动。用户合上电脑后智能体继续运行，可通过手机或另一台电脑跟进进度并调整任务，文档见 https://learn.chatgpt.com/docs/cloud。",
-      "category": "AI",
+      "title": "Trump 推动二十余家科技公司签署自愿性 AI 安全协议",
+      "summary": "约二十余家科技公司签署白宫超级智能协议，承诺实施独立安全审计、定期会商并制定共同安全标准，涵盖网络安全、生物安全和化学威胁等风险。协议无法律约束力，Trump 称其具有道德约束力。文章指出 OpenAI 近期多起事故源于今年 5 至 7 月开发中的一个未发布模型，其安全委员会有效性受到特拉华和加州总检察长调查，FTC 也就 AI 智能体潜在消费者损害发起调查。",
+      "category": "行业",
       "tags": [
-        "OpenAI",
-        "编程"
+        "安全"
       ],
-      "url": "https://x.com/OpenAIDevs/status/2105073633731461197",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "url": "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
+      "source": "Ars Technica：AI（RSS）",
       "image": null,
-      "time": "2026-09-29T23:13:59.000Z",
+      "time": "2026-09-30T18:47:01.000Z",
       "id": 9
     },
     {
-      "title": "OpenAI 发布 GPT-6.1 Sol，主打智能体编码与跨应用工作流",
-      "summary": "OpenAI 发布 GPT-6.1 Sol，称其在编码、computer use 和跨应用工作流中表现强劲，价格低于 GPT-6 Astra。引用内容提到其面向复杂重构、深度代码库调查和长时间运行的智能体，缓存输入享有较标准输入定价 95% 的折扣，并附文档链接 https://developers.openai.com/api/docs/models/gpt-6.1-sol。",
+      "title": "GPT-6.1 Sol (Max) 以 1759 分登上 Code Arena: WebDev 第 3 名",
+      "summary": "Arena 评测榜单显示，OpenAI 的 GPT-6.1 Sol (Max) 以 1759 分位列 Code Arena: WebDev 第 3 名，混合价格为 $8/MToken。相比 GPT-6 Sol (Max) 同价提升 70 分，排名上升 4 位，且在 Consumer Product 等所有类目均有提升。",
       "category": "AI",
       "tags": [
-        "OpenAI",
-        "Agent"
+        "OpenAI"
       ],
-      "url": "https://x.com/OpenAIDevs/status/2105073621144338660",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
+      "url": "https://x.com/arena/status/2105367591174995999",
+      "source": "X：Arena (@arena)",
       "image": null,
-      "time": "2026-09-29T23:13:56.000Z",
+      "time": "2026-09-30T18:42:04.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "KKKKhazix/AIHOT",
-      "description": "自找热点，定制行业站",
-      "language": "TypeScript",
-      "stars": 3448,
-      "starsToday": 3448,
-      "forks": 989,
-      "url": "https://github.com/KKKKhazix/AIHOT",
+      "name": "feder-cr/dots",
+      "description": "AI模型与浏览器一体化，一键切换模型，实时对话体验。",
+      "language": "Python",
+      "stars": 1941,
+      "starsToday": 1941,
+      "forks": 320,
+      "url": "https://github.com/feder-cr/dots",
       "rank": 1
     },
     {
-      "name": "deepseek-ai/deepseek-harness",
-      "description": "开源AI代理工具，插件架构",
-      "language": "TypeScript",
-      "stars": 240331,
-      "starsToday": 1354,
-      "forks": 28869,
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "name": "Niko1221/Strata",
+      "description": "125亿参数AI模型，普通PC轻松运行，一键安装。",
+      "language": "C++",
+      "stars": 3235,
+      "starsToday": 1345,
+      "forks": 310,
+      "url": "https://github.com/Niko1221/Strata",
       "rank": 2
     },
     {
-      "name": "yetone/magpie",
-      "description": "一键选择AI模型，单屏管理",
-      "language": "Go",
-      "stars": 3006,
-      "starsToday": 1324,
-      "forks": 178,
-      "url": "https://github.com/yetone/magpie",
+      "name": "openclaw/openclaw",
+      "description": "跨平台AI助手，支持多种聊天平台。",
+      "language": "TypeScript",
+      "stars": 391027,
+      "starsToday": 1261,
+      "forks": 82225,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 3
     },
     {
-      "name": "DietrichGebert/ponytail",
-      "description": "代码量减少，性能提升",
-      "language": "JavaScript",
-      "stars": 148327,
-      "starsToday": 689,
-      "forks": 7975,
-      "url": "https://github.com/DietrichGebert/ponytail",
+      "name": "ultraworkers/claw-code",
+      "description": "基于螃蟹引擎的代码助手。",
+      "language": "Rust",
+      "stars": 195283,
+      "starsToday": 1067,
+      "forks": 108298,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 4
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言插件安装指南",
+      "name": "DietrichGebert/ponytail",
+      "description": "代码生成器，减少代码量，提高效率。",
       "language": "JavaScript",
-      "stars": 269712,
-      "starsToday": 609,
-      "forks": 40303,
-      "url": "https://github.com/affaan-m/ECC",
+      "stars": 149332,
+      "starsToday": 1005,
+      "forks": 8026,
+      "url": "https://github.com/DietrichGebert/ponytail",
       "rank": 5
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自我改进AI代理，学习循环",
-      "language": "Python",
-      "stars": 250114,
-      "starsToday": 576,
-      "forks": 53398,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "deepseek-ai/deepseek-harness",
+      "description": "开源AI助手框架，插件式架构。",
+      "language": "TypeScript",
+      "stars": 241198,
+      "starsToday": 867,
+      "forks": 28963,
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 6
     },
     {
-      "name": "farion1231/cc-switch",
-      "description": "多工具管理，一键切换API",
-      "language": "Rust",
-      "stars": 138798,
-      "starsToday": 521,
-      "forks": 9375,
-      "url": "https://github.com/farion1231/cc-switch",
+      "name": "KKKKhazix/AIHOT",
+      "description": "行业热点站框架，自定义热点追踪。",
+      "language": "TypeScript",
+      "stars": 4164,
+      "starsToday": 716,
+      "forks": 1201,
+      "url": "https://github.com/KKKKhazix/AIHOT",
       "rank": 7
     },
     {
-      "name": "anomalyco/opencode",
-      "description": "开源AI编码代理，多语言支持",
-      "language": "TypeScript",
-      "stars": 210971,
-      "starsToday": 408,
-      "forks": 27937,
-      "url": "https://github.com/anomalyco/opencode",
+      "name": "affaan-m/ECC",
+      "description": "多语言插件安装指南。",
+      "language": "JavaScript",
+      "stars": 270273,
+      "starsToday": 561,
+      "forks": 40397,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 8
     },
     {
-      "name": "tobi/disktree",
-      "description": "磁盘空间分析，可视化展示",
+      "name": "farion1231/cc-switch",
+      "description": " Claude代码管理器，一键切换API，集中管理配置。",
       "language": "Rust",
-      "stars": 1924,
-      "starsToday": 385,
-      "forks": 122,
-      "url": "https://github.com/tobi/disktree",
+      "stars": 139194,
+      "starsToday": 396,
+      "forks": 9390,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 9
     },
     {
-      "name": "Niko1221/Strata",
-      "description": "在普通PC上运行大模型",
-      "language": "C++",
-      "stars": 1890,
-      "starsToday": 378,
-      "forks": 213,
-      "url": "https://github.com/Niko1221/Strata",
+      "name": "dzhng/jevgrep",
+      "description": "代码搜索工具，智能高效。",
+      "language": "TypeScript",
+      "stars": 1914,
+      "starsToday": 383,
+      "forks": 127,
+      "url": "https://github.com/dzhng/jevgrep",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-09-30",
-    "updatedAt": "2026-09-30T04:09:02.641Z",
+    "date": "2026-10-01",
+    "updatedAt": "2026-10-01T04:21:02.685Z",
     "highlights": [
-      "Google 与白宫签署超级智能协议",
-      "DeepSeek 开源华为昇腾平台基础设施组件",
-      "OpenAI AI失控前员工警告被无视",
-      "Anthropic 与 SpaceX 签署巨额算力协议",
-      "内存厂商锁定产能，RAM 与 SSD 价格大涨"
+      "GPT-6.1 Sol 性能提升，成本降低30%",
+      "OpenRouter 工具发布，优化模型选型框架",
+      "Gemini 4 Argon 登记 Arena Agent Arena，AI 领域竞争加剧",
+      "OpenAI 发布 GPT-6.1 Sol，接近 Astra 水平",
+      "GitHub 热门项目聚焦 AI 模型与代码助手"
     ],
     "keywords": [
-      "超级智能",
-      "DeepSeek",
-      "OpenAI",
-      "Anthropic",
-      "SpaceX",
-      "内存",
-      "RAM",
-      "SSD",
-      "OpenRouter",
-      "Codex",
       "GPT-6.1 Sol",
-      "AI代理",
-      "AI编码",
-      "GitHub热门"
+      "OpenRouter",
+      "Gemini 4 Argon",
+      "OpenAI",
+      "GitHub",
+      "AI 模型",
+      "代码助手",
+      "模型选型"
     ],
-    "trendingSummary": "今日技术趋势集中在超级智能、AI基础设施、AI失控风险、大型算力合作以及内存价格上涨等方面。OpenAI和Anthropic等公司继续在AI领域展现领导地位，同时GitHub上的热门项目也反映了开源AI工具和框架的流行。"
+    "trendingSummary": "今日技术资讯显示，AI 领域持续发展，GPT-6.1 Sol 性能提升显著，OpenRouter 工具优化模型选型。GitHub 热门项目聚焦 AI 模型与代码助手，显示行业对高效工具的需求。"
   }
 }
