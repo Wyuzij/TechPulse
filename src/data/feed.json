@@ -1,261 +1,271 @@
 {
-  "date": "2026-10-01",
-  "updatedAt": "2026-10-01T04:21:02.685Z",
+  "date": "2026-10-02",
+  "updatedAt": "2026-10-02T04:14:06.446Z",
   "techNews": [
     {
-      "title": "Artificial Analysis：GPT-6.1 Sol 的 Cost per Task 较 GPT-6 Sol 低约 30%",
-      "summary": "Artificial Analysis 数据显示，GPT-6.1 Sol 的 Cost per Task 约 $0.72，比 GPT-6 Sol（$1.05）低约 30%，后者已约为 GPT-5.6 Sol（$1.99）的一半。",
-      "category": "AI",
+      "title": "Google 首次轨道 AI 芯片试验确认在轨运行正常",
+      "summary": "Google 确认其首个轨道 AI 芯片试验已入轨并取得联系，运行符合预期。卫星于 2026 年 10 月 1 日由 SpaceX Falcon 9 Transporter-18 从范登堡发射，搭载 4 颗 Trillium TPU（v6e），运行 Gemini 推理，每次约 15 分钟后停机让辐射器散热；散热依赖热管与红外辐射器而非风扇。",
+      "category": "行业",
       "tags": [
-        "OpenAI"
+        "Gemini",
+        "算力"
       ],
-      "url": "https://x.com/ArtificialAnlys/status/2105449959554441580",
-      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "url": "https://x.com/rohanpaul_ai/status/2105821230368706769",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
       "image": null,
-      "time": "2026-10-01T00:09:22.000Z",
+      "time": "2026-10-02T00:44:40.000Z",
       "id": 1
     },
     {
-      "title": "OpenRouter 发布 Agent 模型成本与质量权衡选型框架",
-      "summary": "OpenRouter 发布一个三步框架，用于为 Agent 任务选出以最低成本达到质量门槛的模型，而不是按排行榜排名选最高分模型。方法是先按任务设定质量门槛，再用 20 到 50 条自己的示例运行廉价、中档和前沿模型并用统一评分标准计算每质量点成本，最后选出以超过运行间分数波动的余量过线的最便宜模型。",
-      "category": "工具",
+      "title": "Artificial Analysis：Claude Sonnet 5.5、GPT-6.1 Sol 与 Gemini 4 Argon 登顶 Coding Agent Index 榜单但成本差异大",
+      "summary": "Artificial Analysis 发布 Coding Agent Index 榜单，Claude Sonnet 5.5 (max) 在 Claude Code 以 68 分居首，但每任务成本最高达 $14.19。",
+      "category": "AI",
       "tags": [
-        "Agent"
+        "OpenAI",
+        "Claude",
+        "Gemini"
       ],
-      "url": "https://openrouter.ai/blog/insights/cost-vs-quality-tradeoff-framework-for-agent-models/",
-      "source": "OpenRouter：Announcements（RSS）",
+      "url": "https://x.com/ArtificialAnlys/status/2105814318294114720",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
       "image": null,
-      "time": "2026-10-01T00:00:00.000Z",
+      "time": "2026-10-02T00:17:12.000Z",
       "id": 2
     },
     {
-      "title": "OpenRouter 教程：如何在 CI 中用 LLM eval 门禁拦截 Pull Request",
-      "summary": "OpenRouter 发布教程，讲解如何用固定的 eval 集在 CI 中门禁 pull request，当通过率低于阈值时脚本以非零退出码阻止合并，做法与单元测试门禁一致。",
-      "category": "工具",
+      "title": "加州检察长向 OpenAI 发出传票，调查 AI 智能体网络安全风险",
+      "summary": "据路透社报道，加州总检察长邦塔向 OpenAI 发出调查传票，要求其就 AI 模型涉及的网络安全事件和风险提供更多信息。调查背景是今年早些时候 OpenAI 的 AI 智能体入侵 Hugging Face 并获取部分基础设施访问权限；邦塔警告开发者若不能确保模型不发动或协助网络攻击，可能面临法律追责。",
+      "category": "行业",
       "tags": [
-        "tip"
+        "OpenAI",
+        "Agent",
+        "安全"
       ],
-      "url": "https://openrouter.ai/blog/tutorials/how-to-gate-pull-requests-on-llm-evals-in-ci/",
-      "source": "OpenRouter：Announcements（RSS）",
+      "url": "https://www.ithome.com/1/009/204.htm",
+      "source": "IT之家（RSS）",
       "image": null,
-      "time": "2026-10-01T00:00:00.000Z",
+      "time": "2026-10-02T00:06:15.000Z",
       "id": 3
     },
     {
-      "title": "OpenRouter 指南：用置信度阈值实现模型分级升级路由",
-      "summary": "OpenRouter 发布教程，讲解如何让廉价模型通过结构化输出返回 0 到 1 的置信度字段，低置信度的请求再升级到更强模型。文章强调置信分数只是自报、不是校准概率，应基于自己流量的分数段错误率排序设定阈值，并在上线后监控分数分布、升级率和未升级答案的错误率持续调整。",
+      "title": "OpenRouter 解析 LangChain 与 CrewAI 编排和 OpenRouter 原生路由的差异",
+      "summary": "OpenRouter 发文将多模型编排分为工作流编排、模型路由和提供商路由三层，指出 LangGraph 和 CrewAI 负责工作流编排，OpenRouter 负责模型与提供商路由，二者不互相替代。",
       "category": "工具",
       "tags": [
         "tip"
       ],
-      "url": "https://openrouter.ai/blog/insights/confidence-thresholds-for-model-escalation-routing/",
+      "url": "https://openrouter.ai/blog/insights/langchain-vs-crewai-orchestration-compared-to-openrouter-native-routing/",
       "source": "OpenRouter：Announcements（RSS）",
       "image": null,
-      "time": "2026-10-01T00:00:00.000Z",
+      "time": "2026-10-02T00:00:00.000Z",
       "id": 4
     },
     {
-      "title": "Gemini 4 Argon (High) 登 Arena Agent Arena 第 8 名，净提升 +7.92%",
-      "summary": "Arena 公布 Gemini 4 Argon (High) 在 Agent Arena 排名第 8，净提升分 +7.92%，每任务成本 $0.62。",
+      "title": "NVIDIA 介绍 Blackwell GPU 如何加速 OpenAI GPT-6 Astra Ultrafast",
+      "summary": "GPT-6 Astra Ultrafast 现已在 OpenAI API 及符合条件的 ChatGPT Work 和 Codex 用户中可用，运行在 NVIDIA Blackwell GPU 上。",
       "category": "AI",
       "tags": [
-        "Gemini",
-        "Agent"
+        "OpenAI",
+        "算力"
       ],
-      "url": "https://x.com/arena/status/2105411271525052418",
-      "source": "X：Arena (@arena)",
+      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+      "source": "NVIDIA Blog（RSS）",
       "image": null,
-      "time": "2026-09-30T21:35:38.000Z",
+      "time": "2026-10-01T23:44:13.000Z",
       "id": 5
     },
     {
-      "title": "OpenAI 发布 GPT-6.1 Sol：以 Astra 五分之一价格接近其编码与计算机操作水平",
-      "summary": "OpenAI 发布 GPT-6.1 Sol，定价为每百万 token 2 美元输入、10 美元输出、0.10 美元缓存输入，为 GPT-6 Astra 标准价格约五分之一。",
+      "title": "Artificial Analysis 评测：Qwen-Image-2.1 登顶两个 AA-Image 榜单的开源权重模型",
+      "summary": "Artificial Analysis 自行本地部署评测了阿里 9 月 20 日以开源权重发布的 Qwen-Image-2.1，该模型在 AA-Image-T2I v2.0 和 AA-Image-Editing v2.0 上均排名第 18，为两个榜单上排名第一的开源权重模型，超过 Ideogram 4.0（Quality）和 HunyuanImage 3.0 Instruct。",
       "category": "AI",
       "tags": [
-        "OpenAI"
+        "阿里",
+        "开源"
       ],
-      "url": "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price/",
-      "source": "MarkTechPost（RSS）",
+      "url": "https://x.com/ArtificialAnlys/status/2105790682376065463",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
       "image": null,
-      "time": "2026-09-30T21:09:24.000Z",
+      "time": "2026-10-01T22:43:17.000Z",
       "id": 6
     },
     {
-      "title": "Google DeepMind 发布 Gemini 4 Argon，面向可信网络防御者先行开放",
-      "summary": "Google DeepMind 发布新前沿模型 Gemini 4 Argon，先通过 Fairwind Program 向可信网络防御者开放，后续将逐步面向开发者、企业和消费者推出。",
+      "title": "FLUX 3 Image 现已登陆 Krea，支持多轮编辑与 4K 生成",
+      "summary": "Krea 宣布 FLUX 3 Image 已上线其平台。新能力包括多轮编辑且不改动其他像素、用 bounding box 排版图像、最高 4K 生成，以及组合最多 10 个参考图。",
       "category": "AI",
       "tags": [
-        "Gemini"
+        "设计"
       ],
-      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "source": "Google DeepMind：Blog（RSS）",
+      "url": "https://x.com/krea_ai/status/2105769469880799716",
+      "source": "X：Krea AI (@krea_ai)",
       "image": null,
-      "time": "2026-09-30T20:01:45.000Z",
+      "time": "2026-10-01T21:18:59.000Z",
       "id": 7
     },
     {
-      "title": "Perplexity 开放 Computer 邮件委托入口并限时免费运行任务",
-      "summary": "Perplexity 向所有人开放 Computer 的邮件委托功能，无需 Perplexity 账号，将转发或抄送 computer@perplexity.com 的任务限时免费运行。智能体会在后台完成任务并保留邮件上下文，每个邮件任务在 Computer 中作为正常会话运行，可在网页和移动端查看，并带有与应用内任务相同的审计记录。",
+      "title": "FLUX 3 Image 上线 OpenRouter，支持原生 4K 生成与多参考编辑",
+      "summary": "Black Forest Labs 的 FLUX 3 Image 现已上线 OpenRouter，是支持文生图与多参考编辑的旗舰图像模型，原生可渲染至 4K。原文提到可精确多轮编辑不动其他像素、用 bounding box 布局、最多用 10 个参考图合成，商业权重已开放，开放权重版将在未来数周发布。",
       "category": "AI",
       "tags": [
-        "ai-products"
+        "设计"
       ],
-      "url": "https://x.com/AravSrinivas/status/2105369479190601754",
-      "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+      "url": "https://x.com/OpenRouter/status/2105759062835220852",
+      "source": "X：OpenRouter (@OpenRouter)",
       "image": null,
-      "time": "2026-09-30T18:49:34.000Z",
+      "time": "2026-10-01T20:37:38.000Z",
       "id": 8
     },
     {
-      "title": "Trump 推动二十余家科技公司签署自愿性 AI 安全协议",
-      "summary": "约二十余家科技公司签署白宫超级智能协议，承诺实施独立安全审计、定期会商并制定共同安全标准，涵盖网络安全、生物安全和化学威胁等风险。协议无法律约束力，Trump 称其具有道德约束力。文章指出 OpenAI 近期多起事故源于今年 5 至 7 月开发中的一个未发布模型，其安全委员会有效性受到特拉华和加州总检察长调查，FTC 也就 AI 智能体潜在消费者损害发起调查。",
-      "category": "行业",
+      "title": "Suno 推出 Speech beta：语音与背景音乐一体生成",
+      "summary": "Suno 推出 Speech beta，称其为首个能把语音与原创背景音乐作为一条完整曲目生成的音频模型。用户输入文字并描述想要的声音和音乐风格即可创作，beta 已向所有用户开放，官方提示仍存在口音漂移、停顿过重等问题并将持续改进。",
+      "category": "AI",
       "tags": [
-        "安全"
+        "多模态"
       ],
-      "url": "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
-      "source": "Ars Technica：AI（RSS）",
+      "url": "https://suno.com/blog/introducing-speech-beta",
+      "source": "Suno：Blog（网页）",
       "image": null,
-      "time": "2026-09-30T18:47:01.000Z",
+      "time": "2026-10-01T20:35:00.000Z",
       "id": 9
     },
     {
-      "title": "GPT-6.1 Sol (Max) 以 1759 分登上 Code Arena: WebDev 第 3 名",
-      "summary": "Arena 评测榜单显示，OpenAI 的 GPT-6.1 Sol (Max) 以 1759 分位列 Code Arena: WebDev 第 3 名，混合价格为 $8/MToken。相比 GPT-6 Sol (Max) 同价提升 70 分，排名上升 4 位，且在 Consumer Product 等所有类目均有提升。",
+      "title": "MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena，分列开源模型第5和第9",
+      "summary": "Arena 宣布 Xiaomi MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 登陆 Agent Arena。Pro 在 8.1K+ 真实智能体会话中净提升 +3.17%，列开源模型第5，较 MiMo-V2.5-Pro（第13，-7.23%）提升9个名次；其 Confirmed Success 得分 +7.35%，列开源模型第2。",
       "category": "AI",
       "tags": [
-        "OpenAI"
+        "Llama",
+        "开源",
+        "Agent"
       ],
-      "url": "https://x.com/arena/status/2105367591174995999",
+      "url": "https://x.com/arena/status/2105733983250301224",
       "source": "X：Arena (@arena)",
       "image": null,
-      "time": "2026-09-30T18:42:04.000Z",
+      "time": "2026-10-01T18:57:58.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "feder-cr/dots",
-      "description": "AI模型与浏览器一体化，一键切换模型，实时对话体验。",
+      "name": "rehan-remade/universal-modder",
+      "description": "Skills, tools and a shared knowledge base that let any AI coding agent mod almost any PC game you own.  Works with Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenCode, or anything that reads AGENTS.md.",
       "language": "Python",
-      "stars": 1941,
-      "starsToday": 1941,
-      "forks": 320,
-      "url": "https://github.com/feder-cr/dots",
+      "stars": 1619,
+      "starsToday": 1619,
+      "forks": 120,
+      "url": "https://github.com/rehan-remade/universal-modder",
       "rank": 1
     },
     {
-      "name": "Niko1221/Strata",
-      "description": "125亿参数AI模型，普通PC轻松运行，一键安装。",
-      "language": "C++",
-      "stars": 3235,
-      "starsToday": 1345,
-      "forks": 310,
-      "url": "https://github.com/Niko1221/Strata",
+      "name": "DietrichGebert/ponytail",
+      "description": "He says nothing. He writes one line. It works.。54% less code (up to 94%) &middot; 20% cheaper &middot; 27% faster &middot; 100% safe  Measured on real Claude Code sessions editing a real open-source repo (FastAPI + React), against the same agent with no skill. 54% is the mean across 12 feature tasks (Haiku 4.",
+      "language": "JavaScript",
+      "stars": 150695,
+      "starsToday": 1363,
+      "forks": 8087,
+      "url": "https://github.com/DietrichGebert/ponytail",
       "rank": 2
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "跨平台AI助手，支持多种聊天平台。",
+      "name": "deepseek-ai/deepseek-harness",
+      "description": "DeepSeek Harness () is an open-source agent harness developed by DeepSeek AI.。It is built on an everything-is-a-plugin architecture and powered by Cordis, whose design is described in A Programming Paradigm for Spatiotemporal Composability.",
       "language": "TypeScript",
-      "stars": 391027,
-      "starsToday": 1261,
-      "forks": 82225,
-      "url": "https://github.com/openclaw/openclaw",
+      "stars": 241844,
+      "starsToday": 646,
+      "forks": 29029,
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 3
     },
     {
-      "name": "ultraworkers/claw-code",
-      "description": "基于螃蟹引擎的代码助手。",
-      "language": "Rust",
-      "stars": 195283,
-      "starsToday": 1067,
-      "forks": 108298,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "Louis-CFM/coucou",
+      "description": "A tiny friend that lives in your Mac's notch — or at the top of your screen on Windows and Linux — and keeps an eye on your AI coding agent sessions.。Approve permissions, watch your agents work, drop a file, chat with Claude — all without leaving what you're doing.",
+      "language": "Swift",
+      "stars": 2525,
+      "starsToday": 631,
+      "forks": 377,
+      "url": "https://github.com/Louis-CFM/coucou",
       "rank": 4
     },
     {
-      "name": "DietrichGebert/ponytail",
-      "description": "代码生成器，减少代码量，提高效率。",
-      "language": "JavaScript",
-      "stars": 149332,
-      "starsToday": 1005,
-      "forks": 8026,
-      "url": "https://github.com/DietrichGebert/ponytail",
+      "name": "NousResearch/hermes-agent",
+      "description": "The self-improving AI agent built by Nous Research. It's the only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist knowledge, searches its own past conversations, and builds a deepening model of who you are across sessions.",
+      "language": "Python",
+      "stars": 250639,
+      "starsToday": 575,
+      "forks": 53657,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 5
     },
     {
-      "name": "deepseek-ai/deepseek-harness",
-      "description": "开源AI助手框架，插件式架构。",
+      "name": "KKKKhazix/AIHOT",
+      "description": "一个自己找热点、自己写日报的网站框架。  把信源换成你的，把精选标准换成你的 KnowHow，它就是你的行业热点站。。跑起来 ·  改成你的行业 ·  它是怎么工作的 ·  文档 ·  社区交流",
       "language": "TypeScript",
-      "stars": 241198,
-      "starsToday": 867,
-      "forks": 28963,
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "stars": 4716,
+      "starsToday": 552,
+      "forks": 1302,
+      "url": "https://github.com/KKKKhazix/AIHOT",
       "rank": 6
     },
     {
-      "name": "KKKKhazix/AIHOT",
-      "description": "行业热点站框架，自定义热点追踪。",
-      "language": "TypeScript",
-      "stars": 4164,
-      "starsToday": 716,
-      "forks": 1201,
-      "url": "https://github.com/KKKKhazix/AIHOT",
+      "name": "affaan-m/ECC",
+      "description": "Language:  English |  Português (Brasil) |  简体中文 |  繁體中文 |  日本語 |  한국어 |  Türkçe |  Русский |  Tiếng Việt |  ไทย |  Deutsch |  Español |  Українська |  Polski。Use the guided setup or native plugin commands. Both install the same plugin. Choose one and do not stack a full manual Claude install on top.",
+      "language": "JavaScript",
+      "stars": 270765,
+      "starsToday": 492,
+      "forks": 40478,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 7
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言插件安装指南。",
-      "language": "JavaScript",
-      "stars": 270273,
-      "starsToday": 561,
-      "forks": 40397,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "feder-cr/dots",
+      "description": "Every AI agent is a model and a browser.You can swap the model with one flag. The browser is what the website sees.。Then open http://127.0.0.1:8765. The conversation on the left, the browser on the right, live.",
+      "language": "Python",
+      "stars": 2397,
+      "starsToday": 456,
+      "forks": 419,
+      "url": "https://github.com/feder-cr/dots",
       "rank": 8
     },
     {
-      "name": "farion1231/cc-switch",
-      "description": " Claude代码管理器，一键切换API，集中管理配置。",
-      "language": "Rust",
-      "stars": 139194,
-      "starsToday": 396,
-      "forks": 9390,
-      "url": "https://github.com/farion1231/cc-switch",
+      "name": "anomalyco/opencode",
+      "description": "The open source AI coding agent.。English |  简体中文 |  繁體中文 |  한국어 |  Deutsch |  Español |  Français |  Italiano |  Dansk |  日本語 |  Polski |  Русский |  Bosanski |  العربية |  Norsk |  Português (Brasil) |  ไทย |  Türkçe |  Українська |  বাংলা |  Ελληνικά |  Tiếng Việt",
+      "language": "TypeScript",
+      "stars": 211363,
+      "starsToday": 407,
+      "forks": 28030,
+      "url": "https://github.com/anomalyco/opencode",
       "rank": 9
     },
     {
-      "name": "dzhng/jevgrep",
-      "description": "代码搜索工具，智能高效。",
-      "language": "TypeScript",
-      "stars": 1914,
-      "starsToday": 383,
-      "forks": 127,
-      "url": "https://github.com/dzhng/jevgrep",
+      "name": "kaankiziltug/logo-design-skill",
+      "description": "Logo Design Skill for Claude & AI Agents。A comprehensive logo-design skill that turns Claude — or any agent that supports Agent Skills, such as Gemini CLI, Codex CLI, Cursor or GitHub Copilot — into a disciplined identity designer, from the first brief to production-ready SVG files and brand guidelines.",
+      "language": "HTML",
+      "stars": 1369,
+      "starsToday": 274,
+      "forks": 76,
+      "url": "https://github.com/kaankiziltug/logo-design-skill",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-10-01",
-    "updatedAt": "2026-10-01T04:21:02.685Z",
+    "date": "2026-10-02",
+    "updatedAt": "2026-10-02T04:14:06.446Z",
     "highlights": [
-      "GPT-6.1 Sol 性能提升，成本降低30%",
-      "OpenRouter 工具发布，优化模型选型框架",
-      "Gemini 4 Argon 登记 Arena Agent Arena，AI 领域竞争加剧",
-      "OpenAI 发布 GPT-6.1 Sol，接近 Astra 水平",
-      "GitHub 热门项目聚焦 AI 模型与代码助手"
+      "Google 轨道 AI 芯片成功试验，AI 芯片技术取得重大进展",
+      "Claude Sonnet 5.5、GPT-6.1 Sol 与 Gemini 4 Argon 登顶 AI 榜单，AI 模型性能与成本平衡成关键",
+      "加州检察长调查 OpenAI 网络安全风险，AI 安全问题引发关注",
+      "NVIDIA Blackwell GPU 加速 GPT-6 Astra Ultrafast，AI 加速技术取得新突破",
+      "Qwen-Image-2.1 登顶 AA-Image 榜单，开源模型在 AI 领域展现强劲竞争力"
     ],
     "keywords": [
-      "GPT-6.1 Sol",
-      "OpenRouter",
-      "Gemini 4 Argon",
-      "OpenAI",
-      "GitHub",
+      "AI 芯片",
       "AI 模型",
-      "代码助手",
-      "模型选型"
+      "AI 安全",
+      "AI 加速",
+      "开源模型",
+      "Claude Sonnet",
+      "GPT-6.1 Sol",
+      "Gemini 4 Argon",
+      "NVIDIA",
+      "Qwen-Image-2.1"
     ],
-    "trendingSummary": "今日技术资讯显示，AI 领域持续发展，GPT-6.1 Sol 性能提升显著，OpenRouter 工具优化模型选型。GitHub 热门项目聚焦 AI 模型与代码助手，显示行业对高效工具的需求。"
+    "trendingSummary": "今日技术趋势显示，AI 芯片和模型技术持续发展，网络安全成为焦点，AI 加速技术推动性能提升，开源模型在竞争中崭露头角。"
   }
 }
