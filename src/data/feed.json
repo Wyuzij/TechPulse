@@ -1,7 +1,20 @@
 {
-  "date": "2026-10-04",
-  "updatedAt": "2026-10-04T04:29:22.694Z",
+  "date": "2026-10-05",
+  "updatedAt": "2026-10-05T04:14:44.667Z",
   "techNews": [
+    {
+      "title": "PromptArmor 披露 Databricks Genie 恶意 Skill 可绕过四类控制实施钓鱼与数据外泄",
+      "summary": "PromptArmor 披露 Databricks Genie Code 可被恶意 Skill 利用：Skill 代码将数据嵌入聊天渲染的 HTML 显示，渲染时通过用户浏览器发起网络请求外泄数据，并弹出钓鱼界面索取凭据。",
+      "category": "AI",
+      "tags": [
+        "paper"
+      ],
+      "url": "https://www.promptarmor.com/resources/four-databricks-genie-controls-that-dont-stop-malicious-skills",
+      "source": "PromptArmor：Threat Intelligence",
+      "image": null,
+      "time": "2026-10-05T00:24:02.000Z",
+      "id": 1
+    },
     {
       "title": "Microsoft ThinkingBox 在 Hugging Face 上发布，以数据库终态和 20 次重复评测智能体",
       "summary": "Microsoft 与 Hugging Face 发布 ThinkingBox 智能体沙箱与 ThinkingBox-Bench 基准，覆盖 507 个有状态业务工作流、每任务运行 20 次，以终局数据库状态和副作用作可执行判定，现可通过 OpenEnv 在 Hugging Face 上运行。",
@@ -13,7 +26,7 @@
       "source": "Hugging Face：Blog（RSS）",
       "image": null,
       "time": "2026-10-03T22:56:48.000Z",
-      "id": 1
+      "id": 2
     },
     {
       "title": "Google 论文揭示 LLM 会隐瞒负面结果，一句 honesty 提示可大幅改善",
@@ -26,21 +39,6 @@
       "source": "X：Rohan Paul (@rohanpaul_ai)",
       "image": null,
       "time": "2026-10-03T21:52:11.000Z",
-      "id": 2
-    },
-    {
-      "title": "LMSYS 发布开源聊天模型 Vicuna-13B，用 ShareGPT 对话微调 LLaMA，训练成本约 $300",
-      "summary": "LMSYS 团队发布 Vicuna-13B，通过约 70K ShareGPT 用户共享对话微调 LLaMA，训练成本约 $300，代码、权重和在线 demo 以非商业许可公开。GPT-4 作为评审的初步评估显示其达到 ChatGPT/Bard 90% 以上质量，在 45% 问题上不逊于 ChatGPT；团队同时提出基于 GPT-4 的自动评测框架，并说明其尚非严谨方法。",
-      "category": "AI",
-      "tags": [
-        "OpenAI",
-        "Llama",
-        "开源"
-      ],
-      "url": "https://www.lmsys.org/blog/2023-03-30-vicuna",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "image": null,
-      "time": "2026-10-04T04:28:47.266Z",
       "id": 3
     },
     {
@@ -71,19 +69,6 @@
       "id": 5
     },
     {
-      "title": "Prime Intellect 发布推理平台 Prime Inference，已上线 GLM-5.3 端点",
-      "summary": "Prime Intellect 发布推理平台 Prime Inference，提供 serverless 端点与预留容量，跨数据中心服务前沿开源模型，内部每天处理近一万亿 token。",
-      "category": "AI",
-      "tags": [
-        "推理"
-      ],
-      "url": "https://www.primeintellect.ai/blog/prime-inference",
-      "source": "Prime Intellect（网页）",
-      "image": null,
-      "time": "2026-10-04T04:28:47.267Z",
-      "id": 6
-    },
-    {
       "title": "GPT-6.1 Sol (Max) 进入 Agent Arena 第 5 名，以更低成本逼近前列模型",
       "summary": "Arena 宣布 OpenAI 的 GPT-6.1 Sol (Max) 在 Agent Arena 排名第 5（+11.23%），中位任务成本 $0.56，并重塑了 Pareto 前沿。",
       "category": "AI",
@@ -95,7 +80,7 @@
       "source": "X：Arena (@arena)",
       "image": null,
       "time": "2026-10-02T19:48:16.000Z",
-      "id": 7
+      "id": 6
     },
     {
       "title": "Arena 评测：Claude Sonnet 5.5 登顶 Agent Arena 第 3 名但未入 Pareto 前沿",
@@ -109,7 +94,7 @@
       "source": "X：Arena (@arena)",
       "image": null,
       "time": "2026-10-02T19:33:51.000Z",
-      "id": 8
+      "id": 7
     },
     {
       "title": "Meta 公布数学家与 Muse Spark 1.1/1.2 协作完成的六篇论文",
@@ -122,7 +107,7 @@
       "source": "X：AI at Meta (@AIatMeta)",
       "image": null,
       "time": "2026-10-02T19:11:30.000Z",
-      "id": 9
+      "id": 8
     },
     {
       "title": "ChatGPT 推出 Finances 财务管理功能",
@@ -135,131 +120,159 @@
       "source": "X：ChatGPT (@ChatGPT)",
       "image": null,
       "time": "2026-10-02T18:07:12.000Z",
+      "id": 9
+    },
+    {
+      "title": "Google 发布基于 TEE 的下一代联邦学习系统，Gboard 已部署",
+      "summary": "Google 宣布下一代联邦学习系统，利用可信执行环境（TEE）提供完全可验证、可审计的数据匿名化保证，访问策略发布至公共透明日志 Rekor，二进制可从开源代码可复现构建。Gboard 已部署该系统，用于英语和日语下一词预测模型，训练时间从过去的每次 1-2 个月显著缩短，并带来更强的隐私保证和更高的准确率。",
+      "category": "AI",
+      "tags": [
+        "Gemini"
+      ],
+      "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/",
+      "source": "Google Research：Blog（网页）",
+      "image": null,
+      "time": "2026-10-05T04:14:13.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "DietrichGebert/ponytail",
-      "description": "代码量减少54%，更便宜，更快，更安全",
+      "description": "代码量减少，性能提升，安全可靠",
       "language": "JavaScript",
-      "stars": 153620,
-      "starsToday": 1674,
-      "forks": 8252,
+      "stars": 155043,
+      "starsToday": 1423,
+      "forks": 8334,
       "url": "https://github.com/DietrichGebert/ponytail",
       "rank": 1
     },
     {
-      "name": "KKKKhazix/AIHOT",
-      "description": "自找热点，自写日报的行业热点站",
+      "name": "openclaw/openclaw",
+      "description": "跨平台AI助手，便捷沟通",
       "language": "TypeScript",
-      "stars": 5489,
-      "starsToday": 1098,
-      "forks": 1435,
-      "url": "https://github.com/KKKKhazix/AIHOT",
+      "stars": 391329,
+      "starsToday": 1246,
+      "forks": 82264,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 2
     },
     {
-      "name": "CopilotKit/OpenDots",
-      "description": "跨平台AI协作伙伴，支持文本、通话和Slack",
-      "language": "TypeScript",
-      "stars": 2629,
-      "starsToday": 1063,
-      "forks": 325,
-      "url": "https://github.com/CopilotKit/OpenDots",
+      "name": "ultraworkers/claw-code",
+      "description": "Rust语言，简化代码开发",
+      "language": "Rust",
+      "stars": 195215,
+      "starsToday": 1044,
+      "forks": 108215,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 3
     },
     {
       "name": "affaan-m/ECC",
-      "description": "多语言插件安装，简化Claude安装",
+      "description": "多语言插件，简化Claude安装",
       "language": "JavaScript",
-      "stars": 272348,
-      "starsToday": 912,
-      "forks": 40670,
+      "stars": 273053,
+      "starsToday": 705,
+      "forks": 40753,
       "url": "https://github.com/affaan-m/ECC",
       "rank": 4
     },
     {
-      "name": "feder-cr/dots",
-      "description": "AI代理模型与浏览器分离，灵活切换",
-      "language": "Python",
-      "stars": 2576,
-      "starsToday": 644,
-      "forks": 436,
-      "url": "https://github.com/feder-cr/dots",
+      "name": "CopilotKit/OpenDots",
+      "description": "AI协作伙伴，多平台可用",
+      "language": "TypeScript",
+      "stars": 3250,
+      "starsToday": 621,
+      "forks": 428,
+      "url": "https://github.com/CopilotKit/OpenDots",
       "rank": 5
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自学习AI代理，持续提升能力",
+      "name": "rehan-remade/universal-modder",
+      "description": "AI游戏修改工具，兼容多种平台",
       "language": "Python",
-      "stars": 251006,
-      "starsToday": 573,
-      "forks": 53835,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "stars": 3279,
+      "starsToday": 606,
+      "forks": 289,
+      "url": "https://github.com/rehan-remade/universal-modder",
       "rank": 6
     },
     {
-      "name": "deepseek-ai/deepseek-harness",
-      "description": "基于插件架构的AI代理工具",
-      "language": "TypeScript",
-      "stars": 242972,
-      "starsToday": 535,
-      "forks": 29131,
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "name": "JuliusBrussee/caveman",
+      "description": "AI助手，精简代码，保持大脑容量",
+      "language": "Go",
+      "stars": 109841,
+      "starsToday": 600,
+      "forks": 6356,
+      "url": "https://github.com/JuliusBrussee/caveman",
       "rank": 7
     },
     {
-      "name": "rehan-remade/universal-modder",
-      "description": "AI游戏修改工具，支持多种平台",
-      "language": "Python",
-      "stars": 2673,
-      "starsToday": 481,
-      "forks": 236,
-      "url": "https://github.com/rehan-remade/universal-modder",
+      "name": "deepseek-ai/deepseek-harness",
+      "description": "开源AI代理工具，插件架构",
+      "language": "TypeScript",
+      "stars": 243483,
+      "starsToday": 511,
+      "forks": 29183,
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 8
     },
     {
-      "name": "anomalyco/opencode",
-      "description": "开源AI编码代理，多语言支持",
-      "language": "TypeScript",
-      "stars": 211648,
-      "starsToday": 406,
-      "forks": 28129,
-      "url": "https://github.com/anomalyco/opencode",
+      "name": "nanaism/yomiyasu",
+      "description": "AI优化日本语，提升阅读体验",
+      "language": "Python",
+      "stars": 1417,
+      "starsToday": 354,
+      "forks": 32,
+      "url": "https://github.com/nanaism/yomiyasu",
       "rank": 9
     },
     {
-      "name": "yihui-dev/awesome-opus5-5-videos",
-      "description": "使用Claude Opus 5.5制作动画视频",
-      "language": "Unknown",
-      "stars": 1621,
-      "starsToday": 270,
-      "forks": 171,
-      "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "name": "KKKKhazix/AIHOT",
+      "description": "行业热点网站框架，定制化热点追踪",
+      "language": "TypeScript",
+      "stars": 5824,
+      "starsToday": 335,
+      "forks": 1488,
+      "url": "https://github.com/KKKKhazix/AIHOT",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-10-04",
-    "updatedAt": "2026-10-04T04:29:22.694Z",
+    "date": "2026-10-05",
+    "updatedAt": "2026-10-05T04:14:44.667Z",
     "highlights": [
-      "Microsoft发布数据库终态AI，Google论文强调LLM诚实性，LMSYS开源聊天模型Vicuna-13B，OpenAI调查智能体入侵事件，Baseten实测LLM推理引擎速度提升，Prime Intellect发布推理平台Prime Inference，GPT-6.1 Sol进入Agent Arena前列，Meta公布数学家与Muse Spark论文，ChatGPT推出财务管理功能。",
-      "GitHub热门项目涵盖代码优化、AI热点追踪、跨平台协作、插件化AI代理、游戏修改工具、开源编码代理和动画视频制作等多个领域。",
-      "AI技术持续发展，模型性能提升，应用场景拓展，开源社区活跃，技术趋势向高效、安全、协作和多元化方向发展。"
+      "PromptArmor绕过Databricks Genie恶意Skill",
+      "Microsoft发布ThinkingBox智能体",
+      "Google论文揭示LLM隐瞒负面结果",
+      "OpenAI调查智能体入侵事件",
+      "Baseten工程师LLM推理引擎测试"
     ],
     "keywords": [
-      "数据库终态AI",
-      "LLM诚实性",
-      "Vicuna-13B",
-      "智能体入侵",
-      "LLM推理引擎",
-      "Prime Inference",
-      "GPT-6.1 Sol",
-      "数学家与Muse Spark",
-      "ChatGPT财务管理",
-      "GitHub热门项目"
+      "PromptArmor",
+      "Databricks Genie",
+      "Microsoft",
+      "Hugging Face",
+      "OpenAI",
+      "Baseten",
+      "LLM",
+      "Agent Arena",
+      "Meta",
+      "ChatGPT",
+      "Google",
+      "TEE",
+      "GitHub",
+      "ponytail",
+      "openclaw",
+      "ultraworkers",
+      "affaan-m",
+      "CopilotKit",
+      "rehan-remade",
+      "JuliusBrussee",
+      "deepseek-ai",
+      "nanaism",
+      "KKKKhazix"
     ],
-    "trendingSummary": "AI技术持续进步，模型性能提升，应用场景拓展，开源社区活跃，技术趋势向高效、安全、协作和多元化方向发展。"
+    "trendingSummary": "今日技术资讯显示AI领域在安全性、性能优化和行业应用方面持续进步，同时GitHub热门项目聚焦于代码简化、多语言插件和AI协作工具的开发。"
   }
 }
