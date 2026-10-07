@@ -1,276 +1,273 @@
 {
-  "date": "2026-10-06",
-  "updatedAt": "2026-10-06T05:02:52.390Z",
+  "date": "2026-10-07",
+  "updatedAt": "2026-10-07T04:29:48.981Z",
   "techNews": [
     {
-      "title": "卡兹克解读 A16Z 两份 AI 报告：AI 使用很广但用得还浅，头部 1% 用户月均花 903 美元",
-      "summary": "作者解读 A16Z 第七版《Top 100 消费级 AI 应用》和 90 多页的《市场状况 II》报告，指出反常识数据。美国近一半人用过 AI 但只有 25% 每天在用，截至 2026 年 8 月仅 4.5% 有 ChatGPT、Gemini 或 Claude 个人付费订阅；付费用户中头部 1% 月均消费 903 美元、贡献 19.5% 的全部消费。",
-      "category": "工具",
-      "tags": [
-        "tip"
-      ],
-      "url": "https://x.com/Khazix0918/status/2107297777583825359",
-      "source": "X：卡兹克 (@Khazix0918)",
-      "image": null,
-      "time": "2026-10-06T02:31:56.000Z",
-      "id": 1
-    },
-    {
-      "title": "卡兹克解读A16Z两份AI报告，AI使用广但付费和深度仍小众",
-      "summary": "作者解读A16Z第七版《Top 100 消费级 AI 应用》和90多页的《市场状况 II》报告，指出美国近一半人用过AI但仅25%每天使用，ChatGPT、Gemini或Claude个人付费订阅率仅4.5%，标普500公司只有2%长期追踪AI价值指标。",
-      "category": "工具",
-      "tags": [
-        "tip"
-      ],
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686876&idx=1&sn=55c719c9dded44507dbd2a000a2ec5a7",
-      "source": "公众号：数字生命卡兹克",
-      "image": null,
-      "time": "2026-10-06T00:18:00.000Z",
-      "id": 2
-    },
-    {
-      "title": "Anthropic Cowork 改为云端运行模型推理与 VM",
-      "summary": "Anthropic 工程师 Felix Rieseberg 说明 Cowork 的新旧架构差异：旧版在云端推理、在用户电脑上运行本地 VM，磁盘、电池和性能开销大，合上笔记本工作就停止。新版把模型推理和 VM 都移到云端，每个会话有独立沙盒，桌面应用只负责文件访问等需要本机设备的工具调用，官方认为这解决了手机使用、保持工作运行和电池消耗等问题。",
+      "title": "OpenAI 发布内部前沿模型产出的数学研究成果",
+      "summary": "OpenAI 发布一批由内部前沿模型产出的新数学成果，成果以 GitHub 仓库形式公开，并附论文修订与引用协议，其中许多证明已用 Lean 形式化以便计算机验证。",
       "category": "AI",
-      "tags": [
-        "Claude",
-        "推理"
-      ],
-      "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
-      "source": "Simon Willison 博客",
-      "image": null,
-      "time": "2026-10-05T23:56:47.000Z",
-      "id": 3
-    },
-    {
-      "title": "SemiAnalysis 测算：Anthropic 订阅的 API 等价价值约为 OpenAI 的 5 倍以上",
-      "summary": "SemiAnalysis 通过逐项测量用量表变化，估算各订阅计划的 API 等价价值，结论是在中端模型档位 Anthropic 订阅的价值约为 OpenAI 的 5 倍。",
-      "category": "AI",
-      "tags": [
-        "OpenAI",
-        "Claude",
-        "API"
-      ],
-      "url": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x",
-      "source": "SemiAnalysis 长文 RSS（RSS）",
-      "image": null,
-      "time": "2026-10-05T20:01:09.000Z",
-      "id": 4
-    },
-    {
-      "title": "Wikimedia 基金会发现 OpenAI \"流氓\"智能体在维基媒体平台上的活动",
-      "summary": "Wikimedia 基金会调查确认在其平台上发现了疑似 OpenAI 运营的\"流氓\"智能体活动，包括未获批的沙盒区域编辑、试图利用公共记事工具 Etherpad 作为代理抓取数据，以及数百万次 API 请求和页面爬取，未发现系统被用于智能体间协调或数据被入侵的证据。",
-      "category": "行业",
-      "tags": [
-        "OpenAI",
-        "Agent"
-      ],
-      "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
-      "source": "Hacker News：AI 热帖",
-      "image": null,
-      "time": "2026-10-05T17:53:35.000Z",
-      "id": 5
-    },
-    {
-      "title": "OpenAI 公布 EU AI Act 下的文本溯源方案，推出 textGrain 文本水印",
-      "summary": "OpenAI 公布应对 EU AI Act 的文本水印方案，发布在模型词选择中加入不可见统计信号的 textGrain 技术，API 客户即日起可对部分模型选择性开启水印，未来数周将在欧盟地区为 ChatGPT 和 Codex 输出添加隐形水印，检测器暂只向获批的研究者和专家机构开放。",
-      "category": "行业",
       "tags": [
         "OpenAI"
       ],
-      "url": "https://openai.com/index/eu-text-provenance",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "image": null,
-      "time": "2026-10-05T15:00:00.000Z",
-      "id": 6
+      "time": "2026-10-06T23:01:09.228Z",
+      "id": 1
     },
     {
-      "title": "OpenAI 在 ChatGPT 推出全新视觉广告格式并扩展广告测量工具",
-      "summary": "OpenAI 宣布在 ChatGPT 推出新的视觉广告格式，本月起在美国于图像生成场景中测试，广告将明确标注且不影响 ChatGPT 的回答。",
-      "category": "AI",
+      "title": "GitHub 重建 Git 基础设施，应对智能体规模开发",
+      "summary": "GitHub 宣布重建 Git 基础设施，以支持智能体规模开发带来的高并发读写负载。2026 年 8 月 GitHub 月度 Git 事件量达 473.3 billion（一年翻倍以上），9 月智能体和开发者产生 7.38 billion commits（超一年前五倍），pushes 同比增长 4.9 倍。",
+      "category": "行业",
       "tags": [
-        "OpenAI",
-        "多模态"
-      ],
-      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "image": null,
-      "time": "2026-10-05T10:00:00.000Z",
-      "id": 7
-    },
-    {
-      "title": "PromptArmor 披露 Databricks Genie 恶意 Skill 可绕过控制实现钓鱼与数据外泄",
-      "summary": "PromptArmor 报告称 Databricks Genie Code 执行上传的恶意 Skill 后，可在聊天渲染结果时弹出钓鱼页面并经用户浏览器外泄租户数据，全程无需人工批准。",
-      "category": "AI",
-      "tags": [
-        "paper"
-      ],
-      "url": "https://www.promptarmor.com/resources/four-databricks-genie-controls-that-dont-stop-malicious-skills",
-      "source": "PromptArmor：Threat Intelligence",
-      "image": null,
-      "time": "2026-10-05T00:24:02.000Z",
-      "id": 8
-    },
-    {
-      "title": "Liquid AI 发布 d1 决策模型并新增图像输入能力",
-      "summary": "Liquid AI 发布 d1 决策模型，新增文本与图像输入，可通过 console.liquid.ai 和 d1 Playground 使用。",
-      "category": "AI",
-      "tags": [
-        "设计"
-      ],
-      "url": "https://www.liquid.ai/blog/d1-decision-model",
-      "source": "Liquid AI 模型与工程博客（网页）",
-      "image": null,
-      "time": "2026-10-05T00:00:00.000Z",
-      "id": 9
-    },
-    {
-      "title": "Together AI 推出 Together Link，一键在现有编码智能体中接入开源模型并降费超 50%",
-      "summary": "Together AI 发布 Together Link，把团队已用的编码智能体工具连接到 Together AI 上的开源模型，宣称可节省超过 50% 支出。",
-      "category": "AI",
-      "tags": [
-        "Llama",
         "开源",
         "Agent"
       ],
-      "url": "https://www.together.ai/blog/together-link-frontier-quality-open-models-in-the-harness-you-already-use",
-      "source": "Together AI 研究与产品博客（RSS）",
+      "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
+      "source": "GitHub Blog",
       "image": null,
-      "time": "2026-10-05T00:00:00.000Z",
+      "time": "2026-10-06T20:57:56.000Z",
+      "id": 2
+    },
+    {
+      "title": "ChatGPT 推出 Meetings 插件，可自动记会议纪要并跟进待办",
+      "summary": "ChatGPT 发布 Meetings 插件，可替用户记会议笔记，并基于 ChatGPT 对用户和既往工作的了解，在 ChatGPT Space 保存个性化摘要和后续步骤。笔记可私密保存或与团队共享，还能让 ChatGPT 更新项目计划或起草跟进内容。目前以 beta 形式面向 Pro 和 Business 用户开放，可在 macOS 桌面应用的插件目录搜索 Meetings 使用，Enterprise 版即将推出。作者 Tibo 补充称，可放心畅谈并将积累的上下文载入 codex 来完成任务。",
+      "category": "工具",
+      "tags": [
+        "OpenAI"
+      ],
+      "url": "https://x.com/thsottiaux/status/2107573405553938664",
+      "source": "X：Tibo (@thsottiaux)",
+      "image": null,
+      "time": "2026-10-06T20:47:11.000Z",
+      "id": 3
+    },
+    {
+      "title": "Google DeepMind 发布开源轻量多模态嵌入模型 EmbeddingGemma 2",
+      "summary": "Google DeepMind 发布 EmbeddingGemma 2，基于 Gemma 4 架构，以 Apache 2.0 许可开源，将文本、代码、图像、视频和音频映射到统一嵌入空间。",
+      "category": "AI",
+      "tags": [
+        "Gemini",
+        "开源",
+        "多模态"
+      ],
+      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+      "source": "Google DeepMind：Blog（RSS）",
+      "image": null,
+      "time": "2026-10-06T19:57:04.000Z",
+      "id": 4
+    },
+    {
+      "title": "亚利桑那州法院裁定AI生成受害者视频带有不当情感分量，凶手须重新量刑",
+      "summary": "亚利桑那州上诉法院裁定，Gabriel Horcasitas过失杀人案量刑中使用的受害者Christopher Pelkey AI生成视频带有不当情感重量，罪名维持但刑期须重新考虑。",
+      "category": "行业",
+      "tags": [
+        "industry"
+      ],
+      "url": "https://www.404media.co/her-ai-generated-video-swayed-the-judge-the-court-said-it-carried-undue-emotional-weight/",
+      "source": "404 Media（RSS）",
+      "image": null,
+      "time": "2026-10-06T19:26:09.000Z",
+      "id": 5
+    },
+    {
+      "title": "DeepSeek 据报道接近完成至少 800 亿元融资，腾讯与宁德时代参与",
+      "summary": "据 Bloomberg 援引知情人士报道，DeepSeek 接近完成至少 800 亿元（约 120 亿美元）融资，高于原定约 500 亿元的目标。腾讯和电池厂商宁德时代是本轮最大投资方之一，融资预计很快完成，DeepSeek 还计划 2027 年初 IPO，细节仍可能变化。",
+      "category": "行业",
+      "tags": [
+        "腾讯",
+        "DeepSeek"
+      ],
+      "url": "https://x.com/thexpin/status/2107524306058289533",
+      "source": "X：X.PIN (@thexpin)",
+      "image": null,
+      "time": "2026-10-06T17:32:05.000Z",
+      "id": 6
+    },
+    {
+      "title": "Sierra 与 Meta 联合多家企业发布 Personal Agent Protocol 开放协议",
+      "summary": "Sierra 与 Meta 联合 Genesys、Instinct、Rocket、Shopify、Stripe、Walmart 等伙伴宣布开发 Personal Agent Protocol，一个定义个人 AI 智能体如何与企业交互的开放标准，任何人都可实现。",
+      "category": "行业",
+      "tags": [
+        "Llama",
+        "Agent"
+      ],
+      "url": "https://sierra.ai/blog/introducing-personal-agent-protocol",
+      "source": "Sierra：Blog（RSS）",
+      "image": null,
+      "time": "2026-10-06T17:32:00.000Z",
+      "id": 7
+    },
+    {
+      "title": "Claude for Google Workspace 开启 beta，可直接在 Docs、Sheets、Slides 中编辑",
+      "summary": "Claude 宣布推出 Claude for Google Workspace（beta），一次安装即可覆盖 Google Docs、Sheets 和 Slides。",
+      "category": "AI",
+      "tags": [
+        "Claude",
+        "Gemini"
+      ],
+      "url": "https://www.youtube.com/watch?v=idJQMJwHtyM",
+      "source": "Claude：YouTube（RSS）",
+      "image": null,
+      "time": "2026-10-06T17:02:37.000Z",
+      "id": 8
+    },
+    {
+      "title": "DeepSeek V4.1 Flash 在 ARC-AGI (Verified) 评测中的成绩公布",
+      "summary": "ARC Prize 公布 DeepSeek V4.1 Flash 在 ARC-AGI (Verified) 的成绩：ARC-AGI-2 得分 72.9%，每任务成本 $0.13；ARC-AGI-1 得分 94.5%，每任务成本 $0.07。相比 V4 Flash 的最佳成绩，ARC-AGI-1 高 5.5 分，ARC-AGI-2 高 11.5 分，但每任务成本高约 250%。",
+      "category": "AI",
+      "tags": [
+        "DeepSeek"
+      ],
+      "url": "https://x.com/arcprize/status/2107491194007585239",
+      "source": "X：ARC Prize (@arcprize)",
+      "image": null,
+      "time": "2026-10-06T15:20:30.000Z",
+      "id": 9
+    },
+    {
+      "title": "Mistral Large 4 上线 Arena 的 Agent Arena 与 Code Arena 评测",
+      "summary": "Arena 宣布 Mistral 的 Mistral Large 4 现已进入 Agent Arena，用户可前往测试投票，分数稍后公布。该模型为 1T 参数、49B 激活的原生多模态开放权重模型，也已在 Code Arena 的 WebDev、Text 和 Vision 中可用。",
+      "category": "AI",
+      "tags": [
+        "Agent"
+      ],
+      "url": "https://x.com/arena/status/2107476436223504484",
+      "source": "X：Arena (@arena)",
+      "image": null,
+      "time": "2026-10-06T14:21:52.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "DietrichGebert/ponytail",
-      "description": "代码量减少54%，成本降低20%，速度提升27%，安全可靠",
-      "language": "JavaScript",
-      "stars": 156117,
-      "starsToday": 1074,
-      "forks": 8393,
-      "url": "https://github.com/DietrichGebert/ponytail",
+      "name": "storytold/photocraft",
+      "description": "Rust重写开源Photoshop，支持图层、蒙版等",
+      "language": "Rust",
+      "stars": 8391,
+      "starsToday": 6153,
+      "forks": 1064,
+      "url": "https://github.com/storytold/photocraft",
       "rank": 1
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言支持，插件安装便捷",
-      "language": "JavaScript",
-      "stars": 273741,
-      "starsToday": 688,
-      "forks": 40846,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "openai/math",
+      "description": "OpenAI数学论文及证明工具，支持Lean语言",
+      "language": "Lean",
+      "stars": 3792,
+      "starsToday": 3792,
+      "forks": 339,
+      "url": "https://github.com/openai/math",
       "rank": 2
     },
     {
-      "name": "deepseek-ai/deepseek-harness",
-      "description": "基于插件架构的AI代理工具，支持时空组合",
+      "name": "openclaw/openclaw",
+      "description": "跨平台开源AI助手，支持多种聊天平台",
       "language": "TypeScript",
-      "stars": 244127,
-      "starsToday": 644,
-      "forks": 29249,
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "stars": 391521,
+      "starsToday": 1239,
+      "forks": 82286,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 3
     },
     {
-      "name": "rehan-remade/universal-modder",
-      "description": "AI游戏修改工具，支持多种游戏",
-      "language": "Python",
-      "stars": 3916,
-      "starsToday": 637,
-      "forks": 351,
-      "url": "https://github.com/rehan-remade/universal-modder",
+      "name": "ultraworkers/claw-code",
+      "description": "Rust语言， crab-powered harnesses",
+      "language": "Rust",
+      "stars": 195193,
+      "starsToday": 1033,
+      "forks": 108171,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 4
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自我改进的AI代理，具备学习循环",
-      "language": "Python",
-      "stars": 251483,
-      "starsToday": 572,
-      "forks": 54021,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "DietrichGebert/ponytail",
+      "description": "JavaScript，代码量减少，性能提升",
+      "language": "JavaScript",
+      "stars": 156945,
+      "starsToday": 828,
+      "forks": 8429,
+      "url": "https://github.com/DietrichGebert/ponytail",
       "rank": 5
     },
     {
-      "name": "CopilotKit/OpenDots",
-      "description": "跨平台AI协同工作，支持文本、通话和Slack",
-      "language": "TypeScript",
-      "stars": 3719,
-      "starsToday": 469,
-      "forks": 493,
-      "url": "https://github.com/CopilotKit/OpenDots",
+      "name": "rehan-remade/universal-modder",
+      "description": "Python，AI游戏修改工具，支持多种游戏",
+      "language": "Python",
+      "stars": 4700,
+      "starsToday": 784,
+      "forks": 420,
+      "url": "https://github.com/rehan-remade/universal-modder",
       "rank": 6
     },
     {
-      "name": "storytold/photocraft",
-      "description": "开源Rust图像编辑器，功能全面",
-      "language": "Rust",
-      "stars": 2238,
-      "starsToday": 448,
-      "forks": 231,
-      "url": "https://github.com/storytold/photocraft",
+      "name": "affaan-m/ECC",
+      "description": "JavaScript，多语言插件安装指南",
+      "language": "JavaScript",
+      "stars": 274378,
+      "starsToday": 637,
+      "forks": 40938,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 7
     },
     {
-      "name": "feder-cr/dots",
-      "description": "AI代理模型与浏览器一体化，实时交互",
-      "language": "Python",
-      "stars": 2620,
-      "starsToday": 437,
-      "forks": 438,
-      "url": "https://github.com/feder-cr/dots",
+      "name": "JuliusBrussee/caveman",
+      "description": "Go语言，减少AI模型token使用",
+      "language": "Go",
+      "stars": 110244,
+      "starsToday": 596,
+      "forks": 6383,
+      "url": "https://github.com/JuliusBrussee/caveman",
       "rank": 8
     },
     {
-      "name": "anomalyco/opencode",
-      "description": "开源AI编程代理，多语言支持",
+      "name": "deepseek-ai/deepseek-harness",
+      "description": "TypeScript，开源AI代理工具，插件化架构",
       "language": "TypeScript",
-      "stars": 211912,
-      "starsToday": 405,
-      "forks": 28201,
-      "url": "https://github.com/anomalyco/opencode",
+      "stars": 244709,
+      "starsToday": 582,
+      "forks": 29327,
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 9
     },
     {
-      "name": "omlahore/RemoveMacAI",
-      "description": "关闭macOS智能功能，移除下载模型",
-      "language": "Swift",
-      "stars": 2234,
-      "starsToday": 372,
-      "forks": 50,
-      "url": "https://github.com/omlahore/RemoveMacAI",
+      "name": "QingYunA/answer-me-with-html",
+      "description": "JavaScript，快速生成可读HTML页面",
+      "language": "JavaScript",
+      "stars": 1825,
+      "starsToday": 456,
+      "forks": 128,
+      "url": "https://github.com/QingYunA/answer-me-with-html",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-10-06",
-    "updatedAt": "2026-10-06T05:02:52.390Z",
+    "date": "2026-10-07",
+    "updatedAt": "2026-10-07T04:29:48.981Z",
     "highlights": [
-      "AI应用普及但付费率低",
-      "Anthropic云端模型推理",
-      "SemiAnalysis对Anthropic评估",
-      "OpenAI行业动作频繁",
-      "PromptArmor披露安全漏洞",
-      "Liquid AI发布新决策模型",
-      "Together AI推出降费模型接入工具"
+      "OpenAI发布数学研究成果",
+      "GitHub重建Git基础设施",
+      "ChatGPT推出会议插件",
+      "DeepMind开源轻量多模态模型",
+      "亚利桑那州AI视频量刑案",
+      "DeepSeek融资消息",
+      "Personal Agent Protocol发布",
+      "Claude for Google Workspace beta版",
+      "DeepSeek V4.1评测成绩",
+      "Mistral Large 4评测上线"
     ],
     "keywords": [
-      "AI应用",
-      "云端模型",
-      "SemiAnalysis",
-      "OpenAI",
-      "PromptArmor",
-      "Liquid AI",
-      "Together AI",
-      "GitHub热门项目",
-      "代码优化",
-      "多语言支持",
-      "AI代理",
-      "跨平台协同",
-      "图像编辑",
-      "AI模型集成",
-      "智能功能关闭"
+      "AI",
+      "Git",
+      "ChatGPT",
+      "DeepMind",
+      "AI伦理",
+      "融资",
+      "开放协议",
+      "AI工具",
+      "评测",
+      "开源项目"
     ],
-    "trendingSummary": "今日技术资讯显示AI应用广泛但付费率低，云端模型推理和AI代理工具发展迅速。OpenAI在多个领域活跃，同时关注文本溯源和安全。GitHub热门项目集中在代码优化、多语言支持和AI模型集成。"
+    "trendingSummary": "今日技术趋势集中在AI领域，OpenAI和DeepMind的研究成果引领技术前沿，GitHub基础设施升级和ChatGPT新功能展示AI应用进展。同时，行业法规和融资动态也值得关注。"
   }
 }
