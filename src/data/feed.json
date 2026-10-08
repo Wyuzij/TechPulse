@@ -1,273 +1,266 @@
 {
-  "date": "2026-10-07",
-  "updatedAt": "2026-10-07T04:29:48.981Z",
+  "date": "2026-10-08",
+  "updatedAt": "2026-10-08T04:40:51.854Z",
   "techNews": [
     {
-      "title": "OpenAI 发布内部前沿模型产出的数学研究成果",
-      "summary": "OpenAI 发布一批由内部前沿模型产出的新数学成果，成果以 GitHub 仓库形式公开，并附论文修订与引用协议，其中许多证明已用 Lean 形式化以便计算机验证。",
-      "category": "AI",
+      "title": "Codex 与 ChatGPT Work 活跃用户达 4000 万新高，付费账户重置已全部到账",
+      "summary": "作者确认 banked reset 已到账所有账户，并转引 Day 3 动态称 Codex 与 ChatGPT Work 合计活跃用户达到 4000 万新高，其中提到 GPT-6 已在 Chat 中上线。",
+      "category": "行业",
       "tags": [
-        "OpenAI"
+        "OpenAI",
+        "编程"
       ],
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "url": "https://x.com/thsottiaux/status/2108040921044639779",
+      "source": "X：Tibo (@thsottiaux)",
       "image": null,
-      "time": "2026-10-06T23:01:09.228Z",
+      "time": "2026-10-08T03:44:55.000Z",
       "id": 1
     },
     {
-      "title": "GitHub 重建 Git 基础设施，应对智能体规模开发",
-      "summary": "GitHub 宣布重建 Git 基础设施，以支持智能体规模开发带来的高并发读写负载。2026 年 8 月 GitHub 月度 Git 事件量达 473.3 billion（一年翻倍以上），9 月智能体和开发者产生 7.38 billion commits（超一年前五倍），pushes 同比增长 4.9 倍。",
+      "title": "【AIHOT 通知】旧版接口 2026 年 10 月 31 日停用，推送机器人和脚本请尽快迁移",
+      "summary": "这条消息来自 AIHOT 旧版接口 /api/public/*：它将于 2026 年 10 月 31 日停用，之后这里不会再有新资讯。如果它是群机器人或脚本推送来的，请转告维护的人把地址换成 https://aihot.news/api/v1，字段一一对应；迁移指南和可以直接交给 AI 改写代码的提示词见 https://aihot.news/agent?tab=api#legacy-api-migration 。同一天起旧域名 aihot.virxact.com 的所有地址都只跳转到 aihot.news，RSS、MCP 等地址也请换成新域名；收藏的网页链接照样能打开。",
       "category": "行业",
       "tags": [
-        "开源",
-        "Agent"
+        "API",
+        "机器人"
       ],
-      "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
-      "source": "GitHub Blog",
+      "url": "https://aihot.news/agent?tab=api#legacy-api-migration",
+      "source": "AIHOT",
       "image": null,
-      "time": "2026-10-06T20:57:56.000Z",
+      "time": "2026-10-08T02:00:00.000Z",
       "id": 2
     },
     {
-      "title": "ChatGPT 推出 Meetings 插件，可自动记会议纪要并跟进待办",
-      "summary": "ChatGPT 发布 Meetings 插件，可替用户记会议笔记，并基于 ChatGPT 对用户和既往工作的了解，在 ChatGPT Space 保存个性化摘要和后续步骤。笔记可私密保存或与团队共享，还能让 ChatGPT 更新项目计划或起草跟进内容。目前以 beta 形式面向 Pro 和 Business 用户开放，可在 macOS 桌面应用的插件目录搜索 Meetings 使用，Enterprise 版即将推出。作者 Tibo 补充称，可放心畅谈并将积累的上下文载入 codex 来完成任务。",
-      "category": "工具",
+      "title": "GPT-6 Luna Decisions 上架 OpenRouter",
+      "summary": "OpenRouter 宣布 GPT-6 Luna Decisions 上线。OpenAI 的 Decisions API 可让应用选择合适的模型、工具或动作，支持发送文本、JSON 或图片并返回带概率的类型化答案。定价为输入 $0.10/M、输出免费，上下文 1M；引用 OpenAI 开发者账号称其决策速度比通过 Responses API 的 GPT-6 Luna 最快 10 倍。",
+      "category": "AI",
       "tags": [
         "OpenAI"
       ],
-      "url": "https://x.com/thsottiaux/status/2107573405553938664",
-      "source": "X：Tibo (@thsottiaux)",
+      "url": "https://x.com/OpenRouter/status/2107929204142874759",
+      "source": "X：OpenRouter (@OpenRouter)",
       "image": null,
-      "time": "2026-10-06T20:47:11.000Z",
+      "time": "2026-10-07T20:21:00.000Z",
       "id": 3
     },
     {
-      "title": "Google DeepMind 发布开源轻量多模态嵌入模型 EmbeddingGemma 2",
-      "summary": "Google DeepMind 发布 EmbeddingGemma 2，基于 Gemma 4 架构，以 Apache 2.0 许可开源，将文本、代码、图像、视频和音频映射到统一嵌入空间。",
+      "title": "LangChain 重构 Deep Agents 的 Skills 支持，新增工具绑定、固定技能与线程内重载",
+      "summary": "LangChain 重构 Deep Agents 的 Skills 支持，针对企业技能库增至数千个技能的场景推出三项更新：工具可绑定到技能、仅在该技能被读取时加载，用户可通过 /meeting-prep 之类的显式请求固定技能以在首次模型调用前加载，长线程可通过将 skills_metadata 设为 None 重载新增或变更的技能。",
       "category": "AI",
       "tags": [
-        "Gemini",
-        "开源",
-        "多模态"
+        "Agent"
       ],
-      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-      "source": "Google DeepMind：Blog（RSS）",
+      "url": "https://www.langchain.com/blog/revamping-skills-in-deep-agents",
+      "source": "LangChain：Blog（RSS）",
       "image": null,
-      "time": "2026-10-06T19:57:04.000Z",
+      "time": "2026-10-07T18:49:50.000Z",
       "id": 4
     },
     {
-      "title": "亚利桑那州法院裁定AI生成受害者视频带有不当情感分量，凶手须重新量刑",
-      "summary": "亚利桑那州上诉法院裁定，Gabriel Horcasitas过失杀人案量刑中使用的受害者Christopher Pelkey AI生成视频带有不当情感重量，罪名维持但刑期须重新考虑。",
-      "category": "行业",
+      "title": "NVIDIA 与 Microsoft 推出 RTX Spark 平台并宣布 MXC 让 AI Agent 落地 Windows PC",
+      "summary": "NVIDIA 与 Microsoft 在旧金山活动上宣布为 Windows PC 共同打造 AI Agent 软硬件。",
+      "category": "AI",
       "tags": [
-        "industry"
+        "Agent",
+        "算力"
       ],
-      "url": "https://www.404media.co/her-ai-generated-video-swayed-the-judge-the-court-said-it-carried-undue-emotional-weight/",
-      "source": "404 Media（RSS）",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+      "source": "NVIDIA Blog（RSS）",
       "image": null,
-      "time": "2026-10-06T19:26:09.000Z",
+      "time": "2026-10-07T18:45:28.000Z",
       "id": 5
     },
     {
-      "title": "DeepSeek 据报道接近完成至少 800 亿元融资，腾讯与宁德时代参与",
-      "summary": "据 Bloomberg 援引知情人士报道，DeepSeek 接近完成至少 800 亿元（约 120 亿美元）融资，高于原定约 500 亿元的目标。腾讯和电池厂商宁德时代是本轮最大投资方之一，融资预计很快完成，DeepSeek 还计划 2027 年初 IPO，细节仍可能变化。",
-      "category": "行业",
+      "title": "Cursor 公布 Claude Haiku 5.5 定价并下调 Claude Sonnet 5.5 缓存读取价格",
+      "summary": "Cursor 公布 Claude Haiku 5.5 定价为每 M 输入 token $0.10、输出 token $0.50，输入超过 100k token 时为 $0.50/M 和 $2.50/M。Claude Sonnet 5.5 缓存读取价格也从 $0.20/M 降至 $0.10/M，用户可在 cursor.com/evals 上通过 CursorBench 对比 Haiku 5.5 的表现。",
+      "category": "AI",
       "tags": [
-        "腾讯",
-        "DeepSeek"
+        "Claude"
       ],
-      "url": "https://x.com/thexpin/status/2107524306058289533",
-      "source": "X：X.PIN (@thexpin)",
+      "url": "https://x.com/cursor_ai/status/2107897257651769464",
+      "source": "X：Cursor (@cursor_ai)",
       "image": null,
-      "time": "2026-10-06T17:32:05.000Z",
+      "time": "2026-10-07T18:14:03.000Z",
       "id": 6
     },
     {
-      "title": "Sierra 与 Meta 联合多家企业发布 Personal Agent Protocol 开放协议",
-      "summary": "Sierra 与 Meta 联合 Genesys、Instinct、Rocket、Shopify、Stripe、Walmart 等伙伴宣布开发 Personal Agent Protocol，一个定义个人 AI 智能体如何与企业交互的开放标准，任何人都可实现。",
-      "category": "行业",
+      "title": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
+      "summary": "Claude Code 发布 v2.1.293，新增 Claude Haiku 5.5（claude-haiku-5-5）作为 Anthropic API 默认 Haiku 模型，支持 1M 上下文，价格为 $0.10/$0.50 每百万 token（超 100K 提示为 $0.50/$2.50）。",
+      "category": "AI",
       "tags": [
-        "Llama",
-        "Agent"
+        "Claude"
       ],
-      "url": "https://sierra.ai/blog/introducing-personal-agent-protocol",
-      "source": "Sierra：Blog（RSS）",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+      "source": "Claude Code：GitHub Releases（RSS）",
       "image": null,
-      "time": "2026-10-06T17:32:00.000Z",
+      "time": "2026-10-07T18:10:20.000Z",
       "id": 7
     },
     {
-      "title": "Claude for Google Workspace 开启 beta，可直接在 Docs、Sheets、Slides 中编辑",
-      "summary": "Claude 宣布推出 Claude for Google Workspace（beta），一次安装即可覆盖 Google Docs、Sheets 和 Slides。",
+      "title": "Anthropic 为 Claude Max 和 Team 套餐推出月度 Platform API 额度",
+      "summary": "Anthropic 正在为 Claude Max 和 Team 套餐推出月度 Claude Platform API 额度：Max 5x 为 $100，Max 20x 为 $200，Team 最多 $500 且可共享。额度适用于任何模型，包括 Haiku 5.5，可在自己的代码或第三方 harness 中使用。",
       "category": "AI",
       "tags": [
         "Claude",
-        "Gemini"
+        "API"
       ],
-      "url": "https://www.youtube.com/watch?v=idJQMJwHtyM",
-      "source": "Claude：YouTube（RSS）",
+      "url": "https://x.com/ClaudeDevs/status/2107895957933408429",
+      "source": "X：Claude Devs (@ClaudeDevs)",
       "image": null,
-      "time": "2026-10-06T17:02:37.000Z",
+      "time": "2026-10-07T18:08:53.000Z",
       "id": 8
     },
     {
-      "title": "DeepSeek V4.1 Flash 在 ARC-AGI (Verified) 评测中的成绩公布",
-      "summary": "ARC Prize 公布 DeepSeek V4.1 Flash 在 ARC-AGI (Verified) 的成绩：ARC-AGI-2 得分 72.9%，每任务成本 $0.13；ARC-AGI-1 得分 94.5%，每任务成本 $0.07。相比 V4 Flash 的最佳成绩，ARC-AGI-1 高 5.5 分，ARC-AGI-2 高 11.5 分，但每任务成本高约 250%。",
+      "title": "Anthropic 将 Claude Sonnet 5.5 缓存读取价格减半至每百万 token $0.10",
+      "summary": "Anthropic 宣布将 Claude Sonnet 5.5 的缓存读取价格减半，降至每百万 token $0.10。官方称这使 Sonnet 5.5 在多数长期运行任务上的运行成本降低约 20%。",
       "category": "AI",
       "tags": [
-        "DeepSeek"
+        "Claude"
       ],
-      "url": "https://x.com/arcprize/status/2107491194007585239",
-      "source": "X：ARC Prize (@arcprize)",
+      "url": "https://x.com/claudeai/status/2107894060229034197",
+      "source": "X：Claude (@claudeai)",
       "image": null,
-      "time": "2026-10-06T15:20:30.000Z",
+      "time": "2026-10-07T18:01:21.000Z",
       "id": 9
     },
     {
-      "title": "Mistral Large 4 上线 Arena 的 Agent Arena 与 Code Arena 评测",
-      "summary": "Arena 宣布 Mistral 的 Mistral Large 4 现已进入 Agent Arena，用户可前往测试投票，分数稍后公布。该模型为 1T 参数、49B 激活的原生多模态开放权重模型，也已在 Code Arena 的 WebDev、Text 和 Vision 中可用。",
+      "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI",
+      "summary": "OpenAI 发布面向更广泛用户的 GPT-6，并随 GPT-6 在 ChatGPT 中引入 Intelligent UI，可生成图形、按钮、表单、图表和可交互组件来回答问题。",
       "category": "AI",
       "tags": [
-        "Agent"
+        "OpenAI",
+        "设计"
       ],
-      "url": "https://x.com/arena/status/2107476436223504484",
-      "source": "X：Arena (@arena)",
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "image": null,
-      "time": "2026-10-06T14:21:52.000Z",
+      "time": "2026-10-07T18:00:58.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "storytold/photocraft",
-      "description": "Rust重写开源Photoshop，支持图层、蒙版等",
-      "language": "Rust",
-      "stars": 8391,
-      "starsToday": 6153,
-      "forks": 1064,
-      "url": "https://github.com/storytold/photocraft",
+      "name": "openai/math",
+      "description": "OpenAI数学模型研究仓库",
+      "language": "Lean",
+      "stars": 10182,
+      "starsToday": 6390,
+      "forks": 1013,
+      "url": "https://github.com/openai/math",
       "rank": 1
     },
     {
-      "name": "openai/math",
-      "description": "OpenAI数学论文及证明工具，支持Lean语言",
-      "language": "Lean",
-      "stars": 3792,
-      "starsToday": 3792,
-      "forks": 339,
-      "url": "https://github.com/openai/math",
+      "name": "alchaincyf/huashu-art-motion",
+      "description": "多风格艺术动画生成工具",
+      "language": "JavaScript",
+      "stars": 1854,
+      "starsToday": 1854,
+      "forks": 211,
+      "url": "https://github.com/alchaincyf/huashu-art-motion",
       "rank": 2
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "跨平台开源AI助手，支持多种聊天平台",
-      "language": "TypeScript",
-      "stars": 391521,
-      "starsToday": 1239,
-      "forks": 82286,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "DietrichGebert/ponytail",
+      "description": "代码优化与测试工具",
+      "language": "JavaScript",
+      "stars": 157742,
+      "starsToday": 797,
+      "forks": 8472,
+      "url": "https://github.com/DietrichGebert/ponytail",
       "rank": 3
     },
     {
-      "name": "ultraworkers/claw-code",
-      "description": "Rust语言， crab-powered harnesses",
-      "language": "Rust",
-      "stars": 195193,
-      "starsToday": 1033,
-      "forks": 108171,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "deepseek-ai/deepseek-harness",
+      "description": "时空可组合性编程范式",
+      "language": "TypeScript",
+      "stars": 245360,
+      "starsToday": 651,
+      "forks": 29397,
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 4
     },
     {
-      "name": "DietrichGebert/ponytail",
-      "description": "JavaScript，代码量减少，性能提升",
+      "name": "affaan-m/ECC",
+      "description": "多语言插件安装指南",
       "language": "JavaScript",
-      "stars": 156945,
-      "starsToday": 828,
-      "forks": 8429,
-      "url": "https://github.com/DietrichGebert/ponytail",
+      "stars": 275023,
+      "starsToday": 645,
+      "forks": 41030,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 5
     },
     {
-      "name": "rehan-remade/universal-modder",
-      "description": "Python，AI游戏修改工具，支持多种游戏",
+      "name": "NousResearch/hermes-agent",
+      "description": "自我改进AI智能体",
       "language": "Python",
-      "stars": 4700,
-      "starsToday": 784,
-      "forks": 420,
-      "url": "https://github.com/rehan-remade/universal-modder",
+      "stars": 251991,
+      "starsToday": 570,
+      "forks": 54266,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 6
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "JavaScript，多语言插件安装指南",
-      "language": "JavaScript",
-      "stars": 274378,
-      "starsToday": 637,
-      "forks": 40938,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "anomalyco/opencode",
+      "description": "开源AI编程代理",
+      "language": "TypeScript",
+      "stars": 212246,
+      "starsToday": 404,
+      "forks": 28287,
+      "url": "https://github.com/anomalyco/opencode",
       "rank": 7
     },
     {
-      "name": "JuliusBrussee/caveman",
-      "description": "Go语言，减少AI模型token使用",
-      "language": "Go",
-      "stars": 110244,
-      "starsToday": 596,
-      "forks": 6383,
-      "url": "https://github.com/JuliusBrussee/caveman",
+      "name": "facebookincubator/muse-gadget-sdk",
+      "description": "开源Muse设备SDK",
+      "language": "C",
+      "stars": 1681,
+      "starsToday": 336,
+      "forks": 338,
+      "url": "https://github.com/facebookincubator/muse-gadget-sdk",
       "rank": 8
     },
     {
-      "name": "deepseek-ai/deepseek-harness",
-      "description": "TypeScript，开源AI代理工具，插件化架构",
-      "language": "TypeScript",
-      "stars": 244709,
-      "starsToday": 582,
-      "forks": 29327,
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "name": "farion1231/cc-switch",
+      "description": "多工具代码切换管理器",
+      "language": "Rust",
+      "stars": 141054,
+      "starsToday": 329,
+      "forks": 9449,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 9
     },
     {
       "name": "QingYunA/answer-me-with-html",
-      "description": "JavaScript，快速生成可读HTML页面",
+      "description": "快速生成可读HTML页面",
       "language": "JavaScript",
-      "stars": 1825,
-      "starsToday": 456,
-      "forks": 128,
+      "stars": 2138,
+      "starsToday": 313,
+      "forks": 145,
       "url": "https://github.com/QingYunA/answer-me-with-html",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-10-07",
-    "updatedAt": "2026-10-07T04:29:48.981Z",
+    "date": "2026-10-08",
+    "updatedAt": "2026-10-08T04:40:51.854Z",
     "highlights": [
-      "OpenAI发布数学研究成果",
-      "GitHub重建Git基础设施",
-      "ChatGPT推出会议插件",
-      "DeepMind开源轻量多模态模型",
-      "亚利桑那州AI视频量刑案",
-      "DeepSeek融资消息",
-      "Personal Agent Protocol发布",
-      "Claude for Google Workspace beta版",
-      "DeepSeek V4.1评测成绩",
-      "Mistral Large 4评测上线"
+      "Codex与ChatGPT活跃用户突破4000万，AI接口停用通知发布，GPT-6 Luna Decisions上线，LangChain重构技能支持，NVIDIA与Microsoft合作推出RTX Spark平台，Cursor调整产品定价，Claude Code发布新版本，Anthropic推出月度API额度，OpenAI推出GPT-6与UI更新"
     ],
     "keywords": [
-      "AI",
-      "Git",
+      "Codex",
       "ChatGPT",
-      "DeepMind",
-      "AI伦理",
-      "融资",
-      "开放协议",
-      "AI工具",
-      "评测",
-      "开源项目"
+      "AI接口",
+      "GPT-6",
+      "LangChain",
+      "NVIDIA",
+      "Microsoft",
+      "RTX Spark",
+      "Cursor",
+      "Claude Code",
+      "Anthropic",
+      "OpenAI",
+      "GPT-6 UI"
     ],
-    "trendingSummary": "今日技术趋势集中在AI领域，OpenAI和DeepMind的研究成果引领技术前沿，GitHub基础设施升级和ChatGPT新功能展示AI应用进展。同时，行业法规和融资动态也值得关注。"
+    "trendingSummary": "今日AI领域活跃度持续高涨，产品更新和平台合作频繁，预示着AI技术正加速向更广泛的应用场景拓展。"
   }
 }
