@@ -1,266 +1,262 @@
 {
-  "date": "2026-10-08",
-  "updatedAt": "2026-10-08T04:40:51.854Z",
+  "date": "2026-10-09",
+  "updatedAt": "2026-10-09T04:44:00.694Z",
   "techNews": [
     {
-      "title": "Codex 与 ChatGPT Work 活跃用户达 4000 万新高，付费账户重置已全部到账",
-      "summary": "作者确认 banked reset 已到账所有账户，并转引 Day 3 动态称 Codex 与 ChatGPT Work 合计活跃用户达到 4000 万新高，其中提到 GPT-6 已在 Chat 中上线。",
-      "category": "行业",
-      "tags": [
-        "OpenAI",
-        "编程"
-      ],
-      "url": "https://x.com/thsottiaux/status/2108040921044639779",
-      "source": "X：Tibo (@thsottiaux)",
-      "image": null,
-      "time": "2026-10-08T03:44:55.000Z",
-      "id": 1
-    },
-    {
-      "title": "【AIHOT 通知】旧版接口 2026 年 10 月 31 日停用，推送机器人和脚本请尽快迁移",
-      "summary": "这条消息来自 AIHOT 旧版接口 /api/public/*：它将于 2026 年 10 月 31 日停用，之后这里不会再有新资讯。如果它是群机器人或脚本推送来的，请转告维护的人把地址换成 https://aihot.news/api/v1，字段一一对应；迁移指南和可以直接交给 AI 改写代码的提示词见 https://aihot.news/agent?tab=api#legacy-api-migration 。同一天起旧域名 aihot.virxact.com 的所有地址都只跳转到 aihot.news，RSS、MCP 等地址也请换成新域名；收藏的网页链接照样能打开。",
-      "category": "行业",
-      "tags": [
-        "API",
-        "机器人"
-      ],
-      "url": "https://aihot.news/agent?tab=api#legacy-api-migration",
-      "source": "AIHOT",
-      "image": null,
-      "time": "2026-10-08T02:00:00.000Z",
-      "id": 2
-    },
-    {
-      "title": "GPT-6 Luna Decisions 上架 OpenRouter",
-      "summary": "OpenRouter 宣布 GPT-6 Luna Decisions 上线。OpenAI 的 Decisions API 可让应用选择合适的模型、工具或动作，支持发送文本、JSON 或图片并返回带概率的类型化答案。定价为输入 $0.10/M、输出免费，上下文 1M；引用 OpenAI 开发者账号称其决策速度比通过 Responses API 的 GPT-6 Luna 最快 10 倍。",
-      "category": "AI",
-      "tags": [
-        "OpenAI"
-      ],
-      "url": "https://x.com/OpenRouter/status/2107929204142874759",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "image": null,
-      "time": "2026-10-07T20:21:00.000Z",
-      "id": 3
-    },
-    {
-      "title": "LangChain 重构 Deep Agents 的 Skills 支持，新增工具绑定、固定技能与线程内重载",
-      "summary": "LangChain 重构 Deep Agents 的 Skills 支持，针对企业技能库增至数千个技能的场景推出三项更新：工具可绑定到技能、仅在该技能被读取时加载，用户可通过 /meeting-prep 之类的显式请求固定技能以在首次模型调用前加载，长线程可通过将 skills_metadata 设为 None 重载新增或变更的技能。",
+      "title": "Mistral Large 4 进入 Agent Arena 前十五实验室，排名第 43",
+      "summary": "Arena 宣布 Mistral Large 4 进入 Agent Arena 前十五实验室，基于超 5000 个真实智能体会话，该预览版净改进分为 -6.6%，总排名第 43，比前代 Mistral Medium 3.5（-12.60%）高出 11 位。",
       "category": "AI",
       "tags": [
         "Agent"
       ],
-      "url": "https://www.langchain.com/blog/revamping-skills-in-deep-agents",
-      "source": "LangChain：Blog（RSS）",
+      "url": "https://x.com/arena/status/2108405474391728357",
+      "source": "X：Arena (@arena)",
       "image": null,
-      "time": "2026-10-07T18:49:50.000Z",
+      "time": "2026-10-09T03:53:32.000Z",
+      "id": 1
+    },
+    {
+      "title": "Tibo 宣布发布 ChatGPT",
+      "summary": "Tibo 宣布 ChatGPT 发布，并给出访问地址 https://chatgpt.com/。推文本身仅含发布声明和链接，未提供更多功能或细节。",
+      "category": "AI",
+      "tags": [
+        "OpenAI"
+      ],
+      "url": "https://x.com/thsottiaux/status/2108349826727588000",
+      "source": "X：Tibo (@thsottiaux)",
+      "image": null,
+      "time": "2026-10-09T00:12:24.000Z",
+      "id": 2
+    },
+    {
+      "title": "OpenAI 年化营收被曝接近 500 亿美元，与此前预期差距约 200 亿美元",
+      "summary": "据金融时报报道，OpenAI 向投资者披露截至 9 月底年化营收逼近 500 亿美元，大幅低于此前外界估算的 700 亿美元，缺口约 200 亿美元。差异源于统计口径不同，Anthropic 计入 AWS 和谷歌云等合作方销售收入，而 OpenAI 剔除该部分。报道发布后美股科技股下跌，纳斯达克 100 指数收跌 1.4%，英伟达跌 2.9%，甲骨文跌 5.5%。",
+      "category": "行业",
+      "tags": [
+        "OpenAI"
+      ],
+      "url": "https://www.ithome.com/1/010/751.htm",
+      "source": "IT之家·人工智能",
+      "image": null,
+      "time": "2026-10-08T23:02:44.683Z",
+      "id": 3
+    },
+    {
+      "title": "Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元并发布 Alignment Index",
+      "summary": "Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元，由 Lightspeed 和 Khosla Ventures 联合领投，a16z、Felicis、Salesforce Ventures、The House Fund 等参投。自 A 轮以来，Arena 年化收入超 1 亿美元，平台累计 3.5 亿场次会话，约 5 个月内产生 700 万次 Agent Arena 会话，覆盖文本、视觉、代码、搜索、图像和视频的投票达 6200 万，用户遍布 150 多个国家。融资同时，Arena 发布基于真实智能体轨迹构建的 Alignment Index，对 20 多个前沿模型从 Unauthorized Action、False Attribution 和 Deceptive Completion 三个信号进行评估。Arena 于 2023 年作为 UC Berkeley 研究项目启动，2025 年成为公司。",
+      "category": "行业",
+      "tags": [
+        "industry"
+      ],
+      "url": "https://x.com/arena/status/2108310714423423254",
+      "source": "X：Arena (@arena)",
+      "image": null,
+      "time": "2026-10-08T21:36:59.000Z",
       "id": 4
     },
     {
-      "title": "NVIDIA 与 Microsoft 推出 RTX Spark 平台并宣布 MXC 让 AI Agent 落地 Windows PC",
-      "summary": "NVIDIA 与 Microsoft 在旧金山活动上宣布为 Windows PC 共同打造 AI Agent 软硬件。",
+      "title": "Arena 公布 Claude Haiku 5.5 (High) 真实评测结果：Code Arena 1587 分首秀第 30 名",
+      "summary": "Arena 公布 Anthropic Claude Haiku 5.5 (High) 的真实评测结果，在 Code Arena: WebDev 以 1587 分首秀排名第 30，略在 Pareto 前沿之外。",
       "category": "AI",
       "tags": [
-        "Agent",
-        "算力"
+        "Claude"
       ],
-      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
-      "source": "NVIDIA Blog（RSS）",
+      "url": "https://x.com/arena/status/2108286973119230096",
+      "source": "X：Arena (@arena)",
       "image": null,
-      "time": "2026-10-07T18:45:28.000Z",
+      "time": "2026-10-08T20:02:39.000Z",
       "id": 5
     },
     {
-      "title": "Cursor 公布 Claude Haiku 5.5 定价并下调 Claude Sonnet 5.5 缓存读取价格",
-      "summary": "Cursor 公布 Claude Haiku 5.5 定价为每 M 输入 token $0.10、输出 token $0.50，输入超过 100k token 时为 $0.50/M 和 $2.50/M。Claude Sonnet 5.5 缓存读取价格也从 $0.20/M 降至 $0.10/M，用户可在 cursor.com/evals 上通过 CursorBench 对比 Haiku 5.5 的表现。",
-      "category": "AI",
+      "title": "如何在单张 RTX 5090 上用 MiniMax H3 生成实时视频",
+      "summary": "ComfyUI 博客作者用智能体搜集各类优化，把 MiniMax H3 实时视频生成压缩到单张 RTX 5090（32 GB 显存）上运行，生成 30 秒视频耗时 23.51 秒，达 1.28 倍实时吞吐。",
+      "category": "工具",
       "tags": [
-        "Claude"
+        "tip"
       ],
-      "url": "https://x.com/cursor_ai/status/2107897257651769464",
-      "source": "X：Cursor (@cursor_ai)",
+      "url": "https://blog.comfy.org/p/how-i-generated-live-video-with-minimax",
+      "source": "Comfy Blog",
       "image": null,
-      "time": "2026-10-07T18:14:03.000Z",
+      "time": "2026-10-08T19:01:22.000Z",
       "id": 6
     },
     {
-      "title": "Claude Code v2.1.293 发布：新增 Claude Haiku 5.5 并修复大量问题",
-      "summary": "Claude Code 发布 v2.1.293，新增 Claude Haiku 5.5（claude-haiku-5-5）作为 Anthropic API 默认 Haiku 模型，支持 1M 上下文，价格为 $0.10/$0.50 每百万 token（超 100K 提示为 $0.50/$2.50）。",
-      "category": "AI",
+      "title": "Arena 获 Lightspeed 领投 2 亿美元 B 轮融资，估值 31 亿美元并推出 Alignment Index",
+      "summary": "Arena 宣布完成由 Lightspeed 领投的 2 亿美元 B 轮融资，估值 31 亿美元。引用内容称其年化收入已超 1 亿美元，数百万用户通过真实使用帮助评估前沿模型；Arena 同时推出 Alignment Index，衡量 AI 行为在真实场景中与人类价值的契合程度。",
+      "category": "行业",
       "tags": [
-        "Claude"
+        "industry"
       ],
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
-      "source": "Claude Code：GitHub Releases（RSS）",
+      "url": "https://x.com/arena/status/2108269048467513429",
+      "source": "X：Arena (@arena)",
       "image": null,
-      "time": "2026-10-07T18:10:20.000Z",
+      "time": "2026-10-08T18:51:25.000Z",
       "id": 7
     },
     {
-      "title": "Anthropic 为 Claude Max 和 Team 套餐推出月度 Platform API 额度",
-      "summary": "Anthropic 正在为 Claude Max 和 Team 套餐推出月度 Claude Platform API 额度：Max 5x 为 $100，Max 20x 为 $200，Team 最多 $500 且可共享。额度适用于任何模型，包括 Haiku 5.5，可在自己的代码或第三方 harness 中使用。",
-      "category": "AI",
+      "title": "部分数学家呼吁抵制 OpenAI，AI 生成的数学证明涌入数学领域",
+      "summary": "AHM 组织在 Terence Tao 主持下发表声明，呼吁抵制 OpenAI，称其一次性发布 700 多个 AI 生成证明文件是展示力量而非学术行为。此前 OpenAI 宣称内部模型一个月内解决逾 100 个开放数学问题，约 8000 个测试问题成功率约 5%，平均每个耗时 3 小时 GPT-Pro 级算力。",
+      "category": "行业",
       "tags": [
-        "Claude",
-        "API"
+        "OpenAI"
       ],
-      "url": "https://x.com/ClaudeDevs/status/2107895957933408429",
-      "source": "X：Claude Devs (@ClaudeDevs)",
+      "url": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field/",
+      "source": "The Decoder：AI News（RSS）",
       "image": null,
-      "time": "2026-10-07T18:08:53.000Z",
+      "time": "2026-10-08T18:17:07.000Z",
       "id": 8
     },
     {
-      "title": "Anthropic 将 Claude Sonnet 5.5 缓存读取价格减半至每百万 token $0.10",
-      "summary": "Anthropic 宣布将 Claude Sonnet 5.5 的缓存读取价格减半，降至每百万 token $0.10。官方称这使 Sonnet 5.5 在多数长期运行任务上的运行成本降低约 20%。",
-      "category": "AI",
+      "title": "Arena 宣布 2 亿美元 B 轮融资，估值达 31 亿美元，并推出 Alignment Index",
+      "summary": "Arena 宣布完成 2 亿美元 B 轮融资，估值 31 亿美元，同时推出衡量 AI 智能体是否安全、真实且在用户要求范围内行动的 Alignment Index。引用 Felicis 的内容称 Arena 年化收入已超 1 亿美元，累计促成 3.5 亿次会话和 6200 万次投票。",
+      "category": "行业",
       "tags": [
-        "Claude"
+        "industry"
       ],
-      "url": "https://x.com/claudeai/status/2107894060229034197",
-      "source": "X：Claude (@claudeai)",
+      "url": "https://x.com/arena/status/2108243026741248348",
+      "source": "X：Arena (@arena)",
       "image": null,
-      "time": "2026-10-07T18:01:21.000Z",
+      "time": "2026-10-08T17:08:01.000Z",
       "id": 9
     },
     {
-      "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI",
-      "summary": "OpenAI 发布面向更广泛用户的 GPT-6，并随 GPT-6 在 ChatGPT 中引入 Intelligent UI，可生成图形、按钮、表单、图表和可交互组件来回答问题。",
+      "title": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半",
+      "summary": "Artificial Analysis 评测 Google 于 10 月 6 日发布的图像模型 Nano Banana 2.1，在 AA-Image-T2I v2.0 和 AA-Image-Editing v2.0 两个榜单均排名第 4。",
       "category": "AI",
       "tags": [
-        "OpenAI",
-        "设计"
+        "Gemini"
       ],
-      "url": "https://openai.com/index/gpt-6-for-everyone/",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+      "url": "https://x.com/ArtificialAnlys/status/2108236656700768310",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
       "image": null,
-      "time": "2026-10-07T18:00:58.000Z",
+      "time": "2026-10-08T16:42:42.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "openai/math",
-      "description": "OpenAI数学模型研究仓库",
+      "description": "OpenAI数学论文及证明工具库",
       "language": "Lean",
-      "stars": 10182,
-      "starsToday": 6390,
-      "forks": 1013,
+      "stars": 12324,
+      "starsToday": 2142,
+      "forks": 1292,
       "url": "https://github.com/openai/math",
       "rank": 1
     },
     {
-      "name": "alchaincyf/huashu-art-motion",
-      "description": "多风格艺术动画生成工具",
-      "language": "JavaScript",
-      "stars": 1854,
-      "starsToday": 1854,
-      "forks": 211,
-      "url": "https://github.com/alchaincyf/huashu-art-motion",
+      "name": "nullmoth/nvidia-macos-driver",
+      "description": "MacOS NVIDIA显卡驱动",
+      "language": "Rust",
+      "stars": 1288,
+      "starsToday": 1288,
+      "forks": 122,
+      "url": "https://github.com/nullmoth/nvidia-macos-driver",
       "rank": 2
     },
     {
-      "name": "DietrichGebert/ponytail",
-      "description": "代码优化与测试工具",
-      "language": "JavaScript",
-      "stars": 157742,
-      "starsToday": 797,
-      "forks": 8472,
-      "url": "https://github.com/DietrichGebert/ponytail",
+      "name": "openclaw/openclaw",
+      "description": "跨平台AI助手，支持多平台聊天",
+      "language": "TypeScript",
+      "stars": 391500,
+      "starsToday": 1231,
+      "forks": 82300,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 3
     },
     {
-      "name": "deepseek-ai/deepseek-harness",
-      "description": "时空可组合性编程范式",
-      "language": "TypeScript",
-      "stars": 245360,
-      "starsToday": 651,
-      "forks": 29397,
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "name": "ultraworkers/claw-code",
+      "description": "基于Rust的代码生成工具",
+      "language": "Rust",
+      "stars": 194991,
+      "starsToday": 1021,
+      "forks": 108127,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 4
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言插件安装指南",
+      "name": "DietrichGebert/ponytail",
+      "description": "JavaScript代码测试优化工具",
       "language": "JavaScript",
-      "stars": 275023,
-      "starsToday": 645,
-      "forks": 41030,
-      "url": "https://github.com/affaan-m/ECC",
+      "stars": 158718,
+      "starsToday": 976,
+      "forks": 8536,
+      "url": "https://github.com/DietrichGebert/ponytail",
       "rank": 5
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自我改进AI智能体",
-      "language": "Python",
-      "stars": 251991,
-      "starsToday": 570,
-      "forks": 54266,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "obra/superpowers",
+      "description": "智能编程代理开发方法论",
+      "language": "Shell",
+      "stars": 296623,
+      "starsToday": 815,
+      "forks": 26490,
+      "url": "https://github.com/obra/superpowers",
       "rank": 6
     },
     {
-      "name": "anomalyco/opencode",
-      "description": "开源AI编程代理",
-      "language": "TypeScript",
-      "stars": 212246,
-      "starsToday": 404,
-      "forks": 28287,
-      "url": "https://github.com/anomalyco/opencode",
+      "name": "alchaincyf/huashu-art-motion",
+      "description": "艺术风格动画生成工具",
+      "language": "JavaScript",
+      "stars": 2557,
+      "starsToday": 703,
+      "forks": 268,
+      "url": "https://github.com/alchaincyf/huashu-art-motion",
       "rank": 7
     },
     {
-      "name": "facebookincubator/muse-gadget-sdk",
-      "description": "开源Muse设备SDK",
-      "language": "C",
-      "stars": 1681,
-      "starsToday": 336,
-      "forks": 338,
-      "url": "https://github.com/facebookincubator/muse-gadget-sdk",
+      "name": "JuliusBrussee/caveman",
+      "description": "AI代理简洁表达工具",
+      "language": "Go",
+      "stars": 110613,
+      "starsToday": 592,
+      "forks": 6405,
+      "url": "https://github.com/JuliusBrussee/caveman",
       "rank": 8
     },
     {
       "name": "farion1231/cc-switch",
-      "description": "多工具代码切换管理器",
+      "description": "多代码平台管理工具",
       "language": "Rust",
-      "stars": 141054,
-      "starsToday": 329,
-      "forks": 9449,
+      "stars": 141552,
+      "starsToday": 498,
+      "forks": 9471,
       "url": "https://github.com/farion1231/cc-switch",
       "rank": 9
     },
     {
-      "name": "QingYunA/answer-me-with-html",
-      "description": "快速生成可读HTML页面",
-      "language": "JavaScript",
-      "stars": 2138,
-      "starsToday": 313,
-      "forks": 145,
-      "url": "https://github.com/QingYunA/answer-me-with-html",
+      "name": "deepseek-ai/deepseek-harness",
+      "description": "开源智能代理工具库",
+      "language": "TypeScript",
+      "stars": 245853,
+      "starsToday": 493,
+      "forks": 29488,
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-10-08",
-    "updatedAt": "2026-10-08T04:40:51.854Z",
+    "date": "2026-10-09",
+    "updatedAt": "2026-10-09T04:44:00.694Z",
     "highlights": [
-      "Codex与ChatGPT活跃用户突破4000万，AI接口停用通知发布，GPT-6 Luna Decisions上线，LangChain重构技能支持，NVIDIA与Microsoft合作推出RTX Spark平台，Cursor调整产品定价，Claude Code发布新版本，Anthropic推出月度API额度，OpenAI推出GPT-6与UI更新"
+      "Mistral Large 4 在 AI 领域表现突出，Tibo 发布 ChatGPT 引发关注",
+      "OpenAI 营收远超预期，Arena 完成 2 亿美元融资并发布 Alignment Index",
+      "数学家呼吁抵制 OpenAI，AI 生成的数学证明引发争议",
+      "GitHub 热门项目聚焦数学、驱动、AI 助手和代码生成工具",
+      "实时视频生成和代码测试优化工具受到关注"
     ],
     "keywords": [
-      "Codex",
+      "Mistral Large 4",
       "ChatGPT",
-      "AI接口",
-      "GPT-6",
-      "LangChain",
-      "NVIDIA",
-      "Microsoft",
-      "RTX Spark",
-      "Cursor",
-      "Claude Code",
-      "Anthropic",
       "OpenAI",
-      "GPT-6 UI"
+      "Arena",
+      "Alignment Index",
+      "数学证明",
+      "GitHub",
+      "代码生成",
+      "实时视频",
+      "代码测试优化"
     ],
-    "trendingSummary": "今日AI领域活跃度持续高涨，产品更新和平台合作频繁，预示着AI技术正加速向更广泛的应用场景拓展。"
+    "trendingSummary": "AI 领域持续火热，OpenAI 营收亮眼，数学界对 AI 产生质疑。GitHub 热门项目集中在数学、驱动和 AI 工具领域，显示技术发展趋势。"
   }
 }
