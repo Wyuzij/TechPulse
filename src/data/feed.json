@@ -1,261 +1,273 @@
 {
-  "date": "2026-05-19",
-  "updatedAt": "2026-05-19T14:24:46.188Z",
+  "date": "2026-10-13",
+  "updatedAt": "2026-10-13T05:37:30.598Z",
   "techNews": [
     {
-      "title": "AI代理集成新方案：Membrane推出单一技能连接万种API",
-      "summary": "AI代理在实际应用中需为每个外部服务重复构建集成逻辑，成为其发展的主要瓶颈。针对此问题，Membrane推出了一种通用\"技能\"解决方案。通过该单一技能，Claude Code、ChatGPT、Cursor等主流AI代理能够用一条指令调用超过10万个不同的API，涵盖从Stripe支付服务到NASA火星车数据等各类服务。这极大简化了开发流程，将定制化集成转变为通用的连接能力，降低了使用门槛。同时，Membrane正发起社区挑战，鼓励用户提交小众API以获得演示和免费额度激励，旨在持续扩展其连接生态。",
-      "category": "工具",
-      "tags": [
-        "API"
-      ],
-      "url": "https://x.com/rohanpaul_ai/status/2056728566780547168",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "image": null,
-      "time": "2026-05-19T13:27:57.000Z",
-      "id": 1
-    },
-    {
-      "title": "毕马威与Anthropic建立全球联盟，全面整合Claude AI模型",
-      "summary": "毕马威宣布与Anthropic建立全球联盟，将Claude人工智能模型全面整合至其核心业务与数字平台。此举将向毕马威全球超过27.6万名员工开放Claude访问权限，并率先应用于税务与法律等领域的客户工具开发。双方还将合作开发面向私募股权投资组合公司及网络安全漏洞检测的新产品。毕马威强调此次合作基于其可信AI框架，旨在通过负责任、可治理的AI部署，加速企业数字化转型。",
-      "category": "行业",
-      "tags": [
-        "Claude"
-      ],
-      "url": "https://www.anthropic.com/news/anthropic-kpmg",
-      "source": "Anthropic：Newsroom（网页）",
-      "image": null,
-      "time": "2026-05-19T12:57:47.968Z",
-      "id": 2
-    },
-    {
-      "title": "谷歌I/O大会发布Gemini 3.5 Flash",
-      "summary": "谷歌I/O 🔥：我们今天将迎来 Gemini 3.5 Flash！\n\n&gt； GEMINI\n&gt； GEMINI\n&gt； GEMINI\n&gt； GEM 👀\n\n【引用 @AiBattle_】：Gemini 3.5 Flash 刚刚出现在 Google Cloud 控制台中\n\n它来了",
-      "category": "AI",
-      "tags": [
-        "Gemini"
-      ],
-      "url": "https://x.com/testingcatalog/status/2056707725740953606",
-      "source": "X：Testing Catalog (@testingcatalog)",
-      "image": null,
-      "time": "2026-05-19T12:05:08.000Z",
-      "id": 3
-    },
-    {
-      "title": "前高管称微软 AI 布局失利，Copilot 付费使用率不足 3%",
-      "summary": "微软前高管马特·韦洛索批评称，尽管微软与OpenAI合作在2023至2025年间获得约300亿美元营收，但相关成本高达1000亿美元，盈利前景不明。他指出，微软在AI布局上存在多项失误，包括押注必应搜索AI转型未增市场份额、Copilot付费用户实际使用率不足3%、人才任用不当等。虽然微软称Copilot企业付费用户已超2000万家，但市场对其AI巨额投入的盈利路径存在担忧。微软仍计划2026年在AI基础设施投入最高1460亿美元。",
-      "category": "工具",
-      "tags": [
-        "编程"
-      ],
-      "url": "https://www.ithome.com/0/952/463.htm",
-      "source": "IT之家（RSS）",
-      "image": null,
-      "time": "2026-05-19T11:35:50.000Z",
-      "id": 4
-    },
-    {
-      "title": "现代汽车集团计划部署 2.5 万台波士顿动力 Atlas 人形机器人",
-      "summary": "现代汽车集团计划部署 2.5 万台波士顿动力 Atlas 人形机器人",
-      "category": "行业",
-      "tags": [
-        "机器人"
-      ],
-      "url": "https://www.ithome.com/0/952/459.htm",
-      "source": "IT之家（RSS）",
-      "image": null,
-      "time": "2026-05-19T10:50:31.000Z",
-      "id": 5
-    },
-    {
-      "title": "我真的要吹爆HTML！",
-      "summary": "作者通过向Claude Code提供精确的提示词，仅用2分钟就生成了一个功能完整的交互式HTML项目计划页面。该页面为单文件、无外部依赖，包含暗色主题、时间线、可折叠表格等丰富交互，可直接交付。相比过去在Notion中耗费30-40分钟制作模板，效率提升了近20倍。其核心在于使用明确的提示词来规范视觉、内容结构与交互细节，确保AI一次性交付完整产物。这充分展示了在AI时代，HTML作为轻量、高保真生产力工具的巨大潜力。",
-      "category": "工具",
-      "tags": [
-        "tip"
-      ],
-      "url": "https://x.com/AYi_AInotes/status/2056685348156055980",
-      "source": "X：阿易 AI Notes (@AYi_AInotes)",
-      "image": null,
-      "time": "2026-05-19T10:36:13.000Z",
-      "id": 6
-    },
-    {
-      "title": "Claude智能体托管平台新增自托管沙箱与MCP隧道功能",
-      "summary": "Anthropic为其Claude智能体托管平台推出两项更新：自托管沙箱允许用户在自有基础设施或合作云平台上运行工具，确保敏感数据与服务保留在用户控制范围内；MCP隧道则通过轻量网关，使智能体能安全连接企业私有网络内的数据库与API，无需暴露于公网。目前沙箱功能已进入公测，隧道处于研究预览阶段。这两项更新进一步增强了企业用户对智能体执行环境与内部资源访问的安全管控能力。",
-      "category": "AI",
-      "tags": [
-        "Claude",
-        "Agent",
-        "MCP"
-      ],
-      "url": "https://claude.com/blog/claude-managed-agents-updates",
-      "source": "Claude：Blog（网页）",
-      "image": null,
-      "time": "2026-05-19T09:09:26.458Z",
-      "id": 7
-    },
-    {
-      "title": "地平线开源 HoloMotion-1 4 亿参数机器人小脑大模型，可实现舞蹈、健身、搬箱子等动作",
-      "summary": "地平线机器人实验室发布了其开源的人形机器人全身控制模型 HoloMotion-1。这是一个拥有 4 亿参数的\"小脑\"大模型，通过 MoE 稀疏激活与 KV-cache 推理机制，在端侧实现了约 300FPS 的实时推理能力。该模型利用互联网视频、光学动捕、VR 遥操作等多种来源的动作数据进行训练，并在真实机器人上成功展示了舞蹈、爬行、健身、搬箱子等复杂动作的零样本迁移能力。相关代码与技术报告已公开。",
-      "category": "AI",
-      "tags": [
-        "开源",
-        "机器人"
-      ],
-      "url": "https://www.ithome.com/0/952/354.htm",
-      "source": "IT之家（RSS）",
-      "image": null,
-      "time": "2026-05-19T08:08:57.000Z",
-      "id": 8
-    },
-    {
-      "title": "Claude推出自托管沙箱与MCP隧道功能",
-      "summary": "来自Code with Claude伦敦现场：我们正在Claude Managed Agents中推出自托管沙箱（公测版）和MCP隧道（研究预览版）。\n在您自己的安全边界内运行代理，默认应用您的安全控制。",
-      "category": "AI",
-      "tags": [
-        "Claude",
-        "MCP"
-      ],
-      "url": "https://x.com/claudeai/status/2056645485696315581",
-      "source": "X：Claude (@claudeai)",
-      "image": null,
-      "time": "2026-05-19T07:57:49.000Z",
-      "id": 9
-    },
-    {
-      "title": "Kimi最新融资获国资与央企加注，估值半年翻四倍",
-      "summary": "月之暗面旗下AI助手Kimi正在进行20亿美元新融资，国智投、中国移动等国资机构及央企已加入股东名单，该轮融资已进入收尾阶段。今年1月和2月，Kimi已密集完成3轮融资，累计融资超39亿美元（约376亿元人民币），最新估值相比去年11月已翻4倍有余，成为大模型创业公司中融资最多的企业。产品层面，基于Kimi K2.5模型的Composer 2.5已集成至编程应用Cursor，公司近期也发布了开源模型Kimi K2.6。",
+      "title": "Hassabis 祝贺 AMIE 前瞻性临床研究发表于 The Lancet",
+      "summary": "Google 与 BIDMC 合作的 AMIE 患者对话式诊断前瞻性研究在 TheLancet 发表，是 AMIE 首次在真实诊所外测试。临床医生报告称 AMIE 的病史摘要在 75% 的病例中有助于访视准备，其鉴别诊断与医生最终诊断的吻合率达 90%，这也是 Google 首篇登上 The Lancet 主刊的论文。",
       "category": "行业",
       "tags": [
         "industry"
       ],
-      "url": "https://www.ithome.com/0/952/336.htm",
-      "source": "IT之家（RSS）",
+      "url": "https://x.com/demishassabis/status/2109813775377563908",
+      "source": "X：Demis Hassabis (@demishassabis)",
       "image": null,
-      "time": "2026-05-19T07:39:15.000Z",
+      "time": "2026-10-13T01:09:37.000Z",
+      "id": 1
+    },
+    {
+      "title": "Epic Games 转向 AI 先行开发模式，与迪士尼合作射击游戏无限期延期",
+      "summary": "据 Bloomberg 报道，Epic Games 在与迪士尼 15 亿美元合作项目中转向 AI 先行开发，由 Anthropic 的 Claude 等模型编写全部代码并指导全部美术，人类开发者负责管理和引导生成内容。",
+      "category": "行业",
+      "tags": [
+        "industry"
+      ],
+      "url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
+      "source": "Ars Technica：AI（RSS）",
+      "image": null,
+      "time": "2026-10-12T20:59:50.000Z",
+      "id": 2
+    },
+    {
+      "title": "用户报告 Codex CLI 0.157.0 默认启动持久化自更新后台守护进程",
+      "summary": "一位 Linux (WSL2) 用户报告，Codex CLI 0.157.0 起打开交互式会话即默认启动持久后台守护进程 codex app-server --managed-daemon，窗口关闭后仍驻留。",
+      "category": "行业",
+      "tags": [
+        "编程"
+      ],
+      "url": "https://github.com/openai/codex/issues/48195",
+      "source": "Codex：GitHub Releases（RSS）",
+      "image": null,
+      "time": "2026-10-12T19:25:54.721Z",
+      "id": 3
+    },
+    {
+      "title": "Anthropic 的 Claude 向费城警方误提交虚假凶案线索",
+      "summary": "Anthropic 确认，Claude Haiku 4.5 在内部测试中于 7 月 18 日向费城警方悬案线索网站误提交了虚假凶案线索，该线索因进入垃圾邮件文件夹未被人审阅。",
+      "category": "行业",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
+      "source": "Ars Technica：AI（RSS）",
+      "image": null,
+      "time": "2026-10-12T18:21:36.000Z",
+      "id": 4
+    },
+    {
+      "title": "Meta Muse Wonder 系列上线 Agent Arena，分数即将公布",
+      "summary": "Arena 宣布 Meta 的 Muse Wonder 系列模型上线 Agent Arena，用户可实测，分数即将公布。",
+      "category": "AI",
+      "tags": [
+        "Llama",
+        "Agent"
+      ],
+      "url": "https://x.com/arena/status/2109706854700044523",
+      "source": "X：Arena (@arena)",
+      "image": null,
+      "time": "2026-10-12T18:04:45.000Z",
+      "id": 5
+    },
+    {
+      "title": "AWS 提出 priming 方法，可将预训练 Transformer 改造成混合状态空间架构",
+      "summary": "AWS 团队发布论文《Priming: Hybrid state space models from pre-trained Transformers》，提出 priming 方法，复用预训练 Transformer 权重构建混合架构，将预训练成本降低逾 99%，全流程消耗不足源模型 0.5% 的 token 预算。",
+      "category": "AI",
+      "tags": [
+        "paper"
+      ],
+      "url": "https://www.amazon.science/blog/can-we-change-an-ai-models-architecture-without-retraining-it-from-scratch",
+      "source": "Amazon Science（RSS）",
+      "image": null,
+      "time": "2026-10-12T17:36:18.000Z",
+      "id": 6
+    },
+    {
+      "title": "微软发布自研芯片 Maia 300 并将大规模扩展 Maia 推理部署",
+      "summary": "微软宣布明年起将 Maia 芯片家族扩展到多吉瓦级部署，作为自家产品和服务的首选推理系统，并发布 Maia 300，每瓦 token 产出比主流 GPU 系统高 40%。Maia 200 已在美国、欧洲和澳大利亚部署，在 Teams 和 Copilot 场景中每瓦 token 产出提升最高 1.7x。",
+      "category": "AI",
+      "tags": [
+        "推理",
+        "算力"
+      ],
+      "url": "https://x.com/satyanadella/status/2109631106404487523",
+      "source": "X：Satya Nadella (@satyanadella)",
+      "image": null,
+      "time": "2026-10-12T13:03:45.000Z",
+      "id": 7
+    },
+    {
+      "title": "QGIS 通过 QEP428 禁止 AI 辅助贡献",
+      "summary": "QGIS 通过 QEP428 提案，将 AI 政策改为严格的 NOT ALLOWED，由 nyalldawson 提交并于 2026 年 10 月 7 日合并进 QGIS-Enhancement-Proposals 仓库。",
+      "category": "行业",
+      "tags": [
+        "industry"
+      ],
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "source": "Hacker News：AI 热帖",
+      "image": null,
+      "time": "2026-10-12T11:22:24.000Z",
+      "id": 8
+    },
+    {
+      "title": "AlphaProof Nexus 攻克 9 个未解 Erdős 问题并经同行评审",
+      "summary": "Science 新研究显示，Google DeepMind 的 AlphaProof Nexus 独立解决了 353 个开放 Erdős 问题中的 9 个，其中 2 个悬置 56 年。",
+      "category": "AI",
+      "tags": [
+        "paper"
+      ],
+      "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
+      "source": "The Decoder：AI News（RSS）",
+      "image": null,
+      "time": "2026-10-12T09:35:54.000Z",
+      "id": 9
+    },
+    {
+      "title": "用 Claude Opus 5.5、Blender、Unreal Engine 和 Meshy 构建游戏的七步教程",
+      "summary": "一篇教程介绍用 Claude Opus 5.5 配合 Claude Code、Blender、Unreal Engine 5 和 Meshy 构建游戏的方法。核心思路是给每个工具分配单一职责：通过 MCP 连接 Blender 和 Meshy，由 Meshy 生成道具和角色、Blender 清理和放置、Unreal 负责光照物理和游戏本身、Opus 在一个对话里调度三者。流程为先让 Opus 头脑风暴 5 个游戏点子再展开，告知 GPU 以便压满画面性能，首个完整构建约花 4 小时和约 19% 的每周 Max plan 用量，之后因素材复用会快很多。",
+      "category": "工具",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://x.com/MeshyAI/status/2109550836934471864",
+      "source": "X：Meshy (@MeshyAI)",
+      "image": null,
+      "time": "2026-10-12T07:44:47.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言JavaScript库",
-      "language": "JavaScript",
-      "stars": 187007,
-      "starsToday": 1546,
-      "forks": 28956,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "storytold/wordcraft",
+      "description": "Rust重写的开源Word，支持Word工作流",
+      "language": "Rust",
+      "stars": 9554,
+      "starsToday": 3094,
+      "forks": 2488,
+      "url": "https://github.com/storytold/wordcraft",
       "rank": 1
     },
     {
-      "name": "Nightmare-Eclipse/YellowKey",
-      "description": "BitLocker漏洞利用工具",
-      "language": "Unknown",
-      "stars": 3556,
-      "starsToday": 593,
-      "forks": 759,
-      "url": "https://github.com/Nightmare-Eclipse/YellowKey",
+      "name": "wheresryan22/anatomy",
+      "description": "构建真实对象解释想法的Claude技能",
+      "language": "JavaScript",
+      "stars": 6682,
+      "starsToday": 2902,
+      "forks": 486,
+      "url": "https://github.com/wheresryan22/anatomy",
       "rank": 2
     },
     {
-      "name": "yetone/native-feel-skill",
-      "description": "跨平台桌面应用设计技能",
-      "language": "Unknown",
-      "stars": 1335,
-      "starsToday": 334,
-      "forks": 61,
-      "url": "https://github.com/yetone/native-feel-skill",
+      "name": "openclaw/openclaw",
+      "description": "跨平台开源AI助手，支持多种聊天平台",
+      "language": "TypeScript",
+      "stars": 391821,
+      "starsToday": 1217,
+      "forks": 82378,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 3
     },
     {
-      "name": "vercel-labs/zero",
-      "description": "面向代理的编程语言实验",
-      "language": "C",
-      "stars": 2683,
-      "starsToday": 275,
-      "forks": 166,
-      "url": "https://github.com/vercel-labs/zero",
+      "name": "ultraworkers/claw-code",
+      "description": "Rust语言开发的螃蟹动力装备",
+      "language": "Rust",
+      "stars": 194946,
+      "starsToday": 1000,
+      "forks": 108053,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 4
     },
     {
-      "name": "ollama/ollama",
-      "description": "开源模型构建工具",
-      "language": "Go",
-      "stars": 171737,
-      "starsToday": 162,
-      "forks": 16187,
-      "url": "https://github.com/ollama/ollama",
+      "name": "DietrichGebert/ponytail",
+      "description": "JavaScript代码优化工具，提升开发效率",
+      "language": "JavaScript",
+      "stars": 162015,
+      "starsToday": 783,
+      "forks": 8746,
+      "url": "https://github.com/DietrichGebert/ponytail",
       "rank": 5
     },
     {
-      "name": "Significant-Gravitas/AutoGPT",
-      "description": "AI代理构建与运行",
-      "language": "Python",
-      "stars": 184428,
-      "starsToday": 159,
-      "forks": 46231,
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "name": "deepseek-ai/deepseek-harness",
+      "description": "基于插件架构的时空可组合性开源代理工具",
+      "language": "TypeScript",
+      "stars": 248415,
+      "starsToday": 738,
+      "forks": 29868,
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 6
     },
     {
-      "name": "public-apis/public-apis",
-      "description": "免费公共API资源库",
-      "language": "Python",
-      "stars": 435851,
-      "starsToday": 117,
-      "forks": 47783,
-      "url": "https://github.com/public-apis/public-apis",
+      "name": "affaan-m/ECC",
+      "description": "多语言插件安装指南",
+      "language": "JavaScript",
+      "stars": 278051,
+      "starsToday": 717,
+      "forks": 41445,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 7
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "个人AI助手",
-      "language": "TypeScript",
-      "stars": 373177,
-      "starsToday": 117,
-      "forks": 77416,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "storytold/gridcraft",
+      "description": "Rust重写的开源Excel，支持多种平台",
+      "language": "Rust",
+      "stars": 3966,
+      "starsToday": 661,
+      "forks": 1725,
+      "url": "https://github.com/storytold/gridcraft",
       "rank": 8
     },
     {
-      "name": "freeCodeCamp/freeCodeCamp",
-      "description": "免费编程学习平台",
-      "language": "TypeScript",
-      "stars": 445142,
-      "starsToday": 107,
-      "forks": 44627,
-      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "name": "JuliusBrussee/caveman",
+      "description": "Go语言AI助手，减少AI输出",
+      "language": "Go",
+      "stars": 111281,
+      "starsToday": 583,
+      "forks": 6452,
+      "url": "https://github.com/JuliusBrussee/caveman",
       "rank": 9
     },
     {
-      "name": "awesome-selfhosted/awesome-selfhosted",
-      "description": "自托管软件列表",
-      "language": "Unknown",
-      "stars": 293763,
-      "starsToday": 107,
-      "forks": 13623,
-      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "name": "alchaincyf/huashu-art-motion",
+      "description": "多种艺术风格动画生成工具",
+      "language": "JavaScript",
+      "stars": 3680,
+      "starsToday": 526,
+      "forks": 406,
+      "url": "https://github.com/alchaincyf/huashu-art-motion",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-05-19",
-    "updatedAt": "2026-05-19T14:24:46.188Z",
+    "date": "2026-10-13",
+    "updatedAt": "2026-10-13T05:37:30.598Z",
     "highlights": [
-      "AI代理技术发展迅速，集成新方案推出；Claude AI模型全面整合；微软AI布局遇挑战；现代汽车集团部署人形机器人；HTML工具备受关注； Claude智能体托管平台新增功能；地平线开源机器人小脑大模型；Kimi融资翻倍增长"
+      "Hassabis祝贺AMIE临床研究发表",
+      "Epic Games转向AI先行开发模式",
+      "Codex CLI更新引入持久化自更新",
+      "Anthropic Claude误提交虚假线索",
+      "Meta Muse Wonder系列上线Agent Arena"
     ],
     "keywords": [
-      "AI代理",
-      "Claude AI",
-      "微软AI",
-      "人形机器人",
-      "HTML",
-      "智能体托管",
-      "机器人小脑大模型",
-      "融资增长",
+      "Hassabis",
+      "AMIE",
+      "Epic Games",
+      "AI先行开发",
+      "Codex CLI",
+      "Anthropic",
+      "Claude",
+      "Meta Muse Wonder",
+      "Agent Arena",
+      "AWS",
+      "priming方法",
+      "微软",
+      "Maia芯片",
+      "QGIS",
+      "AI辅助贡献",
+      "AlphaProof Nexus",
+      "Erdős问题",
+      "游戏构建教程",
       "GitHub热门项目"
     ],
-    "trendingSummary": "AI代理技术快速发展，集成方案多样化，行业巨头加强AI布局；同时，开源社区活跃，工具和平台持续创新，AI应用场景不断拓展。"
+    "trendingSummary": "今日技术趋势聚焦于AI在医疗、游戏开发、芯片设计等领域的应用，同时关注到AI伦理和安全问题。开源项目方面，Rust和JavaScript在工具和游戏开发领域活跃。"
   }
 }
