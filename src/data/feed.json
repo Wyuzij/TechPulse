@@ -1,7 +1,101 @@
 {
-  "date": "2026-10-16",
-  "updatedAt": "2026-10-16T03:17:07.259Z",
+  "date": "2026-10-17",
+  "updatedAt": "2026-10-17T03:08:16.043Z",
   "techNews": [
+    {
+      "title": "Anthropic 如何在 Claude 写下 Claude Code 约 90% 代码后重新设计代码评审",
+      "summary": "作者解读 Anthropic 关于 Claude Code 代码评审重构的博客：Claude 写了约 90% 的代码，2026 年 6 月到 9 月合并 PR 翻倍以上而 revert 率下降超 40%。",
+      "category": "工具",
+      "tags": [
+        "Claude",
+        "编程",
+        "设计"
+      ],
+      "url": "https://x.com/shao__meng/status/2111274173192638932",
+      "source": "X：邵猛 (@shao__meng)",
+      "image": null,
+      "time": "2026-10-17T01:52:43.000Z",
+      "id": 1
+    },
+    {
+      "title": "Muse Spark Open (Max) 登顶 Code Arena: WebDev 美国开源模型第一",
+      "summary": "Arena 公布 Meta 发布的 Muse Spark Open (Max) 在 Code Arena: WebDev 以 1511 分位居美国开源模型第一、开源模型总榜第 13。",
+      "category": "AI",
+      "tags": [
+        "Llama",
+        "开源"
+      ],
+      "url": "https://x.com/arena/status/2111221323217412318",
+      "source": "X：Arena (@arena)",
+      "image": null,
+      "time": "2026-10-16T22:22:42.000Z",
+      "id": 2
+    },
+    {
+      "title": "a16z 图表周报：智能体购物遭电商拦截，消费意愿仍滞后",
+      "summary": "a16z 图表周报指出智能体商务遇阻，Cloudflare 数据显示智能体与爬虫收到的 403 拒绝响应自夏季起明显增多，约为原先两倍。文章引用 NRF 数据称退货率与退货成本自 2019 年以来分别翻倍和增至三倍，并引用调查指 42% 消费者完全不信任 AI 代购，Similarweb 数据显示 AI 购物多发生在发现与购买之间的中间阶段，而非下单环节。",
+      "category": "AI",
+      "tags": [
+        "Agent"
+      ],
+      "url": "https://www.a16z.news/p/this-week-in-charts-agents-denied",
+      "source": "a16z：News（RSS）",
+      "image": null,
+      "time": "2026-10-16T14:00:39.000Z",
+      "id": 3
+    },
+    {
+      "title": "NVIDIA RTX Spark 笔记本今日开售，主打 128GB 统一内存与本地 AI",
+      "summary": "NVIDIA 宣布 RTX Spark 笔记本正式开售，来自 ASUS、Dell、HP、Lenovo、Microsoft 和 MSI，起价 $2,599。",
+      "category": "AI",
+      "tags": [
+        "算力"
+      ],
+      "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+      "source": "NVIDIA：Newsroom（RSS）",
+      "image": null,
+      "time": "2026-10-16T12:00:00.000Z",
+      "id": 4
+    },
+    {
+      "title": "商务部、科技部拟在出口技术目录增列23项人工智能技术并征意见",
+      "summary": "商务部、科技部发布2026年第48号公告，就修订《中国禁止出口限制出口技术目录》公开征求意见，拟增列人工智能、生物医药、光伏共40项技术，其中禁止出口14项、限制出口26项，并对相关技术实施出口前登记的临时管理措施。",
+      "category": "行业",
+      "tags": [
+        "industry"
+      ],
+      "url": "https://www.ithome.com/1/013/983.htm",
+      "source": "IT之家·人工智能",
+      "image": null,
+      "time": "2026-10-16T08:23:54.520Z",
+      "id": 5
+    },
+    {
+      "title": "Waymo 宣布进军多伦多，计划2028年迎接首批乘客",
+      "summary": "Waymo 宣布进入加拿大，将在多伦多布局完全自动驾驶出行服务，目标2028年迎接首批乘客。近期将先以人工驾驶方式采集高精地图并由自动驾驶专家进行测试；Waymo 与 Element Fleet Management 合作提供车队管理服务，将逐步创造数百个岗位。官方称基于超4亿公里完全自动驾驶里程，其车辆在严重伤害及以上事故中比人类驾驶少95%。",
+      "category": "行业",
+      "tags": [
+        "industry"
+      ],
+      "url": "https://waymo.com/blog/2026/10/waymo-in-toronto",
+      "source": "Waymo：Blog（网页）",
+      "image": null,
+      "time": "2026-10-16T07:00:00.000Z",
+      "id": 6
+    },
+    {
+      "title": "丹麦最高法院裁定持有传播 AI 生成儿童色情内容可判实刑",
+      "summary": "据彭博社 15 日报道，丹麦最高法院维持对一名 31 岁男子 18 个月监禁的判决，该男子因持有并传播 3.6 万余张 AI 生成的儿童色情图像获刑，且不适用缓刑。法院裁定，即使图像无真实人物原型，也受丹麦《刑法》约束，量刑时不应考虑人物是否虚构；此案为丹麦首起此类定罪，并引发跨国调查，警方查明 273 名买家身份、逮捕 25 人。",
+      "category": "行业",
+      "tags": [
+        "industry"
+      ],
+      "url": "https://www.ithome.com/1/013/914.htm",
+      "source": "IT之家·人工智能",
+      "image": null,
+      "time": "2026-10-16T06:14:36.073Z",
+      "id": 7
+    },
     {
       "title": "Kling 4.0 深夜上线，作者实测30秒一镜到底与全能参考表现",
       "summary": "可灵AI凌晨正式上线视频模型 Kling 4.0，作者烧数万积分实测后认为其在大范围动态、复杂动作衔接和全能参考可控性上有扎实进步。支持最长30秒一镜到底直出，视频首尾帧改为最多10帧的多帧参考；1080P 30秒约450积分，720P 20秒的 Kling 4.0 Flash 仅120积分，作者推荐先用 Flash 打样再用正式版出片，此外10-bit 4K HDR 输出规格尚未上线。",
@@ -13,7 +107,7 @@
       "source": "X：卡兹克 (@Khazix0918)",
       "image": null,
       "time": "2026-10-16T02:03:07.000Z",
-      "id": 1
+      "id": 8
     },
     {
       "title": "消息称投资者下调 Anthropic IPO 估值预期，从约 2 万亿美元降至约 1.5 万亿美元",
@@ -26,7 +120,7 @@
       "source": "IT之家·人工智能",
       "image": null,
       "time": "2026-10-16T00:54:07.827Z",
-      "id": 2
+      "id": 9
     },
     {
       "title": "可灵 Kling 4.0 上线：支持30秒一镜到底，作者实测动态与全能参考",
@@ -39,229 +133,143 @@
       "source": "公众号：数字生命卡兹克",
       "image": null,
       "time": "2026-10-16T00:18:00.000Z",
-      "id": 3
-    },
-    {
-      "title": "vLLM 解析 Kimi K3 在 AMD Instinct MI355X 上的推理优化，单 GPU 吞吐超 NVIDIA HGX B300 24.4%",
-      "summary": "AMD 与 Embedded LLM 在 vLLM 官方博客详解 Kimi K3 在八卡 AMD Instinct MI355X 上的推理优化。",
-      "category": "工具",
-      "tags": [
-        "推理",
-        "算力"
-      ],
-      "url": "https://vllm.ai/blog/2026-10-16-kimi-k3-mi355x",
-      "source": "vLLM 官方博客（RSS）",
-      "image": null,
-      "time": "2026-10-16T00:00:00.000Z",
-      "id": 4
-    },
-    {
-      "title": "Musk 称 xAI 2027 年底算力目标可能超过 10GW",
-      "summary": "Musk 转发黄仁勋在 BG2Pod 访谈中的表态并评论算力目标可能超过 10GW；访谈称 Nvidia 已把 SpaceX 归入云服务商客户，两家工程师正合作设计可用于太空的新型服务器架构。",
-      "category": "行业",
-      "tags": [
-        "算力"
-      ],
-      "url": "https://x.com/elonmusk/status/2110877572011844019",
-      "source": "X：Elon Musk (@elonmusk, xAI)",
-      "image": null,
-      "time": "2026-10-15T23:36:46.000Z",
-      "id": 5
-    },
-    {
-      "title": "Krea 3 图像模型通过 ComfyUI Partner Nodes 上线",
-      "summary": "Krea 3 图像模型现已在 ComfyUI 通过 Partner Nodes 提供，主打基于参考图的生成与编辑。模型强调更快的迭代速度和更低的单张成本，支持按上传顺序引用多张参考图、保持产品标签形状材质不变的前提下修改环境光影构图，并可将生成结果作为新输入继续编辑。",
-      "category": "AI",
-      "tags": [
-        "设计"
-      ],
-      "url": "https://blog.comfy.org/p/krea-3-is-now-available-via-partner",
-      "source": "Comfy Blog",
-      "image": null,
-      "time": "2026-10-15T21:15:45.000Z",
-      "id": 6
-    },
-    {
-      "title": "Claude Opus 5.5 fast mode 结束研究预览并移除等待名单",
-      "summary": "Anthropic 宣布 Claude 平台上的 Opus 5.5 fast mode 不再处于研究预览阶段，并已移除等待名单。该模式速度最高提升 2.5 倍，定价为 $8 / $40 per million tokens；现已登陆 Microsoft Foundry（Azure 托管），Google Cloud 即将支持。Claude Code 中的 fast mode 保持不变，消耗额外 usage credits。文档见 https://platform.claude.com/docs/en/build-with-claude/fast-mode",
-      "category": "AI",
-      "tags": [
-        "Claude"
-      ],
-      "url": "https://x.com/ClaudeDevs/status/2110825294655562048",
-      "source": "X：Claude Devs (@ClaudeDevs)",
-      "image": null,
-      "time": "2026-10-15T20:09:02.000Z",
-      "id": 7
-    },
-    {
-      "title": "ChatGPT 为 Chrome 用户新增标签页读取与控制能力",
-      "summary": "ChatGPT 官宣面向 Chrome 用户带来升级，把 computer use 能力引入 Chrome。在聊天中，ChatGPT 可以查看用户打开的标签页并汇总信息；在工作模式下，它能控制 Chrome 标签页执行操作，如发送消息、填写表单、下载文件，还可帮助整理和分组打开的标签页。",
-      "category": "AI",
-      "tags": [
-        "OpenAI",
-        "浏览器"
-      ],
-      "url": "https://x.com/ChatGPT/status/2110823738531037651",
-      "source": "X：ChatGPT (@ChatGPT)",
-      "image": null,
-      "time": "2026-10-15T20:02:51.000Z",
-      "id": 8
-    },
-    {
-      "title": "Meta 如何用 AI 原生工程方式开发 Forum 应用",
-      "summary": "Meta 工程团队详解如何把 AI 智能体作为开发流程参与者来构建独立 Groups 应用 Forum，采用 human-on-the-loop 模式并以验证通过的生产级产出衡量成功。Forum 在八周内达到与 Facebook Groups 的核心功能对齐，自主压测循环在开发期发现并修复了内存问题，内存占用和缺页约减半，上线后智能体还协助根因分析用户反馈。",
-      "category": "工具",
-      "tags": [
-        "Llama"
-      ],
-      "url": "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering/",
-      "source": "Meta Engineering Blog（RSS）",
-      "image": null,
-      "time": "2026-10-15T19:00:03.000Z",
-      "id": 9
-    },
-    {
-      "title": "Black Forest Labs FLUX 3 系列登陆 OpenRouter：Image Klein 开源权重、视频 upscale 降价并支持 4K 生成",
-      "summary": "OpenRouter 宣布 Black Forest Labs（@bfl_ai）三项新内容上线。FLUX 3 Image Klein 是新的开源权重图像模型，可在单张消费级 GPU 上运行；改进版 FLUX Video Upscale 开启 early access，可将任意视频转为 4K，价格从 $0.59/s 降至 $0.28/s；FLUX 3 Video 现已支持从提示词直接生成 4K 视频。",
-      "category": "AI",
-      "tags": [
-        "开源",
-        "设计"
-      ],
-      "url": "https://x.com/OpenRouter/status/2110803343878873473",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "image": null,
-      "time": "2026-10-15T18:41:48.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "morluto/rea",
-      "description": "多语言支持，TypeScript构建",
+      "description": "多语言支持，TypeScript开发",
       "language": "TypeScript",
-      "stars": 273731,
-      "starsToday": 27305,
-      "forks": 68875,
+      "stars": 292459,
+      "starsToday": 18728,
+      "forks": 73701,
       "url": "https://github.com/morluto/rea",
       "rank": 1
     },
     {
-      "name": "jhaizhou-ops/d2r-mobile",
-      "description": "Diablo II重制版iOS/macOS兼容层",
-      "language": "C",
-      "stars": 3231,
-      "starsToday": 958,
-      "forks": 966,
-      "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+      "name": "openclaw/openclaw",
+      "description": "跨平台AI助手，支持多种聊天工具",
+      "language": "TypeScript",
+      "stars": 392213,
+      "starsToday": 1203,
+      "forks": 82458,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 2
     },
     {
       "name": "affaan-m/ECC",
       "description": "多语言插件安装指南",
       "language": "JavaScript",
-      "stars": 280499,
-      "starsToday": 954,
-      "forks": 41715,
+      "stars": 281595,
+      "starsToday": 1096,
+      "forks": 41872,
       "url": "https://github.com/affaan-m/ECC",
       "rank": 3
+    },
+    {
+      "name": "ultraworkers/claw-code",
+      "description": "Rust语言， crab-powered harnesses",
+      "language": "Rust",
+      "stars": 194930,
+      "starsToday": 980,
+      "forks": 107944,
+      "url": "https://github.com/ultraworkers/claw-code",
+      "rank": 4
+    },
+    {
+      "name": "ahwootech/BRUTAL",
+      "description": "C#游戏开发框架，支持游戏引擎构建",
+      "language": "C#",
+      "stars": 1586,
+      "starsToday": 793,
+      "forks": 81,
+      "url": "https://github.com/ahwootech/BRUTAL",
+      "rank": 5
     },
     {
       "name": "DietrichGebert/ponytail",
       "description": "JavaScript代码优化工具",
       "language": "JavaScript",
-      "stars": 164508,
-      "starsToday": 803,
-      "forks": 8869,
+      "stars": 165264,
+      "starsToday": 756,
+      "forks": 8926,
       "url": "https://github.com/DietrichGebert/ponytail",
-      "rank": 4
-    },
-    {
-      "name": "deepseek-ai/deepseek-harness",
-      "description": "开源时空可组合性代理工具",
-      "language": "TypeScript",
-      "stars": 250543,
-      "starsToday": 732,
-      "forks": 30115,
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "rank": 5
-    },
-    {
-      "name": "JuliusBrussee/caveman",
-      "description": "AI代理减少token使用",
-      "language": "Go",
-      "stars": 112654,
-      "starsToday": 712,
-      "forks": 6525,
-      "url": "https://github.com/JuliusBrussee/caveman",
       "rank": 6
     },
     {
-      "name": "Arekejoker/qwen21-nsfw-pose-skill",
-      "description": "Qwen-Image NSFW姿势出图配方",
-      "language": "Python",
-      "stars": 2104,
-      "starsToday": 701,
-      "forks": 429,
-      "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
+      "name": "deepseek-ai/deepseek-harness",
+      "description": "开源AI代理工具，基于插件架构",
+      "language": "TypeScript",
+      "stars": 251225,
+      "starsToday": 682,
+      "forks": 30206,
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 7
     },
     {
-      "name": "onehumanbeing/esp32-iphone-agent",
-      "description": "ESP32控制iPhone的AI模型",
-      "language": "C",
-      "stars": 2547,
-      "starsToday": 637,
-      "forks": 334,
-      "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+      "name": "HeyPuter/everything",
+      "description": "开源软件重建项目",
+      "language": "JavaScript",
+      "stars": 1763,
+      "starsToday": 588,
+      "forks": 259,
+      "url": "https://github.com/HeyPuter/everything",
       "rank": 8
     },
     {
-      "name": "liseami/CCBaga",
-      "description": "跨平台工作空间工具",
-      "language": "Rust",
-      "stars": 2351,
-      "starsToday": 588,
-      "forks": 235,
-      "url": "https://github.com/liseami/CCBaga",
+      "name": "Arekejoker/qwen21-nsfw-pose-skill",
+      "description": "NSFW姿势出图工具",
+      "language": "Python",
+      "stars": 2538,
+      "starsToday": 434,
+      "forks": 495,
+      "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
       "rank": 9
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自改进AI代理，内置学习循环",
-      "language": "Python",
-      "stars": 254156,
-      "starsToday": 565,
-      "forks": 55195,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "JuliusBrussee/caveman",
+      "description": "Go语言，AI代理精简工具",
+      "language": "Go",
+      "stars": 113078,
+      "starsToday": 424,
+      "forks": 6546,
+      "url": "https://github.com/JuliusBrussee/caveman",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-10-16",
-    "updatedAt": "2026-10-16T03:17:07.259Z",
+    "date": "2026-10-17",
+    "updatedAt": "2026-10-17T03:08:16.043Z",
     "highlights": [
-      "Kling 4.0 AI技术突破，Anthropic IPO估值调整，vLLM推理优化，xAI算力目标提升，Krea 3图像模型上线，ChatGPT Chrome功能增强，Meta AI原生工程应用，Black Forest Labs AI工具更新"
+      "Anthropic Claude Code 代码评审工具发布",
+      "Muse Spark Open 在 Code Arena 取得第一",
+      "智能体购物面临电商拦截，消费意愿滞后",
+      "NVIDIA RTX Spark 笔记本开售，主打统一内存与AI",
+      "商务部、科技部拟增列人工智能技术出口目录"
     ],
     "keywords": [
+      "Anthropic",
+      "Claude Code",
+      "Muse Spark Open",
+      "智能体购物",
+      "NVIDIA RTX Spark",
+      "人工智能技术出口",
+      "Waymo",
+      "丹麦最高法院",
       "Kling 4.0",
       "Anthropic IPO",
-      "vLLM",
-      "xAI",
-      "Krea 3",
-      "ChatGPT",
-      "Meta",
-      "Black Forest Labs",
-      "AI技术",
-      "估值调整",
-      "推理优化",
-      "算力目标",
-      "图像模型",
-      "Chrome功能",
-      "原生工程",
-      "工具更新"
+      "GitHub 热门项目",
+      "多语言支持",
+      "跨平台AI助手",
+      "Rust语言",
+      "C#游戏开发框架",
+      "JavaScript代码优化",
+      "开源AI代理工具",
+      "开源软件重建",
+      "NSFW姿势出图工具",
+      "Go语言AI代理精简"
     ],
-    "trendingSummary": "今日技术资讯显示AI领域持续快速发展，新工具和模型不断涌现，市场估值调整预示行业成熟。开源项目活跃，跨平台和优化工具成为趋势。"
+    "trendingSummary": "今日技术趋势集中在人工智能领域，包括代码评审工具、AI模型排名、智能体购物挑战、高性能笔记本发布及人工智能技术出口政策。同时，GitHub热门项目展现了多语言支持、跨平台AI助手和开源工具的流行趋势。"
   }
 }
