@@ -1,7 +1,46 @@
 {
-  "date": "2026-10-17",
-  "updatedAt": "2026-10-17T03:08:16.043Z",
+  "date": "2026-10-18",
+  "updatedAt": "2026-10-18T03:10:56.196Z",
   "techNews": [
+    {
+      "title": "卡兹克实测华硕 ProArt 创16 RTX Spark 电脑，37999 元实现本地 Token 自由",
+      "summary": "作者分享受邀参加英伟达 RTX Spark 全球开售活动后，深度使用一周华硕 ProArt 创16（128G 统一内存+1T，京东售价 37999 元）的体验，开售时 128G 版本在京东几分钟内被抢空。",
+      "category": "工具",
+      "tags": [
+        "tip"
+      ],
+      "url": "https://x.com/Khazix0918/status/2111639562720329976",
+      "source": "X：卡兹克 (@Khazix0918)",
+      "image": null,
+      "time": "2026-10-18T02:04:38.000Z",
+      "id": 1
+    },
+    {
+      "title": "WorkBuddy Intl 更新支持 DeepSeek-V4.1-Flash-1017，10 月 31 日前免费",
+      "summary": "WorkBuddy Intl 已更新至最新的 DeepSeek-V4.1-Flash-1017 模型，10 月 31 日前免费开放。引用的 DeepSeek 官方内容称该模型相比上一版性能更强、任务完成更快、输出更短，已上线网站、App 和 API，并针对 DeepSeek Harness、Tencent CodeBuddy、WorkBuddy 等做了优化。",
+      "category": "AI",
+      "tags": [
+        "DeepSeek"
+      ],
+      "url": "https://x.com/WorkBuddy_AI/status/2111404103402430558",
+      "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
+      "image": null,
+      "time": "2026-10-17T10:29:00.000Z",
+      "id": 2
+    },
+    {
+      "title": "卡兹克实测37999元RTX Spark轻薄本：一周实现本地Token自由",
+      "summary": "数字生命卡兹克分享华硕ProArt创16（RTX Spark N1X芯片、128G统一内存、37999元）的一周深度使用体验，该机全球开售时128G版本在京东几分钟内被抢空。",
+      "category": "工具",
+      "tags": [
+        "tip"
+      ],
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687354&idx=1&sn=dea0d54dc3b71b361e36199db6cf4a86",
+      "source": "公众号：数字生命卡兹克",
+      "image": null,
+      "time": "2026-10-17T10:19:04.000Z",
+      "id": 3
+    },
     {
       "title": "Anthropic 如何在 Claude 写下 Claude Code 约 90% 代码后重新设计代码评审",
       "summary": "作者解读 Anthropic 关于 Claude Code 代码评审重构的博客：Claude 写了约 90% 的代码，2026 年 6 月到 9 月合并 PR 翻倍以上而 revert 率下降超 40%。",
@@ -15,7 +54,7 @@
       "source": "X：邵猛 (@shao__meng)",
       "image": null,
       "time": "2026-10-17T01:52:43.000Z",
-      "id": 1
+      "id": 4
     },
     {
       "title": "Muse Spark Open (Max) 登顶 Code Arena: WebDev 美国开源模型第一",
@@ -29,7 +68,35 @@
       "source": "X：Arena (@arena)",
       "image": null,
       "time": "2026-10-16T22:22:42.000Z",
-      "id": 2
+      "id": 5
+    },
+    {
+      "title": "DeepSeek 开放自研搜索 API",
+      "summary": "DeepSeek 开放自研搜索 API，底层由 AI 原生的 DeepSeek 搜索引擎提供，每天稳定处理数亿次搜索请求。该引擎索引全球千亿级网页、支持多语言，并通过识别机制过滤 SEO 作弊、GEO 操纵和低质 AIGC，使用方式见网页搜索与抓取指南。",
+      "category": "AI",
+      "tags": [
+        "DeepSeek",
+        "API"
+      ],
+      "url": "https://api-docs.deepseek.com/zh-cn/updates/#开放自研搜索-api",
+      "source": "DeepSeek：API 更新日志",
+      "image": null,
+      "time": "2026-10-16T16:00:00.000Z",
+      "id": 6
+    },
+    {
+      "title": "DeepSeek-V4.1-Flash-1017 发布，多基准成绩提升且 API 价格不变",
+      "summary": "DeepSeek 将 V4.1 Flash 升级至 DeepSeek-V4.1-Flash-1017，网页端与 APP 同步更新，API 调用方式与价格不变，仍用 deepseek-flash 访问。",
+      "category": "AI",
+      "tags": [
+        "DeepSeek",
+        "API"
+      ],
+      "url": "https://api-docs.deepseek.com/zh-cn/updates/#deepseek-v41-flash-1017-更新",
+      "source": "DeepSeek：API 更新日志",
+      "image": null,
+      "time": "2026-10-16T16:00:00.000Z",
+      "id": 7
     },
     {
       "title": "a16z 图表周报：智能体购物遭电商拦截，消费意愿仍滞后",
@@ -42,7 +109,7 @@
       "source": "a16z：News（RSS）",
       "image": null,
       "time": "2026-10-16T14:00:39.000Z",
-      "id": 3
+      "id": 8
     },
     {
       "title": "NVIDIA RTX Spark 笔记本今日开售，主打 128GB 统一内存与本地 AI",
@@ -55,7 +122,7 @@
       "source": "NVIDIA：Newsroom（RSS）",
       "image": null,
       "time": "2026-10-16T12:00:00.000Z",
-      "id": 4
+      "id": 9
     },
     {
       "title": "商务部、科技部拟在出口技术目录增列23项人工智能技术并征意见",
@@ -68,208 +135,134 @@
       "source": "IT之家·人工智能",
       "image": null,
       "time": "2026-10-16T08:23:54.520Z",
-      "id": 5
-    },
-    {
-      "title": "Waymo 宣布进军多伦多，计划2028年迎接首批乘客",
-      "summary": "Waymo 宣布进入加拿大，将在多伦多布局完全自动驾驶出行服务，目标2028年迎接首批乘客。近期将先以人工驾驶方式采集高精地图并由自动驾驶专家进行测试；Waymo 与 Element Fleet Management 合作提供车队管理服务，将逐步创造数百个岗位。官方称基于超4亿公里完全自动驾驶里程，其车辆在严重伤害及以上事故中比人类驾驶少95%。",
-      "category": "行业",
-      "tags": [
-        "industry"
-      ],
-      "url": "https://waymo.com/blog/2026/10/waymo-in-toronto",
-      "source": "Waymo：Blog（网页）",
-      "image": null,
-      "time": "2026-10-16T07:00:00.000Z",
-      "id": 6
-    },
-    {
-      "title": "丹麦最高法院裁定持有传播 AI 生成儿童色情内容可判实刑",
-      "summary": "据彭博社 15 日报道，丹麦最高法院维持对一名 31 岁男子 18 个月监禁的判决，该男子因持有并传播 3.6 万余张 AI 生成的儿童色情图像获刑，且不适用缓刑。法院裁定，即使图像无真实人物原型，也受丹麦《刑法》约束，量刑时不应考虑人物是否虚构；此案为丹麦首起此类定罪，并引发跨国调查，警方查明 273 名买家身份、逮捕 25 人。",
-      "category": "行业",
-      "tags": [
-        "industry"
-      ],
-      "url": "https://www.ithome.com/1/013/914.htm",
-      "source": "IT之家·人工智能",
-      "image": null,
-      "time": "2026-10-16T06:14:36.073Z",
-      "id": 7
-    },
-    {
-      "title": "Kling 4.0 深夜上线，作者实测30秒一镜到底与全能参考表现",
-      "summary": "可灵AI凌晨正式上线视频模型 Kling 4.0，作者烧数万积分实测后认为其在大范围动态、复杂动作衔接和全能参考可控性上有扎实进步。支持最长30秒一镜到底直出，视频首尾帧改为最多10帧的多帧参考；1080P 30秒约450积分，720P 20秒的 Kling 4.0 Flash 仅120积分，作者推荐先用 Flash 打样再用正式版出片，此外10-bit 4K HDR 输出规格尚未上线。",
-      "category": "AI",
-      "tags": [
-        "ai-products"
-      ],
-      "url": "https://x.com/Khazix0918/status/2110914404393091205",
-      "source": "X：卡兹克 (@Khazix0918)",
-      "image": null,
-      "time": "2026-10-16T02:03:07.000Z",
-      "id": 8
-    },
-    {
-      "title": "消息称投资者下调 Anthropic IPO 估值预期，从约 2 万亿美元降至约 1.5 万亿美元",
-      "summary": "路透社援引知情人士消息称，Anthropic 公布最新财务数据后，部分投资者开始考虑下调其 IPO 估值，此前预期 11 月上市时估值约 2 万亿美元，投资者日活动讨论约 1.5 万亿美元。",
-      "category": "行业",
-      "tags": [
-        "Claude"
-      ],
-      "url": "https://www.ithome.com/1/013/723.htm",
-      "source": "IT之家·人工智能",
-      "image": null,
-      "time": "2026-10-16T00:54:07.827Z",
-      "id": 9
-    },
-    {
-      "title": "可灵 Kling 4.0 上线：支持30秒一镜到底，作者实测动态与全能参考",
-      "summary": "可灵AI凌晨正式上线视频模型 Kling 4.0，支持最长30秒直出和最多10帧的多帧参考，并强化全能参考与复杂打斗等大范围动态表现。作者烧数万积分实测城市追逐、电梯打斗、花样滑冰等场景，认为纸箱形变等细节体现物理规律理解的提升。1080P 30秒约450积分（约16元），720P约9元，4.0 Flash 720P 20秒仅120积分，官方还预告将支持10-bit 4K HDR输出。",
-      "category": "AI",
-      "tags": [
-        "ai-models"
-      ],
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687203&idx=1&sn=a58bc4411e8226b629f1b5c61509a198",
-      "source": "公众号：数字生命卡兹克",
-      "image": null,
-      "time": "2026-10-16T00:18:00.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "morluto/rea",
-      "description": "多语言支持，TypeScript开发",
+      "description": "多语言支持，TypeScript构建",
       "language": "TypeScript",
-      "stars": 292459,
-      "starsToday": 18728,
-      "forks": 73701,
+      "stars": 309005,
+      "starsToday": 16546,
+      "forks": 78206,
       "url": "https://github.com/morluto/rea",
       "rank": 1
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "跨平台AI助手，支持多种聊天工具",
-      "language": "TypeScript",
-      "stars": 392213,
-      "starsToday": 1203,
-      "forks": 82458,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "DietrichGebert/ponytail",
+      "description": "代码优化，测试覆盖率提升",
+      "language": "JavaScript",
+      "stars": 166302,
+      "starsToday": 1038,
+      "forks": 8996,
+      "url": "https://github.com/DietrichGebert/ponytail",
       "rank": 2
+    },
+    {
+      "name": "deepseek-ai/deepseek-harness",
+      "description": "插件式架构，时空可组合性",
+      "language": "TypeScript",
+      "stars": 252246,
+      "starsToday": 1021,
+      "forks": 30340,
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "rank": 3
     },
     {
       "name": "affaan-m/ECC",
       "description": "多语言插件安装指南",
       "language": "JavaScript",
-      "stars": 281595,
-      "starsToday": 1096,
-      "forks": 41872,
+      "stars": 282590,
+      "starsToday": 995,
+      "forks": 41990,
       "url": "https://github.com/affaan-m/ECC",
-      "rank": 3
-    },
-    {
-      "name": "ultraworkers/claw-code",
-      "description": "Rust语言， crab-powered harnesses",
-      "language": "Rust",
-      "stars": 194930,
-      "starsToday": 980,
-      "forks": 107944,
-      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 4
     },
     {
-      "name": "ahwootech/BRUTAL",
-      "description": "C#游戏开发框架，支持游戏引擎构建",
-      "language": "C#",
-      "stars": 1586,
-      "starsToday": 793,
-      "forks": 81,
-      "url": "https://github.com/ahwootech/BRUTAL",
+      "name": "jhaizhou-ops/d2r-mobile",
+      "description": "Diablo II移植至iOS/macOS",
+      "language": "C",
+      "stars": 3723,
+      "starsToday": 745,
+      "forks": 1058,
+      "url": "https://github.com/jhaizhou-ops/d2r-mobile",
       "rank": 5
     },
     {
-      "name": "DietrichGebert/ponytail",
-      "description": "JavaScript代码优化工具",
-      "language": "JavaScript",
-      "stars": 165264,
-      "starsToday": 756,
-      "forks": 8926,
-      "url": "https://github.com/DietrichGebert/ponytail",
+      "name": "NousResearch/hermes-agent",
+      "description": "自学习AI代理，跨会话知识构建",
+      "language": "Python",
+      "stars": 254719,
+      "starsToday": 564,
+      "forks": 55371,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 6
     },
     {
-      "name": "deepseek-ai/deepseek-harness",
-      "description": "开源AI代理工具，基于插件架构",
-      "language": "TypeScript",
-      "stars": 251225,
-      "starsToday": 682,
-      "forks": 30206,
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "name": "onehumanbeing/esp32-iphone-agent",
+      "description": "7美元ESP32运行iPhone AI模型",
+      "language": "C",
+      "stars": 3010,
+      "starsToday": 502,
+      "forks": 391,
+      "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
       "rank": 7
     },
     {
-      "name": "HeyPuter/everything",
-      "description": "开源软件重建项目",
-      "language": "JavaScript",
-      "stars": 1763,
-      "starsToday": 588,
-      "forks": 259,
-      "url": "https://github.com/HeyPuter/everything",
+      "name": "liseami/CCBaga",
+      "description": "跨平台工具包，优化工作环境",
+      "language": "Rust",
+      "stars": 2584,
+      "starsToday": 431,
+      "forks": 261,
+      "url": "https://github.com/liseami/CCBaga",
       "rank": 8
     },
     {
-      "name": "Arekejoker/qwen21-nsfw-pose-skill",
-      "description": "NSFW姿势出图工具",
-      "language": "Python",
-      "stars": 2538,
-      "starsToday": 434,
-      "forks": 495,
-      "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
+      "name": "anomalyco/opencode",
+      "description": "开源AI编码代理，多语言支持",
+      "language": "TypeScript",
+      "stars": 215484,
+      "starsToday": 403,
+      "forks": 28876,
+      "url": "https://github.com/anomalyco/opencode",
       "rank": 9
     },
     {
-      "name": "JuliusBrussee/caveman",
-      "description": "Go语言，AI代理精简工具",
-      "language": "Go",
-      "stars": 113078,
-      "starsToday": 424,
-      "forks": 6546,
-      "url": "https://github.com/JuliusBrussee/caveman",
+      "name": "farion1231/cc-switch",
+      "description": "统一管理Claude相关工具API",
+      "language": "Rust",
+      "stars": 145580,
+      "starsToday": 332,
+      "forks": 9636,
+      "url": "https://github.com/farion1231/cc-switch",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-10-17",
-    "updatedAt": "2026-10-17T03:08:16.043Z",
+    "date": "2026-10-18",
+    "updatedAt": "2026-10-18T03:10:56.196Z",
     "highlights": [
-      "Anthropic Claude Code 代码评审工具发布",
-      "Muse Spark Open 在 Code Arena 取得第一",
-      "智能体购物面临电商拦截，消费意愿滞后",
-      "NVIDIA RTX Spark 笔记本开售，主打统一内存与AI",
-      "商务部、科技部拟增列人工智能技术出口目录"
+      "华硕ProArt创16 RTX Spark电脑实现本地Token自由",
+      "WorkBuddyIntl更新支持DeepSeek-V4.1-Flash-1017免费",
+      "Anthropic Claude代码评审优化",
+      "Muse Spark Open模型登顶Code Arena",
+      "DeepSeek开放自研搜索API",
+      "NVIDIA RTX Spark笔记本开售",
+      "商务部、科技部增列人工智能技术征意见"
     ],
     "keywords": [
+      "华硕ProArt",
+      "本地Token自由",
+      "WorkBuddyIntl",
+      "DeepSeek",
       "Anthropic",
-      "Claude Code",
       "Muse Spark Open",
-      "智能体购物",
+      "搜索API",
       "NVIDIA RTX Spark",
-      "人工智能技术出口",
-      "Waymo",
-      "丹麦最高法院",
-      "Kling 4.0",
-      "Anthropic IPO",
-      "GitHub 热门项目",
-      "多语言支持",
-      "跨平台AI助手",
-      "Rust语言",
-      "C#游戏开发框架",
-      "JavaScript代码优化",
-      "开源AI代理工具",
-      "开源软件重建",
-      "NSFW姿势出图工具",
-      "Go语言AI代理精简"
+      "人工智能技术"
     ],
-    "trendingSummary": "今日技术趋势集中在人工智能领域，包括代码评审工具、AI模型排名、智能体购物挑战、高性能笔记本发布及人工智能技术出口政策。同时，GitHub热门项目展现了多语言支持、跨平台AI助手和开源工具的流行趋势。"
+    "trendingSummary": "今日技术趋势聚焦于本地Token自由、AI模型优化与开放、以及人工智能技术的出口政策。华硕ProArt电脑与NVIDIA RTX Spark笔记本展示本地AI能力，DeepSeek搜索API开放自研技术，Anthropic优化代码评审流程，商务部和科技部征询人工智能技术出口意见，标志着AI领域的发展与政策支持并行推进。"
   }
 }
