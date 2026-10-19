@@ -1,7 +1,49 @@
 {
-  "date": "2026-10-18",
-  "updatedAt": "2026-10-18T03:10:56.196Z",
+  "date": "2026-10-19",
+  "updatedAt": "2026-10-19T03:24:37.496Z",
   "techNews": [
+    {
+      "title": "DeepSeek-V4.1-Flash-20261017 登顶 Code Arena: WebDev 开源模型榜首",
+      "summary": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Code Arena: WebDev 榜单第一开源模型，超过 Kimi K3 (Max)，成本低约 10 倍。",
+      "category": "AI",
+      "tags": [
+        "Llama",
+        "DeepSeek",
+        "开源"
+      ],
+      "url": "https://x.com/arena/status/2111894091168682086",
+      "source": "X：Arena (@arena)",
+      "image": null,
+      "time": "2026-10-18T18:56:03.000Z",
+      "id": 1
+    },
+    {
+      "title": "Anthropic 内部研究显示初级技术岗位占比下降，AI Agent 工时达员工六倍",
+      "summary": "Anthropic 发布内部研究称，技术部门初级岗位占比从 2025 年初的 21% 降至 14%，新招初级占比从 27% 降至 9%，空缺初级职位降至 6%，非技术部门基本稳定。",
+      "category": "行业",
+      "tags": [
+        "Claude",
+        "Agent"
+      ],
+      "url": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/",
+      "source": "The Decoder：AI News（RSS）",
+      "image": null,
+      "time": "2026-10-18T13:22:26.000Z",
+      "id": 2
+    },
+    {
+      "title": "德国两家法院先后裁定 Google 须为其 AI Overview 内容负责",
+      "summary": "慕尼黑地区法院 I 五月底裁定 Google 的 AI 搜索摘要属于公司自己的陈述而非中立转述，Google 须为错误内容担责；Google 公开宣布上诉后实际以和解结案，未获上级法院裁决。",
+      "category": "行业",
+      "tags": [
+        "Gemini"
+      ],
+      "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+      "source": "The Decoder：AI News（RSS）",
+      "image": null,
+      "time": "2026-10-18T10:52:39.000Z",
+      "id": 3
+    },
     {
       "title": "卡兹克实测华硕 ProArt 创16 RTX Spark 电脑，37999 元实现本地 Token 自由",
       "summary": "作者分享受邀参加英伟达 RTX Spark 全球开售活动后，深度使用一周华硕 ProArt 创16（128G 统一内存+1T，京东售价 37999 元）的体验，开售时 128G 版本在京东几分钟内被抢空。",
@@ -13,7 +55,21 @@
       "source": "X：卡兹克 (@Khazix0918)",
       "image": null,
       "time": "2026-10-18T02:04:38.000Z",
-      "id": 1
+      "id": 4
+    },
+    {
+      "title": "Browser Use 讲解浏览器智能体的工作原理与使用时机",
+      "summary": "Browser Use 发布科普文章，讲解浏览器智能体由模型、harness 和浏览器三部分组成，通过观察页面、选择动作、执行并检查结果的循环完成任务，可通过 DOM、无障碍树或截图读取页面。",
+      "category": "工具",
+      "tags": [
+        "Agent",
+        "浏览器"
+      ],
+      "url": "https://browser-use.com/posts/browser-agents",
+      "source": "Browser Use",
+      "image": null,
+      "time": "2026-10-18T00:00:00.000Z",
+      "id": 5
     },
     {
       "title": "WorkBuddy Intl 更新支持 DeepSeek-V4.1-Flash-1017，10 月 31 日前免费",
@@ -26,7 +82,7 @@
       "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
       "image": null,
       "time": "2026-10-17T10:29:00.000Z",
-      "id": 2
+      "id": 6
     },
     {
       "title": "卡兹克实测37999元RTX Spark轻薄本：一周实现本地Token自由",
@@ -39,7 +95,7 @@
       "source": "公众号：数字生命卡兹克",
       "image": null,
       "time": "2026-10-17T10:19:04.000Z",
-      "id": 3
+      "id": 7
     },
     {
       "title": "Anthropic 如何在 Claude 写下 Claude Code 约 90% 代码后重新设计代码评审",
@@ -54,7 +110,7 @@
       "source": "X：邵猛 (@shao__meng)",
       "image": null,
       "time": "2026-10-17T01:52:43.000Z",
-      "id": 4
+      "id": 8
     },
     {
       "title": "Muse Spark Open (Max) 登顶 Code Arena: WebDev 美国开源模型第一",
@@ -68,7 +124,7 @@
       "source": "X：Arena (@arena)",
       "image": null,
       "time": "2026-10-16T22:22:42.000Z",
-      "id": 5
+      "id": 9
     },
     {
       "title": "DeepSeek 开放自研搜索 API",
@@ -82,187 +138,136 @@
       "source": "DeepSeek：API 更新日志",
       "image": null,
       "time": "2026-10-16T16:00:00.000Z",
-      "id": 6
-    },
-    {
-      "title": "DeepSeek-V4.1-Flash-1017 发布，多基准成绩提升且 API 价格不变",
-      "summary": "DeepSeek 将 V4.1 Flash 升级至 DeepSeek-V4.1-Flash-1017，网页端与 APP 同步更新，API 调用方式与价格不变，仍用 deepseek-flash 访问。",
-      "category": "AI",
-      "tags": [
-        "DeepSeek",
-        "API"
-      ],
-      "url": "https://api-docs.deepseek.com/zh-cn/updates/#deepseek-v41-flash-1017-更新",
-      "source": "DeepSeek：API 更新日志",
-      "image": null,
-      "time": "2026-10-16T16:00:00.000Z",
-      "id": 7
-    },
-    {
-      "title": "a16z 图表周报：智能体购物遭电商拦截，消费意愿仍滞后",
-      "summary": "a16z 图表周报指出智能体商务遇阻，Cloudflare 数据显示智能体与爬虫收到的 403 拒绝响应自夏季起明显增多，约为原先两倍。文章引用 NRF 数据称退货率与退货成本自 2019 年以来分别翻倍和增至三倍，并引用调查指 42% 消费者完全不信任 AI 代购，Similarweb 数据显示 AI 购物多发生在发现与购买之间的中间阶段，而非下单环节。",
-      "category": "AI",
-      "tags": [
-        "Agent"
-      ],
-      "url": "https://www.a16z.news/p/this-week-in-charts-agents-denied",
-      "source": "a16z：News（RSS）",
-      "image": null,
-      "time": "2026-10-16T14:00:39.000Z",
-      "id": 8
-    },
-    {
-      "title": "NVIDIA RTX Spark 笔记本今日开售，主打 128GB 统一内存与本地 AI",
-      "summary": "NVIDIA 宣布 RTX Spark 笔记本正式开售，来自 ASUS、Dell、HP、Lenovo、Microsoft 和 MSI，起价 $2,599。",
-      "category": "AI",
-      "tags": [
-        "算力"
-      ],
-      "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
-      "source": "NVIDIA：Newsroom（RSS）",
-      "image": null,
-      "time": "2026-10-16T12:00:00.000Z",
-      "id": 9
-    },
-    {
-      "title": "商务部、科技部拟在出口技术目录增列23项人工智能技术并征意见",
-      "summary": "商务部、科技部发布2026年第48号公告，就修订《中国禁止出口限制出口技术目录》公开征求意见，拟增列人工智能、生物医药、光伏共40项技术，其中禁止出口14项、限制出口26项，并对相关技术实施出口前登记的临时管理措施。",
-      "category": "行业",
-      "tags": [
-        "industry"
-      ],
-      "url": "https://www.ithome.com/1/013/983.htm",
-      "source": "IT之家·人工智能",
-      "image": null,
-      "time": "2026-10-16T08:23:54.520Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "morluto/rea",
-      "description": "多语言支持，TypeScript构建",
+      "description": "多语言AI编码助手",
       "language": "TypeScript",
-      "stars": 309005,
-      "starsToday": 16546,
-      "forks": 78206,
+      "stars": 324155,
+      "starsToday": 15150,
+      "forks": 82119,
       "url": "https://github.com/morluto/rea",
       "rank": 1
     },
     {
-      "name": "DietrichGebert/ponytail",
-      "description": "代码优化，测试覆盖率提升",
-      "language": "JavaScript",
-      "stars": 166302,
-      "starsToday": 1038,
-      "forks": 8996,
-      "url": "https://github.com/DietrichGebert/ponytail",
+      "name": "Gathin23/tv-vibehack",
+      "description": "去除安卓电视广告，打造苹果TV风格启动器",
+      "language": "Java",
+      "stars": 2239,
+      "starsToday": 2239,
+      "forks": 267,
+      "url": "https://github.com/Gathin23/tv-vibehack",
       "rank": 2
-    },
-    {
-      "name": "deepseek-ai/deepseek-harness",
-      "description": "插件式架构，时空可组合性",
-      "language": "TypeScript",
-      "stars": 252246,
-      "starsToday": 1021,
-      "forks": 30340,
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "rank": 3
-    },
-    {
-      "name": "affaan-m/ECC",
-      "description": "多语言插件安装指南",
-      "language": "JavaScript",
-      "stars": 282590,
-      "starsToday": 995,
-      "forks": 41990,
-      "url": "https://github.com/affaan-m/ECC",
-      "rank": 4
-    },
-    {
-      "name": "jhaizhou-ops/d2r-mobile",
-      "description": "Diablo II移植至iOS/macOS",
-      "language": "C",
-      "stars": 3723,
-      "starsToday": 745,
-      "forks": 1058,
-      "url": "https://github.com/jhaizhou-ops/d2r-mobile",
-      "rank": 5
-    },
-    {
-      "name": "NousResearch/hermes-agent",
-      "description": "自学习AI代理，跨会话知识构建",
-      "language": "Python",
-      "stars": 254719,
-      "starsToday": 564,
-      "forks": 55371,
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "rank": 6
-    },
-    {
-      "name": "onehumanbeing/esp32-iphone-agent",
-      "description": "7美元ESP32运行iPhone AI模型",
-      "language": "C",
-      "stars": 3010,
-      "starsToday": 502,
-      "forks": 391,
-      "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-      "rank": 7
-    },
-    {
-      "name": "liseami/CCBaga",
-      "description": "跨平台工具包，优化工作环境",
-      "language": "Rust",
-      "stars": 2584,
-      "starsToday": 431,
-      "forks": 261,
-      "url": "https://github.com/liseami/CCBaga",
-      "rank": 8
     },
     {
       "name": "anomalyco/opencode",
       "description": "开源AI编码代理，多语言支持",
       "language": "TypeScript",
-      "stars": 215484,
-      "starsToday": 403,
-      "forks": 28876,
+      "stars": 216739,
+      "starsToday": 1255,
+      "forks": 29016,
       "url": "https://github.com/anomalyco/opencode",
+      "rank": 3
+    },
+    {
+      "name": "openclaw/openclaw",
+      "description": "跨平台AI助手，集成多种聊天应用",
+      "language": "TypeScript",
+      "stars": 392409,
+      "starsToday": 1196,
+      "forks": 82490,
+      "url": "https://github.com/openclaw/openclaw",
+      "rank": 4
+    },
+    {
+      "name": "deepseek-ai/deepseek-harness",
+      "description": "开源AI代理工具，插件式架构",
+      "language": "TypeScript",
+      "stars": 253307,
+      "starsToday": 1061,
+      "forks": 30491,
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "rank": 5
+    },
+    {
+      "name": "ultraworkers/claw-code",
+      "description": "Rust语言 crab-powered harness",
+      "language": "Rust",
+      "stars": 194916,
+      "starsToday": 970,
+      "forks": 107909,
+      "url": "https://github.com/ultraworkers/claw-code",
+      "rank": 6
+    },
+    {
+      "name": "DietrichGebert/ponytail",
+      "description": "JavaScript代码测试优化工具",
+      "language": "JavaScript",
+      "stars": 167133,
+      "starsToday": 831,
+      "forks": 9076,
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "rank": 7
+    },
+    {
+      "name": "affaan-m/ECC",
+      "description": "多语言ECC插件安装指南",
+      "language": "JavaScript",
+      "stars": 283373,
+      "starsToday": 783,
+      "forks": 42095,
+      "url": "https://github.com/affaan-m/ECC",
+      "rank": 8
+    },
+    {
+      "name": "feder-cr/git-ai",
+      "description": "Anthropic内部快速版本控制系统",
+      "language": "Go",
+      "stars": 2310,
+      "starsToday": 770,
+      "forks": 259,
+      "url": "https://github.com/feder-cr/git-ai",
       "rank": 9
     },
     {
-      "name": "farion1231/cc-switch",
-      "description": "统一管理Claude相关工具API",
-      "language": "Rust",
-      "stars": 145580,
-      "starsToday": 332,
-      "forks": 9636,
-      "url": "https://github.com/farion1231/cc-switch",
+      "name": "JuliusBrussee/caveman",
+      "description": "AI助手精简输出，提高效率",
+      "language": "Go",
+      "stars": 113495,
+      "starsToday": 576,
+      "forks": 6569,
+      "url": "https://github.com/JuliusBrussee/caveman",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-10-18",
-    "updatedAt": "2026-10-18T03:10:56.196Z",
+    "date": "2026-10-19",
+    "updatedAt": "2026-10-19T03:24:37.496Z",
     "highlights": [
-      "华硕ProArt创16 RTX Spark电脑实现本地Token自由",
-      "WorkBuddyIntl更新支持DeepSeek-V4.1-Flash-1017免费",
-      "Anthropic Claude代码评审优化",
-      "Muse Spark Open模型登顶Code Arena",
-      "DeepSeek开放自研搜索API",
-      "NVIDIA RTX Spark笔记本开售",
-      "商务部、科技部增列人工智能技术征意见"
+      "DeepSeek-V4.1-Flash-20261017 登顶 Code Arena",
+      "Anthropic AI Agent 工时惊人",
+      "Google AI 内容责任",
+      "华硕ProArt电脑本地Token自由",
+      "浏览器智能体工作原理",
+      "WorkBuddy Intl 免费更新",
+      "Anthropic Claude Code 评审",
+      "Muse Spark Open 美国开源模型第一",
+      "DeepSeek 开放搜索API"
     ],
     "keywords": [
-      "华硕ProArt",
-      "本地Token自由",
-      "WorkBuddyIntl",
       "DeepSeek",
+      "AI Agent",
+      "Google",
+      "华硕ProArt",
+      "浏览器智能体",
+      "WorkBuddy Intl",
       "Anthropic",
       "Muse Spark Open",
-      "搜索API",
-      "NVIDIA RTX Spark",
-      "人工智能技术"
+      "搜索API"
     ],
-    "trendingSummary": "今日技术趋势聚焦于本地Token自由、AI模型优化与开放、以及人工智能技术的出口政策。华硕ProArt电脑与NVIDIA RTX Spark笔记本展示本地AI能力，DeepSeek搜索API开放自研技术，Anthropic优化代码评审流程，商务部和科技部征询人工智能技术出口意见，标志着AI领域的发展与政策支持并行推进。"
+    "trendingSummary": "今日技术趋势显示，AI领域发展迅速，DeepSeek和Muse Spark Open等开源项目备受关注。同时，AI在工时和内容责任方面引发行业讨论，浏览器智能体和本地Token自由成为技术热点。"
   }
 }
