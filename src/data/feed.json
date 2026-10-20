@@ -1,273 +1,269 @@
 {
-  "date": "2026-10-19",
-  "updatedAt": "2026-10-19T03:24:37.496Z",
+  "date": "2026-10-20",
+  "updatedAt": "2026-10-20T03:33:41.191Z",
   "techNews": [
     {
-      "title": "DeepSeek-V4.1-Flash-20261017 登顶 Code Arena: WebDev 开源模型榜首",
-      "summary": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Code Arena: WebDev 榜单第一开源模型，超过 Kimi K3 (Max)，成本低约 10 倍。",
-      "category": "AI",
+      "title": "Apate.ai 用35万个AI反诈拖住骗子，国内年轻人用AI视频反制AI卖惨账号",
+      "summary": "作者讲述了两起用AI反制诈骗的案例。澳大利亚公司 Apate.ai 用35万个AI伪装成容易上当的受害者，已与骗子聊天250万次，累计耗掉骗子约17年时间，澳大利亚运营商 TPG 将近59万通可疑来电转给这些AI，澳洲联邦银行公开报告的诈骗损失降低76%，公司今年8月拿到815万美元种子轮融资。",
+      "category": "行业",
       "tags": [
-        "Llama",
-        "DeepSeek",
-        "开源"
+        "industry"
       ],
-      "url": "https://x.com/arena/status/2111894091168682086",
-      "source": "X：Arena (@arena)",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687365&idx=1&sn=4102098fb8725531aa2f783fa2f20f20",
+      "source": "公众号：数字生命卡兹克",
       "image": null,
-      "time": "2026-10-18T18:56:03.000Z",
+      "time": "2026-10-20T00:26:00.000Z",
       "id": 1
     },
     {
-      "title": "Anthropic 内部研究显示初级技术岗位占比下降，AI Agent 工时达员工六倍",
-      "summary": "Anthropic 发布内部研究称，技术部门初级岗位占比从 2025 年初的 21% 降至 14%，新招初级占比从 27% 降至 9%，空缺初级职位降至 6%，非技术部门基本稳定。",
+      "title": "FBI 称前 OpenAI 工程师涉嫌窃密，手机中发现 Saudi Gov Docs 文件夹",
+      "summary": "美国法院批准羁押被指控在 OpenAI 会议室安装窃听器的前工程师 Abdulrahman Alfozan。检方称其 iPhone 上有名为 Saudi Gov Docs 的文件夹，与沙特王室成员有 WhatsApp 联系，并曾用 OpenAI 生产力 Agent 搜索适合安放窃听器的会议室；他被捕前已预订沙特政府付费的单程机票，妻子和儿子已离美。",
       "category": "行业",
       "tags": [
-        "Claude",
-        "Agent"
+        "OpenAI"
       ],
-      "url": "https://the-decoder.com/anthropic-has-nearly-stopped-hiring-junior-staff-because-ai-agents-now-work-six-times-as-many-hours/",
-      "source": "The Decoder：AI News（RSS）",
+      "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+      "source": "Ars Technica：AI（RSS）",
       "image": null,
-      "time": "2026-10-18T13:22:26.000Z",
+      "time": "2026-10-19T20:21:53.000Z",
       "id": 2
     },
     {
-      "title": "德国两家法院先后裁定 Google 须为其 AI Overview 内容负责",
-      "summary": "慕尼黑地区法院 I 五月底裁定 Google 的 AI 搜索摘要属于公司自己的陈述而非中立转述，Google 须为错误内容担责；Google 公开宣布上诉后实际以和解结案，未获上级法院裁决。",
-      "category": "行业",
+      "title": "fal 联合 bfl_ai 发布后训练视频模型 FLUX 3 Max",
+      "summary": "fal 发布与 @bfl_ai 合作的最新后训练视频模型 FLUX 3 Max，在第三方 image-to-video 质量评测中并列第一，生成 10 秒 720/768p 视频约需 12 秒。未来三周该模型 75% 折扣，标注为同质量级别最便宜的前沿视频模型。",
+      "category": "AI",
       "tags": [
-        "Gemini"
+        "视频生成",
+        "设计"
       ],
-      "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
-      "source": "The Decoder：AI News（RSS）",
+      "url": "https://x.com/fal/status/2112251022047412492",
+      "source": "X：fal (@fal)",
       "image": null,
-      "time": "2026-10-18T10:52:39.000Z",
+      "time": "2026-10-19T18:34:22.000Z",
       "id": 3
     },
     {
-      "title": "卡兹克实测华硕 ProArt 创16 RTX Spark 电脑，37999 元实现本地 Token 自由",
-      "summary": "作者分享受邀参加英伟达 RTX Spark 全球开售活动后，深度使用一周华硕 ProArt 创16（128G 统一内存+1T，京东售价 37999 元）的体验，开售时 128G 版本在京东几分钟内被抢空。",
-      "category": "工具",
-      "tags": [
-        "tip"
-      ],
-      "url": "https://x.com/Khazix0918/status/2111639562720329976",
-      "source": "X：卡兹克 (@Khazix0918)",
-      "image": null,
-      "time": "2026-10-18T02:04:38.000Z",
-      "id": 4
-    },
-    {
-      "title": "Browser Use 讲解浏览器智能体的工作原理与使用时机",
-      "summary": "Browser Use 发布科普文章，讲解浏览器智能体由模型、harness 和浏览器三部分组成，通过观察页面、选择动作、执行并检查结果的循环完成任务，可通过 DOM、无障碍树或截图读取页面。",
-      "category": "工具",
-      "tags": [
-        "Agent",
-        "浏览器"
-      ],
-      "url": "https://browser-use.com/posts/browser-agents",
-      "source": "Browser Use",
-      "image": null,
-      "time": "2026-10-18T00:00:00.000Z",
-      "id": 5
-    },
-    {
-      "title": "WorkBuddy Intl 更新支持 DeepSeek-V4.1-Flash-1017，10 月 31 日前免费",
-      "summary": "WorkBuddy Intl 已更新至最新的 DeepSeek-V4.1-Flash-1017 模型，10 月 31 日前免费开放。引用的 DeepSeek 官方内容称该模型相比上一版性能更强、任务完成更快、输出更短，已上线网站、App 和 API，并针对 DeepSeek Harness、Tencent CodeBuddy、WorkBuddy 等做了优化。",
-      "category": "AI",
-      "tags": [
-        "DeepSeek"
-      ],
-      "url": "https://x.com/WorkBuddy_AI/status/2111404103402430558",
-      "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
-      "image": null,
-      "time": "2026-10-17T10:29:00.000Z",
-      "id": 6
-    },
-    {
-      "title": "卡兹克实测37999元RTX Spark轻薄本：一周实现本地Token自由",
-      "summary": "数字生命卡兹克分享华硕ProArt创16（RTX Spark N1X芯片、128G统一内存、37999元）的一周深度使用体验，该机全球开售时128G版本在京东几分钟内被抢空。",
-      "category": "工具",
-      "tags": [
-        "tip"
-      ],
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687354&idx=1&sn=dea0d54dc3b71b361e36199db6cf4a86",
-      "source": "公众号：数字生命卡兹克",
-      "image": null,
-      "time": "2026-10-17T10:19:04.000Z",
-      "id": 7
-    },
-    {
-      "title": "Anthropic 如何在 Claude 写下 Claude Code 约 90% 代码后重新设计代码评审",
-      "summary": "作者解读 Anthropic 关于 Claude Code 代码评审重构的博客：Claude 写了约 90% 的代码，2026 年 6 月到 9 月合并 PR 翻倍以上而 revert 率下降超 40%。",
-      "category": "工具",
-      "tags": [
-        "Claude",
-        "编程",
-        "设计"
-      ],
-      "url": "https://x.com/shao__meng/status/2111274173192638932",
-      "source": "X：邵猛 (@shao__meng)",
-      "image": null,
-      "time": "2026-10-17T01:52:43.000Z",
-      "id": 8
-    },
-    {
-      "title": "Muse Spark Open (Max) 登顶 Code Arena: WebDev 美国开源模型第一",
-      "summary": "Arena 公布 Meta 发布的 Muse Spark Open (Max) 在 Code Arena: WebDev 以 1511 分位居美国开源模型第一、开源模型总榜第 13。",
+      "title": "DeepSeek-V4.1-Flash-20261017 (Max) 登顶 Agent Arena 开源模型第一",
+      "summary": "Arena 宣布 DeepSeek-V4.1-Flash-20261017 (Max) 成为 Agent Arena 第一开源模型，总排名第 11，基于超 7.5K 真实会话净提升 +5.1%。其中位任务成本 $0.20，约为 GPT-6.1 Sol 提升幅度的 37%、成本的 27%；Confirmed Success 提升 +11.5%，且无 Tool Hallucination 问题。",
       "category": "AI",
       "tags": [
         "Llama",
+        "DeepSeek",
         "开源"
       ],
-      "url": "https://x.com/arena/status/2111221323217412318",
+      "url": "https://x.com/arena/status/2112247114944360666",
       "source": "X：Arena (@arena)",
       "image": null,
-      "time": "2026-10-16T22:22:42.000Z",
+      "time": "2026-10-19T18:18:50.000Z",
+      "id": 4
+    },
+    {
+      "title": "Inception 扩散模型 Mercury 3 上线 OpenRouter",
+      "summary": "Inception 的扩散模型 Mercury 3 上线 OpenRouter，生成速度超 1,000 tok/s，支持 1M 上下文，是 Mercury 2.5 的 4 倍。Inception 报告其在 IFBench、GPQA Diamond 和 SWE-Bench Atlas 上超过 GPT-6 Luna 和 Haiku 5.5；上线期五折，价格 $0.10/M 输入、$0.35/M 输出。",
+      "category": "AI",
+      "tags": [
+        "ai-products"
+      ],
+      "url": "https://x.com/OpenRouter/status/2112225779782398131",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "image": null,
+      "time": "2026-10-19T16:54:03.000Z",
+      "id": 5
+    },
+    {
+      "title": "DeepSeek V4.1 Flash 1017 发布，Artificial Analysis 智能指数得分 45 并列开源模型第二",
+      "summary": "DeepSeek 发布 DeepSeek V4.1 Flash 1017，在 Artificial Analysis Intelligence Index 得分 45，比 DeepSeek V4.1 Flash 提高 6 分，与 GLM-5.3 并列开源权重模型第二，仅次于 MiMo-V2.6-Pro。",
+      "category": "AI",
+      "tags": [
+        "Llama",
+        "DeepSeek",
+        "开源"
+      ],
+      "url": "https://x.com/ArtificialAnlys/status/2112218661432000694",
+      "source": "X：Artificial Analysis (@ArtificialAnlys)",
+      "image": null,
+      "time": "2026-10-19T16:25:46.000Z",
+      "id": 6
+    },
+    {
+      "title": "Meta Muse Wonder Full (Max) 登上 Code Arena: WebDev 第 6 名，1726 分",
+      "summary": "Arena 宣布 Meta 的 Muse Wonder Full (Max) 首次进入 Code Arena: WebDev 榜单，以 1726 分排名第 6，使 Meta 成为第 3 实验室，此前该位置由 Google 持有。",
+      "category": "AI",
+      "tags": [
+        "Llama"
+      ],
+      "url": "https://x.com/arena/status/2112215825944117361",
+      "source": "X：Arena (@arena)",
+      "image": null,
+      "time": "2026-10-19T16:14:30.000Z",
+      "id": 7
+    },
+    {
+      "title": "Redact 调查：WhatsApp 帮助页面隐藏 LLM 指令，让 AI 不推荐监管机构、不提 GDPR",
+      "summary": "Redact 发现 WhatsApp 帮助中心页面向 LLM 发送用户看不到的隐藏指令，指示其支持聊天机器人不推荐数据保护监管机构，并在用户提到律师或法律行动后不引用 GDPR、LGPD 或 CCPA。",
+      "category": "行业",
+      "tags": [
+        "industry"
+      ],
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "source": "Hacker News：AI 热帖",
+      "image": null,
+      "time": "2026-10-19T16:00:00.000Z",
+      "id": 8
+    },
+    {
+      "title": "Meta 详解 Thin Orchestrator 模式：让路由少干活提升 AI 智能体可靠性",
+      "summary": "Meta 工程团队介绍其数据管道智能体采用的瘦编排器（thin orchestrator）模式：一个约 1300 行的编排器只负责路由和可靠性检查，将 20+ 工作流分派给 14 个上下文隔离的专项子智能体，自身不做任何领域推理。",
+      "category": "工具",
+      "tags": [
+        "Llama",
+        "Agent"
+      ],
+      "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/",
+      "source": "Meta Engineering Blog（RSS）",
+      "image": null,
+      "time": "2026-10-19T15:30:37.000Z",
       "id": 9
     },
     {
-      "title": "DeepSeek 开放自研搜索 API",
-      "summary": "DeepSeek 开放自研搜索 API，底层由 AI 原生的 DeepSeek 搜索引擎提供，每天稳定处理数亿次搜索请求。该引擎索引全球千亿级网页、支持多语言，并通过识别机制过滤 SEO 作弊、GEO 操纵和低质 AIGC，使用方式见网页搜索与抓取指南。",
-      "category": "AI",
+      "title": "美国国土安全部下令所有联邦文职机构移除 DeepSeek 及基于其开发的产品",
+      "summary": "美国国土安全部依据 2018 年供应链法发布 2026-01 号命令，要求所有联邦文职机构立即停止采购 DeepSeek 及其关联公司产品，并从 IT 系统中移除相关产品，包括使用 DeepSeek 实现开发的第三方产品与服务。",
+      "category": "行业",
       "tags": [
         "DeepSeek",
-        "API"
+        "安全"
       ],
-      "url": "https://api-docs.deepseek.com/zh-cn/updates/#开放自研搜索-api",
-      "source": "DeepSeek：API 更新日志",
+      "url": "https://madrobot.blog/2026/10/19/us-bans-deepseek-federal-agencies-dhs-order-remove-third-party/",
+      "source": "Hacker News：AI 热帖",
       "image": null,
-      "time": "2026-10-16T16:00:00.000Z",
+      "time": "2026-10-19T15:05:00.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "morluto/rea",
-      "description": "多语言AI编码助手",
+      "description": "多语言支持，TypeScript构建",
       "language": "TypeScript",
-      "stars": 324155,
-      "starsToday": 15150,
-      "forks": 82119,
+      "stars": 338271,
+      "starsToday": 14116,
+      "forks": 85398,
       "url": "https://github.com/morluto/rea",
       "rank": 1
     },
     {
-      "name": "Gathin23/tv-vibehack",
-      "description": "去除安卓电视广告，打造苹果TV风格启动器",
+      "name": "Gathin23/cleanyourtv",
+      "description": "Android TV清理工具，苹果TV风格启动器",
       "language": "Java",
-      "stars": 2239,
-      "starsToday": 2239,
-      "forks": 267,
-      "url": "https://github.com/Gathin23/tv-vibehack",
+      "stars": 6049,
+      "starsToday": 3025,
+      "forks": 724,
+      "url": "https://github.com/Gathin23/cleanyourtv",
       "rank": 2
     },
     {
-      "name": "anomalyco/opencode",
-      "description": "开源AI编码代理，多语言支持",
+      "name": "deepseek-ai/deepseek-harness",
+      "description": "开源智能代理工具，插件架构",
       "language": "TypeScript",
-      "stars": 216739,
-      "starsToday": 1255,
-      "forks": 29016,
-      "url": "https://github.com/anomalyco/opencode",
+      "stars": 254655,
+      "starsToday": 1348,
+      "forks": 30773,
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 3
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "跨平台AI助手，集成多种聊天应用",
+      "name": "anomalyco/opencode",
+      "description": "开源AI编程助手，多语言支持",
       "language": "TypeScript",
-      "stars": 392409,
-      "starsToday": 1196,
-      "forks": 82490,
-      "url": "https://github.com/openclaw/openclaw",
+      "stars": 217946,
+      "starsToday": 1207,
+      "forks": 29128,
+      "url": "https://github.com/anomalyco/opencode",
       "rank": 4
     },
     {
-      "name": "deepseek-ai/deepseek-harness",
-      "description": "开源AI代理工具，插件式架构",
-      "language": "TypeScript",
-      "stars": 253307,
-      "starsToday": 1061,
-      "forks": 30491,
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "name": "DietrichGebert/ponytail",
+      "description": "JavaScript代码优化工具，测试覆盖率提升",
+      "language": "JavaScript",
+      "stars": 168216,
+      "starsToday": 1083,
+      "forks": 9147,
+      "url": "https://github.com/DietrichGebert/ponytail",
       "rank": 5
     },
     {
-      "name": "ultraworkers/claw-code",
-      "description": "Rust语言 crab-powered harness",
-      "language": "Rust",
-      "stars": 194916,
-      "starsToday": 970,
-      "forks": 107909,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "ly05010419/MacNativeGames",
+      "description": "非商业性《塞尔达传说》游戏项目",
+      "language": "C",
+      "stars": 1903,
+      "starsToday": 952,
+      "forks": 300,
+      "url": "https://github.com/ly05010419/MacNativeGames",
       "rank": 6
     },
     {
-      "name": "DietrichGebert/ponytail",
-      "description": "JavaScript代码测试优化工具",
+      "name": "affaan-m/ECC",
+      "description": "JavaScript插件安装工具，多语言支持",
       "language": "JavaScript",
-      "stars": 167133,
-      "starsToday": 831,
-      "forks": 9076,
-      "url": "https://github.com/DietrichGebert/ponytail",
+      "stars": 284210,
+      "starsToday": 837,
+      "forks": 42217,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 7
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言ECC插件安装指南",
-      "language": "JavaScript",
-      "stars": 283373,
-      "starsToday": 783,
-      "forks": 42095,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "NousResearch/hermes-agent",
+      "description": "自改进AI代理，内置学习循环",
+      "language": "Python",
+      "stars": 255315,
+      "starsToday": 562,
+      "forks": 55580,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 8
     },
     {
-      "name": "feder-cr/git-ai",
-      "description": "Anthropic内部快速版本控制系统",
-      "language": "Go",
-      "stars": 2310,
-      "starsToday": 770,
-      "forks": 259,
-      "url": "https://github.com/feder-cr/git-ai",
+      "name": "Arekejoker/qwen21-nsfw-pose-skill",
+      "description": "基于ComfyUI的NSFW姿势出图工具",
+      "language": "Python",
+      "stars": 3397,
+      "starsToday": 485,
+      "forks": 614,
+      "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
       "rank": 9
     },
     {
-      "name": "JuliusBrussee/caveman",
-      "description": "AI助手精简输出，提高效率",
-      "language": "Go",
-      "stars": 113495,
-      "starsToday": 576,
-      "forks": 6569,
-      "url": "https://github.com/JuliusBrussee/caveman",
+      "name": "HeyPuter/everything",
+      "description": "开源软件重建项目，MIT许可",
+      "language": "JavaScript",
+      "stars": 2550,
+      "starsToday": 425,
+      "forks": 341,
+      "url": "https://github.com/HeyPuter/everything",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-10-19",
-    "updatedAt": "2026-10-19T03:24:37.496Z",
+    "date": "2026-10-20",
+    "updatedAt": "2026-10-20T03:33:41.191Z",
     "highlights": [
-      "DeepSeek-V4.1-Flash-20261017 登顶 Code Arena",
-      "Anthropic AI Agent 工时惊人",
-      "Google AI 内容责任",
-      "华硕ProArt电脑本地Token自由",
-      "浏览器智能体工作原理",
-      "WorkBuddy Intl 免费更新",
-      "Anthropic Claude Code 评审",
-      "Muse Spark Open 美国开源模型第一",
-      "DeepSeek 开放搜索API"
+      "Apate.ai 利用AI反诈技术对抗网络诈骗",
+      "FBI调查前OpenAI工程师涉嫌窃密",
+      "AI视频模型FLUX 3 Max发布",
+      "DeepSeek-V4.1-Flash-20261017模型在开源模型中领先",
+      "Inception扩散模型Mercury 3上线"
     ],
     "keywords": [
+      "AI反诈",
+      "OpenAI",
+      "AI视频模型",
       "DeepSeek",
-      "AI Agent",
-      "Google",
-      "华硕ProArt",
-      "浏览器智能体",
-      "WorkBuddy Intl",
-      "Anthropic",
-      "Muse Spark Open",
-      "搜索API"
+      "Inception扩散模型",
+      "开源模型",
+      "Meta Muse Wonder Full",
+      "WhatsApp",
+      "Meta Thin Orchestrator",
+      "DeepSeek移除"
     ],
-    "trendingSummary": "今日技术趋势显示，AI领域发展迅速，DeepSeek和Muse Spark Open等开源项目备受关注。同时，AI在工时和内容责任方面引发行业讨论，浏览器智能体和本地Token自由成为技术热点。"
+    "trendingSummary": "AI技术持续发展，反诈骗和开源模型领域活跃。同时，行业监管加强，部分AI产品面临调整。"
   }
 }
