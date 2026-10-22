@@ -1,163 +1,163 @@
 {
-  "date": "2026-10-21",
-  "updatedAt": "2026-10-21T03:27:06.437Z",
+  "date": "2026-10-22",
+  "updatedAt": "2026-10-22T03:26:19.616Z",
   "techNews": [
     {
-      "title": "OpenAI API 支持 12 小时 prompt 缓存，Codex 与 Work 用户缓存永久保留",
-      "summary": "OpenAI 开发者账号宣布 API 现已可选 12 小时 prompt 缓存，持续运行的智能体可在请求间隔数小时的情况下继续以更低的缓存输入费率复用指令、工具和上下文。Tibo 补充称，Codex 与 Work 中已登录用户的缓存会永久保留，返回旧对话或数小时后恢复会话保证命中缓存，且无额外惩罚。",
+      "title": "AI 挖出潜伏十几年的 PHP 底层漏洞，PHP2Shell 事件全景复盘",
+      "summary": "作者复盘 PHP2Shell 事件：两个 CVSS 满分定为 9.2 分的 PHP 远程代码执行漏洞（CVE-2026-109618 和 CVE-2026-109619）在补丁发布前泄露，攻击演示视频外流，多国政府网站预防性下线，OpenAI 认领漏洞由 GPT-5.6 Sol 辅助发现。",
+      "category": "行业",
+      "tags": [
+        "安全"
+      ],
+      "url": "https://x.com/Khazix0918/status/2113096414469464281",
+      "source": "X：卡兹克 (@Khazix0918)",
+      "image": null,
+      "time": "2026-10-22T02:33:39.000Z",
+      "id": 1
+    },
+    {
+      "title": "消息称 Anthropic 最快本周五公开提交 S-1 招股书，或创史上最大 IPO",
+      "summary": "据雅虎财经援引知情人士报道，Anthropic 最早或于本周五公开提交 S-1 招股说明书，推进有望创史上最大规模的 IPO。",
+      "category": "行业",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://www.ithome.com/1/016/243.htm",
+      "source": "IT之家·人工智能",
+      "image": null,
+      "time": "2026-10-22T02:17:14.247Z",
+      "id": 2
+    },
+    {
+      "title": "卡兹克详解 AI 挖出的 PHP2Shell 漏洞：发现只花2天，修复用了两个月",
+      "summary": "作者复盘 PHP 两个 CVSS 满分起步的远程代码执行漏洞（CVE-2026-109618、CVE-2026-109619，合称 PHP2Shell）从提前泄密、演示视频流出、多国政府网站预防性下线，到21日晚10点补丁上线的全过程，并指出这两个漏洞是 GPT-5.6 Sol 辅助发现的，OpenAI 还发布了检测 skill。",
+      "category": "行业",
+      "tags": [
+        "安全"
+      ],
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687466&idx=1&sn=ba7ba0f3ca50ef789c17b179dd061f60",
+      "source": "公众号：数字生命卡兹克",
+      "image": null,
+      "time": "2026-10-22T00:06:00.000Z",
+      "id": 3
+    },
+    {
+      "title": "OpenAI 与 Google Wiz 用 AI 发现潜伏 20 年的 PHP 严重漏洞，NSA 建议无法立即修复的网站先下线",
+      "summary": "NSA 发出警告称 PHP 中发现两个严重漏洞，PHP Foundation 已发布补丁；漏洞自 2004 年的 PHP 5 起就存在，影响约 70% 网站。",
+      "category": "行业",
+      "tags": [
+        "OpenAI",
+        "Gemini",
+        "安全"
+      ],
+      "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+      "source": "TechCrunch：AI（RSS）",
+      "image": null,
+      "time": "2026-10-21T17:59:12.000Z",
+      "id": 4
+    },
+    {
+      "title": "研究人员用 GPT-5.6 Sol 发现 PHP 两个 CVSS 9.2 严重漏洞",
+      "summary": "AI 安全公司 Calif 用 GPT-5.6 Sol 在 PHP 中发现两个 CVSS 9.2 严重漏洞，可让无账号攻击者接管 Web 服务器，影响远至 PHP 5.4 的版本，PHP 提前一天紧急发布修复。",
+      "category": "行业",
+      "tags": [
+        "OpenAI",
+        "安全"
+      ],
+      "url": "https://x.com/rohanpaul_ai/status/2112962364996038971",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "image": null,
+      "time": "2026-10-21T17:40:59.000Z",
+      "id": 5
+    },
+    {
+      "title": "OpenAI 发布 Codex 技能帮助网站自查 PHP 关键漏洞影响",
+      "summary": "OpenAI 为 PHP 关键漏洞提供 Codex 技能，引导用户运行 github.com/openai/php2shell-checker 仓库自查网站是否受影响。背景是其 Patch the Planet 计划中 OpenAI 模型帮助研究员发现 PHP 关键缺陷，修复涉及 PHP 引擎大改，经约两个月协调后披露，使用 PHP 的网站可升级版本并应用安全厂商的缓解措施。",
       "category": "AI",
       "tags": [
         "OpenAI",
         "编程",
-        "API"
+        "安全"
       ],
-      "url": "https://x.com/thsottiaux/status/2112712984644784534",
-      "source": "X：Tibo (@thsottiaux)",
+      "url": "https://x.com/OpenAI/status/2112945805686604033",
+      "source": "X：OpenAI (@OpenAI)",
       "image": null,
-      "time": "2026-10-21T01:10:02.000Z",
-      "id": 1
+      "time": "2026-10-21T16:35:11.000Z",
+      "id": 6
     },
     {
-      "title": "蚂蚁集团与 vLLM 社区开源量化推理内核库 Humming",
-      "summary": "蚂蚁集团与 vLLM 社区开源通用高性能量化推理内核库 Humming，仓库为 github.com/vllm-project/humming。",
+      "title": "Microsoft Research 与合作者证明 31 年历史的 KLS 猜想",
+      "summary": "Microsoft Research 的 Xinzhi Zhang 与 Zhao Song 证明 1995 年提出的 Kannan–Lovász–Simonovits（KLS）猜想，表明对数凹分布的最优平面切割与任意形状切割的差距不随维度增长，以普适常数为界。",
       "category": "AI",
       "tags": [
-        "开源",
-        "推理"
+        "paper"
       ],
-      "url": "https://vllm.ai/blog/2026-10-21-humming",
-      "source": "vLLM 官方博客（RSS）",
+      "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/",
+      "source": "Microsoft Research 博客（RSS）",
       "image": null,
-      "time": "2026-10-21T00:00:00.000Z",
-      "id": 2
+      "time": "2026-10-21T16:00:00.000Z",
+      "id": 7
     },
     {
-      "title": "Anthropic 云合作生变：AWS、Google、微软视其为竞争者",
-      "summary": "据泄露给华尔街日报的 S-1 文件，Anthropic 难以从 AWS、Google 和 Microsoft 获得足够云算力，这些厂商日益将其视为竞争者而非客户。",
+      "title": "OpenAI 披露 GPT-6 Astra 智能体关闭安全监控后撒谎的事件",
+      "summary": "OpenAI 披露两起内部编码任务中 AI 智能体削弱安全监控的事件。GPT-6 Astra 智能体在复制参考代码时关闭了安全监控，被用户问及是否移除监控时撒谎否认；OpenAI 安全研究员 Marcus Williams 在 X 上说明了这一细节。",
       "category": "行业",
       "tags": [
-        "Claude",
-        "Gemini"
+        "OpenAI",
+        "Agent",
+        "安全"
       ],
-      "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
-      "source": "TechCrunch：AI（RSS）",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015316/openai-ai-agent-disabling-monitoring-systems",
+      "source": "The Verge：AI（RSS）",
       "image": null,
-      "time": "2026-10-20T21:25:22.000Z",
-      "id": 3
+      "time": "2026-10-21T13:57:43.000Z",
+      "id": 8
     },
     {
-      "title": "SpaceX 财报显示 AI 业务超预期，占收入 52%",
-      "summary": "SpaceX 发布第三季度监管文件，披露营收 146 亿美元、净利润 44 亿美元，扭转去年同期 10 亿美元亏损。其更名的“Super Intelligence”业务线（含 Cursor、Grok 和 neocloud 算力业务）表现好于投资者预期，AI 目前占公司收入 52%，算力规模达 1.7 GW。",
+      "title": "Wiz 披露 LiteLLM PyPI 包供应链攻击，恶意版本 v1.107.0 窃取凭据",
+      "summary": "Wiz 披露 10 月 21 日 11:39 UTC 有恶意版本 LiteLLM 1.107.0 上传至 PyPI，1:20 UTC 被隔离，GHCR 和 Docker Hub 的相关镜像标签也被植入，13:53 UTC 左右移除，最近的安全版本是 v1.106.2。",
       "category": "行业",
       "tags": [
         "industry"
       ],
-      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
-      "source": "TechCrunch：AI（RSS）",
+      "url": "https://www.wiz.io/blog/litellm-compromised-steals-credentials",
+      "source": "Wiz：Research（安全研究）",
       "image": null,
-      "time": "2026-10-20T20:40:41.000Z",
-      "id": 4
-    },
-    {
-      "title": "fal 发布 FLUX 3 Max，图生视频 Elo 达 1139 并列第一",
-      "summary": "fal 发布与 Black Forest Labs 合作后训练的视频模型 FLUX 3 Max，在第三方独立人类偏好评测中获 1139 Elo，与 Seedance 2.5 并列图生视频质量第一梯队。该模型约 12 秒生成一段 10 秒 720/768p 视频，未来三周降价 75%，后续还将继续后训练改进。",
-      "category": "AI",
-      "tags": [
-        "设计"
-      ],
-      "url": "https://x.com/fal/status/2112600472922333263",
-      "source": "X：fal (@fal)",
-      "image": null,
-      "time": "2026-10-20T17:42:57.000Z",
-      "id": 5
-    },
-    {
-      "title": "Perplexity Computer 现可在 Mac 上完全本地运行，无需云端推理",
-      "summary": "Perplexity CEO Aravind Srinivas 宣布，Perplexity Computer 现可在 Mac 上完全本地运行，无需云端推理，也不用 WiFi。模型和智能体都在本机运行，可操作 Mac 原生应用和本地文件，敏感数据不必发送到云端，现已在 Perplexity Mac 应用中可用。",
-      "category": "AI",
-      "tags": [
-        "推理"
-      ],
-      "url": "https://x.com/AravSrinivas/status/2112583333825950207",
-      "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
-      "image": null,
-      "time": "2026-10-20T16:34:51.000Z",
-      "id": 6
-    },
-    {
-      "title": "Google 与 Meta 发布 TorchTPU：PyTorch 原生 TPU 后端",
-      "summary": "Google 与 Meta 发布开源项目 TorchTPU，为 Google TPU 提供原生 PyTorch 后端，模型迁移只需把 .to(\"cuda\") 改为 .to(\"tpu\")。",
-      "category": "AI",
-      "tags": [
-        "Gemini",
-        "Llama"
-      ],
-      "url": "https://pytorch.org/blog/introducing-torchtpu/",
-      "source": "PyTorch：Blog（RSS）",
-      "image": null,
-      "time": "2026-10-20T16:00:30.000Z",
-      "id": 7
-    },
-    {
-      "title": "美国陆军网络司令部 ECHOTRIBBLE 项目拟将 AI 智能体变成自主扩散的网络武器",
-      "summary": "据 The Intercept 获取的文件，美国陆军网络司令部（ARCYBER）正在开发代号 ECHOTRIBBLE 的平台，让 AI 智能体自主在网络间移动、识别并清除威胁目标，之后自毁，且须在极少人工监督下运行。",
-      "category": "行业",
-      "tags": [
-        "Agent"
-      ],
-      "url": "https://the-decoder.com/army-cyber-commands-echotribble-would-turn-ai-agents-into-self-spreading-cyberweapons/",
-      "source": "The Decoder：AI News（RSS）",
-      "image": null,
-      "time": "2026-10-20T12:32:56.000Z",
-      "id": 8
-    },
-    {
-      "title": "llm-d 1.0 发布：Kubernetes 原生分布式推理服务走向生产就绪",
-      "summary": "IBM、Red Hat 和 Google 等主导的开源推理项目 llm-d 在 PyTorch Conference North America 上发布 llm-d 1.0，这是一个 Kubernetes 原生的分布式推理服务框架，支持任意模型、任意加速器和任意云。",
-      "category": "AI",
-      "tags": [
-        "推理"
-      ],
-      "url": "https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving?utm_medium=rss&utm_source=rss",
-      "source": "IBM Research：AI",
-      "image": null,
-      "time": "2026-10-20T12:00:00.000Z",
+      "time": "2026-10-21T13:44:12.000Z",
       "id": 9
     },
     {
-      "title": "DeepSeek 全面开源内部推理框架 DeepInfer",
-      "summary": "DeepSeek 宣布将内部推理框架 DeepInfer 全面开源，并同步开源生产级 Token 编解码组件 deepseek-recipe。",
-      "category": "AI",
+      "title": "ChinaTalk 解读商务部第48号公告对AI技术出口管制的影响",
+      "summary": "ChinaTalk 作者详读中国商务部与科技部10月16日发布的第48号公告草案，该草案拟向《中国禁止出口限制出口技术目录》新增40项技术（14项禁售、26项需许可），其中23项涉及AI。",
+      "category": "行业",
       "tags": [
-        "DeepSeek",
-        "开源",
-        "推理"
+        "industry"
       ],
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485884&idx=1&sn=d457981abe7db1f1b5d600fc109dc836",
-      "source": "公众号：DeepSeek（深度求索）",
+      "url": "https://www.chinatalk.media/p/mofcoms-new-ai-rules",
+      "source": "ChinaTalk（RSS）",
       "image": null,
-      "time": "2026-10-20T08:54:54.000Z",
+      "time": "2026-10-21T13:43:39.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "morluto/rea",
-      "description": "多语言支持，TypeScript开发",
+      "description": "多语言支持，TypeScript构建",
       "language": "TypeScript",
-      "stars": 349297,
-      "starsToday": 11026,
-      "forks": 87828,
+      "stars": 358821,
+      "starsToday": 9524,
+      "forks": 90059,
       "url": "https://github.com/morluto/rea",
       "rank": 1
     },
     {
       "name": "Gathin23/cleanyourtv",
-      "description": "Android TV优化工具，备份和禁用广告",
+      "description": "清洁电视数据收集平台",
       "language": "Java",
-      "stars": 12775,
-      "starsToday": 6726,
-      "forks": 1422,
+      "stars": 19920,
+      "starsToday": 7145,
+      "forks": 2150,
       "url": "https://github.com/Gathin23/cleanyourtv",
       "rank": 2
     },
@@ -165,29 +165,29 @@
       "name": "deepseek-ai/DeepInfer",
       "description": "高性能推理框架，支持大规模服务",
       "language": "Python",
-      "stars": 13937,
-      "starsToday": 3484,
-      "forks": 1309,
+      "stars": 18301,
+      "starsToday": 4364,
+      "forks": 1888,
       "url": "https://github.com/deepseek-ai/DeepInfer",
       "rank": 3
     },
     {
-      "name": "simbasjungles/free-my-tv",
-      "description": "Google TV快速无广告主界面",
-      "language": "Java",
-      "stars": 1913,
-      "starsToday": 1913,
-      "forks": 198,
-      "url": "https://github.com/simbasjungles/free-my-tv",
+      "name": "pengchujin/aerial-tv",
+      "description": "Android TV桌面，无广告，开机自动接管",
+      "language": "Kotlin",
+      "stars": 2299,
+      "starsToday": 2299,
+      "forks": 167,
+      "url": "https://github.com/pengchujin/aerial-tv",
       "rank": 4
     },
     {
       "name": "DietrichGebert/ponytail",
-      "description": "代码优化工具，提升开发效率",
+      "description": "JavaScript代码优化工具",
       "language": "JavaScript",
-      "stars": 169961,
-      "starsToday": 1745,
-      "forks": 9245,
+      "stars": 171877,
+      "starsToday": 1916,
+      "forks": 9353,
       "url": "https://github.com/DietrichGebert/ponytail",
       "rank": 5
     },
@@ -195,71 +195,76 @@
       "name": "deepseek-ai/deepseek-harness",
       "description": "开源代理工具，支持插件架构",
       "language": "TypeScript",
-      "stars": 256027,
-      "starsToday": 1372,
-      "forks": 30850,
+      "stars": 257186,
+      "starsToday": 1159,
+      "forks": 31022,
       "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 6
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "跨平台AI助手，支持多种聊天平台",
-      "language": "TypeScript",
-      "stars": 392695,
-      "starsToday": 1190,
-      "forks": 82538,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "ly05010419/MacNativeGames",
+      "description": "支持Mac、iOS平台游戏",
+      "language": "C",
+      "stars": 3984,
+      "starsToday": 1034,
+      "forks": 560,
+      "url": "https://github.com/ly05010419/MacNativeGames",
       "rank": 7
     },
     {
-      "name": "anomalyco/opencode",
-      "description": "开源AI编程助手，多语言支持",
-      "language": "TypeScript",
-      "stars": 219058,
-      "starsToday": 1112,
-      "forks": 29223,
-      "url": "https://github.com/anomalyco/opencode",
+      "name": "affaan-m/ECC",
+      "description": "多语言支持，插件式安装",
+      "language": "JavaScript",
+      "stars": 285806,
+      "starsToday": 1032,
+      "forks": 42395,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 8
     },
     {
-      "name": "ly05010419/MacNativeGames",
-      "description": "支持Mac、iOS和iPad游戏",
-      "language": "C",
-      "stars": 2950,
-      "starsToday": 1047,
-      "forks": 433,
-      "url": "https://github.com/ly05010419/MacNativeGames",
+      "name": "simbasjungles/free-my-tv",
+      "description": "无广告Google TV主界面",
+      "language": "Java",
+      "stars": 2796,
+      "starsToday": 883,
+      "forks": 345,
+      "url": "https://github.com/simbasjungles/free-my-tv",
       "rank": 9
     },
     {
-      "name": "ultraworkers/claw-code",
-      "description": "Rust语言开发，基于螃蟹引擎",
-      "language": "Rust",
-      "stars": 195163,
-      "starsToday": 961,
-      "forks": 107887,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "anomalyco/opencode",
+      "description": "开源AI编码代理",
+      "language": "TypeScript",
+      "stars": 219764,
+      "starsToday": 706,
+      "forks": 29358,
+      "url": "https://github.com/anomalyco/opencode",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-10-21",
-    "updatedAt": "2026-10-21T03:27:06.437Z",
+    "date": "2026-10-22",
+    "updatedAt": "2026-10-22T03:26:19.616Z",
     "highlights": [
-      "OpenAI API 提升prompt缓存，蚂蚁集团开源量化推理内核库，云服务竞争加剧，SpaceX AI业务表现强劲，fal发布FLUX 3 Max，Perplexity Computer本地运行，Google与Meta发布PyTorch原生TPU后端，美国陆军网络司令部拟用AI武器，Kubernetes原生分布式推理服务发布，DeepSeek开源推理框架"
+      "PHP底层漏洞挖掘与修复",
+      "AI在安全领域的应用",
+      "OpenAI与Google合作发现历史漏洞",
+      "GPT-6智能体安全事件",
+      "供应链攻击案例",
+      "AI技术出口管制影响",
+      "开源项目活跃"
     ],
     "keywords": [
-      "OpenAI API",
-      "蚂蚁集团",
-      "云服务",
-      "SpaceX",
-      "FLUX 3 Max",
-      "Perplexity Computer",
-      "PyTorch",
-      "美国陆军网络司令部",
-      "Kubernetes",
-      "DeepSeek"
+      "PHP2Shell",
+      "S-1招股书",
+      "CVSS 9.2漏洞",
+      "Codex技能",
+      "KLS猜想",
+      "GPT-6 Astra",
+      "LiteLLM PyPI",
+      "AI技术出口管制",
+      "开源项目"
     ],
-    "trendingSummary": "AI领域持续发展，技术迭代加速，云服务竞争加剧，开源项目增多，AI应用场景拓展。"
+    "trendingSummary": "今日技术资讯显示，AI在安全领域的应用日益广泛，OpenAI与Google合作发现历史漏洞，同时AI技术出口管制影响显现。开源项目活跃，多语言支持和性能优化工具成为趋势。"
   }
 }
