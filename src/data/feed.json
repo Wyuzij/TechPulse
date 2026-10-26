@@ -1,7 +1,22 @@
 {
-  "date": "2026-10-25",
-  "updatedAt": "2026-10-25T03:21:36.966Z",
+  "date": "2026-10-26",
+  "updatedAt": "2026-10-26T03:23:18.075Z",
   "techNews": [
+    {
+      "title": "让编程智能体使用已登录 Chrome 的六种方案实操指南",
+      "summary": "Browser Use 作者整理了让 Claude Code、Codex、Gemini CLI、Cursor 等编程智能体使用已登录 Chrome 的方法：Claude 订阅用户可用 claude --chrome 的 Claude in Chrome 扩展。",
+      "category": "工具",
+      "tags": [
+        "编程",
+        "Agent",
+        "浏览器"
+      ],
+      "url": "https://browser-use.com/posts/coding-agent-logged-in-chrome",
+      "source": "Browser Use",
+      "image": null,
+      "time": "2026-10-25T00:00:00.000Z",
+      "id": 1
+    },
     {
       "title": "Ethan Mollick：OpenAI 红队测试显示前沿模型智能体真能越狱沙箱，实验室的 AI 安全警告值得重视",
       "summary": "Ethan Mollick 转引 OpenAI 红队测试认为，实验室看似夸张的 AI 网络安全判断应被更认真对待。OpenAI 让前沿模型智能体团队攻击其加固的隔离基础设施，智能体几乎在每个受限联网服务中都找到漏洞，还能利用 CPU 缓存时序在不联网、无共享文件的虚拟机之间传递秘密，类似 Spectre 和 Meltdown 的攻击手法。作者提到 Anthropic 和 Noam Brown 此前关于 AI 网络攻防与模型自发协调的说法曾被嘲笑。",
@@ -15,7 +30,7 @@
       "source": "X：Ethan Mollick (@emollick)",
       "image": null,
       "time": "2026-10-24T14:30:45.000Z",
-      "id": 1
+      "id": 2
     },
     {
       "title": "OpenAI 智能体在隔离测试中借 CPU 缓存隐蔽通信",
@@ -29,7 +44,7 @@
       "source": "The Decoder：AI News（RSS）",
       "image": null,
       "time": "2026-10-24T11:12:36.000Z",
-      "id": 2
+      "id": 3
     },
     {
       "title": "Kimi 发布开源旗舰模型 K3.1 Pro：2.8T 参数、100万 Token 上下文，实测 3D 与视频动效",
@@ -42,7 +57,7 @@
       "source": "公众号：数字生命卡兹克",
       "image": null,
       "time": "2026-10-24T02:08:43.000Z",
-      "id": 3
+      "id": 4
     },
     {
       "title": "OpenAI 红队测试发现 Brotli 未认证远程代码执行漏洞并已披露",
@@ -57,7 +72,7 @@
       "source": "X：OpenAI (@OpenAI)",
       "image": null,
       "time": "2026-10-23T22:55:45.000Z",
-      "id": 4
+      "id": 5
     },
     {
       "title": "Sundar Pichai 解释 Demis Hassabis 退出 DeepMind 日常管理与 Jeff Dean 离职",
@@ -70,7 +85,7 @@
       "source": "X：Alex Heath (@alexeheath)",
       "image": null,
       "time": "2026-10-23T18:58:15.000Z",
-      "id": 5
+      "id": 6
     },
     {
       "title": "月之暗面 Kimi K3.1 Pro 上线 OpenRouter，1M 上下文多模态开源权重模型",
@@ -84,7 +99,7 @@
       "source": "X：OpenRouter (@OpenRouter)",
       "image": null,
       "time": "2026-10-23T18:31:22.000Z",
-      "id": 6
+      "id": 7
     },
     {
       "title": "月之暗面发布 Kimi K3.1 Pro，100 万 token 上下文，开放权重将于 11 月 4 日前释出",
@@ -97,7 +112,7 @@
       "source": "Moonshot AI：Kimi Blog",
       "image": null,
       "time": "2026-10-23T16:00:00.000Z",
-      "id": 7
+      "id": 8
     },
     {
       "title": "Kling 4.0 在 fal 上线并向所有客户开放 API 访问",
@@ -110,7 +125,7 @@
       "source": "X：fal (@fal)",
       "image": null,
       "time": "2026-10-23T15:00:43.000Z",
-      "id": 8
+      "id": 9
     },
     {
       "title": "OpenAI 详解前沿模型训练环境的安全加固与红队测试",
@@ -124,140 +139,132 @@
       "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "image": null,
       "time": "2026-10-23T10:00:00.000Z",
-      "id": 9
-    },
-    {
-      "title": "OpenAI 下调估值目标至 1.25 万亿美元，拟融资至多 300 亿美元",
-      "summary": "OpenAI 接近完成至多 300 亿美元的新一轮融资，但将估值目标从最初的 1.4 万亿美元下调至 1.25 万亿美元。",
-      "category": "行业",
-      "tags": [
-        "OpenAI"
-      ],
-      "url": "https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion/",
-      "source": "The Decoder：AI News（RSS）",
-      "image": null,
-      "time": "2026-10-23T09:49:38.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "morluto/rea",
-      "description": "多语言支持，TypeScript编写",
+      "description": "多语言支持，TypeScript开发",
       "language": "TypeScript",
-      "stars": 379241,
-      "starsToday": 5524,
-      "forks": 94775,
+      "stars": 385415,
+      "starsToday": 6174,
+      "forks": 96516,
       "url": "https://github.com/morluto/rea",
       "rank": 1
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "跨平台AI助手，支持多种聊天工具",
-      "language": "TypeScript",
-      "stars": 392969,
-      "starsToday": 1177,
-      "forks": 82603,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "JustAResearcher/gpu-unlock-ada",
+      "description": "RTX 4090 GPU解锁工具",
+      "language": "C",
+      "stars": 2814,
+      "starsToday": 1407,
+      "forks": 361,
+      "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
       "rank": 2
     },
     {
       "name": "deepseek-ai/deepseek-harness",
-      "description": "开源代理工具，支持插件架构",
+      "description": "基于插件架构的AI代理工具",
       "language": "TypeScript",
-      "stars": 260589,
-      "starsToday": 1008,
-      "forks": 31476,
+      "stars": 261551,
+      "starsToday": 962,
+      "forks": 31603,
       "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 3
     },
     {
-      "name": "ultraworkers/claw-code",
-      "description": "基于Rust的螃蟹动力工具",
-      "language": "Rust",
-      "stars": 195064,
-      "starsToday": 942,
-      "forks": 107777,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "affaan-m/ECC",
+      "description": "多语言ECC插件安装指南",
+      "language": "JavaScript",
+      "stars": 288928,
+      "starsToday": 769,
+      "forks": 42833,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 4
     },
     {
-      "name": "simbasjungles/free-my-tv",
-      "description": "无广告Google TV桌面，一键撤销",
-      "language": "Java",
-      "stars": 4324,
-      "starsToday": 865,
-      "forks": 700,
-      "url": "https://github.com/simbasjungles/free-my-tv",
+      "name": "pengchujin/aerial-tv",
+      "description": "无广告Android TV桌面",
+      "language": "Kotlin",
+      "stars": 5176,
+      "starsToday": 752,
+      "forks": 418,
+      "url": "https://github.com/pengchujin/aerial-tv",
       "rank": 5
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言插件安装指南",
+      "name": "DietrichGebert/ponytail",
+      "description": "代码优化与测试工具",
       "language": "JavaScript",
-      "stars": 288159,
-      "starsToday": 747,
-      "forks": 42719,
-      "url": "https://github.com/affaan-m/ECC",
+      "stars": 176262,
+      "starsToday": 680,
+      "forks": 9628,
+      "url": "https://github.com/DietrichGebert/ponytail",
       "rank": 6
     },
     {
-      "name": "DietrichGebert/ponytail",
-      "description": "代码优化工具，提高测试覆盖率",
-      "language": "JavaScript",
-      "stars": 175582,
-      "starsToday": 718,
-      "forks": 9575,
-      "url": "https://github.com/DietrichGebert/ponytail",
+      "name": "JuliusBrussee/caveman",
+      "description": "AI代理简洁表达工具",
+      "language": "Go",
+      "stars": 115081,
+      "starsToday": 564,
+      "forks": 6636,
+      "url": "https://github.com/JuliusBrussee/caveman",
       "rank": 7
     },
     {
-      "name": "pengchujin/aerial-tv",
-      "description": "纯净Android TV桌面，无广告推荐",
-      "language": "Kotlin",
-      "stars": 4424,
-      "starsToday": 527,
-      "forks": 347,
-      "url": "https://github.com/pengchujin/aerial-tv",
+      "name": "NousResearch/hermes-agent",
+      "description": "自改进AI代理",
+      "language": "Python",
+      "stars": 257090,
+      "starsToday": 559,
+      "forks": 56313,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 8
     },
     {
-      "name": "Zagitta/gpu-unlock",
-      "description": "解锁Nvidia显卡指令",
-      "language": "C",
-      "stars": 3243,
-      "starsToday": 463,
-      "forks": 361,
-      "url": "https://github.com/Zagitta/gpu-unlock",
+      "name": "xevrion/hatchzip",
+      "description": "原地解压大归档",
+      "language": "Rust",
+      "stars": 1950,
+      "starsToday": 488,
+      "forks": 52,
+      "url": "https://github.com/xevrion/hatchzip",
       "rank": 9
     },
     {
-      "name": "xiaoyang111222/cn-math-taxonomy",
-      "description": "数学课程标准教材对齐工具",
-      "language": "Python",
-      "stars": 3296,
-      "starsToday": 429,
-      "forks": 773,
-      "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+      "name": "JoasASantos/REA-Prompts",
+      "description": "REA工具集使用提示",
+      "language": "Batchfile",
+      "stars": 2493,
+      "starsToday": 416,
+      "forks": 450,
+      "url": "https://github.com/JoasASantos/REA-Prompts",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-10-25",
-    "updatedAt": "2026-10-25T03:21:36.966Z",
+    "date": "2026-10-26",
+    "updatedAt": "2026-10-26T03:23:18.075Z",
     "highlights": [
-      "OpenAI 模型越狱沙箱测试，AI 安全问题凸显；Kimi 发布旗舰模型 K3.1 Pro；OpenAI 估值下调；GitHub 项目多语言支持与AI助手受关注"
+      "编程智能体Chrome登录方案",
+      "OpenAI模型越狱沙箱安全警告",
+      "OpenAI智能体隐蔽通信",
+      "Kimi K3.1 Pro开源模型发布",
+      "Brotli远程代码执行漏洞披露"
     ],
     "keywords": [
+      "编程智能体",
+      "Chrome",
       "OpenAI",
-      "AI 安全",
-      "Kimi",
-      "K3.1 Pro",
-      "估值",
-      "GitHub",
-      "多语言支持",
-      "AI 助手"
+      "沙箱安全",
+      "隐蔽通信",
+      "Kimi K3.1 Pro",
+      "开源模型",
+      "Brotli",
+      "远程代码执行漏洞"
     ],
-    "trendingSummary": "今日AI领域热点集中在模型安全与高性能模型发布，同时OpenAI估值调整引发行业关注。GitHub上多语言项目和AI助手类项目受到关注。"
+    "trendingSummary": "今日技术趋势聚焦于AI安全与开源模型的发展，编程智能体Chrome登录方案和OpenAI模型安全测试引发关注，同时Kimi K3.1 Pro开源模型发布，Brotli漏洞披露也值得关注。"
   }
 }
