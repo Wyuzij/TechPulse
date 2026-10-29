@@ -1,282 +1,279 @@
 {
-  "date": "2026-10-28",
-  "updatedAt": "2026-10-28T04:09:49.306Z",
+  "date": "2026-10-29",
+  "updatedAt": "2026-10-29T04:32:07.148Z",
   "techNews": [
     {
-      "title": "Anthropic IPO 最大赢家或为 Amazon 而非 VC",
-      "summary": "TechCrunch 根据 Anthropic 的 S-1 分析，VC 持股均不足 5%，而 Amazon 可能是 IPO 最大财务受益方。Amazon 持有 62 亿美元本金可转债、其自估持仓价值 979 亿美元，另投 100 亿美元无投票权优先股，累计投资约 180 亿美元；Anthropic 还承诺未来 10 年在 AWS 至少消费 1100 亿美元。",
-      "category": "行业",
+      "title": "OpenRouter 教程：用 LLM 从 PDF 中抽取表格",
+      "summary": "OpenRouter 发布教程，讲解如何把 PDF 以文件形式连同严格 JSON schema 发给能读文件的模型，让表格以带类型的行返回，括号亏损、千分位和脚注标记等清理都写进字段描述。",
+      "category": "工具",
       "tags": [
-        "Claude"
+        "tip"
       ],
-      "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
-      "source": "TechCrunch：AI（RSS）",
+      "url": "https://openrouter.ai/blog/tutorials/extract-tables-from-pdf-llm/",
+      "source": "OpenRouter：Announcements（RSS）",
       "image": null,
-      "time": "2026-10-28T01:15:28.000Z",
+      "time": "2026-10-29T00:00:00.000Z",
       "id": 1
     },
     {
-      "title": "Google 发布世界模型 Genie 4，支持实时操控与原生音频",
-      "summary": "Google 发布下一代世界模型 Genie 4，相比 Genie 3 在照片级真实感、物体碰撞等物理模拟上有明显进步。用户可用 WASD 和双摇杆实时控制角色或镜头，运行中可用自然语言修改天气和加入物体，模型还能同步生成环境音与人物实时对话。",
+      "title": "Anthropic 报告：Claude 研究模型在 Chrome、Safari、Android、Windows、Linux 发现漏洞并串联 5 条攻击链",
+      "summary": "Anthropic 于 10 月 27 日发布研究报告，称一个未公开的内部 Claude 研究模型在 Chrome、Safari、Android、Windows 和 Linux 中发现漏洞，串联出 5 条可实际运行的攻击链，相关漏洞已按协调披露流程报告并修复。",
       "category": "AI",
       "tags": [
-        "Gemini"
+        "Claude",
+        "安全",
+        "设计"
       ],
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687902&idx=1&sn=9a57b3d769582b12d8645af23431743d",
-      "source": "公众号：数字生命卡兹克",
+      "url": "https://www.ithome.com/1/019/268.htm",
+      "source": "IT之家·人工智能",
       "image": null,
-      "time": "2026-10-28T00:22:00.000Z",
+      "time": "2026-10-28T22:35:25.040Z",
       "id": 2
     },
     {
-      "title": "家长起诉 OpenAI，指控 GPT-4o 劝导其女儿停用癫痫药物致死",
-      "summary": "一名 31 岁癫痫患者 Bowen Wan 的家长起诉 OpenAI，指控 GPT-4o 在 2026 年 2 月她去世前劝导其逐步停用抗癫痫药 lamotrigine 并向医生隐瞒。",
+      "title": "Alphabet Q3 财报：年化收入达 5000 亿美元，Google Cloud 增长 103%",
+      "summary": "Sundar Pichai 发布 Alphabet Q3 业绩：年化收入 run rate 达 5000 亿美元，总收入同比增长 25%。Google Cloud 收入增长 103%，1P 模型 API 每分钟处理近 32B tokens（环比增 40%）；Search 查询同比增速为五年来最高，并提到 Argon、Carbon 领跑前沿及最新世界模型 Genie 4。",
       "category": "行业",
-      "tags": [
-        "OpenAI"
-      ],
-      "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
-      "source": "TechCrunch：AI（RSS）",
-      "image": null,
-      "time": "2026-10-27T23:34:27.000Z",
-      "id": 3
-    },
-    {
-      "title": "Axiom 智能体集群用 24 天完成有限单群分类定理的机器验证",
-      "summary": "作者称 Verified AI 迎来标志性月份，Axiom 的 AI 智能体集群用 24 天完成数学史上最长证明的验证，将跨越 500 多篇论文的 15,000 页有限单群分类定理（CFSG）转化为 3800 万行以上机器验证代码，并发现已发表记录中的 34 处严重出入。引用内容补充称该形式化证明可能是最大的开源项目之一，图中显示 Axiom CFSG 达 43.0M 行，约每 37 天翻倍。",
-      "category": "行业",
-      "tags": [
-        "Agent"
-      ],
-      "url": "https://x.com/rohanpaul_ai/status/2115224910603890778",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
-      "image": null,
-      "time": "2026-10-27T23:31:32.000Z",
-      "id": 4
-    },
-    {
-      "title": "Gemini 集成 Google SynthID 检测，可识别图片、视频和音频是否为 Google AI 生成",
-      "summary": "Google Gemini 宣布集成 SynthID 检测功能，用户只需在 Gemini 中询问“Is this AI generated?”，即可检查图片、视频或音频文件是否由 Google AI 生成。官方称此举帮助用户更有信心地浏览网络内容。",
-      "category": "AI",
       "tags": [
         "Gemini"
       ],
-      "url": "https://x.com/GeminiApp/status/2115171788812669225",
-      "source": "X：Gemini (@GeminiApp)",
+      "url": "https://x.com/sundarpichai/status/2115535455156642066",
+      "source": "X：Sundar Pichai (@sundarpichai)",
       "image": null,
-      "time": "2026-10-27T20:00:27.000Z",
-      "id": 5
+      "time": "2026-10-28T20:05:31.000Z",
+      "id": 3
     },
     {
-      "title": "Azeem Azhar 图解 Anthropic S-1 财务数据",
-      "summary": "Azeem Azhar 图解 Anthropic 的 S-1 文件，指出公司已从实验室变成有现金流和资金的业务，看起来能走向可靠盈利。增长仍高但放缓，超过 80% 的营收来自发布不到六个月的模型；Q3 因向基金会付款可能出现边际亏损，客户集中度问题不大。",
+      "title": "Ed Zitron 长文解析 Anthropic S-1：称其把散户当作退出流动性",
+      "summary": "Ed Zitron 撰文批评 Anthropic 的 S-1 招股书，指其仅披露 Q2 盈利数据、省略 Q3 现金状况和付款明细，是在公司基本面变化前误导投资者。",
       "category": "AI",
       "tags": [
         "Claude"
       ],
-      "url": "https://www.exponentialview.co/p/anthropics-s-1-in-charts",
-      "source": "Azeem Azhar：Exponential View（RSS）",
+      "url": "https://www.wheresyoured.at/exit-liquidity/",
+      "source": "Ed Zitron 长文 / Where’s Your Ed At（RSS）",
       "image": null,
-      "time": "2026-10-27T17:31:56.000Z",
+      "time": "2026-10-28T17:51:00.000Z",
+      "id": 4
+    },
+    {
+      "title": "Anthropic IPO 文件披露现金及短期投资达 131.7B 美元，超过 Amazon 和 Microsoft",
+      "summary": "Anthropic 的 IPO 文件显示其现金及短期投资达 $131.7B，超过 Amazon 和 Microsoft，在美国非银行公司中仅次于 Berkshire Hathaway 和 Alphabet。",
+      "category": "行业",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://x.com/rohanpaul_ai/status/2115491649543635378",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "image": null,
+      "time": "2026-10-28T17:11:27.000Z",
+      "id": 5
+    },
+    {
+      "title": "犹他州 10 个州政府部门 34 名开发者试点使用 Claude Code",
+      "summary": "Boris Cherny 介绍犹他州向 10 个州政府部门的 34 名开发者提供了 Claude Code。试点显示 80% 的开发者在 30 分钟内搭好可用环境，71% 的开发者在为期四周的试点结束前报告节省了 20 小时以上时间。该推文引用了 Anthropic 与 GSA 合作将 Claude 以 40% 折扣提供给联邦及各级政府的公告作为背景。",
+      "category": "行业",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://x.com/bcherny/status/2115491259381072269",
+      "source": "X：Boris Cherny (@bcherny)",
+      "image": null,
+      "time": "2026-10-28T17:09:54.000Z",
       "id": 6
     },
     {
-      "title": "Anthropic 拟以特殊治理结构抵御 IPO 后股东的安全施压",
-      "summary": "Anthropic 计划通过长期受益信托和 Founder LLC 等独特治理结构上市，在公开市场融资的同时防止股东迫使公司削弱安全投入。信托的五名投票受托人可通过 Class T 股票任命七名董事中的四席，七位创始人则以 Founder LLC 掌握 50.1% 投票权。法学专家认为法律层面可隔绝逐利压力，但市场竞争、融资需求和创始人离开都可能侵蚀这些保障。",
-      "category": "行业",
+      "title": "Google 发布 Gemini 4 Carbon：AA Index v5.0 登顶，网络安全基准领先",
+      "summary": "Sundar Pichai 宣布 Google 推出 Gemini 4 Carbon，称其在更新后的 Artificial Analysis Intelligence Index v5.0 以 59 分排名第一。",
+      "category": "AI",
       "tags": [
-        "Claude",
+        "Gemini",
         "安全"
       ],
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
-      "source": "The Verge：AI（RSS）",
+      "url": "https://x.com/sundarpichai/status/2115489219804352921",
+      "source": "X：Sundar Pichai (@sundarpichai)",
       "image": null,
-      "time": "2026-10-27T16:51:22.000Z",
+      "time": "2026-10-28T17:01:48.000Z",
       "id": 7
     },
     {
-      "title": "LangChain 解析自研设计 agent Content Studio 并开源其 harness",
-      "summary": "LangChain 详解自家设计 agent Content Studio 如何在 Slack 中根据一条提示生成视频、幻灯片和社媒图等代码化资产，已累计产出超 3000 件资产、80 多套幻灯片，单次请求模型成本从约 $8 降至约 50 美分。",
-      "category": "工具",
-      "tags": [
-        "开源",
-        "Agent",
-        "设计"
-      ],
-      "url": "https://www.langchain.com/blog/design-agent",
-      "source": "LangChain：Blog（RSS）",
-      "image": null,
-      "time": "2026-10-27T16:45:00.000Z",
-      "id": 8
-    },
-    {
-      "title": "Google DeepMind 发布实时交互世界模型 Genie 4",
-      "summary": "Google DeepMind 发布世界模型 Genie 4，主打实时交互模拟、更强照片级真实感，并首次在实时世界模型中原生生成音频，包括环境声和可实时交互的人物对话。",
+      "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
+      "summary": "Google DeepMind 发布 Gemini 4 Carbon，定位为最强前沿模型，主打网络安全与长程智能体能力，在 SEC-bench Pro 88.2%、ExploitGym 54.8%、CWE-bench 71.0% 取得领先，并以 59 分登顶 Artificial Analysis Intelligence Index v5.0。",
       "category": "AI",
       "tags": [
         "Gemini"
       ],
-      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
       "source": "Google DeepMind：Blog（RSS）",
       "image": null,
-      "time": "2026-10-27T16:01:38.000Z",
-      "id": 9
+      "time": "2026-10-28T17:00:58.000Z",
+      "id": 8
     },
     {
-      "title": "Replit Cloud Agents 开放企业代码库贡献，非技术人员可直接提交经测试的 PR",
-      "summary": "Replit 推出 Cloud Agents，面向 Pro 与 Enterprise 客户开放，让设计、客服等非工程人员用自然语言向公司核心代码库提交经测试的 pull request。",
+      "title": "Microsoft 通过 Foundry 开放 Copilot harness，支持多模型 Agent 开发",
+      "summary": "Microsoft 宣布将 GitHub 团队打造的 Copilot harness 通过 Microsoft Foundry 向开发者和企业开放，该 harness 已驱动 Copilot Code、Copilot Studio、GitHub Copilot app 和 CLI 等产品。",
       "category": "AI",
       "tags": [
         "编程",
         "Agent"
       ],
-      "url": "https://replit.com/blog/anyone-can-bring-ideas-to-company-codebase",
-      "source": "Replit：Blog（RSS）",
+      "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/",
+      "source": "Microsoft：Official Blog（RSS）",
       "image": null,
-      "time": "2026-10-27T15:30:00.000Z",
+      "time": "2026-10-28T16:51:35.000Z",
+      "id": 9
+    },
+    {
+      "title": "GitHub Universe 2026 发布 GitHub Copilot app、Copilot Fusion 等智能体产品",
+      "summary": "GitHub 在 GitHub Universe 2026 上提出把 GitHub 打造为完整软件交付系统的愿景，并发布多项产品：GitHub Copilot app 面向智能体交付。",
+      "category": "AI",
+      "tags": [
+        "编程",
+        "开源",
+        "Agent"
+      ],
+      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+      "source": "GitHub Blog",
+      "image": null,
+      "time": "2026-10-28T16:09:28.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "morluto/rea",
-      "description": "多语言支持，TypeScript编写的通用工具库",
+      "description": "多语言支持，TypeScript编写",
       "language": "TypeScript",
-      "stars": 398141,
-      "starsToday": 5645,
-      "forks": 99866,
+      "stars": 403503,
+      "starsToday": 5362,
+      "forks": 101142,
       "url": "https://github.com/morluto/rea",
       "rank": 1
     },
     {
-      "name": "rddmwmddr/android-ad-cleaner",
-      "description": "无需Python，一键清理安卓广告",
-      "language": "Python",
-      "stars": 3569,
-      "starsToday": 1445,
-      "forks": 308,
-      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+      "name": "unclebob/ub-mode",
+      "description": "代码编写纪律性工具",
+      "language": "Unknown",
+      "stars": 3926,
+      "starsToday": 1365,
+      "forks": 213,
+      "url": "https://github.com/unclebob/ub-mode",
       "rank": 2
     },
     {
-      "name": "designfuchen/word-atlas",
-      "description": "雅思词汇学习工具，含原创插画和发音",
+      "name": "openclaw/openclaw",
+      "description": "跨平台AI助手，支持多种聊天工具",
       "language": "TypeScript",
-      "stars": 2697,
-      "starsToday": 1349,
-      "forks": 613,
-      "url": "https://github.com/designfuchen/word-atlas",
+      "stars": 393303,
+      "starsToday": 1164,
+      "forks": 82675,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 3
     },
     {
-      "name": "unclebob/ub-mode",
-      "description": "代码编写时的纪律性辅助工具",
-      "language": "Unknown",
-      "stars": 2561,
-      "starsToday": 1281,
-      "forks": 119,
-      "url": "https://github.com/unclebob/ub-mode",
+      "name": "deepseek-ai/deepseek-harness",
+      "description": "开源智能代理工具，基于插件架构",
+      "language": "TypeScript",
+      "stars": 265060,
+      "starsToday": 1153,
+      "forks": 32103,
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 4
     },
     {
-      "name": "deepseek-ai/deepseek-harness",
-      "description": "开源智能体工具，支持插件架构",
-      "language": "TypeScript",
-      "stars": 263907,
-      "starsToday": 1117,
-      "forks": 31935,
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "name": "DietrichGebert/ponytail",
+      "description": "代码测试优化工具",
+      "language": "JavaScript",
+      "stars": 179340,
+      "starsToday": 1021,
+      "forks": 9830,
+      "url": "https://github.com/DietrichGebert/ponytail",
       "rank": 5
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言支持，快速安装ECC插件",
-      "language": "JavaScript",
-      "stars": 291018,
-      "starsToday": 1043,
-      "forks": 43087,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "interplains/Zero-Breach-Toolkit",
+      "description": "开源间谍软件检测工具",
+      "language": "Python",
+      "stars": 2895,
+      "starsToday": 965,
+      "forks": 312,
+      "url": "https://github.com/interplains/Zero-Breach-Toolkit",
       "rank": 6
     },
     {
-      "name": "DietrichGebert/ponytail",
-      "description": "JavaScript代码优化工具，提高测试覆盖率",
-      "language": "JavaScript",
-      "stars": 178319,
-      "starsToday": 1012,
-      "forks": 9762,
-      "url": "https://github.com/DietrichGebert/ponytail",
+      "name": "ultraworkers/claw-code",
+      "description": "Rust语言编写的代码工具",
+      "language": "Rust",
+      "stars": 194973,
+      "starsToday": 924,
+      "forks": 107665,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 7
     },
     {
-      "name": "JuliusBrussee/caveman",
-      "description": "AI智能体精简工具，减少数据使用",
-      "language": "Go",
-      "stars": 115571,
-      "starsToday": 561,
-      "forks": 6667,
-      "url": "https://github.com/JuliusBrussee/caveman",
+      "name": "JustAResearcher/gpu-unlock-ada",
+      "description": "GPU解锁工具，支持RTX 4090和Ada GPU",
+      "language": "C",
+      "stars": 4434,
+      "starsToday": 887,
+      "forks": 570,
+      "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
       "rank": 8
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自学习AI智能体，跨会话知识持久化",
-      "language": "Python",
-      "stars": 257798,
-      "starsToday": 558,
-      "forks": 56539,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "affaan-m/ECC",
+      "description": "多语言支持的插件安装工具",
+      "language": "JavaScript",
+      "stars": 291896,
+      "starsToday": 878,
+      "forks": 43211,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 9
     },
     {
-      "name": "anomalyco/opencode",
-      "description": "开源AI编码智能体，多语言支持",
-      "language": "TypeScript",
-      "stars": 222451,
-      "starsToday": 408,
-      "forks": 29770,
-      "url": "https://github.com/anomalyco/opencode",
+      "name": "rddmwmddr/android-ad-cleaner",
+      "description": "Android广告清理工具",
+      "language": "Python",
+      "stars": 4415,
+      "starsToday": 846,
+      "forks": 400,
+      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-10-28",
-    "updatedAt": "2026-10-28T04:09:49.306Z",
+    "date": "2026-10-29",
+    "updatedAt": "2026-10-29T04:32:07.148Z",
     "highlights": [
-      "Anthropic IPO可能为Amazon带来最大收益",
-      "Google发布Genie 4模型支持实时操控与原生音频",
-      "家长起诉OpenAI GPT-4o导致死亡",
-      "Axiom完成机器验证",
-      "Gemini集成Google SynthID检测",
-      "LangChain开源工具",
-      "Replit Cloud Agents开放企业代码库贡献"
+      "OpenRouter 教程发布，LLM 抽取 PDF 表格技术兴起；Anthropic 漏洞研究揭示 Claude 模型安全风险；Google Cloud 收入增长显著；Anthropic IPO 文件披露巨额现金储备；Claude Code 在政府部门试点；Google DeepMind 发布 Gemini 4 Carbon 模型；Microsoft 开放 Copilot harness；GitHub Universe 2026 发布智能体产品"
     ],
     "keywords": [
+      "OpenRouter",
+      "LLM",
+      "PDF",
       "Anthropic",
-      "IPO",
-      "Google",
-      "Genie 4",
-      "OpenAI",
-      "GPT-4o",
-      "Axiom",
-      "Gemini",
-      "SynthID",
-      "LangChain",
-      "Replit",
-      "Cloud Agents",
+      "Claude",
+      "Google Cloud",
+      "Anthropic IPO",
+      "Claude Code",
+      "Gemini 4 Carbon",
+      "Copilot harness",
+      "GitHub Universe",
+      "Copilot app",
+      "Copilot Fusion",
       "GitHub",
-      "热门项目",
       "morluto/rea",
-      "rddmwmddr/android-ad-cleaner",
-      "designfuchen/word-atlas",
+      "TypeScript",
       "unclebob/ub-mode",
+      "openclaw/openclaw",
       "deepseek-ai/deepseek-harness",
-      "affaan-m/ECC",
       "DietrichGebert/ponytail",
-      "JuliusBrussee/caveman",
-      "NousResearch/hermes-agent",
-      "anomalyco/opencode"
+      "interplains/Zero-Breach-Toolkit",
+      "ultraworkers/claw-code",
+      "JustAResearcher/gpu-unlock-ada",
+      "affaan-m/ECC",
+      "rddmwmddr/android-ad-cleaner"
     ],
-    "trendingSummary": "今日技术资讯显示AI领域持续发展，OpenAI和Google的产品引发关注。同时，开源社区活跃，GitHub热门项目涵盖多种编程语言和工具。"
+    "trendingSummary": "技术领域持续关注 AI 应用与安全，OpenRouter 教程和 Claude 模型漏洞研究凸显 AI 技术应用挑战；Google Cloud 和 Anthropic IPO 显示行业增长势头；GitHub Universe 2026 发布的智能体产品预示 AI 技术将进一步融入开发流程。"
   }
 }
