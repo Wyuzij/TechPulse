@@ -1,279 +1,269 @@
 {
-  "date": "2026-10-29",
-  "updatedAt": "2026-10-29T04:32:07.148Z",
+  "date": "2026-10-30",
+  "updatedAt": "2026-10-30T04:32:21.902Z",
   "techNews": [
     {
-      "title": "OpenRouter 教程：用 LLM 从 PDF 中抽取表格",
-      "summary": "OpenRouter 发布教程，讲解如何把 PDF 以文件形式连同严格 JSON schema 发给能读文件的模型，让表格以带类型的行返回，括号亏损、千分位和脚注标记等清理都写进字段描述。",
+      "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
+      "summary": "月之暗面（Kimi）发布官方教程，详解 Kimi K3.1 Pro 的 3D 创作工作流程，说明参数化建模与网格化建模两种方式及对应工具选择。文章分享了 4 个案例的具体操作，包括在 Unreal Engine 中构建东方天宫、制作可 3D 打印的台灯、纯代码调用 Blender 生成建筑、用 Tripo 和 Blender 搭建微缩城市，并给出图胜于言、先搭灰模再细化等 5 个使用技巧。",
       "category": "工具",
       "tags": [
         "tip"
       ],
-      "url": "https://openrouter.ai/blog/tutorials/extract-tables-from-pdf-llm/",
-      "source": "OpenRouter：Announcements（RSS）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484364&idx=1&sn=42491c3f098deb797ee8f2a17d147b3a",
+      "source": "公众号：月之暗面（Kimi）",
       "image": null,
-      "time": "2026-10-29T00:00:00.000Z",
+      "time": "2026-10-30T04:04:56.000Z",
       "id": 1
     },
     {
-      "title": "Anthropic 报告：Claude 研究模型在 Chrome、Safari、Android、Windows、Linux 发现漏洞并串联 5 条攻击链",
-      "summary": "Anthropic 于 10 月 27 日发布研究报告，称一个未公开的内部 Claude 研究模型在 Chrome、Safari、Android、Windows 和 Linux 中发现漏洞，串联出 5 条可实际运行的攻击链，相关漏洞已按协调披露流程报告并修复。",
-      "category": "AI",
+      "title": "Google 与 Reddit 同日股价大跌，AI 搜索变现困境冲击开放网络",
+      "summary": "Casey Newton 分析 Google 与 Reddit 同日遭遇的股市重挫：Alphabet 股价跌 12.6%，蒸发约 $5000 亿市值，为史上第二大单日市值缩水；高管承认 AI Mode 变现能力低于传统搜索，尽管 AI Mode 月用户约 10 亿、搜索收入仍增长 12% 至 $633.5 亿。",
+      "category": "行业",
       "tags": [
-        "Claude",
-        "安全",
-        "设计"
+        "Gemini"
       ],
-      "url": "https://www.ithome.com/1/019/268.htm",
-      "source": "IT之家·人工智能",
+      "url": "https://www.platformer.news/thursday-newsletter-6/",
+      "source": "Platformer（热点 RSS）",
       "image": null,
-      "time": "2026-10-28T22:35:25.040Z",
+      "time": "2026-10-30T00:51:00.000Z",
       "id": 2
     },
     {
-      "title": "Alphabet Q3 财报：年化收入达 5000 亿美元，Google Cloud 增长 103%",
-      "summary": "Sundar Pichai 发布 Alphabet Q3 业绩：年化收入 run rate 达 5000 亿美元，总收入同比增长 25%。Google Cloud 收入增长 103%，1P 模型 API 每分钟处理近 32B tokens（环比增 40%）；Search 查询同比增速为五年来最高，并提到 Argon、Carbon 领跑前沿及最新世界模型 Genie 4。",
-      "category": "行业",
+      "title": "OpenRouter 实测 Claude Opus vs Sonnet vs Haiku 5.5 该选哪个",
+      "summary": "OpenRouter 实测 Claude Opus 5.5、Sonnet 5.5 与 Haiku 5.5 三档模型，建议默认用 Sonnet 5.5，高频与子智能体任务用 Haiku 5.5，长且容错成本高的任务用 Opus 5.5。",
+      "category": "工具",
       "tags": [
-        "Gemini"
+        "Claude"
       ],
-      "url": "https://x.com/sundarpichai/status/2115535455156642066",
-      "source": "X：Sundar Pichai (@sundarpichai)",
+      "url": "https://openrouter.ai/blog/insights/claude-opus-vs-sonnet-vs-haiku/",
+      "source": "OpenRouter：Announcements（RSS）",
       "image": null,
-      "time": "2026-10-28T20:05:31.000Z",
+      "time": "2026-10-30T00:00:00.000Z",
       "id": 3
     },
     {
-      "title": "Ed Zitron 长文解析 Anthropic S-1：称其把散户当作退出流动性",
-      "summary": "Ed Zitron 撰文批评 Anthropic 的 S-1 招股书，指其仅披露 Q2 盈利数据、省略 Q3 现金状况和付款明细，是在公司基本面变化前误导投资者。",
-      "category": "AI",
+      "title": "Andy Jassy 称 AWS 将成为万亿美元营收业务，2026 年资本开支约 2200 亿美元",
+      "summary": "亚马逊财报电话会上，CEO Andy Jassy 重申 AWS 可在未来五到十年成为万亿美元年营收业务，预计 2026 年现金资本开支约 2200 亿美元，其中大部分投向 AWS，2027 年还将大幅增加。AWS 当季营收同比增长 39%，年化营收运行率达 1840 亿美元，Jassy 预测 2027 和 2028 年增速均可超 40%；财报后盘后交易中亚马逊股价下跌约 6%。",
+      "category": "行业",
       "tags": [
-        "Claude"
+        "industry"
       ],
-      "url": "https://www.wheresyoured.at/exit-liquidity/",
-      "source": "Ed Zitron 长文 / Where’s Your Ed At（RSS）",
+      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "source": "TechCrunch：AI（RSS）",
       "image": null,
-      "time": "2026-10-28T17:51:00.000Z",
+      "time": "2026-10-29T23:42:22.000Z",
       "id": 4
     },
     {
-      "title": "Anthropic IPO 文件披露现金及短期投资达 131.7B 美元，超过 Amazon 和 Microsoft",
-      "summary": "Anthropic 的 IPO 文件显示其现金及短期投资达 $131.7B，超过 Amazon 和 Microsoft，在美国非银行公司中仅次于 Berkshire Hathaway 和 Alphabet。",
-      "category": "行业",
+      "title": "Figma 讲解如何训练专用画布编辑模型",
+      "summary": "Figma 介绍其为 agent 自研 Figma 编辑模型的训练方法，先用超过 25 万条合成样本做 SFT，让早期 Llama 3.3 70B 在编辑任务上接近当时顶级模型，后转向 RL 并结合确定性校验器与视觉评委做评测。",
+      "category": "工具",
       "tags": [
-        "Claude"
+        "设计"
       ],
-      "url": "https://x.com/rohanpaul_ai/status/2115491649543635378",
-      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "url": "https://www.figma.com/blog/training-a-figma-fluent-editing-model/",
+      "source": "Figma AI / Agent / Make",
       "image": null,
-      "time": "2026-10-28T17:11:27.000Z",
+      "time": "2026-10-29T21:00:00.000Z",
       "id": 5
     },
     {
-      "title": "犹他州 10 个州政府部门 34 名开发者试点使用 Claude Code",
-      "summary": "Boris Cherny 介绍犹他州向 10 个州政府部门的 34 名开发者提供了 Claude Code。试点显示 80% 的开发者在 30 分钟内搭好可用环境，71% 的开发者在为期四周的试点结束前报告节省了 20 小时以上时间。该推文引用了 Anthropic 与 GSA 合作将 Claude 以 40% 折扣提供给联邦及各级政府的公告作为背景。",
+      "title": "Reddit 宣布转向以登录为主的体验，以应对 AI 搜索带来的流量下滑",
+      "summary": "Reddit 在 Q3 财报中宣布将转向以登录为主的体验，以保护数据免受 AI 抓取并提升广告变现。10 月搜索流量平均每周减少超 100 万次引荐，Q3 全球日活为 1.303 亿，其中美国日活降至 5070 万，同比降 2%。Q3 收入同比增长 53% 至 8.95 亿美元，净利润 2.83 亿美元；该转变将先在美国以外市场测试，暂无全球上线时间表。",
+      "category": "行业",
+      "tags": [
+        "industry"
+      ],
+      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+      "source": "TechCrunch：AI（RSS）",
+      "image": null,
+      "time": "2026-10-29T20:08:31.000Z",
+      "id": 6
+    },
+    {
+      "title": "Pika 基于MiniMax H3后训练并开源 Pika H3 Flex 视频生成模型",
+      "summary": "Pika Labs 在 MiniMax H3 上做后训练，推出并开源 Pika H3 Flex，采样步数从 50 步压缩到 6 步，生成时间大幅降低且质量有所提升。",
+      "category": "AI",
+      "tags": [
+        "视频生成",
+        "开源"
+      ],
+      "url": "https://x.com/Khazix0918/status/2115898252004622617",
+      "source": "X：卡兹克 (@Khazix0918)",
+      "image": null,
+      "time": "2026-10-29T20:07:09.000Z",
+      "id": 7
+    },
+    {
+      "title": "Anthropic S-1 文件解读：财务表现强劲但增长放缓存隐忧",
+      "summary": "作者通读 Anthropic 公开版 S-1 文件，认为公司财务状况好于预期：2026 年第二季度收入从一季度的 47 亿美元增至 116 亿美元，并录得首个运营利润，截至 6 月底现金储备仅次于 Google 和 Berkshire Hathaway。",
       "category": "行业",
       "tags": [
         "Claude"
       ],
-      "url": "https://x.com/bcherny/status/2115491259381072269",
-      "source": "X：Boris Cherny (@bcherny)",
+      "url": "https://www.understandingai.org/p/anthropics-financials-are-surprisingly",
+      "source": "Timothy B. Lee：Understanding AI（RSS）",
       "image": null,
-      "time": "2026-10-28T17:09:54.000Z",
-      "id": 6
-    },
-    {
-      "title": "Google 发布 Gemini 4 Carbon：AA Index v5.0 登顶，网络安全基准领先",
-      "summary": "Sundar Pichai 宣布 Google 推出 Gemini 4 Carbon，称其在更新后的 Artificial Analysis Intelligence Index v5.0 以 59 分排名第一。",
-      "category": "AI",
-      "tags": [
-        "Gemini",
-        "安全"
-      ],
-      "url": "https://x.com/sundarpichai/status/2115489219804352921",
-      "source": "X：Sundar Pichai (@sundarpichai)",
-      "image": null,
-      "time": "2026-10-28T17:01:48.000Z",
-      "id": 7
-    },
-    {
-      "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
-      "summary": "Google DeepMind 发布 Gemini 4 Carbon，定位为最强前沿模型，主打网络安全与长程智能体能力，在 SEC-bench Pro 88.2%、ExploitGym 54.8%、CWE-bench 71.0% 取得领先，并以 59 分登顶 Artificial Analysis Intelligence Index v5.0。",
-      "category": "AI",
-      "tags": [
-        "Gemini"
-      ],
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "source": "Google DeepMind：Blog（RSS）",
-      "image": null,
-      "time": "2026-10-28T17:00:58.000Z",
+      "time": "2026-10-29T19:10:41.000Z",
       "id": 8
     },
     {
-      "title": "Microsoft 通过 Foundry 开放 Copilot harness，支持多模型 Agent 开发",
-      "summary": "Microsoft 宣布将 GitHub 团队打造的 Copilot harness 通过 Microsoft Foundry 向开发者和企业开放，该 harness 已驱动 Copilot Code、Copilot Studio、GitHub Copilot app 和 CLI 等产品。",
+      "title": "腾讯混元发布 Hy-Nomas 技术报告并开源 Hy-Nomas-Bench",
+      "summary": "腾讯混元发布 Hy-Nomas 开源交互式视频世界模型的技术报告（arXiv:2610.36729），并开源 Hy-Nomas-Bench 数据集用于可复现研究。官方还用 Hy-Nomas 重现 Genie 4 示例并放出对比视频，演示无需排队即可试用，地址为 https://hy-nomas.hy.tencent.com/。",
       "category": "AI",
       "tags": [
-        "编程",
-        "Agent"
+        "腾讯",
+        "开源"
       ],
-      "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/",
-      "source": "Microsoft：Official Blog（RSS）",
+      "url": "https://x.com/TencentHunyuan/status/2115851165904814283",
+      "source": "X：腾讯混元 (@TencentHunyuan)",
       "image": null,
-      "time": "2026-10-28T16:51:35.000Z",
+      "time": "2026-10-29T17:00:03.000Z",
       "id": 9
     },
     {
-      "title": "GitHub Universe 2026 发布 GitHub Copilot app、Copilot Fusion 等智能体产品",
-      "summary": "GitHub 在 GitHub Universe 2026 上提出把 GitHub 打造为完整软件交付系统的愿景，并发布多项产品：GitHub Copilot app 面向智能体交付。",
-      "category": "AI",
+      "title": "OpenAI 更新 Model Spec，围绕五项核心价值观重组模型行为准则",
+      "summary": "OpenAI 更新其公开的 Model Spec，将指导原则重组为五项核心价值观：忠实于人类意图、最小化伤害、诚实透明、促进人类自主和关怀。更新新增了关于上下文理解、监督和自主性的指导，调整了部分行为默认值，退出了大部分详细风格指南，并将模型称呼从 the assistant 改为 GPT。",
+      "category": "行业",
       "tags": [
-        "编程",
-        "开源",
-        "Agent"
+        "OpenAI"
       ],
-      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
-      "source": "GitHub Blog",
+      "url": "https://openai.com/index/updated-model-spec",
+      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
       "image": null,
-      "time": "2026-10-28T16:09:28.000Z",
+      "time": "2026-10-29T17:00:00.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "morluto/rea",
-      "description": "多语言支持，TypeScript编写",
+      "description": "多语言支持，TypeScript构建",
       "language": "TypeScript",
-      "stars": 403503,
-      "starsToday": 5362,
-      "forks": 101142,
+      "stars": 408621,
+      "starsToday": 5118,
+      "forks": 102324,
       "url": "https://github.com/morluto/rea",
       "rank": 1
     },
     {
-      "name": "unclebob/ub-mode",
-      "description": "代码编写纪律性工具",
-      "language": "Unknown",
-      "stars": 3926,
-      "starsToday": 1365,
-      "forks": 213,
-      "url": "https://github.com/unclebob/ub-mode",
+      "name": "anhao/ai-pose-gallery-zh",
+      "description": "AI姿势图库，支持批量下载",
+      "language": "HTML",
+      "stars": 3340,
+      "starsToday": 1670,
+      "forks": 870,
+      "url": "https://github.com/anhao/ai-pose-gallery-zh",
       "rank": 2
     },
     {
-      "name": "openclaw/openclaw",
-      "description": "跨平台AI助手，支持多种聊天工具",
-      "language": "TypeScript",
-      "stars": 393303,
-      "starsToday": 1164,
-      "forks": 82675,
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "DietrichGebert/ponytail",
+      "description": "代码优化工具，提升开发效率",
+      "language": "JavaScript",
+      "stars": 180325,
+      "starsToday": 985,
+      "forks": 9895,
+      "url": "https://github.com/DietrichGebert/ponytail",
       "rank": 3
     },
     {
       "name": "deepseek-ai/deepseek-harness",
-      "description": "开源智能代理工具，基于插件架构",
+      "description": "开源代理工具，支持插件架构",
       "language": "TypeScript",
-      "stars": 265060,
-      "starsToday": 1153,
-      "forks": 32103,
+      "stars": 266037,
+      "starsToday": 977,
+      "forks": 32255,
       "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 4
     },
     {
-      "name": "DietrichGebert/ponytail",
-      "description": "代码测试优化工具",
-      "language": "JavaScript",
-      "stars": 179340,
-      "starsToday": 1021,
-      "forks": 9830,
-      "url": "https://github.com/DietrichGebert/ponytail",
+      "name": "unclebob/ub-mode",
+      "description": "代码编写辅助工具",
+      "language": "Unknown",
+      "stars": 4844,
+      "starsToday": 918,
+      "forks": 268,
+      "url": "https://github.com/unclebob/ub-mode",
       "rank": 5
     },
     {
-      "name": "interplains/Zero-Breach-Toolkit",
-      "description": "开源间谍软件检测工具",
-      "language": "Python",
-      "stars": 2895,
-      "starsToday": 965,
-      "forks": 312,
-      "url": "https://github.com/interplains/Zero-Breach-Toolkit",
+      "name": "affaan-m/ECC",
+      "description": "多语言支持，插件式安装",
+      "language": "JavaScript",
+      "stars": 292812,
+      "starsToday": 916,
+      "forks": 43333,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 6
     },
     {
-      "name": "ultraworkers/claw-code",
-      "description": "Rust语言编写的代码工具",
-      "language": "Rust",
-      "stars": 194973,
-      "starsToday": 924,
-      "forks": 107665,
-      "url": "https://github.com/ultraworkers/claw-code",
+      "name": "designfuchen/word-atlas",
+      "description": "雅思词汇学习工具",
+      "language": "TypeScript",
+      "stars": 3266,
+      "starsToday": 817,
+      "forks": 715,
+      "url": "https://github.com/designfuchen/word-atlas",
       "rank": 7
     },
     {
-      "name": "JustAResearcher/gpu-unlock-ada",
-      "description": "GPU解锁工具，支持RTX 4090和Ada GPU",
-      "language": "C",
-      "stars": 4434,
-      "starsToday": 887,
-      "forks": 570,
-      "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
+      "name": "interplains/Zero-Breach-Toolkit",
+      "description": "反间谍软件检测工具",
+      "language": "Python",
+      "stars": 3652,
+      "starsToday": 757,
+      "forks": 389,
+      "url": "https://github.com/interplains/Zero-Breach-Toolkit",
       "rank": 8
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言支持的插件安装工具",
-      "language": "JavaScript",
-      "stars": 291896,
-      "starsToday": 878,
-      "forks": 43211,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "JuliusBrussee/caveman",
+      "description": "AI代理简洁表达工具",
+      "language": "Go",
+      "stars": 116144,
+      "starsToday": 558,
+      "forks": 6717,
+      "url": "https://github.com/JuliusBrussee/caveman",
       "rank": 9
     },
     {
-      "name": "rddmwmddr/android-ad-cleaner",
-      "description": "Android广告清理工具",
+      "name": "NousResearch/hermes-agent",
+      "description": "自我改进AI代理，支持学习循环",
       "language": "Python",
-      "stars": 4415,
-      "starsToday": 846,
-      "forks": 400,
-      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+      "stars": 258571,
+      "starsToday": 557,
+      "forks": 56788,
+      "url": "https://github.com/NousResearch/hermes-agent",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-10-29",
-    "updatedAt": "2026-10-29T04:32:07.148Z",
+    "date": "2026-10-30",
+    "updatedAt": "2026-10-30T04:32:21.902Z",
     "highlights": [
-      "OpenRouter 教程发布，LLM 抽取 PDF 表格技术兴起；Anthropic 漏洞研究揭示 Claude 模型安全风险；Google Cloud 收入增长显著；Anthropic IPO 文件披露巨额现金储备；Claude Code 在政府部门试点；Google DeepMind 发布 Gemini 4 Carbon 模型；Microsoft 开放 Copilot harness；GitHub Universe 2026 发布智能体产品"
+      "Kimi K3.1 Pro 3D创作教程发布",
+      "AI搜索变现困境影响开放网络",
+      "OpenRouter对比不同路由器工具",
+      "AWS预测万亿美元营收目标",
+      "Figma训练专用画布编辑模型",
+      "Reddit转向登录体验应对流量下滑",
+      "Pika开源视频生成模型Pika H3 Flex",
+      "Anthropic财务表现强劲但增长放缓",
+      "腾讯混元发布Hy-Nomas技术报告",
+      "OpenAI更新Model Spec重组模型行为准则"
     ],
     "keywords": [
+      "Kimi K3.1 Pro",
+      "AI搜索",
       "OpenRouter",
-      "LLM",
-      "PDF",
+      "AWS",
+      "Figma",
+      "Reddit",
+      "Pika H3 Flex",
       "Anthropic",
-      "Claude",
-      "Google Cloud",
-      "Anthropic IPO",
-      "Claude Code",
-      "Gemini 4 Carbon",
-      "Copilot harness",
-      "GitHub Universe",
-      "Copilot app",
-      "Copilot Fusion",
-      "GitHub",
-      "morluto/rea",
-      "TypeScript",
-      "unclebob/ub-mode",
-      "openclaw/openclaw",
-      "deepseek-ai/deepseek-harness",
-      "DietrichGebert/ponytail",
-      "interplains/Zero-Breach-Toolkit",
-      "ultraworkers/claw-code",
-      "JustAResearcher/gpu-unlock-ada",
-      "affaan-m/ECC",
-      "rddmwmddr/android-ad-cleaner"
+      "Hy-Nomas",
+      "OpenAI Model Spec"
     ],
-    "trendingSummary": "技术领域持续关注 AI 应用与安全，OpenRouter 教程和 Claude 模型漏洞研究凸显 AI 技术应用挑战；Google Cloud 和 Anthropic IPO 显示行业增长势头；GitHub Universe 2026 发布的智能体产品预示 AI 技术将进一步融入开发流程。"
+    "trendingSummary": "今日技术趋势聚焦于3D创作工具、AI搜索变现、云计算营收预测、专用画布编辑模型训练、社交媒体平台策略调整、视频生成模型开源、财务表现分析、AI技术报告发布以及模型行为准则更新。"
   }
 }
