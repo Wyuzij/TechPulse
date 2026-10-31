@@ -1,269 +1,270 @@
 {
-  "date": "2026-10-30",
-  "updatedAt": "2026-10-30T04:32:21.902Z",
+  "date": "2026-10-31",
+  "updatedAt": "2026-10-31T04:14:27.586Z",
   "techNews": [
     {
-      "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
-      "summary": "月之暗面（Kimi）发布官方教程，详解 Kimi K3.1 Pro 的 3D 创作工作流程，说明参数化建模与网格化建模两种方式及对应工具选择。文章分享了 4 个案例的具体操作，包括在 Unreal Engine 中构建东方天宫、制作可 3D 打印的台灯、纯代码调用 Blender 生成建筑、用 Tripo 和 Blender 搭建微缩城市，并给出图胜于言、先搭灰模再细化等 5 个使用技巧。",
-      "category": "工具",
+      "title": "Anthropic IPO 招股文件披露近 9000 亿美元隐性债务",
+      "summary": "Anthropic 近日提交 IPO 招股文件，彭博社报道其计划未来在服务器、建筑和电力等领域投入近 9,000 亿美元债务。该公司资产负债表显示 1,175 亿美元负债和 1,120 亿美元现金，而租赁合同及数据中心、电力和 GPU 采购协议等表外义务未直接体现；Anthropic 计划通过增加收入和筹集资金支付这些负债。",
+      "category": "行业",
       "tags": [
-        "tip"
+        "Claude"
       ],
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484364&idx=1&sn=42491c3f098deb797ee8f2a17d147b3a",
-      "source": "公众号：月之暗面（Kimi）",
+      "url": "https://www.ithome.com/1/020/444.htm",
+      "source": "IT之家·人工智能",
       "image": null,
-      "time": "2026-10-30T04:04:56.000Z",
+      "time": "2026-10-31T03:25:09.697Z",
       "id": 1
     },
     {
-      "title": "Google 与 Reddit 同日股价大跌，AI 搜索变现困境冲击开放网络",
-      "summary": "Casey Newton 分析 Google 与 Reddit 同日遭遇的股市重挫：Alphabet 股价跌 12.6%，蒸发约 $5000 亿市值，为史上第二大单日市值缩水；高管承认 AI Mode 变现能力低于传统搜索，尽管 AI Mode 月用户约 10 亿、搜索收入仍增长 12% 至 $633.5 亿。",
+      "title": "Nvidia 洽谈为 Nscale 西弗吉尼亚 Anthropic 数据中心提供债务担保",
+      "summary": "据 The Information 报道、Bloomberg 佐证，Nvidia 正洽谈为 Nscale 在西弗吉尼亚为 Anthropic 建设的数据中心担保数十亿美元债务融资，Anthropic 已就首栋建筑签署 446 亿美元合同。",
+      "category": "行业",
+      "tags": [
+        "Claude",
+        "算力"
+      ],
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "source": "TechCrunch：AI（RSS）",
+      "image": null,
+      "time": "2026-10-31T01:20:05.000Z",
+      "id": 2
+    },
+    {
+      "title": "Figma 发布 Weave 创作平台，用节点化工作流让创意流程可复用",
+      "summary": "Figma 宣布 Figma Weave，一个面向持续产出需求的创意团队平台，并把 Weave 创作工作流与 Figma 画框连接起来。Weave 用连接的节点承载图像和视频的生成与编辑，支持分支探索、多模型对比、色彩校正、合成、裁剪、Painter 等编辑节点；工作流可打包成 Weave tool 让团队成员一键运行，社区工具发布已上线。",
+      "category": "AI",
+      "tags": [
+        "设计"
+      ],
+      "url": "https://www.figma.com/blog/the-tldr-on-figma-weave/",
+      "source": "Figma AI / Agent / Make",
+      "image": null,
+      "time": "2026-10-31T00:58:00.000Z",
+      "id": 3
+    },
+    {
+      "title": "阿里巴巴与Apple合作，千问集成至Apple智能，11月4日开放测试",
+      "summary": "10月31日阿里巴巴宣布与Apple合作，将千问集成至Apple智能，中国用户可在Siri、写作工具及视觉智能中调用千问的文本与图像理解、内容生成能力。功能11月4日起随iOS开发者Beta开放测试，12月iOS 27.3正式发布时推出；用户可自主选择开通，请求与回复不用于模型训练。",
+      "category": "行业",
+      "tags": [
+        "阿里"
+      ],
+      "url": "https://mp.weixin.qq.com/s?__biz=MzYzNDE5MDEwMQ%3D%3D&mid=2247489416&idx=1&sn=9525f61df8086fcd6fe4d4183da068de",
+      "source": "公众号：千问APP（阿里）",
+      "image": null,
+      "time": "2026-10-31T00:03:47.000Z",
+      "id": 4
+    },
+    {
+      "title": "OpenRouter 教程：用 Agent SDK 搭建常驻 AI Agent 监控 Hacker News",
+      "summary": "OpenRouter 发布教程，演示用 @openrouter/agent 0.11.0 在 TypeScript 中搭建定时运行的常驻 AI Agent，监控 Hacker News 并生成摘要。",
+      "category": "工具",
+      "tags": [
+        "Agent"
+      ],
+      "url": "https://openrouter.ai/blog/tutorials/build-always-on-ai-agent/",
+      "source": "OpenRouter：Announcements（RSS）",
+      "image": null,
+      "time": "2026-10-31T00:00:00.000Z",
+      "id": 5
+    },
+    {
+      "title": "Wiz 报告“黑色十月”：九个 AI 开发者平台接连披露安全事件",
+      "summary": "Wiz 研究团队梳理 10 月内至少九个 AI 开发者平台披露的安全事件，包括 Fireworks AI、Lightning AI、Railway、Warp、OpenCode 等，多起报告指向凭据窃取、agent swarm 攻击和以“蒸馏”为目的的窃取。",
+      "category": "AI",
+      "tags": [
+        "安全"
+      ],
+      "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
+      "source": "Wiz：Research（安全研究）",
+      "image": null,
+      "time": "2026-10-30T22:51:44.000Z",
+      "id": 6
+    },
+    {
+      "title": "科技巨头 AI 资本开支超 7400 亿美元，投资者担忧升温引发市场下跌",
+      "summary": "Alphabet、Amazon、Meta、Microsoft 今年计划资本开支合计超 7400 亿美元，投资者情绪从奖励大额投入转向担忧负自由现金流、债务攀升与回报不确定。",
+      "category": "行业",
+      "tags": [
+        "industry"
+      ],
+      "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "source": "TechCrunch：AI（RSS）",
+      "image": null,
+      "time": "2026-10-30T21:17:40.000Z",
+      "id": 7
+    },
+    {
+      "title": "Project Suncatcher 在轨道卫星上运行 TPU，Gemma 模型首次在太空完成推理并回传回应",
+      "summary": "Philipp Schmid 转引 Sundar Pichai 的消息：Google Project Suncatcher 在数周前发射原型卫星后，成功向轨道发送指令、启动 TPU、运行提示词，并在地面收到了首个完整回应（一首 haiku），作者称 Gemma 4 成为首个在太空运行的大语言模型。",
+      "category": "行业",
+      "tags": [
+        "推理"
+      ],
+      "url": "https://x.com/_philschmid/status/2116235686445502608",
+      "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)",
+      "image": null,
+      "time": "2026-10-30T18:28:00.000Z",
+      "id": 8
+    },
+    {
+      "title": "Anthropic 将 Claude Max 套餐更名为 Max 与 Ultra，Ultra 认证账号取消 5 小时限制",
+      "summary": "Anthropic 将 Claude 订阅套餐更名：Max 5x 改为 Max，Max 20x 改为 Ultra，价格不变（Max 100 美元/月、Ultra 200 美元/月）。即日起多数老订阅者的认证 Ultra 账号取消 5 小时限制，新账号保留临时限制以防欺诈滥用，周限额不变。",
+      "category": "AI",
+      "tags": [
+        "Claude"
+      ],
+      "url": "https://x.com/adocomplete/status/2116224220539883992",
+      "source": "X：Ado Kukic（Anthropic 开发者关系，Claude Code） (@adocomplete)",
+      "image": null,
+      "time": "2026-10-30T17:42:26.000Z",
+      "id": 9
+    },
+    {
+      "title": "Reddit CEO 称 Google AI Mode 不为任何人带来流量，Reddit 每周流失超百万搜索访问",
+      "summary": "Reddit CEO Steve Huffman 表示 10 月 Reddit 每周流失超过 100 万来自 Google 搜索的访问，股价在业绩强劲的情况下仍下跌超 25%。他称 AI Mode 不会带来流量，Reddit 正在美国以外测试登录墙以遏制抓取，并与 AI 提供商继续数据授权谈判。",
       "category": "行业",
       "tags": [
         "Gemini"
       ],
-      "url": "https://www.platformer.news/thursday-newsletter-6/",
-      "source": "Platformer（热点 RSS）",
+      "url": "https://the-decoder.com/googles-ai-mode-doesnt-drive-traffic-for-anybody-reddit-ceo-huffman-warns-the-entire-web/",
+      "source": "The Decoder：AI News（RSS）",
       "image": null,
-      "time": "2026-10-30T00:51:00.000Z",
-      "id": 2
-    },
-    {
-      "title": "OpenRouter 实测 Claude Opus vs Sonnet vs Haiku 5.5 该选哪个",
-      "summary": "OpenRouter 实测 Claude Opus 5.5、Sonnet 5.5 与 Haiku 5.5 三档模型，建议默认用 Sonnet 5.5，高频与子智能体任务用 Haiku 5.5，长且容错成本高的任务用 Opus 5.5。",
-      "category": "工具",
-      "tags": [
-        "Claude"
-      ],
-      "url": "https://openrouter.ai/blog/insights/claude-opus-vs-sonnet-vs-haiku/",
-      "source": "OpenRouter：Announcements（RSS）",
-      "image": null,
-      "time": "2026-10-30T00:00:00.000Z",
-      "id": 3
-    },
-    {
-      "title": "Andy Jassy 称 AWS 将成为万亿美元营收业务，2026 年资本开支约 2200 亿美元",
-      "summary": "亚马逊财报电话会上，CEO Andy Jassy 重申 AWS 可在未来五到十年成为万亿美元年营收业务，预计 2026 年现金资本开支约 2200 亿美元，其中大部分投向 AWS，2027 年还将大幅增加。AWS 当季营收同比增长 39%，年化营收运行率达 1840 亿美元，Jassy 预测 2027 和 2028 年增速均可超 40%；财报后盘后交易中亚马逊股价下跌约 6%。",
-      "category": "行业",
-      "tags": [
-        "industry"
-      ],
-      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
-      "source": "TechCrunch：AI（RSS）",
-      "image": null,
-      "time": "2026-10-29T23:42:22.000Z",
-      "id": 4
-    },
-    {
-      "title": "Figma 讲解如何训练专用画布编辑模型",
-      "summary": "Figma 介绍其为 agent 自研 Figma 编辑模型的训练方法，先用超过 25 万条合成样本做 SFT，让早期 Llama 3.3 70B 在编辑任务上接近当时顶级模型，后转向 RL 并结合确定性校验器与视觉评委做评测。",
-      "category": "工具",
-      "tags": [
-        "设计"
-      ],
-      "url": "https://www.figma.com/blog/training-a-figma-fluent-editing-model/",
-      "source": "Figma AI / Agent / Make",
-      "image": null,
-      "time": "2026-10-29T21:00:00.000Z",
-      "id": 5
-    },
-    {
-      "title": "Reddit 宣布转向以登录为主的体验，以应对 AI 搜索带来的流量下滑",
-      "summary": "Reddit 在 Q3 财报中宣布将转向以登录为主的体验，以保护数据免受 AI 抓取并提升广告变现。10 月搜索流量平均每周减少超 100 万次引荐，Q3 全球日活为 1.303 亿，其中美国日活降至 5070 万，同比降 2%。Q3 收入同比增长 53% 至 8.95 亿美元，净利润 2.83 亿美元；该转变将先在美国以外市场测试，暂无全球上线时间表。",
-      "category": "行业",
-      "tags": [
-        "industry"
-      ],
-      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
-      "source": "TechCrunch：AI（RSS）",
-      "image": null,
-      "time": "2026-10-29T20:08:31.000Z",
-      "id": 6
-    },
-    {
-      "title": "Pika 基于MiniMax H3后训练并开源 Pika H3 Flex 视频生成模型",
-      "summary": "Pika Labs 在 MiniMax H3 上做后训练，推出并开源 Pika H3 Flex，采样步数从 50 步压缩到 6 步，生成时间大幅降低且质量有所提升。",
-      "category": "AI",
-      "tags": [
-        "视频生成",
-        "开源"
-      ],
-      "url": "https://x.com/Khazix0918/status/2115898252004622617",
-      "source": "X：卡兹克 (@Khazix0918)",
-      "image": null,
-      "time": "2026-10-29T20:07:09.000Z",
-      "id": 7
-    },
-    {
-      "title": "Anthropic S-1 文件解读：财务表现强劲但增长放缓存隐忧",
-      "summary": "作者通读 Anthropic 公开版 S-1 文件，认为公司财务状况好于预期：2026 年第二季度收入从一季度的 47 亿美元增至 116 亿美元，并录得首个运营利润，截至 6 月底现金储备仅次于 Google 和 Berkshire Hathaway。",
-      "category": "行业",
-      "tags": [
-        "Claude"
-      ],
-      "url": "https://www.understandingai.org/p/anthropics-financials-are-surprisingly",
-      "source": "Timothy B. Lee：Understanding AI（RSS）",
-      "image": null,
-      "time": "2026-10-29T19:10:41.000Z",
-      "id": 8
-    },
-    {
-      "title": "腾讯混元发布 Hy-Nomas 技术报告并开源 Hy-Nomas-Bench",
-      "summary": "腾讯混元发布 Hy-Nomas 开源交互式视频世界模型的技术报告（arXiv:2610.36729），并开源 Hy-Nomas-Bench 数据集用于可复现研究。官方还用 Hy-Nomas 重现 Genie 4 示例并放出对比视频，演示无需排队即可试用，地址为 https://hy-nomas.hy.tencent.com/。",
-      "category": "AI",
-      "tags": [
-        "腾讯",
-        "开源"
-      ],
-      "url": "https://x.com/TencentHunyuan/status/2115851165904814283",
-      "source": "X：腾讯混元 (@TencentHunyuan)",
-      "image": null,
-      "time": "2026-10-29T17:00:03.000Z",
-      "id": 9
-    },
-    {
-      "title": "OpenAI 更新 Model Spec，围绕五项核心价值观重组模型行为准则",
-      "summary": "OpenAI 更新其公开的 Model Spec，将指导原则重组为五项核心价值观：忠实于人类意图、最小化伤害、诚实透明、促进人类自主和关怀。更新新增了关于上下文理解、监督和自主性的指导，调整了部分行为默认值，退出了大部分详细风格指南，并将模型称呼从 the assistant 改为 GPT。",
-      "category": "行业",
-      "tags": [
-        "OpenAI"
-      ],
-      "url": "https://openai.com/index/updated-model-spec",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "image": null,
-      "time": "2026-10-29T17:00:00.000Z",
+      "time": "2026-10-30T17:15:24.000Z",
       "id": 10
     }
   ],
   "githubTrending": [
     {
       "name": "morluto/rea",
-      "description": "多语言支持，TypeScript构建",
+      "description": "多语言支持，TypeScript编写的AI助手",
       "language": "TypeScript",
-      "stars": 408621,
-      "starsToday": 5118,
-      "forks": 102324,
+      "stars": 412770,
+      "starsToday": 4149,
+      "forks": 103259,
       "url": "https://github.com/morluto/rea",
       "rank": 1
     },
     {
-      "name": "anhao/ai-pose-gallery-zh",
-      "description": "AI姿势图库，支持批量下载",
-      "language": "HTML",
-      "stars": 3340,
-      "starsToday": 1670,
-      "forks": 870,
-      "url": "https://github.com/anhao/ai-pose-gallery-zh",
+      "name": "openclaw/openclaw",
+      "description": "跨平台AI助手，支持多种聊天工具",
+      "language": "TypeScript",
+      "stars": 393496,
+      "starsToday": 1157,
+      "forks": 82705,
+      "url": "https://github.com/openclaw/openclaw",
       "rank": 2
     },
     {
-      "name": "DietrichGebert/ponytail",
-      "description": "代码优化工具，提升开发效率",
-      "language": "JavaScript",
-      "stars": 180325,
-      "starsToday": 985,
-      "forks": 9895,
-      "url": "https://github.com/DietrichGebert/ponytail",
+      "name": "ultraworkers/claw-code",
+      "description": "Rust编写的螃蟹动力工具",
+      "language": "Rust",
+      "stars": 194997,
+      "starsToday": 915,
+      "forks": 107627,
+      "url": "https://github.com/ultraworkers/claw-code",
       "rank": 3
     },
     {
-      "name": "deepseek-ai/deepseek-harness",
-      "description": "开源代理工具，支持插件架构",
-      "language": "TypeScript",
-      "stars": 266037,
-      "starsToday": 977,
-      "forks": 32255,
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "name": "rddmwmddr/android-ad-cleaner",
+      "description": "无需Python或AI工具的Android广告清理工具",
+      "language": "Python",
+      "stars": 5133,
+      "starsToday": 856,
+      "forks": 465,
+      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
       "rank": 4
     },
     {
-      "name": "unclebob/ub-mode",
-      "description": "代码编写辅助工具",
-      "language": "Unknown",
-      "stars": 4844,
-      "starsToday": 918,
-      "forks": 268,
-      "url": "https://github.com/unclebob/ub-mode",
+      "name": "deepseek-ai/deepseek-harness",
+      "description": "基于插件架构的AI助手框架",
+      "language": "TypeScript",
+      "stars": 266837,
+      "starsToday": 800,
+      "forks": 32356,
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
       "rank": 5
     },
     {
-      "name": "affaan-m/ECC",
-      "description": "多语言支持，插件式安装",
-      "language": "JavaScript",
-      "stars": 292812,
-      "starsToday": 916,
-      "forks": 43333,
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "anhao/ai-pose-gallery-zh",
+      "description": "AI姿势库在线演示",
+      "language": "TypeScript",
+      "stars": 4075,
+      "starsToday": 735,
+      "forks": 1044,
+      "url": "https://github.com/anhao/ai-pose-gallery-zh",
       "rank": 6
     },
     {
-      "name": "designfuchen/word-atlas",
-      "description": "雅思词汇学习工具",
-      "language": "TypeScript",
-      "stars": 3266,
-      "starsToday": 817,
-      "forks": 715,
-      "url": "https://github.com/designfuchen/word-atlas",
+      "name": "DietrichGebert/ponytail",
+      "description": "JavaScript代码优化工具",
+      "language": "JavaScript",
+      "stars": 181042,
+      "starsToday": 717,
+      "forks": 9950,
+      "url": "https://github.com/DietrichGebert/ponytail",
       "rank": 7
     },
     {
-      "name": "interplains/Zero-Breach-Toolkit",
-      "description": "反间谍软件检测工具",
-      "language": "Python",
-      "stars": 3652,
-      "starsToday": 757,
-      "forks": 389,
-      "url": "https://github.com/interplains/Zero-Breach-Toolkit",
+      "name": "affaan-m/ECC",
+      "description": "多语言支持的插件安装工具",
+      "language": "JavaScript",
+      "stars": 293479,
+      "starsToday": 667,
+      "forks": 43427,
+      "url": "https://github.com/affaan-m/ECC",
       "rank": 8
     },
     {
-      "name": "JuliusBrussee/caveman",
-      "description": "AI代理简洁表达工具",
-      "language": "Go",
-      "stars": 116144,
-      "starsToday": 558,
-      "forks": 6717,
-      "url": "https://github.com/JuliusBrussee/caveman",
+      "name": "unclebob/ub-mode",
+      "description": "代码编写时的软件工程原则辅助工具",
+      "language": "Unknown",
+      "stars": 5438,
+      "starsToday": 594,
+      "forks": 300,
+      "url": "https://github.com/unclebob/ub-mode",
       "rank": 9
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "description": "自我改进AI代理，支持学习循环",
-      "language": "Python",
-      "stars": 258571,
-      "starsToday": 557,
-      "forks": 56788,
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "ccch1mneyyy/dsh-Go",
+      "description": "DeepSeek Harness的Android客户端",
+      "language": "Dart",
+      "stars": 2732,
+      "starsToday": 546,
+      "forks": 117,
+      "url": "https://github.com/ccch1mneyyy/dsh-Go",
       "rank": 10
     }
   ],
   "dailySummary": {
-    "date": "2026-10-30",
-    "updatedAt": "2026-10-30T04:32:21.902Z",
+    "date": "2026-10-31",
+    "updatedAt": "2026-10-31T04:14:27.586Z",
     "highlights": [
-      "Kimi K3.1 Pro 3D创作教程发布",
-      "AI搜索变现困境影响开放网络",
-      "OpenRouter对比不同路由器工具",
-      "AWS预测万亿美元营收目标",
-      "Figma训练专用画布编辑模型",
-      "Reddit转向登录体验应对流量下滑",
-      "Pika开源视频生成模型Pika H3 Flex",
-      "Anthropic财务表现强劲但增长放缓",
-      "腾讯混元发布Hy-Nomas技术报告",
-      "OpenAI更新Model Spec重组模型行为准则"
+      "Anthropic IPO披露巨额债务",
+      "Nvidia提供数据中心债务担保",
+      "Figma发布Weave创作平台",
+      "阿里巴巴与Apple合作",
+      "OpenRouter教程发布",
+      "Wiz报告AI开发者平台安全事件",
+      "科技巨头AI资本开支超7400亿美元",
+      "Project Suncatcher在太空运行TPU",
+      "Anthropic更新Claude Max套餐",
+      "Reddit CEO谈Google AI Mode"
     ],
     "keywords": [
-      "Kimi K3.1 Pro",
-      "AI搜索",
-      "OpenRouter",
-      "AWS",
-      "Figma",
-      "Reddit",
-      "Pika H3 Flex",
       "Anthropic",
-      "Hy-Nomas",
-      "OpenAI Model Spec"
+      "Nvidia",
+      "Figma",
+      "阿里巴巴",
+      "Apple",
+      "OpenRouter",
+      "Wiz",
+      "科技巨头",
+      "Project Suncatcher",
+      "Claude Max",
+      "Reddit",
+      "Google AI Mode"
     ],
-    "trendingSummary": "今日技术趋势聚焦于3D创作工具、AI搜索变现、云计算营收预测、专用画布编辑模型训练、社交媒体平台策略调整、视频生成模型开源、财务表现分析、AI技术报告发布以及模型行为准则更新。"
+    "trendingSummary": "今日技术趋势集中在AI领域，包括Anthropic巨额债务、Nvidia数据中心担保、Figma新平台发布等。同时，AI开发者平台安全事件频发，科技巨头AI资本开支巨大，太空AI应用也取得进展。"
   }
 }
